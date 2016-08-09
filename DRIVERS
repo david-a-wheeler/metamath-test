@@ -1,5 +1,5 @@
 ./test-metamath
 ./test-smetamath
 ./test-checkmm
-./test-mmj2
 ./test-mmverifypy
+./test-mmj2
