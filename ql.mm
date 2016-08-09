@@ -193,7 +193,7 @@ $)
   wc $a wff a C b $.
 
 
-  $( If ` a ` is a term, ` a ' ` is a wff. $)
+  $( If ` a ` is a term, so is ` a ' ` . $)
   wn $a term a ' $.
   $( If ` a ` and ` b ` are terms, so is ` ( a == b ) ` . $)
   tb $a term ( a == b ) $.
@@ -807,9 +807,9 @@ $)
 
   $( Mittelstaedt implication. $)
   mi $p |- ( ( a v b ) == b ) = ( b v ( a ' ^ b ' ) ) $=
-    ( wo tb wa wn dfb ancom ax-a2 lan anabs ax-r2 oran con2 ran anass anidm
-    2or ) ABCZBDSBEZSFZBFZEZCBAFZUBEZCSBGTBUCUETBSEZBSBHUFBBACZEBSUGBABIJBAKLLU
-    CUDUBUBEZEZUEUCUEUBEUIUAUEUBSUEABMNOUDUBUBPLUHUBUDUBQJLRL $.
+    ( wo tb wa wn dfb ancom ax-a2 lan anabs ax-r2 oran con2 ran anass anidm 2or
+    ) ABCZBDSBEZSFZBFZEZCBAFZUBEZCSBGTBUCUETBSEZBSBHUFBBACZEBSUGBABIJBAKLLUCUDU
+    BUBEZEZUEUCUEUBEUIUAUEUBSUEABMNOUDUBUBPLUHUBUDUBQJLRL $.
     $( [12-Aug-97] $)
 
   $( Dishkant implication. $)
@@ -1459,13 +1459,13 @@ $)
     $( Foulis-Holland Theorem (weak). $)
     wwfh1 $p |- ( ( a ^ ( b v c ) ) == ( ( a ^ b ) v ( a ^ c ) ) )
                = 1 $=
-      ( wo wa tb wt bicom ledi wn wf ancom df-a 2or ax-r1 con3 ax-r2 con2 2an
-      anass ax-a1 bctr wwcom3ii anandi 3tr1 lan an12 oran dff an0 wwoml3 ) ABCF
-      ZGZABGZACGZFZHURUOHIUOURJURUOABCKUOURLZGZAUNBLZCLZGZGZGZMUTUNAGZALZVAFZVG
-      VBFZGZGZVEUOVFUSVJAUNNURVJURVHLZVILZFZVJLUPVLUQVMABOACOPVNVJVJVNLVHVIOQRS
-      TUAVKUNAVCGZGZVEVKUNAVJGZGVPUNAVJUBVQVOUNAVHGZAVIGZGAVAGZAVBGZGVQVOVRVTVS
-      WAAVAVALZBABWBBUCQDUDUEAVBVBLZCACWCCUCQEUDUEUAAVHVIUFAVAVBUFUGUHSUNAVCUIS
-      SVEAMGMVDMAVDUNUNLZGZMVCWDUNVCUNUNVCLBCUJQRUHMWEUNUKQSUHAULSSUMS $.
+      ( wo wa tb wn wf df-a ax-r1 con3 ax-r2 2an ax-a1 bctr wwcom3ii anandi lan
+      wt bicom ledi ancom 2or con2 anass 3tr1 an12 oran dff an0 wwoml3 ) ABCFZG
+      ZABGZACGZFZHURUOHUAUOURUBURUOABCUCUOURIZGZAUNBIZCIZGZGZGZJUTUNAGZAIZVAFZV
+      GVBFZGZGZVEUOVFUSVJAUNUDURVJURVHIZVIIZFZVJIUPVLUQVMABKACKUEVNVJVJVNIVHVIK
+      LMNUFOVKUNAVCGZGZVEVKUNAVJGZGVPUNAVJUGVQVOUNAVHGZAVIGZGAVAGZAVBGZGVQVOVRV
+      TVSWAAVAVAIZBABWBBPLDQRAVBVBIZCACWCCPLEQROAVHVISAVAVBSUHTNUNAVCUINNVEAJGJ
+      VDJAVDUNUNIZGZJVCWDUNVCUNUNVCIBCUJLMTJWEUNUKLNTAULNNUMN $.
       $( [3-Sep-97] $)
   $}
 
@@ -1475,14 +1475,14 @@ $)
     $( Foulis-Holland Theorem (weak). $)
     wwfh2 $p |- ( ( b ^ ( a v c ) ) == ( ( b ^ a ) v ( b ^ c ) ) )
                = 1 $=
-      ( wo wa tb wt bicom ledi wn wf oran df-a con2 ran ax-r4 ax-r2 lan an4
-      ax-a1 ax-r1 bctr wwcom3ii ancom ax-r5 comcom2 anass an12 dff 3tr1 an0
-      wwoml3 ) BACFZGZBAGZBCGZFZHUSUPHIUPUSJUSUPBACKUPUSLZGZALZCBURLZGZGZGZMVAV
-      BCGZVDGZVFVAVBUOGZVDGZVHVAVBBGZUOVCGZGZVJVAUPBLVBFZVCGZGZVMUTVOUPUSVOUSUQ
-      LZVCGZLVOLUQURNVRVOVQVNVCUQVNBAOPQRSPTVPBVNGZVLGVMBUOVNVCUAVSVKVLVSBVBGVK
-      BVBVBLZABAVTAUBZUCDUDUEBVBUFSQSSVBBUOVCUASVIVGVDVIVBVTCFZGVGUOWBVBAVTCWAU
-      GTVBCCLAEUHUESQSVBCVDUISVFVBMGMVEMVBBCVCGGZURVCGZVEMWDWCBCVCUIUCCBVCUJURU
-      KULTVBUMSSUNS $.
+      ( wo wa tb wt bicom wn wf con2 ran ax-r2 lan an4 ax-r1 wwcom3ii anass dff
+      ledi oran df-a ax-r4 ax-a1 bctr ancom ax-r5 comcom2 an12 3tr1 an0 wwoml3
+      ) BACFZGZBAGZBCGZFZHUSUPHIUPUSJUSUPBACUBUPUSKZGZAKZCBURKZGZGZGZLVAVBCGZVD
+      GZVFVAVBUOGZVDGZVHVAVBBGZUOVCGZGZVJVAUPBKVBFZVCGZGZVMUTVOUPUSVOUSUQKZVCGZ
+      KVOKUQURUCVRVOVQVNVCUQVNBAUDMNUEOMPVPBVNGZVLGVMBUOVNVCQVSVKVLVSBVBGVKBVBV
+      BKZABAVTAUFZRDUGSBVBUHONOOVBBUOVCQOVIVGVDVIVBVTCFZGVGUOWBVBAVTCWAUIPVBCCK
+      AEUJSONOVBCVDTOVFVBLGLVELVBBCVCGGZURVCGZVELWDWCBCVCTRCBVCUKURUAULPVBUMOOU
+      NO $.
       $( [3-Sep-97] $)
 
   $}
@@ -1506,11 +1506,11 @@ $)
     $( Foulis-Holland Theorem (weak). $)
     wwfh4 $p |- ( ( b v ( a ^ c ) ) == ( ( b v a ) ^ ( b v c ) ) )
                = 1 $=
-      ( wa wo tb wn wt conb oran df-a con2 lan ax-r4 ax-r2 2or 2bi comcom2
-      ax-a1 ax-r1 bctr wwfh2 ) BACFZGZBAGZBCGZFZHZBIZAIZCIZGZFZUKULFZUKUMFZGZHZ
-      JUJUFIZUIIZHUSUFUIKUTUOVAURUFUOUFUKUEIZFZIUOIBUELVCUOVBUNUKUEUNACMNOPQNUI
-      URUIUGIZUHIZGZIURIUGUHMVFURVDUPVEUQUGUPBALNUHUQBCLNRPQNSQULUKUMULBDTUMIZA
-      VGCACVGCUAUBEUCTUDQ $.
+      ( wa wo tb wn wt conb oran df-a con2 lan ax-r4 ax-r2 2or 2bi comcom2 bctr
+      ax-a1 ax-r1 wwfh2 ) BACFZGZBAGZBCGZFZHZBIZAIZCIZGZFZUKULFZUKUMFZGZHZJUJUF
+      IZUIIZHUSUFUIKUTUOVAURUFUOUFUKUEIZFZIUOIBUELVCUOVBUNUKUEUNACMNOPQNUIURUIU
+      GIZUHIZGZIURIUGUHMVFURVDUPVEUQUGUPBALNUHUQBCLNRPQNSQULUKUMULBDTUMIZAVGCAC
+      VGCUBUCEUATUDQ $.
       $( [3-Sep-97] $)
   $}
 
@@ -1570,13 +1570,13 @@ $)
 
   $( Lemma for KA4 soundness (OR version) - uses OL only. $)
   ka4lemo $p |- ( ( a v b ) v ( ( a v c ) == ( b v c ) ) ) = 1 $=
-    ( wo tb wt le1 wn df-t wa leo ax-a2 lbtr lelor leror ax-a3 ledio 2an
-    le3tr1 dfb oran con2 anor1 anandir ax-r1 ax-r5 ax-r4 3tr1 ax-r2 lor bltr
-    letr lebi ) ABDZACDZBCDZEZDZFURGFUNCDZUSHZDZURUSIVAUNABJZCDZDZUTDZURUSVDUTC
-    VCUNCCVBDZVCCVBKCVBLMNOVEUNVCUTDZDURUNVCUTPVGUQUNVGUOUPJZUTDZUQVCVHUTVFCADZ
-    CBDZJVCVHCABQVBCLUOVJUPVKACLBCLRSOUQVIUQVHUOHZUPHZJZDVIUOUPTVNUTVHVNAHZCHZJ
-    ZBHZVPJZJZUTVLVQVMVSUOVQACUAUBUPVSBCUAUBRVOVRJZVPJZWAHZCDZHVTUTWACUCWBVTVOV
-    RVPUDUEUSWDUNWCCABUAUFUGUHUIUJUIUEMNUKULUKUM $.
+    ( wo tb wt le1 wn df-t wa ax-a2 lbtr lelor leror oran con2 ax-r1 ax-r2 bltr
+    2an leo ax-a3 ledio le3tr1 dfb anor1 anandir ax-r5 ax-r4 3tr1 lor letr lebi
+    ) ABDZACDZBCDZEZDZFURGFUNCDZUSHZDZURUSIVAUNABJZCDZDZUTDZURUSVDUTCVCUNCCVBDZ
+    VCCVBUACVBKLMNVEUNVCUTDZDURUNVCUTUBVGUQUNVGUOUPJZUTDZUQVCVHUTVFCADZCBDZJVCV
+    HCABUCVBCKUOVJUPVKACKBCKTUDNUQVIUQVHUOHZUPHZJZDVIUOUPUEVNUTVHVNAHZCHZJZBHZV
+    PJZJZUTVLVQVMVSUOVQACOPUPVSBCOPTVOVRJZVPJZWAHZCDZHVTUTWACUFWBVTVOVRVPUGQUSW
+    DUNWCCABOUHUIUJRUKRQLMSULSUM $.
     $( [25-Oct-97] $)
 
   $( Lemma for KA4 soundness (AND version) - uses OL only. $)
@@ -1680,10 +1680,10 @@ $)
 
   $( Lemma for 2-variable WOML proof. $)
   wlem1 $p |- ( ( a == b ) ' v ( ( a ->1 b ) ^ ( b ->1 a ) ) ) = 1 $=
-    ( tb wn wi1 wa wo wt le1 df-t ax-a2 ax-r2 dfb ledio df-i1 ancom ax-r5 2an
-    ax-r1 lbtr bltr lelor lebi ) ABCZDZABEZBAEZFZGZHUIIHUEUDGZUIHUDUEGUJUDJUDUE
-    KLUDUHUEUDABFZADZBDZFGZUHABMUNUKULGZUKUMGZFZUHUKULUMNUHUQUFUOUGUPUFULUKGUOA
-    BOULUKKLUGUMBAFZGZUPBAOUSURUMGUPUMURKURUKUMBAPQLLRSTUAUBUAUC $.
+    ( tb wn wi1 wa wo wt le1 df-t ax-a2 ax-r2 dfb ledio df-i1 ancom ax-r5 ax-r1
+    2an bltr lbtr lelor lebi ) ABCZDZABEZBAEZFZGZHUIIHUEUDGZUIHUDUEGUJUDJUDUEKL
+    UDUHUEUDABFZADZBDZFGZUHABMUNUKULGZUKUMGZFZUHUKULUMNUHUQUFUOUGUPUFULUKGUOABO
+    ULUKKLUGUMBAFZGZUPBAOUSURUMGUPUMURKURUKUMBAPQLLSRUATUBTUC $.
     $( [11-Nov-98] $)
 
   $( Soundness theorem for Kalmbach's quantum propositional logic axiom
@@ -1706,21 +1706,21 @@ $)
     lei3.1 $e |- a =< b $.
     $( L.e. to Kalmbach implication. $)
     lei3 $p |- ( a ->3 b ) = 1 $=
-      ( wn wa wo wi3 wt ax-a3 ax-a2 ancom lecon df2le2 ax-r2 sklem lan an1 2or
-      anor2 con2 3tr1 lor df-i3 df-t ) ADZBEZUEBDZEZFAUEBFZEZFZUFUFDZFZABGHUKUF
-      UHUJFZFUMUFUHUJIUNULUFUGAFAUGFZUNULUGAJUHUGUJAUHUGUEEUGUEUGKUGUEABCLMNUJA
-      HEAUIHAABCOPAQNRUFUOABSTUAUBNABUCUFUDUA $.
+      ( wn wa wo wi3 wt ax-a3 ax-a2 ancom lecon df2le2 ax-r2 sklem lan an1 3tr1
+      2or anor2 con2 lor df-i3 df-t ) ADZBEZUEBDZEZFAUEBFZEZFZUFUFDZFZABGHUKUFU
+      HUJFZFUMUFUHUJIUNULUFUGAFAUGFZUNULUGAJUHUGUJAUHUGUEEUGUEUGKUGUEABCLMNUJAH
+      EAUIHAABCOPAQNSUFUOABTUARUBNABUCUFUDR $.
       $( [3-Nov-97] $)
   $}
 
   $( E2 - OL theorem proved by EQP $)
   mccune2 $p |- ( a v ( ( a ' ^ ( ( a v b ' ) ^ ( a v b ) ) ) v (
                 a ' ^ ( ( a ' ^ b ) v ( a ' ^ b ' ) ) ) ) ) = 1 $=
-    ( wn wo wa wt ax-a3 ax-r1 anor2 lear lea lel2or id bile ler2an lebi anor3
-    2or oran3 ax-r2 ax-a2 lor df-t 3tr1 ) AABCZDZABDZEZCZAUIDZCZDZDZUJUKDZAACZU
-    HEZUOUOBEZUOUEEZDZEZDZDFUNUMAUIUKGHVAULAVAUKUIDULUPUKUTUIAUHIUTUSUIUTUSUOUS
-    JUSUOUSUQUOURUOBKUOUEKLUSUSUSMNOPUSUFCZUGCZDUIUQVBURVCABIABQRUFUGSTTRUKUIUA
-    TUBUJUCUD $.
+    ( wn wo wa wt ax-a3 ax-r1 anor2 lear lel2or id bile ler2an lebi anor3 oran3
+    lea 2or ax-r2 ax-a2 lor df-t 3tr1 ) AABCZDZABDZEZCZAUIDZCZDZDZUJUKDZAACZUHE
+    ZUOUOBEZUOUEEZDZEZDZDFUNUMAUIUKGHVAULAVAUKUIDULUPUKUTUIAUHIUTUSUIUTUSUOUSJU
+    SUOUSUQUOURUOBRUOUERKUSUSUSLMNOUSUFCZUGCZDUIUQVBURVCABIABPSUFUGQTTSUKUIUATU
+    BUJUCUD $.
     $( [14-Nov-98] $)
 
   $( E3 - OL theorem proved by EQP $)
@@ -1741,18 +1741,18 @@ $)
   $( Equivalence for Kalmbach implication. $)
   ni31 $p |- ( a ->3 b ) ' = ( ( ( a v b ' ) ^ ( a v b ) ) ^
                 ( a ' v ( a ^ b ' ) ) ) $=
-    ( wi3 wn wo wa df-i3 oran anor2 con2 ax-r1 2an ax-r4 ax-r2 df-a anor1 lor
-    ) ABCZABDZEZABEZFZADZASFZEZFZRUCBFZUCSFZEZAUCBEZFZEZUFDZABGULUIDZUKDZFZDUMU
-    IUKHUPUFUNUBUOUEUIUBUIUGDZUHDZFZDUBDUGUHHUSUBUQTURUAUGTABIJUAURABHKLMNJUKUE
-    UKUCUJDZEZDUEDAUJOVAUEUTUDUCUDUTABPKQMNJLMNNJ $.
+    ( wi3 wn wo wa df-i3 oran anor2 con2 ax-r1 2an ax-r4 ax-r2 df-a anor1 lor )
+    ABCZABDZEZABEZFZADZASFZEZFZRUCBFZUCSFZEZAUCBEZFZEZUFDZABGULUIDZUKDZFZDUMUIU
+    KHUPUFUNUBUOUEUIUBUIUGDZUHDZFZDUBDUGUHHUSUBUQTURUAUGTABIJUAURABHKLMNJUKUEUK
+    UCUJDZEZDUEDAUJOVAUEUTUDUCUDUTABPKQMNJLMNNJ $.
     $( [9-Nov-97] $)
 
   $( Identity for Kalmbach implication. $)
   i3id $p |- ( a ->3 a ) = 1 $=
-    ( wn wa wo wi3 wt wf ancom dff ax-r1 ax-r2 anidm 2or ax-a2 or0 df-t lan
-    an1 df-i3 3tr1 ) ABZACZUAUACZDZAUAADZCZDZAUADZAAEFUGUEUHUDUAUFAUDUAGDZUAUDG
-    UADUIUBGUCUAUBAUACZGUAAHGUJAIJKUALMGUANKUAOKUFAFCAUEFAUEUHFUAANZFUHAPZJKQAR
-    KMUKKAASULT $.
+    ( wn wa wo wi3 wt wf ancom dff ax-r1 ax-r2 anidm 2or ax-a2 or0 df-t lan an1
+    df-i3 3tr1 ) ABZACZUAUACZDZAUAADZCZDZAUADZAAEFUGUEUHUDUAUFAUDUAGDZUAUDGUADU
+    IUBGUCUAUBAUACZGUAAHGUJAIJKUALMGUANKUAOKUFAFCAUEFAUEUHFUAANZFUHAPZJKQARKMUK
+    KAASULT $.
     $( [2-Nov-97] $)
 
   ${
@@ -1893,10 +1893,10 @@ $)
 
   $( Correspondence between Kalmbach and non-tollens conditionals. $)
   i3i4 $p |- ( a ->3 b ) = ( b ' ->4 a ' ) $=
-    ( wn wa wo wi3 wi4 ax-a2 ancom ax-a1 ran ax-r2 2or ax-r5 2an df-i3 df-i4
-    3tr1 ) ACZBDZSBCZDZEZASBEZDZEUASDZUACZSDZEZUGSEZSCZDZEABFUASGUCUIUEULUCUBTE
-    UITUBHUBUFTUHSUAITBSDUHSBIBUGSBJZKLMLUEUDADULAUDIUDUJAUKUDBSEUJSBHBUGSUMNLA
-    JOLMABPUASQR $.
+    ( wn wa wi3 wi4 ax-a2 ancom ax-a1 ran ax-r2 2or ax-r5 2an df-i3 df-i4 3tr1
+    wo ) ACZBDZSBCZDZRZASBRZDZRUASDZUACZSDZRZUGSRZSCZDZRABEUASFUCUIUEULUCUBTRUI
+    TUBGUBUFTUHSUAHTBSDUHSBHBUGSBIZJKLKUEUDADULAUDHUDUJAUKUDBSRUJSBGBUGSUMMKAIN
+    KLABOUASPQ $.
     $( [7-Feb-99] $)
 
   $( Correspondence between Kalmbach and non-tollens conditionals. $)
@@ -1958,10 +1958,10 @@ $)
   $( Lemma for unified disjunction. $)
   ud4lem0c $p |- ( a ->4 b ) ' = ( ( ( a ' v b ' ) ^ ( a v b ' ) ) ^
                 ( ( a ^ b ' ) v b ) ) $=
-    ( wi4 wn wo wa df-i4 oran df-a con2 anor2 2an ax-r4 ax-r2 anor1 ax-r1
-    ax-r5 ) ABCZADZBDZEZATEZFZATFZBEZFZRABFZSBFZEZSBEZTFZEZUFDZABGULUIDZUKDZFZD
-    UMUIUKHUPUFUNUCUOUEUIUCUIUGDZUHDZFZDUCDUGUHHUSUCUQUAURUBUGUAABIJUHUBABKJLMN
-    JUKUEUKUJDZBEZDUEDUJBOVAUEUTUDBUDUTABOPQMNJLMNNJ $.
+    ( wi4 wn wo wa df-i4 oran df-a con2 anor2 2an ax-r4 ax-r2 anor1 ax-r1 ax-r5
+    ) ABCZADZBDZEZATEZFZATFZBEZFZRABFZSBFZEZSBEZTFZEZUFDZABGULUIDZUKDZFZDUMUIUK
+    HUPUFUNUCUOUEUIUCUIUGDZUHDZFZDUCDUGUHHUSUCUQUAURUBUGUAABIJUHUBABKJLMNJUKUEU
+    KUJDZBEZDUEDUJBOVAUEUTUDBUDUTABOPQMNJLMNNJ $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
@@ -2019,9 +2019,9 @@ $)
     wql2lem2.1 $e |- ( ( a v c ) ->2 ( b v c ) ) = 1 $.
     $( Lemma for ` ->2 ` WQL axiom. $)
     wql2lem2 $p |- ( ( a v ( b v c ) ) ' v ( b v c ) ) = 1 $=
-      ( wo wn wi2 wt wa df-i2 anor3 ax-a3 ax-r1 orordir ax-r2 ax-r4 lor ax-a2
-      3tr ) ABCEZEZFZTEZACEZTGZHUEUCUETUDFTFIZETUBEUCUDTJUFUBTUFUDTEZFZUBUDTKUB
-      UHUAUGUAABECEZUGUIUAABCLMABCNOPMOQTUBRSMDO $.
+      ( wo wn wi2 wt df-i2 anor3 ax-a3 ax-r1 orordir ax-r2 ax-r4 lor ax-a2 3tr
+      wa ) ABCEZEZFZTEZACEZTGZHUEUCUETUDFTFSZETUBEUCUDTIUFUBTUFUDTEZFZUBUDTJUBU
+      HUAUGUAABECEZUGUIUAABCKLABCMNOLNPTUBQRLDN $.
       $( [6-Dec-98] $)
   $}
 
@@ -2029,9 +2029,9 @@ $)
     wql2lem3.1 $e |- ( a ->2 b ) = 1 $.
     $( Lemma for ` ->2 ` WQL axiom. $)
     wql2lem3 $p |- ( ( a ^ b ' ) ->2 a ' ) = 1 $=
-      ( wn wa wi2 wo wt df-i2 oran2 ax-r1 ran ancom ax-r2 lor wql2lem omlem2
-      skr0 3tr ) ABDEZADZFUATDZUADZEZGUAUCUABGZEZGZHTUAIUDUFUAUDUEUCEUFUBUEUCUE
-      UBABJKLUEUCMNOUEUGABCPUABQRS $.
+      ( wn wa wi2 wo wt df-i2 oran2 ax-r1 ran ancom lor wql2lem omlem2 skr0 3tr
+      ax-r2 ) ABDEZADZFUATDZUADZEZGUAUCUABGZEZGZHTUAIUDUFUAUDUEUCEUFUBUEUCUEUBA
+      BJKLUEUCMSNUEUGABCOUABPQR $.
       $( [6-Dec-98] $)
   $}
 
@@ -2050,10 +2050,10 @@ $)
     wql2lem5.1 $e |- ( a ->2 b ) = 1 $.
     $( Lemma for ` ->2 ` WQL axiom. $)
     wql2lem5 $p |- ( ( b ' ^ ( a v b ) ) ->2 a ' ) = 1 $=
-      ( wn wo wa wi2 wt anor3 oran3 ud2lem0c ax-r5 ran ancom an1 3tr ax-r4
-      3tr2 ax-r2 lor df-i2 df-t 3tr1 ) ADZBDABEFZDUDDZFZEUDUFEUEUDGHUGUFUDUGUEU
-      DEZDUFUEUDIUHUDABGZDZUDEUIAFZDUHUDUIAJUJUEUDABKLUKAUKHAFAHFAUIHACMHANAOPQ
-      RQSTUEUDUAUDUBUC $.
+      ( wn wo wa wi2 wt anor3 oran3 ud2lem0c ax-r5 ran ancom an1 3tr ax-r4 3tr2
+      ax-r2 lor df-i2 df-t 3tr1 ) ADZBDABEFZDUDDZFZEUDUFEUEUDGHUGUFUDUGUEUDEZDU
+      FUEUDIUHUDABGZDZUDEUIAFZDUHUDUIAJUJUEUDABKLUKAUKHAFAHFAUIHACMHANAOPQRQSTU
+      EUDUAUDUBUC $.
       $( [6-Dec-98] $)
   $}
 
@@ -2075,9 +2075,9 @@ $)
     oaidlem1.1 $e |- ( a ^ b ) =< c $.
     $( Lemma for OA identity-like law. $)
     oaidlem1 $p |- ( a ' v ( b ->1 c ) ) = 1 $=
-      ( wn wi1 wo wa wt df-i1 lor oran3 ax-r5 ax-a3 lear ler2an sklem 3tr2
-      ax-r2 ) AEZBCFZGTBEZBCHZGZGZIUAUDTBCJKTUBGZUCGABHZEZUCGUEIUFUHUCABLMTUBUC
-      NUGUCUGBCABODPQRS $.
+      ( wn wi1 wo wa df-i1 lor oran3 ax-r5 ax-a3 lear ler2an sklem 3tr2 ax-r2
+      wt ) AEZBCFZGTBEZBCHZGZGZSUAUDTBCIJTUBGZUCGABHZEZUCGUESUFUHUCABKLTUBUCMUG
+      UCUGBCABNDOPQR $.
       $( [22-Jan-99] $)
   $}
 
@@ -2087,11 +2087,11 @@ $)
                    ( ( a ->2 b ) ' v ( a ->1 b ) ) $.
     $( An equivalent to the WOM law. $)
     womle2a $p |- ( ( a ->2 b ) ' v ( a ->1 b ) ) = 1 $=
-      ( wi2 wn wi1 wo wa wt or4 oridm df-i1 ax-r5 or32 3tr1 ax-r2 2or ax-a2
-      oran3 lor 3tr2 le1 df-t leror bltr lebi ) ABDZEZABFZGZUJAUGHZEZGZIUHUHGZU
-      IAEZGZGUJUHUOGZGUJUMUHUHUIUOJUNUHUPUIUHKUPUOABHZGZUOGZUIUIUSUOABLZMUOUOGZ
-      URGUSUTUIVBUOURUOKMUOURUONVAOPQUQULUJUQUOUHGULUHUORAUGSPTUAUMIUMUBIUKULGU
-      MUKUCUKUJULCUDUEUFP $.
+      ( wi2 wn wi1 wo wa wt or4 oridm df-i1 ax-r5 or32 3tr1 ax-r2 2or ax-a2 lor
+      oran3 3tr2 le1 df-t leror bltr lebi ) ABDZEZABFZGZUJAUGHZEZGZIUHUHGZUIAEZ
+      GZGUJUHUOGZGUJUMUHUHUIUOJUNUHUPUIUHKUPUOABHZGZUOGZUIUIUSUOABLZMUOUOGZURGU
+      SUTUIVBUOURUOKMUOURUONVAOPQUQULUJUQUOUHGULUHUORAUGTPSUAUMIUMUBIUKULGUMUKU
+      CUKUJULCUDUEUFP $.
       $( [24-Jan-99] $)
   $}
 
@@ -2142,16 +2142,16 @@ $)
 
   $( Lemma for "Non-Orthomodular Models..." paper. $)
   nomcon1 $p |- ( a ==1 b ) = ( b ' ==2 a ' ) $=
-    ( wn wo wa wid1 wid2 ax-a2 ax-a1 lor ax-r2 ancom 2an df-id1 df-id2 3tr1 )
-    ABCZDZACZABEZDZEQSCZDZSQCZUBEZDZEABFQSGRUCUAUFRQADUCAQHAUBQAIZJKTUESTBAEUEA
-    BLBUDAUBBIUGMKJMABNQSOP $.
+    ( wn wo wa wid1 wid2 ax-a2 ax-a1 lor ax-r2 ancom 2an df-id1 df-id2 3tr1 ) A
+    BCZDZACZABEZDZEQSCZDZSQCZUBEZDZEABFQSGRUCUAUFRQADUCAQHAUBQAIZJKTUESTBAEUEAB
+    LBUDAUBBIUGMKJMABNQSOP $.
     $( [7-Feb-99] $)
 
   $( Lemma for "Non-Orthomodular Models..." paper. $)
   nomcon2 $p |- ( a ==2 b ) = ( b ' ==1 a ' ) $=
-    ( wn wo wa wid2 wid1 ax-a2 ax-a1 lor ax-r2 ancom 2or 2an df-id2 df-id1
-    3tr1 ) ABCZDZBACZREZDZERTCZDZRCZRTEZDZEABFRTGSUDUBUGSRADUDARHAUCRAIJKBUEUAU
-    FBITRLMNABORTPQ $.
+    ( wn wo wa wid2 wid1 ax-a2 ax-a1 lor ax-r2 ancom 2or 2an df-id2 df-id1 3tr1
+    ) ABCZDZBACZREZDZERTCZDZRCZRTEZDZEABFRTGSUDUBUGSRADUDARHAUCRAIJKBUEUAUFBITR
+    LMNABORTPQ $.
     $( [7-Feb-99] $)
 
   $( Lemma for "Non-Orthomodular Models..." paper. $)
@@ -2184,78 +2184,77 @@ $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom12 $p |- ( a ->2 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wa wn wo wi2 wi1 oran ax-r1 orabs ax-r2 con3 lor ax-a2 df-i2 df-i1 3tr1
-    ) ABCZADZRDCZEZSREZARFABGUARSEUBTSRTATDZAREZAUDUCARHIABJKLMRSNKAROABPQ $.
+    ( wa wn wo wi2 wi1 oran ax-r1 orabs ax-r2 con3 lor ax-a2 df-i2 df-i1 3tr1 )
+    ABCZADZRDCZEZSREZARFABGUARSEUBTSRTATDZAREZAUDUCARHIABJKLMRSNKAROABPQ $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom13 $p |- ( a ->3 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wn wa wo wi3 wi1 oran ax-r1 orabs ax-r2 con3 lor lea df-le2 ax-r5 womaa
-    df-i3 df-i1 3tr1 ) ACZABDZDZUAUBCDZEZAUAUBEZDZEZUFAUBFABGUHUAUGEUFUEUAUGUEU
-    CUAEUAUDUAUCUDAUDCZAUBEZAUJUIAUBHIABJKLMUCUAUAUBNOKPABQKAUBRABST $.
+    ( wn wa wo wi3 wi1 oran ax-r1 orabs ax-r2 con3 lor df-le2 ax-r5 womaa df-i3
+    lea df-i1 3tr1 ) ACZABDZDZUAUBCDZEZAUAUBEZDZEZUFAUBFABGUHUAUGEUFUEUAUGUEUCU
+    AEUAUDUAUCUDAUDCZAUBEZAUJUIAUBHIABJKLMUCUAUAUBRNKOABPKAUBQABST $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom14 $p |- ( a ->4 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wa wn wo wi4 wi1 ax-a2 anass ax-r1 anidm ran ax-r2 lor lear df-le2 3tr
-    ax-r5 leo lea lbtr lel2or lecon ler2an lelor lebi df-i4 df-i1 3tr1 ) AABCZC
-    ZADZUJCZEZULUJEZUJDZCZEZUOAUJFABGURUJUQEZUJULEZUOUNUJUQUNUMUKEUMUJEUJUKUMHU
-    KUJUMUKAACZBCZUJVBUKAABIJVAABAKLMNUMUJULUJOPQRUSUTUJUTUQUJULSUQUOUTUOUPTULU
-    JHUAUBULUQUJULUOUPULUJSUJAABTUCUDUEUFUJULHQAUJUGABUHUI $.
+    ( wa wn wi4 wi1 ax-a2 anass ax-r1 anidm ran ax-r2 lor lear df-le2 3tr ax-r5
+    wo leo lea lbtr lel2or lecon ler2an lelor lebi df-i4 df-i1 3tr1 ) AABCZCZAD
+    ZUJCZRZULUJRZUJDZCZRZUOAUJEABFURUJUQRZUJULRZUOUNUJUQUNUMUKRUMUJRUJUKUMGUKUJ
+    UMUKAACZBCZUJVBUKAABHIVAABAJKLMUMUJULUJNOPQUSUTUJUTUQUJULSUQUOUTUOUPTULUJGU
+    AUBULUQUJULUOUPULUJSUJAABTUCUDUEUFUJULGPAUJUGABUHUI $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom15 $p |- ( a ->5 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wa wn wo wi5 wi1 anass ax-r1 anidm ran ax-r2 ax-r5 ax-a2 lear df-le2 3tr
-    oran3 lan anabs 2or df-i5 df-i1 3tr1 ) AABCZCZADZUECZEZUGUEDZCZEZUGUEEZAUEF
-    ABGULUEUGEUMUIUEUKUGUIUEUHEUHUEEUEUFUEUHUFAACZBCZUEUOUFAABHIUNABAJKLMUEUHNU
-    HUEUGUEOPQUKUGUGBDZEZCZUGURUKUQUJUGABRSIUGUPTLUAUEUGNLAUEUBABUCUD $.
+    ( wa wn wo wi5 wi1 anass ax-r1 anidm ran ax-r2 ax-r5 ax-a2 df-le2 3tr oran3
+    lear lan anabs 2or df-i5 df-i1 3tr1 ) AABCZCZADZUECZEZUGUEDZCZEZUGUEEZAUEFA
+    BGULUEUGEUMUIUEUKUGUIUEUHEUHUEEUEUFUEUHUFAACZBCZUEUOUFAABHIUNABAJKLMUEUHNUH
+    UEUGUEROPUKUGUGBDZEZCZUGURUKUQUJUGABQSIUGUPTLUAUEUGNLAUEUBABUCUD $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom20 $p |- ( a ==0 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wn wa wo wid0 wi1 lea leor letr lelor ax-a3 ax-r1 oran3 ax-r5 ax-r2 lbtr
-    df2le2 df-id0 df-i1 3tr1 ) ACZABDZEZUCCZAEZDUDAUCFABGUDUFUDUBBCZAEZEZUFUCUH
-    UBUCAUHABHAUGIJKUIUBUGEZAEZUFUKUIUBUGALMUJUEAABNOPQRAUCSABTUA $.
+    ( wn wa wo wid0 wi1 lea leor letr lelor ax-a3 ax-r1 oran3 ax-r5 lbtr df2le2
+    ax-r2 df-id0 df-i1 3tr1 ) ACZABDZEZUCCZAEZDUDAUCFABGUDUFUDUBBCZAEZEZUFUCUHU
+    BUCAUHABHAUGIJKUIUBUGEZAEZUFUKUIUBUGALMUJUEAABNORPQAUCSABTUA $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom21 $p |- ( a ==1 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wa wn wo wid1 wi1 ancom or12 oran3 lor ax-r2 anidm ran ax-r1 anass 2an
-    lea leo letr lelor df2le2 3tr2 df-id1 df-i1 3tr1 ) AABCZDZEZADZAUGCZEZCZUJU
-    GEZAUGFABGUJABDZEZEZUNCUNUQCUMUNUQUNHUQUIUNULUQAUJUOEZEUIUJAUOIURUHAABJKLUG
-    UKUJUGAACZBCZUKUTUGUSABAMNOAABPLKQUNUQUGUPUJUGAUPABRAUOSTUAUBUCAUGUDABUEUF
-    $.
+    ( wa wn wo wid1 wi1 ancom oran3 lor ax-r2 anidm ran ax-r1 anass 2an lea leo
+    or12 letr lelor df2le2 3tr2 df-id1 df-i1 3tr1 ) AABCZDZEZADZAUGCZEZCZUJUGEZ
+    AUGFABGUJABDZEZEZUNCUNUQCUMUNUQUNHUQUIUNULUQAUJUOEZEUIUJAUOSURUHAABIJKUGUKU
+    JUGAACZBCZUKUTUGUSABALMNAABOKJPUNUQUGUPUJUGAUPABQAUORTUAUBUCAUGUDABUEUF $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom22 $p |- ( a ==2 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wa wn wo wid2 wi1 oran3 lor ax-r1 or12 ax-r2 ax-a2 lan anabs ax-r5 2an
-    ancom lea leo letr lelor df2le2 3tr df-id2 df-i1 3tr1 ) AABCZDZEZUHADZUICZE
-    ZCZUKUHEZAUHFABGUNUKABDZEZEZUOCUOURCUOUJURUMUOUJAUKUPEZEZURUTUJUSUIAABHZIJA
-    UKUPKLUMULUHEUOUHULMULUKUHULUKUSCZUKVBULUSUIUKVANJUKUPOLPLQURUORUOURUHUQUKU
-    HAUQABSAUPTUAUBUCUDAUHUEABUFUG $.
+    ( wa wn wid2 wi1 oran3 lor ax-r1 or12 ax-r2 ax-a2 lan anabs ax-r5 2an ancom
+    wo lea leo letr lelor df2le2 3tr df-id2 df-i1 3tr1 ) AABCZDZRZUHADZUICZRZCZ
+    UKUHRZAUHEABFUNUKABDZRZRZUOCUOURCUOUJURUMUOUJAUKUPRZRZURUTUJUSUIAABGZHIAUKU
+    PJKUMULUHRUOUHULLULUKUHULUKUSCZUKVBULUSUIUKVAMIUKUPNKOKPURUOQUOURUHUQUKUHAU
+    QABSAUPTUAUBUCUDAUHUEABUFUG $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom23 $p |- ( a ==3 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wn wa wo wid3 wi1 wt le1 df-t anabs ax-r1 oran3 lan ax-r2 lor lbtr
-    df2le2 df-id3 df-i1 3tr1 ) ACZABDZEZAUBUCCZDZEZDUDAUCFABGUDUGUDHUGUDIHAUBEU
-    GAJUBUFAUBUBUBBCZEZDZUFUJUBUBUHKLUIUEUBABMNOPOQRAUCSABTUA $.
+    ( wn wa wo wid3 wi1 wt le1 df-t anabs ax-r1 oran3 lan ax-r2 lor lbtr df2le2
+    df-id3 df-i1 3tr1 ) ACZABDZEZAUBUCCZDZEZDUDAUCFABGUDUGUDHUGUDIHAUBEUGAJUBUF
+    AUBUBUBBCZEZDZUFUJUBUBUHKLUIUEUBABMNOPOQRAUCSABTUA $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom24 $p |- ( a ==4 ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wn wa wo wid4 wi1 leo leror oran3 anidm ran ax-r1 anass ax-r2 2or lbtr
-    df2le2 df-id4 df-i1 3tr1 ) ACZABDZEZUCCZAUCDZEZDUDAUCFABGUDUGUDUBBCZEZUCEUG
-    UBUIUCUBUHHIUIUEUCUFABJUCAADZBDZUFUKUCUJABAKLMAABNOPQRAUCSABTUA $.
+    ( wn wa wo wid4 wi1 leo leror oran3 anidm ran ax-r1 anass ax-r2 lbtr df2le2
+    2or df-id4 df-i1 3tr1 ) ACZABDZEZUCCZAUCDZEZDUDAUCFABGUDUGUDUBBCZEZUCEUGUBU
+    IUCUBUHHIUIUEUCUFABJUCAADZBDZUFUKUCUJABAKLMAABNORPQAUCSABTUA $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
   nom25 $p |- ( a == ( a ^ b ) ) = ( a ->1 b ) $=
-    ( wa wn wo tb wi1 anass ax-r1 anidm ran ax-r2 oran3 lan anabs 2or ax-a2
-    dfb df-i1 3tr1 ) AABCZCZADZUADZCZEZUCUAEZAUAFABGUFUAUCEUGUBUAUEUCUBAACZBCZU
-    AUIUBAABHIUHABAJKLUEUCUCBDZEZCZUCULUEUKUDUCABMNIUCUJOLPUAUCQLAUARABST $.
+    ( wa wn wo tb wi1 anass ax-r1 anidm ran ax-r2 oran3 lan anabs 2or ax-a2 dfb
+    df-i1 3tr1 ) AABCZCZADZUADZCZEZUCUAEZAUAFABGUFUAUCEUGUBUAUEUCUBAACZBCZUAUIU
+    BAABHIUHABAJKLUEUCUCBDZEZCZUCULUEUKUDUCABMNIUCUJOLPUAUCQLAUARABST $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(14) from "Non-Orthomodular Models..." paper. $)
@@ -2291,9 +2290,9 @@ $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom40 $p |- ( ( a v b ) ->0 b ) = ( a ->2 b ) $=
-    ( wn wa wi0 wi1 wo wi2 nom10 ax-a2 ax-a1 ancom anor3 ax-r2 ax-r1 2or df-i0
-    3tr1 i2i1 ) BCZTACZDZEZTUAFABGZBEZABHTUAIUDCZBGZTCZUBGZUEUCUGBUFGUIUFBJBUHU
-    FUBBKUBUFUBUATDUFTUALABMNOPNUDBQTUBQRABSR $.
+    ( wn wa wi0 wi1 wo wi2 nom10 ax-a2 ax-a1 ancom anor3 ax-r2 ax-r1 df-i0 3tr1
+    2or i2i1 ) BCZTACZDZEZTUAFABGZBEZABHTUAIUDCZBGZTCZUBGZUEUCUGBUFGUIUFBJBUHUF
+    UBBKUBUFUBUATDUFTUALABMNORNUDBPTUBPQABSQ $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
@@ -2310,71 +2309,71 @@ $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom43 $p |- ( ( a v b ) ->3 b ) = ( a ->2 b ) $=
-    ( wn wo wi4 wi1 wi3 wi2 wa ancom anor3 ax-r2 ud4lem0a ax-r1 nom14 i3i4
-    i2i1 3tr1 ) BCZABDZCZEZSACZFZTBGABHUBSSUCIZEZUDUFUBUEUASUEUCSIUASUCJABKLMNS
-    UCOLTBPABQR $.
+    ( wn wo wi4 wi1 wi3 wi2 wa ancom anor3 ax-r2 ud4lem0a ax-r1 nom14 i3i4 i2i1
+    3tr1 ) BCZABDZCZEZSACZFZTBGABHUBSSUCIZEZUDUFUBUEUASUEUCSIUASUCJABKLMNSUCOLT
+    BPABQR $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom44 $p |- ( ( a v b ) ->4 b ) = ( a ->2 b ) $=
-    ( wn wo wi3 wi1 wi4 wi2 wa ancom anor3 ax-r2 ud3lem0a ax-r1 nom13 i4i3
-    i2i1 3tr1 ) BCZABDZCZEZSACZFZTBGABHUBSSUCIZEZUDUFUBUEUASUEUCSIUASUCJABKLMNS
-    UCOLTBPABQR $.
+    ( wn wo wi3 wi1 wi4 wi2 wa ancom anor3 ax-r2 ud3lem0a ax-r1 nom13 i4i3 i2i1
+    3tr1 ) BCZABDZCZEZSACZFZTBGABHUBSSUCIZEZUDUFUBUEUASUEUCSIUASUCJABKLMNSUCOLT
+    BPABQR $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom45 $p |- ( ( a v b ) ->5 b ) = ( a ->2 b ) $=
-    ( wn wo wi5 wi1 wi2 wa ancom anor3 ax-r2 ud5lem0a ax-r1 nom15 i5con i2i1
-    3tr1 ) BCZABDZCZEZRACZFZSBEABGUARRUBHZEZUCUEUAUDTRUDUBRHTRUBIABJKLMRUBNKSBO
-    ABPQ $.
+    ( wn wo wi5 wi1 wi2 ancom anor3 ax-r2 ud5lem0a ax-r1 nom15 i5con i2i1 3tr1
+    wa ) BCZABDZCZEZRACZFZSBEABGUARRUBQZEZUCUEUAUDTRUDUBRQTRUBHABIJKLRUBMJSBNAB
+    OP $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom50 $p |- ( ( a v b ) ==0 b ) = ( a ->2 b ) $=
-    ( wn wo wid0 wi1 wi2 wa ancom anor3 ax-r2 lor ax-r4 ax-r5 2an ax-r1 df-id0
-    3tr1 nom20 nomcon0 i2i1 ) BCZABDZCZEZUBACZFZUCBEABGUEUBUBUFHZEZUGUBCZUDDZUD
-    CZUBDZHZUJUHDZUHCZUBDZHZUEUIURUNUOUKUQUMUHUDUJUHUFUBHUDUBUFIABJKZLUPULUBUHU
-    DUSMNOPUBUDQUBUHQRUBUFSKUCBTABUAR $.
+    ( wn wo wid0 wi1 wi2 wa ancom anor3 ax-r2 lor ax-r4 ax-r5 ax-r1 df-id0 3tr1
+    2an nom20 nomcon0 i2i1 ) BCZABDZCZEZUBACZFZUCBEABGUEUBUBUFHZEZUGUBCZUDDZUDC
+    ZUBDZHZUJUHDZUHCZUBDZHZUEUIURUNUOUKUQUMUHUDUJUHUFUBHUDUBUFIABJKZLUPULUBUHUD
+    USMNROUBUDPUBUHPQUBUFSKUCBTABUAQ $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom51 $p |- ( ( a v b ) ==1 b ) = ( a ->2 b ) $=
-    ( wn wo wid2 wi1 wid1 wi2 wa ancom anor3 ax-r2 ax-r1 ax-r4 lor lan 2or 2an
-    df-id2 3tr1 nom22 nomcon1 i2i1 ) BCZABDZCZEZUDACZFZUEBGABHUGUDUDUHIZEZUIUDU
-    FCZDZUFUDCZULIZDZIUDUJCZDZUJUNUQIZDZIUGUKUMURUPUTULUQUDUFUJUJUFUJUHUDIZUFUD
-    UHJABKZLMZNOUFUJUOUSVCULUQUNUFUJUFVAUJVAUFVBMUHUDJLNPQRUDUFSUDUJSTUDUHUALUE
-    BUBABUCT $.
+    ( wn wo wid2 wi1 wid1 wi2 wa ancom anor3 ax-r2 ax-r1 lor lan 2or 2an df-id2
+    ax-r4 3tr1 nom22 nomcon1 i2i1 ) BCZABDZCZEZUDACZFZUEBGABHUGUDUDUHIZEZUIUDUF
+    CZDZUFUDCZULIZDZIUDUJCZDZUJUNUQIZDZIUGUKUMURUPUTULUQUDUFUJUJUFUJUHUDIZUFUDU
+    HJABKZLMZSNUFUJUOUSVCULUQUNUFUJUFVAUJVAUFVBMUHUDJLSOPQUDUFRUDUJRTUDUHUALUEB
+    UBABUCT $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom52 $p |- ( ( a v b ) ==2 b ) = ( a ->2 b ) $=
-    ( wn wo wid1 wi1 wid2 wi2 wa ancom anor3 ax-r2 ax-r1 ax-r4 lor lan 2an
-    df-id1 3tr1 nom21 nomcon2 i2i1 ) BCZABDZCZEZUCACZFZUDBGABHUFUCUCUGIZEZUHUCU
-    ECZDZUCCZUCUEIZDZIUCUICZDZUMUCUIIZDZIUFUJULUQUOUSUKUPUCUEUIUIUEUIUGUCIUEUCU
-    GJABKLMZNOUNURUMUEUIUCUTPOQUCUERUCUIRSUCUGTLUDBUAABUBS $.
+    ( wn wo wid1 wi1 wid2 wi2 wa ancom anor3 ax-r2 ax-r1 ax-r4 lor lan 2an 3tr1
+    df-id1 nom21 nomcon2 i2i1 ) BCZABDZCZEZUCACZFZUDBGABHUFUCUCUGIZEZUHUCUECZDZ
+    UCCZUCUEIZDZIUCUICZDZUMUCUIIZDZIUFUJULUQUOUSUKUPUCUEUIUIUEUIUGUCIUEUCUGJABK
+    LMZNOUNURUMUEUIUCUTPOQUCUESUCUISRUCUGTLUDBUAABUBR $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom53 $p |- ( ( a v b ) ==3 b ) = ( a ->2 b ) $=
-    ( wn wo wid4 wi1 wid3 wi2 wa ancom anor3 ax-r2 ax-r1 lor ax-r4 lan 2or 2an
-    df-id4 3tr1 nom24 nomcon3 i2i1 ) BCZABDZCZEZUDACZFZUEBGABHUGUDUDUHIZEZUIUDC
-    ZUFDZUFCZUDUFIZDZIULUJDZUJCZUDUJIZDZIUGUKUMUQUPUTUFUJULUJUFUJUHUDIUFUDUHJAB
-    KLMZNUNURUOUSUFUJVAOUFUJUDVAPQRUDUFSUDUJSTUDUHUALUEBUBABUCT $.
+    ( wn wo wid4 wi1 wid3 wi2 wa ancom anor3 ax-r2 ax-r1 lor lan 2or 2an df-id4
+    ax-r4 3tr1 nom24 nomcon3 i2i1 ) BCZABDZCZEZUDACZFZUEBGABHUGUDUDUHIZEZUIUDCZ
+    UFDZUFCZUDUFIZDZIULUJDZUJCZUDUJIZDZIUGUKUMUQUPUTUFUJULUJUFUJUHUDIUFUDUHJABK
+    LMZNUNURUOUSUFUJVASUFUJUDVAOPQUDUFRUDUJRTUDUHUALUEBUBABUCT $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom54 $p |- ( ( a v b ) ==4 b ) = ( a ->2 b ) $=
-    ( wn wo wid3 wi1 wid4 wi2 wa ancom anor3 ax-r2 lor ax-r4 lan 2an df-id3
-    3tr1 ax-r1 nom23 nomcon4 i2i1 ) BCZABDZCZEZUCACZFZUDBGABHUFUCUCUGIZEZUHUJUF
-    UCCZUIDZUCUKUICZIZDZIUKUEDZUCUKUECZIZDZIUJUFULUPUOUSUIUEUKUIUGUCIUEUCUGJABK
-    LZMUNURUCUMUQUKUIUEUTNOMPUCUIQUCUEQRSUCUGTLUDBUAABUBR $.
+    ( wn wo wid3 wi1 wid4 wi2 wa ancom anor3 ax-r2 lor ax-r4 lan 2an 3tr1 ax-r1
+    df-id3 nom23 nomcon4 i2i1 ) BCZABDZCZEZUCACZFZUDBGABHUFUCUCUGIZEZUHUJUFUCCZ
+    UIDZUCUKUICZIZDZIUKUEDZUCUKUECZIZDZIUJUFULUPUOUSUIUEUKUIUGUCIUEUCUGJABKLZMU
+    NURUCUMUQUKUIUEUTNOMPUCUISUCUESQRUCUGTLUDBUAABUBQ $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
   nom55 $p |- ( ( a v b ) == b ) = ( a ->2 b ) $=
-    ( wn wa tb wi1 wo wi2 nom25 conb bicom ancom anor3 ax-r2 ax-r1 lbi 3tr
-    i2i1 3tr1 ) BCZTACZDZEZTUAFABGZBEZABHTUAIUEUDCZTETUFEUCUDBJUFTKUFUBTUBUFUBU
-    ATDUFTUALABMNOPQABRS $.
+    ( wn wa tb wi1 wo wi2 nom25 conb bicom ancom anor3 ax-r2 ax-r1 lbi 3tr i2i1
+    3tr1 ) BCZTACZDZEZTUAFABGZBEZABHTUAIUEUDCZTETUFEUCUDBJUFTKUFUBTUBUFUBUATDUF
+    TUALABMNOPQABRS $.
     $( [7-Feb-99] $)
 
   $( Part of Lemma 3.3(15) from "Non-Orthomodular Models..." paper. $)
@@ -2411,9 +2410,9 @@ $)
   $( Lemma for proof of Mayet 8-variable "full" equation from 4-variable
      Godowski equation. $)
   go1 $p |- ( ( a ^ b ) ^ ( a ->1 b ' ) ) = 0 $=
-    ( wa wn wi1 wo wf df-i1 lan lear lelor lelan oran3 dff ax-r1 ax-r2 lbtr
-    le0 lebi ) ABCZABDZEZCTADZAUACZFZCZGUBUETAUAHIUFGUFTUCUAFZCZGUEUGTUDUAUCAUA
-    JKLUHTTDZCZGUGUITABMIGUJTNOPQUFRSP $.
+    ( wa wn wi1 wo wf df-i1 lan lear lelor lelan oran3 dff ax-r1 ax-r2 lbtr le0
+    lebi ) ABCZABDZEZCTADZAUACZFZCZGUBUETAUAHIUFGUFTUCUAFZCZGUEUGTUDUAUCAUAJKLU
+    HTTDZCZGUGUITABMIGUJTNOPQUFRSP $.
     $( [19-Nov-99] $)
 
   $( Lemma for disjunction of ` ->2 ` . $)
@@ -2438,9 +2437,9 @@ $)
 
   $( Relevance implication is l.e.  Sasaki implication. $)
   i5lei1 $p |- ( a ->5 b ) =< ( a ->1 b ) $=
-    ( wa wn wo wi5 wi1 ax-a3 ax-a2 ax-r2 lea lel2or leror bltr df-i5 df-i1
-    le3tr1 ) ABCZADZBCZESBDZCZEZSREZABFABGUCTUBEZREZUDUCRUEEUFRTUBHRUEIJUESRTSU
-    BSBKSUAKLMNABOABPQ $.
+    ( wa wn wi5 wi1 ax-a3 ax-a2 ax-r2 lea lel2or leror bltr df-i5 df-i1 le3tr1
+    wo ) ABCZADZBCZQSBDZCZQZSRQZABEABFUCTUBQZRQZUDUCRUEQUFRTUBGRUEHIUESRTSUBSBJ
+    SUAJKLMABNABOP $.
     $( [26-Jun-03] $)
 
   $( Relevance implication is l.e.  Dishkant implication. $)
@@ -2482,10 +2481,10 @@ $)
     $( Statement (6) in proof of Theorem 1 of Kalmbach, _Orthomodular
        Lattices_, p. 21. $)
     k1-6 $p |- ( x ' ^ c ) = ( ( x ' v c ' ) ^ c ) $=
-      ( wn wa wo anor3 cm con4 oran3 oran2 2an 3tr1 ran anass ancom ax-a2 lan
-      anabs 3tr ) BDZAEUAADZFZUAAFZEZAEUCUDAEZEUCAEUAUEABAEZBUBEZFZDZUGDZUHDZEZ
-      UAUEUMUJUGUHGHBUICIUCUKUDULBAJBAKLMNUCUDAOUFAUCUFAUDEAAUAFZEAUDAPUDUNAUAA
-      QRAUASTRT $.
+      ( wn wa wo anor3 cm con4 oran3 oran2 2an 3tr1 ran anass ancom ax-a2 anabs
+      lan 3tr ) BDZAEUAADZFZUAAFZEZAEUCUDAEZEUCAEUAUEABAEZBUBEZFZDZUGDZUHDZEZUA
+      UEUMUJUGUHGHBUICIUCUKUDULBAJBAKLMNUCUDAOUFAUCUFAUDEAAUAFZEAUDAPUDUNAUAAQS
+      AUARTST $.
       $( [26-May-2008] $)
   $}
 
@@ -2494,11 +2493,11 @@ $)
     $( Statement (7) in proof of Theorem 1 of Kalmbach, _Orthomodular
        Lattices_, p. 21. $)
     k1-7 $p |- ( x ' ^ c ' ) = ( ( x ' v c ) ^ c ' ) $=
-      ( wn wa wo anor3 cm ax-a1 lan ror orcom 3tr con4 oran3 oran2 2an 3tr1
-      ran lor anass tr ancom ax-a2 anabs ) BDZADZEUFUGDZFZUFUGFZEZUGEZUFAFZUJUG
-      EZEZUMUGEUFUKUGBUGEZBUHEZFZDZUPDZUQDZEZUFUKVBUSUPUQGHBURBBAEZUPFUQUPFURCV
-      CUQUPAUHBAIZJKUQUPLMNUIUTUJVABUGOBUGPQRSULUMUJEZUGEZUOVFULVEUKUGUMUIUJAUH
-      UFVDTSSHUMUJUGUAUBUNUGUMUNUGUJEUGUGUFFZEUGUJUGUCUJVGUGUFUGUDJUGUFUEMJM $.
+      ( wn wa wo anor3 cm ax-a1 lan ror orcom 3tr con4 oran3 oran2 2an 3tr1 ran
+      lor anass tr ancom ax-a2 anabs ) BDZADZEUFUGDZFZUFUGFZEZUGEZUFAFZUJUGEZEZ
+      UMUGEUFUKUGBUGEZBUHEZFZDZUPDZUQDZEZUFUKVBUSUPUQGHBURBBAEZUPFUQUPFURCVCUQU
+      PAUHBAIZJKUQUPLMNUIUTUJVABUGOBUGPQRSULUMUJEZUGEZUOVFULVEUKUGUMUIUJAUHUFVD
+      TSSHUMUJUGUAUBUNUGUMUNUGUJEUGUGUFFZEUGUJUGUCUJVGUGUFUGUDJUGUFUEMJM $.
       $( [26-May-2008] $)
   $}
 
@@ -2509,9 +2508,9 @@ $)
     $( First part of statement (8) in proof of Theorem 1 of Kalmbach,
        _Orthomodular Lattices_, p. 21. $)
     k1-8a $p |- x = ( ( x v y ) ^ c ) $=
-      ( wo wa leo ler2an wn lelor leran ax-a1 ror ran k1-6 tr cm df2le2 3tr
-      lbtr lebi ) BBCGZAHZBUDABCIEJUEBAKZGZAHZBUDUGACUFBFLMUHBKZKZUFGZAHZBAHZBU
-      GUKABUJUFBNZOPUMULUMUJAHULBUJAUNPAUIDQRSBAETUAUBUC $.
+      ( wo wa leo ler2an wn lelor leran ax-a1 ror ran k1-6 tr cm df2le2 lbtr
+      3tr lebi ) BBCGZAHZBUDABCIEJUEBAKZGZAHZBUDUGACUFBFLMUHBKZKZUFGZAHZBAHZBUG
+      UKABUJUFBNZOPUMULUMUJAHULBUJAUNPAUIDQRSBAETUBUAUC $.
       $( [27-May-2008] $)
   $}
 
@@ -2563,10 +2562,10 @@ $)
     $( Statement (4) in proof of Theorem 1 of Kalmbach, _Orthomodular
        Lattices_, p. 21. $)
     k1-4 $p |- ( x v ( x ' ^ c ) ) = c $=
-      ( wn wa wo oran1 lan cm anor3 wf an32 dff 3tr1 leao4 df2le2 df-le2 ax-r4
-      tr 3tr 2or or0r 3tr2 con1 ) BBEZAFZGZAUFUGEZFZUFBAEZGZFZUHEUKUMUJULUIUFBA
-      HZIJBUGKUMUMAFZUMUKFZGLUKGUKCUOLUPUKUGULFUGUIFUOLULUIUGUNIUFULAMUGNOUPUFU
-      KFZULFUQUKUFULUKMUQULUKUFBPQUQBAGZEUKBAKURABADRSTUAUBUKUCUAUDUE $.
+      ( wn wa wo oran1 lan cm anor3 an32 dff 3tr1 leao4 df2le2 df-le2 ax-r4 3tr
+      wf tr 2or or0r 3tr2 con1 ) BBEZAFZGZAUFUGEZFZUFBAEZGZFZUHEUKUMUJULUIUFBAH
+      ZIJBUGKUMUMAFZUMUKFZGTUKGUKCUOTUPUKUGULFUGUIFUOTULUIUGUNIUFULALUGMNUPUFUK
+      FZULFUQUKUFULUKLUQULUKUFBOPUQBAGZEUKBAKURABADQRUASUBUKUCSUDUE $.
       $( [27-May-2008] $)
   $}
 
@@ -2633,14 +2632,14 @@ $)
     2vwomlem.2 $e |- ( b ->2 a ) = 1 $.
     $( Lemma from 2-variable WOML rule. $)
     2vwomlem $p |- ( a == b ) = 1 $=
-      ( tb wa wn wo wt dfb wf df-f anor2 ax-r1 wi2 anor3 ancom ax-r2 lor df-i2
-      3tr ax-r4 anabs ran anass oran3 oran 2an lan 3tr2 or0 le1 2vwomr2 lea
-      leo ler2an lelor bltr lebi ax-wom ) ABEABFZAGZBGZFZHZIABJVEKHVEVBVEGZFZHV
-      EIKVGVEKIGZVGLAABHZGZHZGZVBVIFZVHVGVMVLAVIMNVKIVKAVCVBFZHZBAOZIVJVNAVJVDV
-      NVDVJABPNVBVCQRSVPVOBATNDUAUBVMVBVBVCHZFZVIFVBVQVIFZFVGVBVRVIVRVBVBVCUCNU
-      DVBVQVIUEVSVFVBVSVAGZVDGZFVFVQVTVIWAABUFABUGUHVAVDPRUIUAUJRSVEUKAVEVBAVEF
-      ZHZIWCULIVBVAHZWCWDIABBVDHZABOZIWFWEABTNCRUMNVAWBVBVAAVEABUNVAVDUOUPUQURU
-      SUTUJR $.
+      ( tb wa wn wo wt dfb wf df-f ax-r1 wi2 anor3 ax-r2 lor df-i2 3tr 3tr2 ran
+      anor2 ancom ax-r4 anabs anass oran 2an lan or0 le1 2vwomr2 lea leo ler2an
+      oran3 lelor bltr lebi ax-wom ) ABEABFZAGZBGZFZHZIABJVEKHVEVBVEGZFZHVEIKVG
+      VEKIGZVGLAABHZGZHZGZVBVIFZVHVGVMVLAVIUBMVKIVKAVCVBFZHZBANZIVJVNAVJVDVNVDV
+      JABOMVBVCUCPQVPVOBARMDSUDVMVBVBVCHZFZVIFVBVQVIFZFVGVBVRVIVRVBVBVCUEMUAVBV
+      QVIUFVSVFVBVSVAGZVDGZFVFVQVTVIWAABUPABUGUHVAVDOPUISTPQVEUJAVEVBAVEFZHZIWC
+      UKIVBVAHZWCWDIABBVDHZABNZIWFWEABRMCPULMVAWBVBVAAVEABUMVAVDUNUOUQURUSUTTP
+      $.
       $( [13-Nov-98] $)
   $}
 
@@ -2648,16 +2647,15 @@ $)
     wr5-2v.1 $e |- ( a == b ) = 1 $.
     $( WOML derived from 2-variable axioms. $)
     wr5-2v $p |- ( ( a v c ) == ( b v c ) ) = 1 $=
-      ( wo wi2 wn wa wt df-i2 ax-r1 anandir anass anor3 lan ax-r2 2an 3tr2 lor
-      wi1 df-i1 tb wlem1 skr0 lea bltr le1 lebi leo lelan lelor 2vwomr1a lear
-      2vwomlem ) ACEZBCEZUOUPFUPUOGZUPGZHZEZIUOUPJUPAGZURHZEZAUPFZUTIVDVCAUPJKV
-      BUSUPVABGZHCGZHZVAVFHZVEVFHZHVBUSVAVEVFLVGVAVIHVBVAVEVFMVIURVABCNZOPVHUQV
-      IURACNZVJQRSAUPAUPTVAAUPHZEZIAUPUAIVMIVMIVAABHZEZVMIABTZVOIVPIVPBATZHZVPV
-      RIABUBVRDABUCUDKZVPVQUEUFVPUGUHABUAPVNVLVABUPABCUIUJUKUFVMUGUHKPULRPUPUOF
-      UOURUQHZEZIUPUOJUOVEUQHZEZBUOFZWAIWDWCBUOJKWBVTUOVEVAHVFHZVIVHHWBVTVEVAVF
-      LWEVEVHHWBVEVAVFMVHUQVEVKOPVIURVHUQVJVKQRSBUOBUOTVEBUOHZEZIBUOUAIWGIWGIVE
-      BAHZEZWGIVQWIIVQIVRVQVSVPVQUMUFVQUGUHBAUAPWHWFVEAUOBACUIUJUKUFWGUGUHKPULR
-      PUN $.
+      ( wo wi2 wn wa wt df-i2 ax-r1 anandir anass ax-r2 3tr2 wi1 df-i1 bltr le1
+      lebi anor3 lan 2an lor tb wlem1 skr0 lea leo lelan 2vwomr1a lear 2vwomlem
+      lelor ) ACEZBCEZUOUPFUPUOGZUPGZHZEZIUOUPJUPAGZURHZEZAUPFZUTIVDVCAUPJKVBUS
+      UPVABGZHCGZHZVAVFHZVEVFHZHVBUSVAVEVFLVGVAVIHVBVAVEVFMVIURVABCUAZUBNVHUQVI
+      URACUAZVJUCOUDAUPAUPPVAAUPHZEZIAUPQIVMIVMIVAABHZEZVMIABPZVOIVPIVPBAPZHZVP
+      VRIABUEVRDABUFUGKZVPVQUHRVPSTABQNVNVLVABUPABCUIUJUNRVMSTKNUKONUPUOFUOURUQ
+      HZEZIUPUOJUOVEUQHZEZBUOFZWAIWDWCBUOJKWBVTUOVEVAHVFHZVIVHHWBVTVEVAVFLWEVEV
+      HHWBVEVAVFMVHUQVEVKUBNVIURVHUQVJVKUCOUDBUOBUOPVEBUOHZEZIBUOQIWGIWGIVEBAHZ
+      EZWGIVQWIIVQIVRVQVSVPVQULRVQSTBAQNWHWFVEAUOBACUIUJUNRWGSTKNUKONUM $.
       $( [11-Nov-98] $)
   $}
 
@@ -2815,13 +2813,13 @@ $)
     wcomlem.1 $e |- ( a == ( ( a ^ b ) v ( a ^ b ' ) ) ) = 1 $.
     $( Analogue of commutation is symmetric.  Similar to Kalmbach 83 p. 22. $)
     wcomlem $p |- ( b == ( ( b ^ a ) v ( b ^ a ' ) ) ) = 1 $=
-      ( wa wn wo ax-a2 bi1 wran ancom wr2 anabs wlan df-a anor1 w2or wr4 wr1
-      anass wcon2 w3tr1 wlor orabs wdf-le1 wom4 w3tr2 ) ABDZUGEZBDZFZUGAEZBDZFZ
-      BBADZBUKDZFUMUJULUIUGUKBEZFZUKBFZBDZDZUQBDULUIUSBUQUSBBUKFZDZBUSVABDZVBUR
-      VABURVAUKBGHIVCVBVABJHKVBBBUKLHKMULUQURDZBDZUTUKVDBUKUQEZUREZFZEZVDAVHAUG
-      AUPDZFVHCUGVFVJVGUGVFABNHZVJVGABOHPKQVDVIVDVIUQURNHRKIVEUTUQURBSHKUHUQBUG
-      UQVKTIUAUBRUGBUGBUGBFZBUGFZBVLVMUGBGHVMBUNFZBUGUNBUGUNABJHZUBVNBBAUCHKKUD
-      UEUGUNULUOVOULUOUKBJHPUF $.
+      ( wa wn ax-a2 bi1 wran ancom wr2 anabs wlan df-a anor1 w2or wr4 wr1 anass
+      wo wlor wcon2 w3tr1 orabs wdf-le1 wom4 w3tr2 ) ABDZUGEZBDZSZUGAEZBDZSZBBA
+      DZBUKDZSUMUJULUIUGUKBEZSZUKBSZBDZDZUQBDULUIUSBUQUSBBUKSZDZBUSVABDZVBURVAB
+      URVAUKBFGHVCVBVABIGJVBBBUKKGJLULUQURDZBDZUTUKVDBUKUQEZUREZSZEZVDAVHAUGAUP
+      DZSVHCUGVFVJVGUGVFABMGZVJVGABNGOJPVDVIVDVIUQURMGQJHVEUTUQURBRGJUHUQBUGUQV
+      KUAHUBTQUGBUGBUGBSZBUGSZBVLVMUGBFGVMBUNSZBUGUNBUGUNABIGZTVNBBAUCGJJUDUEUG
+      UNULUOVOULUOUKBIGOUF $.
       $( [27-Jan-02] $)
   $}
 
@@ -2830,10 +2828,10 @@ $)
     $( Show that commutator is a 'commutes' analogue for ` == ` analogue of
        ` = ` . $)
     wdf-c1 $p |- C ( a , b ) = 1 $=
-      ( wcmtr wa wn wo wt cmtrcom df-cmtr df-t bi1 wcomlem ax-a1 lan ax-r5
-      ax-a2 ax-r2 wr2 w2or wr3 3tr ) ABDBADBAEBAFZEGZBFZAEUEUCEGZGZHABIBAJUGHBU
-      EGZUGHUHBKLBUDUEUFABCMAUEAABEZAUEEZGZUJAUEFZEZGZCUKUNUKUMUJGUNUIUMUJBULAB
-      NOPUMUJQRLSMTSUAUB $.
+      ( wcmtr wa wn wo cmtrcom df-cmtr df-t bi1 wcomlem ax-a1 ax-r5 ax-a2 ax-r2
+      wt lan wr2 w2or wr3 3tr ) ABDBADBAEBAFZEGZBFZAEUEUCEGZGZQABHBAIUGQBUEGZUG
+      QUHBJKBUDUEUFABCLAUEAABEZAUEEZGZUJAUEFZEZGZCUKUNUKUMUJGUNUIUMUJBULABMRNUM
+      UJOPKSLTSUAUB $.
       $( [27-Jan-02] $)
   $}
 
@@ -2842,13 +2840,12 @@ $)
     $( Show that commutator is a 'commutes' analogue for ` == ` analogue of
        ` = ` . $)
     wdf-c2 $p |- ( a == ( ( a ^ b ) v ( a ^ b ' ) ) ) = 1 $=
-      ( wa wn wo tb wt le1 lea lel2or lelor wcmtr ax-r1 df-cmtr ax-r2 dfb
-      ancom df2le2 anandi oran3 oran2 2an anor3 lan anabs anidm 3tr2 2or
-      le3tr1 lebi ) AABDZABEZDZFZGZHUPIUOAEZBDZUQUMDZFZFZUOUQFZHUPUTUQUOURUQUSU
-      QBJUQUMJKLHABMZVAVCHCNABOPUPAUODZUQUOEZDZFVBAUOQVDUOVFUQVDUOADUOAUORUOAUL
-      AUNABJAUMJKSPUQUQUMFZUQBFZDZDUQVGDZUQVHDZDZVFUQUQVGVHTVIVEUQVIULEZUNEZDVE
-      VGVMVHVNABUAABUBUCULUNUDPUEVLUQUQDUQVJUQVKUQUQUMUFUQBUFUCUQUGPUHUIPUJUK
-      $.
+      ( wa wn wo tb wt le1 lea lel2or lelor wcmtr ax-r1 df-cmtr ax-r2 dfb ancom
+      2an anabs df2le2 anandi oran3 oran2 anor3 lan anidm 3tr2 2or le3tr1 lebi
+      ) AABDZABEZDZFZGZHUPIUOAEZBDZUQUMDZFZFZUOUQFZHUPUTUQUOURUQUSUQBJUQUMJKLHA
+      BMZVAVCHCNABOPUPAUODZUQUOEZDZFVBAUOQVDUOVFUQVDUOADUOAUORUOAULAUNABJAUMJKU
+      APUQUQUMFZUQBFZDZDUQVGDZUQVHDZDZVFUQUQVGVHUBVIVEUQVIULEZUNEZDVEVGVMVHVNAB
+      UCABUDSULUNUEPUFVLUQUQDUQVJUQVKUQUQUMTUQBTSUQUGPUHUIPUJUK $.
       $( [27-Jan-02] $)
   $}
 
@@ -3131,9 +3128,9 @@ $)
     wcom3i.1 $e |- ( ( a ^ ( a ' v b ) ) == ( a ^ b ) ) = 1 $.
     $( Lemma 3(i) of Kalmbach 83 p. 23. $)
     wcom3i $p |- C ( a , b ) = 1 $=
-      ( wn wa wo anor1 bi1 wcon2 wran ancom wr2 wlor wlea wom4 ax-a2 w3tr2
-      wdf-c1 ) ABABDZEZTDZAEZFTABEZFZAUCTFZUBUCTUBAADBFZEZUCUBUFAEZUGUAUFATUFTU
-      FDABGHIJUHUGUFAKHLCLMTAASNOUDUETUCPHQR $.
+      ( wn wa anor1 bi1 wcon2 wran ancom wr2 wlor wlea wom4 ax-a2 w3tr2 wdf-c1
+      wo ) ABABDZEZTDZAEZRTABEZRZAUCTRZUBUCTUBAADBRZEZUCUBUFAEZUGUAUFATUFTUFDAB
+      FGHIUHUGUFAJGKCKLTAASMNUDUETUCOGPQ $.
       $( [13-Oct-97] $)
   $}
 
@@ -3143,27 +3140,26 @@ $)
     $( Weak structural analog of Foulis-Holland Theorem. $)
     wfh1 $p |- ( ( a ^ ( b v c ) ) ==
                ( ( a ^ b ) v ( a ^ c ) ) ) = 1 $=
-      ( wa wo wledi wn wf ancom bi1 df-a w2or wr1 wcon3 wr2 wcon2 w2an anass
-      wcomcom2 wcom3ii anandi w3tr1 wlan an12 oran dff an0 wom5 ) ABFZACFZGZABC
-      GZFZUMUOABCHUOUMIZFZAUNBIZCIZFZFZFZJUQUNAFZAIZURGZVDUSGZFZFZVBUOVCUPVGUOV
-      CAUNKLUMVGUMVEIZVFIZGZVGIUKVIULVJUKVIABMLULVJACMLNVKVGVGVKIZVGVLVEVFMLOPQ
-      RSVHUNAUTFZFZVBVHUNAVGFZFZVNVHVPUNAVGTLVOVMUNAVEFZAVFFZFZAURFZAUSFZFZVOVM
-      VQVTVRWAAURABDUAUBAUSACEUAUBSVOVSAVEVFUCLVMWBAURUSUCLUDUEQVNVBUNAUTUFLQQV
-      BAJFZJVAJAVAUNUNIZFZJUTWDUNUTUNUNUTIZUNWFBCUGLOPUEJWEJWEUNUHLOQUEWCJAUILQ
-      QUJO $.
+      ( wa wo wledi wn bi1 df-a wr1 wcon3 wr2 w2an wcomcom2 wcom3ii anandi wlan
+      wf ancom w2or wcon2 anass w3tr1 an12 oran dff an0 wom5 ) ABFZACFZGZABCGZF
+      ZUMUOABCHUOUMIZFZAUNBIZCIZFZFZFZTUQUNAFZAIZURGZVDUSGZFZFZVBUOVCUPVGUOVCAU
+      NUAJUMVGUMVEIZVFIZGZVGIUKVIULVJUKVIABKJULVJACKJUBVKVGVGVKIZVGVLVEVFKJLMNU
+      COVHUNAUTFZFZVBVHUNAVGFZFZVNVHVPUNAVGUDJVOVMUNAVEFZAVFFZFZAURFZAUSFZFZVOV
+      MVQVTVRWAAURABDPQAUSACEPQOVOVSAVEVFRJVMWBAURUSRJUESNVNVBUNAUTUFJNNVBATFZT
+      VATAVAUNUNIZFZTUTWDUNUTUNUNUTIZUNWFBCUGJLMSTWETWEUNUHJLNSWCTAUIJNNUJL $.
       $( [13-Oct-97] $)
 
     $( Weak structural analog of Foulis-Holland Theorem. $)
     wfh2 $p |- ( ( b ^ ( a v c ) ) ==
                ( ( b ^ a ) v ( b ^ c ) ) ) = 1 $=
-      ( wa wo wledi wn wf oran bi1 df-a wcon2 wran wr4 wr2 wlan an4 wcomcom
-      wcomcom2 wcom3ii ancom ax-a1 wr5-2v wcomcom3 anass wr1 an12 dff w3tr1
-      an0 wom5 ) BAFZBCFZGZBACGZFZUPURBACHURUPIZFZAIZCBUOIZFZFZFZJUTVACFZVCFZVE
-      UTVAUQFZVCFZVGUTVABFZUQVBFZFZVIUTURBIVAGZVBFZFZVLUSVNURUPVNUPUNIZVBFZIZVN
-      IUPVRUNUOKLVQVNVPVMVBUNVMUNVMIBAMLNOPQNRVOBVMFZVKFZVLVOVTBUQVMVBSLVSVJVKV
-      SBVAFZVJBVABAABDTUAUBWAVJBVAUCLQOQQVLVIVABUQVBSLQVHVFVCVHVAVAIZCGZFVFUQWC
-      VAAWBCAWBAUDLUERVACACEUFUBQOQVGVEVACVCUGLQVEVAJFZJVDJVABCVBFFZUOVBFZVDJWF
-      WEWFWEBCVBUGLUHVDWECBVBUILJWFUOUJLUKRWDJVAULLQQUMUH $.
+      ( wa wo wledi wn wf oran bi1 wcon2 wran wr2 wlan an4 wcom3ii anass wr1
+      df-a wr4 wcomcom wcomcom2 ancom ax-a1 wr5-2v wcomcom3 an12 dff w3tr1 wom5
+      an0 ) BAFZBCFZGZBACGZFZUPURBACHURUPIZFZAIZCBUOIZFZFZFZJUTVACFZVCFZVEUTVAU
+      QFZVCFZVGUTVABFZUQVBFZFZVIUTURBIVAGZVBFZFZVLUSVNURUPVNUPUNIZVBFZIZVNIUPVR
+      UNUOKLVQVNVPVMVBUNVMUNVMIBAUALMNUBOMPVOBVMFZVKFZVLVOVTBUQVMVBQLVSVJVKVSBV
+      AFZVJBVABAABDUCUDRWAVJBVAUELONOOVLVIVABUQVBQLOVHVFVCVHVAVAIZCGZFVFUQWCVAA
+      WBCAWBAUFLUGPVACACEUHRONOVGVEVACVCSLOVEVAJFZJVDJVABCVBFFZUOVBFZVDJWFWEWFW
+      EBCVBSLTVDWECBVBUILJWFUOUJLUKPWDJVAUMLOOULT $.
       $( [13-Oct-97] $)
 
     $( Weak structural analog of Foulis-Holland Theorem. $)
@@ -3186,11 +3182,11 @@ $)
 
     $( Th. 4.2 Beran p. 49. $)
     wcom2or $p |- C ( a , ( b v c ) ) = 1 $=
-      ( wo wa wn wcomcom wdf-c2 ancom 2or bi1 wr2 w2or or4 wfh1 wcomcom3 wr1
-      wdf-c1 ) BCFZAUAAUAABGZACGZFZAHZBGZUECGZFZFZUAAGZUAUEGZFZUAUBUFFZUCUGFZFZ
-      UIBUMCUNBBAGZBUEGZFZUMBAABDIJURUMUPUBUQUFBAKBUEKLMNCCAGZCUEGZFZUNCAACEIJV
-      AUNUSUCUTUGCAKCUEKLMNOUOUIUBUFUCUGPMNULUIUJUDUKUHUJAUAGZUDUJVBUAAKMABCDEQ
-      NUKUEUAGZUHUKVCUAUEKMUEBCABDRACERQNOSNTI $.
+      ( wo wa wn wcomcom wdf-c2 ancom 2or bi1 wr2 w2or or4 wfh1 wcomcom3 wdf-c1
+      wr1 ) BCFZAUAAUAABGZACGZFZAHZBGZUECGZFZFZUAAGZUAUEGZFZUAUBUFFZUCUGFZFZUIB
+      UMCUNBBAGZBUEGZFZUMBAABDIJURUMUPUBUQUFBAKBUEKLMNCCAGZCUEGZFZUNCAACEIJVAUN
+      USUCUTUGCAKCUEKLMNOUOUIUBUFUCUGPMNULUIUJUDUKUHUJAUAGZUDUJVBUAAKMABCDEQNUK
+      UEUAGZUHUKVCUAUEKMUEBCABDRACERQNOTNSI $.
       $( [10-Nov-98] $)
 
     $( Th. 4.2 Beran p. 49. $)
@@ -3212,11 +3208,11 @@ $)
   wlem14 $p |- ( ( ( a ^ b ' ) v a ' ) ' v
             ( ( a ^ b ' ) v ( ( a ' ^ ( ( a v b ' ) ^ ( a v b ) ) )
                v ( a ' ^ ( ( a v b ' ) ^ ( a v b ) ) ' ) ) ) ) = 1 $=
-    ( wn wa wo wt df-t ax-r1 ax-a2 bi1 wwbmpr wlan anidm wr1 wleo wle2an wbltr
-    wlecom wcomcom3 wcomcom4 wfh1 an1 w3tr2 wlor ) ABCZDZACZEZCZUFUGAUEEZABEZDZ
-    DUGULCZDEZEZEUIUHEZUPUHUIEZFUQUHGHUPUQUIUHIJKUOUHUIUNUGUFUGULUMEZDUGFDZUNUG
-    URFUGURFFURULGHJLUGULUMAULAULAAADZULUTAUTAAMJNAUJAUKAUEOABOPQRZSAULVATUAUSU
-    GUGUBJUCUDUDK $.
+    ( wn wa wo wt df-t ax-r1 ax-a2 bi1 wwbmpr wlan anidm wr1 wleo wle2an wlecom
+    wbltr wcomcom3 wlor wcomcom4 wfh1 an1 w3tr2 ) ABCZDZACZEZCZUFUGAUEEZABEZDZD
+    UGULCZDEZEZEUIUHEZUPUHUIEZFUQUHGHUPUQUIUHIJKUOUHUIUNUGUFUGULUMEZDUGFDZUNUGU
+    RFUGURFFURULGHJLUGULUMAULAULAAADZULUTAUTAAMJNAUJAUKAUEOABOPRQZSAULVAUAUBUSU
+    GUGUCJUDTTK $.
     $( [25-Oct-97] $)
 
   ${
@@ -3238,47 +3234,45 @@ $)
   $( >>>Remove "id" when bug is fixed. $)
   $( Soundness theorem for Kalmbach's quantum propositional logic axiom KA2. $)
   ska2 $p |- ( ( a == b ) ' v ( ( b == c ) ' v ( a == c ) ) ) = 1 $=
-    ( tb wn wo wa wt dfnb dfb 2or ax-a3 ax-r1 id le1 ax-a2 or12 orordi lor
-    ax-r2 df-t oran3 leor le2or lelor bltr letr lebi wcomorr bi1 wcbtr wcomcom
-    wcomcom2 wfh4 or1 ran ancom an1 wr2 or32 w2or wlor wwbmpr orordir anor3
-    wcom2or oran leo wr5-2v wcomcom3 wfh1 wwbmp ax-r5 ledi leror ) ABDEZBCDEZAC
-    DZFZFABFZAEZBEZFGZBCFZWBCEZFZGZACGZWAWEGZFZFZFZHVPWCVSWKABIVQWGVRWJBCIACJKK
-    WLWCWGFZWJFZHWNWLWCWGWJLMWNWNHWNNWNHWNOHVTWAGZWBVTGZFZWBWDGZWDWEGZFZFZWJFZW
-    NHWOWPWRFZWSFZFZWJFZXBXFHWOWBVTWDFZGZWSFZFZWJFZXFXKWJXJFZHXJWJPXLWOWJXIFZFZ
-    HWJWOXIQXNWOWHWIWBFZWSFZFZFZXRWHWOXPFZFZHWOWHXPQXTWHWIWBWOFZWBWSFZFZFZFZHXS
-    YDWHXSXOWOWSFZFZYDWOXOWSQYGWIWBYFFZFYDWIWBYFLYHYCWIWBWOWSRSTTSYEWHWIWBWAFZW
-    FFZFZFZYLWIWHYJFZFZHWHWIYJQYNHYNOHYMYNHWHWAWEFZFZYMHWHWHEZFZYPWHUAYPYRYOYQW
-    HACUBSMTYOYJWHWAYIWEWFWAWBUCWEWBUCUDUEUFYMWIUCUGUHTYDYKWHYCYJWIYAYIYBWFYAWB
-    VTFZYIGZYIVTWBWAVTBBVTBBAFZVTBAUIUUAVTBAPUJUKZULUMVTAAVTABUIULUMUNYTYIYTHYI
-    GZYIYSHYIYSAWBBFZFZHWBABQUUEAHFHUUDHAUUDBWBFZHWBBPHUUFBUAMZTSAUOTTUPUUCYIHG
-    YIHYIUQYIURTTUJUSYBWBWDFZWFGZWFWDWBWEWDBBWDBCUIZULUMWDCCWDCCBFZWDCBUIUUKWDC
-    BPZUJUKULUMUNUUIWFUUIHWFGZWFUUHHWFUUHWDWBFZHWBWDPUUNUUFCFZHBCWBUTUUOCUUFFZH
-    UUFCPUUPCHFHUUFHCUUGSCUOTTTTUPUUMWFHGWFHWFUQWFURTTUJUSVAVBVBVCTTXMXQWOXMWHW
-    IXIFZFZXQXMUURWHWIXILUJUUQXPWHUUQWIXHFZWSFZXPUUQUUTUUTUUQWIXHWSLMUJUUSXOWSU
-    USWIXGWBGZFZXOUUSUVBXHUVAWIWBXGUQSUJUVBWIXGFZXOGZXOXGWIWBXGACFZEZWIXGUVEUVE
-    XGUVEUVEBFZXGUVEBUIUVGXGUVGVTUUKFXGACBVDUUKWDVTUULSTUJUKULUMUVFWIWIUVFACVEM
-    UJUKXGBBXGBVTWDUUBUUJVFULUMUNUVDXOUVDHXOGZXOUVCHXOUVCHUVCOHWIUVEFZUVCHWIWIE
-    ZFUVIWIUAUVJUVEWIUVEUVJACVGMSTUVEXGWIAVTCWDABVHCBUCUDUEUFUHUPUVHXOHGXOHXOUQ
-    XOURTTUJUSUSVIUSVBUSVBVCTTXJXEWJXIXDWOXHXCWSWBVTWDBVTUUBVJBWDUUJVJVKVIVBVIV
-    LMXEXAWJXEWQWRFZWSFZXAXEWOXCFZWSFZUVLUVNXEWOXCWSLMUVMUVKWSUVKUVMWOWPWRLMVMT
-    WQWRWSLTVMTXAWMWJWQWCWTWGWQWOVTWBGZFWCWPUVOWOWBVTUQSVTWAWBVNUFWTWDWBGZWSFWG
-    WRUVPWSWBWDUQVMWDWBWEVNUFUDVOUFUHTTT $.
+    ( wn wo wa wt ax-a3 ax-r1 ax-a2 or12 lor ax-r2 wcomorr bi1 wcomcom wcomcom2
+    bltr ancom wr2 tb dfnb dfb 2or id le1 df-t oran3 leor le2or lelor letr lebi
+    orordi wcbtr wfh4 or1 ran an1 or32 w2or wlor orordir anor3 wcom2or oran leo
+    wwbmpr wr5-2v wcomcom3 wfh1 wwbmp ax-r5 ledi leror ) ABUADZBCUADZACUAZEZEAB
+    EZADZBDZEFZBCEZWBCDZEZFZACFZWAWEFZEZEZEZGVPWCVSWKABUBVQWGVRWJBCUBACUCUDUDWL
+    WCWGEZWJEZGWNWLWCWGWJHIWNWNGWNUEWNGWNUFGVTWAFZWBVTFZEZWBWDFZWDWEFZEZEZWJEZW
+    NGWOWPWREZWSEZEZWJEZXBXFGWOWBVTWDEZFZWSEZEZWJEZXFXKWJXJEZGXJWJJXLWOWJXIEZEZ
+    GWJWOXIKXNWOWHWIWBEZWSEZEZEZXRWHWOXPEZEZGWOWHXPKXTWHWIWBWOEZWBWSEZEZEZEZGXS
+    YDWHXSXOWOWSEZEZYDWOXOWSKYGWIWBYFEZEYDWIWBYFHYHYCWIWBWOWSUNLMMLYEWHWIWBWAEZ
+    WFEZEZEZYLWIWHYJEZEZGWHWIYJKYNGYNUFGYMYNGWHWAWEEZEZYMGWHWHDZEZYPWHUGYPYRYOY
+    QWHACUHLIMYOYJWHWAYIWEWFWAWBUIWEWBUIUJUKRYMWIUIULUMMYDYKWHYCYJWIYAYIYBWFYAW
+    BVTEZYIFZYIVTWBWAVTBBVTBBAEZVTBANUUAVTBAJOUOZPQVTAAVTABNPQUPYTYIYTGYIFZYIYS
+    GYIYSAWBBEZEZGWBABKUUEAGEGUUDGAUUDBWBEZGWBBJGUUFBUGIZMLAUQMMURUUCYIGFYIGYIS
+    YIUSMMOTYBWBWDEZWFFZWFWDWBWEWDBBWDBCNZPQWDCCWDCCBEZWDCBNUUKWDCBJZOUOPQUPUUI
+    WFUUIGWFFZWFUUHGWFUUHWDWBEZGWBWDJUUNUUFCEZGBCWBUTUUOCUUFEZGUUFCJUUPCGEGUUFG
+    CUUGLCUQMMMMURUUMWFGFWFGWFSWFUSMMOTVAVBVBVHMMXMXQWOXMWHWIXIEZEZXQXMUURWHWIX
+    IHOUUQXPWHUUQWIXHEZWSEZXPUUQUUTUUTUUQWIXHWSHIOUUSXOWSUUSWIXGWBFZEZXOUUSUVBX
+    HUVAWIWBXGSLOUVBWIXGEZXOFZXOXGWIWBXGACEZDZWIXGUVEUVEXGUVEUVEBEZXGUVEBNUVGXG
+    UVGVTUUKEXGACBVCUUKWDVTUULLMOUOPQUVFWIWIUVFACVDIOUOXGBBXGBVTWDUUBUUJVEPQUPU
+    VDXOUVDGXOFZXOUVCGXOUVCGUVCUFGWIUVEEZUVCGWIWIDZEUVIWIUGUVJUVEWIUVEUVJACVFIL
+    MUVEXGWIAVTCWDABVGCBUIUJUKRUMURUVHXOGFXOGXOSXOUSMMOTTVITVBTVBVHMMXJXEWJXIXD
+    WOXHXCWSWBVTWDBVTUUBVJBWDUUJVJVKVIVBVIVLIXEXAWJXEWQWREZWSEZXAXEWOXCEZWSEZUV
+    LUVNXEWOXCWSHIUVMUVKWSUVKUVMWOWPWRHIVMMWQWRWSHMVMMXAWMWJWQWCWTWGWQWOVTWBFZE
+    WCWPUVOWOWBVTSLVTWAWBVNRWTWDWBFZWSEWGWRUVPWSWBWDSVMWDWBWEVNRUJVORUMMMM $.
     $( [10-Nov-98] $)
 
   $( Soundness theorem for Kalmbach's quantum propositional logic axiom KA4. $)
   ska4 $p |- ( ( a == b ) ' v ( ( a ^ c ) == ( b ^ c ) ) ) = 1 $=
-    ( tb wn wa wo wt dfnb dfb 2or ax-a2 ax-a3 le1 df-t oran lor ax-r1 ax-r2
-    lea lecon le2an leror bltr lebi ran ancom an1 3tr anandir oran3 ax-r5 lear
-    ler2an lelor wlea wleo wletr wlecom wcomcom wcomcom2 bi1 wlbtr wcom2an
-    wcomorr wcbtr wcom2or wfh4 wlor wwbmpr ) ABDEZACFZBCFZDZGABGZAEZBEZGZFZVLVM
-    FZVLEZVMEZFZGZGWDVSGZHVKVSVNWDABIVLVMJKVSWDLWEVTWCVSGZGZHVTWCVSMWGVTWCVOGZW
-    CVRGZFZGZWKVTWIGZHWJWIVTWJHWIFWIHFWIWHHWIWHHWHNHVPVQFZVOGZWHHWMWMEZGZWNWMOW
-    NWPVOWOWMABPQRSWMWCVOVPWAVQWBVLAACTUAVMBBCTUAUBUCUDUEUFHWIUGWIUHUIQWLHWLNHV
-    TCEZVRGZGZWLHABFZCFZXAEZGWSXAOXAVTXBWRABCUJXBVRWQGZWRXCXBXCWTEZWQGXBVRXDWQA
-    BUKULWTCUKSRVRWQLSKSWRWIVTWQWCVRWQWAWBVLCACUMUAVMCBCUMUAUNUCUOUDUESWFWJVTVO
-    WCVRVOWAWBVOVLVLVOVLVOVLAVOACUPABUQURUSUTVAVOVMVMVOVMVOVMBVOBCUPBBAGZVOBAUQ
-    XEVOBALVBZVCURUSUTVAVDVOVPVQVOAAVOABVEUTVAVOBBVOBXEVOBAVEXFVFUTVAVGVHVIVJSU
-    I $.
+    ( tb wn wa wo wt 2or ax-a2 le1 df-t lor ax-r1 ax-r2 lea lecon leror wcomcom
+    wcomcom2 dfnb dfb ax-a3 oran le2an bltr lebi ran ancom an1 3tr anandir lear
+    oran3 ax-r5 ler2an lelor wlea wleo wletr wlecom wlbtr wcom2an wcomorr wcbtr
+    bi1 wcom2or wfh4 wlor wwbmpr ) ABDEZACFZBCFZDZGABGZAEZBEZGZFZVLVMFZVLEZVMEZ
+    FZGZGWDVSGZHVKVSVNWDABUAVLVMUBIVSWDJWEVTWCVSGZGZHVTWCVSUCWGVTWCVOGZWCVRGZFZ
+    GZWKVTWIGZHWJWIVTWJHWIFWIHFWIWHHWIWHHWHKHVPVQFZVOGZWHHWMWMEZGZWNWMLWNWPVOWO
+    WMABUDMNOWMWCVOVPWAVQWBVLAACPQVMBBCPQUERUFUGUHHWIUIWIUJUKMWLHWLKHVTCEZVRGZG
+    ZWLHABFZCFZXAEZGWSXALXAVTXBWRABCULXBVRWQGZWRXCXBXCWTEZWQGXBVRXDWQABUNUOWTCU
+    NONVRWQJOIOWRWIVTWQWCVRWQWAWBVLCACUMQVMCBCUMQUPRUQUFUGOWFWJVTVOWCVRVOWAWBVO
+    VLVLVOVLVOVLAVOACURABUSUTVASTVOVMVMVOVMVOVMBVOBCURBBAGZVOBAUSXEVOBAJVFZVBUT
+    VASTVCVOVPVQVOAAVOABVDSTVOBBVOBXEVOBAVDXFVESTVGVHVIVJOUK $.
     $( [9-Nov-98] $)
 
   $( Weak orthomodular law for study of weakly orthomodular lattices. $)
@@ -3292,10 +3286,10 @@ $)
      weaker-looking equivalent, ~ wom2 , which in turn is proved from
      ~ ax-wom . $)
   ka4ot $p |- ( ( a == b ) ' v ( ( a v c ) == ( b v c ) ) ) = 1 $=
-    ( tb wn wo wt le1 wom2 bicom ax-r4 2or lbtr le2or oridm leror ka4lemo
-    ax-a3 lor ax-r2 le3tr2 lebi ) ABDZEZACFZBCFZDZFZGUHHABFZUGFUHUGFZGUHUIUHUGU
-    IUHUHFUHAUHBUHABCIBBADZEZUFUEDZFUHBACIULUDUMUGUKUCBAJKUFUEJLMNUHOMPABCQUJUD
-    UGUGFZFUHUDUGUGRUNUGUDUGOSTUAUB $.
+    ( tb wn wo wt le1 wom2 bicom ax-r4 2or lbtr le2or oridm leror ka4lemo ax-a3
+    lor ax-r2 le3tr2 lebi ) ABDZEZACFZBCFZDZFZGUHHABFZUGFUHUGFZGUHUIUHUGUIUHUHF
+    UHAUHBUHABCIBBADZEZUFUEDZFUHBACIULUDUMUGUKUCBAJKUFUEJLMNUHOMPABCQUJUDUGUGFZ
+    FUHUDUGUGRUNUGUDUGOSTUAUB $.
     $( [25-Oct-97] $)
 
 $(
@@ -3306,26 +3300,25 @@ $)
 
   $( Variant of weakly orthomodular law. $)
   woml6 $p |- ( ( a ->1 b ) ' v ( a ->2 b ) ) = 1 $=
-    ( wi1 wn wi2 wo wa wt df-i1 df-a lor ax-r2 ax-r4 ax-r1 df-i2 2or ax-a2
-    ancom ax-r5 ax-a3 tb 1b wcomorr bi1 wcbtr wcomcom wcomcom3 wcomcom5 wfh4
-    wr5-2v or12 df-t or1 3tr ran an1 anor3 wr2 wr1 3tr2 ) ABCZDZABEZFAADZBDZFZG
-    ZBVDVEGZFZFZHVBVGVCVIVBVDVFDZFZDZVGVAVLVAVDABGZFVLABIVNVKVDABJKLMVGVMAVFJNL
-    ABOPVGBFZVHFBVFAGZFZVHFZVJHVOVQVHVOBVGFVQVGBQVGVPBAVFRKLSVGBVHTVRHVRUAZHVSV
-    RVRUBNVRHVRBVFFZBAFZGZVHFZHVQWBVHVFBAVFBVFVEVEVFVEVEVDFZVFVEVDUCWDVFVEVDQUD
-    UEUFUGUHVFAVFVDVDVFVDVEUCUFUGUHUIUJWCHWCABFZWEDZFZHWBWEVHWFWBWAHGZWAWEWBHWA
-    GWHVTHWAVTVDBVEFZFZVDHFZHBVDVEUKWKWJHWIVDBULKNVDUMUNUOHWARLWAUPBAQUNABUQPHW
-    GWEULNLUDURUSLUTL $.
+    ( wn wo wa wt df-a lor ax-r2 ax-r1 2or ax-a2 ancom wcomorr wcomcom wcomcom3
+    bi1 wcomcom5 df-t 3tr wi1 wi2 df-i1 ax-r4 df-i2 ax-r5 ax-a3 tb wcbtr wr5-2v
+    1b wfh4 or12 or1 ran an1 anor3 wr2 wr1 3tr2 ) ABUAZCZABUBZDAACZBCZDZEZBVDVE
+    EZDZDZFVBVGVCVIVBVDVFCZDZCZVGVAVLVAVDABEZDVLABUCVNVKVDABGHIUDVGVMAVFGJIABUE
+    KVGBDZVHDBVFAEZDZVHDZVJFVOVQVHVOBVGDVQVGBLVGVPBAVFMHIUFVGBVHUGVRFVRUHZFVSVR
+    VRUKJVRFVRBVFDZBADZEZVHDZFVQWBVHVFBAVFBVFVEVEVFVEVEVDDZVFVEVDNWDVFVEVDLQUIO
+    PRVFAVFVDVDVFVDVENOPRULUJWCFWCABDZWECZDZFWBWEVHWFWBWAFEZWAWEWBFWAEWHVTFWAVT
+    VDBVEDZDZVDFDZFBVDVEUMWKWJFWIVDBSHJVDUNTUOFWAMIWAUPBALTABUQKFWGWESJIQURUSIU
+    TI $.
     $( [14-Nov-98] $)
 
   $( Variant of weakly orthomodular law. $)
   woml7 $p |- ( ( ( a ->2 b ) ^ ( b ->2 a ) ) ' v ( a == b ) ) = 1 $=
-    ( wi2 wa wn tb wo wt df-i2 ax-a2 ax-r2 ancom ax-r5 3tr 2an ax-r4 id dfb
-    2or 1b ax-r1 df-t bi1 wa2 wcoman1 wcomcom3 wcomcom5 wbctr wfh3 wr2 wr4
-    wr5-2v ) ABCZBACZDZEZABFZGAEZBEZDZAGZUTBGZDZEZABDZUTGZGZHVGFZHUPVDUQVFUPVDV
-    DUOVCUOVBVADVCUMVBUNVAUMBUTGVBABIBUTJKUNAUSURDZGVIAGVABAIAVIJVIUTAUSURLMNOV
-    BVALKPVDQKABRSVHVGVGTUAHVFEZVFGZVGHVKHVFVJGVKVFUBVFVJJKUCVJVDVFVFVCVFUTVEGV
-    CVEUTUDUTABUTAUTURURUSUEUFUGUTBUTUSUTVIUSUTVIURUSLUCUSURUEUHUFUGUIUJUKULUJN
-    $.
+    ( wi2 wa wn tb wo wt df-i2 ax-a2 ax-r2 ancom ax-r5 3tr 2an wcoman1 wcomcom3
+    bi1 wcomcom5 wr2 ax-r4 id dfb 2or 1b ax-r1 df-t wa2 wbctr wfh3 wr4 wr5-2v )
+    ABCZBACZDZEZABFZGAEZBEZDZAGZUTBGZDZEZABDZUTGZGZHVGFZHUPVDUQVFUPVDVDUOVCUOVB
+    VADVCUMVBUNVAUMBUTGVBABIBUTJKUNAUSURDZGVIAGVABAIAVIJVIUTAUSURLMNOVBVALKUAVD
+    UBKABUCUDVHVGVGUEUFHVFEZVFGZVGHVKHVFVJGVKVFUGVFVJJKRVJVDVFVFVCVFUTVEGVCVEUT
+    UHUTABUTAUTURURUSPQSUTBUTUSUTVIUSUTVIURUSLRUSURPUIQSUJTUKULTN $.
     $( [14-Nov-98] $)
 
   ${
@@ -3466,12 +3459,12 @@ $)
     comcom.1 $e |- a C b $.
     $( Commutation is symmetric.  Kalmbach 83 p. 22. $)
     comcom $p |- b C a $=
-      ( wa wn wo ax-a2 ran ancom ax-r2 anabs lan df-c2 df-a anor1 2or ax-r4
-      ax-r1 anass con2 3tr1 lor orabs df-le1 oml2 3tr2 df-c1 ) BAABDZUHEZBDZFZU
-      HAEZBDZFZBBADZBULDZFUNUKUMUJUHULBEZFZULBFZBDZDZURBDUMUJUTBURUTBBULFZDZBUT
-      VBBDVCUSVBBULBGHVBBIJBULKJLUMURUSDZBDVAULVDBULUREZUSEZFZEZVDAVGAUHAUQDZFV
-      GABCMUHVEVIVFABNZABOPJQVDVHURUSNRJHURUSBSJUIURBUHURVJTHUAUBRUHBUHBUHBFBUH
-      FZBUHBGVKBUOFBUHUOBABIZUBBAUCJJUDUEUHUOUMUPVLULBIPUFUG $.
+      ( wa wn wo ax-a2 ran ancom ax-r2 anabs df-c2 df-a anor1 ax-r4 ax-r1 anass
+      lan 2or lor con2 3tr1 orabs df-le1 oml2 3tr2 df-c1 ) BAABDZUHEZBDZFZUHAEZ
+      BDZFZBBADZBULDZFUNUKUMUJUHULBEZFZULBFZBDZDZURBDUMUJUTBURUTBBULFZDZBUTVBBD
+      VCUSVBBULBGHVBBIJBULKJRUMURUSDZBDVAULVDBULUREZUSEZFZEZVDAVGAUHAUQDZFVGABC
+      LUHVEVIVFABMZABNSJOVDVHURUSMPJHURUSBQJUIURBUHURVJUAHUBTPUHBUHBUHBFBUHFZBU
+      HBGVKBUOFBUHUOBABIZTBAUCJJUDUEUHUOUMUPVLULBISUFUG $.
       $( [27-Aug-97] $)
 
     $( Commutation equivalence.  Kalmbach 83 p. 23. $)
@@ -3582,40 +3575,40 @@ $)
     fh.2 $e |- a C c $.
     $( Foulis-Holland Theorem. $)
     fh1 $p |- ( a ^ ( b v c ) ) = ( ( a ^ b ) v ( a ^ c ) ) $=
-      ( wa wo ledi wn wf ancom df-a 2or ax-r1 con3 ax-r2 con2 2an anass
-      comcom2 com3ii anandi 3tr1 lan an12 oran dff an0 oml3 ) ABFZACFZGZABCGZFZ
-      ULUNABCHUNULIZFZAUMBIZCIZFZFZFZJUPUMAFZAIZUQGZVCURGZFZFZVAUNVBUOVFAUMKULV
-      FULVDIZVEIZGZVFIUJVHUKVIABLACLMVJVFVFVJIVDVELNOPQRVGUMAUSFZFZVAVGUMAVFFZF
-      VLUMAVFSVMVKUMAVDFZAVEFZFAUQFZAURFZFVMVKVNVPVOVQAUQABDTUAAURACETUARAVDVEU
-      BAUQURUBUCUDPUMAUSUEPPVAAJFJUTJAUTUMUMIZFZJUSVRUMUSUMUMUSIBCUFNOUDJVSUMUG
-      NPUDAUHPPUIN $.
+      ( wa wo ledi wn ancom df-a ax-r1 con3 ax-r2 2an comcom2 com3ii anandi lan
+      wf 2or con2 anass 3tr1 an12 oran dff an0 oml3 ) ABFZACFZGZABCGZFZULUNABCH
+      UNULIZFZAUMBIZCIZFZFZFZTUPUMAFZAIZUQGZVCURGZFZFZVAUNVBUOVFAUMJULVFULVDIZV
+      EIZGZVFIUJVHUKVIABKACKUAVJVFVFVJIVDVEKLMNUBOVGUMAUSFZFZVAVGUMAVFFZFVLUMAV
+      FUCVMVKUMAVDFZAVEFZFAUQFZAURFZFVMVKVNVPVOVQAUQABDPQAURACEPQOAVDVERAUQURRU
+      DSNUMAUSUENNVAATFTUTTAUTUMUMIZFZTUSVRUMUSUMUMUSIBCUFLMSTVSUMUGLNSAUHNNUIL
+      $.
       $( [29-Aug-97] $)
 
     $( Foulis-Holland Theorem. $)
     fh2 $p |- ( b ^ ( a v c ) ) = ( ( b ^ a ) v ( b ^ c ) ) $=
-      ( wa wo ledi wn wf oran df-a con2 ran ax-r4 ax-r2 lan an4 comcom comcom2
-      com3ii ancom ax-a1 ax-r5 comcom3 anass ax-r1 an12 dff 3tr1 an0 oml3 ) BAF
-      ZBCFZGZBACGZFZUOUQBACHUQUOIZFZAIZCBUNIZFZFZFZJUSUTCFZVBFZVDUSUTUPFZVBFZVF
-      USUTBFZUPVAFZFZVHUSUQBIUTGZVAFZFZVKURVMUQUOVMUOUMIZVAFZIVMIUMUNKVPVMVOVLV
-      AUMVLBALMNOPMQVNBVLFZVJFVKBUPVLVARVQVIVJVQBUTFVIBUTBAABDSTUABUTUBPNPPUTBU
-      PVARPVGVEVBVGUTUTIZCGZFVEUPVSUTAVRCAUCUDQUTCACEUEUAPNPUTCVBUFPVDUTJFJVCJU
-      TBCVAFFZUNVAFZVCJWAVTBCVAUFUGCBVAUHUNUIUJQUTUKPPULUG $.
+      ( wa wo ledi wn wf oran df-a con2 ran ax-r2 lan an4 com3ii anass ax-r1
+      ax-r4 comcom comcom2 ancom ax-a1 ax-r5 comcom3 an12 dff 3tr1 an0 oml3 ) B
+      AFZBCFZGZBACGZFZUOUQBACHUQUOIZFZAIZCBUNIZFZFZFZJUSUTCFZVBFZVDUSUTUPFZVBFZ
+      VFUSUTBFZUPVAFZFZVHUSUQBIUTGZVAFZFZVKURVMUQUOVMUOUMIZVAFZIVMIUMUNKVPVMVOV
+      LVAUMVLBALMNUAOMPVNBVLFZVJFVKBUPVLVAQVQVIVJVQBUTFVIBUTBAABDUBUCRBUTUDONOO
+      UTBUPVAQOVGVEVBVGUTUTIZCGZFVEUPVSUTAVRCAUEUFPUTCACEUGRONOUTCVBSOVDUTJFJVC
+      JUTBCVAFFZUNVAFZVCJWAVTBCVASTCBVAUHUNUIUJPUTUKOOULT $.
       $( [29-Aug-97] $)
 
     $( Foulis-Holland Theorem. $)
     fh3 $p |- ( a v ( b ^ c ) ) = ( ( a v b ) ^ ( a v c ) ) $=
-      ( wa wo wn comcom4 fh1 anor2 df-a ax-r1 lor ax-r4 ax-r2 oran 2an 3tr2
-      con1 ) ABCFZGZABGZACGZFZAHZBHZCHZGZFZUFUGFZUFUHFZGZUBHZUEHZUFUGUHABDIACEI
-      JUJAUIHZGZHUNAUIKUQUBUPUAAUAUPBCLMNOPUMUKHZULHZFZHUOUKULQUTUEUEUTUCURUDUS
-      ABQACQRMOPST $.
+      ( wa wo comcom4 fh1 anor2 df-a ax-r1 lor ax-r4 ax-r2 oran 2an 3tr2 con1
+      wn ) ABCFZGZABGZACGZFZATZBTZCTZGZFZUFUGFZUFUHFZGZUBTZUETZUFUGUHABDHACEHIU
+      JAUITZGZTUNAUIJUQUBUPUAAUAUPBCKLMNOUMUKTZULTZFZTUOUKULPUTUEUEUTUCURUDUSAB
+      PACPQLNORS $.
       $( [29-Aug-97] $)
 
     $( Foulis-Holland Theorem. $)
     fh4 $p |- ( b v ( a ^ c ) ) = ( ( b v a ) ^ ( b v c ) ) $=
-      ( wa wo wn comcom4 fh2 anor2 df-a ax-r1 lor ax-r4 ax-r2 oran 2an 3tr2
-      con1 ) BACFZGZBAGZBCGZFZBHZAHZCHZGZFZUFUGFZUFUHFZGZUBHZUEHZUGUFUHABDIACEI
-      JUJBUIHZGZHUNBUIKUQUBUPUABUAUPACLMNOPUMUKHZULHZFZHUOUKULQUTUEUEUTUCURUDUS
-      BAQBCQRMOPST $.
+      ( wa wo comcom4 fh2 anor2 df-a ax-r1 lor ax-r4 ax-r2 oran 2an 3tr2 con1
+      wn ) BACFZGZBAGZBCGZFZBTZATZCTZGZFZUFUGFZUFUHFZGZUBTZUETZUGUFUHABDHACEHIU
+      JBUITZGZTUNBUIJUQUBUPUABUAUPACKLMNOUMUKTZULTZFZTUOUKULPUTUEUEUTUCURUDUSBA
+      PBCPQLNORS $.
       $( [29-Aug-97] $)
 
     $( Foulis-Holland Theorem. $)
@@ -3707,18 +3700,18 @@ $)
 
   $( Orthomodular law. $)
   oml4 $p |- ( ( a == b ) ^ a ) =< b $=
-    ( tb wa ancom wn wo dfb lan coman1 comcom comcom2 comcom5 fh1 wf or0 anidm
-    ran ax-r1 anass ax-r2 an0 dff 3tr2 2or lea bltr ) ABCZADZBADZBUIAUHDZUJUHAE
-    UKAABDZAFZBFZDZGZDZUJUHUPAABHIUQAULDZAUODZGZUJAULUOULAABJKAUOUMUOUOUMUMUNJK
-    LMNULOGULUTUJULPULUROUSULAADZBDZURVBULVAABAQRSAABTUAOAUMDZUNDZUSUNODOUNDOVD
-    UNOEUNUBOVCUNAUCRUDAUMUNTUAUEABEUDUAUAUABAUFUG $.
+    ( tb wa ancom wn wo dfb lan coman1 comcom comcom2 comcom5 fh1 or0 ran anass
+    wf ax-r2 3tr2 anidm ax-r1 an0 dff 2or lea bltr ) ABCZADZBADZBUIAUHDZUJUHAEU
+    KAABDZAFZBFZDZGZDZUJUHUPAABHIUQAULDZAUODZGZUJAULUOULAABJKAUOUMUOUOUMUMUNJKL
+    MNULRGULUTUJULOULURRUSULAADZBDZURVBULVAABAUAPUBAABQSRAUMDZUNDZUSUNRDRUNDRVD
+    UNREUNUCRVCUNAUDPTAUMUNQSUEABETSSSBAUFUG $.
     $( [25-Oct-97] $)
 
   $( Orthomodular law. $)
   oml6 $p |- ( a v ( b ^ ( a ' v b ' ) ) ) = ( a v b ) $=
-    ( wn wo wa wt comor1 comcom7 comor2 fh4c df-t ax-r5 ax-a2 or1 ax-r2 ax-a3
-    3tr2 ax-r1 lan an1 3tr ) ABACZBCZDZEDABDZAUDDZEUEFEUEUDABUDAUBUCGHUDBUBUCIH
-    JUFFUEFUFFUCDZAUBDZUCDFUFFUHUCAKLUGUCFDFFUCMUCNOAUBUCPQRSUETUA $.
+    ( wn wo wa comor1 comcom7 comor2 fh4c df-t ax-r5 ax-a2 or1 ax-r2 ax-a3 3tr2
+    wt ax-r1 lan an1 3tr ) ABACZBCZDZEDABDZAUDDZEUEQEUEUDABUDAUBUCFGUDBUBUCHGIU
+    FQUEQUFQUCDZAUBDZUCDQUFQUHUCAJKUGUCQDQQUCLUCMNAUBUCOPRSUETUA $.
     $( [3-Jan-99] $)
 
   ${
@@ -3727,15 +3720,15 @@ $)
     gsth.3 $e |- a C ( b ^ c ) $.
     $( Gudder-Schelp's Theorem.  Beran, p. 262, Th. 4.1. $)
     gsth $p |- ( a ^ b ) C c $=
-      ( wa wo wn comcom fh4rc comcom2 2an an4 an32 comd lan fh1r ran lea leo
-      letr lecom coman2 com2or ancom cbtr df2le2 fh1 wf anass dff ax-r1 an0
-      3tr lor or0 ax-r2 2or ax-a2 lelan bltr df-le2 3tr2 df2c1 ) ABGZCVFCHZVFCI
-      ZHZGZVFVJACHZBCHZGZAVHHZBVHHZGZGVKVNGZVLVOGZGZVFVGVMVIVPBCAEABDJZKBVHABCE
-      LVTKMVKVLVNVONVQBGVKBGZVNGZVSVFVKVNBOBVRVQBCEPQWBVFCBGZHZVNGVFVNGZWCVNGZH
-      ZVFWAWDVNBACVTERSVNVFWCVFVNVFVNVFAVNABTAVHUAUBZUCJVNBCGZWCWIVNWIAVHAWIFJZ
-      WICBCUDLZUEJBCUFUGRWGVFWIAGZHWLVFHVFWEVFWFWLVFVNWHUHWFWIVNGWLWIVHGZHZWLWC
-      WIVNCBUFSWIAVHWJWKUIWNWLUJHWLWMUJWLWMBCVHGZGBUJGUJBCVHUKWOUJBUJWOCULUMQBU
-      NUOUPWLUQURUOUSVFWLUTWLVFWLAWIGVFWIAUFWIBABCTVAVBVCUOUOVDUOUMVE $.
+      ( wa wo wn comcom fh4rc comcom2 lan fh1r ran lea ancom wf ax-r1 3tr lecom
+      2an an4 an32 comd leo letr coman2 com2or df2le2 fh1 anass dff an0 lor or0
+      cbtr ax-r2 2or ax-a2 lelan bltr df-le2 3tr2 df2c1 ) ABGZCVFCHZVFCIZHZGZVF
+      VJACHZBCHZGZAVHHZBVHHZGZGVKVNGZVLVOGZGZVFVGVMVIVPBCAEABDJZKBVHABCELVTKUBV
+      KVLVNVOUCVQBGVKBGZVNGZVSVFVKVNBUDBVRVQBCEUEMWBVFCBGZHZVNGVFVNGZWCVNGZHZVF
+      WAWDVNBACVTENOVNVFWCVFVNVFVNVFAVNABPAVHUFUGZUAJVNBCGZWCWIVNWIAVHAWIFJZWIC
+      BCUHLZUIJBCQUQNWGVFWIAGZHWLVFHVFWEVFWFWLVFVNWHUJWFWIVNGWLWIVHGZHZWLWCWIVN
+      CBQOWIAVHWJWKUKWNWLRHWLWMRWLWMBCVHGZGBRGRBCVHULWORBRWOCUMSMBUNTUOWLUPURTU
+      SVFWLUTWLVFWLAWIGVFWIAQWIBABCPVAVBVCTTVDTSVE $.
       $( [20-Sep-98] $)
   $}
 
@@ -3744,11 +3737,11 @@ $)
     gsth2.2 $e |- a C ( b ^ c ) $.
     $( Stronger version of Gudder-Schelp's Theorem.  Beran, p. 263, Th. 4.2. $)
     gsth2 $p |- ( a ^ b ) C c $=
-      ( wa wn wo comcom ancom ax-a2 ran ax-r2 comor2 comcom7 comcom2 coman1
-      com2or gsth bctr df-a lor ax-r4 ax-r1 cbtr com2an omla ) CABFZCBBGZBAFZHZ
-      FZUHCBUKBCDICUKCBUIAGZHZFZUKGZUOCUOUMUIHZBFZCUOUNBFURBUNJUNUQBUIUMKLMUQBC
-      UQBUMUINODBCFZUQUSUMUIUSAAUSEIPUSBBCQPRISTIUOUIUNGZHZGZUPBUNUAUPVBUKVAUJU
-      TUIBAUAUBUCUDMUEOUFULUJUHBAUGBAJMUEI $.
+      ( wa wn comcom ancom ax-a2 ran ax-r2 comor2 comcom7 comcom2 coman1 com2or
+      wo df-a cbtr gsth bctr lor ax-r4 ax-r1 com2an omla ) CABFZCBBGZBAFZRZFZUH
+      CBUKBCDHCUKCBUIAGZRZFZUKGZUOCUOUMUIRZBFZCUOUNBFURBUNIUNUQBUIUMJKLUQBCUQBU
+      MUIMNDBCFZUQUSUMUIUSAAUSEHOUSBBCPOQHUAUBHUOUIUNGZRZGZUPBUNSUPVBUKVAUJUTUI
+      BASUCUDUELTNUFULUJUHBAUGBAILTH $.
       $( [20-Sep-98] $)
   $}
 
@@ -3783,9 +3776,9 @@ $)
     cmtr1com.1 $e |- C ( a , b ) = 1 $.
     $( Commutator equal to 1 commutes.  Theorem 2.11 of Beran, p. 86. $)
     cmtr1com $p |- a C b $=
-      ( wa wn wo lea lel2or df-le2 wt le1 wcmtr df-cmtr ax-a2 3tr2 leror bltr
-      lebi lem3.1 ax-r1 df-c1 ) ABABDZABEZDZFZAUEAUEAUBAUDABGAUCGHIAEZUEFZJUGKJ
-      UFBDZUFUCDZFZUEFZUGABLUEUJFJUKABMCUEUJNOUJUFUEUHUFUIUFBGUFUCGHPQRSTUA $.
+      ( wa wn wo lea lel2or df-le2 le1 wcmtr df-cmtr ax-a2 3tr2 leror bltr lebi
+      wt lem3.1 ax-r1 df-c1 ) ABABDZABEZDZFZAUEAUEAUBAUDABGAUCGHIAEZUEFZRUGJRUF
+      BDZUFUCDZFZUEFZUGABKUEUJFRUKABLCUEUJMNUJUFUEUHUFUIUFBGUFUCGHOPQSTUA $.
       $( [24-Jan-99] $)
   $}
 
@@ -3803,11 +3796,11 @@ $)
     i0cmtrcom.1 $e |- ( a ->0 C ( a , b ) ) = 1 $.
     $( Commutator element ` ->0 ` commutator implies commutation. $)
     i0cmtrcom $p |- a C b $=
-      ( wa wn wo lea lel2or df-le2 wcmtr wi0 wt df-cmtr lor ax-r1 ax-a2 ax-r2
-      or12 3tr df-i0 3tr1 lem3.1 df-c1 ) ABABDZABEZDZFZAUGAUGAUDAUFABGAUEGHIAEZ
-      UGFZAABJZKZLUHUGUHBDZUHUEDZFZFZFZUHUJFZUIUKUQUPUJUOUHABMNOUIUGUHFZUGUHUNF
-      ZFZUPUHUGPUTURUSUHUGUSUNUHFUHUHUNPUNUHULUHUMUHBGUHUEGHIQNOUGUHUNRSAUJTUAC
-      QUBOUC $.
+      ( wa wn wo lea lel2or df-le2 wcmtr wi0 df-cmtr lor ax-r1 ax-a2 ax-r2 or12
+      wt 3tr df-i0 3tr1 lem3.1 df-c1 ) ABABDZABEZDZFZAUGAUGAUDAUFABGAUEGHIAEZUG
+      FZAABJZKZRUHUGUHBDZUHUEDZFZFZFZUHUJFZUIUKUQUPUJUOUHABLMNUIUGUHFZUGUHUNFZF
+      ZUPUHUGOUTURUSUHUGUSUNUHFUHUHUNOUNUHULUHUMUHBGUHUEGHIPMNUGUHUNQSAUJTUACPU
+      BNUC $.
       $( [24-Jan-99] $)
   $}
 
@@ -3820,33 +3813,31 @@ $)
 
   $( Kalmbach implication and biconditional. $)
   i3bi $p |- ( ( a ->3 b ) ^ ( b ->3 a ) ) = ( a == b ) $=
-    ( wn wa wo wi3 tb anor2 lea leo ax-a2 lbtr letr ancom le3tr1 le2or oridm
-    lecom comcom2 comcom bctr fh2 wf anor1 ax-r2 ax-r1 cbtr bltr fh1 ran an4
-    dff 2an anidm an12 con2 lan an0 2or anandi coman1 an32 anass or0 lor oran
-    con3 fh3 3tr2 df-i3 or32 dfb 3tr1 ) ACZBCZDZVNBDZAVNBEZDZEZEZVPVOADZBVOAEZD
-    ZEZEZDZABDZVPEZABFZBAFZDABGVPVTWEDZEVPWHEWGWIWLWHVPWLVTWBDZVTWDDZEZWHWBVTWD
-    WBBVNEZCZVTBAHZVTWQVTWPVTWPVTWPWPEWPVQWPVSWPVQVNWPVNBIVNVRWPVNBJVNBKLMVRADZ
-    VRVSWPVRAIZAVRNZBVNKZOPWPQLRSTUAWBWQWDWRWDWQWDWPWDWPWDBWPBWCIZBVNJMRSTUAUBW
-    OUCWHEZWHWMUCWNWHWMWBVTDZUCVTWBNXEWBVQDZWBVSDZEZUCWBVQVSWBWCCZVQWBWCWBWCWBV
-    OWCVOAIVOAJMRSVQXIVQBVNDZXIVNBNZBAUDUEZUFZUGWBVRCZVSWBAVODZXNVOANZABUDUEVSX
-    NVSVRVSVRVSWSVRXAWTUHRSTUAUIXHUCUCEUCXFUCXGUCXFXOVQDZUCWBXOVQXPUJXQAVNDZVOB
-    DZDZUCAVOVNBUKXTUCUCDZUCYAXTUCXRUCXSAULZUCBVODZXSBULZBVONUEUMUFUCUNUEUEUEXG
-    AWBVRDZDZUCWBAVRUOYFAUCDZUCYGYFUCYEAUCWBWBCZDYEWBULYHVRWBYHWPVRWBWPWRUPXBUE
-    UQUEUQUFAURZUEUEUSUCQUEUEUEWNWDVTDZWHVTWDNYJWDVQDZWDVSDZEZWHVQWDVSVQXIWDXLW
-    DXIWDWCWDWCWDWCBDWCBWCNWCBIUHRSTUAVQAVOEZCZVSABHVSYOVSYNVSYNVSAYNAVRIZAVOJM
-    RSTUAUBYMYLYKEZWHYKYLKYQWHUCEZWHYLWHYKUCYLBADZWCVRDDZWHBWCAVRUKYTYSWCDZYSVR
-    DZDZWHYSWCVRUTUUCYSYSDZWHUUAYSUUBYSUUAYSVODZYSADZEZYSYSVOAYSBBAVAZSYSWHABAN
-    ZABVAUAZUIUUGYSUCEZYSUUGUCYSEZUUKUUEUCUUFYSUUEYCADZUCBAVOVBUUMAYCDZUCYCANUU
-    NYGUCYGUUNUCYCAYDUQUFYIUEUEUEUUFBAADZDYSBAAVCUUOABAUNUQUEUSUCYSKZUEYSVDZUEU
-    EUUBYSVNDZYSBDZEZYSYSVNBYSAUUJSUUHUIUUTUUKYSUUTUULUUKUURUCUUSYSUURBXRDZUCBA
-    VNVCUVABUCDZUCUVBUVAUCXRBYBUQUFBURZUEUEUUSBBDZADYSBABVBUVDBABUNUJUEUSUUPUEU
-    UQUEUEUMUUDYSWHYSUNUUIUEUEUEUEYKUVBUCYKBWCVQDZDZUVBBWCVQVCUVBUVFUCUVEBUCWCX
-    IDUVEWCULXIVQWCXMUQUEUQUFUEUVCUEUSWHVDZUEUEUEUEUSXDYRWHUCWHKUVGUEUEUEVEVPVT
-    WEVPBAEZCZVTVPVOVNDZUVIVNVONUVJUVHUVHUVJCBAVFUFVGUEVTUVIVTUVHVTUVHVQBVSAVQX
-    JBXKBVNIUHYPPRSTUAVPABEZCZWEVPUVKUVKVPCABVFUFVGWEUVLWEUVKWEUVKWBAWDBWBXOAXP
-    AVOIUHXCPRSTUAVHVPWHKVIWJWAWKWFWJVQVPEVSEZWAABVJUVMVTVPEWAVQVPVSVKVTVPKUEUE
-    WKWBUVJEWDEZWFBAVJUVNWEUVJEZWFWBUVJWDVKUVOWEVPEWFUVJVPWEVOVNNVEWEVPKUEUEUEU
-    MABVLVM $.
+    ( wn wa wo lea leo ax-a2 letr ancom lecom comcom2 comcom bctr wf ax-r2 bltr
+    ax-r1 lan 2or wi3 tb anor2 lbtr le3tr1 le2or oridm fh2 cbtr fh1 ran an4 dff
+    anor1 2an anidm an12 con2 an0 anandi coman1 an32 or0 lor oran con3 fh3 3tr2
+    anass df-i3 or32 dfb 3tr1 ) ACZBCZDZVNBDZAVNBEZDZEZEZVPVOADZBVOAEZDZEZEZDZA
+    BDZVPEZABUAZBAUAZDABUBVPVTWEDZEVPWHEWGWIWLWHVPWLVTWBDZVTWDDZEZWHWBVTWDWBBVN
+    EZCZVTBAUCZVTWQVTWPVTWPVTWPWPEWPVQWPVSWPVQVNWPVNBFVNVRWPVNBGVNBHUDIVRADZVRV
+    SWPVRAFZAVRJZBVNHZUEUFWPUGUDKLMNWBWQWDWRWDWQWDWPWDWPWDBWPBWCFZBVNGIKLMNUHWO
+    OWHEZWHWMOWNWHWMWBVTDZOVTWBJXEWBVQDZWBVSDZEZOWBVQVSWBWCCZVQWBWCWBWCWBVOWCVO
+    AFVOAGIKLVQXIVQBVNDZXIVNBJZBAUNPZRZUIWBVRCZVSWBAVODZXNVOAJZABUNPVSXNVSVRVSV
+    RVSWSVRXAWTQKLMNUJXHOOEOXFOXGOXFXOVQDZOWBXOVQXPUKXQAVNDZVOBDZDZOAVOVNBULXTO
+    ODZOYAXTOXROXSAUMZOBVODZXSBUMZBVOJPUOROUPPPPXGAWBVRDZDZOWBAVRUQYFAODZOYGYFO
+    YEAOWBWBCZDYEWBUMYHVRWBYHWPVRWBWPWRURXBPSPSRAUSZPPTOUGPPPWNWDVTDZWHVTWDJYJW
+    DVQDZWDVSDZEZWHVQWDVSVQXIWDXLWDXIWDWCWDWCWDWCBDWCBWCJWCBFQKLMNVQAVOEZCZVSAB
+    UCVSYOVSYNVSYNVSAYNAVRFZAVOGIKLMNUHYMYLYKEZWHYKYLHYQWHOEZWHYLWHYKOYLBADZWCV
+    RDDZWHBWCAVRULYTYSWCDZYSVRDZDZWHYSWCVRUTUUCYSYSDZWHUUAYSUUBYSUUAYSVODZYSADZ
+    EZYSYSVOAYSBBAVAZLYSWHABAJZABVANZUJUUGYSOEZYSUUGOYSEZUUKUUEOUUFYSUUEYCADZOB
+    AVOVBUUMAYCDZOYCAJUUNYGOYGUUNOYCAYDSRYIPPPUUFBAADZDYSBAAVIUUOABAUPSPTOYSHZP
+    YSVCZPPUUBYSVNDZYSBDZEZYSYSVNBYSAUUJLUUHUJUUTUUKYSUUTUULUUKUUROUUSYSUURBXRD
+    ZOBAVNVIUVABODZOUVBUVAOXRBYBSRBUSZPPUUSBBDZADYSBABVBUVDBABUPUKPTUUPPUUQPPUO
+    UUDYSWHYSUPUUIPPPPYKUVBOYKBWCVQDZDZUVBBWCVQVIUVBUVFOUVEBOWCXIDUVEWCUMXIVQWC
+    XMSPSRPUVCPTWHVCZPPPPTXDYRWHOWHHUVGPPPVDVPVTWEVPBAEZCZVTVPVOVNDZUVIVNVOJUVJ
+    UVHUVHUVJCBAVERVFPVTUVIVTUVHVTUVHVQBVSAVQXJBXKBVNFQYPUFKLMNVPABEZCZWEVPUVKU
+    VKVPCABVERVFWEUVLWEUVKWEUVKWBAWDBWBXOAXPAVOFQXCUFKLMNVGVPWHHVHWJWAWKWFWJVQV
+    PEVSEZWAABVJUVMVTVPEWAVQVPVSVKVTVPHPPWKWBUVJEWDEZWFBAVJUVNWEUVJEZWFWBUVJWDV
+    KUVOWEVPEWFUVJVPWEVOVNJVDWEVPHPPPUOABVLVM $.
     $( [5-Nov-97] $)
 
   $( Kalmbach implication OR builder. $)
@@ -3858,33 +3849,33 @@ $)
   $( Alternate definition for Kalmbach implication. $)
   df2i3 $p |- ( a ->3 b ) = ( ( a ' ^ b ' ) v ( ( a ' v b ) ^
                 ( a v ( a ' ^ b ) ) ) ) $=
-    ( wi3 wn wa wo df-i3 ax-a3 or12 coman1 comcom comcom2 comcom5 comorr fh4
-    lea leo letr df-le2 lan ancom ax-a2 ax-r2 lor ) ABCADZBEZUEBDEZFAUEBFZEZFZU
-    GUHAUFFZEZFZABGUJUFUGUIFFZUMUFUGUIHUNUGUFUIFZFUMUFUGUIIUOULUGUOUFAFZUFUHFZE
-    ZULAUFUHAUFUEUFUFUEUEBJKLMAUHUEUHUEBNLMOURUPUHEZULUQUHUPUFUHUFUEUHUEBPUEBQR
-    STUSUHUPEULUPUHUAUPUKUHUFAUBTUCUCUCUDUCUCUC $.
+    ( wi3 wn wa wo df-i3 ax-a3 coman1 comcom comcom2 comcom5 comorr fh4 lea leo
+    or12 letr lan ax-r2 df-le2 ancom ax-a2 lor ) ABCADZBEZUEBDEZFAUEBFZEZFZUGUH
+    AUFFZEZFZABGUJUFUGUIFFZUMUFUGUIHUNUGUFUIFZFUMUFUGUIQUOULUGUOUFAFZUFUHFZEZUL
+    AUFUHAUFUEUFUFUEUEBIJKLAUHUEUHUEBMKLNURUPUHEZULUQUHUPUFUHUFUEUHUEBOUEBPRUAS
+    USUHUPEULUPUHUBUPUKUHUFAUCSTTTUDTTT $.
     $( [7-Nov-97] $)
 
   $( Alternate Kalmbach conditional. $)
   dfi3b $p |- ( a ->3 b ) =
             ( ( a ' v b ) ^ ( ( a v ( a ' ^ b ' ) ) v ( a ' ^ b ) ) ) $=
-    ( wn wa wo wi3 ax-a2 ax-a3 oridm ax-r1 anidm ran anass ax-r2 lan an12 2or
-    lea leo letr df2le2 ancom comor1 comcom7 comor2 comcom2 com2an fh1 coman1
-    coman2 fh1r 3tr1 df-i3 com2or ) ACZBDZUOBCZDZEAUOBEZDZEZUSAUREZDZUSUPDZEZAB
-    FUSVBUPEDUOUPDZBUPDZEZUSADZUSURDZEZEZVKVHEVAVEVHVKGVAUPURUTEZEVLUPURUTHUPVH
-    VMVKUPUPUPEZVHVNUPUPIJUPVFUPVGUPUOUODZBDVFUOVOBVOUOUOKJLUOUOBMNUPUOBBDZDVGB
-    VPUOVPBBKJOUOBBPNQNVMVJVIEVKURVJUTVIURURUSDZVJVQURURUSURUOUSUOUQRUOBSTUAJUR
-    USUBNAUSUBQVJVIGNQNVCVKVDVHUSAURUSAUOBUCZUDZUSUOUQVRUSBUOBUEZUFUGZUHUPUOBUO
-    BUIUOBUJUKQULABUMUSVBUPUSAURVSWAUNUSUOBVRVTUGUHUL $.
+    ( wn wa wo wi3 ax-a2 ax-a3 oridm ax-r1 anidm ran anass ax-r2 lan 2or com2an
+    ancom fh1 3tr1 an12 lea leo letr df2le2 comor1 comcom7 comor2 coman1 coman2
+    comcom2 fh1r df-i3 com2or ) ACZBDZUOBCZDZEAUOBEZDZEZUSAUREZDZUSUPDZEZABFUSV
+    BUPEDUOUPDZBUPDZEZUSADZUSURDZEZEZVKVHEVAVEVHVKGVAUPURUTEZEVLUPURUTHUPVHVMVK
+    UPUPUPEZVHVNUPUPIJUPVFUPVGUPUOUODZBDVFUOVOBVOUOUOKJLUOUOBMNUPUOBBDZDVGBVPUO
+    VPBBKJOUOBBUANPNVMVJVIEVKURVJUTVIURURUSDZVJVQURURUSURUOUSUOUQUBUOBUCUDUEJUR
+    USRNAUSRPVJVIGNPNVCVKVDVHUSAURUSAUOBUFZUGZUSUOUQVRUSBUOBUHZUKQZSUPUOBUOBUIU
+    OBUJULPTABUMUSVBUPUSAURVSWAUNUSUOBVRVTQST $.
     $( [6-Aug-01] $)
 
   $( Alternate non-tollens conditional. $)
   dfi4b $p |- ( a ->4 b ) =
             ( ( a ' v b ) ^ ( ( b ' v ( b ^ a ' ) ) v ( b ^ a ) ) ) $=
-    ( wi4 wn wi3 wo wa i4i3 dfi3b ax-a2 ax-a1 ax-r5 ax-r2 ran lor 2an 2or or32
-    ax-r1 ) ABCBDZADZEZUABFZTBUAGZFZBAGZFZGZABHUBTDZUAFZTUIUADZGZFUIUAGZFZGZUHT
-    UAIUHUOUCUJUGUNUCBUAFUJUABJBUIUABKZLMUGTUMFZULFUNUEUQUFULUDUMTBUIUAUPNOBUIA
-    UKUPAKPQTUMULRMPSMM $.
+    ( wi4 wn wi3 wo wa i4i3 dfi3b ax-a2 ax-a1 ax-r5 ax-r2 ran lor 2an 2or ax-r1
+    or32 ) ABCBDZADZEZUABFZTBUAGZFZBAGZFZGZABHUBTDZUAFZTUIUADZGZFUIUAGZFZGZUHTU
+    AIUHUOUCUJUGUNUCBUAFUJUABJBUIUABKZLMUGTUMFZULFUNUEUQUFULUDUMTBUIUAUPNOBUIAU
+    KUPAKPQTUMULSMPRMM $.
     $( [6-Aug-01] $)
 
   $( Equivalence for Kalmbach implication. $)
@@ -3907,24 +3898,24 @@ $)
   $( Theorem for Kalmbach implication. $)
   oi3ai3 $p |- ( ( a ^ b ) v ( a ->3 b ) ' ) =
                  ( ( a v b ) ^ ( a ' ->3 b ' ) ) $=
-    ( wa wo wn wi3 lea leo letr lecom coman1 ancom bctr comcom2 com2an com2or
-    fh3 df-le2 ax-a3 ax-r1 ax-a2 ax-r5 ax-r2 2an ni32 lor i3n1 lan 3tr1 ) ABCZA
-    BDZABEZCZAEZAULDZCZDZCZDZUKUMUJDZUPDZCZUJABFEZDUKUNULFZCUSUJUKDZUJUQDZCVBUJ
-    UKUQUJUKUJAUKABGABHIZJUJUMUPUJAULABKZUJBUJBACBABLBAKMNZOUJUNUOUJAVHNUJAULVH
-    VIPOPQVEUKVFVAUJUKVGRVFUJUMDZUPDZVAVKVFUJUMUPSTVJUTUPUJUMUAUBUCUDUCVCURUJAB
-    UEUFVDVAUKABUGUHUI $.
+    ( wa wo wn wi3 lea leo letr lecom coman1 ancom comcom2 com2an com2or df-le2
+    bctr fh3 ax-a3 ax-r2 ax-r1 ax-a2 ax-r5 2an ni32 lor i3n1 lan 3tr1 ) ABCZABD
+    ZABEZCZAEZAULDZCZDZCZDZUKUMUJDZUPDZCZUJABFEZDUKUNULFZCUSUJUKDZUJUQDZCVBUJUK
+    UQUJUKUJAUKABGABHIZJUJUMUPUJAULABKZUJBUJBACBABLBAKQMZNUJUNUOUJAVHMUJAULVHVI
+    ONORVEUKVFVAUJUKVGPVFUJUMDZUPDZVAVKVFUJUMUPSUAVJUTUPUJUMUBUCTUDTVCURUJABUEU
+    FVDVAUKABUGUHUI $.
     $( [9-Nov-97] $)
 
   ${
     i3lem.1 $e |- ( a ->3 b ) = 1 $.
     $( Lemma for Kalmbach implication. $)
     i3lem1 $p |- ( ( a ' ^ b ) v ( a ' ^ b ' ) ) = a ' $=
-      ( wn wa wo wt coman1 comcom comorr comcom3 com2an fh1 anass ax-r1 anidm
-      ran ax-r2 anabs omlan 2or ax-a2 wi3 df2i3 lan an1 ) ADZBEZUGBDZEZFZUGGEZU
-      GUKUGUJUGBFZAUHFZEZFZEZULUQUKUQUGUJEZUGUOEZFZUKUGUJUOUJUGUGUIHIUGUMUNUGBJ
-      AUNAUHJKLMUTUJUHFUKURUJUSUHURUGUGEZUIEZUJVBURUGUGUINOVAUGUIUGPQRUSUGUMEZU
-      NEZUHVDUSUGUMUNNOVDUGUNEUHVCUGUNUGBSQABTRRUAUJUHUBRROUPGUGUPABUCZGVEUPABU
-      DOCRUERUGUFR $.
+      ( wn wa wo wt coman1 comcom comorr comcom3 com2an anass ax-r1 anidm ax-r2
+      fh1 ran anabs omlan 2or ax-a2 wi3 df2i3 lan an1 ) ADZBEZUGBDZEZFZUGGEZUGU
+      KUGUJUGBFZAUHFZEZFZEZULUQUKUQUGUJEZUGUOEZFZUKUGUJUOUJUGUGUIHIUGUMUNUGBJAU
+      NAUHJKLQUTUJUHFUKURUJUSUHURUGUGEZUIEZUJVBURUGUGUIMNVAUGUIUGORPUSUGUMEZUNE
+      ZUHVDUSUGUMUNMNVDUGUNEUHVCUGUNUGBSRABTPPUAUJUHUBPPNUPGUGUPABUCZGVEUPABUDN
+      CPUEPUGUFP $.
       $( [7-Nov-97] $)
 
     $( Lemma for Kalmbach implication. $)
@@ -3935,10 +3926,10 @@ $)
 
     $( Lemma for Kalmbach implication. $)
     i3lem3 $p |- ( ( a ' v b ) ^ b ' ) = ( a ' ^ b ' ) $=
-      ( wn wa wo omlan ancom ax-a2 ax-a3 ax-r1 i3lem1 lor orabs ax-r2 2or 3tr2
-      lan 3tr1 ) BDZBTADZEZFZEZUBUABFZTEZUATEZBUAGUFTUEEUDUETHUEUCTUEBUAFZUCUAB
-      IBUABEZUGFZFZBUIFZUGFZUHUCUMUKBUIUGJKUJUABABCLMULBUGUBULBBUAEZFBUIUNBUABH
-      MBUANOUATHZPQOROUOS $.
+      ( wn wa omlan ancom ax-a2 ax-a3 ax-r1 i3lem1 lor orabs ax-r2 2or 3tr2 lan
+      wo 3tr1 ) BDZBTADZEZRZEZUBUABRZTEZUATEZBUAFUFTUEEUDUETGUEUCTUEBUARZUCUABH
+      BUABEZUGRZRZBUIRZUGRZUHUCUMUKBUIUGIJUJUABABCKLULBUGUBULBBUAEZRBUIUNBUABGL
+      BUAMNUATGZOPNQNUOS $.
       $( [7-Nov-97] $)
 
     $( Lemma for Kalmbach implication. $)
@@ -3975,18 +3966,17 @@ $)
 
   $( Lemma 4 of Kalmbach p. 240. $)
   lem4 $p |- ( a ->3 ( a ->3 b ) ) = ( a ' v b ) $=
-    ( wi3 wn wa wo df-i3 lan lea le2or oridm lbtr lecom comcom comcom3 fh1 wf
-    ancom anass dff ax-r2 ax-r1 an0 3tr2 lor or0 df2le2 orordi orabs or32
-    ax-r5 ax-r4 oran con2 2or oml2 ax-a3 omln ) AABCZCADZUSEZUTUSDEZFZAUTUSFZEZ
-    FZUTBFZAUSGVFUTAVGEZFZVGVCUTVEVHVCUTBEZUTBDZEZFZVMDZUTEZFUTVAVMVBVOVAUTVMVH
-    FZEZVMUSVPUTABGZHVQUTVMEZUTVHEZFZVMUTVMVHVMUTVMUTVMUTUTFZUTVJUTVLUTUTBIUTVK
-    IJUTKZLZMNAVHVHAVHAAVGIMNOPWAVSQFZVMVTQVSUTAEZVGEVGWFEZVTQWFVGRUTAVGSWGVGQE
-    ZQWHWGQWFVGQAUTEWFATAUTRUAHUBVGUCUAUDUEWEVSVMVSUFVSVMUTEVMUTVMRVMUTWDUGUAUA
-    UAUAUAAUSFZDAVMFZDZVBVOWIWJWIAVPFZWJUSVPAVRUEWLWJAVHFZFZWJAVMVHUHWNWJAFZWJW
-    MAWJAVGUIUEWOAAFZVMFWJAVMAUJWPAVMAKUKUAUAUAUAULWIVBAUSUMUNWKUTVNEZVOWJWQAVM
-    UMUNUTVNRUAUDUOVMUTWDUPUAVDVGAVDVIVGVDUTVPFZVIUSVPUTVRUEWRUTVMFZVHFZVIWTWRU
-    TVMVHUQUBWSUTVHWSUTVJFZUTVLFZFZUTUTVJVLUHXCWBUTXAUTXBUTUTBUIUTVKUIUOWCUAUAU
-    KUAUAABURZUAHUOXDUAUA $.
+    ( wi3 wn wa wo df-i3 lan oridm lecom comcom wf ancom ax-r2 ax-r1 3tr2 orabs
+    lea lor 2or le2or lbtr comcom3 fh1 anass dff df2le2 orordi or32 ax-r5 ax-r4
+    an0 or0 oran con2 oml2 ax-a3 omln ) AABCZCADZUSEZUTUSDEZFZAUTUSFZEZFZUTBFZA
+    USGVFUTAVGEZFZVGVCUTVEVHVCUTBEZUTBDZEZFZVMDZUTEZFUTVAVMVBVOVAUTVMVHFZEZVMUS
+    VPUTABGZHVQUTVMEZUTVHEZFZVMUTVMVHVMUTVMUTVMUTUTFZUTVJUTVLUTUTBRUTVKRUAUTIZU
+    BZJKAVHVHAVHAAVGRJKUCUDWAVSLFZVMVTLVSUTAEZVGEVGWFEZVTLWFVGMUTAVGUEWGVGLEZLW
+    HWGLWFVGLAUTEWFAUFAUTMNHOVGULNPSWEVSVMVSUMVSVMUTEVMUTVMMVMUTWDUGNNNNNAUSFZD
+    AVMFZDZVBVOWIWJWIAVPFZWJUSVPAVRSWLWJAVHFZFZWJAVMVHUHWNWJAFZWJWMAWJAVGQSWOAA
+    FZVMFWJAVMAUIWPAVMAIUJNNNNUKWIVBAUSUNUOWKUTVNEZVOWJWQAVMUNUOUTVNMNPTVMUTWDU
+    PNVDVGAVDVIVGVDUTVPFZVIUSVPUTVRSWRUTVMFZVHFZVIWTWRUTVMVHUQOWSUTVHWSUTVJFZUT
+    VLFZFZUTUTVJVLUHXCWBUTXAUTXBUTUTBQUTVKQTWCNNUJNNABURZNHTXDNN $.
     $( [5-Nov-97] $)
 
   ${
@@ -4065,10 +4055,10 @@ $)
 
   $( Antecedent absorption. $)
   i3abs1 $p |- ( a ->3 ( a ->3 ( a ->3 b ) ) ) = ( a ->3 ( a ->3 b ) ) $=
-    ( wn wa wo wi3 orordi orabs 2or oridm ax-r2 ax-r5 ax-a3 omln 3tr2 lem4
-    df-i3 lor 3tr1 ) ACZTBDZTBCZDZEZATBEZDZEZEZUEAAABFZFZFZUJTUDEZUFETUFEUHUEUL
-    TUFULTUAEZTUCEZEZTTUAUCGUOTTETUMTUNTTBHTUBHITJKKLTUDUFMABNOUKTUIEUHAUIPUIUG
-    TABQRKABPS $.
+    ( wn wa wo wi3 orordi orabs 2or oridm ax-r2 ax-r5 ax-a3 omln 3tr2 df-i3 lor
+    lem4 3tr1 ) ACZTBDZTBCZDZEZATBEZDZEZEZUEAAABFZFZFZUJTUDEZUFETUFEUHUEULTUFUL
+    TUAEZTUCEZEZTTUAUCGUOTTETUMTUNTTBHTUBHITJKKLTUDUFMABNOUKTUIEUHAUIRUIUGTABPQ
+    KABRS $.
     $( [16-Nov-97] $)
 
   ${
@@ -4082,13 +4072,12 @@ $)
   $( Antecedent absorption. $)
   i3abs3 $p |- ( ( a ->3 b ) ->3 ( ( a ->3 b ) ->3 a ) ) =
               ( ( a ->3 b ) ->3 a ) $=
-    ( wi3 wn wo wa wt df-t lan an1 comi31 comcom comcom3 comcom4 fh1 3tr2
-    ax-r1 comid comcom2 wf ax-a2 dff ax-r5 or0 ax-r2 2or fh4 ran ancom lem4
-    df-i3 3tr1 ) ABCZDZAEZUNAFUNADZFEZUMUOFZEZUMUMACZCUTUSUOUSUNUMAFZEZUOUQUNUR
-    VAUNUQUNGFUNAUPEZFUNUQGVCUNAHIUNJUNAUPUMAAUMABKLZMUMAVDNOPQURUMUNFZVAEZVAUM
-    UNAUMUMUMRSZVDOTVAEVATEVFVATVAUATVEVAUMUBUCVAUDPUEUFVBUNUMEZUOFZUOUMUNAVGVD
-    UGVIUOGFZUOVIGUOFVJVHGUOVHUMUNEZGUNUMUAGVKUMHQUEUHGUOUIUEUOJUEUEUEQUMAUJUMA
-    UKUL $.
+    ( wi3 wn wo wa wt df-t lan an1 comi31 comcom comcom3 comcom4 fh1 3tr2 ax-r1
+    wf ax-a2 ax-r2 comid comcom2 dff ax-r5 or0 2or fh4 ancom lem4 df-i3 3tr1
+    ran ) ABCZDZAEZUNAFUNADZFEZUMUOFZEZUMUMACZCUTUSUOUSUNUMAFZEZUOUQUNURVAUNUQU
+    NGFUNAUPEZFUNUQGVCUNAHIUNJUNAUPUMAAUMABKLZMUMAVDNOPQURUMUNFZVAEZVAUMUNAUMUM
+    UMUAUBZVDORVAEVAREVFVARVASRVEVAUMUCUDVAUEPTUFVBUNUMEZUOFZUOUMUNAVGVDUGVIUOG
+    FZUOVIGUOFVJVHGUOVHUMUNEZGUNUMSGVKUMHQTULGUOUHTUOJTTTQUMAUIUMAUJUK $.
     $( [19-Nov-97] $)
 
   $( Commutative law for conjunction with Kalmbach implication. $)
@@ -4248,12 +4237,12 @@ $)
 
   $( Theorem for Kalmbach implication. $)
   i3th1 $p |- ( a ->3 ( a ->3 ( b ->3 a ) ) ) = 1 $=
-    ( wn wi3 wo wa wt df2i3 lor lem4 ax-a3 anor1 ax-a2 anor2 con2 ax-r1 ax-r2
-    ancom 2an oml5 orabs ax-r5 3tr2 df-t 3tr1 ) ACZBADZEUFBCZUFFZUHAEZBUHAFZEZF
-    ZEZEZAAUGDDGUGUNUFBAHIAUGJGUFUIEZUMEZUOUFBEZURCZEZUFUMEZGUQURAUHFZEUFBVBEZE
-    ZUTVAUFBVBKVBUSURABLIVDUFUFBFZEZUMEZVAVGVDVGUFVEUMEZEVDUFVEUMKVHVCUFVHVEVEC
-    ZVCFZEVCUMVJVEUJVIULVCUJAUHEZVIUHAMVIVKVEVKABNOPQUKVBBUHARISIUFBVBTQIQPVFUF
-    UMUFBUAUBQUCURUDUPUFUMUPUFUFUHFZEUFUIVLUFUHUFRIUFUHUAQUBUEUFUIUMKQUE $.
+    ( wn wi3 wo wa wt df2i3 lor ax-a3 anor1 ax-a2 anor2 ax-r1 ax-r2 ancom orabs
+    lem4 ax-r5 3tr1 con2 2an oml5 3tr2 df-t ) ACZBADZEUFBCZUFFZUHAEZBUHAFZEZFZE
+    ZEZAAUGDDGUGUNUFBAHIAUGRGUFUIEZUMEZUOUFBEZURCZEZUFUMEZGUQURAUHFZEUFBVBEZEZU
+    TVAUFBVBJVBUSURABKIVDUFUFBFZEZUMEZVAVGVDVGUFVEUMEZEVDUFVEUMJVHVCUFVHVEVECZV
+    CFZEVCUMVJVEUJVIULVCUJAUHEZVIUHALVIVKVEVKABMUANOUKVBBUHAPIUBIUFBVBUCOIONVFU
+    FUMUFBQSOUDURUEUPUFUMUPUFUFUHFZEUFUIVLUFUHUFPIUFUHQOSTUFUIUMJOT $.
     $( [16-Nov-97] $)
 
   $( Theorem for Kalmbach implication. $)
@@ -4299,26 +4288,25 @@ $)
   $( Theorem for Kalmbach implication. $)
   i3con $p |- ( ( a ->3 b ) ->3 ( ( a ->3 b ) ->3 ( b ' ->3 a ' ) ) )
               = 1 $=
-    ( wi3 wn wo wt wa ni32 i3n1 2or ax-a2 comor2 comor1 comcom2 com2an com2or
-    fh4 ax-a3 or12 ancom lea bltr leo letr df-le2 lor orabs ax-r2 comcom
-    comcom3 comorr df-t ax-r1 or1 ax-r5 or4 2an an1 coman2 anor1 con2 coman1
-    anor2 df-a 3tr1 i0i3 ) ABCZBDZADZCZVGDZVJEZFFGZFVLABEZAVHGZVIAVHEZGZEZGZBVI
-    GZBAGZEZVHBVIEZGZEZEZVMVKVSVJWEABHBAIJWFWEVSEZVMVSWEKWGWEVNEZWEVREZGVMVNWEV
-    RVNWBWDVNVTWAVNBVIABLZVNAABMZNZOVNBAWJWKOPVNVHWCVNBWJNZVNBVIWJWLPOPVNVOVQVN
-    AVHWKWMOVNVIVPWLVNAVHWKWMPOPQWHFWIFWHWBWDVNEZEZFWBWDVNRWOWDWBVNEZEZFWBWDVNS
-    WQWNFWPVNWDWPVTWAVNEZEZVNVTWAVNRWSVTVNEZVNWRVNVTWAVNWAAVNWAABGABATABUAUBABU
-    CUDUEUFWTVNVTEZVNVTVNKXAABVTEZEVNABVTRXBBABVIUGUFUHUHUHUHUFWNVNWDEZFWDVNKXC
-    VNVHEZVNWCEZGZFVHVNWCBVNVNBWJUIUJBWCBVIUKUJZQXFVMFXDFXEFXDABVHEZEZFABVHRXIA
-    FEFXHFAFXHBULUMUFAUNUHUHXEBAEZWCEZFVNXJWCABKUOXKBBEZAVIEZEZFBABVIUPXNXLFEFX
-    MFXLFXMAULUMUFXLUNUHUHUHUQFURZUHUHUHUHUHUHWIWBWDVREZEZFWBWDVRRXQWAVIBGZEZVH
-    VQEZEZFWBXSXPXTWBWAVTEXSVTWAKVTXRWABVITUFUHXPWDVOEZVQEZXTYCXPWDVOVQRUMYBVHV
-    QYBVOWDEZVHWDVOKYDVOVHEZVOWCEZGZVHVHVOWCVOVHAVHUSUIXGQYGVHFGVHYEVHYFFYEVHVO
-    EZVHVOVHKYHVHVHAGZEVHVOYIVHAVHTUFVHAUGUHUHYFVOVODZEZFWCYJVOWCVIBEZYJBVIKYJY
-    LVOYLABUTVAUMUHUFFYKVOULUMUHUQVHURUHUHUHUOUHJYAWAVHEZXRVQEZEZFWAXRVHVQUPYOY
-    MVIEZFYNVIYMYNXRVIEZXRVPEZGZVIVIXRVPXRVIVIBVBUIAVPAVHUKUJQYSVIFGVIYQVIYRFYQ
-    VIXREVIXRVIKVIBUGUHYRXRXRDZEZFVPYTXRYTVPXRVPABVCVAUMUFFUUAXRULUMUHUQVIURUHU
-    HUFWAVHVIEZEWAWADZEYPFUUBUUCWAUUCUUBWAUUBBAVDVAUMUFWAVHVIRWAULVEUHUHUHUHUQU
-    HUHUHXOUHVF $.
+    ( wn wo wt ax-a2 com2an com2or fh4 ax-a3 ancom lor orabs ax-r2 comcom3 df-t
+    wa comcom ax-r1 2an wi3 ni32 i3n1 2or comor2 comcom2 or12 lea bltr leo letr
+    comor1 df-le2 comorr or1 ax-r5 or4 coman2 anor1 con2 coman1 anor2 df-a 3tr1
+    an1 i0i3 ) ABUAZBCZACZUAZVGCZVJDZEEQZEVLABDZAVHQZVIAVHDZQZDZQZBVIQZBAQZDZVH
+    BVIDZQZDZDZVMVKVSVJWEABUBBAUCUDWFWEVSDZVMVSWEFWGWEVNDZWEVRDZQVMVNWEVRVNWBWD
+    VNVTWAVNBVIABUEZVNAABULZUFZGVNBAWJWKGHVNVHWCVNBWJUFZVNBVIWJWLHGHVNVOVQVNAVH
+    WKWMGVNVIVPWLVNAVHWKWMHGHIWHEWIEWHWBWDVNDZDZEWBWDVNJWOWDWBVNDZDZEWBWDVNUGWQ
+    WNEWPVNWDWPVTWAVNDZDZVNVTWAVNJWSVTVNDZVNWRVNVTWAVNWAAVNWAABQABAKABUHUIABUJU
+    KUMLWTVNVTDZVNVTVNFXAABVTDZDVNABVTJXBBABVIMLNNNNLWNVNWDDZEWDVNFXCVNVHDZVNWC
+    DZQZEVHVNWCBVNVNBWJROBWCBVIUNOZIXFVMEXDEXEEXDABVHDZDZEABVHJXIAEDEXHEAEXHBPS
+    LAUONNXEBADZWCDZEVNXJWCABFUPXKBBDZAVIDZDZEBABVIUQXNXLEDEXMEXLEXMAPSLXLUONNN
+    TEVEZNNNNNNWIWBWDVRDZDZEWBWDVRJXQWAVIBQZDZVHVQDZDZEWBXSXPXTWBWAVTDXSVTWAFVT
+    XRWABVIKLNXPWDVODZVQDZXTYCXPWDVOVQJSYBVHVQYBVOWDDZVHWDVOFYDVOVHDZVOWCDZQZVH
+    VHVOWCVOVHAVHURRXGIYGVHEQVHYEVHYFEYEVHVODZVHVOVHFYHVHVHAQZDVHVOYIVHAVHKLVHA
+    MNNYFVOVOCZDZEWCYJVOWCVIBDZYJBVIFYJYLVOYLABUSUTSNLEYKVOPSNTVHVENNNUPNUDYAWA
+    VHDZXRVQDZDZEWAXRVHVQUQYOYMVIDZEYNVIYMYNXRVIDZXRVPDZQZVIVIXRVPXRVIVIBVARAVP
+    AVHUNOIYSVIEQVIYQVIYREYQVIXRDVIXRVIFVIBMNYRXRXRCZDZEVPYTXRYTVPXRVPABVBUTSLE
+    UUAXRPSNTVIVENNLWAVHVIDZDWAWACZDYPEUUBUUCWAUUCUUBWAUUBBAVCUTSLWAVHVIJWAPVDN
+    NNNTNNNXONVF $.
     $( [9-Nov-97] $)
 
   $( Lemma for Kalmbach implication OR builder. $)
@@ -4336,9 +4324,9 @@ $)
 
   $( Lemma for Kalmbach implication OR builder. $)
   i3orlem3 $p |- c =< ( ( a v c ) ->3 ( b v c ) ) $=
-    ( wo wn wa wi3 ax-a2 lan anabs ax-r2 ax-r1 leor lelor le2an bltr i3orlem1
-    letr ) CACDZSEZBCDZDZFZSUAGCCTCDZFZUCUECUECCTDZFCUDUFCTCHICTJKLCSUDUBCAMCUA
-    TCBMNOPABCQR $.
+    ( wo wn wi3 ax-a2 lan anabs ax-r2 ax-r1 leor lelor le2an bltr i3orlem1 letr
+    wa ) CACDZSEZBCDZDZRZSUAFCCTCDZRZUCUECUECCTDZRCUDUFCTCGHCTIJKCSUDUBCALCUATC
+    BLMNOABCPQ $.
     $( [11-Nov-97] $)
 
   $( Lemma for Kalmbach implication OR builder. $)
@@ -4366,21 +4354,21 @@ $)
   $( Lemma for Kalmbach implication OR builder. $)
   i3orlem7 $p |- ( a ^ b ' ) =<
          ( ( a ->3 b ) ' v ( ( a v c ) ->3 ( b v c ) ) ) $=
-    ( wn wa wo wi3 lea leo letr ler2an ler i3n1 lan comor1 comor2 comcom2
-    com2an com2or fh1 ax-r2 ax-r1 lbtr i3orlem6 ) ABDZEZABFZADZUEGZEZACFBCFGZFZ
-    ABGDUKFZUFUJUKUFUGUFABEZFZEZUGUHAUEFZEZEZFZUJUFUPUSUFUGUOUFAUGAUEHABIJUFUNI
-    KLUJUTUJUGUOURFZEUTUIVAUGABMNUGUOURUGUFUNUGAUEABOZUGBABPZQZRUGABVBVCRSUGUHU
-    QUGAVBQUGAUEVBVDSRTUAUBUCLUMULABCUDUBUC $.
+    ( wn wa wo wi3 lea leo letr ler2an ler i3n1 lan comor1 comcom2 com2an ax-r1
+    com2or lbtr comor2 fh1 ax-r2 i3orlem6 ) ABDZEZABFZADZUEGZEZACFBCFGZFZABGDUK
+    FZUFUJUKUFUGUFABEZFZEZUGUHAUEFZEZEZFZUJUFUPUSUFUGUOUFAUGAUEHABIJUFUNIKLUJUT
+    UJUGUOURFZEUTUIVAUGABMNUGUOURUGUFUNUGAUEABOZUGBABUAZPZQUGABVBVCQSUGUHUQUGAV
+    BPUGAUEVBVDSQUBUCRTLUMULABCUDRT $.
     $( [11-Nov-97] $)
 
   $( Lemma for Kalmbach implication OR builder. $)
   i3orlem8 $p |- ( ( ( a v b ) ^ ( a v b ' ) ) ^ a ' ) =<
          ( ( a ->3 b ) ' v ( ( a v c ) ->3 ( b v c ) ) ) $=
-    ( wo wn wa wi3 anass ancom lan ax-r2 leor bltr i3n1 comor1 comor2 comcom2
-    com2an com2or fh1 ax-r1 lbtr ler i3orlem6 ) ABDZABEZDZFAEZFZUEUHUFGZFZACDBC
-    DGZDZABGEULDZUIUKULUIUEAUFFZABFZDZFZUEUHUGFZFZDZUKUIUTVAUIUEUGUHFZFUTUEUGUH
-    HVBUSUEUGUHIJKUTURLMUKVAUKUEUQUSDZFVAUJVCUEABNJUEUQUSUEUOUPUEAUFABOZUEBABPZ
-    QZRUEABVDVERSUEUHUGUEAVDQUEAUFVDVFSRTKUAUBUCUNUMABCUDUAUB $.
+    ( wo wn wa wi3 anass ancom lan ax-r2 leor bltr comor1 comcom2 com2an com2or
+    i3n1 ax-r1 lbtr comor2 fh1 ler i3orlem6 ) ABDZABEZDZFAEZFZUEUHUFGZFZACDBCDG
+    ZDZABGEULDZUIUKULUIUEAUFFZABFZDZFZUEUHUGFZFZDZUKUIUTVAUIUEUGUHFZFUTUEUGUHHV
+    BUSUEUGUHIJKUTURLMUKVAUKUEUQUSDZFVAUJVCUEABRJUEUQUSUEUOUPUEAUFABNZUEBABUAZO
+    ZPUEABVDVEPQUEUHUGUEAVDOUEAUFVDVFQPUBKSTUCUNUMABCUDST $.
     $( [11-Nov-97] $)
 
 $(
@@ -4392,161 +4380,156 @@ $)
   $( Lemma for unified disjunction. $)
   ud1lem1 $p |- ( ( a ->1 b ) ->1 ( b ->1 a ) ) =
               ( a v ( a ' ^ b ' ) ) $=
-    ( wi1 wn wa wo df-i1 ud1lem0c 2an 2or ancom lor lan coman1 comcom2 coman2
-    fh3r ax-r1 ax-r2 or12 comcom comorr comcom5 fh4r wt orabs df-a df-t an1
-    ax-a2 ) ABCZBACZCUKDZUKULEZFZAADZBDZEZFZUKULGUOAUPUQFZEZUPABEZFZUQBAEZFZEZF
-    ZUSUMVAUNVFABHUKVCULVEABGBAGIJVGVAURVBFZFZUSVFVHVAVFVCUQVBFZEZVHVEVJVCVDVBU
-    QBAKLMVHVKVBUPUQVBAABNZOVBBABPOQRSLVIURVAVBFZFZUSVAURVBTVNURAVBFZUTVBFZEZFZ
-    USVMVQURAVBUTVBAVLUAAUTUPUTUPUQUBOUCUDLVRURAFUSVQAURVQAUEEAVOAVPUEABUFVPUTU
-    TDZFZUEVBVSUTABUGLUEVTUTUHRSIAUISLURAUJSSSSSS $.
+    ( wi1 wn wa df-i1 ud1lem0c 2an 2or ancom lor lan coman1 comcom2 coman2 fh3r
+    wo ax-r1 ax-r2 wt or12 comcom comorr comcom5 fh4r orabs df-a df-t an1 ax-a2
+    ) ABCZBACZCUKDZUKULEZQZAADZBDZEZQZUKULFUOAUPUQQZEZUPABEZQZUQBAEZQZEZQZUSUMV
+    AUNVFABGUKVCULVEABFBAFHIVGVAURVBQZQZUSVFVHVAVFVCUQVBQZEZVHVEVJVCVDVBUQBAJKL
+    VHVKVBUPUQVBAABMZNVBBABONPRSKVIURVAVBQZQZUSVAURVBUAVNURAVBQZUTVBQZEZQZUSVMV
+    QURAVBUTVBAVLUBAUTUPUTUPUQUCNUDUEKVRURAQUSVQAURVQATEAVOAVPTABUFVPUTUTDZQZTV
+    BVSUTABUGKTVTUTUHRSHAUISKURAUJSSSSSS $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud1lem2 $p |- ( ( a v ( a ' ^ b ' ) ) ->1 a ) = ( a v b ) $=
-    ( wn wa wo wi1 df-i1 comid comcom3 comor1 fh3 wt ancom ax-a2 df-t ax-r1
-    ax-r2 lan an1 oran ax-r4 con2 ax-r5 oml 3tr ) AACZBCDZEZAFUHCZUHADEUIUHEZUI
-    AEZDZABEZUHAGUIUHAUHUHUHHIUHAAUGJIKULUKUJDUKLDZUMUJUKMUJLUKUJUHUIEZLUIUHNLU
-    OUHOPQRUNUKUFUMDZAEZUMUKSUIUPAUHUPUHUFUGCZDZCUPCAUGTUSUPURUMUFUMURABTPRUAQU
-    BUCUQAUPEUMUPANABUDQUEUEUE $.
+    ( wn wa wo wi1 df-i1 comid comcom3 comor1 fh3 wt ancom ax-a2 df-t ax-r1 lan
+    ax-r2 oran 3tr an1 ax-r4 con2 ax-r5 oml ) AACZBCDZEZAFUHCZUHADEUIUHEZUIAEZD
+    ZABEZUHAGUIUHAUHUHUHHIUHAAUGJIKULUKUJDUKLDZUMUJUKMUJLUKUJUHUIEZLUIUHNLUOUHO
+    PRQUNUKUFUMDZAEZUMUKUAUIUPAUHUPUHUFUGCZDZCUPCAUGSUSUPURUMUFUMURABSPQUBRUCUD
+    UQAUPEUMUPANABUERTTT $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud1lem3 $p |- ( ( a ->1 b ) ->1 ( a v b ) ) = ( a v b ) $=
-    ( wi1 wo wn wa df-i1 ud1lem0c con3 ran 2or comid comcom2 comor1 comor2
-    com2or com2an comcom fh3 ancom wt df-t ax-r1 lan an1 comorr comcom5 fh4r
-    ax-a2 or4 lor or1 ax-r2 ax-a3 oridm ax-r5 ) ABCZABDZCUQEZUQURFZDZURUQURGVAA
-    AEZBEZDZFZVEEZURFZDZURUSVEUTVGABHZUQVFURUQVEVIIJKVHVEVFDZVEURDZFZURVEVFURVE
-    VEVELMURVEURAVDABNZURVBVCURAVMMURBABOMPQRSVLVKVJFZURVJVKTVNVKUAFZURVJUAVKUA
-    VJVEUBUCUDVOVKURVKUEVKAURDZVDURDZFZURAURVDABUFAVDVBVDVBVCUFMUGUHVRVPUAFZURV
-    QUAVPVQURVDDZUAVDURUIVTAVBDZBVCDZDZUAABVBVCUJWCWAUADUAWBUAWAUAWBBUBUCUKWAUL
-    UMUMUMUDVSVPURVPUEVPAADZBDZURWEVPAABUNUCWDABAUOUPUMUMUMUMUMUMUMUMUMUM $.
+    ( wi1 wo wn wa df-i1 ud1lem0c con3 ran 2or comid comcom2 df-t ax-r1 lan an1
+    wt comorr ax-r2 comor1 comor2 com2or com2an comcom ancom comcom5 fh4r ax-a2
+    fh3 or4 lor or1 ax-a3 oridm ax-r5 ) ABCZABDZCUQEZUQURFZDZURUQURGVAAAEZBEZDZ
+    FZVEEZURFZDZURUSVEUTVGABHZUQVFURUQVEVIIJKVHVEVFDZVEURDZFZURVEVFURVEVEVELMUR
+    VEURAVDABUAZURVBVCURAVMMURBABUBMUCUDUEUJVLVKVJFZURVJVKUFVNVKRFZURVJRVKRVJVE
+    NOPVOVKURVKQVKAURDZVDURDZFZURAURVDABSAVDVBVDVBVCSMUGUHVRVPRFZURVQRVPVQURVDD
+    ZRVDURUIVTAVBDZBVCDZDZRABVBVCUKWCWARDRWBRWARWBBNOULWAUMTTTPVSVPURVPQVPAADZB
+    DZURWEVPAABUNOWDABAUOUPTTTTTTTTTT $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud2lem1 $p |- ( ( a ->2 b ) ->2 ( b ->2 a ) ) =
               ( a v ( a ' ^ b ' ) ) $=
-    ( wi2 wn wa wo df-i2 ud2lem0c 2an 2or wf ancom lor dff oran ax-r1 lan
-    ax-r2 anandir ax-a2 ran or0 ) ABCZBACZCUDUCDZUDDZEZFZAADZBDZEZFZUCUDGUHAUJU
-    IEZFZUJABFZEZUIBAFZEZEZFZULUDUNUGUSBAGUEUPUFURABHBAHIJUTULKFULUNULUSKUMUKAU
-    JUILMKUSKUMUQEZUSKUMUMDZEVAUMNVBUQUMUQVBBAOPQRVAUJUQEZUREUSUJUIUQSVCUPURUQU
-    OUJBATQUARRPJULUBRRR $.
+    ( wi2 wn wa wo df-i2 ud2lem0c 2an 2or wf ancom lor dff oran ax-r1 lan ax-r2
+    anandir ax-a2 ran or0 ) ABCZBACZCUDUCDZUDDZEZFZAADZBDZEZFZUCUDGUHAUJUIEZFZU
+    JABFZEZUIBAFZEZEZFZULUDUNUGUSBAGUEUPUFURABHBAHIJUTULKFULUNULUSKUMUKAUJUILMK
+    USKUMUQEZUSKUMUMDZEVAUMNVBUQUMUQVBBAOPQRVAUJUQEZUREUSUJUIUQSVCUPURUQUOUJBAT
+    QUARRPJULUBRRR $.
     $( [22-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud2lem2 $p |- ( ( a v ( a ' ^ b ' ) ) ->2 a ) = ( a v b ) $=
-    ( wn wa wo wi2 df-i2 oran con2 ax-r1 lor anor2 con3 ax-r2 ran an32 anidm
-    oml ) AACZBCDZEZAFAUACZSDZEZABEZUAAGUDASUEDZEUEUCUFAUCUAAEZCZUFUHUCUGUCUAAH
-    IZJUHUCUFUIUCUFSDZUFUBUFSUAUFUAAUECZEZUFCTUKAUKTUETABHIJKULUFUFULCAUELJMNIO
-    UJSSDZUEDUFSUESPUMSUESQONNNNKABRNN $.
+    ( wn wa wi2 df-i2 oran con2 ax-r1 lor anor2 con3 ax-r2 ran an32 anidm oml
+    wo ) AACZBCDZRZAEAUACZSDZRZABRZUAAFUDASUEDZRUEUCUFAUCUAARZCZUFUHUCUGUCUAAGH
+    ZIUHUCUFUIUCUFSDZUFUBUFSUAUFUAAUECZRZUFCTUKAUKTUETABGHIJULUFUFULCAUEKILMHNU
+    JSSDZUEDUFSUESOUMSUESPNMMMMJABQMM $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud2lem3 $p |- ( ( a ->2 b ) ->2 ( a v b ) ) = ( a v b ) $=
-    ( wi2 wo wn wa df-i2 ud2lem0c ran lor coman2 comcom comid comcom2 fh3 wt
-    ancom df-t ax-r1 2an an1 orabs ax-r2 ) ABCZABDZCUEUDEZUEEZFZDZUEUDUEGUIUEBE
-    ZUEFZUGFZDZUEUHULUEUFUKUGABHIJUMUEUKDZUEUGDZFZUEUEUKUGUKUEUJUEKLUEUEUEMNOUP
-    UEUEUJFZDZPFZUEUNURUOPUKUQUEUJUEQJPUOUERSTUSURUEURUAUEUJUBUCUCUCUCUC $.
+    ( wi2 wo wn wa df-i2 ud2lem0c ran lor coman2 comcom comid comcom2 fh3 ancom
+    wt df-t ax-r1 ax-r2 2an an1 orabs ) ABCZABDZCUEUDEZUEEZFZDZUEUDUEGUIUEBEZUE
+    FZUGFZDZUEUHULUEUFUKUGABHIJUMUEUKDZUEUGDZFZUEUEUKUGUKUEUJUEKLUEUEUEMNOUPUEU
+    EUJFZDZQFZUEUNURUOQUKUQUEUJUEPJQUOUERSUAUSURUEURUBUEUJUCTTTTT $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud3lem1a $p |- ( ( a ->3 b ) ' ^ ( b ->3 a ) ) = ( a ^ b ' ) $=
-    ( wi3 wn wa wo ud3lem0c df-i3 2an comor2 comor1 com2an comcom2 com2or
-    comcom comanr2 comcom3 coman2 coman1 comanr1 comcom6 fh2 wf comcom7 anass
-    ancom ax-a2 anabs ax-r2 lan lea leo ler2an letr df2le2 an32 oran ax-r1
-    con3 dff an0 ran an0r 2or or0 fh2r or0r anor1 ) ABCDZBACZEABDZFZABFZEZADZAV
-    KEZFZEZVKAEZVKVOEZFZBVKAFZEZFZEZVPVIVRVJWDABGBAHIWEVRWAEZVRWCEZFZVPWAVRWCWA
-    VNVQWAVLVMVLWAVLVSVTVLVKAAVKJZAVKKZLVLVKVOWIVLAWJMLNOVMWAVMVSVTVMVKAVMBABJM
-    ZABKZLVMVKVOWKVMAWLMLNOLWAVOVPVOWAVOVSVTAVSVKAPQVKVOPNOVPWAVPVSVTVPVKAAVKRZ
-    AVKSZLVPVKVOWMVPAWNMZLNONLWABWBBWABVSVTBVSVKATUABVTVKVOTUANOWBWAWBVSVTWBVKA
-    VKAKZVKAJZLWBVKVOWPWBAWQMLNOLUBWHVPUCFZVPWFVPWGUCWFVRVSEZVRVTEZFZVPVSVRVTVS
-    VNVQVSVLVMVSAVKVKARZVKASZNVSABXBVSBXCUDNLVSVOVPVSAXBMZVSAVKXBXCLNLVSVKVOXCX
-    DLUBXAWRVPWSVPWTUCWSVNVQVSEZEZVPVNVQVSUEXFVNVPEZVPXEVPVNXEVSVQEZVPVQVSUFXHV
-    PVPVOFZEVPVSVPVQXIVKAUFVOVPUGZIVPVOUHUIUIUJXGVPVNEVPVNVPUFVPVNVPAVNAVKUKAVL
-    VMAVKULABULUMUNUOUIUIUIWTVNVTEZVQEZUCVNVQVTUPXLUCVQEUCXKUCVQXKVLVMVTEZEZUCV
-    LVMVTUEXNVLUCEUCXMUCVLXMBAFZXODZEZUCVMXOVTXPABUGVTXOXOVTDBAUQURUSIUCXQXOUTU
-    RUIUJVLVAUIUIVBVQVCUIUIVDVPVEZUIUIWGVNVQWCEZEZUCVNVQWCUEXTVNUCEUCXSUCVNXSVQ
-    BEZWBEZUCYBXSVQBWBUEURYBBVOEZWBEZUCYAYCWBYAXIBEZYCVQXIBXJVBYEVPBEZVOBEZFZYC
-    VPBVOVPBWMUDWOVFYHUCYCFYCYFUCYGYCYFAVKBEZEZUCAVKBUEYJAUCEUCYIUCAYIBVKEZUCVK
-    BUFUCYKBUTURUIUJAVAUIUIVOBUFVDYCVGUIUIUIVBYDYCYCDZEZUCWBYLYCWBYCYCWBDBAVHUR
-    USUJUCYMYCUTURUIUIUIUJVNVAUIUIVDXRUIUIUI $.
+    ( wn wa wo 2an comor2 comor1 com2an comcom2 com2or comcom anass ancom ax-r2
+    wf lan ax-r1 dff an0 ud3lem0c comanr2 comcom3 coman2 coman1 comanr1 comcom6
+    wi3 df-i3 fh2 comcom7 ax-a2 anabs lea leo ler2an letr df2le2 an32 oran con3
+    ran an0r 2or or0 fh2r or0r anor1 ) ABUHCZBAUHZDABCZEZABEZDZACZAVKDZEZDZVKAD
+    ZVKVODZEZBVKAEZDZEZDZVPVIVRVJWDABUABAUIFWEVRWADZVRWCDZEZVPWAVRWCWAVNVQWAVLV
+    MVLWAVLVSVTVLVKAAVKGZAVKHZIVLVKVOWIVLAWJJIKLVMWAVMVSVTVMVKAVMBABGJZABHZIVMV
+    KVOWKVMAWLJIKLIWAVOVPVOWAVOVSVTAVSVKAUBUCVKVOUBKLVPWAVPVSVTVPVKAAVKUDZAVKUE
+    ZIVPVKVOWMVPAWNJZIKLKIWABWBBWABVSVTBVSVKAUFUGBVTVKVOUFUGKLWBWAWBVSVTWBVKAVK
+    AHZVKAGZIWBVKVOWPWBAWQJIKLIUJWHVPPEZVPWFVPWGPWFVRVSDZVRVTDZEZVPVSVRVTVSVNVQ
+    VSVLVMVSAVKVKAUDZVKAUEZKVSABXBVSBXCUKKIVSVOVPVSAXBJZVSAVKXBXCIKIVSVKVOXCXDI
+    UJXAWRVPWSVPWTPWSVNVQVSDZDZVPVNVQVSMXFVNVPDZVPXEVPVNXEVSVQDZVPVQVSNXHVPVPVO
+    EZDVPVSVPVQXIVKANVOVPULZFVPVOUMOOQXGVPVNDVPVNVPNVPVNVPAVNAVKUNAVLVMAVKUOABU
+    OUPUQUROOOWTVNVTDZVQDZPVNVQVTUSXLPVQDPXKPVQXKVLVMVTDZDZPVLVMVTMXNVLPDPXMPVL
+    XMBAEZXOCZDZPVMXOVTXPABULVTXOXOVTCBAUTRVAFPXQXOSROQVLTOOVBVQVCOOVDVPVEZOOWG
+    VNVQWCDZDZPVNVQWCMXTVNPDPXSPVNXSVQBDZWBDZPYBXSVQBWBMRYBBVODZWBDZPYAYCWBYAXI
+    BDZYCVQXIBXJVBYEVPBDZVOBDZEZYCVPBVOVPBWMUKWOVFYHPYCEYCYFPYGYCYFAVKBDZDZPAVK
+    BMYJAPDPYIPAYIBVKDZPVKBNPYKBSROQATOOVOBNVDYCVGOOOVBYDYCYCCZDZPWBYLYCWBYCYCW
+    BCBAVHRVAQPYMYCSROOOQVNTOOVDXROOO $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud3lem1b $p |- ( ( a ->3 b ) ' ^ ( b ->3 a ) ' ) = 0 $=
-    ( wi3 wn wa wo wf ud3lem0c 2an an32 an12 comor2 comcom7 comor1 comcom2
-    com2an fh1 ancom ax-a2 lan ax-r2 anabs anor1 dff ax-r1 2or or0 anass ran
-    anidm fh1r oran ) ABCDZBACDZEABDZFZABFZEZADZAUOEZFZEZBUSFZBAFZEZUOBUSEZFZEZ
-    EZGUMVBUNVHABHBAHIVIURVHEZVAEZGURVAVHJVKUOVDEZVCEZVAEZGVJVMVAVJUPVHEZUQEZVM
-    UPUQVHJVPUOVCEZVDEZUQEZVMVOVRUQVOVEUPVGEZEZVRUPVEVGKWAVEUOEZVRVTUOVEVTUPUOE
-    ZUPVFEZFZUOUPUOVFAUOLZUPBUSUPBWFMUPAAUONOPQWEUOGFUOWCUOWDGWCUOUOAFZEZUOWCUO
-    UPEWHUPUORUPWGUOAUOSZTUAUOAUBUAWDWGWGDZEZGUPWGVFWJWIBAUCIGWKWGUDUEUAUFUOUGU
-    AUATWBUOVEEZVRVEUORVRWLUOVCVDUHUEUAUAUAUIVSVRVDEZVMUQVDVRABSTWMVQVDVDEZEZVM
-    VQVDVDUHWOVRVMWNVDVQVDUJTUOVCVDJUAUAUAUAUAUIVNVLVCVAEZEZGVLVCVAUHWQVLUSEZGW
-    PUSVLWPUSBFZVAEZUSVCWSVABUSSUIWTVAWSEZUSWSVARXAUSWSEZUTWSEZFZUSWSUSUTUSBNZW
-    SAUOWSAXEMWSBUSBLOPUKXDUSGFUSXBUSXCGUSBUBXCWSUTEZGUTWSRXFWSWSDZEZGUTXGWSABU
-    CTGXHWSUDUEUAUAUFUSUGUAUAUAUATWRUOUSEZVDEZGUOVDUSJXJXIXIDZEZGVDXKXIBAULTGXL
-    XIUDUEUAUAUAUAUAUAUA $.
+    ( wi3 wn wa wo ud3lem0c 2an an32 comor2 comcom7 ancom ax-a2 lan ax-r2 ax-r1
+    wf dff anass ran an12 comor1 comcom2 com2an fh1 anabs anor1 anidm fh1r oran
+    2or or0 ) ABCDZBACDZEABDZFZABFZEZADZAUOEZFZEZBUSFZBAFZEZUOBUSEZFZEZEZQUMVBU
+    NVHABGBAGHVIURVHEZVAEZQURVAVHIVKUOVDEZVCEZVAEZQVJVMVAVJUPVHEZUQEZVMUPUQVHIV
+    PUOVCEZVDEZUQEZVMVOVRUQVOVEUPVGEZEZVRUPVEVGUAWAVEUOEZVRVTUOVEVTUPUOEZUPVFEZ
+    FZUOUPUOVFAUOJZUPBUSUPBWFKUPAAUOUBUCUDUEWEUOQFUOWCUOWDQWCUOUOAFZEZUOWCUOUPE
+    WHUPUOLUPWGUOAUOMZNOUOAUFOWDWGWGDZEZQUPWGVFWJWIBAUGHQWKWGRPOUKUOULOONWBUOVE
+    EZVRVEUOLVRWLUOVCVDSPOOOTVSVRVDEZVMUQVDVRABMNWMVQVDVDEZEZVMVQVDVDSWOVRVMWNV
+    DVQVDUHNUOVCVDIOOOOOTVNVLVCVAEZEZQVLVCVASWQVLUSEZQWPUSVLWPUSBFZVAEZUSVCWSVA
+    BUSMTWTVAWSEZUSWSVALXAUSWSEZUTWSEZFZUSWSUSUTUSBUBZWSAUOWSAXEKWSBUSBJUCUDUIX
+    DUSQFUSXBUSXCQUSBUFXCWSUTEZQUTWSLXFWSWSDZEZQUTXGWSABUGNQXHWSRPOOUKUSULOOOON
+    WRUOUSEZVDEZQUOVDUSIXJXIXIDZEZQVDXKXIBAUJNQXLXIRPOOOOOOO $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud3lem1c $p |- ( ( a ->3 b ) ' v ( b ->3 a ) ) = ( a v b ' ) $=
-    ( wi3 wn wo wa ud3lem0c df-i3 2or coman2 coman1 com2or comcom7 com2an
-    comcom comorr2 comcom6 comor2 comor1 comorr comcom3 fh4r wt comcom2 ax-a2
-    lea lel2or leor letr lear lbtr df-le2 ax-r2 or12 ax-a3 ax-r1 ancom oran
-    df-t lor or1 ax-r5 or1r 2an an1 fh4 ran an1r anor1 ) ABCDZBACZEABDZEZABEZFZ
-    ADZAVLFZEZFZVLAFZVLVPFZEZBVLAEZFZEZEZVMVJVSVKWEABGBAHIWFVOWEEZVRWEEZFZVMVOW
-    EVRVOWBWDVOVTWAVTVOVTVMVNVTAVLVLAJZVLAKZLVTABWJVTBWKMLNOWAVOWAVMVNWAAVLWAAV
-    LVPJMZVLVPKZLWAABWLWABWMMLNOLVOBWCBVOBVMVNBVMAVLPQABPNOWCVOWCVMVNWCAVLVLARZ
-    VLASZLWCABWNWCBWOMZLNONLVOVPVQVPVOVPVMVNAVMAVLTUAAVNABTUANOVQVOVQVMVNVQAVLA
-    VLKZAVLJZLVQABWQVQBWRMLNOLUBWIVMUCFZVMWGVMWHUCWGVMWEEZVNWEEZFZVMVMWEVNVMWBW
-    DVMVTWAVMVLAAVLRZAVLSZNVMVLVPXCVMAXDUDNLVMBWCVMBXCMZVMVLAXCXDLNLVMABXDXELUB
-    XBWSVMWTVMXAUCWTWEVMEVMVMWEUEWEVMWBVMWDWBVLVMVTVLWAVLAUFVLVPUFUGVLAUHUIWDWC
-    VMBWCUJVLAUEUKUGULUMXAWBVNWDEEZUCVNWBWDUNXFWBVNEZWDEZUCXHXFWBVNWDUOUPXHUCWD
-    EUCXGUCWDXGVTWAVNEZEZUCVTWAVNUOXJVTUCEUCXIUCVTXIVPVLFZXKDZEZUCWAXKVNXLVLVPU
-    QABURIUCXMXKUSUPUMUTVTVAUMUMVBWDVCUMUMUMVDVMVEZUMUMWHWBVRWDEZEZUCVRWBWDUNXP
-    WBUCEUCXOUCWBXOVQVPEZWCBFZEZUCVRXQWDXRVPVQUEBWCUQIXSVQVPXREZEZUCVQVPXRUOYAV
-    QVPBEZEZUCXTYBVQXTVPWCEZYBFZYBWCVPBWCAWNUDWPVFYEUCYBFYBYDUCYBYDWCVPEZUCVPWC
-    UEYFVLAVPEZEZUCVLAVPUOYHVLUCEUCYGUCVLUCYGAUSUPUTVLVAUMUMUMVGYBVHUMUMUTYCYBV
-    QEZUCVQYBUEYIYBYBDZEZUCVQYJYBABVIUTUCYKYBUSUPUMUMUMUMUMUTWBVAUMUMVDXNUMUMUM
-    $.
+    ( wn wo wa 2or coman2 coman1 com2or comcom7 com2an comcom ax-a2 ax-r2 ax-a3
+    wt ax-r1 df-t lor or1 ud3lem0c comorr2 comcom6 comor2 comor1 comorr comcom3
+    wi3 df-i3 fh4r comcom2 lea lel2or leor letr lear lbtr or12 ancom oran ax-r5
+    df-le2 or1r 2an an1 fh4 ran an1r anor1 ) ABUHCZBAUHZDABCZDZABDZEZACZAVLEZDZ
+    EZVLAEZVLVPEZDZBVLADZEZDZDZVMVJVSVKWEABUABAUIFWFVOWEDZVRWEDZEZVMVOWEVRVOWBW
+    DVOVTWAVTVOVTVMVNVTAVLVLAGZVLAHZIVTABWJVTBWKJIKLWAVOWAVMVNWAAVLWAAVLVPGJZVL
+    VPHZIWAABWLWABWMJIKLIVOBWCBVOBVMVNBVMAVLUBUCABUBKLWCVOWCVMVNWCAVLVLAUDZVLAU
+    EZIWCABWNWCBWOJZIKLKIVOVPVQVPVOVPVMVNAVMAVLUFUGAVNABUFUGKLVQVOVQVMVNVQAVLAV
+    LHZAVLGZIVQABWQVQBWRJIKLIUJWIVMPEZVMWGVMWHPWGVMWEDZVNWEDZEZVMVMWEVNVMWBWDVM
+    VTWAVMVLAAVLUDZAVLUEZKVMVLVPXCVMAXDUKKIVMBWCVMBXCJZVMVLAXCXDIKIVMABXDXEIUJX
+    BWSVMWTVMXAPWTWEVMDVMVMWEMWEVMWBVMWDWBVLVMVTVLWAVLAULVLVPULUMVLAUNUOWDWCVMB
+    WCUPVLAMUQUMVBNXAWBVNWDDDZPVNWBWDURXFWBVNDZWDDZPXHXFWBVNWDOQXHPWDDPXGPWDXGV
+    TWAVNDZDZPVTWAVNOXJVTPDPXIPVTXIVPVLEZXKCZDZPWAXKVNXLVLVPUSABUTFPXMXKRQNSVTT
+    NNVAWDVCNNNVDVMVEZNNWHWBVRWDDZDZPVRWBWDURXPWBPDPXOPWBXOVQVPDZWCBEZDZPVRXQWD
+    XRVPVQMBWCUSFXSVQVPXRDZDZPVQVPXROYAVQVPBDZDZPXTYBVQXTVPWCDZYBEZYBWCVPBWCAWN
+    UKWPVFYEPYBEYBYDPYBYDWCVPDZPVPWCMYFVLAVPDZDZPVLAVPOYHVLPDPYGPVLPYGARQSVLTNN
+    NVGYBVHNNSYCYBVQDZPVQYBMYIYBYBCZDZPVQYJYBABVISPYKYBRQNNNNNSWBTNNVDXNNNN $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud3lem1d $p |- ( ( a ->3 b ) ^ ( ( a ->3 b ) ' v ( b ->3 a ) ) ) =
               ( ( a ' ^ b ' ) v ( a ^ ( a ' v b ) ) ) $=
-    ( wi3 wn wo wa df-i3 ud3lem1c 2an comor1 comcom2 comor2 comcom7 com2an
-    com2or fh1r an32 anabs ran ax-r2 2or wf ancom anor2 lan dff ax-r1 lear
-    leor letr df2le2 or0r ax-r5 ) ABCZUNDBACEZFADZBFZUPBDZFZEZAUPBEZFZEZAUREZFZ
-    USVBEZUNVCUOVDABGABHIVEUTVDFZVBVDFZEZVFVDUTVBVDUQUSVDUPBVDAAURJZKZVDBAURLZM
-    ZNZVDUPURVKVLNZOVDAVAVJVDUPBVKVMONPVIUQVDFZUSVDFZEZVBEVFVGVRVHVBVDUQUSVNVOP
-    VHAVDFZVAFVBAVAVDQVSAVAAURRSTUAVRUSVBVRUBUSEUSVPUBVQUSVPVDUQFZUBUQVDUCVTVDV
-    DDZFZUBUQWAVDABUDUEUBWBVDUFUGTTUSVDUSURVDUPURUHURAUIUJUKUAUSULTUMTTT $.
+    ( wi3 wn wo wa df-i3 ud3lem1c 2an comor1 comcom2 comor2 comcom7 com2an fh1r
+    com2or an32 ax-r2 2or wf anabs ran ancom anor2 lan dff ax-r1 lear leor letr
+    df2le2 or0r ax-r5 ) ABCZUNDBACEZFADZBFZUPBDZFZEZAUPBEZFZEZAUREZFZUSVBEZUNVC
+    UOVDABGABHIVEUTVDFZVBVDFZEZVFVDUTVBVDUQUSVDUPBVDAAURJZKZVDBAURLZMZNZVDUPURV
+    KVLNZPVDAVAVJVDUPBVKVMPNOVIUQVDFZUSVDFZEZVBEVFVGVRVHVBVDUQUSVNVOOVHAVDFZVAF
+    VBAVAVDQVSAVAAURUAUBRSVRUSVBVRTUSEUSVPTVQUSVPVDUQFZTUQVDUCVTVDVDDZFZTUQWAVD
+    ABUDUETWBVDUFUGRRUSVDUSURVDUPURUHURAUIUJUKSUSULRUMRRR $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud3lem1 $p |- ( ( a ->3 b ) ->3 ( b ->3 a ) ) =
               ( a v ( a ' ^ b ' ) ) $=
-    ( wi3 wn wa wo df-i3 wf ud3lem1a ud3lem1b 2or or0 ax-r2 ud3lem1d coman1
-    comcom2 coman2 comcom7 com2or fh3 wt ax-a2 orabs anor1 lor df-t ax-r1 2an
-    an1 or12 3tr1 ) ABCZBACZCULDZUMEZUNUMDEZFZULUNUMFEZFZAADZBDZEZFZULUMGUSAVAE
-    ZVBAUTBFZEZFZFZVCUQVDURVGUQVDHFVDUOVDUPHABIABJKVDLMABNKVBVDVFFZFVBAFVHVCVIA
-    VBVIVDAFZVDVEFZEZAVDAVEAVAOZVDUTBVDAVMPVDBAVAQRSTVLAUAEAVJAVKUAVJAVDFAVDAUB
-    AVAUCMVKVEVDFZUAVDVEUBVNVEVEDZFZUAVDVOVEABUDUEUAVPVEUFUGMMUHAUIMMUEVDVBVFUJ
-    AVBUBUKMM $.
+    ( wi3 wn wa wo df-i3 wf ud3lem1a ud3lem1b 2or ax-r2 ud3lem1d coman1 comcom2
+    or0 coman2 wt ax-a2 lor comcom7 com2or fh3 orabs anor1 df-t ax-r1 or12 3tr1
+    2an an1 ) ABCZBACZCULDZUMEZUNUMDEZFZULUNUMFEZFZAADZBDZEZFZULUMGUSAVAEZVBAUT
+    BFZEZFZFZVCUQVDURVGUQVDHFVDUOVDUPHABIABJKVDPLABMKVBVDVFFZFVBAFVHVCVIAVBVIVD
+    AFZVDVEFZEZAVDAVEAVANZVDUTBVDAVMOVDBAVAQUAUBUCVLAREAVJAVKRVJAVDFAVDASAVAUDL
+    VKVEVDFZRVDVESVNVEVEDZFZRVDVOVEABUETRVPVEUFUGLLUJAUKLLTVDVBVFUHAVBSUILL $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud3lem2 $p |- ( ( a v ( a ' ^ b ' ) ) ->3 a ) = ( a v b ) $=
-    ( wn wa wo wi3 oran ax-r1 con3 lor anor2 ax-r2 ud3lem0b df-i3 ax-a3 ax-a2
-    wf ax-a1 ran an32 anidm ax-r5 2an oml lan comorr comcom2 fh2r anabs ancom
-    dff 2or or0 anass an0 ) AACZBCDZEZAFUPABEZDZCZAFZUSURVAAURAUSCZEZVAUQVCAUQU
-    SUSUQCABGHIJVDUTUTVDCAUSKHIZLMVBVACZADZVFUPDZEVAVFAEZDZEZUSVAANVKVGVHVJEZEZ
-    USVGVHVJOVMVLVGEZUSVGVLPVNUSQEUSVLUSVGQVLAUTEZUSVLUTAEZVOVHUTVJAVHUTUPDZUTV
-    QVHUTVFUPUTRZSHVQUPUPDZUSDUTUPUSUPTVSUPUSUPUASLLVJVDVPDZAVTVJVDVAVPVIVEUTVF
-    AVRUBUCHVTVDUSDZAVPUSVDVPVOUSUTAPZABUDZLUEWAAUSDZVCUSDZEZAAUSVCABUFZAUSWGUG
-    UHWFAQEAWDAWEQABUIWEUSVCDZQVCUSUJQWHUSUKHLULAUMLLLLULWBLWCLVGAVFDZQVFAUJWIA
-    UTDZQWJWIUTVFAVRUEHWJAUPDZUSDZQWLWJAUPUSUNHWLUSWKDZQWKUSUJWMUSQDZQWNWMQWKUS
-    AUKUEHUSUOLLLLLULUSUMLLLLL $.
+    ( wn wa wo wi3 oran ax-r1 con3 lor anor2 ax-r2 ax-a2 wf ran lan dff 2or or0
+    ancom ud3lem0b df-i3 ax-a3 ax-a1 an32 anidm ax-r5 2an oml comorr fh2r anabs
+    comcom2 anass an0 ) AACZBCDZEZAFUPABEZDZCZAFZUSURVAAURAUSCZEZVAUQVCAUQUSUSU
+    QCABGHIJVDUTUTVDCAUSKHIZLUAVBVACZADZVFUPDZEVAVFAEZDZEZUSVAAUBVKVGVHVJEZEZUS
+    VGVHVJUCVMVLVGEZUSVGVLMVNUSNEUSVLUSVGNVLAUTEZUSVLUTAEZVOVHUTVJAVHUTUPDZUTVQ
+    VHUTVFUPUTUDZOHVQUPUPDZUSDUTUPUSUPUEVSUPUSUPUFOLLVJVDVPDZAVTVJVDVAVPVIVEUTV
+    FAVRUGUHHVTVDUSDZAVPUSVDVPVOUSUTAMZABUIZLPWAAUSDZVCUSDZEZAAUSVCABUJZAUSWGUM
+    UKWFANEAWDAWENABULWEUSVCDZNVCUSTNWHUSQHLRASLLLLRWBLWCLVGAVFDZNVFATWIAUTDZNW
+    JWIUTVFAVRPHWJAUPDZUSDZNWLWJAUPUSUNHWLUSWKDZNWKUSTWMUSNDZNWNWMNWKUSAQPHUSUO
+    LLLLLRUSSLLLLL $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
@@ -4571,151 +4554,146 @@ $)
   $( Lemma for unified disjunction. $)
   ud3lem3d $p |- ( ( a ->3 b ) ^ ( ( a ->3 b ) ' v ( a v b ) ) ) =
               ( ( a ' ^ b ) v ( a ^ ( a ' v b ) ) ) $=
-    ( wi3 wn wo wa df-i3 ud3lem3c 2an comor1 comcom2 comor2 com2an com2or fh1r
-    coman1 comcom7 coman2 fh2r wf lear leor letr df2le2 oran lan dff ax-r1
-    ax-r2 2or or0 ax-r5 lea leo lor ) ABCZUPDABEZEZFADZBFZUSBDZFZEZAUSBEZFZEZUQ
-    FZUTVEEZUPVFURUQABGABHIVGVCUQFZVEUQFZEZVHUQVCVEUQUTVBUQUSBUQAABJZKZABLZMUQU
-    SVAVMUQBVNKMNUQAVDVLUQUSBVMVNNMOVKUTVJEVHVIUTVJVIUTUQFZVBUQFZEZUTUTUQVBUTAB
-    UTAUSBPZQUSBRZNUTUSVAVRUTBVSKMSVQUTTEUTVOUTVPTUTUQUTBUQUSBUABAUBUCUDVPVBVBD
-    ZFZTUQVTVBABUEUFTWAVBUGUHUIUJUTUKUIUIULVJVEUTVEUQVEAUQAVDUMABUNUCUDUOUIUIUI
-    $.
+    ( wi3 wn wo wa ud3lem3c 2an comor1 comcom2 comor2 com2an com2or fh1r coman1
+    df-i3 wf letr df2le2 ax-r2 comcom7 coman2 fh2r lear leor oran lan dff ax-r1
+    2or or0 ax-r5 lea leo lor ) ABCZUPDABEZEZFADZBFZUSBDZFZEZAUSBEZFZEZUQFZUTVE
+    EZUPVFURUQABPABGHVGVCUQFZVEUQFZEZVHUQVCVEUQUTVBUQUSBUQAABIZJZABKZLUQUSVAVMU
+    QBVNJLMUQAVDVLUQUSBVMVNMLNVKUTVJEVHVIUTVJVIUTUQFZVBUQFZEZUTUTUQVBUTABUTAUSB
+    OZUAUSBUBZMUTUSVAVRUTBVSJLUCVQUTQEUTVOUTVPQUTUQUTBUQUSBUDBAUERSVPVBVBDZFZQU
+    QVTVBABUFUGQWAVBUHUITUJUTUKTTULVJVEUTVEUQVEAUQAVDUMABUNRSUOTTT $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud3lem3 $p |- ( ( a ->3 b ) ->3 ( a v b ) ) = ( a v b ) $=
-    ( wi3 wo wn wa df-i3 wf ud3lem3a ud3lem0c ax-r2 ud3lem3b 2or or0 ud3lem3d
-    coman1 comcom7 coman2 comcom2 com2or com2an comcom comorr comor1 comor2
-    comcom3 fh4r wt ax-a3 ax-r1 anor2 lor df-t ax-r5 or1r ax-a2 lear leor letr
-    lea leo lel2or df-le2 2an an1r or12 df-a anor1 ax-r4 or1 an1 ) ABCZABDZCVLE
-    ZVMFZVNVMEFZDZVLVNVMDFZDZVMVLVMGVSABEZDZVMFZAEZAVTFZDZFZWCBFZAWCBDZFZDZDZVM
-    VQWFVRWJVQWFHDWFVOWFVPHVOVNWFABIABJKABLMWFNKABOMWKWBWJDZWEWJDZFZVMWBWJWEWBW
-    GWIWGWBWGWAVMWGAVTWGAWCBPQZWGBWCBRZSTWGABWOWPTUAUBWBAWHAWBAWAVMAVTUCZABUCZU
-    AUBWHWBWHWAVMWHAVTWHAWCBUDQZWHBWCBUEZSTWHABWSWTTUAUBUATWBWCWDWCWBWCWAVMAWAW
-    QUFAVMWRUFUAUBWDWBWDWAVMWDAVTAVTPZAVTRZTWDABXAWDBXBQTUAUBTUGWNVMUHFVMWLVMWM
-    UHWLWAWJDZVMWJDZFZVMWAWJVMWAWGWIWAWCBWAAAVTUDZSZWABAVTUEQZUAWAAWHXFWAWCBXGX
-    HTUATWAABXFXHTUGXEUHVMFVMXCUHXDVMXCWAWGDZWIDZUHXJXCWAWGWIUIUJXJUHWIDUHXIUHW
-    IXIWAWAEZDZUHWGXKWAABUKULUHXLWAUMUJKUNWIUOKKXDWJVMDVMVMWJUPWJVMWGVMWIWGBVMW
-    CBUQBAURUSWIAVMAWHUTABVAUSVBVCKVDVMVEKKWMWGWEWIDZDZUHWEWGWIVFXNWGUHDUHXMUHW
-    GXMWEWEEZDZUHWIXOWEWIWCWHEZDZEXOAWHVGXRWEXQWDWCWDXQABVHUJULVIKULUHXPWEUMUJK
-    ULWGVJKKVDVMVKKKKK $.
+    ( wi3 wo wn wa ax-r2 2or coman1 comcom7 coman2 comcom2 com2or com2an comcom
+    wf comorr wt ax-r1 lor df-i3 ud3lem3a ud3lem0c ud3lem3b or0 ud3lem3d comor1
+    comor2 comcom3 fh4r ax-a3 anor2 df-t ax-r5 or1r ax-a2 lear leor letr lel2or
+    lea leo df-le2 2an an1r or12 df-a anor1 ax-r4 or1 an1 ) ABCZABDZCVLEZVMFZVN
+    VMEFZDZVLVNVMDFZDZVMVLVMUAVSABEZDZVMFZAEZAVTFZDZFZWCBFZAWCBDZFZDZDZVMVQWFVR
+    WJVQWFPDWFVOWFVPPVOVNWFABUBABUCGABUDHWFUEGABUFHWKWBWJDZWEWJDZFZVMWBWJWEWBWG
+    WIWGWBWGWAVMWGAVTWGAWCBIJZWGBWCBKZLMWGABWOWPMNOWBAWHAWBAWAVMAVTQZABQZNOWHWB
+    WHWAVMWHAVTWHAWCBUGJZWHBWCBUHZLMWHABWSWTMNONMWBWCWDWCWBWCWAVMAWAWQUIAVMWRUI
+    NOWDWBWDWAVMWDAVTAVTIZAVTKZMWDABXAWDBXBJMNOMUJWNVMRFVMWLVMWMRWLWAWJDZVMWJDZ
+    FZVMWAWJVMWAWGWIWAWCBWAAAVTUGZLZWABAVTUHJZNWAAWHXFWAWCBXGXHMNMWAABXFXHMUJXE
+    RVMFVMXCRXDVMXCWAWGDZWIDZRXJXCWAWGWIUKSXJRWIDRXIRWIXIWAWAEZDZRWGXKWAABULTRX
+    LWAUMSGUNWIUOGGXDWJVMDVMVMWJUPWJVMWGVMWIWGBVMWCBUQBAURUSWIAVMAWHVAABVBUSUTV
+    CGVDVMVEGGWMWGWEWIDZDZRWEWGWIVFXNWGRDRXMRWGXMWEWEEZDZRWIXOWEWIWCWHEZDZEXOAW
+    HVGXRWEXQWDWCWDXQABVHSTVIGTRXPWEUMSGTWGVJGGVDVMVKGGGG $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud4lem1a $p |- ( ( a ->4 b ) ^ ( b ->4 a ) ) =
               ( ( a ^ b ) v ( a ' ^ b ' ) ) $=
-    ( wi4 wa wn wo df-i4 2an coman2 comcom com2or coman1 comcom2 comcom5
-    com2an comcom3 fh2r wf ancom 2or ax-a2 ran lan fh1 an4 dff ax-r1 an0 ax-r2
-    lor fh3 or0 3tr2 an12 an32 anass anor2 con3 fh2 lea lecon lelan oran anor1
-    con2 ax-r4 le3tr1 le0 lebi leo le2an df2le2 ) ABCZBACZDABDZAEZBDZFZVPBFZBEZ
-    DZFZBADZVTADZFZVTAFZVPDZFZDZVOVPVTDZFZVMWBVNWHABGBAGHWIVRWHDZWAWHDZFWKVRWHW
-    AVRWEWGVRWCWDVRBABVRBVOVQVOBABIZJZVQBVPBIJZKJZAVRAVOVQVOAABLZJZAVQVPVQVQVPV
-    PBLJZMNKJZOVRVTAVTVRVTVOVQBVOWOPBVQWPPKJZXAOKVRWFVPVRVTAXBXAKVPVRVPVOVQAVOW
-    SPWTKJZOKVRVSVTVRVPBXCWQKVRBWQMZOQWLVOWMWJWLVORFZVOWLVRVOAVTDZFZAVTFZVPDZFZ
-    DZXEWHXJVRWEXGWGXIWCVOWDXFBASVTASZTWFXHVPVTAUAUBTUCXKVRXGDZVRXIDZFXEVRXGXIV
-    RVOXFVRABXAWQOVRAVTXAXBOKVRXHVPVRAVTXAXDKXCOUDXMVOXNRVOVQXFDZFXEXMVOXORVOXO
-    VPADZBVTDZDZRVPBAVTUEXRXPRDRXQRXPRXQBUFUGUCXPUHUIUIUJVOVQXFVOVPBVOAWRMZWNOZ
-    VOAVTWRVOBWNMZOUKVOULZUMXNVOXIDZVQXIDZFZRVOXIVQVOXHVPVOAVTWRYAKXSOXTQYERRFR
-    YCRYDRYCXHVOVPDZDZRVOXHVPUNYGXHRDRYFRXHYFAVPDZBDZRABVPUOYIBYHDZRYHBSYJBRDRY
-    HRBRYHAUFUGUCBUHUIUIUIUCXHUHUIUIVQXHDZVPDVPYKDZYDRYKVPSVQXHVPUPYLVPRDRYKRVP
-    YKVQVQEZDZRXHYMVQXHVQVQXHEABUQUGURUCRYNVQUFUGUIUCVPUHUIUMTRULUIUITUIUIYBUIW
-    MWAWEDZWAWGDZFZWJWEWAWGWEVSVTWEVPBVPWEAWEAWCWDWCABAIJZWDAVTAIJZKZPJBWEBWCWD
-    WCBBALJZBWDVTWDWDVTVTALJZMNKJKVTWEVTWCWDBWCUUAPUUBKJZOWEWFVPWEVTAUUCAWEYTJK
-    VPWEVPWCWDAWCYRPAWDYSPKJOUSYQRWJFZWJYORYPWJYORWAVSWCEZDZEZDWAWAEZDYORUUGUUH
-    WAWAUUFVTUUEVSWCBBAUTVAVBVAVBWEUUGWAWEWDWCFZUUGWCWDUAUUIWDEZUUEDZEUUGWDWCVC
-    UUKUUFUUJVSUUEWDVSWDXFVSEXLABVDUIVEUBVFUIUIUCWAUFVGYOVHVIYPVSWFDZVTVPDZDZWJ
-    VSVTWFVPUEUUNUUMWJUUNUUMUULDZUUMUULUUMSUUOUUMWFVSDZDUUMUULUUPUUMVSWFSUCUUMU
-    UPVTWFVPVSVTAVJVPBVJVKVLUIUIVTVPSUIUITUUDWJRFWJRWJUAWJULUIUIUITUIUI $.
+    ( wa wn wo coman2 comcom com2or coman1 comcom2 com2an comcom3 ancom 2or lan
+    wf dff ax-r1 an0 ax-r2 wi4 df-i4 2an comcom5 fh2r ax-a2 ran fh1 an4 lor fh3
+    or0 3tr2 an12 an32 anass anor2 con3 fh2 lecon lelan oran anor1 ax-r4 le3tr1
+    lea con2 le0 lebi leo le2an df2le2 ) ABUAZBAUAZCABCZADZBCZEZVPBEZBDZCZEZBAC
+    ZVTACZEZVTAEZVPCZEZCZVOVPVTCZEZVMWBVNWHABUBBAUBUCWIVRWHCZWAWHCZEWKVRWHWAVRW
+    EWGVRWCWDVRBABVRBVOVQVOBABFZGZVQBVPBFGZHGZAVRAVOVQVOAABIZGZAVQVPVQVQVPVPBIG
+    ZJUDHGZKVRVTAVTVRVTVOVQBVOWOLBVQWPLHGZXAKHVRWFVPVRVTAXBXAHVPVRVPVOVQAVOWSLW
+    THGZKHVRVSVTVRVPBXCWQHVRBWQJZKUEWLVOWMWJWLVOPEZVOWLVRVOAVTCZEZAVTEZVPCZEZCZ
+    XEWHXJVRWEXGWGXIWCVOWDXFBAMVTAMZNWFXHVPVTAUFUGNOXKVRXGCZVRXICZEXEVRXGXIVRVO
+    XFVRABXAWQKVRAVTXAXBKHVRXHVPVRAVTXAXDHXCKUHXMVOXNPVOVQXFCZEXEXMVOXOPVOXOVPA
+    CZBVTCZCZPVPBAVTUIXRXPPCPXQPXPPXQBQROXPSTTUJVOVQXFVOVPBVOAWRJZWNKZVOAVTWRVO
+    BWNJZKUKVOULZUMXNVOXICZVQXICZEZPVOXIVQVOXHVPVOAVTWRYAHXSKXTUEYEPPEPYCPYDPYC
+    XHVOVPCZCZPVOXHVPUNYGXHPCPYFPXHYFAVPCZBCZPABVPUOYIBYHCZPYHBMYJBPCPYHPBPYHAQ
+    ROBSTTTOXHSTTVQXHCZVPCVPYKCZYDPYKVPMVQXHVPUPYLVPPCPYKPVPYKVQVQDZCZPXHYMVQXH
+    VQVQXHDABUQRUROPYNVQQRTOVPSTUMNPULTTNTTYBTWMWAWECZWAWGCZEZWJWEWAWGWEVSVTWEV
+    PBVPWEAWEAWCWDWCABAFGZWDAVTAFGZHZLGBWEBWCWDWCBBAIGZBWDVTWDWDVTVTAIGZJUDHGHV
+    TWEVTWCWDBWCUUALUUBHGZKWEWFVPWEVTAUUCAWEYTGHVPWEVPWCWDAWCYRLAWDYSLHGKUSYQPW
+    JEZWJYOPYPWJYOPWAVSWCDZCZDZCWAWADZCYOPUUGUUHWAWAUUFVTUUEVSWCBBAVFUTVAUTVAWE
+    UUGWAWEWDWCEZUUGWCWDUFUUIWDDZUUECZDUUGWDWCVBUUKUUFUUJVSUUEWDVSWDXFVSDXLABVC
+    TVGUGVDTTOWAQVEYOVHVIYPVSWFCZVTVPCZCZWJVSVTWFVPUIUUNUUMWJUUNUUMUULCZUUMUULU
+    UMMUUOUUMWFVSCZCUUMUULUUPUUMVSWFMOUUMUUPVTWFVPVSVTAVJVPBVJVKVLTTVTVPMTTNUUD
+    WJPEWJPWJUFWJULTTTNTT $.
     $( [24-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud4lem1b $p |- ( ( a ->4 b ) ' ^ ( b ->4 a ) ) =
               ( a ^ b ' ) $=
-    ( wi4 wn wa wo ud4lem0c df-i4 2an coman2 comcom2 coman1 com2or comcom
-    comor2 comor1 com2an comcom3 comcom5 fh2 wf an32 ax-a2 df-a dff ax-r1
-    ax-r2 ran ancom an0 lea leor letr lear leo ler2an bltr df2le2 3tr1 2or or0
-    anass fh2r an12 lan anor1 ) ABCDZBACZEADZBDZFZAVJFZEZAVJEZBFZEZBAEZVJAEZFZV
-    JAFZVIEZFZEZVNVGVPVHWBABGBAHIWCVPVSEZVPWAEZFZVNVSVPWAVSVMVOVSVKVLVKVSVKVQVR
-    VQVKVQVIVJVQABAJZKVQBBALZKZMZNVRVKVRVIVJVRAVJAJZKVJALZMNMNVLVSVLVQVRVQVLVQA
-    VJWGWIMZNVLVJAAVJOAVJPQMNQVSVNBVNVSVNVQVRVNBAVNBVNVJAVJJZRSZAVJLZQVNVJAWNWP
-    QMNBVSBVQVRVQBWHNBVRVJVRVRVJWLNKSMNMQVSVTVIVTVSVTVQVRVTBAVTBVTVJVJAPZRSVJAO
-    ZQVTVJAWQWRQMNVSAAVSAVQVRVQAWGNVRAWKNMNKQTWFVNUAFZVNWDVNWEUAWDVPVQEZVPVREZF
-    ZVNVQVPVRVQVMVOVQVKVLWJWMQVQVNBVQAVJWGWIQWHMQVQVJAWIWGQTXBWSVNXBUAVNFWSWTUA
-    XAVNWTVMVQEZVOEZUAVMVOVQUBXDUAVOEZUAXCUAVOXCVKVQEZVLEZUAVKVLVQUBXGUAVLEZUAX
-    FUAVLXFVJVIFZXIDZEZUAVKXIVQXJVIVJUCBAUDIUAXKXIUEUFUGUHXHVLUAEUAUAVLUIVLUJUG
-    UGUGUHXEVOUAEUAUAVOUIVOUJUGUGUGVRVPEVRXAVNVRVPVRVMVOVRVKVLVRVJVKVJAUKVJVIUL
-    UMVRAVLVJAUNAVJUOUMUPVRVNVOVJAUIVNBUOUQUPURVPVRUIAVJUIUSUTUAVNUCUGVNVAZUGUG
-    WEVMVOWAEZEZUAVMVOWAVBXNVMUAEUAXMUAVMXMVNWAEZBWAEZFZUAVNWABVNVTVIVNVJAWNWPM
-    VNAWPKQWOVCXQUAUAFUAXOUAXPUAXOVTVNVIEZEZUAVNVTVIVDXSVTUAEUAXRUAVTXRAVIEZVJE
-    ZUAAVJVIUBYAVJXTEZUAXTVJUIYBVJUAEUAXTUAVJUAXTAUEUFVEVJUJUGUGUGVEVTUJUGUGVTB
-    VIEZEVTVTDZEXPUAYCYDVTBAVFVEBVTVIVDVTUEUSUTUAVAUGUGVEVMUJUGUGUTXLUGUGUG $.
+    ( wn wa wo coman2 comcom2 coman1 com2or comcom com2an comcom5 wf an32 ax-r2
+    dff ancom an0 2or lan wi4 ud4lem0c df-i4 2an comor2 comor1 comcom3 fh2 df-a
+    ax-a2 ax-r1 ran lea leor letr lear leo ler2an bltr 3tr1 or0 anass fh2r an12
+    df2le2 anor1 ) ABUACZBAUAZDACZBCZEZAVJEZDZAVJDZBEZDZBADZVJADZEZVJAEZVIDZEZD
+    ZVNVGVPVHWBABUBBAUCUDWCVPVSDZVPWADZEZVNVSVPWAVSVMVOVSVKVLVKVSVKVQVRVQVKVQVI
+    VJVQABAFZGVQBBAHZGZIZJVRVKVRVIVJVRAVJAFZGVJAHZIJIJVLVSVLVQVRVQVLVQAVJWGWIIZ
+    JVLVJAAVJUEAVJUFKIJKVSVNBVNVSVNVQVRVNBAVNBVNVJAVJFZUGLZAVJHZKVNVJAWNWPKIJBV
+    SBVQVRVQBWHJBVRVJVRVRVJWLJGLIJIKVSVTVIVTVSVTVQVRVTBAVTBVTVJVJAUFZUGLVJAUEZK
+    VTVJAWQWRKIJVSAAVSAVQVRVQAWGJVRAWKJIJGKUHWFVNMEZVNWDVNWEMWDVPVQDZVPVRDZEZVN
+    VQVPVRVQVMVOVQVKVLWJWMKVQVNBVQAVJWGWIKWHIKVQVJAWIWGKUHXBWSVNXBMVNEWSWTMXAVN
+    WTVMVQDZVODZMVMVOVQNXDMVODZMXCMVOXCVKVQDZVLDZMVKVLVQNXGMVLDZMXFMVLXFVJVIEZX
+    ICZDZMVKXIVQXJVIVJUJBAUIUDMXKXIPUKOULXHVLMDMMVLQVLROOOULXEVOMDMMVOQVOROOOVR
+    VPDVRXAVNVRVPVRVMVOVRVKVLVRVJVKVJAUMVJVIUNUOVRAVLVJAUPAVJUQUOURVRVNVOVJAQVN
+    BUQUSURVEVPVRQAVJQUTSMVNUJOVNVAZOOWEVMVOWADZDZMVMVOWAVBXNVMMDMXMMVMXMVNWADZ
+    BWADZEZMVNWABVNVTVIVNVJAWNWPIVNAWPGKWOVCXQMMEMXOMXPMXOVTVNVIDZDZMVNVTVIVDXS
+    VTMDMXRMVTXRAVIDZVJDZMAVJVINYAVJXTDZMXTVJQYBVJMDMXTMVJMXTAPUKTVJROOOTVTROOV
+    TBVIDZDVTVTCZDXPMYCYDVTBAVFTBVTVIVDVTPUTSMVAOOTVMROOSXLOOO $.
     $( [25-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud4lem1c $p |- ( ( a ->4 b ) ' v ( b ->4 a ) ) =
               ( a v b ' ) $=
-    ( wi4 wn wo wa ud4lem0c df-i4 2or comor2 comcom3 comcom5 comor1 com2an
-    com2or comcom comcom2 comorr coman1 coman2 fh4r wt ax-a2 ax-a3 df-a df-t
-    ax-r1 ax-r2 lor or1 3tr2 ax-r5 lear lel2or leo letr lea lbtr df-le2 2an
-    ancom an1 or32 or4 fh4 anor2 con2 3tr1 ) ABCDZBACZEADZBDZEZAVLEZFZAVLFZBEZF
-    ZBAFZVLAFZEZVLAEZVKFZEZEZVNVIVRVJWDABGBAHIWEVOWDEZVQWDEZFZVNVOWDVQVOWAWCWAV
-    OWAVMVNVMWAVMVSVTVMBAVMBVMVLVKVLJZKLVMAVMVKVKVLMZKLZNVMVLAWIWKNOPVNWAVNVSVT
-    VNBAVNBVNVLAVLJZKLAVLMZNVNVLAWLWMNOPNPVOWBVKWBVOWBVMVNWBVKVLWBAVLAJQZVLAMZO
-    ZWBAVLWBAWBVKWNKLWOONPVKVOVKVMVNVKVLRAVNAVLRKNPNOVOVPBVPVOVPVMVNVPVKVLVPAAV
-    LSZQAVLTZOVPAVLWQWRONPVOBVOVLVLVOVLVMVNVMVLWIPVNVLWLPNPKLOUAWHVNUBFZVNWFVNW
-    GUBWFVMWDEZVNWDEZFZVNVMWDVNVMWAWCVMVSVTVSVMVSVKVLVSABATQVSBBASQOPVTVMVTVKVL
-    VTAVLATQVLASOPOVMWBVKWBVMWPPWJNOVNVMVNVKVLVNAWMQWLOPUAXBUBVNFZVNWTUBXAVNVMW
-    AEZWCEUBWCEZWTUBXDUBWCVMVSEZVTEVTXFEZXDUBXFVTUCVMVSVTUDXGVTUBEUBXFUBVTXFVLV
-    KEZXHDZEZUBVMXHVSXIVKVLUCBAUEIUBXJXHUFUGUHUIVTUJUHUKULVMWAWCUDXEWCUBEUBUBWC
-    UCWCUJUHUKXAWDVNEVNVNWDUCWDVNWAVNWCWAAVNVSAVTBAUMVLAUMUNAVLUOUPWCWBVNWBVKUQ
-    VLAUCURUNUSUHUTXCWSVNUBVNVAVNVBZUHUHUHWGWDVQEZUBVQWDUCXLVSVPEZUBEZUBXLWAVQE
-    ZWCEZXNWAWCVQVCXPXMVTBEZEZWCEZXNXOXRWCVSVTVPBVDULXSXMXQWCEZEXNXMXQWCUDXTUBX
-    MVTBWCEZEVTVTDZEXTUBYAYBVTYABWBEZBVKEZFZYBWBBVKWBBWBVLWOKLWNVEYEUBYBFZYBYCU
-    BYDYBBVLEZAEUBAEZYCUBYGUBAUBYGBUFUGULBVLAUDYHAUBEUBUBAUCAUJUHUKYBYDVTYDBAVF
-    VGUGUTYFYBUBFYBUBYBVAYBVBUHUHUHUIVTBWCUDVTUFVHUIUHUHUHXMUJUHUHUTXKUHUHUH $.
+    ( wn wo wa comor2 comcom3 comcom5 comor1 com2an com2or comcom coman1 coman2
+    comcom2 wt ax-a2 ax-a3 ax-r2 or1 ud4lem0c df-i4 comorr fh4r df-a df-t ax-r1
+    wi4 2or lor 3tr2 ax-r5 lear lel2or leo letr lea lbtr 2an ancom an1 or32 or4
+    df-le2 fh4 anor2 con2 3tr1 ) ABUHCZBAUHZDACZBCZDZAVLDZEZAVLEZBDZEZBAEZVLAEZ
+    DZVLADZVKEZDZDZVNVIVRVJWDABUABAUBUIWEVOWDDZVQWDDZEZVNVOWDVQVOWAWCWAVOWAVMVN
+    VMWAVMVSVTVMBAVMBVMVLVKVLFZGHVMAVMVKVKVLIZGHZJVMVLAWIWKJKLVNWAVNVSVTVNBAVNB
+    VNVLAVLFZGHAVLIZJVNVLAWLWMJKLJLVOWBVKWBVOWBVMVNWBVKVLWBAVLAFOZVLAIZKZWBAVLW
+    BAWBVKWNGHWOKJLVKVOVKVMVNVKVLUCAVNAVLUCGJLJKVOVPBVPVOVPVMVNVPVKVLVPAAVLMZOA
+    VLNZKVPAVLWQWRKJLVOBVOVLVLVOVLVMVNVMVLWILVNVLWLLJLGHKUDWHVNPEZVNWFVNWGPWFVM
+    WDDZVNWDDZEZVNVMWDVNVMWAWCVMVSVTVSVMVSVKVLVSABANOVSBBAMOKLVTVMVTVKVLVTAVLAN
+    OVLAMKLKVMWBVKWBVMWPLWJJKVNVMVNVKVLVNAWMOWLKLUDXBPVNEZVNWTPXAVNVMWADZWCDPWC
+    DZWTPXDPWCVMVSDZVTDVTXFDZXDPXFVTQVMVSVTRXGVTPDPXFPVTXFVLVKDZXHCZDZPVMXHVSXI
+    VKVLQBAUEUIPXJXHUFUGSUJVTTSUKULVMWAWCRXEWCPDPPWCQWCTSUKXAWDVNDVNVNWDQWDVNWA
+    VNWCWAAVNVSAVTBAUMVLAUMUNAVLUOUPWCWBVNWBVKUQVLAQURUNVDSUSXCWSVNPVNUTVNVAZSS
+    SWGWDVQDZPVQWDQXLVSVPDZPDZPXLWAVQDZWCDZXNWAWCVQVBXPXMVTBDZDZWCDZXNXOXRWCVSV
+    TVPBVCULXSXMXQWCDZDXNXMXQWCRXTPXMVTBWCDZDVTVTCZDXTPYAYBVTYABWBDZBVKDZEZYBWB
+    BVKWBBWBVLWOGHWNVEYEPYBEZYBYCPYDYBBVLDZADPADZYCPYGPAPYGBUFUGULBVLARYHAPDPPA
+    QATSUKYBYDVTYDBAVFVGUGUSYFYBPEYBPYBUTYBVASSSUJVTBWCRVTUFVHUJSSSXMTSSUSXKSSS
+    $.
     $( [25-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud4lem1d $p |- ( ( ( a ->4 b ) ' v ( b ->4 a ) ) ^ ( b ->4 a ) ' ) =
               ( ( ( a ' v b ' ) ^ ( a ' v b ) ) ^ a ) $=
-    ( wi4 wn wo wa ud4lem1c ud4lem0c 2an an12 ax-a2 comor2 comcom3 comcom5
-    comor1 comcom2 com2an fh1 wf anor1 dff ax-r1 ax-r2 ancom anabs 2or or0 ) AB
-    CDBACZEZUHDZFABDZEZUKADZEZBUMEZFZBUMFZAEZFZFZUMUKEZUMBEZFZAFZUIULUJUSABGBAH
-    IUTUPULURFZFVDULUPURJUPVCVEAUNVAUOVBUKUMKBUMKIVEULUQFZULAFZEZAULUQAULBUMULB
-    ULUKAUKLMNULAAUKOZPQVIRVHSAEZAVFSVGAVFUKAEZVKDZFZSULVKUQVLAUKKBATISVMVKUAUB
-    UCVGAULFAULAUDAUKUEUCUFVJASEASAKAUGUCUCUCIUCUC $.
+    ( wi4 wn wo ud4lem1c ud4lem0c 2an an12 ax-a2 comor2 comcom3 comcom5 comcom2
+    wa comor1 com2an fh1 wf ax-r2 anor1 dff ax-r1 ancom anabs 2or or0 ) ABCDBAC
+    ZEZUHDZOABDZEZUKADZEZBUMEZOZBUMOZAEZOZOZUMUKEZUMBEZOZAOZUIULUJUSABFBAGHUTUP
+    ULUROZOVDULUPURIUPVCVEAUNVAUOVBUKUMJBUMJHVEULUQOZULAOZEZAULUQAULBUMULBULUKA
+    UKKLMULAAUKPZNQVIRVHSAEZAVFSVGAVFUKAEZVKDZOZSULVKUQVLAUKJBAUAHSVMVKUBUCTVGA
+    ULOAULAUDAUKUETUFVJASEASAJAUGTTTHTT $.
     $( [25-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud4lem1 $p |- ( ( a ->4 b ) ->4 ( b ->4 a ) ) =
               ( a v ( a ' ^ b ' ) ) $=
-    ( wi4 wa wn wo df-i4 ud4lem1a ud4lem1b 2or ud4lem1d ancom lor coman1
-    comcom comcom3 com2or comcom2 comcom5 comorr com2an fh4 ax-r2 wt ax-a3 or4
-    lea lel2or leor letr df-le2 ax-a2 coman2 comor1 comor2 or32 df-a con2
-    ax-r1 df-t ax-r5 or1 anor1 3tr1 2an an1 ) ABCZBACZCVGVHDZVGEZVHDZFZVJVHFVHE
-    DZFZAAEZBEZDZFZVGVHGVNABDZVQFZAVPDZFZVOVPFZVOBFZDZADZFZVRVLWBVMWFVIVTVKWAAB
-    HABIJABKJWGWBAFZWBWEFZDZVRWGWBAWEDZFWJWFWKWBWEALMAWBWEAWBVOWBVOVTWAVOVSVQAV
-    SVSAABNZOPVQVOVOVPNOQAWAWAAAVPNOPQRSAWEVOWEVOWCWDVOVPTVOBTUARSUBUCWJVRUDDVR
-    WHVRWIUDWHVQAFZVRWHVTWAAFFZWMVTWAAUEWNVSWAFZWMFWMVSVQWAAUFWOWMWOAWMVSAWAABU
-    GAVPUGUHAVQUIUJUKUCUCVQAULUCWIUDUDDZUDWIWBWCFZWBWDFZDWPWCWBWDWCVTWAWCVSVQVS
-    WCVSVOVPVSAWLRVSBABUMRQOWCVOVPVOVPUNZVOVPUOZUAQWCAVPWCAWCVOWSPSWTUAQWCVOBWS
-    WCBWCVPWTPSQUBWQUDWRUDWQVTWCFZWAFZUDVTWAWCUPXBUDWAFZUDXAUDWAXAVSWCFZVQFZUDV
-    SVQWCUPXEUDVQFZUDXDUDVQXDVSVSEZFZUDWCXGVSXGWCVSWCABUQURUSMUDXHVSUTUSUCVAXFV
-    QUDFUDUDVQULVQVBUCUCUCVAXCWAUDFUDUDWAULWAVBUCUCUCWRVTWAWDFZFZUDVTWAWDUEXJVT
-    UDFUDXIUDVTWDWAFWDWDEZFXIUDWAXKWDABVCMWAWDULWDUTVDMVTVBUCUCVEUCUDVFUCVEVRVF
-    UCUCUCUC $.
+    ( wi4 wa 2or lor coman1 comcom comcom3 com2or comcom2 comcom5 comorr com2an
+    wn wo ax-r2 wt ax-a2 or1 df-i4 ud4lem1a ud4lem1b ud4lem1d ancom fh4 or4 lea
+    ax-a3 lel2or leor letr df-le2 coman2 comor1 or32 df-a con2 ax-r1 df-t ax-r5
+    comor2 anor1 3tr1 2an an1 ) ABCZBACZCVGVHDZVGOZVHDZPZVJVHPVHODZPZAAOZBOZDZP
+    ZVGVHUAVNABDZVQPZAVPDZPZVOVPPZVOBPZDZADZPZVRVLWBVMWFVIVTVKWAABUBABUCEABUDEW
+    GWBAPZWBWEPZDZVRWGWBAWEDZPWJWFWKWBWEAUEFAWBWEAWBVOWBVOVTWAVOVSVQAVSVSAABGZH
+    IVQVOVOVPGHJAWAWAAAVPGHIJKLAWEVOWEVOWCWDVOVPMVOBMNKLUFQWJVRRDVRWHVRWIRWHVQA
+    PZVRWHVTWAAPPZWMVTWAAUIWNVSWAPZWMPWMVSVQWAAUGWOWMWOAWMVSAWAABUHAVPUHUJAVQUK
+    ULUMQQVQASQWIRRDZRWIWBWCPZWBWDPZDWPWCWBWDWCVTWAWCVSVQVSWCVSVOVPVSAWLKVSBABU
+    NKJHWCVOVPVOVPUOZVOVPVBZNJWCAVPWCAWCVOWSILWTNJWCVOBWSWCBWCVPWTILJUFWQRWRRWQ
+    VTWCPZWAPZRVTWAWCUPXBRWAPZRXARWAXAVSWCPZVQPZRVSVQWCUPXERVQPZRXDRVQXDVSVSOZP
+    ZRWCXGVSXGWCVSWCABUQURUSFRXHVSUTUSQVAXFVQRPRRVQSVQTQQQVAXCWARPRRWASWATQQQWR
+    VTWAWDPZPZRVTWAWDUIXJVTRPRXIRVTWDWAPWDWDOZPXIRWAXKWDABVCFWAWDSWDUTVDFVTTQQV
+    EQRVFQVEVRVFQQQQ $.
     $( [25-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud4lem2 $p |- ( ( a v ( a ' ^ b ' ) ) ->4 a ) = ( a v b ) $=
-    ( wn wa wo wi4 df-i4 wf ancom anabs ax-r2 oran con2 ran anass ax-r1 dff
-    lan an0 2or or0 con3 lor anor2 ax-r5 comid comcom2 comorr fh3r wt or32
-    oridm df-t ax-a2 2an an1 oml ) AACZBCDZEZAFUTADZUTCZADZEZVBAEZURDZEZABEZUTA
-    GVGAURVHDZEVHVDAVFVIVDAHEAVAAVCHVAAUTDAUTAIAUSJKVCURUSCZDZADZHVBVKAUTVKAUSL
-    MNVLAVKDZHVKAIVMAURDZVJDZHVOVMAURVJOPVOVJVNDZHVNVJIVPVJHDZHVQVPHVNVJAQRPVJS
-    KKKKKTAUAKVFURVEDVIVEURIVEVHURVEVIAEZVHVBVIAUTVIUTAVHCZEZVICUSVSAUSVHVHVJAB
-    LPUBUCVTVIVIVTCAVHUDPUBKMUEVRURAEZVHAEZDZVHAURVHAAAUFUGABUHUIWCVHUJDZVHWCWB
-    WADWDWAWBIWBVHWAUJWBAAEZBEVHABAUKWEABAULUEKUJWAUJAUREWAAUMAURUNKPUOKVHUPKKK
-    RKTABUQKK $.
+    ( wn wa wo wi4 df-i4 wf ancom anabs ax-r2 oran con2 ran ax-r1 lan 2or ax-r5
+    con3 wt anass dff an0 or0 lor anor2 comid comorr fh3r or32 oridm df-t ax-a2
+    comcom2 2an an1 oml ) AACZBCDZEZAFUTADZUTCZADZEZVBAEZURDZEZABEZUTAGVGAURVHD
+    ZEVHVDAVFVIVDAHEAVAAVCHVAAUTDAUTAIAUSJKVCURUSCZDZADZHVBVKAUTVKAUSLMNVLAVKDZ
+    HVKAIVMAURDZVJDZHVOVMAURVJUAOVOVJVNDZHVNVJIVPVJHDZHVQVPHVNVJAUBPOVJUCKKKKKQ
+    AUDKVFURVEDVIVEURIVEVHURVEVIAEZVHVBVIAUTVIUTAVHCZEZVICUSVSAUSVHVHVJABLOSUEV
+    TVIVIVTCAVHUFOSKMRVRURAEZVHAEZDZVHAURVHAAAUGUNABUHUIWCVHTDZVHWCWBWADWDWAWBI
+    WBVHWATWBAAEZBEVHABAUJWEABAUKRKTWATAUREWAAULAURUMKOUOKVHUPKKKPKQABUQKK $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
@@ -4727,167 +4705,163 @@ $)
 
   $( Lemma for unified disjunction. $)
   ud4lem3b $p |- ( ( a ->4 b ) ' v ( a v b ) ) = ( a v b ) $=
-    ( wi4 wn wo wa ud4lem0c ax-r5 comor1 comcom2 comor2 com2or com2an fh3r wt
-    ax-a2 or4 df-t lor ax-r1 or1 ax-r2 2an an1 lea leror df-le2 ancom ) ABCDZAB
-    EZEADZBDZEZAULEZFZAULFZBEZFZUJEZUJUIURUJABGHUSUOUJEZUQUJEZFZUJUJUOUQUJUMUNU
-    JUKULUJAABIZJUJBABKZJZLZUJAULVCVELZMUJUPBUJAULVCVEMVDLNVBOUJFZUJUTOVAUJUTOO
-    FZOUTUMUJEZUNUJEZFVIUJUMUNVFVGNVJOVKOVJUJUMEZOUMUJPVLAUKEZBULEZEZOABUKULQVO
-    VMOEZOVPVOOVNVMBRZSTVMUAUBUBUBVKUJUNEZOUNUJPVRAAEZVNEZOABAULQVTVSOEZOWAVTOV
-    NVSVQSTVSUAUBUBUBUCUBOUDUBUQUJUPABAULUEUFUGUCVHUJOFUJOUJUHUJUDUBUBUBUB $.
+    ( wi4 wn wo wa ud4lem0c comcom2 com2or com2an fh3r wt ax-a2 or4 ax-r1 ax-r2
+    lor or1 2an an1 ax-r5 comor1 comor2 df-t lea leror df-le2 ancom ) ABCDZABEZ
+    EADZBDZEZAULEZFZAULFZBEZFZUJEZUJUIURUJABGUAUSUOUJEZUQUJEZFZUJUJUOUQUJUMUNUJ
+    UKULUJAABUBZHUJBABUCZHZIZUJAULVCVEIZJUJUPBUJAULVCVEJVDIKVBLUJFZUJUTLVAUJUTL
+    LFZLUTUMUJEZUNUJEZFVIUJUMUNVFVGKVJLVKLVJUJUMEZLUMUJMVLAUKEZBULEZEZLABUKULNV
+    OVMLEZLVPVOLVNVMBUDZQOVMRPPPVKUJUNEZLUNUJMVRAAEZVNEZLABAULNVTVSLEZLWAVTLVNV
+    SVQQOVSRPPPSPLTPUQUJUPABAULUEUFUGSVHUJLFUJLUJUHUJTPPPP $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud4lem3 $p |- ( ( a ->4 b ) ->4 ( a v b ) ) = ( a v b ) $=
-    ( wi4 wo wa wn df-i4 wf ud4lem3a lor comid comcom2 comor1 comor2 com2an
-    com2or comcom bctr fh4r ancom wt ax-a2 ud4lem3b ax-r2 df-t ax-r1 2an an1
-    ran dff 2or or0 ) ABCZABDZCUMUNEZUMFZUNEZDZUPUNDZUNFZEZDZUNUMUNGVBUNHDUNURU
-    NVAHURUOUPDZUNUQUPUOABIJVCUMUPDZUNUPDZEZUNUMUPUNUMUMUMKLUMABEZAFZBEZDZVHBDZ
-    BFZEZDZUNABGUNVNUNVJVMUNVGVIUNABABMZABNZOUNVHBUNAVOLZVPOPUNVKVLUNVHBVQVPPUN
-    BVPLOPQRSVFVEVDEZUNVDVETVRUNUAEUNVEUNVDUAVEUSUNUNUPUBABUCZUDUAVDUMUEUFUGUNU
-    HUDUDUDUDVAUNUTEZHUSUNUTVSUIHVTUNUJUFUDUKUNULUDUD $.
+    ( wi4 wo wa wn df-i4 ud4lem3a lor comid comcom2 comor1 comor2 com2an com2or
+    wf comcom wt ax-r2 ax-r1 bctr fh4r ancom ax-a2 ud4lem3b 2an an1 ran dff 2or
+    df-t or0 ) ABCZABDZCUMUNEZUMFZUNEZDZUPUNDZUNFZEZDZUNUMUNGVBUNPDUNURUNVAPURU
+    OUPDZUNUQUPUOABHIVCUMUPDZUNUPDZEZUNUMUPUNUMUMUMJKUMABEZAFZBEZDZVHBDZBFZEZDZ
+    UNABGUNVNUNVJVMUNVGVIUNABABLZABMZNUNVHBUNAVOKZVPNOUNVKVLUNVHBVQVPOUNBVPKNOQ
+    UAUBVFVEVDEZUNVDVEUCVRUNREUNVEUNVDRVEUSUNUNUPUDABUEZSRVDUMUKTUFUNUGSSSSVAUN
+    UTEZPUSUNUTVSUHPVTUNUITSUJUNULSS $.
     $( [23-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem1a $p |- ( ( a ->5 b ) ^ ( b ->5 a ) ) =
                  ( ( a ^ b ) v ( a ' ^ b ' ) ) $=
-    ( wi5 wa wn wo df-i5 2an ax-a2 lan coman2 comcom2 coman1 com2an comcom
-    com2or fh2 comcom3 comcom5 fh1r wf anass ax-r1 ancom dff an0 ax-r2 2or or0
-    anidm an12 lor ran ) ABCZBACZDABDZAEZBDZFZUQBEZDZFZBADZUTADZFZUTUQDZFZDZUPV
-    AFZUNVBUOVGABGBAGHVHVBVFVEFZDZVIVGVJVBVEVFIJVKVBVFDZVBVEDZFZVIVFVBVEVFUSVAV
-    FUPURUPVFUPUTUQUPBABKLZUPAABMZLNOZURVFURUTUQURBUQBKLUQBMNOZPVFUQUTUTUQKZUTU
-    QMZNZPVFVCVDVCVFVCUTUQVCBBAMZLZVCABAKZLZNOVDVFVDUTUQUTAMZVDAUTAKZLZNOPQVNVA
-    UPFVIVLVAVMUPVLUSVFDZVAVFDZFZVAVFUSVAVFUPURVFABVFAVFUQVSRSVFBVFUTVTRSZNVFUQ
-    BVSWLNPWATWKUAVAFZVAWIUAWJVAWIUPVFDZURVFDZFZUAVFUPURVQVRTWPUAUAFZUAWNUAWOUA
-    WNABVFDZDZUAABVFUBWSABUTDZUQDZDZUAWRXAAXAWRBUTUQUBUCZJXBAUADZUAXAUAAXAUQWTD
-    ZUAWTUQUDXEUQUADZUAWTUAUQUAWTBUEUCZJUQUFZUGUGZJAUFZUGUGUGWOUQWRDZUAUQBVFUBX
-    KUQXADZUAWRXAUQXCJXLXFUAXAUAUQXIJXHUGUGUGUHUAUIZUGUGWJVAVADVAVFVAVAUTUQUDJV
-    AUJUGUHWMVAUAFVAUAVAIVAUIUGUGUGVMVBVCDZVBVDDZFZUPVCVBVDVCUSVAVCUPURVCABWDWB
-    NZVCUQBWEWBNZPZVCUQUTWEWCNZPVCUTAWCWDNQXPUSVCDZUSVDDZFZUPXNYAXOYBXNYAVAVCDZ
-    FZYAVCUSVAXSXTTYEYAUAFZYAYDUAYAYDUQUTVCDZDZUAUQUTVCUBYHXFUAYGUAUQYGBVDDZUAY
-    IYGBUTAUKUCYIWTADZUAYJYIBUTAUBUCYJAWTDZUAWTAUDYKXDUAWTUAAXGJXJUGUGUGZUGJXHU
-    GUGULYAUIZUGUGXOYBVAVDDZFZYBVDUSVAVDUPURVDABWGVDBVDUTWFRSZNVDUQBWHYPNZPVDUQ
-    UTWHWFNTYOYBUAFYBYNUAYBYNVDVADZUAVAVDUDYRUTAVADZDZUAUTAVAUBYTUTUADZUAYSUAUT
-    YSAUQDZUTDZUAUUCYSAUQUTUBUCUUCUTUUBDZUAUUBUTUDUUDUUAUAUUBUAUTUAUUBAUEUCZJUT
-    UFZUGUGUGJUUFUGUGUGULYBUIUGUGUHYCYFUPYBUAYAYBUPVDDZURVDDZFZUAVDUPURUPVDUPUT
-    AVOVPNOYQTUUIWQUAUUGUAUUHUAUUGAYIDZUAABVDUBUUJXDUAYIUAAYLJXJUGUGUUHUQYIDZUA
-    UQBVDUBUUKXFUAYIUAUQYLJXHUGUGUHXMUGUGULYFYAUPYMYAUPVCDZURVCDZFZUPVCUPURXQXR
-    TUUNUPUAFUPUULUPUUMUAUULUPUPDUPVCUPUPBAUDJUPUJUGUUMVCURDZUAURVCUDUUOBAURDZD
-    ZUABAURUBUUQBUADZUAUUPUABUUPUURUAUUPUUBBDZUURUUSUUPAUQBUBUCUUSUABDUURUUBUAB
-    UUEUMUABUDUGUGBUFZUGJUUTUGUGUGUHUPUIUGUGUGUGUGUGUHVAUPIUGUGUGUG $.
+    ( wa wo lan coman2 comcom2 coman1 com2an comcom com2or wf anass ax-r1 ancom
+    fh1r an0 ax-r2 2or or0 wi5 wn df-i5 2an ax-a2 fh2 comcom3 comcom5 dff anidm
+    an12 lor ran ) ABUAZBAUAZCABCZAUBZBCZDZUQBUBZCZDZBACZUTACZDZUTUQCZDZCZUPVAD
+    ZUNVBUOVGABUCBAUCUDVHVBVFVEDZCZVIVGVJVBVEVFUEEVKVBVFCZVBVECZDZVIVFVBVEVFUSV
+    AVFUPURUPVFUPUTUQUPBABFGZUPAABHZGIJZURVFURUTUQURBUQBFGUQBHIJZKVFUQUTUTUQFZU
+    TUQHZIZKVFVCVDVCVFVCUTUQVCBBAHZGZVCABAFZGZIJVDVFVDUTUQUTAHZVDAUTAFZGZIJKUFV
+    NVAUPDVIVLVAVMUPVLUSVFCZVAVFCZDZVAVFUSVAVFUPURVFABVFAVFUQVSUGUHVFBVFUTVTUGU
+    HZIVFUQBVSWLIKWAPWKLVADZVAWILWJVAWIUPVFCZURVFCZDZLVFUPURVQVRPWPLLDZLWNLWOLW
+    NABVFCZCZLABVFMWSABUTCZUQCZCZLWRXAAXAWRBUTUQMNZEXBALCZLXALAXAUQWTCZLWTUQOXE
+    UQLCZLWTLUQLWTBUINZEUQQZRRZEAQZRRRWOUQWRCZLUQBVFMXKUQXACZLWRXAUQXCEXLXFLXAL
+    UQXIEXHRRRSLTZRRWJVAVACVAVFVAVAUTUQOEVAUJRSWMVALDVALVAUEVATRRRVMVBVCCZVBVDC
+    ZDZUPVCVBVDVCUSVAVCUPURVCABWDWBIZVCUQBWEWBIZKZVCUQUTWEWCIZKVCUTAWCWDIUFXPUS
+    VCCZUSVDCZDZUPXNYAXOYBXNYAVAVCCZDZYAVCUSVAXSXTPYEYALDZYAYDLYAYDUQUTVCCZCZLU
+    QUTVCMYHXFLYGLUQYGBVDCZLYIYGBUTAUKNYIWTACZLYJYIBUTAMNYJAWTCZLWTAOYKXDLWTLAX
+    GEXJRRRZREXHRRULYATZRRXOYBVAVDCZDZYBVDUSVAVDUPURVDABWGVDBVDUTWFUGUHZIVDUQBW
+    HYPIZKVDUQUTWHWFIPYOYBLDYBYNLYBYNVDVACZLVAVDOYRUTAVACZCZLUTAVAMYTUTLCZLYSLU
+    TYSAUQCZUTCZLUUCYSAUQUTMNUUCUTUUBCZLUUBUTOUUDUUALUUBLUTLUUBAUINZEUTQZRRREUU
+    FRRRULYBTRRSYCYFUPYBLYAYBUPVDCZURVDCZDZLVDUPURUPVDUPUTAVOVPIJYQPUUIWQLUUGLU
+    UHLUUGAYICZLABVDMUUJXDLYILAYLEXJRRUUHUQYICZLUQBVDMUUKXFLYILUQYLEXHRRSXMRRUL
+    YFYAUPYMYAUPVCCZURVCCZDZUPVCUPURXQXRPUUNUPLDUPUULUPUUMLUULUPUPCUPVCUPUPBAOE
+    UPUJRUUMVCURCZLURVCOUUOBAURCZCZLBAURMUUQBLCZLUUPLBUUPUURLUUPUUBBCZUURUUSUUP
+    AUQBMNUUSLBCUURUUBLBUUEUMLBORRBQZREUUTRRRSUPTRRRRRRSVAUPUERRRR $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem1b $p |- ( ( a ->5 b ) ' ^ ( b ->5 a ) ) = ( a ^ b ' ) $=
-    ( wi5 wn wa wo ud5lem0c df-i5 ax-a2 ax-r2 2an coman2 coman1 com2or comcom7
-    com2an fh2 wf anass oran ax-r1 con3 dff lan an0 comcom2 an32 df-a ran an0r
-    lea leor ler2an letr lear leo df2le2 ancom 3tr1 2or or0r ) ABCDZBACZEADZBDZ
-    FZAVEFZEZABFZEZVEVDEZBAEZVEAEZFZFZEZAVEEZVBVJVCVOABGVCVNVKFVOBAHVNVKIJKVPVJ
-    VKEZVJVNEZFZVQVKVJVNVKVHVIVKVFVGVKVDVEVEVDLZVEVDMZNVKAVEVKAWAOZWBNPVKABWCVK
-    BWBOZNPVKVLVMVKBAWDWCPVKVEAWBWCPNQVTRVQFZVQVRRVSVQVRVHVIVKEZEZRVHVIVKSWGVHR
-    ERWFRVHWFBAFZWHDZEZRVIWHVKWIABIVKWHWHVKDBATUAUBKRWJWHUCUAJUDVHUEJJVSVJVLEZV
-    JVMEZFZVQVLVJVMVLVHVIVLVFVGVLVDVEVLABALZUFVLBBAMZUFZNVLAVEWNWPNPVLABWNWONPV
-    LVEAWPWNPQWMWEVQWKRWLVQWKVHVLEZVIEZRVHVIVLUGWRRVIERWQRVIWQVFVLEZVGEZRVFVGVL
-    UGWTRVGERWSRVGWSVEVDFZXADZEZRVFXAVLXBVDVEIBAUHKRXCXAUCUAJUIVGUJJJUIVIUJJJVM
-    VJEVMWLVQVMVJVMVHVIVMVEVHVEAUKVEVFVGVEVDULVEAULUMUNVMAVIVEAUOABUPUNUMUQVJVM
-    URAVEURUSUTVQVAZJJUTXDJJJ $.
+    ( wi5 wn wa wo ax-a2 ax-r2 2an coman2 coman1 com2or comcom7 com2an wf ax-r1
+    fh2 dff comcom2 an32 ud5lem0c df-i5 anass oran con3 lan an0 df-a ran ler2an
+    an0r lea leor letr lear leo df2le2 ancom 3tr1 2or or0r ) ABCDZBACZEADZBDZFZ
+    AVEFZEZABFZEZVEVDEZBAEZVEAEZFZFZEZAVEEZVBVJVCVOABUAVCVNVKFVOBAUBVNVKGHIVPVJ
+    VKEZVJVNEZFZVQVKVJVNVKVHVIVKVFVGVKVDVEVEVDJZVEVDKZLVKAVEVKAWAMZWBLNVKABWCVK
+    BWBMZLNVKVLVMVKBAWDWCNVKVEAWBWCNLQVTOVQFZVQVROVSVQVRVHVIVKEZEZOVHVIVKUCWGVH
+    OEOWFOVHWFBAFZWHDZEZOVIWHVKWIABGVKWHWHVKDBAUDPUEIOWJWHRPHUFVHUGHHVSVJVLEZVJ
+    VMEZFZVQVLVJVMVLVHVIVLVFVGVLVDVEVLABAJZSVLBBAKZSZLVLAVEWNWPLNVLABWNWOLNVLVE
+    AWPWNNQWMWEVQWKOWLVQWKVHVLEZVIEZOVHVIVLTWROVIEOWQOVIWQVFVLEZVGEZOVFVGVLTWTO
+    VGEOWSOVGWSVEVDFZXADZEZOVFXAVLXBVDVEGBAUHIOXCXARPHUIVGUKHHUIVIUKHHVMVJEVMWL
+    VQVMVJVMVHVIVMVEVHVEAULVEVFVGVEVDUMVEAUMUJUNVMAVIVEAUOABUPUNUJUQVJVMURAVEUR
+    USUTVQVAZHHUTXDHHH $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem1c $p |- ( ( a ->5 b ) ' ^ ( b ->5 a ) ' ) =
                  ( ( ( a v b ) ^ ( a v b ' ) ) ^
                  ( ( a ' v b ) ^ ( a ' v b ' ) ) ) $=
-    ( wi5 wn wa wo ud5lem0c ax-a2 2an ax-r2 an4 ancom anidm ran anass ax-r1 )
-    ABCDZBACDZEADZBDZFZATFZEZABFZEZUASBFZEZUDEZEZUDUBEUFUAEZEZQUERUHABGRTSFZBSF
-    ZEZBAFZEUHBAGUNUGUOUDULUAUMUFTSHBSHIBAHIJIUIUCUGEZUDUDEZEZUKUCUDUGUDKURUQUP
-    EZUKUPUQLUSUDUBUJEZEZUKUQUDUPUTUDMUPUAUAEZUBUFEZEZUTUAUBUAUFKVDVCUAEZUTVDUA
-    VCEVEVBUAVCUAMNUAVCLJUBUFUAOJJIUKVAUDUBUJOPJJJJ $.
+    ( wi5 wn wa wo ud5lem0c ax-a2 2an ax-r2 an4 ancom anidm ran anass ax-r1 ) A
+    BCDZBACDZEADZBDZFZATFZEZABFZEZUASBFZEZUDEZEZUDUBEUFUAEZEZQUERUHABGRTSFZBSFZ
+    EZBAFZEUHBAGUNUGUOUDULUAUMUFTSHBSHIBAHIJIUIUCUGEZUDUDEZEZUKUCUDUGUDKURUQUPE
+    ZUKUPUQLUSUDUBUJEZEZUKUQUDUPUTUDMUPUAUAEZUBUFEZEZUTUAUBUAUFKVDVCUAEZUTVDUAV
+    CEVEVBUAVCUAMNUAVCLJUBUFUAOJJIUKVAUDUBUJOPJJJJ $.
     $( [26-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem1 $p |- ( ( a ->5 b ) ->5 ( b ->5 a ) ) =
               ( a v b ' ) $=
-    ( wi5 wa wn wo df-i5 ud5lem1a ud5lem1b 2or ud5lem1c coman1 coman2 com2or
-    comcom2 com2an comcom comcom7 comor1 comor2 fh4 wt or32 ax-a3 oran lor
-    df-t ax-r1 ax-r2 or1 ax-r5 or1r lea leo letr lear leor lel2or df-le2 2an
-    an1r anor1 con3 df-a an1 ) ABCZBACZCVFVGDZVFEZVGDZFZVIVGEDZFZABEZFZVFVGGVMA
-    BDZAEZVNDZFZAVNDZFZABFZVODZVQBFZVQVNFZDZDZFZVOVKWAVLWGVHVSVJVTABHABIJABKJWH
-    WAWCFZWAWFFZDZVOWCWAWFWCVSVTWCVPVRVPWCVPWBVOVPABABLZABMZNVPAVNWLVPBWMONPQVR
-    WCVRWBVOVRABVRAVQVNLRZVRBVQVNMZRNVRAVNWNWONPQNVTWCVTWBVOVTABAVNLZVTBAVNMZRN
-    VTAVNWPWQNPQNWCWDWEWDWCWDWBVOWDABWDAVQBSZRZVQBTZNWDAVNWSWDBWTOZNPQWEWCWEWBV
-    OWEABWEAVQVNSRZWEBVQVNTZRNWEAVNXBXCNPQPUAWKVOUBDVOWIVOWJUBWIWAWBFZWAVOFZDZV
-    OWBWAVOWBVSVTWBVPVRWBABABSZABTZPWBVQVNWBAXGOWBBXHOZPNWBAVNXGXIPNWBAVNXGXINU
-    AXFUBVODVOXDUBXEVOXDVSWBFZVTFZUBVSVTWBUCXKUBVTFZUBXJUBVTXJVPVRWBFZFZUBVPVRW
-    BUDXNVPUBFUBXMUBVPXMVRVREZFZUBWBXOVRABUEUFUBXPVRUGUHUIUFVPUJUIUIUKVTULZUIUI
-    WAVOVSVOVTVPVOVRVPAVOABUMAVNUNZUOVRVNVOVQVNUPVNAUQUOURVTAVOAVNUMXRUOURUSUTV
-    OVAUIUIWJWAWDFZWAWEFZDZUBWDWAWEWDVSVTWDVPVRWDABWSWTPWDVQVNWRXAPNWDAVNWSXAPN
-    WDVQVNWRXANUAYAUBUBDUBXSUBXTUBXSVSVTWDFZFZUBVSVTWDUDYCVSUBFUBYBUBVSYBVTVTEZ
-    FZUBWDYDVTWDVTVTWDEABVBUHVCUFUBYEVTUGUHUIUFVSUJUIUIXTVSWEFZVTFZUBVSVTWEUCYG
-    XLUBYFUBVTYFVPWEFZVRFZUBVPVRWEUCYIUBVRFUBYHUBVRYHVPVPEZFZUBWEYJVPWEVPVPWEEA
-    BVDUHVCUFUBYKVPUGUHUIUKVRULUIUIUKXQUIUIUTUBVEUIUIUTVOVEUIUIUIUI $.
+    ( wa wn wo coman1 coman2 com2or comcom2 com2an comcom comcom7 comor1 comor2
+    wi5 fh4 wt lor ax-r1 ax-r2 df-i5 ud5lem1a ud5lem1b ud5lem1c or32 ax-a3 oran
+    2or df-t or1 ax-r5 or1r lea leo letr lear leor lel2or df-le2 2an an1r anor1
+    con3 df-a an1 ) ABOZBAOZOVFVGCZVFDZVGCZEZVIVGDCZEZABDZEZVFVGUAVMABCZADZVNCZ
+    EZAVNCZEZABEZVOCZVQBEZVQVNEZCZCZEZVOVKWAVLWGVHVSVJVTABUBABUCUHABUDUHWHWAWCE
+    ZWAWFEZCZVOWCWAWFWCVSVTWCVPVRVPWCVPWBVOVPABABFZABGZHVPAVNWLVPBWMIHJKVRWCVRW
+    BVOVRABVRAVQVNFLZVRBVQVNGZLHVRAVNWNWOHJKHVTWCVTWBVOVTABAVNFZVTBAVNGZLHVTAVN
+    WPWQHJKHWCWDWEWDWCWDWBVOWDABWDAVQBMZLZVQBNZHWDAVNWSWDBWTIZHJKWEWCWEWBVOWEAB
+    WEAVQVNMLZWEBVQVNNZLHWEAVNXBXCHJKJPWKVOQCVOWIVOWJQWIWAWBEZWAVOEZCZVOWBWAVOW
+    BVSVTWBVPVRWBABABMZABNZJWBVQVNWBAXGIWBBXHIZJHWBAVNXGXIJHWBAVNXGXIHPXFQVOCVO
+    XDQXEVOXDVSWBEZVTEZQVSVTWBUEXKQVTEZQXJQVTXJVPVRWBEZEZQVPVRWBUFXNVPQEQXMQVPX
+    MVRVRDZEZQWBXOVRABUGRQXPVRUISTRVPUJTTUKVTULZTTWAVOVSVOVTVPVOVRVPAVOABUMAVNU
+    NZUOVRVNVOVQVNUPVNAUQUOURVTAVOAVNUMXRUOURUSUTVOVATTWJWAWDEZWAWEEZCZQWDWAWEW
+    DVSVTWDVPVRWDABWSWTJWDVQVNWRXAJHWDAVNWSXAJHWDVQVNWRXAHPYAQQCQXSQXTQXSVSVTWD
+    EZEZQVSVTWDUFYCVSQEQYBQVSYBVTVTDZEZQWDYDVTWDVTVTWDDABVBSVCRQYEVTUISTRVSUJTT
+    XTVSWEEZVTEZQVSVTWEUEYGXLQYFQVTYFVPWEEZVREZQVPVRWEUEYIQVREQYHQVRYHVPVPDZEZQ
+    WEYJVPWEVPVPWEDABVDSVCRQYKVPUISTUKVRULTTUKXQTTUTQVETTUTVOVETTTT $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem2 $p |- ( ( a v b ' ) ->5 a ) = ( a v ( a ' ^ b ) ) $=
-    ( wn wo wi5 wa df-i5 ax-a3 ancom anabs ax-r2 ax-a2 wf anor2 ax-r1 ran an32
-    anidm dff lan an0 2or or0 ) ABCZDZAEUEAFZUECZAFZDUGACZFZDZAUIBFZDZUEAGUKUFU
-    HUJDZDUMUFUHUJHUFAUNULUFAUEFAUEAIAUDJKUNUJUHDZULUHUJLUOULMDULUJULUHMUJULUIF
-    ZULUGULUIULUGABNOZPUPUIUIFZBFULUIBUIQURUIBUIRPKKUHULAFZMUGULAUQPUSUIAFZBFZM
-    UIBAQVABUTFZMUTBIVBBMFMUTMBUTAUIFZMUIAIMVCASOKTBUAKKKKUBULUCKKUBKK $.
+    ( wn wo wi5 wa df-i5 ax-a3 ancom anabs ax-r2 ax-a2 wf anor2 ax-r1 ran anidm
+    an32 dff 2or lan an0 or0 ) ABCZDZAEUEAFZUECZAFZDUGACZFZDZAUIBFZDZUEAGUKUFUH
+    UJDZDUMUFUHUJHUFAUNULUFAUEFAUEAIAUDJKUNUJUHDZULUHUJLUOULMDULUJULUHMUJULUIFZ
+    ULUGULUIULUGABNOZPUPUIUIFZBFULUIBUIRURUIBUIQPKKUHULAFZMUGULAUQPUSUIAFZBFZMU
+    IBARVABUTFZMUTBIVBBMFMUTMBUTAUIFZMUIAIMVCASOKUABUBKKKKTULUCKKTKK $.
     $( [10-Apr-2012] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem3a $p |- ( ( a ->5 b ) ^ ( a v ( a ' ^ b ) ) ) =
                  ( ( a ^ b ) v ( a ' ^ b ) ) $=
-    ( wi5 wn wa wo df-i5 ran comanr1 comcom6 com2or fh2 fh1r wf an32 anidm
-    ax-r2 ancom anass ax-r1 dff an0r 2or or0 coman1 comcom7 coman2 com2an
-    comcom2 ax-a2 lan anabs an4 an0 lor ) ABCZAADZBEZFZEABEZURFZUQBDZEZFZUSEZVA
-    UPVDUSABGHVEVDAEZVDUREZFZVAAVDURAVAVCAUTURABIZAURUQBIJZKZAVCUQVBIJZKVJLVHUT
-    VAUREZVCUREZFZFVAVFUTVGVOVFVAAEZVCAEZFZUTAVAVCVKVLMVRUTNFZUTVPUTVQNVPUTAEZU
-    RAEZFZUTAUTURVIVJMWBVSUTVTUTWANVTAAEZBEUTABAOWCABAPHQWAAUREZNURARWDAUQEZBEZ
-    NWFWDAUQBSTWFNBENWENBNWEAUATZHBUBQQQUCUTUDZQQVQAVCEZNVCARWIWEVBEZNWJWIAUQVB
-    STWJNVBENWENVBWGHVBUBQQQUCWHQQURVAVCURUTURURABURAUQBUEZUFUQBUGZUHURUQBWKWLU
-    HKURUQVBWKURBWLUIUHMUCVOURUTVOURNFURVMURVNNVMURVAEZURVAURRWMURURUTFZEURVAWN
-    URUTURUJUKURUTULQQVNUQUQEZVBBEZEZNUQVBUQBUMWQWONENWPNWOWPBVBEZNVBBRNWRBUATQ
-    UKWOUNQQUCURUDQUOQQQ $.
+    ( wn wa wo ran comanr1 comcom6 com2or fh1r ax-r2 ancom anass ax-r1 dff an0r
+    wf 2or or0 com2an wi5 df-i5 fh2 an32 anidm coman1 comcom7 comcom2 ax-a2 lan
+    coman2 anabs an4 an0 lor ) ABUAZAACZBDZEZDABDZUREZUQBCZDZEZUSDZVAUPVDUSABUB
+    FVEVDADZVDURDZEZVAAVDURAVAVCAUTURABGZAURUQBGHZIZAVCUQVBGHZIVJUCVHUTVAURDZVC
+    URDZEZEVAVFUTVGVOVFVAADZVCADZEZUTAVAVCVKVLJVRUTQEZUTVPUTVQQVPUTADZURADZEZUT
+    AUTURVIVJJWBVSUTVTUTWAQVTAADZBDUTABAUDWCABAUEFKWAAURDZQURALWDAUQDZBDZQWFWDA
+    UQBMNWFQBDQWEQBQWEAONZFBPKKKRUTSZKKVQAVCDZQVCALWIWEVBDZQWJWIAUQVBMNWJQVBDQW
+    EQVBWGFVBPKKKRWHKKURVAVCURUTURURABURAUQBUFZUGUQBUKZTURUQBWKWLTIURUQVBWKURBW
+    LUHTJRVOURUTVOURQEURVMURVNQVMURVADZURVAURLWMURURUTEZDURVAWNURUTURUIUJURUTUL
+    KKVNUQUQDZVBBDZDZQUQVBUQBUMWQWOQDQWPQWOWPBVBDZQVBBLQWRBONKUJWOUNKKRURSKUOKK
+    K $.
     $( [27-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem3b $p |- ( ( a ->5 b ) ' ^ ( a v ( a ' ^ b ) ) ) =
                 ( a ^ ( a ' v b ' ) ) $=
-    ( wi5 wn wa wo ud5lem0c ran comorr comcom6 com2an comanr1 fh2 wf anass
-    ancom anabs ax-r2 lan an32 anor2 dff ax-r1 an0 an0r 2or or0 ) ABCDZAADZBEZF
-    ZEUIBDZFZAULFZEZABFZEZUKEZAUMEZUHUQUKABGHURUQAEZUQUJEZFZUSAUQUJAUOUPAUMUNAU
-    MUIULIJAULIKABIKAUJUIBLJMVBUSNFUSUTUSVANUTUOUPAEZEZUSUOUPAOVDUOAEZUSVCAUOVC
-    AUPEAUPAPABQRSVEUMUNAEZEZUSUMUNAOVGUMAEUSVFAUMVFAUNEAUNAPAULQRSUMAPRRRRVAUO
-    UJEZUPEZNUOUPUJTVINUPENVHNUPVHUMUNUJEZEZNUMUNUJOVKUMNENVJNUMVJUNUNDZEZNUJVL
-    UNABUASNVMUNUBUCRSUMUDRRHUPUERRUFUSUGRRR $.
+    ( wi5 wn wa wo ud5lem0c ran comorr comcom6 com2an comanr1 anass ancom anabs
+    fh2 wf ax-r2 lan an32 anor2 dff ax-r1 an0 an0r 2or or0 ) ABCDZAADZBEZFZEUIB
+    DZFZAULFZEZABFZEZUKEZAUMEZUHUQUKABGHURUQAEZUQUJEZFZUSAUQUJAUOUPAUMUNAUMUIUL
+    IJAULIKABIKAUJUIBLJPVBUSQFUSUTUSVAQUTUOUPAEZEZUSUOUPAMVDUOAEZUSVCAUOVCAUPEA
+    UPANABORSVEUMUNAEZEZUSUMUNAMVGUMAEUSVFAUMVFAUNEAUNANAULORSUMANRRRRVAUOUJEZU
+    PEZQUOUPUJTVIQUPEQVHQUPVHUMUNUJEZEZQUMUNUJMVKUMQEQVJQUMVJUNUNDZEZQUJVLUNABU
+    ASQVMUNUBUCRSUMUDRRHUPUERRUFUSUGRRR $.
     $( [26-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem3c $p |- ( ( a ->5 b ) ' ^ ( a v ( a ' ^ b ) ) ' ) =
                  ( ( ( a v b ) ^ ( a v b ' ) ) ^ a ' ) $=
-    ( wi5 wn wa wo ud5lem0c oran con2 anor2 lan ax-r2 2an an32 an4 ancom anabs
-    anidm ran anass ax-r1 ) ABCDZAADZBEZFZDZEUCBDZFZAUGFZEZABFZEZUCUIEZEZUKUIEU
-    CEZUBULUFUMABGUFUCUDDZEZUMUEUQAUDHIUPUIUCUDUIABJIKLMUNUJUMEZUKEZUOUJUKUMNUS
-    UKUIUCEZEZUOUSUTUKEVAURUTUKURUHUCEZUIUIEZEZUTUHUIUCUIOVDUMUTVBUCVCUIVBUCUHE
-    UCUHUCPUCUGQLUIRMUCUIPLLSUTUKPLUOVAUKUIUCTUALLL $.
+    ( wi5 wn wa wo ud5lem0c oran con2 anor2 lan ax-r2 2an an4 ancom anabs anidm
+    an32 ran anass ax-r1 ) ABCDZAADZBEZFZDZEUCBDZFZAUGFZEZABFZEZUCUIEZEZUKUIEUC
+    EZUBULUFUMABGUFUCUDDZEZUMUEUQAUDHIUPUIUCUDUIABJIKLMUNUJUMEZUKEZUOUJUKUMRUSU
+    KUIUCEZEZUOUSUTUKEVAURUTUKURUHUCEZUIUIEZEZUTUHUIUCUINVDUMUTVBUCVCUIVBUCUHEU
+    CUHUCOUCUGPLUIQMUCUIOLLSUTUKOLUOVAUKUIUCTUALLL $.
     $( [26-Nov-97] $)
 
   $( Lemma for unified disjunction. $)
   ud5lem3 $p |- ( ( a ->5 b ) ->5 ( a v ( a ' ^ b ) ) ) = ( a v b ) $=
-    ( wi5 wn wa wo df-i5 ud5lem3a ud5lem3b 2or ud5lem3c ax-a3 or4 comanr1
-    comorr comcom6 fh4 wt ax-a2 orabs ax-r2 df-a ax-r1 con3 lor df-t 2an an1
-    coman1 comcom7 coman2 com2or comcom2 com2an fh3 comor1 comor2 fh3r or12
-    oridm ancom anabs anor2 oml ) ABCZAADZBEZFZCVEVHEZVEDZVHEZFZVJVHDEZFZABFZVE
-    VHGVNABEZVGFZAVFBDZFZEZFZVOAVRFZEZVFEZFZVOVLWAVMWDVIVQVKVTABHABIJABKJWEVQVT
-    WDFFZVOVQVTWDLWFVPVTFZVGWDFZFZVOVPVGVTWDMWIAVFVOEZFVOWGAWHWJWGVPAFZVPVSFZEZ
-    AAVPVSABNAVSVFVROPQWMAREAWKAWLRWKAVPFAVPASABTUAWLVPVPDZFZRVSWNVPVSVPVPVSDAB
-    UBUCUDUERWOVPUFUCUAUGAUHUAUAWHVGWCFZVGVFFZEZWJVGWCVFVGVOWBVGABVGAVFBUIZUJZV
-    FBUKZULVGAVRWTVGBXAUMULUNWSUOWRVOVFEWJWPVOWQVFWPVGVOFZVGWBFZEZVOVOVGWBVOVFB
-    VOAABUPZUMZABUQZUNVOAVRXEVOBXGUMULQXDVOREVOXBVOXCRXBVFVOFZBVOFZEZVOVOVFBXFX
-    GURXJVOVFFZVOEZVOXHXKXIVOVFVOSXIABBFZFVOBABUSXMBABUTUEUAUGXLVOXKEVOXKVOVAVO
-    VFVBUAUAUAXCVGVGDZFZRWBXNVGWBVGVGWBDABVCUCUDUERXOVGUFUCUAUGVOUHUAUAWQVFVGFV
-    FVGVFSVFBTUAUGVOVFVAUAUAJABVDUAUAUAUAUA $.
+    ( wi5 wn wa wo 2or fh4 ax-a2 orabs ax-r2 ax-r1 con3 lor df-t 2an an1 com2or
+    wt comcom2 df-i5 ud5lem3a ud5lem3b ud5lem3c or4 comanr1 comorr comcom6 df-a
+    ax-a3 coman1 comcom7 coman2 com2an fh3 comor1 comor2 fh3r oridm ancom anabs
+    or12 anor2 oml ) ABCZAADZBEZFZCVEVHEZVEDZVHEZFZVJVHDEZFZABFZVEVHUAVNABEZVGF
+    ZAVFBDZFZEZFZVOAVRFZEZVFEZFZVOVLWAVMWDVIVQVKVTABUBABUCGABUDGWEVQVTWDFFZVOVQ
+    VTWDUJWFVPVTFZVGWDFZFZVOVPVGVTWDUEWIAVFVOEZFVOWGAWHWJWGVPAFZVPVSFZEZAAVPVSA
+    BUFAVSVFVRUGUHHWMASEAWKAWLSWKAVPFAVPAIABJKWLVPVPDZFZSVSWNVPVSVPVPVSDABUILMN
+    SWOVPOLKPAQKKWHVGWCFZVGVFFZEZWJVGWCVFVGVOWBVGABVGAVFBUKZULZVFBUMZRVGAVRWTVG
+    BXATRUNWSUOWRVOVFEWJWPVOWQVFWPVGVOFZVGWBFZEZVOVOVGWBVOVFBVOAABUPZTZABUQZUNV
+    OAVRXEVOBXGTRHXDVOSEVOXBVOXCSXBVFVOFZBVOFZEZVOVOVFBXFXGURXJVOVFFZVOEZVOXHXK
+    XIVOVFVOIXIABBFZFVOBABVBXMBABUSNKPXLVOXKEVOXKVOUTVOVFVAKKKXCVGVGDZFZSWBXNVG
+    WBVGVGWBDABVCLMNSXOVGOLKPVOQKKWQVFVGFVFVGVFIVFBJKPVOVFUTKKGABVDKKKKK $.
     $( [26-Nov-97] $)
 
   $( Unified disjunction for Sasaki implication. $)
@@ -4934,54 +4908,54 @@ $)
   $( Lemma for Sasaki implication study.  Equation 4.10 of [MegPav2000] p. 23.
      This is the second part of the equation. $)
   u1lemaa $p |- ( ( a ->1 b ) ^ a ) = ( a ^ b ) $=
-    ( wi1 wa wn wo df-i1 ran comid comcom2 comanr1 fh1r wf ax-a2 an32 anidm
-    ax-r2 ancom dff ax-r1 2or or0 ) ABCZADAEZABDZFZADZUEUCUFAABGHUGUDADZUEADZFZ
-    UEAUDUEAAAIJABKLUJUEMFZUEUJUIUHFUKUHUINUIUEUHMUIAADZBDUEABAOULABAPHQUHAUDDZ
-    MUDARMUMASTQUAQUEUBQQQ $.
+    ( wi1 wa wn wo df-i1 ran comid comcom2 comanr1 fh1r ax-a2 anidm ax-r2 ancom
+    wf an32 dff ax-r1 2or or0 ) ABCZADAEZABDZFZADZUEUCUFAABGHUGUDADZUEADZFZUEAU
+    DUEAAAIJABKLUJUEQFZUEUJUIUHFUKUHUIMUIUEUHQUIAADZBDUEABARULABANHOUHAUDDZQUDA
+    PQUMASTOUAOUEUBOOO $.
     $( [14-Dec-97] $)
 
   $( Lemma for Dishkant implication study. $)
   u2lemaa $p |- ( ( a ->2 b ) ^ a ) = ( a ^ b ) $=
-    ( wi2 wa wn wo df-i2 ran ax-a2 coman1 comcom7 coman2 fh2r wf ancom anass
-    ax-r1 dff lan an0 ax-r2 2or or0 ) ABCZADBAEZBEZDZFZADZABDZUDUHAABGHUIUGBFZA
-    DZUJUHUKABUGIHULUGADZBADZFZUJUGABUGAUEUFJKUGBUEUFLKMUOUNUMFZUJUMUNIUPUJNFUJ
-    UNUJUMNBAOUMAUGDZNUGAOUQAUEDZUFDZNUSUQAUEUFPQUSUFURDZNURUFOUTUFNDNURNUFNURA
-    RQSUFTUAUAUAUAUBUJUCUAUAUAUAUA $.
+    ( wi2 wa wn wo df-i2 ran ax-a2 coman1 comcom7 coman2 fh2r ancom anass ax-r1
+    wf dff lan ax-r2 an0 2or or0 ) ABCZADBAEZBEZDZFZADZABDZUDUHAABGHUIUGBFZADZU
+    JUHUKABUGIHULUGADZBADZFZUJUGABUGAUEUFJKUGBUEUFLKMUOUNUMFZUJUMUNIUPUJQFUJUNU
+    JUMQBANUMAUGDZQUGANUQAUEDZUFDZQUSUQAUEUFOPUSUFURDZQURUFNUTUFQDQURQUFQURARPS
+    UFUATTTTUBUJUCTTTTT $.
     $( [14-Dec-97] $)
 
   $( Lemma for Kalmbach implication study. $)
   u3lemaa $p |- ( ( a ->3 b ) ^ a ) = ( a ^ ( a ' v b ) ) $=
-    ( wi3 wa wn wo df-i3 ran comanr1 comcom6 com2or comid comorr com2an fh1r
-    wf ancom anass ax-r1 dff lan an0 ax-r2 2or or0 an32 anidm ax-a2 ) ABCZADAEZ
-    BDZUJBEZDZFZAUJBFZDZFZADZUPUIUQAABGHURUNADZUPADZFZUPAUNUPAUKUMAUKUJBIJZAUMU
-    JULIJZKAAUOALAUOUJBMJNOVAPUPFZUPUSPUTUPUSUKADZUMADZFZPAUKUMVBVCOVGPPFPVEPVF
-    PVEAUKDZPUKAQVHAUJDZBDZPVJVHAUJBRSVJBVIDZPVIBQVKBPDPVIPBPVIATSZUABUBUCUCUCU
-    CVFAUMDZPUMAQVMVIULDZPVNVMAUJULRSVNULVIDZPVIULQVOULPDPVIPULVLUAULUBUCUCUCUC
-    UDPUEUCUCUTAADZUODUPAUOAUFVPAUOAUGHUCUDVDUPPFUPPUPUHUPUEUCUCUCUC $.
+    ( wi3 wa wn wo df-i3 ran comanr1 comcom6 wf ancom anass ax-r1 lan an0 ax-r2
+    fh1r 2or or0 com2or comid comorr com2an dff an32 anidm ax-a2 ) ABCZADAEZBDZ
+    UJBEZDZFZAUJBFZDZFZADZUPUIUQAABGHURUNADZUPADZFZUPAUNUPAUKUMAUKUJBIJZAUMUJUL
+    IJZUAAAUOAUBAUOUJBUCJUDRVAKUPFZUPUSKUTUPUSUKADZUMADZFZKAUKUMVBVCRVGKKFKVEKV
+    FKVEAUKDZKUKALVHAUJDZBDZKVJVHAUJBMNVJBVIDZKVIBLVKBKDKVIKBKVIAUENZOBPQQQQVFA
+    UMDZKUMALVMVIULDZKVNVMAUJULMNVNULVIDZKVIULLVOULKDKVIKULVLOULPQQQQSKTQQUTAAD
+    ZUODUPAUOAUFVPAUOAUGHQSVDUPKFUPKUPUHUPTQQQQ $.
     $( [14-Dec-97] $)
 
   $( Lemma for non-tollens implication study. $)
   u4lemaa $p |- ( ( a ->4 b ) ^ a ) = ( a ^ b ) $=
-    ( wi4 wa wn wo df-i4 ran comanr1 comcom6 com2or comcom comcom3 comanr2
-    comcom2 com2an fh2r wf fh1r an32 anidm ax-r2 ancom anass ax-r1 dff lan an0
-    2or or0 anor1 ) ABCZADABDZAEZBDZFZUNBFZBEZDZFZADZUMULUTAABGHVAUPADZUSADZFZU
-    MUPAUSAUPAUMUOABIZAUOUNBIZJZKLUPUQURUPUNBUNUPUNUMUOAUMVEMVFKLBUPBUMUOABNUNB
-    NKLZKUPBVHOPQVDUMRFZUMVBUMVCRVBUMADZUOADZFZUMAUMUOVEVGSVLVIUMVJUMVKRVJAADZB
-    DUMABATVMABAUAHUBVKAUODZRUOAUCVNAUNDZBDZRVPVNAUNBUDUEVPBVODZRVOBUCVQBRDRVOR
-    BRVOAUFUEUGBUHUBUBUBUBUIUMUJZUBUBVCUQURADZDZRUQURAUDVTUQUQEZDZRVSWAUQVSAURD
-    WAURAUCABUKUBUGRWBUQUFUEUBUBUIVRUBUBUB $.
+    ( wi4 wa wn wo df-i4 ran comanr1 com2or comcom comanr2 wf ax-r2 ancom anass
+    ax-r1 dff lan 2or comcom6 comcom3 comcom2 com2an fh2r fh1r an32 anidm anor1
+    an0 or0 ) ABCZADABDZAEZBDZFZUNBFZBEZDZFZADZUMULUTAABGHVAUPADZUSADZFZUMUPAUS
+    AUPAUMUOABIZAUOUNBIZUAZJKUPUQURUPUNBUNUPUNUMUOAUMVEUBVFJKBUPBUMUOABLUNBLJKZ
+    JUPBVHUCUDUEVDUMMFZUMVBUMVCMVBUMADZUOADZFZUMAUMUOVEVGUFVLVIUMVJUMVKMVJAADZB
+    DUMABAUGVMABAUHHNVKAUODZMUOAOVNAUNDZBDZMVPVNAUNBPQVPBVODZMVOBOVQBMDMVOMBMVO
+    ARQSBUJNNNNTUMUKZNNVCUQURADZDZMUQURAPVTUQUQEZDZMVSWAUQVSAURDWAURAOABUINSMWB
+    UQRQNNTVRNNN $.
     $( [14-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
   u5lemaa $p |- ( ( a ->5 b ) ^ a ) = ( a ^ b ) $=
-    ( wi5 wa wn wo df-i5 ran comanr1 comcom6 com2or fh1r wf an32 anidm ax-r2
-    ancom ax-r1 dff lan an0 2or or0 fh4 ax-a2 orabs fh1 anass ) ABCZADABDZAEZBD
-    ZFZUKBEZDZFZADZUJUIUPAABGHUQUMADZUOADZFZUJAUMUOAUJULABIZAULUKBIJZKAUOUKUNIJ
-    ZLUTUJAUODZFZUJURUJUSVDURUJADZULADZFZUJAUJULVAVBLVHUJMFZUJVFUJVGMVFAADZBDZU
-    JABANVJABAOHZPVGUKADZBDZMUKBANVNBVMDZMVMBQVOBMDMVMMBVMAUKDZMVPVMAUKQRMVPASZ
-    RPTBUAPPPUBUJUCZPPUOAQUBVEUJAFZUJUOFZDZUJAUJUOVAVCUDWAAVTDZUJVSAVTVSAUJFAUJ
-    AUEABUFPHWBAUJDZVDFZUJAUJUOVAVCUGWDVIUJWCUJVDMWCVKUJVKWCAABUHRVLPVDVPUNDZMW
-    EVDAUKUNUHRWEUNVPDZMVPUNQWFUNMDZMWGWFMVPUNVQTRUNUAPPPUBVRPPPPPPP $.
+    ( wi5 wa wn wo df-i5 ran comanr1 comcom6 fh1r wf an32 ax-r2 ancom ax-r1 lan
+    an0 2or anass com2or anidm dff or0 fh4 ax-a2 orabs fh1 ) ABCZADABDZAEZBDZFZ
+    UKBEZDZFZADZUJUIUPAABGHUQUMADZUOADZFZUJAUMUOAUJULABIZAULUKBIJZUAAUOUKUNIJZK
+    UTUJAUODZFZUJURUJUSVDURUJADZULADZFZUJAUJULVAVBKVHUJLFZUJVFUJVGLVFAADZBDZUJA
+    BAMVJABAUBHZNVGUKADZBDZLUKBAMVNBVMDZLVMBOVOBLDLVMLBVMAUKDZLVPVMAUKOPLVPAUCZ
+    PNQBRNNNSUJUDZNNUOAOSVEUJAFZUJUOFZDZUJAUJUOVAVCUEWAAVTDZUJVSAVTVSAUJFAUJAUF
+    ABUGNHWBAUJDZVDFZUJAUJUOVAVCUHWDVIUJWCUJVDLWCVKUJVKWCAABTPVLNVDVPUNDZLWEVDA
+    UKUNTPWEUNVPDZLVPUNOWFUNLDZLWGWFLVPUNVQQPUNRNNNSVRNNNNNNN $.
     $( [14-Dec-97] $)
 
   $( Lemma for Sasaki implication study. $)
@@ -4993,53 +4967,52 @@ $)
   $( Lemma for Dishkant implication study. $)
   u2lemana $p |- ( ( a ->2 b ) ^ a ' ) =
                ( ( a ' ^ b ) v ( a ' ^ b ' ) ) $=
-    ( wi2 wn wa wo df-i2 ran ax-a2 coman1 coman2 comcom7 fh2r an32 anidm ax-r2
-    ancom 2or ) ABCZADZEBTBDZEZFZTEZTBEZUBFZSUCTABGHUDUBBFZTEZUFUCUGTBUBIHUHUBT
-    EZBTEZFZUFUBTBTUAJUBBTUAKLMUKUBUEFUFUIUBUJUEUITTEZUAEUBTUATNULTUATOHPBTQRUB
-    UEIPPPP $.
+    ( wi2 wn wa wo df-i2 ran ax-a2 coman1 coman2 comcom7 fh2r anidm ax-r2 ancom
+    an32 2or ) ABCZADZEBTBDZEZFZTEZTBEZUBFZSUCTABGHUDUBBFZTEZUFUCUGTBUBIHUHUBTE
+    ZBTEZFZUFUBTBTUAJUBBTUAKLMUKUBUEFUFUIUBUJUEUITTEZUAEUBTUATQULTUATNHOBTPRUBU
+    EIOOOO $.
     $( [14-Dec-97] $)
 
   $( Lemma for Kalmbach implication study. $)
   u3lemana $p |- ( ( a ->3 b ) ^ a ' ) =
                ( ( a ' ^ b ) v ( a ' ^ b ' ) ) $=
-    ( wi3 wn wa wo df-i3 ran comanr1 com2or comid comcom3 comorr com2an fh1r
-    wf lea lel2or df2le2 an32 ancom dff ax-r1 lan an0 ax-r2 2or or0 ) ABCZADZEU
-    JBEZUJBDZEZFZAUJBFZEZFZUJEZUNUIUQUJABGHURUNUJEZUPUJEZFZUNUJUNUPUJUKUMUJBIUJ
-    ULIJUJAUOAAAKLUJBMNOVAUNPFUNUSUNUTPUNUJUKUJUMUJBQUJULQRSUTAUJEZUOEZPAUOUJTV
-    CUOVBEZPVBUOUAVDUOPEPVBPUOPVBAUBUCUDUOUEUFUFUFUGUNUHUFUFUF $.
+    ( wi3 wn wa wo df-i3 ran comanr1 com2or comid comcom3 comorr com2an fh1r wf
+    lea lel2or df2le2 ax-r2 an32 ancom dff ax-r1 lan an0 2or or0 ) ABCZADZEUJBE
+    ZUJBDZEZFZAUJBFZEZFZUJEZUNUIUQUJABGHURUNUJEZUPUJEZFZUNUJUNUPUJUKUMUJBIUJULI
+    JUJAUOAAAKLUJBMNOVAUNPFUNUSUNUTPUNUJUKUJUMUJBQUJULQRSUTAUJEZUOEZPAUOUJUAVCU
+    OVBEZPVBUOUBVDUOPEPVBPUOPVBAUCUDUEUOUFTTTUGUNUHTTT $.
     $( [14-Dec-97] $)
 
   $( Lemma for non-tollens implication study. $)
   u4lemana $p |- ( ( a ->4 b ) ^ a ' ) =
                ( ( a ' ^ b ) v ( a ' ^ b ' ) ) $=
-    ( wi4 wn wa wo df-i4 ran comanr1 comcom3 com2or comcom comor1 comcom7
-    comor2 com2an comanr2 fh2r fh1r wf an32 ancom dff ax-r1 lan an0 ax-r2
-    anidm 2or ax-a2 or0 leo df2le2 id ) ABCZADZEABEZUPBEZFZUPBFZBDZEZFZUPEZURUP
-    VAEZFZUOVCUPABGHVDUSUPEZVBUPEZFZVFUSUPVBUPUSUPUQURAUQABIJZUPBIZKLUSUTVAUTUS
-    UTUQURUTABUTAUPBMZNUPBOZPUTUPBVLVMPKLVAUSVAUQURBUQABQJBURUPBQJKLPRVIVFVFVGU
-    RVHVEVGUQUPEZURUPEZFZURUPUQURVJVKSVPTURFZURVNTVOURVNAUPEZBEZTABUPUAVSBVREZT
-    VRBUBVTBTETVRTBTVRAUCUDUEBUFUGUGUGVOUPUPEZBEURUPBUPUAWAUPBUPUHHUGUIVQURTFUR
-    TURUJURUKUGUGUGVHUTUPEZVAEVEUTVAUPUAWBUPVAWBUPUTEUPUTUPUBUPUTUPBULUMUGHUGUI
-    VFUNUGUGUG $.
+    ( wi4 wn wa wo df-i4 comanr1 comcom3 com2or comcom comor1 com2an comanr2 wf
+    ran an32 ancom ax-r2 2or comcom7 comor2 fh2r fh1r dff ax-r1 lan anidm ax-a2
+    an0 or0 leo df2le2 id ) ABCZADZEABEZUPBEZFZUPBFZBDZEZFZUPEZURUPVAEZFZUOVCUP
+    ABGPVDUSUPEZVBUPEZFZVFUSUPVBUPUSUPUQURAUQABHIZUPBHZJKUSUTVAUTUSUTUQURUTABUT
+    AUPBLZUAUPBUBZMUTUPBVLVMMJKVAUSVAUQURBUQABNIBURUPBNIJKMUCVIVFVFVGURVHVEVGUQ
+    UPEZURUPEZFZURUPUQURVJVKUDVPOURFZURVNOVOURVNAUPEZBEZOABUPQVSBVREZOVRBRVTBOE
+    OVROBOVRAUEUFUGBUJSSSVOUPUPEZBEURUPBUPQWAUPBUPUHPSTVQUROFUROURUIURUKSSSVHUT
+    UPEZVAEVEUTVAUPQWBUPVAWBUPUTEUPUTUPRUPUTUPBULUMSPSTVFUNSSS $.
     $( [14-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
   u5lemana $p |- ( ( a ->5 b ) ^ a ' ) =
                ( ( a ' ^ b ) v ( a ' ^ b ' ) ) $=
-    ( wi5 wn wa wo df-i5 ran comanr1 comcom3 com2or fh1r ax-a2 wf an32 anidm
-    ax-r2 ancom dff lan ax-r1 an0 2or or0 ) ABCZADZEABEZUFBEZFZUFBDZEZFZUFEZUHU
-    KFZUEULUFABGHUMUIUFEZUKUFEZFUNUFUIUKUFUGUHAUGABIJZUFBIZKUFUJILUOUHUPUKUOUGU
-    FEZUHUFEZFZUHUFUGUHUQURLVAUTUSFZUHUSUTMVBUHNFUHUTUHUSNUTUFUFEZBEUHUFBUFOVCU
-    FBUFPZHQUSAUFEZBEZNABUFOVFBVEEZNVEBRVGBNEZNVHVGNVEBASTUABUBQQQUCUHUDQQQUPVC
-    UJEUKUFUJUFOVCUFUJVDHQUCQQ $.
+    ( wi5 wn wa wo df-i5 ran comanr1 comcom3 com2or fh1r ax-a2 an32 anidm ax-r2
+    wf ancom dff 2or lan ax-r1 an0 or0 ) ABCZADZEABEZUFBEZFZUFBDZEZFZUFEZUHUKFZ
+    UEULUFABGHUMUIUFEZUKUFEZFUNUFUIUKUFUGUHAUGABIJZUFBIZKUFUJILUOUHUPUKUOUGUFEZ
+    UHUFEZFZUHUFUGUHUQURLVAUTUSFZUHUSUTMVBUHQFUHUTUHUSQUTUFUFEZBEUHUFBUFNVCUFBU
+    FOZHPUSAUFEZBEZQABUFNVFBVEEZQVEBRVGBQEZQVHVGQVEBASUAUBBUCPPPTUHUDPPPUPVCUJE
+    UKUFUJUFNVCUFUJVDHPTPP $.
     $( [14-Dec-97] $)
 
   $( Lemma for Sasaki implication study.  Equation 4.10 of [MegPav2000] p. 23.
      This is the second part of the equation. $)
   u1lemab $p |- ( ( a ->1 b ) ^ b ) = ( ( a ^ b ) v ( a ' ^ b ) ) $=
-    ( wi1 wa wn wo df-i1 ran ax-a2 coman2 coman1 comcom2 fh2r ax-r2 anass
-    anidm lan ax-r5 ) ABCZBDAEZABDZFZBDZUATBDZFZSUBBABGHUCUABDZUDFZUEUCUATFZBDU
-    GUBUHBTUAIHUABTABJUAAABKLMNUFUAUDUFABBDZDUAABBOUIBABPQNRNN $.
+    ( wi1 wa wn wo df-i1 ran ax-a2 coman2 coman1 comcom2 fh2r ax-r2 anass anidm
+    lan ax-r5 ) ABCZBDAEZABDZFZBDZUATBDZFZSUBBABGHUCUABDZUDFZUEUCUATFZBDUGUBUHB
+    TUAIHUABTABJUAAABKLMNUFUAUDUFABBDZDUAABBOUIBABPQNRNN $.
     $( [14-Dec-97] $)
 
   $( Lemma for Dishkant implication study. $)
@@ -5050,83 +5023,81 @@ $)
 
   $( Lemma for Kalmbach implication study. $)
   u3lemab $p |- ( ( a ->3 b ) ^ b ) = ( ( a ^ b ) v ( a ' ^ b ) ) $=
-    ( wi3 wa wn wo df-i3 ran comanr2 comcom6 com2or comcom coman1 comcom7
-    coman2 com2an fh2r fh1r wf anass anidm lan ax-r2 an32 dff ax-r1 an0 2or
-    or0 ancom ax-a2 anabs ) ABCZBDAEZBDZUNBEZDZFZAUNBFZDZFZBDZABDZUOFZUMVABABGH
-    VBURBDZUTBDZFZVDURBUTBURBUOUQUNBIZBUQUNUPIJZKLUTURUTUOUQUOUTUOAUSUOAUNBMZNU
-    OUNBVJUNBOKPLUQUTUQAUSUQAUNUPMZNUQUNBVKUQBUNUPONKPLKLQVGUOVCFVDVEUOVFVCVEUO
-    BDZUQBDZFZUOBUOUQVHVIRVNUOSFUOVLUOVMSVLUNBBDZDUOUNBBTVOBUNBUAUBUCVMUOUPDZSU
-    NUPBUDVPUNBUPDZDZSUNBUPTVRUNSDSVQSUNSVQBUEUFUBUNUGUCUCUCUHUOUIUCUCVFAUSBDZD
-    VCAUSBTVSBAVSBUSDZBUSBUJVTBBUNFZDBUSWABUNBUKUBBUNULUCUCUBUCUHUOVCUKUCUCUC
-    $.
+    ( wi3 wa wn wo df-i3 comanr2 com2or comcom coman1 comcom7 coman2 com2an lan
+    wf anass ax-r2 2or ax-a2 ran comcom6 fh2r fh1r anidm an32 dff ax-r1 an0 or0
+    ancom anabs ) ABCZBDAEZBDZUNBEZDZFZAUNBFZDZFZBDZABDZUOFZUMVABABGUAVBURBDZUT
+    BDZFZVDURBUTBURBUOUQUNBHZBUQUNUPHUBZIJUTURUTUOUQUOUTUOAUSUOAUNBKZLUOUNBVJUN
+    BMINJUQUTUQAUSUQAUNUPKZLUQUNBVKUQBUNUPMLINJIJUCVGUOVCFVDVEUOVFVCVEUOBDZUQBD
+    ZFZUOBUOUQVHVIUDVNUOPFUOVLUOVMPVLUNBBDZDUOUNBBQVOBUNBUEORVMUOUPDZPUNUPBUFVP
+    UNBUPDZDZPUNBUPQVRUNPDPVQPUNPVQBUGUHOUNUIRRRSUOUJRRVFAUSBDZDVCAUSBQVSBAVSBU
+    SDZBUSBUKVTBBUNFZDBUSWABUNBTOBUNULRRORSUOVCTRRR $.
     $( [14-Dec-97] $)
 
   $( Lemma for non-tollens implication study. $)
   u4lemab $p |- ( ( a ->4 b ) ^ b ) = ( ( a ^ b ) v ( a ' ^ b ) ) $=
-    ( wi4 wa wn wo df-i4 ran comanr2 com2or comcom6 fh1r wf lear lel2or df2le2
-    an32 anass dff lan ax-r1 an0 ax-r2 2or or0 ) ABCZBDABDZAEZBDZFZUHBFZBEZDZFZ
-    BDZUJUFUNBABGHUOUJBDZUMBDZFZUJBUJUMBUGUIABIUHBIJBUMUKULIKLURUJMFUJUPUJUQMUJ
-    BUGBUIABNUHBNOPUQUKBDULDZMUKULBQUSUKBULDZDZMUKBULRVAUKMDZMVBVAMUTUKBSTUAUKU
-    BUCUCUCUDUJUEUCUCUC $.
+    ( wi4 wa wn wo df-i4 comanr2 com2or comcom6 fh1r wf lear lel2or df2le2 an32
+    ran anass dff ax-r2 lan ax-r1 an0 2or or0 ) ABCZBDABDZAEZBDZFZUHBFZBEZDZFZB
+    DZUJUFUNBABGQUOUJBDZUMBDZFZUJBUJUMBUGUIABHUHBHIBUMUKULHJKURUJLFUJUPUJUQLUJB
+    UGBUIABMUHBMNOUQUKBDULDZLUKULBPUSUKBULDZDZLUKBULRVAUKLDZLVBVALUTUKBSUAUBUKU
+    CTTTUDUJUETTT $.
     $( [14-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
   u5lemab $p |- ( ( a ->5 b ) ^ b ) = ( ( a ^ b ) v ( a ' ^ b ) ) $=
-    ( wi5 wa wn wo df-i5 ran comanr2 com2or comcom6 fh1r wf lear lel2or df2le2
-    an32 anass dff lan ax-r1 an0 ax-r2 2or or0 ) ABCZBDABDZAEZBDZFZUHBEZDZFZBDZ
-    UJUFUMBABGHUNUJBDZULBDZFZUJBUJULBUGUIABIUHBIJBULUHUKIKLUQUJMFUJUOUJUPMUJBUG
-    BUIABNUHBNOPUPUIUKDZMUHUKBQURUHBUKDZDZMUHBUKRUTUHMDZMVAUTMUSUHBSTUAUHUBUCUC
-    UCUDUJUEUCUCUC $.
+    ( wi5 wa wn wo df-i5 comanr2 com2or comcom6 fh1r wf lear lel2or df2le2 an32
+    ran anass dff ax-r2 lan ax-r1 an0 2or or0 ) ABCZBDABDZAEZBDZFZUHBEZDZFZBDZU
+    JUFUMBABGQUNUJBDZULBDZFZUJBUJULBUGUIABHUHBHIBULUHUKHJKUQUJLFUJUOUJUPLUJBUGB
+    UIABMUHBMNOUPUIUKDZLUHUKBPURUHBUKDZDZLUHBUKRUTUHLDZLVAUTLUSUHBSUAUBUHUCTTTU
+    DUJUETTT $.
     $( [14-Dec-97] $)
 
   $( Lemma for Sasaki implication study. $)
   u1lemanb $p |- ( ( a ->1 b ) ^ b ' ) = ( a ' ^ b ' ) $=
-    ( wi1 wn wa wo df-i1 ran ax-a2 coman2 comcom2 coman1 fh2r wf anass dff lan
-    ax-r1 an0 ax-r2 lor or0 ) ABCZBDZEADZABEZFZUDEZUEUDEZUCUGUDABGHUHUFUEFZUDEZ
-    UIUGUJUDUEUFIHUKUFUDEZUIFZUIUFUDUEUFBABJKUFAABLKMUMUIULFZUIULUIIUNUINFUIULN
-    UIULABUDEZEZNABUDOUPANEZNUQUPNUOABPQRASTTUAUIUBTTTTT $.
+    ( wi1 wn wa wo df-i1 ran ax-a2 coman2 comcom2 coman1 wf anass dff lan ax-r1
+    fh2r an0 ax-r2 lor or0 ) ABCZBDZEADZABEZFZUDEZUEUDEZUCUGUDABGHUHUFUEFZUDEZU
+    IUGUJUDUEUFIHUKUFUDEZUIFZUIUFUDUEUFBABJKUFAABLKRUMUIULFZUIULUIIUNUIMFUIULMU
+    IULABUDEZEZMABUDNUPAMEZMUQUPMUOABOPQASTTUAUIUBTTTTT $.
     $( [14-Dec-97] $)
 
   $( Lemma for Dishkant implication study. $)
   u2lemanb $p |- ( ( a ->2 b ) ^ b ' ) = ( a ' ^ b ' ) $=
-    ( wi2 wn wa wo df-i2 ran comid comcom3 comanr2 fh1r ax-a2 wf anass anidm
-    lan ax-r2 dff ax-r1 2or or0 ) ABCZBDZEBADZUDEZFZUDEZUFUCUGUDABGHUHBUDEZUFUD
-    EZFZUFUDBUFBBBIJUEUDKLUKUJUIFZUFUIUJMULUFNFUFUJUFUINUJUEUDUDEZEUFUEUDUDOUMU
-    DUEUDPQRNUIBSTUAUFUBRRRR $.
+    ( wi2 wn wa wo df-i2 ran comid comcom3 comanr2 fh1r ax-a2 anass anidm ax-r2
+    wf lan dff ax-r1 2or or0 ) ABCZBDZEBADZUDEZFZUDEZUFUCUGUDABGHUHBUDEZUFUDEZF
+    ZUFUDBUFBBBIJUEUDKLUKUJUIFZUFUIUJMULUFQFUFUJUFUIQUJUEUDUDEZEUFUEUDUDNUMUDUE
+    UDORPQUIBSTUAUFUBPPPP $.
     $( [14-Dec-97] $)
 
   $( Lemma for Kalmbach implication study. $)
   u3lemanb $p |- ( ( a ->3 b ) ^ b ' ) = ( a ' ^ b ' ) $=
-    ( wi3 wn wa wo df-i3 ran comanr2 comcom3 com2or comcom coman1 comcom7
-    coman2 com2an fh2r wf comcom2 ax-a2 anass anidm lan ax-r2 dff ax-r1 an0
-    2or or0 an32 ancom anor1 ) ABCZBDZEADZBEZUOUNEZFZAUOBFZEZFZUNEZUQUMVAUNABGH
-    VBURUNEZUTUNEZFZUQURUNUTUNURUNUPUQBUPUOBIJUOUNIKLUTURUTUPUQUPUTUPAUSUPAUOBM
-    ZNUPUOBVFUOBOZKPLUQUTUQAUSUQAUOUNMZNUQUOBVHUQBUOUNONKPLKLQVEUQRFZUQVCUQVDRV
-    CUPUNEZUQUNEZFZUQUPUNUQUPBVGSZUPUOUNVFVMPQVLVKVJFZUQVJVKTVNVIUQVKUQVJRVKUOU
-    NUNEZEUQUOUNUNUAVOUNUOUNUBUCUDVJUOBUNEZEZRUOBUNUAVQUOREZRVRVQRVPUOBUEUCUFUO
-    UGUDUDUHUQUIZUDUDUDVDAUNEZUSEZRAUSUNUJWAUSVTEZRVTUSUKWBUSUSDZEZRVTWCUSABULU
-    CRWDUSUEUFUDUDUDUHVSUDUDUD $.
+    ( wn wa wo comanr2 com2or comcom coman1 comcom7 coman2 com2an fh2r wf anass
+    lan ax-r2 dff ax-r1 2or wi3 df-i3 ran comcom3 comcom2 ax-a2 anidm an0 ancom
+    or0 an32 anor1 ) ABUAZBCZDACZBDZUOUNDZEZAUOBEZDZEZUNDZUQUMVAUNABUBUCVBURUND
+    ZUTUNDZEZUQURUNUTUNURUNUPUQBUPUOBFUDUOUNFGHUTURUTUPUQUPUTUPAUSUPAUOBIZJUPUO
+    BVFUOBKZGLHUQUTUQAUSUQAUOUNIZJUQUOBVHUQBUOUNKJGLHGHMVEUQNEZUQVCUQVDNVCUPUND
+    ZUQUNDZEZUQUPUNUQUPBVGUEZUPUOUNVFVMLMVLVKVJEZUQVJVKUFVNVIUQVKUQVJNVKUOUNUND
+    ZDUQUOUNUNOVOUNUOUNUGPQVJUOBUNDZDZNUOBUNOVQUONDZNVRVQNVPUOBRPSUOUHQQTUQUJZQ
+    QQVDAUNDZUSDZNAUSUNUKWAUSVTDZNVTUSUIWBUSUSCZDZNVTWCUSABULPNWDUSRSQQQTVSQQQ
+    $.
     $( [14-Dec-97] $)
 
   $( Lemma for non-tollens implication study. $)
   u4lemanb $p |- ( ( a ->4 b ) ^ b ' ) = ( ( a ' v b ) ^ b ' ) $=
-    ( wi4 wn wa wo df-i4 ran comanr2 comcom3 com2or comorr2 comid com2an fh1r
-    ax-a2 wf anass anidm lan ax-r2 dff ax-r1 an0 2or or0 ) ABCZBDZEABEZADZBEZFZ
-    UJBFZUHEZFZUHEZUNUGUOUHABGHUPULUHEZUNUHEZFZUNUHULUNUHUIUKBUIABIJZBUKUJBIJZK
-    UHUMUHBUMUJBLJUHMNOUSURUQFZUNUQURPVBUNQFUNURUNUQQURUMUHUHEZEUNUMUHUHRVCUHUM
-    UHSTUAUQUIUHEZUKUHEZFZQUHUIUKUTVAOVFQQFQVDQVEQVDABUHEZEZQABUHRVHAQEZQVIVHQV
-    GABUBZTUCAUDUAUAVEUJVGEZQUJBUHRVKUJQEZQVLVKQVGUJVJTUCUJUDUAUAUEQUFUAUAUEUNU
-    FUAUAUAUA $.
+    ( wi4 wn wa wo df-i4 ran comanr2 comcom3 com2or fh1r wf anass lan ax-r2 an0
+    ax-r1 2or or0 comorr2 comid com2an ax-a2 anidm dff ) ABCZBDZEABEZADZBEZFZUJ
+    BFZUHEZFZUHEZUNUGUOUHABGHUPULUHEZUNUHEZFZUNUHULUNUHUIUKBUIABIJZBUKUJBIJZKUH
+    UMUHBUMUJBUAJUHUBUCLUSURUQFZUNUQURUDVBUNMFUNURUNUQMURUMUHUHEZEUNUMUHUHNVCUH
+    UMUHUEOPUQUIUHEZUKUHEZFZMUHUIUKUTVALVFMMFMVDMVEMVDABUHEZEZMABUHNVHAMEZMVIVH
+    MVGABUFZORAQPPVEUJVGEZMUJBUHNVKUJMEZMVLVKMVGUJVJORUJQPPSMTPPSUNTPPPP $.
     $( [14-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
   u5lemanb $p |- ( ( a ->5 b ) ^ b ' ) = ( a ' ^ b ' ) $=
-    ( wi5 wn wa wo df-i5 ran comanr2 comcom3 com2or fh1r ax-a2 wf anass anidm
-    lan ax-r2 dff ax-r1 an0 2or or0 ) ABCZBDZEABEZADZBEZFZUGUEEZFZUEEZUJUDUKUEA
-    BGHULUIUEEZUJUEEZFZUJUEUIUJUEUFUHBUFABIJZBUHUGBIJZKUGUEILUOUNUMFZUJUMUNMURU
-    JNFUJUNUJUMNUNUGUEUEEZEUJUGUEUEOUSUEUGUEPQRUMUFUEEZUHUEEZFZNUEUFUHUPUQLVBNN
-    FNUTNVANUTABUEEZEZNABUEOVDANEZNVEVDNVCABSZQTAUARRVAUGVCEZNUGBUEOVGUGNEZNVHV
-    GNVCUGVFQTUGUARRUBNUCRRUBUJUCRRRR $.
+    ( wi5 wn wa wo df-i5 ran comanr2 comcom3 com2or fh1r wf anass lan ax-r2 an0
+    ax-r1 2or or0 ax-a2 anidm dff ) ABCZBDZEABEZADZBEZFZUGUEEZFZUEEZUJUDUKUEABG
+    HULUIUEEZUJUEEZFZUJUEUIUJUEUFUHBUFABIJZBUHUGBIJZKUGUEILUOUNUMFZUJUMUNUAURUJ
+    MFUJUNUJUMMUNUGUEUEEZEUJUGUEUENUSUEUGUEUBOPUMUFUEEZUHUEEZFZMUEUFUHUPUQLVBMM
+    FMUTMVAMUTABUEEZEZMABUENVDAMEZMVEVDMVCABUCZORAQPPVAUGVCEZMUGBUENVGUGMEZMVHV
+    GMVCUGVFORUGQPPSMTPPSUJTPPPP $.
     $( [14-Dec-97] $)
 
   $( Lemma for Sasaki implication study. $)
@@ -5152,13 +5123,12 @@ $)
 
   $( Lemma for non-tollens implication study. $)
   u4lemoa $p |- ( ( a ->4 b ) v a ) = 1 $=
-    ( wi4 wo wa wn wt df-i4 ax-r5 ax-a3 comor1 comcom7 comor2 comcom2 fh4r
-    or32 ax-a2 df-t ax-r2 lor ax-r1 or1 ran ancom an1 anor1 ) ABCZADABEZAFZBEZD
-    ZUIBDZBFZEZDZADZGUGUOAABHIUPUKUNADZDZGUKUNAJURUKUMADZDZGUQUSUKUQULADZUSEZUS
-    ULAUMULAUIBKLULBUIBMNOVBGUSEZUSVAGUSVAUIADZBDZGUIBAPVEBVDDZGVDBQVFBGDZGVGVF
-    GVDBGAUIDVDARAUIQSTUABUBSSSUCVCUSGEUSGUSUDUSUESSSTUTUHUJUSDZDZGUHUJUSJVIUHG
-    DGVHGUHVHUSUJDZGUJUSQVJUSUSFZDZGUJVKUSUJBUIEVKUIBUDBAUFSTGVLUSRUASSTUHUBSSS
-    SS $.
+    ( wi4 wo wa wn df-i4 ax-r5 ax-a3 comor1 comcom7 comor2 ax-a2 df-t ax-r2 lor
+    wt ax-r1 or1 ancom comcom2 fh4r or32 ran an1 anor1 ) ABCZADABEZAFZBEZDZUIBD
+    ZBFZEZDZADZQUGUOAABGHUPUKUNADZDZQUKUNAIURUKUMADZDZQUQUSUKUQULADZUSEZUSULAUM
+    ULAUIBJKULBUIBLUAUBVBQUSEZUSVAQUSVAUIADZBDZQUIBAUCVEBVDDZQVDBMVFBQDZQVGVFQV
+    DBQAUIDVDANAUIMOPRBSOOOUDVCUSQEUSQUSTUSUEOOOPUTUHUJUSDZDZQUHUJUSIVIUHQDQVHQ
+    UHVHUSUJDZQUJUSMVJUSUSFZDZQUJVKUSUJBUIEVKUIBTBAUFOPQVLUSNROOPUHSOOOOO $.
     $( [15-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
@@ -5190,13 +5160,13 @@ $)
 
   $( Lemma for non-tollens implication study. $)
   u4lemona $p |- ( ( a ->4 b ) v a ' ) = ( a ' v b ) $=
-    ( wi4 wn wo wa df-i4 ax-r5 or32 ax-a3 lea df-le2 lor ax-r2 comor1 comcom7
-    comor2 com2an com2or comcom2 fh4 wt lear leor letr leo lel2or df-a ax-r1
-    con3 df-t 2an an1 ) ABCZADZEABFZUOBFZEZUOBEZBDZFZEZUOEZUSUNVBUOABGHVCURUOEZ
-    VAEZUSURVAUOIVEUPUOEZVAEZUSVDVFVAVDUPUQUOEZEVFUPUQUOJVHUOUPUQUOUOBKLMNHVGVF
-    USEZVFUTEZFZUSUSVFUTUSUPUOUSABUSAUOBOZPUOBQZRVLSUSBVMTUAVKUSUBFUSVIUSVJUBVF
-    USUPUSUOUPBUSABUCBUOUDUEUOBUFUGLVJUPUOUTEZEZUBUPUOUTJVOUPUPDZEZUBVNVPUPVNUP
-    UPVNDABUHUIUJMUBVQUPUKUINNULUSUMNNNNN $.
+    ( wi4 wn wo wa df-i4 ax-r5 ax-a3 lea df-le2 lor ax-r2 comor1 comcom7 comor2
+    or32 com2an wt ax-r1 com2or comcom2 fh4 lear leor letr leo lel2or df-a con3
+    df-t 2an an1 ) ABCZADZEABFZUOBFZEZUOBEZBDZFZEZUOEZUSUNVBUOABGHVCURUOEZVAEZU
+    SURVAUOQVEUPUOEZVAEZUSVDVFVAVDUPUQUOEZEVFUPUQUOIVHUOUPUQUOUOBJKLMHVGVFUSEZV
+    FUTEZFZUSUSVFUTUSUPUOUSABUSAUOBNZOUOBPZRVLUAUSBVMUBUCVKUSSFUSVIUSVJSVFUSUPU
+    SUOUPBUSABUDBUOUEUFUOBUGUHKVJUPUOUTEZEZSUPUOUTIVOUPUPDZEZSVNVPUPVNUPUPVNDAB
+    UITUJLSVQUPUKTMMULUSUMMMMMM $.
     $( [15-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
@@ -5220,23 +5190,23 @@ $)
 
   $( Lemma for Kalmbach implication study. $)
   u3lemob $p |- ( ( a ->3 b ) v b ) = ( a ' v b ) $=
-    ( wi3 wo wn wa df-i3 ax-r5 or32 lear df-le2 ax-r2 ancom 2or comor2 comor1
-    comcom2 com2an com2or comcom7 fh4 wt or12 oridm lor ax-a2 lea leo letr
-    oran con2 ax-r1 df-t 2an an1 ) ABCZBDAEZBFZUQBEZFZDZAUQBDZFZDZBDZVBUPVDBABG
-    HVEVABDZVCDZVBVAVCBIVGBUTDZVBAFZDZVBVFVHVCVIVFURBDZUTDVHURUTBIVKBUTURBUQBJK
-    HLAVBMNVJVHVBDZVHADZFZVBVBVHAVBBUTUQBOZVBUQUSUQBPZVBBVOQRSVBAVPTUAVNVBUBFVB
-    VLVBVMUBVLBVBDZUTDZVBBUTVBIVRVBUTDZVBVQVBUTVQUQBBDZDVBBUQBUCVTBUQBUDUELHVSU
-    TVBDVBVBUTUFUTVBUTUQVBUQUSUGUQBUHUIKLLLVMBADZUTDZUBBUTAIWBWAWAEZDZUBUTWCWAU
-    TUSUQFZWCUQUSMWCWEWAWEBAUJUKULLUEUBWDWAUMULLLUNVBUOLLLLL $.
+    ( wi3 wo wn wa df-i3 ax-r5 or32 lear df-le2 ax-r2 2or comor2 comor1 comcom2
+    ancom wt lor ax-r1 com2an com2or comcom7 fh4 or12 oridm ax-a2 lea letr oran
+    leo con2 df-t 2an an1 ) ABCZBDAEZBFZUQBEZFZDZAUQBDZFZDZBDZVBUPVDBABGHVEVABD
+    ZVCDZVBVAVCBIVGBUTDZVBAFZDZVBVFVHVCVIVFURBDZUTDVHURUTBIVKBUTURBUQBJKHLAVBQM
+    VJVHVBDZVHADZFZVBVBVHAVBBUTUQBNZVBUQUSUQBOZVBBVOPUAUBVBAVPUCUDVNVBRFVBVLVBV
+    MRVLBVBDZUTDZVBBUTVBIVRVBUTDZVBVQVBUTVQUQBBDZDVBBUQBUEVTBUQBUFSLHVSUTVBDVBV
+    BUTUGUTVBUTUQVBUQUSUHUQBUKUIKLLLVMBADZUTDZRBUTAIWBWAWAEZDZRUTWCWAUTUSUQFZWC
+    UQUSQWCWEWAWEBAUJULTLSRWDWAUMTLLUNVBUOLLLLL $.
     $( [15-Dec-97] $)
 
   $( Lemma for non-tollens implication study. $)
   u4lemob $p |- ( ( a ->4 b ) v b ) = ( a ' v b ) $=
-    ( wi4 wo wa wn df-i4 ax-r5 or32 lear lel2or df-le2 comorr2 comid comcom2
-    fh3 wt or12 oridm lor ax-r2 df-t ax-r1 2an an1 ) ABCZBDABEZAFZBEZDZUHBDZBFZ
-    EZDZBDZUKUFUNBABGHUOUJBDZUMDZUKUJUMBIUQBUMDZUKUPBUMUJBUGBUIABJUHBJKLHURBUKD
-    ZBULDZEZUKBUKULUHBMBBBNOPVAUKQEUKUSUKUTQUSUHBBDZDUKBUHBRVBBUHBSTUAQUTBUBUCU
-    DUKUEUAUAUAUAUA $.
+    ( wi4 wo wa wn df-i4 ax-r5 or32 lear lel2or df-le2 comorr2 comid comcom2 wt
+    fh3 or12 oridm ax-r2 lor df-t ax-r1 2an an1 ) ABCZBDABEZAFZBEZDZUHBDZBFZEZD
+    ZBDZUKUFUNBABGHUOUJBDZUMDZUKUJUMBIUQBUMDZUKUPBUMUJBUGBUIABJUHBJKLHURBUKDZBU
+    LDZEZUKBUKULUHBMBBBNOQVAUKPEUKUSUKUTPUSUHBBDZDUKBUHBRVBBUHBSUATPUTBUBUCUDUK
+    UETTTTT $.
     $( [15-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
@@ -5260,14 +5230,14 @@ $)
 
   $( Lemma for Kalmbach implication study. $)
   u3lemonb $p |- ( ( a ->3 b ) v b ' ) = 1 $=
-    ( wi3 wn wo wa wt df-i3 ax-r5 or32 ax-a3 lear df-le2 lor ax-r2 ancom 2or
-    comor1 comor2 com2an comcom2 com2or comcom7 fh4 ax-a2 df-t ax-r1 or1 anor1
-    con2 2an an1 ) ABCZBDZEADZBFZUOUNFZEZAUOBEZFZEZUNEZGUMVAUNABHIVBURUNEZUTEZG
-    URUTUNJVDUPUNEZUSAFZEZGVCVEUTVFVCUPUQUNEZEVEUPUQUNKVHUNUPUQUNUOUNLMNOAUSPQV
-    GVEUSEZVEAEZFZGUSVEAUSUPUNUSUOBUOBRZUOBSZTUSBVMUAUBUSAVLUCUDVKGGFGVIGVJGVIU
-    PUNUSEZEZGUPUNUSKVOUPGEGVNGUPVNUSUNEZGUNUSUEVPUOBUNEZEZGUOBUNKVRUOGEGVQGUOG
-    VQBUFUGNUOUHOOONUPUHOOVJUPUNAEZEZGUPUNAKVTUPUPDZEZGVSWAUPWAVSUPVSUPBUOFVSDU
-    OBPBAUIOUJUGNGWBUPUFUGOOUKGULOOOOO $.
+    ( wi3 wn wo wa df-i3 ax-r5 or32 ax-a3 lear df-le2 lor ax-r2 ancom 2or ax-r1
+    wt df-t or1 comor1 comor2 com2an comcom2 com2or comcom7 fh4 ax-a2 anor1 2an
+    con2 an1 ) ABCZBDZEADZBFZUOUNFZEZAUOBEZFZEZUNEZRUMVAUNABGHVBURUNEZUTEZRURUT
+    UNIVDUPUNEZUSAFZEZRVCVEUTVFVCUPUQUNEZEVEUPUQUNJVHUNUPUQUNUOUNKLMNAUSOPVGVEU
+    SEZVEAEZFZRUSVEAUSUPUNUSUOBUOBUAZUOBUBZUCUSBVMUDUEUSAVLUFUGVKRRFRVIRVJRVIUP
+    UNUSEZEZRUPUNUSJVOUPRERVNRUPVNUSUNEZRUNUSUHVPUOBUNEZEZRUOBUNJVRUORERVQRUORV
+    QBSQMUOTNNNMUPTNNVJUPUNAEZEZRUPUNAJVTUPUPDZEZRVSWAUPWAVSUPVSUPBUOFVSDUOBOBA
+    UINUKQMRWBUPSQNNUJRULNNNNN $.
     $( [15-Dec-97] $)
 
   $( Lemma for non-tollens implication study. $)
@@ -5330,9 +5300,9 @@ $)
   $( Lemma for Kalmbach implication study. $)
   u3lemnana $p |- ( ( a ->3 b ) ' ^ a ' ) =
                 ( a ' ^ ( ( a v b ) ^ ( a v b ' ) ) ) $=
-    ( wi3 wn wa wo u3lemoa ax-a2 anor3 anor2 2or oran3 ax-r2 lor oran oran1
-    3tr2 con1 ) ABCZDADZEZTABFZABDZFZEZEZSAFZAUEDZFZUADUFDUGATBEZTUCEZFZFUIABGU
-    LUHAULUKUJFZUHUJUKHUMUBDZUDDZFUHUKUNUJUOABIABJKUBUDLMMNMSAOAUEPQR $.
+    ( wi3 wn wa wo u3lemoa ax-a2 anor3 anor2 2or oran3 ax-r2 lor oran 3tr2 con1
+    oran1 ) ABCZDADZEZTABFZABDZFZEZEZSAFZAUEDZFZUADUFDUGATBEZTUCEZFZFUIABGULUHA
+    ULUKUJFZUHUJUKHUMUBDZUDDZFUHUKUNUJUOABIABJKUBUDLMMNMSAOAUERPQ $.
     $( [16-Dec-97] $)
 
   $( Lemma for non-tollens implication study. $)
@@ -5344,9 +5314,9 @@ $)
   $( Lemma for relevance implication study. $)
   u5lemnana $p |- ( ( a ->5 b ) ' ^ a ' ) =
                 ( a ' ^ ( ( a v b ) ^ ( a v b ' ) ) ) $=
-    ( wi5 wn wa wo u5lemoa ax-a2 anor3 anor2 2or oran3 ax-r2 lor oran oran1
-    3tr2 con1 ) ABCZDADZEZTABFZABDZFZEZEZSAFZAUEDZFZUADUFDUGATBEZTUCEZFZFUIABGU
-    LUHAULUKUJFZUHUJUKHUMUBDZUDDZFUHUKUNUJUOABIABJKUBUDLMMNMSAOAUEPQR $.
+    ( wi5 wn wa wo u5lemoa ax-a2 anor3 anor2 2or oran3 ax-r2 lor oran 3tr2 con1
+    oran1 ) ABCZDADZEZTABFZABDZFZEZEZSAFZAUEDZFZUADUFDUGATBEZTUCEZFZFUIABGULUHA
+    ULUKUJFZUHUJUKHUMUBDZUDDZFUHUKUNUJUOABIABJKUBUDLMMNMSAOAUERPQ $.
     $( [16-Dec-97] $)
 
   $( Lemma for Sasaki implication study. $)
@@ -5370,17 +5340,17 @@ $)
   $( Lemma for non-tollens implication study. $)
   u4lemnab $p |- ( ( a ->4 b ) ' ^ b ) =
                ( ( ( a v b ' ) ^ ( a ' v b ' ) ) ^ b ) $=
-    ( wi4 wn wa wo u4lemonb ax-a2 anor2 df-a 2or oran3 ax-r2 ax-r5 oran1 3tr2
-    con1 ) ABCZDBEZABDZFZADZTFZEZBEZRTFZUDDZTFZSDUEDUFABEZUBBEZFZTFUHABGUKUGTUK
-    UJUIFZUGUIUJHULUADZUCDZFUGUJUMUIUNABIABJKUAUCLMMNMRBOUDBLPQ $.
+    ( wi4 wn wa u4lemonb ax-a2 anor2 df-a 2or oran3 ax-r2 ax-r5 oran1 3tr2 con1
+    wo ) ABCZDBEZABDZQZADZTQZEZBEZRTQZUDDZTQZSDUEDUFABEZUBBEZQZTQUHABFUKUGTUKUJ
+    UIQZUGUIUJGULUADZUCDZQUGUJUMUIUNABHABIJUAUCKLLMLRBNUDBKOP $.
     $( [16-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
   u5lemnab $p |- ( ( a ->5 b ) ' ^ b ) =
                ( ( ( a v b ' ) ^ ( a ' v b ' ) ) ^ b ) $=
-    ( wi5 wn wa wo u5lemonb ax-a2 anor2 df-a 2or oran3 ax-r2 ax-r5 oran1 3tr2
-    con1 ) ABCZDBEZABDZFZADZTFZEZBEZRTFZUDDZTFZSDUEDUFABEZUBBEZFZTFUHABGUKUGTUK
-    UJUIFZUGUIUJHULUADZUCDZFUGUJUMUIUNABIABJKUAUCLMMNMRBOUDBLPQ $.
+    ( wi5 wn wa u5lemonb ax-a2 anor2 df-a 2or oran3 ax-r2 ax-r5 oran1 3tr2 con1
+    wo ) ABCZDBEZABDZQZADZTQZEZBEZRTQZUDDZTQZSDUEDUFABEZUBBEZQZTQUHABFUKUGTUKUJ
+    UIQZUGUIUJGULUADZUCDZQUGUJUMUIUNABHABIJUAUCKLLMLRBNUDBKOP $.
     $( [16-Dec-97] $)
 
   $( Lemma for Sasaki implication study. $)
@@ -5421,30 +5391,30 @@ $)
 
   $( Lemma for Dishkant implication study. $)
   u2lemnoa $p |- ( ( a ->2 b ) ' v a ) = ( ( a v b ) ^ ( a v b ' ) ) $=
-    ( wi2 wn wo wa u2lemana ax-a2 anor3 anor2 2or ax-r2 anor1 oran3 3tr2 con1
-    ) ABCZDAEZABEZABDZEZFZQADZFZSDZUADZEZRDUBDUDUCBFZUCTFZEZUGABGUJUIUHEUGUHUIH
-    UIUEUHUFABIABJKLLQAMSUANOP $.
+    ( wi2 wn wo wa u2lemana ax-a2 anor3 anor2 2or ax-r2 anor1 oran3 3tr2 con1 )
+    ABCZDAEZABEZABDZEZFZQADZFZSDZUADZEZRDUBDUDUCBFZUCTFZEZUGABGUJUIUHEUGUHUIHUI
+    UEUHUFABIABJKLLQAMSUANOP $.
     $( [16-Dec-97] $)
 
   $( Lemma for Kalmbach implication study. $)
   u3lemnoa $p |- ( ( a ->3 b ) ' v a ) = ( ( a v b ) ^ ( a v b ' ) ) $=
-    ( wi3 wn wo wa u3lemana ax-a2 anor3 anor2 2or ax-r2 anor1 oran3 3tr2 con1
-    ) ABCZDAEZABEZABDZEZFZQADZFZSDZUADZEZRDUBDUDUCBFZUCTFZEZUGABGUJUIUHEUGUHUIH
-    UIUEUHUFABIABJKLLQAMSUANOP $.
+    ( wi3 wn wo wa u3lemana ax-a2 anor3 anor2 2or ax-r2 anor1 oran3 3tr2 con1 )
+    ABCZDAEZABEZABDZEZFZQADZFZSDZUADZEZRDUBDUDUCBFZUCTFZEZUGABGUJUIUHEUGUHUIHUI
+    UEUHUFABIABJKLLQAMSUANOP $.
     $( [16-Dec-97] $)
 
   $( Lemma for non-tollens implication study. $)
   u4lemnoa $p |- ( ( a ->4 b ) ' v a ) = ( ( a v b ) ^ ( a v b ' ) ) $=
-    ( wi4 wn wo wa u4lemana ax-a2 anor3 anor2 2or ax-r2 anor1 oran3 3tr2 con1
-    ) ABCZDAEZABEZABDZEZFZQADZFZSDZUADZEZRDUBDUDUCBFZUCTFZEZUGABGUJUIUHEUGUHUIH
-    UIUEUHUFABIABJKLLQAMSUANOP $.
+    ( wi4 wn wo wa u4lemana ax-a2 anor3 anor2 2or ax-r2 anor1 oran3 3tr2 con1 )
+    ABCZDAEZABEZABDZEZFZQADZFZSDZUADZEZRDUBDUDUCBFZUCTFZEZUGABGUJUIUHEUGUHUIHUI
+    UEUHUFABIABJKLLQAMSUANOP $.
     $( [16-Dec-97] $)
 
   $( Lemma for relevance implication study. $)
   u5lemnoa $p |- ( ( a ->5 b ) ' v a ) = ( ( a v b ) ^ ( a v b ' ) ) $=
-    ( wi5 wn wo wa u5lemana ax-a2 anor3 anor2 2or ax-r2 anor1 oran3 3tr2 con1
-    ) ABCZDAEZABEZABDZEZFZQADZFZSDZUADZEZRDUBDUDUCBFZUCTFZEZUGABGUJUIUHEUGUHUIH
-    UIUEUHUFABIABJKLLQAMSUANOP $.
+    ( wi5 wn wo wa u5lemana ax-a2 anor3 anor2 2or ax-r2 anor1 oran3 3tr2 con1 )
+    ABCZDAEZABEZABDZEZFZQADZFZSDZUADZEZRDUBDUDUCBFZUCTFZEZUGABGUJUIUHEUGUHUIHUI
+    UEUHUFABIABJKLLQAMSUANOP $.
     $( [16-Dec-97] $)
 
   $( Lemma for Sasaki implication study. $)
@@ -5564,8 +5534,8 @@ $)
 
   $( Commutation theorem for non-tollens implication. $)
   u4lemc1 $p |- b C ( a ->4 b ) $=
-    ( wa wn wo wi4 comanr2 com2or comorr2 comid comcom2 com2an df-i4 ax-r1
-    cbtr ) BABCZADZBCZEZQBEZBDZCZEZABFZBSUBBPRABGQBGHBTUAQBIBBBJKLHUDUCABMNO $.
+    ( wa wn wo wi4 comanr2 com2or comorr2 comid comcom2 com2an df-i4 ax-r1 cbtr
+    ) BABCZADZBCZEZQBEZBDZCZEZABFZBSUBBPRABGQBGHBTUAQBIBBBJKLHUDUCABMNO $.
     $( [14-Dec-97] $)
 
   $( Commutation theorem for relevance implication. $)
@@ -5668,45 +5638,43 @@ $)
 
     $( Lemma for Sasaki implication study. $)
     u1lemc4 $p |- ( a ->1 b ) = ( a ' v b ) $=
-      ( wi1 wn wa wo df-i1 comid comcom2 fh4 ancom wt ax-a2 df-t ax-r1 ax-r2
-      lan an1 ) ABDAEZABFGZTBGZABHUATAGZUBFZUBATBAAAIJCKUDUBUCFZUBUCUBLUEUBMFUB
-      UCMUBUCATGZMTANMUFAOPQRUBSQQQQ $.
+      ( wi1 wn wa wo df-i1 comid comcom2 fh4 ancom wt ax-a2 ax-r1 ax-r2 lan an1
+      df-t ) ABDAEZABFGZTBGZABHUATAGZUBFZUBATBAAAIJCKUDUBUCFZUBUCUBLUEUBMFUBUCM
+      UBUCATGZMTANMUFASOPQUBRPPPP $.
       $( [24-Dec-97] $)
 
     $( Lemma for Dishkant implication study. $)
     u2lemc4 $p |- ( a ->2 b ) = ( a ' v b ) $=
-      ( wi2 wn wa wo df-i2 comcom3 comcom4 fh4 wt ax-a2 df-t ax-r1 2an an1
-      ax-r2 ) ABDBAEZBEZFGZSBGZABHUABSGZBTGZFZUBSBTABCIABCJKUEUBLFUBUCUBUDLBSML
-      UDBNOPUBQRRR $.
+      ( wi2 wn wa wo df-i2 comcom3 comcom4 fh4 ax-a2 df-t ax-r1 2an an1 ax-r2
+      wt ) ABDBAEZBEZFGZSBGZABHUABSGZBTGZFZUBSBTABCIABCJKUEUBRFUBUCUBUDRBSLRUDB
+      MNOUBPQQQ $.
       $( [24-Dec-97] $)
 
     $( Lemma for Kalmbach implication study. $)
     u3lemc4 $p |- ( a ->3 b ) = ( a ' v b ) $=
-      ( wi3 wn wa wo df-i3 comcom3 comcom4 fh1 ax-r1 wt df-t lan an1 ax-r2
-      comid comcom2 ax-a2 wf dff lor or0 2or fh4 ancom ) ABDAEZBFUHBEZFGZAUHBGZ
-      FZGZUKABHUMUHABFZGZUKUJUHULUNUJUHBUIGZFZUHUQUJUHBUIABCIABCJKLUQUHMFUHUPMU
-      HMUPBNLOUHPQQULAUHFZUNGZUNAUHBAAARSZCKUSUNURGZUNURUNTVAUNUAGUNURUAUNUAURA
-      UBLUCUNUDQQQUEUOUHAGZUKFZUKAUHBUTCUFVCUKVBFZUKVBUKUGVDUKMFUKVBMUKVBAUHGZM
-      UHATMVEANLQOUKPQQQQQ $.
+      ( wi3 wn wa wo df-i3 comcom3 comcom4 fh1 ax-r1 df-t lan ax-r2 comid ax-a2
+      wt an1 wf comcom2 dff lor or0 2or fh4 ancom ) ABDAEZBFUHBEZFGZAUHBGZFZGZU
+      KABHUMUHABFZGZUKUJUHULUNUJUHBUIGZFZUHUQUJUHBUIABCIABCJKLUQUHRFUHUPRUHRUPB
+      MLNUHSOOULAUHFZUNGZUNAUHBAAAPUAZCKUSUNURGZUNURUNQVAUNTGUNURTUNTURAUBLUCUN
+      UDOOOUEUOUHAGZUKFZUKAUHBUTCUFVCUKVBFZUKVBUKUGVDUKRFUKVBRUKVBAUHGZRUHAQRVE
+      AMLONUKSOOOOO $.
       $( [24-Dec-97] $)
 
     $( Lemma for non-tollens implication study. $)
     u4lemc4 $p |- ( a ->4 b ) = ( a ' v b ) $=
-      ( wi4 wa wn wo df-i4 comid comcom2 fh2r ax-r1 ancom wt df-t lan an1
-      ax-r2 comcom4 comcom3 wf dff lor or0 2or fh4 ax-a2 2an ) ABDABEAFZBEGZUIB
-      GZBFZEZGZUKABHUNBUIULEZGZUKUJBUMUOUJAUIGZBEZBURUJABUICAAAIJKLURBUQEZBUQBM
-      USBNEBUQNBNUQAOLPBQRRRUMUOBULEZGZUOUIULBABCSZABCTZKVAUOUAGUOUTUAUOUAUTBUB
-      LUCUOUDRRUEUPBUIGZBULGZEZUKUIBULVCVBUFVFUKNEUKVDUKVENBUIUGNVEBOLUHUKQRRRR
-      $.
+      ( wi4 wa wn wo df-i4 comid comcom2 fh2r ax-r1 ancom wt df-t lan an1 ax-r2
+      comcom4 wf comcom3 dff lor or0 2or fh4 ax-a2 2an ) ABDABEAFZBEGZUIBGZBFZE
+      ZGZUKABHUNBUIULEZGZUKUJBUMUOUJAUIGZBEZBURUJABUICAAAIJKLURBUQEZBUQBMUSBNEB
+      UQNBNUQAOLPBQRRRUMUOBULEZGZUOUIULBABCSZABCUAZKVAUOTGUOUTTUOTUTBUBLUCUOUDR
+      RUEUPBUIGZBULGZEZUKUIBULVCVBUFVFUKNEUKVDUKVENBUIUGNVEBOLUHUKQRRRR $.
       $( [24-Dec-97] $)
 
     $( Lemma for relevance implication study. $)
     u5lemc4 $p |- ( a ->5 b ) = ( a ' v b ) $=
-      ( wi5 wa wn wo df-i5 comid comcom2 fh2r ax-r1 ancom wt df-t lan an1
-      ax-r2 ax-r5 comcom3 comcom4 fh4 ax-a2 2an ) ABDABEAFZBEGZUEBFZEZGZUEBGZAB
-      HUIBUHGZUJUFBUHUFAUEGZBEZBUMUFABUECAAAIJKLUMBULEZBULBMUNBNEBULNBNULAOLPBQ
-      RRRSUKBUEGZBUGGZEZUJUEBUGABCTABCUAUBUQUJNEUJUOUJUPNBUEUCNUPBOLUDUJQRRRR
-      $.
+      ( wi5 wa wn wo df-i5 comid comcom2 fh2r ax-r1 ancom wt df-t lan an1 ax-r2
+      ax-r5 comcom3 comcom4 fh4 ax-a2 2an ) ABDABEAFZBEGZUEBFZEZGZUEBGZABHUIBUH
+      GZUJUFBUHUFAUEGZBEZBUMUFABUECAAAIJKLUMBULEZBULBMUNBNEBULNBNULAOLPBQRRRSUK
+      BUEGZBUGGZEZUJUEBUGABCTABCUAUBUQUJNEUJUOUJUPNBUEUCNUPBOLUDUJQRRRR $.
       $( [24-Dec-97] $)
 
   $}
@@ -5719,9 +5687,9 @@ $)
 
   $( Commutation theorem for ` ->1 ` and ` ->2 ` . $)
   comi12 $p |- ( a ->1 b ) C ( c ->2 a ) $=
-    ( wi1 wn wa wo wi2 df-i1 lea leo letr lecom comcom anor3 cbtr comcom7
-    df-i2 ax-r1 bctr ) ABDAEZABFZGZCAHZABIUCACEUAFZGZUDUCUFUCUAUEEZFZUFEUHUCUHU
-    CUHUAUCUAUGJUAUBKLMNAUEOPQUDUFCARSPT $.
+    ( wi1 wn wa wo wi2 df-i1 lea leo letr lecom comcom anor3 cbtr comcom7 df-i2
+    ax-r1 bctr ) ABDAEZABFZGZCAHZABIUCACEUAFZGZUDUCUFUCUAUEEZFZUFEUHUCUHUCUHUAU
+    CUAUGJUAUBKLMNAUEOPQUDUFCARSPT $.
     $( [5-Jul-00] $)
 
   ${
@@ -5737,9 +5705,9 @@ $)
     comi1.1 $e |- a C b $.
     $( Commutation expressed with ` ->1 ` . $)
     comi1 $p |- b =< ( a ->1 b ) $=
-      ( wa wn wo wi1 ancom ax-r5 ax-a2 ax-r2 lear leror bltr comcom df-c2
-      df-i1 le3tr1 ) BADZBAEZDZFZTABDZFZBABGUBUAUCFZUDUBUCUAFUESUCUABAHIUCUAJKU
-      ATUCBTLMNBAABCOPABQR $.
+      ( wa wn wo wi1 ancom ax-r5 ax-a2 ax-r2 lear leror bltr comcom df-c2 df-i1
+      le3tr1 ) BADZBAEZDZFZTABDZFZBABGUBUAUCFZUDUBUCUAFUESUCUABAHIUCUAJKUATUCBT
+      LMNBAABCOPABQR $.
       $( [1-Dec-99] $)
   $}
 
@@ -5776,10 +5744,10 @@ $)
     u1lemle2.1 $e |- ( a ->1 b ) = 1 $.
     $( Sasaki implication to l.e. $)
     u1lemle2 $p |- a =< b $=
-      ( wa wf wo wt wn anidm ran ax-r1 anass ax-r2 dff 2or ax-a2 lan coman1
-      comcom2 fh2 wi1 df-i1 or0 an1 3tr2 df2le1 ) ABABDZEFZAGDZUGAUHAAHZUGFZDZU
-      IUHAUGDZAUJDZFZULUGUMEUNUGAADZBDZUMUQUGUPABAIJKAABLMANOULUOULAUGUJFZDUOUK
-      URAUJUGPQUGAUJABRZUGAUSSTMKMUKGAUKABUAZGUTUKABUBKCMQMUGUCAUDUEUF $.
+      ( wa wf wo wt wn anidm ran ax-r1 anass ax-r2 dff 2or ax-a2 coman1 comcom2
+      lan fh2 wi1 df-i1 or0 an1 3tr2 df2le1 ) ABABDZEFZAGDZUGAUHAAHZUGFZDZUIUHA
+      UGDZAUJDZFZULUGUMEUNUGAADZBDZUMUQUGUPABAIJKAABLMANOULUOULAUGUJFZDUOUKURAU
+      JUGPSUGAUJABQZUGAUSRTMKMUKGAUKABUAZGUTUKABUBKCMSMUGUCAUDUEUF $.
       $( [11-Jan-98] $)
   $}
 
@@ -5787,11 +5755,11 @@ $)
     u2lemle2.1 $e |- ( a ->2 b ) = 1 $.
     $( Dishkant implication to l.e. $)
     u2lemle2 $p |- a =< b $=
-      ( wa wf wo wt wn ax-a2 lan coman1 comcom7 coman2 fh2 ancom anass dff
-      ax-r1 an0 ax-r2 3tr2 ax-r5 wi2 df-i2 or0 an1 df2le1 ) ABABDZEFZAGDZUHAUIA
-      BAHZBHZDZFZDZUJUOUIUOAUMBFZDZUIUNUPABUMIJUQAUMDZUHFZUIUMABUMAUKULKLUMBUKU
-      LMLNUSEUHFUIUREUHAUKDZULDULUTDZUREUTULOAUKULPVAULEDEUTEULEUTAQRJULSTUAUBE
-      UHITTTRUNGAUNABUCZGVBUNABUDRCTJTUHUEAUFUAUG $.
+      ( wa wf wo wt ax-a2 lan coman1 comcom7 coman2 fh2 ancom anass ax-r1 ax-r2
+      wn dff 3tr2 an0 ax-r5 wi2 df-i2 or0 an1 df2le1 ) ABABDZEFZAGDZUHAUIABARZB
+      RZDZFZDZUJUOUIUOAUMBFZDZUIUNUPABUMHIUQAUMDZUHFZUIUMABUMAUKULJKUMBUKULLKMU
+      SEUHFUIUREUHAUKDZULDULUTDZUREUTULNAUKULOVAULEDEUTEULEUTASPIULUAQTUBEUHHQQ
+      QPUNGAUNABUCZGVBUNABUDPCQIQUHUEAUFTUG $.
       $( [11-Jan-98] $)
   $}
 
@@ -5807,15 +5775,14 @@ $)
     u4lemle2.1 $e |- ( a ->4 b ) = 1 $.
     $( Non-tollens implication to l.e. $)
     u4lemle2 $p |- a =< b $=
-      ( wa wn wo wt wi4 df-i4 ax-r1 ax-r2 lan comanr1 comcom6 com2or comcom
-      comor1 comcom7 comor2 com2an comanr2 comcom3 fh2 wf fh1 anidm ran anass
-      dff an0 ancom 3tr2 2or or0 anor1 an12 3tr1 an1 df2le1 ) ABAABDZAEZBDZFZVA
-      BFZBEZDZFZDZAGDUTAVGGAVGABHZGVIVGABIJCKLVHAVCDZAVFDZFZUTVCAVFAVCAUTVBABMZ
-      AVBVABMNZOPVCVDVEVDVCVDUTVBVDABVDAVABQZRVABSZTVDVABVOVPTOPVEVCVEUTVBBUTAB
-      UAUBBVBVABUAUBOPTUCVLUTUDFZUTVJUTVKUDVJAUTDZAVBDZFZUTAUTVBVMVNUEVTVQUTVQV
-      TUTVRUDVSUTAADZBDZVRWBUTWAABAUFUGJAABUHKUDAVADZBDZVSBUDDBWCDUDWDUDWCBAUIL
-      BUJBWCUKULAVABUHKUMJUTUNZKKVDAVEDZDVDVDEZDVKUDWFWGVDABUOLAVDVEUPVDUIUQUMW
-      EKKAURULUS $.
+      ( wa wn wo wt ax-r1 ax-r2 comanr1 com2or comcom com2an comanr2 comcom3 wf
+      lan anass dff 3tr2 wi4 df-i4 comcom6 comor1 comcom7 fh2 fh1 anidm ran an0
+      comor2 ancom 2or or0 anor1 an12 3tr1 an1 df2le1 ) ABAABDZAEZBDZFZVABFZBEZ
+      DZFZDZAGDUTAVGGAVGABUAZGVIVGABUBHCIQVHAVCDZAVFDZFZUTVCAVFAVCAUTVBABJZAVBV
+      ABJUCZKLVCVDVEVDVCVDUTVBVDABVDAVABUDZUEVABUKZMVDVABVOVPMKLVEVCVEUTVBBUTAB
+      NOBVBVABNOKLMUFVLUTPFZUTVJUTVKPVJAUTDZAVBDZFZUTAUTVBVMVNUGVTVQUTVQVTUTVRP
+      VSUTAADZBDZVRWBUTWAABAUHUIHAABRIPAVADZBDZVSBPDBWCDPWDPWCBASQBUJBWCULTAVAB
+      RIUMHUTUNZIIVDAVEDZDVDVDEZDVKPWFWGVDABUOQAVDVEUPVDSUQUMWEIIAURTUS $.
       $( [11-Jan-98] $)
   $}
 
@@ -5823,36 +5790,35 @@ $)
     u5lemle2.1 $e |- ( a ->5 b ) = 1 $.
     $( Relevance implication to l.e. $)
     u5lemle2 $p |- a =< b $=
-      ( wa wn wo wt wi5 df-i5 ax-r1 ax-r2 lan comanr1 comcom6 com2or fh1 wf
-      anass anidm ran ancom dff an0 3tr2 2or or0 an1 df2le1 ) ABAABDZAEZBDZFZUJ
-      BEZDZFZDZAGDUIAUOGAUOABHZGUQUOABIJCKLUPAULDZAUNDZFZUIAULUNAUIUKABMZAUKUJB
-      MNZOAUNUJUMMNPUTUIQFZUIURUIUSQURAUIDZAUKDZFZUIAUIUKVAVBPVFVCUIVDUIVEQVDAA
-      DZBDZUIVHVDAABRJVGABASTKAUJDZBDBVIDZVEQVIBUAAUJBRVJBQDQVIQBQVIAUBZJLBUCKU
-      DUEUIUFZKKVIUMDUMVIDZUSQVIUMUAAUJUMRVMUMQDZQVNVMQVIUMVKLJUMUCKUDUEVLKKAUG
-      UDUH $.
+      ( wa wn wo wt wi5 ax-r1 ax-r2 lan comanr1 comcom6 fh1 wf anass ancom 3tr2
+      an0 2or df-i5 com2or anidm ran dff or0 an1 df2le1 ) ABAABDZAEZBDZFZUJBEZD
+      ZFZDZAGDUIAUOGAUOABHZGUQUOABUAICJKUPAULDZAUNDZFZUIAULUNAUIUKABLZAUKUJBLMZ
+      UBAUNUJUMLMNUTUIOFZUIURUIUSOURAUIDZAUKDZFZUIAUIUKVAVBNVFVCUIVDUIVEOVDAADZ
+      BDZUIVHVDAABPIVGABAUCUDJAUJDZBDBVIDZVEOVIBQAUJBPVJBODOVIOBOVIAUEZIKBSJRTU
+      IUFZJJVIUMDUMVIDZUSOVIUMQAUJUMPVMUMODZOVNVMOVIUMVKKIUMSJRTVLJJAUGRUH $.
       $( [11-Jan-98] $)
   $}
 
   $( Sasaki implication and biconditional. $)
   u1lembi $p |- ( ( a ->1 b ) ^ ( b ->1 a ) ) = ( a == b ) $=
-    ( wn wa wo wi1 tb ax-a2 2an coman1 comcom2 coman2 fh3 ax-r1 ax-r2 df-i1
-    ancom lor dfb 3tr1 ) ACZABDZEZBCZUBEZDZUBUAUDDEZABFZBAFZDABGUFUBUAEZUBUDEZD
-    ZUGUCUJUEUKUAUBHUDUBHIUGULUBUAUDUBAABJKUBBABLKMNOUHUCUIUEABPUIUDBADZEUEBAPU
-    MUBUDBAQROIABST $.
+    ( wn wa wo wi1 tb ax-a2 2an coman1 comcom2 coman2 fh3 ax-r1 ax-r2 df-i1 lor
+    ancom dfb 3tr1 ) ACZABDZEZBCZUBEZDZUBUAUDDEZABFZBAFZDABGUFUBUAEZUBUDEZDZUGU
+    CUJUEUKUAUBHUDUBHIUGULUBUAUDUBAABJKUBBABLKMNOUHUCUIUEABPUIUDBADZEUEBAPUMUBU
+    DBARQOIABST $.
     $( [17-Jan-98] $)
 
   $( Dishkant implication and biconditional. $)
   u2lembi $p |- ( ( a ->2 b ) ^ ( b ->2 a ) ) = ( a == b ) $=
-    ( wn wa wo wi2 tb ancom coman1 comcom7 coman2 fh3r ax-r1 ax-r2 df-i2 lor
-    2an dfb 3tr1 ) BACZBCZDZEZAUBEZDZABDUBEZABFZBAFZDABGUEUDUCDZUFUCUDHUFUIUBAB
-    UBATUAIJUBBTUAKJLMNUGUCUHUDABOUHAUATDZEUDBAOUJUBAUATHPNQABRS $.
+    ( wn wa wo wi2 tb ancom coman1 comcom7 coman2 ax-r1 ax-r2 df-i2 lor 2an dfb
+    fh3r 3tr1 ) BACZBCZDZEZAUBEZDZABDUBEZABFZBAFZDABGUEUDUCDZUFUCUDHUFUIUBABUBA
+    TUAIJUBBTUAKJRLMUGUCUHUDABNUHAUATDZEUDBANUJUBAUATHOMPABQS $.
     $( [17-Jan-98] $)
 
   $( Dishkant implication expressed with biconditional. $)
   i2bi $p |- ( a ->2 b ) = ( b v ( a == b ) ) $=
-    ( wi2 tb wo wn wa leor lelor df-i2 dfb lor le3tr1 leo ax-r1 lbtr u2lembi
-    lea bltr lel2or lebi ) ABCZBABDZEZBAFBFGZEZBABGZUEEZEUBUDUEUHBUEUGHIABJZUCU
-    HBABKLMBUBUCBUFUBBUENUBUFUIOPUCUBBACZGZUBUKUCABQOUBUJRSTUA $.
+    ( wi2 tb wo wn wa leor lelor df-i2 dfb lor le3tr1 leo lbtr u2lembi lea bltr
+    ax-r1 lel2or lebi ) ABCZBABDZEZBAFBFGZEZBABGZUEEZEUBUDUEUHBUEUGHIABJZUCUHBA
+    BKLMBUBUCBUFUBBUENUBUFUISOUCUBBACZGZUBUKUCABPSUBUJQRTUA $.
     $( [20-Nov-98] $)
 
   $( Kalmbach implication and biconditional. $)
@@ -5868,35 +5834,34 @@ $)
 
   $( Relevance implication and biconditional. $)
   u5lembi $p |- ( ( a ->5 b ) ^ ( b ->5 a ) ) = ( a == b ) $=
-    ( wi5 wa wn wo tb u5lemc1b comcom u5lemc1 com2an comcom2 com2or fh1 wf
-    ancom df-i5 ax-a3 ax-r2 2an anabs anandi u5lemanb u5lemaa an4 dff ax-r1
-    lan an0 2or or0 ax-a2 id dfb 3tr1 ) ABCZBADZBEZADZFZURAEZDZFZDZABDZVAURDZFZ
-    UPBACZDABGVDUPUTDZUPVBDZFZVGUPUTVBUPUQUSUPBABUPABHIZAUPABJIZKZUPURAUPBVLLZV
-    MKZMUPURVAVOUPAVMLKNVKVGVGVIVEVJVFVIUPUQDZUPUSDZFZVEUPUQUSVNVPNVSVEOFVEVQVE
-    VROVQUQUPDZVEUPUQPVTVEVEVABDZVFFZFZDVEUQVEUPWCBAPUPVEWAFZVFFZWCABQZVEWAVFRS
-    TVEWBUASSVRUPURDZUPADZDZOUPURAUBWIVFVEDZOWGVFWHVEABUCABUDTWJVEVFDZOVFVEPWKA
-    VADZBURDZDZOABVAURUEWNWLODOWMOWLOWMBUFUGUHWLUISSSSSUJVEUKSSVJVBUPDZVFUPVBPW
-    OVFVFWDFZDVFVBVFUPWPURVAPUPWEWPWFWDVFULSTVFWDUASSUJVGUMSSVHVCUPBAQUHABUNUO
-    $.
+    ( wi5 wa wn wo tb u5lemc1b comcom com2an comcom2 wf ancom df-i5 ax-r2 anabs
+    fh1 2an lan 2or u5lemc1 com2or ax-a3 u5lemanb u5lemaa an4 dff ax-r1 an0 or0
+    anandi ax-a2 id dfb 3tr1 ) ABCZBADZBEZADZFZURAEZDZFZDZABDZVAURDZFZUPBACZDAB
+    GVDUPUTDZUPVBDZFZVGUPUTVBUPUQUSUPBABUPABHIZAUPABUAIZJZUPURAUPBVLKZVMJZUBUPU
+    RVAVOUPAVMKJQVKVGVGVIVEVJVFVIUPUQDZUPUSDZFZVEUPUQUSVNVPQVSVELFVEVQVEVRLVQUQ
+    UPDZVEUPUQMVTVEVEVABDZVFFZFZDVEUQVEUPWCBAMUPVEWAFZVFFZWCABNZVEWAVFUCORVEWBP
+    OOVRUPURDZUPADZDZLUPURAUKWIVFVEDZLWGVFWHVEABUDABUERWJVEVFDZLVFVEMWKAVADZBUR
+    DZDZLABVAURUFWNWLLDLWMLWLLWMBUGUHSWLUIOOOOOTVEUJOOVJVBUPDZVFUPVBMWOVFVFWDFZ
+    DVFVBVFUPWPURVAMUPWEWPWFWDVFULORVFWDPOOTVGUMOOVHVCUPBANSABUNUO $.
     $( [17-Jan-98] $)
 
   $( Sasaki/Dishkant implication and biconditional.  Equation 4.14 of
      [MegPav2000] p. 23.  The variable i in the paper is set to 1, and j is set
      to 2. $)
   u12lembi $p |- ( ( a ->1 b ) ^ ( b ->2 a ) ) = ( a == b ) $=
-    ( wi1 wn wa wo wi2 tb u1lemc1 comcom lear leo df-i1 ax-r1 lbtr letr lecom
-    fh1 u1lemaa an12 u1lemana lan ancom 3tr 2or ax-r2 df-i2 dfb 3tr1 ) ABCZABDZ
-    ADZEZFZEZABEZULUKEZFZUJBAGZEABHUOUJAEZUJUMEZFURUJAUMAUJABIJUMUJUMUJUMULUJUK
-    ULKULULUPFZUJULUPLUJVBABMNOPQJRUTUPVAUQABSVAUKUJULEZEUMUQUJUKULTVCULUKABUAU
-    BUKULUCUDUEUFUSUNUJBAUGUBABUHUI $.
+    ( wi1 wn wa wo wi2 tb u1lemc1 comcom lear leo df-i1 ax-r1 lbtr letr u1lemaa
+    lecom fh1 lan an12 u1lemana ancom 3tr 2or ax-r2 df-i2 dfb 3tr1 ) ABCZABDZAD
+    ZEZFZEZABEZULUKEZFZUJBAGZEABHUOUJAEZUJUMEZFURUJAUMAUJABIJUMUJUMUJUMULUJUKUL
+    KULULUPFZUJULUPLUJVBABMNOPRJSUTUPVAUQABQVAUKUJULEZEUMUQUJUKULUAVCULUKABUBTU
+    KULUCUDUEUFUSUNUJBAUGTABUHUI $.
     $( [2-Mar-00] $)
 
   $( Dishkant/Sasaki implication and biconditional. $)
   u21lembi $p |- ( ( a ->2 b ) ^ ( b ->1 a ) ) = ( a == b ) $=
-    ( wi2 wn wa wo wi1 tb u2lemc1 comcom3 comanr1 fh2 u2lemanb u2lemab ran
-    anass ancom 3tr2 2or ax-a2 3tr df-i1 lan dfb 3tr1 ) ABCZBDZBAEZFZEZABEZADUG
-    EZFZUFBAGZEABHUJUFUGEZUFUHEZFULUKFUMUGUFUHBUFABIJBUHBAKJLUOULUPUKABMUFBEZAE
-    UHUPUKUQBAABNOUFBAPBAQRSULUKTUAUNUIUFBAUBUCABUDUE $.
+    ( wi2 wn wa wo wi1 u2lemc1 comcom3 comanr1 fh2 u2lemanb u2lemab anass ancom
+    tb ran 3tr2 2or ax-a2 3tr df-i1 lan dfb 3tr1 ) ABCZBDZBAEZFZEZABEZADUGEZFZU
+    FBAGZEABPUJUFUGEZUFUHEZFULUKFUMUGUFUHBUFABHIBUHBAJIKUOULUPUKABLUFBEZAEUHUPU
+    KUQBAABMQUFBANBAORSULUKTUAUNUIUFBAUBUCABUDUE $.
     $( [3-Mar-00] $)
 
   $( Commutation theorem for biimplication. $)
@@ -5950,10 +5915,10 @@ $)
                     ( ( ( b ->1 c ) ^
                     ( ( ( a ->1 c ) ^ ( b ->1 c ) ) v ( a ^ b ) ) ) ->1 c )
                      ) ) = 1 $=
-      ( wi1 wa wo wt oi3oa3lem1 lan an1 ax-r2 ud1lem0b 2an lor ax-a2 r3a 1bi
-      3tr ) ACEZBCEZFZTUBABFGZFZCEZUAUCFZCEZFZGUBTCEZUACEZFZGUKUBGHUHUKUBUEUIUG
-      UJUDTCUDTHFTUCHTABCDIZJTKLMUFUACUFUAHFUAUCHUAULJUAKLMNOUBUKPTUACUATBACBAD
-      QMRIS $.
+      ( wi1 wa wo oi3oa3lem1 lan an1 ax-r2 ud1lem0b 2an lor ax-a2 r3a 1bi 3tr
+      wt ) ACEZBCEZFZTUBABFGZFZCEZUAUCFZCEZFZGUBTCEZUACEZFZGUKUBGSUHUKUBUEUIUGU
+      JUDTCUDTSFTUCSTABCDHZITJKLUFUACUFUASFUAUCSUAULIUAJKLMNUBUKOTUACUATBACBADP
+      LQHR $.
       $( [27-May-04] $)
   $}
 
@@ -5989,9 +5954,9 @@ $)
 
   $( Lemma for unified implication study. $)
   u2lem1 $p |- ( ( a ->2 b ) ->2 a ) = a $=
-    ( wi2 wn wa wo df-i2 wf ud2lem0c ran an32 ax-a2 oran ax-r2 lan dff ax-r1
-    lor or0 ) ABCZACATDZADZEZFZATAGUDAHFAUCHAUCBDZABFZEZUBEZHUAUGUBABIJUHUEUBEZ
-    UFEZHUEUFUBKUJUIUIDZEZHUFUKUIUFBAFUKABLBAMNOHULUIPQNNNRASNN $.
+    ( wi2 wn wa wo df-i2 wf ud2lem0c ran an32 ax-a2 ax-r2 lan dff ax-r1 lor or0
+    oran ) ABCZACATDZADZEZFZATAGUDAHFAUCHAUCBDZABFZEZUBEZHUAUGUBABIJUHUEUBEZUFE
+    ZHUEUFUBKUJUIUIDZEZHUFUKUIUFBAFUKABLBASMNHULUIOPMMMQARMM $.
     $( [14-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6004,14 +5969,14 @@ $)
   u4lem1 $p |- ( ( a ->4 b ) ->4 a ) =
           ( ( ( ( a ^ b ) v ( a ^ b ' ) ) v a ' ) ^
           ( ( a v b ) ^ ( a v b ' ) ) ) $=
-    ( wi4 wa wn wo df-i4 u4lemaa u4lemnaa 2or u4lemnoa ran ancom lor comanr1
-    com2or comcom3 comorr com2an fh4 comor1 comor2 comcom2 lea lel2or leo letr
-    df-le2 2an ax-r2 lan id ) ABCZACUMADZUMEZADZFZUOAFZAEZDZFZABDZABEZDZFZUSFZA
-    BFZAVCFZDZDZUMAGVAVEVIUSDZFZVJUQVEUTVKUNVBUPVDABHABIJURVIUSABKLJVLVEUSVIDZF
-    ZVJVKVMVEVIUSMNVNVFVEVIFZDZVJUSVEVIAVEAVBVDABOAVCOPQAVIAVGVHABRAVCRSQTVPVJV
-    JVOVIVFVOVEVGFZVEVHFZDVIVGVEVHVGVBVDVGABABUAZABUBZSVGAVCVSVGBVTUCZSPVGAVCVS
-    WAPTVQVGVRVHVEVGVEAVGVBAVDABUDAVCUDUEZABUFUGUHVEVHVEAVHWBAVCUFUGUHUIUJUKVJU
-    LUJUJUJUJUJ $.
+    ( wi4 wa wn wo u4lemaa 2or comanr1 com2or comcom3 comorr com2an fh4 lea leo
+    df-i4 letr df-le2 ax-r2 u4lemnaa ran ancom lor comor1 comor2 comcom2 lel2or
+    u4lemnoa 2an lan id ) ABCZACUMADZUMEZADZFZUOAFZAEZDZFZABDZABEZDZFZUSFZABFZA
+    VCFZDZDZUMAQVAVEVIUSDZFZVJUQVEUTVKUNVBUPVDABGABUAHURVIUSABUIUBHVLVEUSVIDZFZ
+    VJVKVMVEVIUSUCUDVNVFVEVIFZDZVJUSVEVIAVEAVBVDABIAVCIJKAVIAVGVHABLAVCLMKNVPVJ
+    VJVOVIVFVOVEVGFZVEVHFZDVIVGVEVHVGVBVDVGABABUEZABUFZMVGAVCVSVGBVTUGZMJVGAVCV
+    SWAJNVQVGVRVHVEVGVEAVGVBAVDABOAVCOUHZABPRSVEVHVEAVHWBAVCPRSUJTUKVJULTTTTT
+    $.
     $( [16-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6033,35 +5998,35 @@ $)
   $( Lemma for unified implication study. $)
   u3lem1n $p |- ( ( a ->3 b ) ->3 a ) ' =
                 ( ( a ' ^ b ) v ( a ' ^ b ' ) ) $=
-    ( wi3 wn wa wo u3lem1 ancom df-a anor2 anor3 2or ax-r4 ax-r1 ax-r2 con2 )
-    ABCACZADZBEZRBDZEZFZQABFZATFZEZUBDZABGUEUDUCEZUFUCUDHUGUDDZUCDZFZDZUFUDUCIU
-    FUKUBUJSUHUAUIABJABKLMNOOOP $.
+    ( wi3 wn wa wo u3lem1 ancom df-a anor2 anor3 2or ax-r4 ax-r1 ax-r2 con2 ) A
+    BCACZADZBEZRBDZEZFZQABFZATFZEZUBDZABGUEUDUCEZUFUCUDHUGUDDZUCDZFZDZUFUDUCIUF
+    UKUBUJSUHUAUIABJABKLMNOOOP $.
     $( [16-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u4lem1n $p |- ( ( a ->4 b ) ->4 a ) ' =
           ( ( ( ( a ' v b ) ^ ( a ' v b ' ) ) ^ a ) v
           ( ( a ' ^ b ) v ( a ' ^ b ' ) ) ) $=
-    ( wa wn wo wi4 oran1 df-a anor1 2or ax-r4 ax-r1 ax-r2 ancom ran anor2
-    anor3 2an u4lem1 oran 3tr1 ) ABCZABDZCZEZADZEZABEZAUCEZCZCZDUFBEZUFUCEZCZAC
-    ZDZUFBCZUFUCCZEZDZCZDABFAFZDUOUSEUKVAUGUPUJUTUGUEDZACZDUPUEAGVDUOVCUNAVCUMU
-    LCZUNVCUMDZULDZEZDZVEUEVHUBVFUDVGABHABIJKVEVIUMULHLMUMULNMOKMUJUIUHCZUTUHUI
-    NVJUIDZUHDZEZDZUTUIUHHUTVNUSVMUQVKURVLABPABQJKLMMRKVBUKABSKUOUSTUA $.
+    ( wa wn wo wi4 oran1 df-a anor1 2or ax-r4 ax-r1 ax-r2 ancom ran anor2 anor3
+    2an u4lem1 oran 3tr1 ) ABCZABDZCZEZADZEZABEZAUCEZCZCZDUFBEZUFUCEZCZACZDZUFB
+    CZUFUCCZEZDZCZDABFAFZDUOUSEUKVAUGUPUJUTUGUEDZACZDUPUEAGVDUOVCUNAVCUMULCZUNV
+    CUMDZULDZEZDZVEUEVHUBVFUDVGABHABIJKVEVIUMULHLMUMULNMOKMUJUIUHCZUTUHUINVJUID
+    ZUHDZEZDZUTUIUHHUTVNUSVMUQVKURVLABPABQJKLMMRKVBUKABSKUOUSTUA $.
     $( [16-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u5lem1n $p |- ( ( a ->5 b ) ->5 a ) ' =
                 ( ( a ' ^ b ) v ( a ' ^ b ' ) ) $=
-    ( wi5 wn wa wo u5lem1 ancom df-a anor2 anor3 2or ax-r4 ax-r1 ax-r2 con2 )
-    ABCACZADZBEZRBDZEZFZQABFZATFZEZUBDZABGUEUDUCEZUFUCUDHUGUDDZUCDZFZDZUFUDUCIU
-    FUKUBUJSUHUAUIABJABKLMNOOOP $.
+    ( wi5 wn wa wo u5lem1 ancom df-a anor2 anor3 2or ax-r4 ax-r1 ax-r2 con2 ) A
+    BCACZADZBEZRBDZEZFZQABFZATFZEZUBDZABGUEUDUCEZUFUCUDHUGUDDZUCDZFZDZUFUDUCIUF
+    UKUBUJSUHUAUIABJABKLMNOOOP $.
     $( [16-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u1lem2 $p |- ( ( ( a ->1 b ) ->1 a ) ->1 a ) = 1 $=
-    ( wi1 wn wa wo wt df-i1 u1lem1n u1lem1 ran anidm ax-r2 2or ax-a2 df-t
-    ax-r1 ) ABCACZACRDZRAEZFZGRAHUAADZAFZGSUBTAABITAAEARAAABJKALMNUCAUBFZGUBAOG
-    UDAPQMMM $.
+    ( wi1 wn wa wo wt df-i1 u1lem1n u1lem1 ran anidm ax-r2 2or ax-a2 df-t ax-r1
+    ) ABCACZACRDZRAEZFZGRAHUAADZAFZGSUBTAABITAAEARAAABJKALMNUCAUBFZGUBAOGUDAPQM
+    MM $.
     $( [16-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6073,17 +6038,16 @@ $)
   $( Lemma for unified implication study. $)
   u3lem2 $p |- ( ( ( a ->3 b ) ->3 a ) ->3 a ) =
                ( a v ( ( a ' ^ b ) v ( a ' ^ b ' ) ) ) $=
-    ( wi3 wn wo wa comi31 comid u3lemc2 comcom u3lemc4 u3lem1n ax-r5 ax-a2
-    ax-r2 ) ABCZACZACQDZAEZAADZBFTBDFEZEZQAAQAPAABGAHIJKSUAAEUBRUAAABLMUAANOO
-    $.
+    ( wi3 wn wo comi31 comid u3lemc2 comcom u3lemc4 u3lem1n ax-r5 ax-a2 ax-r2
+    wa ) ABCZACZACQDZAEZAADZBOTBDOEZEZQAAQAPAABFAGHIJSUAAEUBRUAAABKLUAAMNN $.
     $( [24-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u4lem2 $p |- ( ( ( a ->4 b ) ->4 a ) ->4 a ) =
                ( a v ( ( a ' ^ b ) v ( a ' ^ b ' ) ) ) $=
-    ( wi4 wn wo wa u4lemc1 comcom u4lemc4 u4lem1n ax-r5 ax-a3 lear leor letr
-    df-le2 ax-a2 ax-r2 ) ABCZACZACTDZAEZAADZBFUCBDZFEZEZTAATSAGHIUBUCBEUCUDEFZA
-    FZUEEZAEZUFUAUIAABJKUJUHUEAEZEZUFUHUEALULUKUFUHUKUHAUKUGAMAUENOPUEAQRRRR $.
+    ( wn wo wa u4lemc1 comcom u4lemc4 u4lem1n ax-r5 ax-a3 lear leor letr df-le2
+    wi4 ax-a2 ax-r2 ) ABPZAPZAPTCZADZAACZBEUCBCZEDZDZTAATSAFGHUBUCBDUCUDDEZAEZU
+    EDZADZUFUAUIAABIJUJUHUEADZDZUFUHUEAKULUKUFUHUKUHAUKUGALAUEMNOUEAQRRRR $.
     $( [24-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6103,18 +6067,18 @@ $)
 
   $( Lemma for unified implication study. $)
   u2lem3 $p |- ( a ->2 ( b ->2 a ) ) = 1 $=
-    ( wi2 wn wa wo wt df-i2 u2lemc1 comcom3 comcom4 fh4 u2lemonb df-t ax-r1
-    2an an1 ax-r2 ) ABACZCSADZSDZEFZGASHUBSTFZSUAFZEZGTSUAASBAIZJASUFKLUEGGEGUC
-    GUDGBAMGUDSNOPGQRRR $.
+    ( wi2 wn wa wo wt df-i2 u2lemc1 comcom3 comcom4 fh4 u2lemonb df-t ax-r1 2an
+    an1 ax-r2 ) ABACZCSADZSDZEFZGASHUBSTFZSUAFZEZGTSUAASBAIZJASUFKLUEGGEGUCGUDG
+    BAMGUDSNOPGQRRR $.
     $( [17-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u3lem3 $p |- ( a ->3 ( b ->3 a ) ) =
                ( a v ( ( a ' ^ b ) v ( a ' ^ b ' ) ) ) $=
-    ( wi3 wn wa wo df-i3 ancom u3lemanb ax-r2 u3lemnanb 2or ax-a2 wt u3lemonb
-    lan an1 ) ABACZCADZREZSRDZEZFZASRFZEZFZASBEZSBDZEZFZFZARGUFUJAFUKUCUJUEAUCU
-    HSEZBSEZFZUJTULUBUMTRSEULSRHBAIJUBUASEUMSUAHBAKJLUNUIUGFUJULUIUMUGUHSHBSHLU
-    IUGMJJUEANEAUDNAUDRSFNSRMBAOJPAQJLUJAMJJ $.
+    ( wi3 wn wa df-i3 ancom u3lemanb ax-r2 u3lemnanb 2or ax-a2 u3lemonb lan an1
+    wo wt ) ABACZCADZREZSRDZEZPZASRPZEZPZASBEZSBDZEZPZPZARFUFUJAPUKUCUJUEAUCUHS
+    EZBSEZPZUJTULUBUMTRSEULSRGBAHIUBUASEUMSUAGBAJIKUNUIUGPUJULUIUMUGUHSGBSGKUIU
+    GLIIUEAQEAUDQAUDRSPQSRLBAMINAOIKUJALII $.
     $( [17-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6159,13 +6123,13 @@ $)
 
   $( Lemma for unified implication study. $)
   u1lem4 $p |- ( a ->1 ( a ->1 ( b ->1 a ) ) ) = ( a ->1 ( b ->1 a ) ) $=
-    ( wi1 wn wa wo df-i1 comid comcom2 u1lemc1 fh4 wt ax-a2 df-t ax-r1 ax-r2
-    u1lemona ancom lor lan u1lem3 coman1 coman2 fh2 anass anidm ran ax-r5 2an
-    an1 ) AABACZCZCADZAULEFZULAULGUNUMAFZUMULFZEZULAUMULAAAHIAUKJKUQLULEZULUOLU
-    PULUOAUMFZLUMAMLUSANOPUPULUMFZULUMULMUTUMAUKEZFZULAUKQVBUMABDZABEZFZEZFZULV
-    AVFUMUKVEAUKVCBAEZFVEBAGVHVDVCBARSPTSULVGULUMVDAVCEZFZFVGABUAVJVFUMVFVJVFAV
-    DVCFZEZVJVEVKAVCVDMTVLAVDEZVIFVJVDAVCABUBVDBABUCIUDVMVDVIVMAAEZBEZVDVOVMAAB
-    UEOVNABAUFUGPUHPPOSPOPPPUIURULLEULLULRULUJPPPP $.
+    ( wi1 wn wa wo df-i1 comid comcom2 u1lemc1 fh4 wt ax-a2 df-t ax-r1 u1lemona
+    ax-r2 ancom lor lan u1lem3 coman1 coman2 fh2 anass anidm ran ax-r5 2an an1
+    ) AABACZCZCADZAULEFZULAULGUNUMAFZUMULFZEZULAUMULAAAHIAUKJKUQLULEZULUOLUPULU
+    OAUMFZLUMAMLUSANOQUPULUMFZULUMULMUTUMAUKEZFZULAUKPVBUMABDZABEZFZEZFZULVAVFU
+    MUKVEAUKVCBAEZFVEBAGVHVDVCBARSQTSULVGULUMVDAVCEZFZFVGABUAVJVFUMVFVJVFAVDVCF
+    ZEZVJVEVKAVCVDMTVLAVDEZVIFVJVDAVCABUBVDBABUCIUDVMVDVIVMAAEZBEZVDVOVMAABUEOV
+    NABAUFUGQUHQQOSQOQQQUIURULLEULLULRULUJQQQQ $.
     $( [11-Jan-98] $)
 
   $( Lemma for unified implication study. $)
@@ -6176,21 +6140,21 @@ $)
 
   $( Lemma for unified implication study. $)
   u4lem4 $p |- ( a ->4 ( a ->4 ( b ->4 a ) ) ) = ( a ->4 ( b ->4 a ) ) $=
-    ( wi4 wa wn wo df-i4 u4lem3 comid comcom2 comanr1 com2or comcom bctr fh2r
-    ax-r1 ancom wt df-t lan an1 ax-r2 comcom4 comcom3 fh1r wf dff lor or0 2or
-    fh3 ax-r5 or32 oridm ) AABACCZCAUODAEZUODFZUPUOFUOEZDZFZUOAUOGUTUOUPURDZFZU
-    OUQUOUSVAUQAUPFZUODZUOVDUQAUOUPUOAUOUPABDZABEZDZFZFZAABHZAVIAUPVHAAAIJZAVEV
-    GABKAVFKLLMNZMVKOPVDUOVCDZUOVCUOQVMUORDUOVCRUORVCASPTUOUAUBUBUBUSVAUOURDZFZ
-    VAURUPUOUOAVLUCUOUOUOIZUDUEVOVAUFFVAVNUFVAUFVNUOUGPUHVAUIUBUBUJVBUOUPFZUOVB
-    VQUOURFZDZVQUOUPURUOAVLJUOUOVPJUKVSVQRDVQVRRVQRVRUOSPTVQUAUBUBVQVIUPFZUOUOV
-    IUPVJULVTUPUPFZVHFZUOUPVHUPUMWBVIUOWAUPVHUPUNULUOVIVJPUBUBUBUBUBUB $.
+    ( wi4 wa wn wo df-i4 comid comcom2 comanr1 com2or comcom ax-r1 df-t lan an1
+    wt ax-r2 wf ax-r5 u4lem3 bctr fh2r comcom4 comcom3 fh1r dff lor or0 2or fh3
+    ancom or32 oridm ) AABACCZCAUODAEZUODFZUPUOFUOEZDZFZUOAUOGUTUOUPURDZFZUOUQU
+    OUSVAUQAUPFZUODZUOVDUQAUOUPUOAUOUPABDZABEZDZFZFZAABUAZAVIAUPVHAAAHIZAVEVGAB
+    JAVFJKKLUBZLVKUCMVDUOVCDZUOVCUOULVMUOQDUOVCQUOQVCANMOUOPRRRUSVAUOURDZFZVAUR
+    UPUOUOAVLUDUOUOUOHZUEUFVOVASFVAVNSVASVNUOUGMUHVAUIRRUJVBUOUPFZUOVBVQUOURFZD
+    ZVQUOUPURUOAVLIUOUOVPIUKVSVQQDVQVRQVQQVRUONMOVQPRRVQVIUPFZUOUOVIUPVJTVTUPUP
+    FZVHFZUOUPVHUPUMWBVIUOWAUPVHUPUNTUOVIVJMRRRRRR $.
     $( [18-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u5lem4 $p |- ( a ->5 ( a ->5 ( b ->5 a ) ) ) = ( a ->5 ( b ->5 a ) ) $=
-    ( wi5 wn wo u5lemc1 u5lemc4 wa u5lem3 lor ax-a3 ax-r1 oridm ax-r5 ax-r2 )
-    AABACZCZCADZQEZQAQAPFGSRRABHABDHEZEZEZQQUARABIZJUBRREZTEZQUEUBRRTKLUEUAQUDR
-    TRMNQUAUCLOOOO $.
+    ( wi5 wn wo u5lemc1 u5lemc4 wa u5lem3 lor ax-a3 ax-r1 oridm ax-r5 ax-r2 ) A
+    ABACZCZCADZQEZQAQAPFGSRRABHABDHEZEZEZQQUARABIZJUBRREZTEZQUEUBRRTKLUEUAQUDRT
+    RMNQUAUCLOOOO $.
     $( [24-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6213,32 +6177,31 @@ $)
 
   $( Lemma for unified implication study. $)
   u4lem5 $p |- ( a ->4 ( a ->4 b ) ) = ( ( a ' ^ b ' ) v b ) $=
-    ( wi4 wa wn wo df-i4 ancom u4lemaa ax-r2 u4lemana 2or ax-a3 ax-r1 ax-a2
-    u4lemona ud4lem0c 2an anass comor1 comcom7 comor2 comcom2 com2an fh1r wf
-    leor df2le2 oran2 lan dff or0 comanr2 com2or comcom6 comorr2 fh4 wt or32
-    lear lel2or df-le2 ax-r5 or4 oran3 lor df-t or1 oran1 an1 ) AABCZCAVKDZAEZV
-    KDZFZVMVKFZVKEZDZFZVMBEZDZBFZAVKGVSABDZVMBDZFZWAFZBVMVTFZAVTFZDZDZFZWBVOWFV
-    RWJVOWCWDWAFZFZWFVLWCVNWLVLVKADWCAVKHABIJVNVKVMDWLVMVKHABKJLWFWMWCWDWAMNJVR
-    VMBFZWIAVTDZBFZDZDZWJVPWNVQWQVPVKVMFWNVMVKOABPJABQRWRWQWNDZWJWNWQHWSWIWPWND
-    ZDZWJWIWPWNSXAWIBDWJWTBWIWTWOWNDZBWNDZFZBWNWOBWNAVTWNAVMBTUAWNBVMBUBZUCUDXE
-    UEXDXCXBFZBXBXCOXFBUFFBXCBXBUFBWNBVMUGUHXBWOWOEZDZUFWNXGWOABUIUJUFXHWOUKNJL
-    BULJJJUJWIBHJJJJLWKWFBFZWFWIFZDZWBBWFWIBWEWABWCWDABUMVMBUMUNBWAVMVTUMUOUNBW
-    IVTWGWHVMVTUPAVTUPUDUOUQXKBWAFZURDZWBXIXLXJURXIWEBFZWAFXLWEWABUSXNBWAWEBWCB
-    WDABUTVMBUTVAVBVCJXJWFWGFZWFWHFZDZURWGWFWHWGWEWAWGWCWDWGABWGAVMVTTZUAZWGBVM
-    VTUBZUAZUDWGVMBXRYAUDUNWGVMVTXRXTUDUNWGAVTXSXTUNUQXQURURDURXOURXPURXOWEWGFW
-    AFZURWEWAWGUSYBWEWGWAFFZURWEWGWAMYCWCWGFZWLFZURWCWDWGWAVDYEWLYDFZURYDWLOYFW
-    LURFURYDURWLYDWCWCEZFZURWGYGWCABVEVFURYHWCVGNJVFWLVHJJJJJXPWEWAWHFFZURWEWAW
-    HMYIWCWAFZWDWHFZFZURWCWDWAWHVDYLYJURFURYKURYJYKWDWDEZFZURWHYMWDABVIVFURYNWD
-    VGNJVFYJVHJJJRURVJJJRXMXLWBXLVJBWAOJJJJJ $.
+    ( wi4 wa wn wo ancom ax-r2 2or ax-a3 ax-r1 ax-a2 2an comcom7 com2an comanr2
+    wf com2or wt lor df-i4 u4lemaa u4lemana u4lemona ud4lem0c anass comor1 fh1r
+    comor2 comcom2 leor df2le2 lan dff or0 comcom6 comorr2 fh4 or32 lear lel2or
+    oran2 df-le2 ax-r5 or4 oran3 df-t or1 oran1 an1 ) AABCZCAVKDZAEZVKDZFZVMVKF
+    ZVKEZDZFZVMBEZDZBFZAVKUAVSABDZVMBDZFZWAFZBVMVTFZAVTFZDZDZFZWBVOWFVRWJVOWCWD
+    WAFZFZWFVLWCVNWLVLVKADWCAVKGABUBHVNVKVMDWLVMVKGABUCHIWFWMWCWDWAJKHVRVMBFZWI
+    AVTDZBFZDZDZWJVPWNVQWQVPVKVMFWNVMVKLABUDHABUEMWRWQWNDZWJWNWQGWSWIWPWNDZDZWJ
+    WIWPWNUFXAWIBDWJWTBWIWTWOWNDZBWNDZFZBWNWOBWNAVTWNAVMBUGNWNBVMBUIZUJOXEUHXDX
+    CXBFZBXBXCLXFBQFBXCBXBQBWNBVMUKULXBWOWOEZDZQWNXGWOABVBUMQXHWOUNKHIBUOHHHUMW
+    IBGHHHHIWKWFBFZWFWIFZDZWBBWFWIBWEWABWCWDABPVMBPRBWAVMVTPUPRBWIVTWGWHVMVTUQA
+    VTUQOUPURXKBWAFZSDZWBXIXLXJSXIWEBFZWAFXLWEWABUSXNBWAWEBWCBWDABUTVMBUTVAVCVD
+    HXJWFWGFZWFWHFZDZSWGWFWHWGWEWAWGWCWDWGABWGAVMVTUGZNZWGBVMVTUIZNZOWGVMBXRYAO
+    RWGVMVTXRXTORWGAVTXSXTRURXQSSDSXOSXPSXOWEWGFWAFZSWEWAWGUSYBWEWGWAFFZSWEWGWA
+    JYCWCWGFZWLFZSWCWDWGWAVEYEWLYDFZSYDWLLYFWLSFSYDSWLYDWCWCEZFZSWGYGWCABVFTSYH
+    WCVGKHTWLVHHHHHHXPWEWAWHFFZSWEWAWHJYIWCWAFZWDWHFZFZSWCWDWAWHVEYLYJSFSYKSYJY
+    KWDWDEZFZSWHYMWDABVITSYNWDVGKHTYJVHHHHMSVJHHMXMXLWBXLVJBWALHHHHH $.
     $( [26-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u5lem5 $p |- ( a ->5 ( a ->5 b ) ) = ( a ' v ( a ^ b ) ) $=
-    ( wi5 wa wn wo df-i5 u5lemc1 comcom comcom2 fh1r ax-r1 ancom wt df-t lan
-    an1 ax-r2 ax-r5 comcom3 comcom4 fh4 u5lemona ) AABCZCAUDDAEZUDDFZUEUDEZDZFZ
-    UEABDFZAUDGUIUDUHFZUJUFUDUHUFAUEFZUDDZUDUMUFUDAUEAUDABHZIZUDAUOJKLUMUDULDZU
-    DULUDMUPUDNDUDULNUDNULAOLPUDQRRRSUKUDUEFZUDUGFZDZUJUEUDUGAUDUNTAUDUNUAUBUSU
-    QNDZUJURNUQNURUDOLPUTUQUJUQQABUCRRRRR $.
+    ( wi5 wa wn wo df-i5 u5lemc1 comcom comcom2 fh1r ax-r1 ancom df-t lan ax-r2
+    wt an1 ax-r5 comcom3 comcom4 fh4 u5lemona ) AABCZCAUDDAEZUDDFZUEUDEZDZFZUEA
+    BDFZAUDGUIUDUHFZUJUFUDUHUFAUEFZUDDZUDUMUFUDAUEAUDABHZIZUDAUOJKLUMUDULDZUDUL
+    UDMUPUDQDUDULQUDQULANLOUDRPPPSUKUDUEFZUDUGFZDZUJUEUDUGAUDUNTAUDUNUAUBUSUQQD
+    ZUJURQUQQURUDNLOUTUQUJUQRABUCPPPPP $.
     $( [20-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6255,62 +6218,61 @@ $)
 
   $( Lemma for unified implication study. $)
   u4lem6 $p |- ( a ->4 ( a ->4 ( a ->4 b ) ) ) = ( a ->4 b ) $=
-    ( wi4 wa wn wo df-i4 u4lem5 lan coman1 comcom7 coman2 fh2 ax-a2 wf ancom
-    anass dff ax-r1 an0 ax-r2 3tr2 lor or0 anidm ran ax-r5 2or id or12 comor1
-    comor2 comcom2 fh3r wt ax-a3 oridm df-t or1 2an an1 u4lem5n com2an com2or
-    fh4 lear leor letr lea lel2or leo df-le2 or32 anor3 3tr1 comorr2 comcom3
-    comanr2 df2le2 ) AAABCZCZCAWADZAEZWADZFZWCWAFZWAEZDZFZVTAWAGWIABDZWCBEZDZWC
-    BDZFZFZWCBFZABFZWKDZDZFZVTWEWOWHWSWEWOWOWBWJWDWNWBAWLBFZDZWJWAXAAABHZIXBAWL
-    DZWJFZWJWLABWLAWCWKJZKWLBWCWKLKZMXEWJXDFZWJXDWJNXHWJOFWJXDOWJAWCDZWKDWKXIDZ
-    XDOXIWKPAWCWKQXJWKODOXIOWKOXIARSIWKTUAUBUCWJUDUAUAUAUAWDWCXADZWNWAXAWCXCIXK
-    WCWLDZWMFWNWLWCBXFXGMXLWLWMXLWCWCDZWKDZWLXNXLWCWCWKQSXMWCWKWCUEUFUAUGUAUAUH
-    WOUIUAWHWSWSWFWPWGWRWFWCXAFZWPWAXAWCXCUCXOWLWPFZWPWCWLBUJXPWCWPFZWKWPFZDZWP
-    WPWCWKWCBUKZWPBWCBULZUMZUNXSWPUODWPXQWPXRUOXQWCWCFZBFZWPYDXQWCWCBUPSYCWCBWC
-    UQUGUAXRWCWKBFZFZUOWKWCBUJYFWCUOFUOYEUOWCYEBWKFZUOWKBNUOYGBURSUAUCWCUSUAUAU
-    TWPVAUAUAUAUAABVBUTWSUIUAUHWTWOWPFZWOWRFZDZVTWPWOWRWPWJWNWPABWPAXTKZYAVCWPW
-    LWMWPWCWKXTYBVCWPWCBXTYAVCVDVDWPWQWKWPABYKYAVDYBVCVEYJWPWKWJWMFZFZDZVTYHWPY
-    IYMWOWPWJWPWNWJBWPABVFZBWCVGZVHWNWCWPWLWCWMWCWKVIWCBVIVJWCBVKVHVJVLYIWOWQFZ
-    WOWKFZDZYMWQWOWKWQWJWNWQABABUKZABULZVCWQWLWMWQWCWKWQAYTUMZWQBUUAUMZVCWQWCBU
-    UBUUAVCVDVDUUCVEYSUOYMDZYMYQUOYRYMYQWJWQFZWNFZUOWJWNWQVMUUEWLFZWMFUOWMFZUUF
-    UOUUGUOWMUUGWJWQWLFZFZUOWJWQWLUPUUJWJUOFUOUUIUOWJUUIWQWQEZFZUOWLUUKWQABVNUC
-    UOUULWQURSUAUCWJUSUAUAUGUUEWLWMUPUUHWMUOFUOUOWMNWMUSUAUBUAYRWLYLFZWKFZYMWOU
-    UMWKWJWLWMUJUGWLWKFZYLFYMUUNYMUUOWKYLWLWKWCWKVFVLUGWLYLWKVMYMUIVOUAUTUUDYMU
-    ODYMUOYMPYMVAUAUAUAUTYNWPWKDZWPYLDZFZVTWKWPYLBWPWCBVPVQBYLBWJWMABVRWCBVRVDV
-    QMUUPYLFYLUUPFUURVTUUPYLNUUQYLUUPUUQYLWPDYLWPYLPYLWPYLBWPWJBWMYOWCBVFVJYPVH
-    VSUAUCABGVOUAUAUAUAUA $.
+    ( wi4 wa wn wo lan comcom7 fh2 ax-a2 ancom ax-r1 ax-r2 lor ax-r5 2an com2an
+    wf wt com2or df-i4 u4lem5 coman1 coman2 anass dff an0 3tr2 or0 anidm ran id
+    2or or12 comor1 comcom2 fh3r ax-a3 oridm df-t or1 an1 u4lem5n fh4 lear leor
+    comor2 letr lea lel2or leo df-le2 or32 anor3 comorr2 comcom3 comanr2 df2le2
+    3tr1 ) AAABCZCZCAWADZAEZWADZFZWCWAFZWAEZDZFZVTAWAUAWIABDZWCBEZDZWCBDZFZFZWC
+    BFZABFZWKDZDZFZVTWEWOWHWSWEWOWOWBWJWDWNWBAWLBFZDZWJWAXAAABUBZGXBAWLDZWJFZWJ
+    WLABWLAWCWKUCZHWLBWCWKUDHZIXEWJXDFZWJXDWJJXHWJRFWJXDRWJAWCDZWKDWKXIDZXDRXIW
+    KKAWCWKUEXJWKRDRXIRWKRXIAUFLGWKUGMUHNWJUIMMMMWDWCXADZWNWAXAWCXCGXKWCWLDZWMF
+    WNWLWCBXFXGIXLWLWMXLWCWCDZWKDZWLXNXLWCWCWKUELXMWCWKWCUJUKMOMMUMWOULMWHWSWSW
+    FWPWGWRWFWCXAFZWPWAXAWCXCNXOWLWPFZWPWCWLBUNXPWCWPFZWKWPFZDZWPWPWCWKWCBUOZWP
+    BWCBVGZUPZUQXSWPSDWPXQWPXRSXQWCWCFZBFZWPYDXQWCWCBURLYCWCBWCUSOMXRWCWKBFZFZS
+    WKWCBUNYFWCSFSYESWCYEBWKFZSWKBJSYGBUTLMNWCVAMMPWPVBMMMMABVCPWSULMUMWTWOWPFZ
+    WOWRFZDZVTWPWOWRWPWJWNWPABWPAXTHZYAQWPWLWMWPWCWKXTYBQWPWCBXTYAQTTWPWQWKWPAB
+    YKYATYBQVDYJWPWKWJWMFZFZDZVTYHWPYIYMWOWPWJWPWNWJBWPABVEZBWCVFZVHWNWCWPWLWCW
+    MWCWKVIWCBVIVJWCBVKVHVJVLYIWOWQFZWOWKFZDZYMWQWOWKWQWJWNWQABABUOZABVGZQWQWLW
+    MWQWCWKWQAYTUPZWQBUUAUPZQWQWCBUUBUUAQTTUUCVDYSSYMDZYMYQSYRYMYQWJWQFZWNFZSWJ
+    WNWQVMUUEWLFZWMFSWMFZUUFSUUGSWMUUGWJWQWLFZFZSWJWQWLURUUJWJSFSUUISWJUUIWQWQE
+    ZFZSWLUUKWQABVNNSUULWQUTLMNWJVAMMOUUEWLWMURUUHWMSFSSWMJWMVAMUHMYRWLYLFZWKFZ
+    YMWOUUMWKWJWLWMUNOWLWKFZYLFYMUUNYMUUOWKYLWLWKWCWKVEVLOWLYLWKVMYMULVSMPUUDYM
+    SDYMSYMKYMVBMMMPYNWPWKDZWPYLDZFZVTWKWPYLBWPWCBVOVPBYLBWJWMABVQWCBVQTVPIUUPY
+    LFYLUUPFUURVTUUPYLJUUQYLUUPUUQYLWPDYLWPYLKYLWPYLBWPWJBWMYOWCBVEVJYPVHVRMNAB
+    UAVSMMMMM $.
     $( [26-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u5lem6 $p |- ( a ->5 ( a ->5 ( a ->5 b ) ) ) = ( a ->5 ( a ->5 b ) ) $=
-    ( wi5 wa wn wo df-i5 ancom u5lemc1 comcom comcom2 fh1r wt df-t ax-r1 lan
-    an1 ax-r2 3tr2 ax-r5 comcom3 comcom4 fh4 u5lem5 oridm or32 3tr1 ) AAABCZCZC
-    AUIDAEZUIDFZUJUIEZDZFZUIAUIGUNUIUMFZUIUKUIUMAUJFZUIDUIUPDZUKUIUPUIHUIAUJAUI
-    AUHIZJZUIAUSKLUQUIMDUIUPMUIMUPANOPUIQRSTUOUIUJFZUIULFZDZUIUJUIULAUIURUAAUIU
-    RUBUCVBUTMDZUIVAMUTMVAUINOPVCUTUIUTQUTUJABDZFZUJFZUIUIVEUJABUDZTUJUJFZVDFVE
-    VFUIVHUJVDUJUETUJVDUJUFVGUGRRRRRR $.
+    ( wi5 wa wn wo df-i5 ancom u5lemc1 comcom comcom2 fh1r df-t ax-r1 lan ax-r2
+    wt an1 3tr2 ax-r5 comcom3 comcom4 fh4 u5lem5 oridm or32 3tr1 ) AAABCZCZCAUI
+    DAEZUIDFZUJUIEZDZFZUIAUIGUNUIUMFZUIUKUIUMAUJFZUIDUIUPDZUKUIUPUIHUIAUJAUIAUH
+    IZJZUIAUSKLUQUIQDUIUPQUIQUPAMNOUIRPSTUOUIUJFZUIULFZDZUIUJUIULAUIURUAAUIURUB
+    UCVBUTQDZUIVAQUTQVAUIMNOVCUTUIUTRUTUJABDZFZUJFZUIUIVEUJABUDZTUJUJFZVDFVEVFU
+    IVHUJVDUJUETUJVDUJUFVGUGPPPPPP $.
     $( [20-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u24lem $p |- ( ( a ->2 b ) ^ ( a ->4 b ) ) = ( a ->5 b ) $=
-    ( wi2 wi4 wa wn wo wi5 df-i2 ran u4lemc1 comanr2 comcom6 fh2r ancom ax-r2
-    anass u4lemanb lan ax-r1 anabs 2or comanr1 fh4r com2or fh1 u4lemab ax-r5
-    id leor df2le2 ax-a3 lear df-le2 lor df-i5 ) ABCZABDZEBAFZBFZEZGZUREZABHZUQ
-    VBURABIJVCBUREZVAUREZGZVDBURVAABKZBVAUSUTLMNVGVEUTUSEZGZVDVEVEVFVIVEURBEZVE
-    BUROZURBOPVFUSUTUREZEZVIUSUTURQVNUSUSBGZUTEZEZVIVMVPUSVMURUTEVPUTUROABRPSVQ
-    USVOEZUTEZVIVSVQUSVOUTQTVSVAVIVRUSUTUSBUAJUSUTOPPPPUBVJBVIGURVIGZEZVDBVIURB
-    VIUTUSUCMZVHUDWABVTEZVIVTEZGZVDBVTVIBURVIVHWBUEWBNWEABEUSBEGZBVIEZGZVIGZVDW
-    CWHWDVIWCVEWGGZWHBURVIVHWBUFWJWHWHVEWFWGVEVKWFVLABUGPUHWHUIPPVIVTVIURUJUKUB
-    WIWFWGVIGZGZVDWFWGVIULWLWFVAGZVDWKVAWFWKVIVAWGVIBVIUMUNUTUSOPUOWMVDVDVDWMAB
-    UPTVDUIPPPPPPPPP $.
+    ( wi2 wi4 wa wn wo wi5 df-i2 u4lemc1 comanr2 comcom6 fh2r ancom ax-r2 anass
+    ran ax-r1 2or id u4lemanb lan anabs comanr1 com2or fh1 u4lemab ax-r5 df2le2
+    fh4r leor ax-a3 lear df-le2 lor df-i5 ) ABCZABDZEBAFZBFZEZGZUREZABHZUQVBURA
+    BIQVCBUREZVAUREZGZVDBURVAABJZBVAUSUTKLMVGVEUTUSEZGZVDVEVEVFVIVEURBEZVEBURNZ
+    URBNOVFUSUTUREZEZVIUSUTURPVNUSUSBGZUTEZEZVIVMVPUSVMURUTEVPUTURNABUAOUBVQUSV
+    OEZUTEZVIVSVQUSVOUTPRVSVAVIVRUSUTUSBUCQUSUTNOOOOSVJBVIGURVIGZEZVDBVIURBVIUT
+    USUDLZVHUJWABVTEZVIVTEZGZVDBVTVIBURVIVHWBUEWBMWEABEUSBEGZBVIEZGZVIGZVDWCWHW
+    DVIWCVEWGGZWHBURVIVHWBUFWJWHWHVEWFWGVEVKWFVLABUGOUHWHTOOVIVTVIURUKUISWIWFWG
+    VIGZGZVDWFWGVIULWLWFVAGZVDWKVAWFWKVIVAWGVIBVIUMUNUTUSNOUOWMVDVDVDWMABUPRVDT
+    OOOOOOOOO $.
     $( [20-Dec-97] $)
 
   $( Implication lemma. $)
   u12lem $p |- ( ( a ->1 b ) v ( a ->2 b ) ) = ( a ->0 b ) $=
-    ( wi1 wn wa wo wi2 wi0 orordi u1lemob df-i1 ax-r5 or32 orabs ax-r2 2or id
-    bile lear lelor lel2or leo lebi df-i2 lor df-i0 3tr1 ) ABCZBADZBDZEZFZFZUIB
-    FZUHABGZFABHUMUHBFZUHUKFZFZUNUHBUKIURUNUIABEZFZFZUNUPUNUQUTABJUQUTUKFZUTUHU
-    TUKABKLVBUIUKFZUSFUTUIUSUKMVCUIUSUIUJNLOOPVAUNUNUNUTUNUNUNQRUSBUIABSTUAUNUT
-    UBUCOOUOULUHABUDUEABUFUG $.
+    ( wi1 wn wa wo wi2 wi0 orordi u1lemob df-i1 ax-r5 or32 orabs ax-r2 2or bile
+    id lear lelor lel2or leo lebi df-i2 lor df-i0 3tr1 ) ABCZBADZBDZEZFZFZUIBFZ
+    UHABGZFABHUMUHBFZUHUKFZFZUNUHBUKIURUNUIABEZFZFZUNUPUNUQUTABJUQUTUKFZUTUHUTU
+    KABKLVBUIUKFZUSFUTUIUSUKMVCUIUSUIUJNLOOPVAUNUNUNUTUNUNUNRQUSBUIABSTUAUNUTUB
+    UCOOUOULUHABUDUEABUFUG $.
     $( [17-Nov-98] $)
 
   $( Lemma for unified implication study. $)
@@ -6322,18 +6284,18 @@ $)
   $( Lemma for unified implication study. $)
   u2lem7 $p |- ( a ->2 ( a ' ->2 b ) ) =
               ( ( ( a ^ b ' ) v ( a ' ^ b ' ) ) v b ) $=
-    ( wn wi2 wa wo df-i2 ax-a1 ax-r1 ran lor ax-r2 ancom u2lemnaa 2or ax-a3
-    ax-a2 ) AACZBDZDSRSCZEZFZABCZEZRUCEZFZBFZASGUBBUDFZUEFZUGSUHUAUESBRCZUCEZFU
-    HRBGUKUDBUJAUCAUJAHIJKLUATREUERTMRBNLOUIBUFFUGBUDUEPBUFQLLL $.
+    ( wn wi2 wa df-i2 ax-a1 ax-r1 ran lor ax-r2 ancom u2lemnaa 2or ax-a3 ax-a2
+    wo ) AACZBDZDSRSCZEZQZABCZEZRUCEZQZBQZASFUBBUDQZUEQZUGSUHUAUESBRCZUCEZQUHRB
+    FUKUDBUJAUCAUJAGHIJKUATREUERTLRBMKNUIBUFQUGBUDUEOBUFPKKK $.
     $( [24-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u3lem7 $p |- ( a ->3 ( a ' ->3 b ) ) =
               ( a ' v ( ( a ^ b ) v ( a ^ b ' ) ) ) $=
-    ( wn wi3 wo wa comi31 comcom6 u3lemc4 df-i3 lor or12 ax-a1 ran 2or ax-r1
-    orabs ax-a2 ax-r2 ) AACZBDZDTUAEZTABFZABCZFZEZEZAUAAUATBGHIUBTTCZBFZUHUDFZE
-    ZTUHBEZFZEZEZUGUAUNTTBJKUOUKTUMEZEZUGTUKUMLUQUFTEUGUKUFUPTUFUKUCUIUEUJAUHBA
-    MZNAUHUDURNOPTULQOUFTRSSSS $.
+    ( wn wi3 wo comi31 comcom6 u3lemc4 df-i3 lor or12 ax-a1 ran 2or ax-r1 orabs
+    wa ax-a2 ax-r2 ) AACZBDZDTUAEZTABQZABCZQZEZEZAUAAUATBFGHUBTTCZBQZUHUDQZEZTU
+    HBEZQZEZEZUGUAUNTTBIJUOUKTUMEZEZUGTUKUMKUQUFTEUGUKUFUPTUFUKUCUIUEUJAUHBALZM
+    AUHUDURMNOTULPNUFTRSSSS $.
     $( [24-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6347,11 +6309,11 @@ $)
   $( Lemma used in study of orthoarguesian law. $)
   u1lem8 $p |- ( ( a ->1 b ) ^ ( a ' ->1 b ) ) =
                ( ( a ^ b ) v ( a ' ^ b ) ) $=
-    ( wi1 wn wa wo df-i1 ax-a1 ax-r5 ax-r1 ax-r2 2an comor1 comcom2 coman1
-    coman2 com2an com2or comcom fh1r omlan lea leo letr df2le2 2or ax-a2 3tr )
-    ABCZADZBCZEUJABEZFZAUJBEZFZEUJUOEZULUOEZFZULUNFZUIUMUKUOABGUKUJDZUNFZUOUJBG
-    UOVAAUTUNAHIJKLUOUJULUOAAUNMNULUOULAUNABOZULUJBULAVBNABPQRSTURUNULFUSUPUNUQ
-    ULABUAULUOULAUOABUBAUNUCUDUEUFUNULUGKUH $.
+    ( wi1 wn wa df-i1 ax-a1 ax-r5 ax-r1 2an comor1 comcom2 coman1 coman2 com2an
+    wo ax-r2 com2or comcom fh1r omlan lea leo letr df2le2 2or ax-a2 3tr ) ABCZA
+    DZBCZEUJABEZPZAUJBEZPZEUJUOEZULUOEZPZULUNPZUIUMUKUOABFUKUJDZUNPZUOUJBFUOVAA
+    UTUNAGHIQJUOUJULUOAAUNKLULUOULAUNABMZULUJBULAVBLABNORSTURUNULPUSUPUNUQULABU
+    AULUOULAUOABUBAUNUCUDUEUFUNULUGQUH $.
     $( [27-Dec-98] $)
 
   $( Lemma used in study of orthoarguesian law.  Equation 4.11 of [MegPav2000]
@@ -6374,15 +6336,15 @@ $)
 
   $( Lemma used in study of orthoarguesian law. $)
   u1lem11 $p |- ( ( a ' ->1 b ) ->1 b ) = ( a ->1 b ) $=
-    ( wn wi1 wa wo ud1lem0c ax-a1 ax-r1 ax-r5 lan ax-r2 u1lemab ax-a2 ran 3tr
-    2or comanr1 comcom3 com2or comcom comor1 comor2 comcom7 com2an comcom2
-    fh3r wt or32 ax-a3 orabs 3tr2 or12 anor2 lor df-t or1 2an an1 df-i1 3tr1 )
-    ACZBDZCZVCBEZFZVBABEZFZVCBDABDVFVBABCZFZEZVGVBBEZFZFVBVMFZVJVMFZEZVHVDVKVEV
-    MVDVBVBCZVIFZEVKVBBGVRVJVBVQAVIAVQAHZIJKLVEVLVQBEZFVTVLFZVMVBBMVLVTNVMWAVGV
-    TVLAVQBVSOJIPQVMVBVJVBVMVBVGVLAVGABRSVBBRTUAVJVMVJVGVLVJABAVIUBZVJBAVIUCUDZ
-    UEVJVBBVJAWBUFWCUETUAUGVPVHUHEVHVNVHVOUHVHVLFVBVLFZVGFVNVHVBVGVLUIVBVGVLUJW
-    DVBVGVBBUKJULVOVGVJVLFZFVGUHFUHVJVGVLUMWEUHVGWEVJVJCZFZUHVLWFVJABUNUOUHWGVJ
-    UPILUOVGUQPURVHUSLPVCBUTABUTVA $.
+    ( wn wi1 wa ud1lem0c ax-a1 ax-r1 ax-r5 lan 3tr comanr1 com2or comcom com2an
+    wo ax-r2 wt lor df-i1 u1lemab ran 2or comcom3 comor1 comor2 comcom7 comcom2
+    ax-a2 fh3r or32 ax-a3 orabs 3tr2 or12 anor2 df-t or1 2an an1 3tr1 ) ACZBDZC
+    ZVCBEZPZVBABEZPZVCBDABDVFVBABCZPZEZVGVBBEZPZPVBVMPZVJVMPZEZVHVDVKVEVMVDVBVB
+    CZVIPZEVKVBBFVRVJVBVQAVIAVQAGZHIJQVEVLVQBEZPVTVLPZVMVBBUAVLVTUIVMWAVGVTVLAV
+    QBVSUBIHKUCVMVBVJVBVMVBVGVLAVGABLUDVBBLMNVJVMVJVGVLVJABAVIUEZVJBAVIUFUGZOVJ
+    VBBVJAWBUHWCOMNUJVPVHREVHVNVHVORVHVLPVBVLPZVGPVNVHVBVGVLUKVBVGVLULWDVBVGVBB
+    UMIUNVOVGVJVLPZPVGRPRVJVGVLUOWERVGWEVJVJCZPZRVLWFVJABUPSRWGVJUQHQSVGURKUSVH
+    UTQKVCBTABTVA $.
     $( [28-Dec-98] $)
 
   $( Lemma used in study of orthoarguesian law.  Equation 4.12 of [MegPav2000]
@@ -6395,19 +6357,19 @@ $)
   $( Lemma for unified implication study. $)
   u2lem8 $p |- ( a ' ->2 ( a ->2 ( a ' ->2 b ) ) ) =
                ( a ->2 ( a ' ->2 b ) ) $=
-    ( wn wi2 wa wo df-i2 wf u2lem7 ax-a1 ax-r1 u2lem7n 2an an12 anass anor1
-    lan dff ax-r2 an0 2or or0 ) ACZAUCBDDZDUDUCCZUDCZEZFZUDUCUDGUHABCZEZUCUIEFB
-    FZHFZUDUDUKUGHABIZUGAABFZUCBFZEZUIEZEZHUEAUFUQAUEAJKABLMURUPUJEZHAUPUINUSUN
-    UOUJEZEZHUNUOUJOVAUNHEHUTHUNUTUOUOCZEZHUJVBUOABPQHVCUORKSQUNTSSSSUAULUKUDUK
-    UBUDUKUMKSSS $.
+    ( wn wi2 wa wo df-i2 wf u2lem7 ax-a1 ax-r1 u2lem7n 2an an12 anass anor1 lan
+    dff ax-r2 an0 2or or0 ) ACZAUCBDDZDUDUCCZUDCZEZFZUDUCUDGUHABCZEZUCUIEFBFZHF
+    ZUDUDUKUGHABIZUGAABFZUCBFZEZUIEZEZHUEAUFUQAUEAJKABLMURUPUJEZHAUPUINUSUNUOUJ
+    EZEZHUNUOUJOVAUNHEHUTHUNUTUOUOCZEZHUJVBUOABPQHVCUORKSQUNTSSSSUAULUKUDUKUBUD
+    UKUMKSSS $.
     $( [24-Dec-97] $)
 
   $( Lemma for unified implication study. $)
   u3lem8 $p |- ( a ' ->3 ( a ->3 ( a ' ->3 b ) ) ) = 1 $=
-    ( wn wi3 wo wt comi31 comcom3 u3lemc4 wa ax-a1 ax-r1 u3lem7 2or ax-a3
-    ax-a2 df-t lor or1 ax-r2 ) ACZAUABDZDZDUACZUCEZFUAUCAUCAUBGHIUEAUAABJABCJEZ
-    EZEZFUDAUCUGAUDAKLABMNUHAUAEZUFEZFUJUHAUAUFOLUJUFUIEZFUIUFPUKUFFEFUIFUFFUIA
-    QLRUFSTTTTT $.
+    ( wn wi3 wo wt comi31 comcom3 u3lemc4 wa ax-a1 ax-r1 u3lem7 2or ax-a3 ax-a2
+    df-t lor or1 ax-r2 ) ACZAUABDZDZDUACZUCEZFUAUCAUCAUBGHIUEAUAABJABCJEZEZEZFU
+    DAUCUGAUDAKLABMNUHAUAEZUFEZFUJUHAUAUFOLUJUFUIEZFUIUFPUKUFFEFUIFUFFUIAQLRUFS
+    TTTTT $.
     $( [24-Dec-97] $)
 
   $( Lemma for unified implication study. $)
@@ -6420,13 +6382,12 @@ $)
 
   $( Lemma for unified implication study. $)
   u3lem10 $p |- ( a ->3 ( a ' ^ ( a v b ) ) ) = a ' $=
-    ( wn wo wa wi3 df-i3 anass ax-r1 anidm ran ax-r2 anor3 lor oran1 lan omlan
-    2or comanr1 comorr comcom3 fh4r wt orabs df-t 2an an1 ancom ) AACZABDZEZFUI
-    UKEZUIUKCZEZDZAUIUKDZEZDZUIAUKGURUIUIAEZDUIUOUIUQUSUOUKUIBCZEZDZUIULUKUNVAU
-    LUIUIEZUJEZUKVDULUIUIUJHIVCUIUJUIJKLUNUIAVADZEVAUMVEUIVEUMVEAUJCZDUMVAVFAAB
-    MZNAUJOLIPAUTQLRVBUIVADZUJVADZEZUIUIVAUJUIUTSAUJABTUAUBVJUIUCEUIVHUIVIUCUIU
-    TUDVIUJVFDZUCVAVFUJVGNUCVKUJUEILUFUIUGLLLUQAUIEUSUPUIAUIUJUDPAUIUHLRUIAUDLL
-    $.
+    ( wn wo wi3 df-i3 anass ax-r1 anidm ran ax-r2 anor3 lor oran1 lan omlan 2or
+    wa wt orabs comanr1 comorr comcom3 fh4r df-t 2an an1 ancom ) AACZABDZRZEUIU
+    KRZUIUKCZRZDZAUIUKDZRZDZUIAUKFURUIUIARZDUIUOUIUQUSUOUKUIBCZRZDZUIULUKUNVAUL
+    UIUIRZUJRZUKVDULUIUIUJGHVCUIUJUIIJKUNUIAVADZRVAUMVEUIVEUMVEAUJCZDUMVAVFAABL
+    ZMAUJNKHOAUTPKQVBUIVADZUJVADZRZUIUIVAUJUIUTUAAUJABUBUCUDVJUISRUIVHUIVISUIUT
+    TVIUJVFDZSVAVFUJVGMSVKUJUEHKUFUIUGKKKUQAUIRUSUPUIAUIUJTOAUIUHKQUIATKK $.
     $( [17-Jan-98] $)
 
   $(
@@ -6436,17 +6397,16 @@ $)
 
   $( Lemma for unified implication study. $)
   u3lem11 $p |- ( a ->3 ( b ' ^ ( a v b ) ) ) = ( a ->3 b ' ) $=
-    ( wn wo wa wi3 df-i3 ax-a1 lan lor ax-r5 wf oran anass ax-r1 dff 3tr1
-    anor3 ax-a2 ax-r2 oran1 coman1 coman2 comcom7 fh2 anidm ran 2or or0 wt
-    df-t ax-a3 or1 3tr2 ancom an1 comor1 comcom2 comor2 fh4 id ) ABCZABDZEZFACZ
-    VDEZVEVDCZEZDZAVEVDDZEZDZAVBFZAVDGVEVBEZVEBEZDZAVEVBDZEZDVNVEVBCZEZDZVRDVLV
-    MVPWAVRVOVTVNBVSVEBHIJKVIVPVKVRVILVPDZVPVFLVHVPVNVCEZVNVNCZEVFLVCWDVNABMIWC
-    VFVEVBVCNOVNPQVHVEVNBDZEZVPVGWEVEWEVGWEBVCCZDZVGWEWGBDWHVNWGBABRKWGBSTBVCUA
-    TOIWFVEVNEZVODVPVNVEBVEVBUBVNBVEVBUCUDUEWIVNVOWIVEVEEZVBEZVNWKWIVEVEVBNOWJV
-    EVBVEUFUGTKTTUHWBVPLDVPLVPSVPUITTAVEVCDZVQEZEVRVKVRWMVQAWMUJVQEZVQWLUJVQVEA
-    DZBDUJBDZWLUJWOUJBWOAVEDZUJVEASUJWQAUKOTKVEABULWPBUJDUJUJBSBUMTUNUGWNVQUJEV
-    QUJVQUOVQUPTTIVJWMAVJVEVCVBEZDWMVDWRVEVBVCUOJVCVEVBVCAABUQURVCBABUSURUTTIVR
-    VAQUHAVBGQT $.
+    ( wn wo wa wi3 df-i3 lan lor ax-r5 wf anass ax-r1 ax-a2 ax-r2 ran 2or ancom
+    3tr1 wt ax-a1 oran dff anor3 oran1 coman1 coman2 comcom7 fh2 anidm or0 df-t
+    ax-a3 or1 3tr2 an1 comor1 comcom2 comor2 fh4 id ) ABCZABDZEZFACZVDEZVEVDCZE
+    ZDZAVEVDDZEZDZAVBFZAVDGVEVBEZVEBEZDZAVEVBDZEZDVNVEVBCZEZDZVRDVLVMVPWAVRVOVT
+    VNBVSVEBUAHIJVIVPVKVRVIKVPDZVPVFKVHVPVNVCEZVNVNCZEVFKVCWDVNABUBHWCVFVEVBVCL
+    MVNUCSVHVEVNBDZEZVPVGWEVEWEVGWEBVCCZDZVGWEWGBDWHVNWGBABUDJWGBNOBVCUEOMHWFVE
+    VNEZVODVPVNVEBVEVBUFVNBVEVBUGUHUIWIVNVOWIVEVEEZVBEZVNWKWIVEVEVBLMWJVEVBVEUJ
+    POJOOQWBVPKDVPKVPNVPUKOOAVEVCDZVQEZEVRVKVRWMVQAWMTVQEZVQWLTVQVEADZBDTBDZWLT
+    WOTBWOAVEDZTVEANTWQAULMOJVEABUMWPBTDTTBNBUNOUOPWNVQTEVQTVQRVQUPOOHVJWMAVJVE
+    VCVBEZDWMVDWRVEVBVCRIVCVEVBVCAABUQURVCBABUSURUTOHVRVASQAVBGSO $.
     $( [18-Jan-98] $)
 
   $( Lemma for unified implication study. $)
@@ -6465,51 +6425,50 @@ $)
 
   $( Lemma for unified implication study. $)
   u3lem13a $p |- ( a ->3 ( a ->3 b ' ) ' ) = ( a ->1 b ) $=
-    ( wn wi3 wa wo wi1 df-i3 ancom u3lemnana ax-r2 ax-a1 ax-r1 lan u3lemana
-    2or comanr1 com2or comorr com2an comcom3 fh4r wt ax-a2 lea lel2or df-le2
-    anor2 anor3 oran3 lor df-t 2an an1 comid comcom2 comi31 fh1 wf dff
-    u3lemnaa or0 df-i1 ) AABCZDZCZDACZVFEZVGVFCZEZFZAVGVFFEZFZABGZAVFHVMVGAVDCZ
-    EZFZVNVKVGVLVPVKVGAVDFZAVOFZEZEZVGVDEZVGVOEZFZFZVGVHWAVJWDVHVFVGEWAVGVFIAVD
-    JKVJVGVEEZWDVIVEVGVEVIVELMNWFVEVGEWDVGVEIAVDOKKPWEVGWDFZVTWDFZEZVGVGWDVTVGW
-    BWCVGVDQVGVOQRAVTAVRVSAVDSAVOSTUAUBWIVGUCEVGWGVGWHUCWGWDVGFVGVGWDUDWDVGWBVG
-    WCVGVDUEVGVOUEUFUGKWHVTVTCZFZUCWDWJVTWDVRCZVSCZFZWJWDWMWLFWNWBWMWCWLAVDUHAV
-    DUIPWMWLUDKVRVSUJKUKUCWKVTULMKUMVGUNKKKVLAVGEZAVFEZFZVPAVGVFAAAUOUPAVEAVDUQ
-    UPURWQUSVPFZVPWOUSWPVPUSWOAUTMWPVFAEVPAVFIAVDVAKPWRVPUSFVPUSVPUDVPVBKKKPVQV
-    GABEZFZVNVPWSVGVOBABVOBLMNUKVNWTABVCMKKK $.
+    ( wn wi3 wa wo ancom ax-r2 ax-a1 ax-r1 lan 2or comanr1 comorr ax-a2 lea lor
+    wt comcom2 wf wi1 df-i3 u3lemnana u3lemana com2or com2an fh4r lel2or df-le2
+    comcom3 anor2 anor3 oran3 df-t 2an an1 comid comi31 fh1 dff u3lemnaa df-i1
+    or0 ) AABCZDZCZDACZVFEZVGVFCZEZFZAVGVFFEZFZABUAZAVFUBVMVGAVDCZEZFZVNVKVGVLV
+    PVKVGAVDFZAVOFZEZEZVGVDEZVGVOEZFZFZVGVHWAVJWDVHVFVGEWAVGVFGAVDUCHVJVGVEEZWD
+    VIVEVGVEVIVEIJKWFVEVGEWDVGVEGAVDUDHHLWEVGWDFZVTWDFZEZVGVGWDVTVGWBWCVGVDMVGV
+    OMUEAVTAVRVSAVDNAVONUFUJUGWIVGREVGWGVGWHRWGWDVGFVGVGWDOWDVGWBVGWCVGVDPVGVOP
+    UHUIHWHVTVTCZFZRWDWJVTWDVRCZVSCZFZWJWDWMWLFWNWBWMWCWLAVDUKAVDULLWMWLOHVRVSU
+    MHQRWKVTUNJHUOVGUPHHHVLAVGEZAVFEZFZVPAVGVFAAAUQSAVEAVDURSUSWQTVPFZVPWOTWPVP
+    TWOAUTJWPVFAEVPAVFGAVDVAHLWRVPTFVPTVPOVPVCHHHLVQVGABEZFZVNVPWSVGVOBABVOBIJK
+    QVNWTABVBJHHH $.
     $( [18-Jan-98] $)
 
   $( Lemma for unified implication study. $)
   u3lem13b $p |- ( ( a ->3 b ' ) ->3 a ' ) = ( a ->1 b ) $=
-    ( wn wi3 wa wo wi1 df-i3 u3lemnana ax-a1 ax-r1 lan u3lemnaa ax-r2 2or
-    comanr1 comcom3 comorr com2an fh4r coman1 coman2 comcom7 com2or fh3r ax-a2
-    lea leo letr df-le2 2an id u3lemnona comi31 fh2 wf u3lemana anandi u3lemaa
-    u3lemanb an4 ancom dff an0 or0 comcom comanr2 comcom2 comorr2 wt lel2or
-    anor3 anor2 oran3 lor df-t an1 df-i1 ud1lem0a ) ABCZDZACZDWACZWBEZWCWBCZEZF
-    ZWAWCWBFZEZFZABGZWAWBHWJWBAVTCZEZFZAVTFZAWLFZEZEZWBVTEZWBWLEZFZFZWKWGWRWIXA
-    WGWBWQEZWMFZWRWDXCWFWMAVTIWFWCAEWMWEAWCAWEAJKLAVTMNOXDWNWQWMFZEZWRWBWMWQAWM
-    AWLPQZAWQAWOWPAVTRAWLRSZQTXFWNWOWMFZWPWMFZEZEZWRXEXKWNWMWOWPWMAVTAWLUAZWMVT
-    AWLUBZUCUDWMAWLXMXNUDUELXLWRWRXKWQWNXKWQWQXIWOXJWPXIWMWOFWOWOWMUFWMWOWMAWOA
-    WLUGZAVTUHUIUJNXJWMWPFWPWPWMUFWMWPWMAWPXOAWLUHUIUJNUKWQULNLWRULNNNNWIWAWNEZ
-    XAWHWNWAAVTUMLXPWAWBEZWAWMEZFZXAWBWAWMAWAAVTUNQXGUOXSXAUPFXAXQXAXRUPAVTUQXR
-    WAAEZWAWLEZEZUPWAAWLURYBAWBVTFZEZWTEZUPXTYDYAWTAVTUSAVTUTUKYEAWBEZYCWLEZEZU
-    PAYCWBWLVAYHYGYFEZUPYFYGVBYIYGUPEUPYFUPYGUPYFAVCKLYGVDNNNNNOXAVENNNOXBWNXAF
-    ZWQXAFZEZWKWNXAWQXAWNXAWBWMWBXAWBWSWTWBVTPWBWLPUDVFZXAAWLXAAYMUCWLXAWLWSWTV
-    TWSWBVTVGQWBWLVGUDVFSUDVFWQWNWQWBWMWQAAWQXHVFZVHWQAWLYNWLWQWLWOWPVTWOAVTVIQ
-    AWLVISVFSUDVFTYLWNVJEZWKYJWNYKVJYJXAWNFZWNWNXAUFYPWNWNXAWNXAWBWNWSWBWTWBVTU
-    GWBWLUGVKWBWMUHUIUJWNULNNYKWQWQCZFZVJXAYQWQXAWTWSFZYQWSWTUFYSWOCZWPCZFYQWTY
-    TWSUUAAVTVLAVTVMOWOWPVNNNVOVJYRWQVPKNUKYOWNWKWNVQWNAWLGZWKUUBWNAWLVRKWLBABW
-    LBJKVSNNNNNN $.
+    ( wn wa wo ax-r1 lan ax-r2 2or comanr1 comcom3 com2an com2or ax-a2 lea letr
+    leo wf comcom wt wi3 wi1 df-i3 u3lemnana u3lemnaa comorr fh4r coman1 coman2
+    ax-a1 comcom7 fh3r df-le2 2an u3lemnona comi31 fh2 u3lemana anandi u3lemanb
+    id u3lemaa an4 ancom dff an0 or0 comanr2 comcom2 comorr2 lel2or anor3 anor2
+    oran3 lor df-t an1 df-i1 ud1lem0a ) ABCZUAZACZUAWACZWBDZWCWBCZDZEZWAWCWBEZD
+    ZEZABUBZWAWBUCWJWBAVTCZDZEZAVTEZAWLEZDZDZWBVTDZWBWLDZEZEZWKWGWRWIXAWGWBWQDZ
+    WMEZWRWDXCWFWMAVTUDWFWCADWMWEAWCAWEAUJFGAVTUEHIXDWNWQWMEZDZWRWBWMWQAWMAWLJK
+    ZAWQAWOWPAVTUFAWLUFLZKUGXFWNWOWMEZWPWMEZDZDZWRXEXKWNWMWOWPWMAVTAWLUHZWMVTAW
+    LUIZUKMWMAWLXMXNMULGXLWRWRXKWQWNXKWQWQXIWOXJWPXIWMWOEWOWOWMNWMWOWMAWOAWLOZA
+    VTQPUMHXJWMWPEWPWPWMNWMWPWMAWPXOAWLQPUMHUNWQVAHGWRVAHHHHWIWAWNDZXAWHWNWAAVT
+    UOGXPWAWBDZWAWMDZEZXAWBWAWMAWAAVTUPKXGUQXSXAREXAXQXAXRRAVTURXRWAADZWAWLDZDZ
+    RWAAWLUSYBAWBVTEZDZWTDZRXTYDYAWTAVTVBAVTUTUNYEAWBDZYCWLDZDZRAYCWBWLVCYHYGYF
+    DZRYFYGVDYIYGRDRYFRYGRYFAVEFGYGVFHHHHHIXAVGHHHIXBWNXAEZWQXAEZDZWKWNXAWQXAWN
+    XAWBWMWBXAWBWSWTWBVTJWBWLJMSZXAAWLXAAYMUKWLXAWLWSWTVTWSWBVTVHKWBWLVHMSLMSWQ
+    WNWQWBWMWQAAWQXHSZVIWQAWLYNWLWQWLWOWPVTWOAVTVJKAWLVJLSLMSUGYLWNTDZWKYJWNYKT
+    YJXAWNEZWNWNXANYPWNWNXAWNXAWBWNWSWBWTWBVTOWBWLOVKWBWMQPUMWNVAHHYKWQWQCZEZTX
+    AYQWQXAWTWSEZYQWSWTNYSWOCZWPCZEYQWTYTWSUUAAVTVLAVTVMIWOWPVNHHVOTYRWQVPFHUNY
+    OWNWKWNVQWNAWLUBZWKUUBWNAWLVRFWLBABWLBUJFVSHHHHHH $.
     $( [19-Jan-98] $)
 
   $( Lemma for unified implication study. $)
   u3lem14a $p |- ( a ->3 ( ( b ->3 a ' ) ->3 b ' ) ) =
           ( a ->3 ( b ->3 a ) ) $=
-    ( wn wi3 wi1 u3lem13b ud3lem0a wa wo df-i3 ancom u1lemanb ax-r2 u1lemnanb
-    2or ax-a2 wt u1lemonb lan an1 u3lem3 ax-r1 id ) ABACZDBCZDZDABAEZDZABADDZUF
-    UGABAFGUHUDUGHZUDUGCZHZIZAUDUGIZHZIZUIAUGJUPUDBHZUDUEHZIZAIZUIUMUSUOAUMUEUD
-    HZBUDHZIZUSUJVAULVBUJUGUDHVAUDUGKBALMULUKUDHVBUDUKKBANMOVCVBVAIUSVAVBPVBUQV
-    AURBUDKUEUDKOMMUOAQHAUNQAUNUGUDIQUDUGPBARMSATMOUTAUSIZUIUSAPVDUIUIUIVDABUAU
-    BUIUCMMMMM $.
+    ( wn wi3 u3lem13b ud3lem0a wa wo df-i3 ancom u1lemanb ax-r2 u1lemnanb ax-a2
+    wi1 2or wt u1lemonb lan an1 u3lem3 ax-r1 id ) ABACZDBCZDZDABAOZDZABADDZUFUG
+    ABAEFUHUDUGGZUDUGCZGZHZAUDUGHZGZHZUIAUGIUPUDBGZUDUEGZHZAHZUIUMUSUOAUMUEUDGZ
+    BUDGZHZUSUJVAULVBUJUGUDGVAUDUGJBAKLULUKUDGVBUDUKJBAMLPVCVBVAHUSVAVBNVBUQVAU
+    RBUDJUEUDJPLLUOAQGAUNQAUNUGUDHQUDUGNBARLSATLPUTAUSHZUIUSANVDUIUIUIVDABUAUBU
+    IUCLLLLL $.
     $( [19-Jan-98] $)
 
   $( Used to prove ` ->1 ` "add antecedent" rule in ` ->3 ` system. $)
@@ -6526,34 +6485,33 @@ $)
 
   $( Used to prove ` ->1 ` modus ponens rule in ` ->3 ` system. $)
   u3lem14mp $p |- ( ( a ->3 b ' ) ' ->3 ( a ->3 ( a ->3 b ) ) ) = 1 $=
-    ( wn wi3 wo wa lear ax-a1 ax-r1 lbtr lelor letr ud3lem0c u3lem5 le3tr1
-    u3lemle1 ) ABCZDCZAABDDZAQCZEAQEFZACZATFZEZFZUBBEZRSUEUDUFUAUDGUCBUBUCTBATG
-    BTBHIJKLAQMABNOP $.
+    ( wn wo wa lear ax-a1 ax-r1 lbtr lelor letr ud3lem0c u3lem5 le3tr1 u3lemle1
+    wi3 ) ABCZPCZAABPPZAQCZDAQDEZACZATEZDZEZUBBDZRSUEUDUFUAUDFUCBUBUCTBATFBTBGH
+    IJKAQLABMNO $.
     $( [19-Jan-98] $)
 
   $( Lemma for Kalmbach implication. $)
   u3lem15 $p |- ( ( a ->3 b ) ^ ( a v b ) )
                  = ( ( a ' v b ) ^ ( a v ( a ' ^ b ) ) ) $=
-    ( wi3 wo wa wn dfi3b ran anass comor1 comcom2 comor2 com2an com2or leao4
-    lecom comcom fh1r wf anabs oran lan dff ax-r1 ax-r2 2or or0 3tr df2le2 ) AB
-    CZABDZEAFZBDZAULBFZEZDZULBEZDZEZUKEUMURUKEZEUMAUQDZEUJUSUKABGHUMURUKIUTVAUM
-    UTUPUKEZUQUKEZDVAUKUPUQUKAUOABJZUKULUNUKAVDKUKBABLKMZNUQUKUQUKBULAOZPQRVBAV
-    CUQVBAUKEZUOUKEZDASDAUKAUOVDVERVGAVHSABTVHUOUOFZEZSUKVIUOABUAUBSVJUOUCUDUEU
-    FAUGUHUQUKVFUIUFUEUBUH $.
+    ( wi3 wo wa wn dfi3b ran anass comor1 comcom2 comor2 com2an com2or fh1r lan
+    wf ax-r2 2or 3tr leao4 lecom comcom anabs oran dff ax-r1 or0 df2le2 ) ABCZA
+    BDZEAFZBDZAULBFZEZDZULBEZDZEZUKEUMURUKEZEUMAUQDZEUJUSUKABGHUMURUKIUTVAUMUTU
+    PUKEZUQUKEZDVAUKUPUQUKAUOABJZUKULUNUKAVDKUKBABLKMZNUQUKUQUKBULAUAZUBUCOVBAV
+    CUQVBAUKEZUOUKEZDAQDAUKAUOVDVEOVGAVHQABUDVHUOUOFZEZQUKVIUOABUEPQVJUOUFUGRSA
+    UHTUQUKVFUISRPT $.
     $( [7-Aug-01] $)
 
   $( Possible axiom for Kalmbach implication system. $)
   u3lemax4 $p |- ( ( a ->3 b ) ->3 ( ( a ->3 b ) ->3 ( ( b ->3 a )
       ->3 ( ( b ->3 a )
      ->3 ( ( c ->3 ( c ->3 a ) ) ->3 ( c ->3 ( c ->3 b ) ) ) ) ) ) ) = 1 $=
-    ( wi3 wn wo wt lem4 2i3 lor ax-r2 tb wa oran3 u3lembi ax-r4 ax-r5 ax-a3
-    le1 ska4 ax-r1 conb ancom anor1 2bi 2or lea bltr lelor lebi 3tr2 ) ABDZULBA
-    DZUMCCADDZCCBDDZDZDDZDDULEZUQFZGULUQHUSURUMEZCEZAFZVABFZDZFZFZGUQVEURUQUTUP
-    FVEUMUPHUPVDUTUNVBUOVCCAHCBHIJKJURUTFZVDFABLZEZVDFZVFGVGVIVDVGULUMMZEVIULUM
-    NVKVHABOPKQURUTVDRVJGVJSGVIVBVCLZFZVJGAEZBEZLZEZVNCMZVOCMZLZFZVMWAGVNVOCTUA
-    VMWAVIVQVLVTVHVPABUBPVLVBEZVCEZLZVTVBVCUBVTWDVRWBVSWCVRCVNMWBVNCUCCAUDKVSCV
-    OMWCVOCUCCBUDKUEUAKUFUAKVLVDVIVLVDVCVBDZMZVDWFVLVBVCOUAVDWEUGUHUIUHUJUKKK
-    $.
+    ( wi3 wn wo wt lem4 2i3 lor ax-r2 tb wa u3lembi ax-r4 ax-r1 conb ancom bltr
+    anor1 oran3 ax-r5 ax-a3 le1 ska4 2bi 2or lea lelor lebi 3tr2 ) ABDZULBADZUM
+    CCADDZCCBDDZDZDDZDDULEZUQFZGULUQHUSURUMEZCEZAFZVABFZDZFZFZGUQVEURUQUTUPFVEU
+    MUPHUPVDUTUNVBUOVCCAHCBHIJKJURUTFZVDFABLZEZVDFZVFGVGVIVDVGULUMMZEVIULUMUAVK
+    VHABNOKUBURUTVDUCVJGVJUDGVIVBVCLZFZVJGAEZBEZLZEZVNCMZVOCMZLZFZVMWAGVNVOCUEP
+    VMWAVIVQVLVTVHVPABQOVLVBEZVCEZLZVTVBVCQVTWDVRWBVSWCVRCVNMWBVNCRCATKVSCVOMWC
+    VOCRCBTKUFPKUGPKVLVDVIVLVDVCVBDZMZVDWFVLVBVCNPVDWEUHSUISUJUKKK $.
     $( [21-Jan-98] $)
 
 
@@ -6563,51 +6521,51 @@ $)
       ->3 ( ( b ->3 c ) ->3 ( ( b ->3 c )
       ->3 ( ( c ->3 b ) ->3 ( ( c ->3 b )
       ->3 ( a ->3 c ) ) ) ) ) ) ) ) ) = 1 $=
-    ( wi3 wn wo wt lem4 tb lor ax-a3 ax-r1 wa oran3 u3lembi ax-r4 ax-r2 ax-r5
-    le1 ska2 lea bltr lelor lebi ) ABDZUEBADZUFBCDZUGCBDZUHACDZDDZDDZDDZDDUEEZU
-    LFZGUEULHUNUMUFEZBCIZEZUIFZFZFZGULUSUMULUOUKFUSUFUKHUKURUOUKUGEZUJFZURUGUJH
-    VBVAUHEZUIFZFZURUJVDVAUHUIHJVEVAVCFZUIFZURVGVEVAVCUIKLVFUQUIVFUGUHMZEUQUGUH
-    NVHUPBCOPQRQQQJQJUTUMUOFZURFZGVJUTUMUOURKLVJABIZEZURFZGVIVLURVIUEUFMZEVLUEU
-    FNVNVKABOPQRVMGVMSGVLUQACIZFZFZVMVQGABCTLVPURVLVOUIUQVOUICADZMZUIVSVOACOLUI
-    VRUAUBUCUCUBUDQQQQ $.
+    ( wi3 wn wo wt lem4 tb lor ax-a3 ax-r1 oran3 u3lembi ax-r4 ax-r2 ax-r5 bltr
+    wa lelor le1 ska2 lea lebi ) ABDZUEBADZUFBCDZUGCBDZUHACDZDDZDDZDDZDDUEEZULF
+    ZGUEULHUNUMUFEZBCIZEZUIFZFZFZGULUSUMULUOUKFUSUFUKHUKURUOUKUGEZUJFZURUGUJHVB
+    VAUHEZUIFZFZURUJVDVAUHUIHJVEVAVCFZUIFZURVGVEVAVCUIKLVFUQUIVFUGUHSZEUQUGUHMV
+    HUPBCNOPQPPPJPJUTUMUOFZURFZGVJUTUMUOURKLVJABIZEZURFZGVIVLURVIUEUFSZEVLUEUFM
+    VNVKABNOPQVMGVMUAGVLUQACIZFZFZVMVQGABCUBLVPURVLVOUIUQVOUICADZSZUIVSVOACNLUI
+    VRUCRTTRUDPPPP $.
     $( [23-Jan-98] $)
 
   $( Equivalence to biconditional. $)
   bi1o1a $p |- ( a == b ) =
                  ( ( a ->1 ( a ^ b ) ) ^ ( ( a v b ) ->1 a ) ) $=
-    ( wn wa wo tb wi1 lea leo letr lecom comcom comor1 comcom7 fh1 ax-r1 dfb
-    ax-a2 leid ler2an lear lebi wf dff ancom ax-r2 ax-r5 df2le2 or0r comid
-    comcom2 comanr1 fh1r 3tr1 2or 3tr df-i1 lor anor3 2an ) ACZABDZEZVABCZDZDZV
-    CADZEZVCVEAEZDZABFZAVBGZABEZAGZDVJVHVCVEAVEVCVEVCVEVAVCVAVDHVAVBIJZKLVCAVAV
-    BMNOPVKVBVEEVEVBEVHABQVBVERVEVFVBVGVEVFVEVCVEVOVESTVCVEUAUBUCVBADZEZVAADZVP
-    EVBVGUCVRVPUCAVADVRAUDAVAUEUFUGVBVPVQVPVBVBAABHZUHPVQVPVPUIPUFAVAVBAAAUJUKA
-    BULUMUNUOUPVLVCVNVIVLVAAVBDZEVCAVBUQVTVBVAVTVBAVBUAVBAVBVSVBSTUBURUFVNVMCZV
-    MADZEVIVMAUQWAVEWBAVEWAABUSPWBAVMAUAAVMAABIASTUBUOUFUTUN $.
+    ( wn wa wo tb wi1 lea leo letr ax-r1 leid ler2an lear lebi ax-r2 3tr1 df-i1
+    wf 2or lecom comcom comor1 comcom7 fh1 dfb ax-a2 dff ancom ax-r5 or0r comid
+    df2le2 comcom2 comanr1 fh1r 3tr lor anor3 2an ) ACZABDZEZVABCZDZDZVCADZEZVC
+    VEAEZDZABFZAVBGZABEZAGZDVJVHVCVEAVEVCVEVCVEVAVCVAVDHVAVBIJZUAUBVCAVAVBUCUDU
+    EKVKVBVEEVEVBEVHABUFVBVEUGVEVFVBVGVEVFVEVCVEVOVELMVCVENOSVBADZEZVAADZVPEVBV
+    GSVRVPSAVADVRAUHAVAUIPUJVBVPVQVPVBVBAABHZUMKVQVPVPUKKPAVAVBAAAULUNABUOUPQTU
+    QVLVCVNVIVLVAAVBDZEVCAVBRVTVBVAVTVBAVBNVBAVBVSVBLMOURPVNVMCZVMADZEVIVMARWAV
+    EWBAVEWAABUSKWBAVMANAVMAABIALMOTPUTQ $.
     $( [5-Jul-00] $)
 
   $( Equivalence to biconditional. $)
   biao $p |- ( a == b ) = ( ( a ^ b ) == ( a v b ) ) $=
-    ( wa wn wo tb leao1 df2le2 ax-r1 anor3 lecon oridm df-le1 ler2an lear
-    df-le2 lebi ax-r2 2or dfb 3tr1 ) ABCZADBDCZEUBABEZCZUBDZUDDZCZEABFUBUDFUBUE
-    UCUHUEUBUBUDABBGZHIUCUGUHABJUGUHUGUFUGUBUDUIKUGUGUGLMNUHUGUHUGUFUGOPMQRSABT
-    UBUDTUA $.
+    ( wa wn wo tb leao1 df2le2 ax-r1 anor3 lecon df-le1 ler2an lear df-le2 lebi
+    oridm ax-r2 2or dfb 3tr1 ) ABCZADBDCZEUBABEZCZUBDZUDDZCZEABFUBUDFUBUEUCUHUE
+    UBUBUDABBGZHIUCUGUHABJUGUHUGUFUGUBUDUIKUGUGUGQLMUHUGUHUGUFUGNOLPRSABTUBUDTU
+    A $.
     $( [8-Jul-00] $)
 
   $( Equivalence to ` ->2 ` . $)
   i2i1i1 $p |- ( a ->2 b ) =
                ( ( a ->1 ( a v b ) ) ^ ( ( a v b ) ->1 b ) ) $=
-    ( wn wa wo wt wi2 wi1 an1r ax-r1 df-i2 anabs lor ax-a2 ax-r2 df-i1 df-t
-    3tr1 anor3 leor leid ler2an lear lebi 2or 3tr 2an ) BACZBCDZEZFUJDZABGAABEZ
-    HZULBHZDUKUJUJIJABKUMFUNUJUHAULDZEZAUHEZUMFUPUHAEUQUOAUHABLMUHANOAULPAQRUNU
-    LCZULBDZEZUIBEZUJULBPVAUTUIURBUSABSBUSBULBBATBUAUBULBUCUDUEJUIBNUFUGR $.
+    ( wn wa wo wi2 wi1 an1r ax-r1 df-i2 anabs ax-a2 ax-r2 df-i1 df-t 3tr1 anor3
+    wt lor leor leid ler2an lear lebi 2or 3tr 2an ) BACZBCDZEZRUJDZABFAABEZGZUL
+    BGZDUKUJUJHIABJUMRUNUJUHAULDZEZAUHEZUMRUPUHAEUQUOAUHABKSUHALMAULNAOPUNULCZU
+    LBDZEZUIBEZUJULBNVAUTUIURBUSABQBUSBULBBATBUAUBULBUCUDUEIUIBLUFUGP $.
     $( [5-Jul-00] $)
 
   $( An absorption law for ` ->1 ` . $)
   i1abs $p |- ( ( a ->1 b ) ' v ( a ^ b ) ) = a $=
-    ( wi1 wn wa wo ud1lem0c ax-r5 comanr1 comorr comcom6 fh4r wt orabs df-a
-    lor df-t ax-r1 ax-r2 2an an1 3tr ) ABCDZABEZFAADZBDZFZEZUDFAUDFZUGUDFZEZAUC
-    UHUDABGHAUDUGABIAUGUEUFJKLUKAMEAUIAUJMABNUJUGUGDZFZMUDULUGABOPMUMUGQRSTAUAS
-    UB $.
+    ( wi1 wn wa wo ud1lem0c ax-r5 comanr1 comorr comcom6 fh4r wt orabs df-a lor
+    df-t ax-r1 ax-r2 2an an1 3tr ) ABCDZABEZFAADZBDZFZEZUDFAUDFZUGUDFZEZAUCUHUD
+    ABGHAUDUGABIAUGUEUFJKLUKAMEAUIAUJMABNUJUGUGDZFZMUDULUGABOPMUMUGQRSTAUASUB
+    $.
     $( [21-Feb-02] $)
 
   $( Part of an attempt to crack a potential Kalmbach axiom. $)
@@ -6615,29 +6573,28 @@ $)
              v ( ( c ' ^ ( a ^ b ) ) v ( c ^ ( c ' v ( a ^ b ) ) ) ) )
             = ( ( c v ( a ^ b ) ) ^ ( c ' v ( a ^
                                                    b ) ) ) $=
-    ( wn wo wa oran3 lor ran ax-r5 comor1 comcom2 comor2 comcom7 com2an com2or
-    fh4r wt ax-a3 ax-r1 ax-a2 anor2 df-t ax-r2 or1 leor lelan df-le2 coman1
-    comcom fh3 oml or12 orabs 2an ancom an1 ) CADBDEZEZCDZCABFZEZFZFZUTVAFZCUTV
-    AEZFZEZECVADZEZVCFZVHEZVBVFFZVDVKVHUSVJVCURVICABGHIJVLVJVHEZVCVHEZFZVMVJVHV
-    CVJVEVGVJUTVAVJCCVIKZLZVJVACVIMNZOVJCVFVQVJUTVAVRVSPOPVJUTVBVRVJCVAVQVSPOQV
-    PRVMFZVMVNRVOVMVNVJVEEZVGEZRWBVNVJVEVGSTWBVGWAEZRWAVGUAWCVGRERWARVGWAVJVJDZ
-    EZRVEWDVJCVAUBHRWEVJUCTUDHVGUEUDUDUDVOVCVEEZVGEZVMWGVOVCVEVGSTWGVCVGEZVMWFV
-    CVGWFVEVCEVCVCVEUAVEVCVAVBUTVACUFUGUHUDJWHVCCEZVCVFEZFVMVCCVFVCCUTVBUINVFVC
-    VFUTVBUTVAKZVFCVAVFCWKNUTVAMPOUJUKWIVBWJVFWICVCEVBVCCUACVAULUDWJUTVCVAEEZVF
-    VCUTVAUMWLUTVCEZVAEZVFWNWLUTVCVASTWMUTVAUTVBUNJUDUDUOUDUDUDUOVTVMRFVMRVMUPV
-    MUQUDUDUDUD $.
+    ( wn wo wa oran3 lor ax-r5 comor1 comor2 com2an com2or wt ax-a3 ax-r1 ax-a2
+    comcom7 ax-r2 2an ran comcom2 fh4r anor2 df-t or1 leor df-le2 coman1 comcom
+    lelan fh3 oml or12 orabs ancom an1 ) CADBDEZEZCDZCABFZEZFZFZUTVAFZCUTVAEZFZ
+    EZECVADZEZVCFZVHEZVBVFFZVDVKVHUSVJVCURVICABGHUAIVLVJVHEZVCVHEZFZVMVJVHVCVJV
+    EVGVJUTVAVJCCVIJZUBZVJVACVIKRZLVJCVFVQVJUTVAVRVSMLMVJUTVBVRVJCVAVQVSMLUCVPN
+    VMFZVMVNNVOVMVNVJVEEZVGEZNWBVNVJVEVGOPWBVGWAEZNWAVGQWCVGNENWANVGWAVJVJDZEZN
+    VEWDVJCVAUDHNWEVJUEPSHVGUFSSSVOVCVEEZVGEZVMWGVOVCVEVGOPWGVCVGEZVMWFVCVGWFVE
+    VCEVCVCVEQVEVCVAVBUTVACUGUKUHSIWHVCCEZVCVFEZFVMVCCVFVCCUTVBUIRVFVCVFUTVBUTV
+    AJZVFCVAVFCWKRUTVAKMLUJULWIVBWJVFWICVCEVBVCCQCVAUMSWJUTVCVAEEZVFVCUTVAUNWLU
+    TVCEZVAEZVFWNWLUTVCVAOPWMUTVAUTVBUOISSTSSSTVTVMNFVMNVMUPVMUQSSSS $.
     $( [29-Dec-97] $)
 
   $( Part of an attempt to crack a potential Kalmbach axiom. $)
   test2 $p |- ( a v b ) =<
            ( ( a == b ) ' v ( ( c v ( a ^ b ) ) ^ ( c ' v ( a ^
                                                    b ) ) ) ) $=
-    ( wo tb wn wa dfnb anidm 2or comor1 comor2 com2an comcom2 com2or fh4r wt
-    ax-a2 lea leo letr df-le2 ax-r2 df-a lor df-t ax-r1 2an an1 leor le2an
-    lelor bltr ) ABDZABEFZABGZUPGZDZUOCUPDZCFZUPDZGZDURUNURUNAFZBFZDZGZUPDZUNUO
-    VFUQUPABHUPIJVGUNUPDZVEUPDZGZUNUNUPVEUNABABKZABLZMUNVCVDUNAVKNUNBVLNOPVJUNQ
-    GUNVHUNVIQVHUPUNDUNUNUPRUPUNUPAUNABSABTUAUBUCVIVEVEFZDZQUPVMVEABUDUEQVNVEUF
-    UGUCUHUNUIUCUCUCUGUQVBUOUPUSUPVAUPCUJUPUTUJUKULUM $.
+    ( wo tb wn wa dfnb anidm 2or comor1 comor2 com2an comcom2 com2or fh4r ax-r2
+    wt ax-r1 leor ax-a2 lea leo letr df-le2 df-a lor df-t 2an le2an lelor bltr
+    an1 ) ABDZABEFZABGZUPGZDZUOCUPDZCFZUPDZGZDURUNURUNAFZBFZDZGZUPDZUNUOVFUQUPA
+    BHUPIJVGUNUPDZVEUPDZGZUNUNUPVEUNABABKZABLZMUNVCVDUNAVKNUNBVLNOPVJUNRGUNVHUN
+    VIRVHUPUNDUNUNUPUAUPUNUPAUNABUBABUCUDUEQVIVEVEFZDZRUPVMVEABUFUGRVNVEUHSQUIU
+    NUMQQQSUQVBUOUPUSUPVAUPCTUPUTTUJUKUL $.
     $( [29-Dec-97] $)
 
 
@@ -6649,10 +6606,10 @@ $)
 
   $( A 3-variable theorem.  Equivalent to OML. $)
   3vth1 $p |- ( ( a ->2 b ) ^ ( b v c ) ' ) =< ( a ->2 c ) $=
-    ( wn wa wo wi2 anor3 lan ax-r1 anass ax-r2 ancom omlan lear bltr leran
-    leor letr df-i2 lor ran le3tr1 ) BBDZADZEZFZBCFDZEZCUECDZEZFZABGZUHEACGUIUK
-    ULUIUGUDEZUJEZUKUIUGUDUJEZEZUOUQUIUPUHUGBCHIJUOUQUGUDUJKJLUNUEUJUNUFUEUNUDU
-    GEUFUGUDMBUENLUDUEOPQPUKCRSUMUGUHUMBUEUDEZFUGABTURUFBUEUDMUALUBACTUC $.
+    ( wn wa wo wi2 anor3 lan ax-r1 anass ax-r2 ancom omlan lear bltr leran leor
+    letr df-i2 lor ran le3tr1 ) BBDZADZEZFZBCFDZEZCUECDZEZFZABGZUHEACGUIUKULUIU
+    GUDEZUJEZUKUIUGUDUJEZEZUOUQUIUPUHUGBCHIJUOUQUGUDUJKJLUNUEUJUNUFUEUNUDUGEUFU
+    GUDMBUENLUDUEOPQPUKCRSUMUGUHUMBUEUDEZFUGABTURUFBUEUDMUALUBACTUC $.
     $( [18-Oct-98] $)
 
   $( A 3-variable theorem.  Equivalent to OML. $)
@@ -6678,36 +6635,36 @@ $)
   $( A 3-variable theorem. $)
   3vth5 $p |- ( ( a ->2 b ) ' ->2 ( b v c ) ) =
             ( c v ( ( a ->2 b ) ^ ( c ->2 b ) ) ) $=
-    ( wo wn wa wi2 ax-a3 or12 comorr comcom2 fh3 ax-r1 oridm ax-r5 ax-r2 ancom
-    anor3 lor 2an df-i2 ax-a1 ran 3tr1 ) BCDZBAEBEZFZDZUEEZFZDZCUHBCEZUFFZDZFZD
-    ZABGZEZUEGZCUQCBGZFZDUKBCUJDDZUPBCUJHVBCBUJDZDUPBCUJIVCUOCVCBUHDZBUIDZFUOBU
-    HUIBUGJBUEBCJKLVDUHVEUNVDBBDZUGDZUHVGVDBBUGHMVFBUGBNOPUIUMBUMUIUMUFULFUIULU
-    FQBCRPMSTPSPPUSUEUREZUIFZDZUKURUEUAUKVJUJVIUEUHVHUIUHUQVHUQUHABUAZMUQUBPUCS
-    MPVAUOCUQUHUTUNVKCBUATSUD $.
+    ( wo wn wi2 ax-a3 or12 comorr comcom2 fh3 ax-r1 oridm ax-r5 ax-r2 ancom lor
+    wa 2an df-i2 anor3 ax-a1 ran 3tr1 ) BCDZBAEBEZRZDZUEEZRZDZCUHBCEZUFRZDZRZDZ
+    ABFZEZUEFZCUQCBFZRZDUKBCUJDDZUPBCUJGVBCBUJDZDUPBCUJHVCUOCVCBUHDZBUIDZRUOBUH
+    UIBUGIBUEBCIJKVDUHVEUNVDBBDZUGDZUHVGVDBBUGGLVFBUGBMNOUIUMBUMUIUMUFULRUIULUF
+    PBCUAOLQSOQOOUSUEUREZUIRZDZUKURUETUKVJUJVIUEUHVHUIUHUQVHUQUHABTZLUQUBOUCQLO
+    VAUOCUQUHUTUNVKCBTSQUD $.
     $( [18-Oct-98] $)
 
   $( A 3-variable theorem. $)
   3vth6 $p |- ( ( a ->2 b ) ' ->2 ( b v c ) ) =
             ( ( ( a ->2 b ) ^ ( c ->2 b ) ) v
               ( ( a ->2 c ) ^ ( b ->2 c ) ) ) $=
-    ( wi2 wn wo wa oridm ax-r1 3vth4 lor 3vth5 ax-a2 ud2lem0a ax-r2 2or or4
-    ax-r5 leo df-i2 lbtr ler2an df-le2 ) ABDZEBCFZDZUFUFFZUDCBDZGZACDZBCDZGZFZU
-    GUFUFHIUGUFUJEZUEDZFZUMUFUOUFABCJKUPCUIFZBULFZFZUMUFUQUOURABCLUOUNCBFZDURUE
-    UTUNBCMNACBLOPUSUTUMFZUMCUIBULQVAUEUMFZUMUTUEUMCBMRVBBUIFZCULFZFUMBCUIULQVC
-    UIVDULBUIBUDUHBBAEZBEZGZFZUDBVGSUDVHABTIUABBCEZVFGZFZUHBVJSUHVKCBTIUAUBUCCU
-    LCUJUKCCVEVIGZFZUJCVLSUJVMACTIUACCVFVIGZFZUKCVNSUKVOBCTIUAUBUCPOOOOOO $.
+    ( wi2 wn wo wa oridm ax-r1 3vth4 3vth5 ax-a2 ax-r2 2or or4 leo df-i2 ler2an
+    lbtr df-le2 lor ud2lem0a ax-r5 ) ABDZEBCFZDZUFUFFZUDCBDZGZACDZBCDZGZFZUGUFU
+    FHIUGUFUJEZUEDZFZUMUFUOUFABCJUAUPCUIFZBULFZFZUMUFUQUOURABCKUOUNCBFZDURUEUTU
+    NBCLUBACBKMNUSUTUMFZUMCUIBULOVAUEUMFZUMUTUEUMCBLUCVBBUIFZCULFZFUMBCUIULOVCU
+    IVDULBUIBUDUHBBAEZBEZGZFZUDBVGPUDVHABQISBBCEZVFGZFZUHBVJPUHVKCBQISRTCULCUJU
+    KCCVEVIGZFZUJCVLPUJVMACQISCCVFVIGZFZUKCVNPUKVOBCQISRTNMMMMMM $.
     $( [18-Oct-98] $)
 
 
   $( A 3-variable theorem. $)
   3vth7 $p |- ( ( a ->2 b ) ' ->2 ( b v c ) ) =
                 ( a ->2 ( b v c ) ) $=
-    ( wi2 wa wo wn df-i2 2an anass ax-r1 anor3 lan an32 3tr2 anidm an4 3tr lor
-    comanr2 comcom6 fh3 ax-r2 3vth5 ax-a3 or12 3tr1 ) CABDZCBDZEZFCBAGZBCFZGZEZ
-    FZFZUHGULDAULDZUJUOCUJBUKBGZEZFZBCGZUREZFZEZUOUHUTUIVCABHCBHIUOVDUOBUSVBEZF
-    VDUNVEBUNUKVAEZUREZVFURUREZEZVEUKURVAEZEZUSVAEZUNVGVLVKUKURVAJKVJUMUKBCLMUK
-    URVANOVIVGVHURVFURPMKUKVAURURQRSBUSVBBUSUKURTUABVBVAURTUAUBUCKUCSABCUDUQULU
-    NFBCUNFFUPAULHBCUNUEBCUNUFRUG $.
+    ( wi2 wa wo wn df-i2 2an anass ax-r1 anor3 lan an32 3tr lor comanr2 comcom6
+    3tr2 ax-r2 anidm an4 fh3 3vth5 ax-a3 or12 3tr1 ) CABDZCBDZEZFCBAGZBCFZGZEZF
+    ZFZUHGULDAULDZUJUOCUJBUKBGZEZFZBCGZUREZFZEZUOUHUTUIVCABHCBHIUOVDUOBUSVBEZFV
+    DUNVEBUNUKVAEZUREZVFURUREZEZVEUKURVAEZEZUSVAEZUNVGVLVKUKURVAJKVJUMUKBCLMUKU
+    RVANSVIVGVHURVFURUAMKUKVAURURUBOPBUSVBBUSUKURQRBVBVAURQRUCTKTPABCUDUQULUNFB
+    CUNFFUPAULHBCUNUEBCUNUFOUG $.
     $( [18-Oct-98] $)
 
   $( A 3-variable theorem. $)
@@ -6721,14 +6678,13 @@ $)
   $( A 3-variable theorem. $)
   3vth9 $p |- ( ( a v b ) ->1 ( c ->2 b ) ) =
                 ( ( b v c ) ->2 ( a ->2 b ) ) $=
-    ( wo wn wi2 wa wi1 anor3 ax-r1 df-i2 lan 2or df-i1 ud2lem0c 2an anandi
-    anass ax-r2 or32 comanr1 comcom6 comorr2 fh3 ancom lor or12 oridm ax-r5
-    ax-a2 3tr1 ) ABDZEZULCBFZGZDAEBEZGZULBCEZUPGZDZGZDZULUNHBCDZABFZFZUMUQUOVAU
-    QUMABIJUNUTULCBKLMULUNNVEBUQDZUPURGZULGZDZVBVEVDVCEZVDEZGZDVIVCVDKVDVFVLVHA
-    BKVLVGUPULGZGZVHVJVGVKVMVGVJBCIJABOPVNUPURULGGZVHVOVNUPURULQJVHVOUPURULRJSS
-    MSVIBVHDZUQDZVBBUQVHTVQVAUQDVBVPVAUQVPBVGDZBULDZGZVABVGULBVGUPURUAUBABUCUDV
-    TUTULGVAVRUTVSULVGUSBUPURUEUFVSABBDZDULBABUGWABABUHUFSPUTULUESSUIVAUQUJSSSU
-    K $.
+    ( wo wn wi2 wa wi1 anor3 ax-r1 df-i2 lan 2or df-i1 ud2lem0c 2an ax-r2 ancom
+    anandi lor anass or32 comanr1 comcom6 comorr2 or12 oridm ax-r5 ax-a2 3tr1
+    fh3 ) ABDZEZULCBFZGZDAEBEZGZULBCEZUPGZDZGZDZULUNHBCDZABFZFZUMUQUOVAUQUMABIJ
+    UNUTULCBKLMULUNNVEBUQDZUPURGZULGZDZVBVEVDVCEZVDEZGZDVIVCVDKVDVFVLVHABKVLVGU
+    PULGZGZVHVJVGVKVMVGVJBCIJABOPVNUPURULGGZVHVOVNUPURULSJVHVOUPURULUAJQQMQVIBV
+    HDZUQDZVBBUQVHUBVQVAUQDVBVPVAUQVPBVGDZBULDZGZVABVGULBVGUPURUCUDABUEUKVTUTUL
+    GVAVRUTVSULVGUSBUPURRTVSABBDZDULBABUFWABABUGTQPUTULRQQUHVAUQUIQQQUJ $.
     $( [16-Nov-98] $)
 
   $( 3-variable commutation theorem. $)
@@ -6742,11 +6698,10 @@ $)
     3vded11.1 $e |- b =< ( c ->1 ( b ->1 a ) ) $.
     $( A 3-variable theorem.  Experiment with weak deduction theorem. $)
     3vded11 $p |- c =< ( b ->1 a ) $=
-      ( wi1 wt le1 wn wa wo df-t ancom anor2 ax-r2 lor ax-r1 ax-a3 3tr leo
-      df-i1 lbtr lelan lelor lel2or bltr lebi u1lemle2 ) CBAEZCUHEZFUIGFBCHZCBH
-      ZIZJZJZUIFBUJJZUOHZJZUOULJZUNUOKURUQULUPUOULUKCIUPCUKLBCMNOPBUJULQRBUIUMD
-      UMUJCUHIZJZUIULUSUJUKUHCUKUKBAIZJZUHUKVASUHVBBATPUAUBUCUIUTCUHTPUAUDUEUFU
-      G $.
+      ( wi1 wt le1 wn wa df-t ancom anor2 ax-r2 lor ax-r1 ax-a3 3tr df-i1 lbtr
+      wo leo lelan lelor lel2or bltr lebi u1lemle2 ) CBAEZCUHEZFUIGFBCHZCBHZIZT
+      ZTZUIFBUJTZUOHZTZUOULTZUNUOJURUQULUPUOULUKCIUPCUKKBCLMNOBUJULPQBUIUMDUMUJ
+      CUHIZTZUIULUSUJUKUHCUKUKBAIZTZUHUKVAUAUHVBBAROSUBUCUIUTCUHROSUDUEUFUG $.
       $( [25-Oct-98] $)
   $}
 
@@ -6777,17 +6732,17 @@ $)
     3vded21.2 $e |- c =< ( a ->0 b ) $.
     $( A 3-variable theorem.  Experiment with weak deduction theorem. $)
     3vded21 $p |- c =< b $=
-      ( wf wo wa wn wi0 df-i0 lbtr wi2 ax-r4 df-i2 anor3 lor ax-r2 2or ax-a2
-      3tr ler2an comor2 leror ax-a3 oridm lecom comcom comcom2 com2or comid
-      fh1 or0 ax-r1 dff ran ancom anabs ax-r5 3tr2 leran com2an fh1r lan an32
-      anass an0 le3tr2 ) CBFGZBCCBGZHBAIZBGZVJIZHZGZVJHZCVICVOVJCVLBVMGZVLIZGZH
-      ZVOCVLVSCABJZVLEABKZLZCWACBMZJZVSDWEWAIZWDGVRVQGVSWAWDKWFVRWDVQWAVLWBNWDB
-      CIBIHZGVQCBOWGVMBCBPQRSVRVQTUALUBVTVLVQHZVLVRHZGZVOVLVQVRVLBVMVKBUCZVLVJV
-      JVLVJVLVJVLBGZVLCVLBWCUDWLVKBBGZGVLVKBBUEWMBVKBUFQRLUGZUHUIZUJVLVLVLUKUIU
-      LVLBHZVNGZFGWQWJVOWQUMWQWHFWIWHWQVLBVMWKWOULUNVLUOSWPBVNWPBVKGZBHBWRHBVLW
-      RBVKBTUPWRBUQBVKURUAUSUTRLVACBURVPBVJHZVNVJHZGVIVJBVNCBUCVJVLVMWNVJVJVJUK
-      UIVBVCWSBWTFWSBBCGZHBVJXABCBTVDBCURRWTVLVJHVMHVLVJVMHZHZFVLVMVJVEVLVJVMVF
-      XCVLFHZFXDXCFXBVLVJUOVDUNVLVGRUASRVHBUML $.
+      ( wf wo wa wn wi0 df-i0 lbtr lor ax-r2 2or ax-a2 3tr comor2 comcom2 anabs
+      wi2 ax-r4 df-i2 anor3 ler2an leror ax-a3 oridm lecom comcom comid fh1 or0
+      com2or ax-r1 dff ran ancom ax-r5 3tr2 leran com2an fh1r an32 anass le3tr2
+      lan an0 ) CBFGZBCCBGZHBAIZBGZVJIZHZGZVJHZCVICVOVJCVLBVMGZVLIZGZHZVOCVLVSC
+      ABJZVLEABKZLZCWACBUAZJZVSDWEWAIZWDGVRVQGVSWAWDKWFVRWDVQWAVLWBUBWDBCIBIHZG
+      VQCBUCWGVMBCBUDMNOVRVQPQLUEVTVLVQHZVLVRHZGZVOVLVQVRVLBVMVKBRZVLVJVJVLVJVL
+      VJVLBGZVLCVLBWCUFWLVKBBGZGVLVKBBUGWMBVKBUHMNLUIZUJSZUNVLVLVLUKSULVLBHZVNG
+      ZFGWQWJVOWQUMWQWHFWIWHWQVLBVMWKWOULUOVLUPOWPBVNWPBVKGZBHBWRHBVLWRBVKBPUQW
+      RBURBVKTQUSUTNLVACBTVPBVJHZVNVJHZGVIVJBVNCBRVJVLVMWNVJVJVJUKSVBVCWSBWTFWS
+      BBCGZHBVJXABCBPVGBCTNWTVLVJHVMHVLVJVMHZHZFVLVMVJVDVLVJVMVEXCVLFHZFXDXCFXB
+      VLVJUPVGUOVLVHNQONVFBUML $.
       $( [31-Oct-98] $)
   $}
 
@@ -6797,14 +6752,13 @@ $)
     3vded22.3 $e |- c =< ( a ->0 b ) $.
     $( A 3-variable theorem.  Experiment with weak deduction theorem. $)
     3vded22 $p |- c =< b $=
-      ( wn wa wo wi0 wi2 wcmtr df-cmtr or4 ax-r2 lear lel2or lecon leran lelor
-      le2or bltr leror letr df-i0 or12 ax-r4 anor1 ax-r1 df-i2 2or oridm 3tr1
-      lbtr 3vded21 ) ABCCBABGZHZCGZUPHZIZIZVAIZABJZCBKZJZCABLZCBLZIVBDVFVAVGVAV
-      FABHZAGZBHZIZUQVIUPHZIZIZVAVFVHUQIVJVLIIVNABMVHUQVJVLNOVKBVMUTVHBVJABPVIB
-      PQVLUSUQVIURUPCAERSTUAUBVGCBHZURBHZIZCUPHZUSIZIZVAVGVOVRIVPUSIIVTCBMVOVRV
-      PUSNOVQBVSUTVOBVPCBPURBPQVRUQUSCAUPESUCUAUBUAUDVEVBVEVCGZVDIZVBVCVDUEUQBU
-      SIZIVAWBVBUQBUSUFWAUQVDWCWAVIBIZGZUQVCWDABUEUGUQWEABUHUIOCBUJUKVAULUMOUIU
-      NFUO $.
+      ( wn wa wo wi0 wcmtr df-cmtr or4 ax-r2 lear lel2or leran le2or bltr df-i0
+      wi2 lecon lelor leror letr or12 ax-r4 anor1 ax-r1 df-i2 2or oridm 3vded21
+      3tr1 lbtr ) ABCCBABGZHZCGZUPHZIZIZVAIZABJZCBUAZJZCABKZCBKZIVBDVFVAVGVAVFA
+      BHZAGZBHZIZUQVIUPHZIZIZVAVFVHUQIVJVLIIVNABLVHUQVJVLMNVKBVMUTVHBVJABOVIBOP
+      VLUSUQVIURUPCAEUBQUCRSVGCBHZURBHZIZCUPHZUSIZIZVAVGVOVRIVPUSIIVTCBLVOVRVPU
+      SMNVQBVSUTVOBVPCBOURBOPVRUQUSCAUPEQUDRSRUEVEVBVEVCGZVDIZVBVCVDTUQBUSIZIVA
+      WBVBUQBUSUFWAUQVDWCWAVIBIZGZUQVCWDABTUGUQWEABUHUINCBUJUKVAULUNNUIUOFUM $.
       $( [31-Oct-98] $)
   $}
 
@@ -6814,13 +6768,13 @@ $)
     3vded3.3 $e |- ( c ->0 ( a ->0 b ) ) = 1 $.
     $( A 3-variable theorem.  Experiment with weak deduction theorem. $)
     3vded3 $p |- ( c ->0 b ) = 1 $=
-      ( wi0 wn wo wt df-i0 ax-a3 wa wcmtr cmtrcom lor 3tr1 ax-r2 i0cmtrcom
-      comcom4 comcom comid comcom3 fh1 ax-r1 lan wf dff ancom or0 3tr2 an1
-      orabs ax-r5 3tr ) CBGCHZBIZCABGZGZJCBKUPAHZIZBIZUPUTBIZIZUQUSUPUTBLVBUQVA
-      UPBVAUPUPUTMZIUPUTVEUPUTJMZUTUPMZUTVEUTUPAIZMVGUTAMZIZVFVGUTUPAUPUTCACACC
-      ANZGZCACNZGZJUPVKIUPVMIVLVNVKVMUPCAOPCVKKCVMKQDRSTUAAAAUBUCUDVHJUTVHCAGZJ
-      VOVHCAKUEERUFVJVGUGIZVGVPVJUGVIVGUGAUTMVIAUHAUTUIRPUEVGUJRUKUTULUTUPUIUKP
-      UPUTUMRUNUEUSUPURIVDCURKURVCUPABKPRQFUO $.
+      ( wi0 wn wo wt df-i0 wa wcmtr lor 3tr1 ax-r2 ax-r1 wf ancom 3tr2 cmtrcom
+      ax-a3 i0cmtrcom comcom4 comid comcom3 fh1 lan dff or0 an1 orabs ax-r5 3tr
+      comcom ) CBGCHZBIZCABGZGZJCBKUPAHZIZBIZUPUTBIZIZUQUSUPUTBUBVBUQVAUPBVAUPU
+      PUTLZIUPUTVEUPUTJLZUTUPLZUTVEUTUPAIZLVGUTALZIZVFVGUTUPAUPUTCACACCAMZGZCAC
+      MZGZJUPVKIUPVMIVLVNVKVMUPCAUANCVKKCVMKODPUCUDUOAAAUEUFUGVHJUTVHCAGZJVOVHC
+      AKQEPUHVJVGRIZVGVPVJRVIVGRAUTLVIAUIAUTSPNQVGUJPTUTUKUTUPSTNUPUTULPUMQUSUP
+      URIVDCURKURVCUPABKNPOFUN $.
       $( [24-Jan-99] $)
   $}
 
@@ -6829,19 +6783,19 @@ $)
   1oa $p |- ( ( a ->2 b ) ^
               ( ( b v c ) ->1 ( ( a ->2 b ) ^ ( a ->2 c ) ) ) )
                =< ( a ->2 c ) $=
-    ( wn wa wo wi2 wi1 lear an12 lerr bltr leid lel2or letr df-i1 lan ax-r1
-    coman1 bctr comcom2 fh2c df-i2 anor3 2an wf comid comcom3 comanr2 fh1r dff
-    anass anidm ax-r2 2or ax-a2 or0 3tr ran 3tr2 lea lecom fh3 coman2 oran
-    cbtr com2an 3tr1 le3tr1 ) ADZBDZCDZEZEZBCFZFZVNBVJVKEZFZFZEZVNCVJVLEZFZFZEZ
-    WBABGZVOWEACGZEZHZEZWFWDWCWBVTWCIVNWBWBVNVKWAEZWBVJVKVLJZWJWACVKWAIKZLWBMNO
-    WIWEVODZVOWGEZFZEWEWMEZWEWNEZFZWDWHWOWEVOWGPQWNWEWMWNWEVOWFEZEZWEWTWNWEVOWF
-    JRWEWSSTWNVOVOWGSUAUBWRVNVOVRWBEZEZFZWDWPVNWQXBWPVRVMEZVNWEVRWMVMABUCZVMWMB
-    CUDRUEVRVKEZVLEVQVLEZXDVNXFVQVLXFBVKEZVQVKEZFUFVQFZVQVKBVQBBBUGUHVJVKUIUJXH
-    UFXIVQUFXHBUKRXIVJVKVKEZEVQVJVKVKULXKVKVJVKUMQUNUOXJVQUFFVQUFVQUPVQUQUNURUS
-    VRVKVLULVJVKVLULZUTUNWQVOWEWGEZEXBWEVOWGJXMXAVOXMWEWEEZWFEZXAXOXMWEWEWFULRX
-    NVRWFWBXNWEVRWEUMXEUNACUCZUEUNQUNUOVPVNXAFZEVPVSWCEZEXCWDXQXRVPVNVRWBVNXGVR
-    XGVNXLRXGVRXGVQBVQVLVAKVBTZVNWJWBWKWJWBWLVBTZVCQVNVOXAVNVMDZVOVNVMVJVMVDUAV
-    OYABCVERVFVNVRWBXSXTVGVCVPVSWCULVHUNURXPVI $.
+    ( wn wa wo wi2 lear an12 lerr lan ax-r1 coman1 bctr comcom2 df-i2 2an anass
+    wf ax-r2 wi1 bltr leid letr df-i1 fh2c anor3 comid comcom3 comanr2 fh1r dff
+    lel2or anidm 2or ax-a2 or0 3tr ran 3tr2 lea lecom fh3 coman2 oran cbtr 3tr1
+    com2an le3tr1 ) ADZBDZCDZEZEZBCFZFZVNBVJVKEZFZFZEZVNCVJVLEZFZFZEZWBABGZVOWE
+    ACGZEZUAZEZWFWDWCWBVTWCHVNWBWBVNVKWAEZWBVJVKVLIZWJWACVKWAHJZUBWBUCUMUDWIWEV
+    ODZVOWGEZFZEWEWMEZWEWNEZFZWDWHWOWEVOWGUEKWNWEWMWNWEVOWFEZEZWEWTWNWEVOWFILWE
+    WSMNWNVOVOWGMOUFWRVNVOVRWBEZEZFZWDWPVNWQXBWPVRVMEZVNWEVRWMVMABPZVMWMBCUGLQV
+    RVKEZVLEVQVLEZXDVNXFVQVLXFBVKEZVQVKEZFSVQFZVQVKBVQBBBUHUIVJVKUJUKXHSXIVQSXH
+    BULLXIVJVKVKEZEVQVJVKVKRXKVKVJVKUNKTUOXJVQSFVQSVQUPVQUQTURUSVRVKVLRVJVKVLRZ
+    UTTWQVOWEWGEZEXBWEVOWGIXMXAVOXMWEWEEZWFEZXAXOXMWEWEWFRLXNVRWFWBXNWEVRWEUNXE
+    TACPZQTKTUOVPVNXAFZEVPVSWCEZEXCWDXQXRVPVNVRWBVNXGVRXGVNXLLXGVRXGVQBVQVLVAJV
+    BNZVNWJWBWKWJWBWLVBNZVCKVNVOXAVNVMDZVOVNVMVJVMVDOVOYABCVELVFVNVRWBXSXTVHVCV
+    PVSWCRVGTURXPVI $.
     $( [1-Nov-98] $)
 
   $( Orthoarguesian-like OM law. $)
@@ -6867,77 +6821,77 @@ $)
   1oaiii $p |- ( ( a ->2 b ) ^
               ( ( b v c ) ->1 ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) =
      ( ( a ->2 c ) ^ ( ( b v c ) ->1 ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) $=
-    ( wi2 wo wa wi1 anass anidm lan ax-r2 ax-r1 1oa leran bltr ancom ud1lem0a
-    ax-a2 ud1lem0b ran lebi ) ABDZBCEZUBACDZFZGZFZUDUFFZUGUGUFFZUHUIUGUIUBUFUFF
-    ZFUGUBUFUFHUJUFUBUFIZJKLUGUDUFABCMNOUHUDCBEZUDUBFZGZFZUFFZUGUPUHUPUDUNUFFZF
-    UHUDUNUFHUQUFUDUQUJUFUNUFUFUNULUEGUFUMUEULUDUBPQULUCUECBRSKTUKKJKLUOUBUFACB
-    MNOUA $.
+    ( wi2 wo wa wi1 anass anidm lan ax-r2 ax-r1 leran bltr ancom ud1lem0a ax-a2
+    1oa ud1lem0b ran lebi ) ABDZBCEZUBACDZFZGZFZUDUFFZUGUGUFFZUHUIUGUIUBUFUFFZF
+    UGUBUFUFHUJUFUBUFIZJKLUGUDUFABCRMNUHUDCBEZUDUBFZGZFZUFFZUGUPUHUPUDUNUFFZFUH
+    UDUNUFHUQUFUDUQUJUFUNUFUFUNULUEGUFUMUEULUDUBOPULUCUECBQSKTUKKJKLUOUBUFACBRM
+    NUA $.
     $( [1-Nov-98] $)
 
   $( OML analog to orthoarguesian law of Godowski/Greechie, Eq.  II with
      ` ->1 ` instead of ` ->0 ` . $)
   1oaii $p |- ( b ' ^ ( ( a ->2 b ) v ( ( a ->2 c ) ^ ( ( b v c )
                 ->1 ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) ) ) =< a ' $=
-    ( wn wi2 wo wa wi1 orabs 1oaiii lor df-i2 ancom ax-r2 3tr2 lan omlan lear
-    bltr ) BDZABEZACEZBCFUAUBGHZGZFZGZTADZGZUGUFTBUHFZGUHUEUITUAUAUCGZFUAUEUIUA
-    UCIUJUDUAABCJKUABUGTGZFUIABLUKUHBUGTMKNOPBUGQNTUGRS $.
+    ( wn wi2 wo wi1 orabs 1oaiii lor df-i2 ancom ax-r2 3tr2 lan omlan lear bltr
+    wa ) BDZABEZACEZBCFUAUBSGZSZFZSZTADZSZUGUFTBUHFZSUHUEUITUAUAUCSZFUAUEUIUAUC
+    HUJUDUAABCIJUABUGTSZFUIABKUKUHBUGTLJMNOBUGPMTUGQR $.
     $( [1-Nov-98] $)
 
   $( Lemma for OA-like stuff with ` ->2 ` instead of ` ->0 ` . $)
   2oalem1 $p |- ( ( a ->2 b ) ' v ( ( b v c ) v ( ( a ->2 b ) ^
          ( a ->2 c ) ) ) ) = 1 $=
-    ( wi2 wn wo wa wt or12 ud2lem0c df-i2 2an 2or lor or32 oml ax-a2 lan 3tr1
-    ax-r5 ax-r2 ax-a3 oran anor3 ax-r1 lear bltr leo letr lecom comcom6 comcom
-    le3tr2 fh3 df-t or1 3tr anidm 3tr2 ) ABDZEZBCFZUTACDZGZFFVBVAVDFZFVBBEZABFZ
-    GZBAEZVFGZFZCVICEZGZFZGZFZFZHVAVBVDIVEVPVBVAVHVDVOABJUTVKVCVNABKACKLMNVBVHF
-    ZVOFVGCFZVOFZVQHVRVSVOVRBVHFZCFVSBCVHOWAVGCBVFBAFZGZFWBWAVGBAPVHWCBVGWBVFAB
-    QZRNWDSTUATVBVHVOUBVTVSVKFZVSVNFZGHHGHVSVKVNVKVSVKVSVKEZVSWGVGVSWGVHVGVHWGV
-    HVFVJEZGWGVGWHVFABUCRBVJUDUAUEVFVGUFUGVGCUHUIUJUKULVNVSVNVSVNEZVSVLACFZGZWJ
-    BFZWIVSWKWJWLVLWJUFWJBUHUIWKVLVMEZGWIWJWMVLACUCRCVMUDUAACBOUMUJUKULUNWEHWFH
-    WEBVSVJFZFBHFZHVSBVJIWNHBWNVGVJFZCFCWPFZHVGCVJOWPCQWQCHFZHWPHCWPVGVGEZFZHVJ
-    WSVGABUDNHWTVGUOUEUANCUPZUAUQNBUPZUQWFCVSVMFZFWRHVSCVMIXCHCXCBWJFZVMFBWJVMF
-    ZFZHVSXDVMVSWLXDABCOWJBQUATBWJVMUBXFWOHXEHBXEWJWJEZFZHVMXGWJACUDNHXHWJUOUEU
-    ANXBUAUQNXAUQLHURUQUSUQ $.
+    ( wi2 wn wo wa wt or12 df-i2 2an lor or32 ax-a2 lan ax-r5 ax-r2 anor3 ax-r1
+    3tr ud2lem0c 2or oml 3tr1 ax-a3 oran lear bltr leo letr lecom comcom le3tr2
+    comcom6 fh3 df-t or1 anidm 3tr2 ) ABDZEZBCFZUTACDZGZFFVBVAVDFZFVBBEZABFZGZB
+    AEZVFGZFZCVICEZGZFZGZFZFZHVAVBVDIVEVPVBVAVHVDVOABUAUTVKVCVNABJACJKUBLVBVHFZ
+    VOFVGCFZVOFZVQHVRVSVOVRBVHFZCFVSBCVHMWAVGCBVFBAFZGZFWBWAVGBAUCVHWCBVGWBVFAB
+    NZOLWDUDPQPVBVHVOUEVTVSVKFZVSVNFZGHHGHVSVKVNVKVSVKVSVKEZVSWGVGVSWGVHVGVHWGV
+    HVFVJEZGWGVGWHVFABUFOBVJRQSVFVGUGUHVGCUIUJUKUNULVNVSVNVSVNEZVSVLACFZGZWJBFZ
+    WIVSWKWJWLVLWJUGWJBUIUJWKVLVMEZGWIWJWMVLACUFOCVMRQACBMUMUKUNULUOWEHWFHWEBVS
+    VJFZFBHFZHVSBVJIWNHBWNVGVJFZCFCWPFZHVGCVJMWPCNWQCHFZHWPHCWPVGVGEZFZHVJWSVGA
+    BRLHWTVGUPSQLCUQZQTLBUQZTWFCVSVMFZFWRHVSCVMIXCHCXCBWJFZVMFBWJVMFZFZHVSXDVMV
+    SWLXDABCMWJBNQPBWJVMUEXFWOHXEHBXEWJWJEZFZHVMXGWJACRLHXHWJUPSQLXBQTLXATKHURT
+    UST $.
     $( [15-Nov-98] $)
 
   $( OA-like theorem with ` ->2 ` instead of ` ->0 ` . $)
   2oath1 $p |- ( ( a ->2 b ) ^
               ( ( b v c ) ->2 ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) =
               ( ( a ->2 b ) ^ ( a ->2 c ) ) $=
-    ( wi2 wo wa wn df-i2 lan coman1 comorr2 comcom2 anor3 ax-r1 cbtr fh2 wf
-    anass anidm ran ax-r2 wt oran lor 2oalem1 ax-r4 df-a df-f 3tr1 2or or0 3tr
-    ) ABDZBCEZUMACDZFZDZFUMUPUNGUPGFZEZFUMUPFZUMURFZEZUPUQUSUMUNUPHIUPUMURUMUOJ
-    UPUNUPEZGZURUPVCUNUPKLURVDUNUPMNOPVBUPQEUPUTUPVAQUTUMUMFZUOFZUPVFUTUMUMUORN
-    VEUMUOUMSTUAUMGZURGZEZGUBGVAQVIUBVIVGVCEZUBVJVIVCVHVGUNUPUCUDNABCUEUAUFUMUR
-    UGUHUIUJUPUKUAUL $.
+    ( wi2 wo wa wn df-i2 lan coman1 comorr2 comcom2 anor3 ax-r1 fh2 anass ax-r2
+    cbtr wf wt anidm ran oran lor 2oalem1 ax-r4 df-a df-f 3tr1 2or or0 3tr ) AB
+    DZBCEZUMACDZFZDZFUMUPUNGUPGFZEZFUMUPFZUMURFZEZUPUQUSUMUNUPHIUPUMURUMUOJUPUN
+    UPEZGZURUPVCUNUPKLURVDUNUPMNROVBUPSEUPUTUPVASUTUMUMFZUOFZUPVFUTUMUMUOPNVEUM
+    UOUMUAUBQUMGZURGZEZGTGVASVITVIVGVCEZTVJVIVCVHVGUNUPUCUDNABCUEQUFUMURUGUHUIU
+    JUPUKQUL $.
     $( [15-Nov-98] $)
 
   $( Orthoarguesian-like OM law. $)
   2oath1i1 $p |- ( ( a ->1 c ) ^
               ( ( a ^ b ) ' ->2 ( ( a ->1 c ) ^ ( b ->1 c ) ) ) )
                = ( ( a ->1 c ) ^ ( b ->1 c ) ) $=
-    ( wn wi2 wo wa wi1 2oath1 i1i2 2an ud2lem0a oran3 ax-r1 ud2lem0b ax-r2
-    3tr1 ) CDZADZEZSBDZFZTRUAEZGZEZGUDACHZABGDZUFBCHZGZEZGUIRSUAIUFTUJUEACJZUJU
-    GUDEUEUIUDUGUFTUHUCUKBCJKZLUGUBUDUBUGABMNOPKULQ $.
+    ( wn wi2 wo wa wi1 2oath1 i1i2 2an ud2lem0a oran3 ax-r1 ud2lem0b ax-r2 3tr1
+    ) CDZADZEZSBDZFZTRUAEZGZEZGUDACHZABGDZUFBCHZGZEZGUIRSUAIUFTUJUEACJZUJUGUDEU
+    EUIUDUGUFTUHUCUKBCJKZLUGUBUDUBUGABMNOPKULQ $.
     $( [30-Dec-98] $)
 
   $( Orthoarguesian-like OM law. $)
   1oath1i1u $p |- ( ( a ->1 c ) ^
   ( ( ( a ->1 c ) ^ ( b ->1 c ) ) ' ->1 ( ( a ' ->1 c ) ^ ( b ' ->1 c ) ) ) )
                = ( ( a ->1 c ) ^ ( b ->1 c ) ) $=
-    ( wn wi1 wa wi2 2oath1i1 u1lem11 2an ud2lem0a i1i2con2 ax-r1 ax-r2 3tr2 )
-    ADCEZCEZPBDCEZFZDZQRCEZFZGZFUBACEZUDBCEZFZDSEZFUFPRCHQUDUCUGACIZUCTUFGZUGUB
-    UFTQUDUAUEUHBCIJZKUGUIUFSLMNJUJO $.
+    ( wn wi1 wa wi2 2oath1i1 u1lem11 2an ud2lem0a i1i2con2 ax-r1 ax-r2 3tr2 ) A
+    DCEZCEZPBDCEZFZDZQRCEZFZGZFUBACEZUDBCEZFZDSEZFUFPRCHQUDUCUGACIZUCTUFGZUGUBU
+    FTQUDUAUEUHBCIJZKUGUIUFSLMNJUJO $.
     $( [28-Feb-99] $)
 
   $( Relation for studying OA. $)
   oale $p |- ( ( a ->2 b ) ^
       ( ( b v c ) v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ' ) =< ( a ->2 c ) $=
-    ( wi2 wo wa wn df-i2 lan coman1 comanr2 comcom6 fh2 anass ax-r1 anidm ran
-    ax-r2 anor3 2or ax-a2 3tr 2oath1 df-le1 lear letr ) ABDZBCEZUGACDZFZEGZFZUJ
-    UIULUJULUJEZUGUHUJDZFZUJUOUMUOUGUJUHGZUJGZFZEZFUGUJFZUGURFZEZUMUNUSUGUHUJHI
-    UJUGURUGUIJUJURUPUQKLMVBUJULEUMUTUJVAULUTUGUGFZUIFZUJVDUTUGUGUINOVCUGUIUGPQ
-    RURUKUGUHUJSITUJULUARUBOABCUCRUDUGUIUEUF $.
+    ( wi2 wo wa wn df-i2 lan coman1 comanr2 comcom6 fh2 anass ax-r1 anidm ax-r2
+    ran anor3 2or ax-a2 3tr 2oath1 df-le1 lear letr ) ABDZBCEZUGACDZFZEGZFZUJUI
+    ULUJULUJEZUGUHUJDZFZUJUOUMUOUGUJUHGZUJGZFZEZFUGUJFZUGURFZEZUMUNUSUGUHUJHIUJ
+    UGURUGUIJUJURUPUQKLMVBUJULEUMUTUJVAULUTUGUGFZUIFZUJVDUTUGUGUINOVCUGUIUGPRQU
+    RUKUGUHUJSITUJULUAQUBOABCUCQUDUGUIUEUF $.
     $( [18-Nov-98] $)
 
   ${
@@ -6959,37 +6913,36 @@ $)
               ( ( b v c ) ->0 ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) = 1 $.
     $( OA-like inference rule (requires OM only). $)
     3vroa $p |- ( a ->2 c ) = 1 $=
-      ( wi2 wn wa wo wt df-i2 or12 oridm lor le1 wi0 ax-r1 lea bltr lebi ran
-      ancom ax-r2 an1 3tr lear df-i0 anor3 ax-r5 le3tr2 u2lemle2 lecon leran
-      leror 3tr2 ) ACEZCAFZCFZGZHZIACJZCURURHZHURUSHZUSICURURKVAURCURLMVBURABEZ
-      UOGZHZIVEVBVDUSURVDUOIGZUOUSVDIUOGVFVCIUOVCIVCNIVCBCHZVDOZGZVCVIIDPVCVHQR
-      SZTIUOUAUBUOUCUTUDMPVEIVENIBFZUQGZVDHZVEIVMVIVHIVMVCVHUEDVHVGFZVDHZVMVGVD
-      UFVMVOVLVNVDBCUGUHPUBUIVMNSVLURVDVKUPUQABABVJUJUKULUMRSUBUNUB $.
+      ( wi2 wn wa wo wt df-i2 or12 oridm lor le1 wi0 ax-r1 lea bltr lebi ax-r2
+      ran ancom an1 3tr lear df-i0 anor3 ax-r5 le3tr2 u2lemle2 lecon leran 3tr2
+      leror ) ACEZCAFZCFZGZHZIACJZCURURHZHURUSHZUSICURURKVAURCURLMVBURABEZUOGZH
+      ZIVEVBVDUSURVDUOIGZUOUSVDIUOGVFVCIUOVCIVCNIVCBCHZVDOZGZVCVIIDPVCVHQRSZUAI
+      UOUBTUOUCUTUDMPVEIVENIBFZUQGZVDHZVEIVMVIVHIVMVCVHUEDVHVGFZVDHZVMVGVDUFVMV
+      OVLVNVDBCUGUHPTUIVMNSVLURVDVKUPUQABABVJUJUKULUNRSTUMT $.
       $( [13-Nov-98] $)
   $}
 
   $( Lemma for Mladen's OML. $)
   mlalem $p |- ( ( a == b ) ^ ( b ->1 c ) ) =< ( a ->1 c ) $=
-    ( wa wn wo tb wi1 comanr2 comcom3 comanr1 fh2 wf anass dff ax-r1 lan an0
-    3tr le0 bltr an12 an4 ax-r2 lear leor letr lel2or lea leo dfb df-i1 2an
-    lecom coman1 coman2 com2or oran3 cbtr comcom7 fh2rc le3tr1 ) ABDZBEZBCDZFZD
-    ZAEZVDDZVFDZFZVHACDZFZABGZBCHZDZACHVGVMVJVGVCVDDZVCVEDZFVMVDVCVEBVCABIJBVEB
-    CKJLVQVMVRVQMVMVQABVDDZDAMDMABVDNVSMAMVSBOPQARSVMTUAVRBBDZVLDZVMVRABVEDDBAV
-    EDDZWAABVENABVEUBWBBADVEDZWAWCWBBAVENPBABCUCUDSWAVLVMVTVLUEVLVHUFUGUAUHUAVJ
-    VHVDVFDZDZVMVHVDVFNWEVHVMVHWDUIVHVLUJUGUAUHVPVCVIFZVFDVKVNWFVOVFABUKBCULUMV
-    IVFVCVIVFVIVDVFVHVDUEVDVEUJUGUNVIVCVIVHVDFVCEVIVHVDVHVDUOVHVDUPUQABURUSUTVA
-    UDACULVB $.
+    ( wa wn wo tb wi1 comcom3 anass ax-r1 3tr bltr ax-r2 lear letr lel2or df-i1
+    wf leo comanr2 comanr1 fh2 dff lan an0 le0 an12 an4 leor lea dfb 2an coman1
+    lecom coman2 com2or oran3 cbtr comcom7 fh2rc le3tr1 ) ABDZBEZBCDZFZDZAEZVDD
+    ZVFDZFZVHACDZFZABGZBCHZDZACHVGVMVJVGVCVDDZVCVEDZFVMVDVCVEBVCABUAIBVEBCUBIUC
+    VQVMVRVQSVMVQABVDDZDASDSABVDJVSSASVSBUDKUEAUFLVMUGMVRBBDZVLDZVMVRABVEDDBAVE
+    DDZWAABVEJABVEUHWBBADVEDZWAWCWBBAVEJKBABCUINLWAVLVMVTVLOVLVHUJPMQMVJVHVDVFD
+    ZDZVMVHVDVFJWEVHVMVHWDUKVHVLTPMQVPVCVIFZVFDVKVNWFVOVFABULBCRUMVIVFVCVIVFVIV
+    DVFVHVDOVDVETPUOVIVCVIVHVDFVCEVIVHVDVHVDUNVHVDUPUQABURUSUTVANACRVB $.
     $( [4-Nov-98] $)
 
 
   $( Mladen's OML. $)
   mlaoml $p |- ( ( a == b ) ^ ( b == c ) ) =< ( a == c ) $=
-    ( wi1 wa tb u1lembi ran mlalem bltr ancom an32 3tr le2an an12 id anandi
-    3tr1 anass anandir 3tr2 2an le3tr2 ) ABDZBADZEZBCDZEZUECBDZEZUGEZEZACDZCADZ
-    EABFZBCFZEZACFUHUMUKUNUHUOUGEUMUFUOUGABGZHABCIJUKCBFZUEEZUNUKUIUEEZUGEUIUGE
-    ZUEEUTUJVAUGUEUIKHUIUEUGLVBUSUECBGHMCBAIJNULUHUIEZUFUGUIEZEUQUFUJEZUGEUFUIE
-    ZUGEULVCVEVFUGUEUDUIEEZUDUJEVEVFUEUDUIOVEUEUDEZUJEVEVGUFVHUJUDUEKHVEPUEUDUI
-    QRUDUEUISRHUFUJUGTUFUIUGLUAUFUGUISUFUOVDUPURBCGUBMACGUC $.
+    ( wi1 wa tb u1lembi ran mlalem bltr ancom an32 3tr le2an an12 id 3tr1 anass
+    anandi anandir 3tr2 2an le3tr2 ) ABDZBADZEZBCDZEZUECBDZEZUGEZEZACDZCADZEABF
+    ZBCFZEZACFUHUMUKUNUHUOUGEUMUFUOUGABGZHABCIJUKCBFZUEEZUNUKUIUEEZUGEUIUGEZUEE
+    UTUJVAUGUEUIKHUIUEUGLVBUSUECBGHMCBAIJNULUHUIEZUFUGUIEZEUQUFUJEZUGEUFUIEZUGE
+    ULVCVEVFUGUEUDUIEEZUDUJEVEVFUEUDUIOVEUEUDEZUJEVEVGUFVHUJUDUEKHVEPUEUDUISQUD
+    UEUIRQHUFUJUGTUFUIUGLUAUFUGUIRUFUOVDUPURBCGUBMACGUC $.
     $( [4-Nov-98] $)
 
   $( 4-variable transitive law for equivalence. $)
@@ -7009,13 +6962,13 @@ $)
     sa5.1 $e |- ( a ->1 c ) =< ( b ->1 c ) $.
     $( Possible axiom for a "Sasaki algebra" for orthoarguesian lattices. $)
     sa5 $p |- ( b ' ->1 c ) =< ( ( a ' ->1 c ) v c ) $=
-      ( wn wa wo wi1 leor ax-a2 lan ax-r5 oml6 3tr ax-r1 lecon ud1lem0c le3tr2
-      lea letr leror bltr ax-a1 orabs ancom 3tr2 2or ax-a3 ax-r2 lear lel2or
-      df-i1 le3tr1 ) BEZEZUNCFZGAEZEZUQCFZGZCGZUNCHUQCHZCGUOVAUPBACGZUOVABCBGZV
-      CBCIVDBUNCEZGZFZCGZVCVHVDVHBVEUNGZFZCGCVJGVDVGVJCVFVIBUNVEJKLVJCJCBMNOVGA
-      CVGAUQVEGZFZABCHZEACHZEVGVLVNVMDPBCQACQRAVKSTUAUBTBUCVCURUSCGZGZVAAURCVOA
-      UCCCUQFZGVQCGCVOCVQJCUQUDVQUSCCUQUELUFUGVAVPURUSCUHOUIRUPCVAUNCUJCUTITUKU
-      NCULVBUTCUQCULLUM $.
+      ( wn wa wo wi1 leor ax-a2 lan ax-r5 oml6 ax-r1 ud1lem0c le3tr2 letr ax-a1
+      3tr df-i1 lecon lea leror bltr orabs ancom 3tr2 ax-a3 ax-r2 lel2or le3tr1
+      2or lear ) BEZEZUNCFZGAEZEZUQCFZGZCGZUNCHUQCHZCGUOVAUPBACGZUOVABCBGZVCBCI
+      VDBUNCEZGZFZCGZVCVHVDVHBVEUNGZFZCGCVJGVDVGVJCVFVIBUNVEJKLVJCJCBMSNVGACVGA
+      UQVEGZFZABCHZEACHZEVGVLVNVMDUABCOACOPAVKUBQUCUDQBRVCURUSCGZGZVAAURCVOARCC
+      UQFZGVQCGCVOCVQJCUQUEVQUSCCUQUFLUGULVAVPURUSCUHNUIPUPCVAUNCUMCUTIQUJUNCTV
+      BUTCUQCTLUK $.
       $( [3-Jan-99] $)
   $}
 
@@ -7033,22 +6986,22 @@ a' v b' =< (a ^ b)' v 0
 $)
   $( Lemma for attempt at Sasaki algebra. $)
   salem1 $p |- ( ( ( a ' ->1 b ) v b ) ->1 b ) = ( a ->2 b ) $=
-    ( wn wi1 wo wa wi2 u1lemob ax-r4 anor1 ax-r1 ax-r2 ran ax-a2 ancom anabs
-    3tr 2or df-i1 df-i2 3tr1 ) ACZBDBEZCZUCBFZEZBUBBCFZEZUCBDABGUFUGBEUHUDUGUEB
-    UDUBCZBEZCZUGUCUJUBBHZIUGUKUBBJKLUEUJBFZBBUIEZFZBUCUJBULMUMUNBFUOUJUNBUIBNM
-    UNBOLBUIPQRUGBNLUCBSABTUA $.
+    ( wn wi1 wo wi2 u1lemob ax-r4 anor1 ax-r1 ax-r2 ran ax-a2 ancom anabs df-i1
+    wa 3tr 2or df-i2 3tr1 ) ACZBDBEZCZUCBQZEZBUBBCQZEZUCBDABFUFUGBEUHUDUGUEBUDU
+    BCZBEZCZUGUCUJUBBGZHUGUKUBBIJKUEUJBQZBBUIEZQZBUCUJBULLUMUNBQUOUJUNBUIBMLUNB
+    NKBUIORSUGBMKUCBPABTUA $.
     $( [4-Jan-99] $)
 
 
   $( Weak DeMorgan's law for attempt at Sasaki algebra. $)
   sadm3 $p |- ( ( ( a ' ->1 c ) ^ ( b ' ->1 c ) ) ->1 c ) =<
               ( ( a ->1 c ) v ( b ->1 c ) ) $=
-    ( wn wi1 wa wo oran3 ax-r1 u1lem9a le2or bltr an32 lea leo or32 lbtr
-    u1lemab ax-a1 bile leran letr lel2or lelor df-i1 2or le3tr1 ) ADZCEZBDZCEZF
-    ZDZULCFZGZUHACFZGZUJBCFZGZGZULCEACEZBCEZGUOUQUJGZUTUOUHUJGZUICFZGVCUMVDUNVE
-    UMUIDZUKDZGZVDVHUMUIUKHIVFUHVGUJACJBCJKLUNVEUKFVEUIUKCMVEUKNLKVDVCVEVDVDUPG
-    VCVDUPOUHUJUPPQVEUQVCVEUHCFZUHDZCFZGUQUHCRVIUHVKUPUHCNVJACVJAAVJASITUAKLUQU
-    JOUBUCUBUJUSUQUJUROUDUBULCUEVAUQVBUSACUEBCUEUFUG $.
+    ( wn wi1 wa wo oran3 ax-r1 u1lem9a bltr an32 lea leo or32 lbtr u1lemab letr
+    le2or df-i1 ax-a1 bile leran lel2or lelor 2or le3tr1 ) ADZCEZBDZCEZFZDZULCF
+    ZGZUHACFZGZUJBCFZGZGZULCEACEZBCEZGUOUQUJGZUTUOUHUJGZUICFZGVCUMVDUNVEUMUIDZU
+    KDZGZVDVHUMUIUKHIVFUHVGUJACJBCJSKUNVEUKFVEUIUKCLVEUKMKSVDVCVEVDVDUPGVCVDUPN
+    UHUJUPOPVEUQVCVEUHCFZUHDZCFZGUQUHCQVIUHVKUPUHCMVJACVJAAVJAUAIUBUCSKUQUJNRUD
+    RUJUSUQUJURNUERULCTVAUQVBUSACTBCTUFUG $.
     $( [4-Jan-99] $)
 
   $( Weak DeMorgan's law for attempt at Sasaki algebra. $)
@@ -7076,72 +7029,70 @@ $)
   $( Chained biconditional. $)
   bi3 $p |- ( ( a == b ) ^ ( b == c ) ) =
             ( ( ( a ^ b ) ^ c ) v ( ( a ' ^ b ' ) ^ c ' ) ) $=
-    ( tb wa wn wo wi1 wi2 dfb u12lembi ax-r1 2an df-i1 lan lear leo letr lecom
-    coman1 comcom7 coman2 com2an fh2rc wf comanr2 comcom3 comanr1 fh2 anass
-    dff an0 3tr anidm ax-r2 ran 2or or0r comcom an4 an0r 3tr2 or0 an32 df-i2
-    le3tr1 lea bltr oran lbtr fh2r ancom u2lemab u2lemanb an12 ) ABDZBCDZEABEZA
-    FZBFZEZGZBCHZCBIZEZEZVRCEZWACFZEZGZVPWBVQWEABJWEVQBCKLMWBWCEZWDEWGWAGZWDEZW
-    FWJWKWLWDWKWBVTBCEZGZEVRWOEZWAWOEZGWLWCWOWBBCNOWAWOVRWAWOWAVTWOVSVTPVTWNQRS
-    WAABWAAVSVTTUAWABVSVTUBZUAUCUDWPWGWQWAWPVRVTEZVRWNEZGUEWGGWGVTVRWNBVRABUFUG
-    BWNBCUHUGZUIWSUEWTWGWSABVTEZEZAUEEZUEABVTUJXDXCUEXBABUKZOLAULUMWTVRBEZCEZWG
-    XGWTVRBCUJLXFVRCXFABBEZEVRABBUJXHBABUNOUOUPUOUQWGURUMWQWAVTEZWAWNEZGWAUEGWA
-    VTWAWNWAVTWRUSXAUIXIWAXJUEXIVSVTVTEZEWAVSVTVTUJXKVTVSVTUNOUOXJVSBEVTCEZEVSB
-    XLEZEZUEVSVTBCUTVSBXLUJXNVSUEEUEXMUEVSXBCEZUECEZXMUEXPXOUEXBCXEUPLBVTCUJCVA
-    VBOVSULUOUMUQWAVCUMUQUMUPWBWCWDUJWMWGWDEZWAWDEZGWJWGWDWAWGWDACEZBEZBWHVTEZG
-    ZWGWDXTBYBXSBPBYAQRABCVDCBVEVFSWGWAWGWAFZWGABGZYCWGAYDWGAWNEAABCUJAWNVGVHAB
-    QRABVIVJSUAVKXQWGXRWIXQVRCWDEEXSBWDEZEZWGVRCWDUJABCWDUTYFXTWGYEBXSYEWDBEBBW
-    DVLCBVMUOOACBVDUOUMXRVSVTWDEZEVSYAEZWIVSVTWDUJYGYAVSYGWDVTEYAVTWDVLCBVNUOOY
-    HWHWAEWIVSWHVTVOWHWAVLUOUMUQUOVBUO $.
+    ( tb wa wn wo ax-r1 lan leo letr lecom comcom7 wf anass 3tr ax-r2 ran ancom
+    2or wi1 wi2 dfb u12lembi 2an df-i1 lear coman1 coman2 fh2rc comanr2 comcom3
+    com2an comanr1 fh2 dff an0 anidm or0r comcom an4 an0r 3tr2 or0 df-i2 le3tr1
+    an32 lea bltr oran lbtr fh2r u2lemab u2lemanb an12 ) ABDZBCDZEABEZAFZBFZEZG
+    ZBCUAZCBUBZEZEZVRCEZWACFZEZGZVPWBVQWEABUCWEVQBCUDHUEWBWCEZWDEWGWAGZWDEZWFWJ
+    WKWLWDWKWBVTBCEZGZEVRWOEZWAWOEZGWLWCWOWBBCUFIWAWOVRWAWOWAVTWOVSVTUGVTWNJKLW
+    AABWAAVSVTUHMWABVSVTUIZMUMUJWPWGWQWAWPVRVTEZVRWNEZGNWGGWGVTVRWNBVRABUKULBWN
+    BCUNULZUOWSNWTWGWSABVTEZEZANEZNABVTOXDXCNXBABUPZIHAUQPWTVRBEZCEZWGXGWTVRBCO
+    HXFVRCXFABBEZEVRABBOXHBABURIQRQTWGUSPWQWAVTEZWAWNEZGWANGWAVTWAWNWAVTWRUTXAU
+    OXIWAXJNXIVSVTVTEZEWAVSVTVTOXKVTVSVTURIQXJVSBEVTCEZEVSBXLEZEZNVSVTBCVAVSBXL
+    OXNVSNENXMNVSXBCEZNCEZXMNXPXONXBCXERHBVTCOCVBVCIVSUQQPTWAVDPTPRWBWCWDOWMWGW
+    DEZWAWDEZGWJWGWDWAWGWDACEZBEZBWHVTEZGZWGWDXTBYBXSBUGBYAJKABCVGCBVEVFLWGWAWG
+    WAFZWGABGZYCWGAYDWGAWNEAABCOAWNVHVIABJKABVJVKLMVLXQWGXRWIXQVRCWDEEXSBWDEZEZ
+    WGVRCWDOABCWDVAYFXTWGYEBXSYEWDBEBBWDSCBVMQIACBVGQPXRVSVTWDEZEVSYAEZWIVSVTWD
+    OYGYAVSYGWDVTEYAVTWDSCBVNQIYHWHWAEWIVSWHVTVOWHWASQPTQVCQ $.
     $( [2-Mar-00] $)
 
   $( Chained biconditional. $)
   bi4 $p |- ( ( ( a == b ) ^ ( b == c ) ) ^ ( c == d ) ) =
             ( ( ( ( a ^ b ) ^ c ) ^ d ) v
             ( ( ( a ' ^ b ' ) ^ c ' ) ^ d ' ) ) $=
-    ( tb wa wn wo wi1 wi2 bi3 u12lembi ax-r1 2an df-i1 lan leao2 lecom leao4
-    oran2 lbtr comcom comcom6 fh2rc wf comanr2 comcom3 comanr1 fh2 anass dff
-    an0 3tr anidm ax-r2 ran 2or or0r an4 an0r 3tr2 or0 ancom u2lemab an32
-    df2le1 bltr comcom7 fh2r u2lemanb an12 ) ABEBCEFZCDEZFABFZCFZAGBGFZCGZFZHZC
-    DIZDCJZFZFZVODFZVRDGZFZHZVLVSVMWBABCKWBVMCDLMNVSVTFZWAFWDVRHZWAFZWCWGWHWIWA
-    WHVSVQCDFZHZFVOWLFZVRWLFZHWIVTWLVSCDOPVRWLVOVRWLVQVPWKQRVRVOVOVRGZVOWOVOVPG
-    ZCHZWOCVNWPSVPCTZUARUBUCUDWMWDWNVRWMVOVQFZVOWKFZHUEWDHWDVQVOWKCVOVNCUFUGCWK
-    CDUHUGZUIWSUEWTWDWSVNCVQFZFZVNUEFZUEVNCVQUJXDXCUEXBVNCUKZPMVNULUMWTVOCFZDFZ
-    WDXGWTVOCDUJMXFVODXFVNCCFZFVOVNCCUJXHCVNCUNPUOUPUOUQWDURUMWNVRVQFZVRWKFZHVR
-    UEHVRVQVRWKVPVQUFXAUIXIVRXJUEXIVPVQVQFZFVRVPVQVQUJXKVQVPVQUNPUOXJVPCFVQDFZF
-    VPCXLFZFZUEVPVQCDUSVPCXLUJXNVPUEFUEXMUEVPXBDFZUEDFZXMUEXPXOUEXBDXEUPMCVQDUJ
-    DUTVAPVPULUOUMUQVRVBUMUQUMUPVSVTWAUJWJWDWAFZVRWAFZHWGWDWAVRWDWAWDWAXQVODWAF
-    FVNDFZCWAFZFZWDVODWAUJVNCDWAUSYAXSCFZWDXTCXSXTWACFCCWAVCDCVDUOPVNDCVEUOUMZV
-    FRWDVRWDWOWDWQWOWDYBWQVNCDVECXSWPSVGWRUARVHVIXQWDXRWFYCXRVPVQWAFZFVPWEVQFZF
-    ZWFVPVQWAUJYDYEVPYDWAVQFYEVQWAVCDCVJUOPYFWEVRFWFVPWEVQVKWEVRVCUOUMUQUOVAUO
-    $.
+    ( tb wa wn wo ax-r1 lan lecom leao4 lbtr wf anass 3tr ax-r2 ran 2or ancom
+    wi1 wi2 bi3 u12lembi df-i1 leao2 oran2 comcom comcom6 fh2rc comanr2 comcom3
+    2an comanr1 fh2 dff an0 anidm or0r an4 an0r 3tr2 or0 u2lemab df2le1 comcom7
+    an32 bltr fh2r u2lemanb an12 ) ABEBCEFZCDEZFABFZCFZAGBGFZCGZFZHZCDUAZDCUBZF
+    ZFZVODFZVRDGZFZHZVLVSVMWBABCUCWBVMCDUDIUMVSVTFZWAFWDVRHZWAFZWCWGWHWIWAWHVSV
+    QCDFZHZFVOWLFZVRWLFZHWIVTWLVSCDUEJVRWLVOVRWLVQVPWKUFKVRVOVOVRGZVOWOVOVPGZCH
+    ZWOCVNWPLVPCUGZMKUHUIUJWMWDWNVRWMVOVQFZVOWKFZHNWDHWDVQVOWKCVOVNCUKULCWKCDUN
+    ULZUOWSNWTWDWSVNCVQFZFZVNNFZNVNCVQOXDXCNXBVNCUPZJIVNUQPWTVOCFZDFZWDXGWTVOCD
+    OIXFVODXFVNCCFZFVOVNCCOXHCVNCURJQRQSWDUSPWNVRVQFZVRWKFZHVRNHVRVQVRWKVPVQUKX
+    AUOXIVRXJNXIVPVQVQFZFVRVPVQVQOXKVQVPVQURJQXJVPCFVQDFZFVPCXLFZFZNVPVQCDUTVPC
+    XLOXNVPNFNXMNVPXBDFZNDFZXMNXPXONXBDXERICVQDODVAVBJVPUQQPSVRVCPSPRVSVTWAOWJW
+    DWAFZVRWAFZHWGWDWAVRWDWAWDWAXQVODWAFFVNDFZCWAFZFZWDVODWAOVNCDWAUTYAXSCFZWDX
+    TCXSXTWACFCCWATDCVDQJVNDCVGQPZVEKWDVRWDWOWDWQWOWDYBWQVNCDVGCXSWPLVHWRMKVFVI
+    XQWDXRWFYCXRVPVQWAFZFVPWEVQFZFZWFVPVQWAOYDYEVPYDWAVQFYEVQWATDCVJQJYFWEVRFWF
+    VPWEVQVKWEVRTQPSQVBQ $.
     $( [25-Jun-03] $)
 
   $( Implicational product with 3 variables.  Theorem 3.20 of "Equations,
      states, and lattices..." paper. $)
   imp3 $p |- ( ( a ->2 b ) ^ ( b ->1 c ) ) =
              ( ( a ' ^ b ' ) v ( b ^ c ) ) $=
-    ( wi2 wi1 wa wn wo df-i1 lan u2lemc1 comcom3 comanr1 fh2 u2lemanb ancom
-    lea u2lem3 u2lemle2 letr df2le2 ax-r2 2or 3tr ) ABDZBCEZFUEBGZBCFZHZFUEUGFZ
-    UEUHFZHAGUGFZUHHUFUIUEBCIJUGUEUHBUEABKLBUHBCMLNUJULUKUHABOUKUHUEFUHUEUHPUHU
-    EUHBUEBCQBUEBARSTUAUBUCUD $.
+    ( wi2 wi1 wa wn wo df-i1 lan u2lemc1 comcom3 comanr1 fh2 u2lemanb ancom lea
+    u2lem3 u2lemle2 letr df2le2 ax-r2 2or 3tr ) ABDZBCEZFUEBGZBCFZHZFUEUGFZUEUH
+    FZHAGUGFZUHHUFUIUEBCIJUGUEUHBUEABKLBUHBCMLNUJULUKUHABOUKUHUEFUHUEUHPUHUEUHB
+    UEBCQBUEBARSTUAUBUCUD $.
     $( [3-Mar-00] $)
 
   $( Disjunction of biconditionals. $)
   orbi $p |- ( ( a == c ) v ( b == c ) ) =
       ( ( ( a ->2 c ) v ( b ->2 c ) ) ^ ( ( c ->1 a ) v ( c ->1 b ) ) ) $=
-    ( tb wo wa wn wi2 wi1 dfb 2or ax-a2 ax-a3 ancom lor imp3 ax-r1 ax-r2 ax-r5
-    df-i1 lear leo letr lecom comcom bctr comi12 fh4rc df-le2 3tr lan 3tr2
-    df-i2 lea anor1 cbtr comcom7 fh4 orordi 3tr1 or12 2an ) ACDZBCDZEACFZAGZCGZ
-    FZEZBCFZBGVGFZEZEVLVIEZACHZBCHZEZCAIZCBIZEZFZVCVIVDVLACJBCJKVIVLLVMVJVKVIEZ
-    EVJVOVHEZVGCAFZEZFZEZVTVJVKVIMWAWEVJVKVEEZVHEVOVQFZVHEZWAWEWGWHVHWGVKWCEZWH
-    VEWCVKACNOWHWJBCAPQRSVKVEVHMWIWBVQVHEZFWEVQVHVOVQWDVHCATZVHWDVHWDVHVGWDVFVG
-    UAVGWCUBUCZUDUEUFCABUGUHWKWDWBWKWDVHEVHWDEWDVQWDVHWLSWDVHLVHWDWMUIUJUKRULOW
-    FVJWBEZVJWDEZFVTWBVJWDWBCVKVHEZEZVJWBCVKEZVHEZWQVOWRVHBCUMZSCVKVHMZRZVJWQVJ
-    WQVJCWQBCUAZCWPUBZUCUDUEUFWBWQWDXBWQWDWQCWCGZFZWDGXFWQXFWQXFCWQCXEUNXDUCUDU
-    ECWCUOUPUQUFURWNVPWOVSVJVOEZVHEWSWNVPXGWRVHXGVJWREWRVOWRVJWTOVJWRVJCWRXCCVK
-    UBUCUIRSVJVOVHMWSWQVPXAWRCVHEZEXHWREWQVPWRXHLCVKVHUSVNXHVOWRACUMWTKUTRULWOV
-    GVJWCEEZVSVJVGWCVAVGVJEZWDEWDXJEXIVSXJWDLVGVJWCUSVQWDVRXJWLVRVGCBFZEXJCBTXK
-    VJVGCBNORKUTRVBRUJUJ $.
+    ( tb wo wa wn wi2 2or ax-a2 ax-a3 lor ax-r2 ax-r5 leo letr lecom comcom 3tr
+    bctr wi1 dfb ancom imp3 ax-r1 df-i1 lear comi12 fh4rc df-le2 lan 3tr2 df-i2
+    lea anor1 cbtr comcom7 fh4 orordi 3tr1 or12 2an ) ACDZBCDZEACFZAGZCGZFZEZBC
+    FZBGVGFZEZEVLVIEZACHZBCHZEZCAUAZCBUAZEZFZVCVIVDVLACUBBCUBIVIVLJVMVJVKVIEZEV
+    JVOVHEZVGCAFZEZFZEZVTVJVKVIKWAWEVJVKVEEZVHEVOVQFZVHEZWAWEWGWHVHWGVKWCEZWHVE
+    WCVKACUCLWHWJBCAUDUEMNVKVEVHKWIWBVQVHEZFWEVQVHVOVQWDVHCAUFZVHWDVHWDVHVGWDVF
+    VGUGVGWCOPZQRTCABUHUIWKWDWBWKWDVHEVHWDEWDVQWDVHWLNWDVHJVHWDWMUJSUKMULLWFVJW
+    BEZVJWDEZFVTWBVJWDWBCVKVHEZEZVJWBCVKEZVHEZWQVOWRVHBCUMZNCVKVHKZMZVJWQVJWQVJ
+    CWQBCUGZCWPOZPQRTWBWQWDXBWQWDWQCWCGZFZWDGXFWQXFWQXFCWQCXEUNXDPQRCWCUOUPUQTU
+    RWNVPWOVSVJVOEZVHEWSWNVPXGWRVHXGVJWREWRVOWRVJWTLVJWRVJCWRXCCVKOPUJMNVJVOVHK
+    WSWQVPXAWRCVHEZEXHWREWQVPWRXHJCVKVHUSVNXHVOWRACUMWTIUTMULWOVGVJWCEEZVSVJVGW
+    CVAVGVJEZWDEWDXJEXIVSXJWDJVGVJWCUSVQWDVRXJWLVRVGCBFZEXJCBUFXKVJVGCBUCLMIUTM
+    VBMSS $.
     $( [5-Jul-00] $)
 
   $( Disjunction of biconditionals. $)
@@ -7160,24 +7111,24 @@ $)
        in OA-GO paper. $)
     mlaconj4 $p |- ( ( a == b ) ^ ( ( a == c ) v ( b == c ) ) ) =<
                    ( a == c ) $=
-      ( tb wo wa wn biao bicom ax-r2 bile wi2 wi1 orbile imp3 lbtr le2an 2bi
-      ax-r4 ran ancom lan 2or 2an ax-r1 lea 3tr1 rbi ler2an anass coman1
-      comcom7 bctr an32 coman2 com2an com2or fh2c wf anor3 comanr1 comcom3
-      fh2rc leao1 df2le2 dff oran an0r 3tr2 or0 3tr an4 anidm or0r dfb lor bi3
-      mlaoml bltr letr ) ABIZACIZBCIZJZKABJZABKZIZWKLZCLZKZCWJKZJZKZWGWFWLWIWQW
-      FWLWFWKWJIZWLABMZWKWJNOPWIWKCQCWJRKWQABCSWKCWJTUAUBWRDEIZELZWNKZDCKZJZKZW
-      GXFWRXAWLXEWQDWJEWKGHUCZXCWOXDWPXBWMWNEWKHUDUEXDCDKWPDCUFDWJCGUGOUHUIUJXF
-      WFWJCIZKZWGXFWFXHXFXAWFXAXEUKWLWSXAWFWJWKNXGWTULUAXFDCIXHFDWJCGUMUAUNXIWF
-      WHKZWGWKALZBLZKZJZWJCKZXMWNKZJZKZWKCKZXPJZXIXJXRXNXOKZXNXPKZJXTXPXNXOXPWK
-      XMXPABXPXKXLWNKZKZAXKXLWNUOYDAXKYCUPUQURZXPXKWNKZXLKZBXKXLWNUSYGBYFXLUTUQ
-      URZVAXMWNUPVBXPWJCXPABYEYHVBXPCXMWNUTUQVAVCYAXSYBXPYAWKXOKZXMXOKZJXSVDJXS
-      XMXOWKXMWJLZXOABVEZWJXOWJCVFVGURXMABXMAXKXLUPUQXMBXKXLUTUQVAZVHYIXSYJVDYI
-      WKWJKZCKZXSYOYIWKWJCUOUJYNWKCWKWJABBVIVJUEOXMWJKZCKZVDCKZYJVDYRYQVDYPCVDX
-      MXMLZKZYPXMVKYPYTWJYSXMABVLUGUJOUEUJXMWJCUOCVMVNUHXSVOVPYBWKXPKZXMXPKZJVD
-      XPJXPXMXPWKXMWNVFYMVHUUAVDUUBXPUUAAXMKZBWNKZKZVDUUDKZVDABXMWNVQUUFUUEVDUU
-      CUUDVDXLKAXKKZXLKVDUUCVDUUGXLAVKUEXLVMAXKXLUOVNUEUJUUDVMVPUUBXMXMKZWNKZXP
-      UUIUUBXMXMWNUOUJUUHXMWNXMVRUEOUHXPVSVPUHOWFXNXHXQABVTXHXOYKWNKZJZXQWJCVTX
-      QUUKXPUUJXOXMYKWNYLUEWAUJOUIABCWBULABCWCWDWEWDWE $.
+      ( tb wo wa wn ax-r2 lbtr ran 2or ax-r1 anass comcom7 wf biao bile wi2 wi1
+      bicom orbile imp3 le2an 2bi ax-r4 lan 2an lea 3tr1 rbi ler2an coman1 bctr
+      ancom an32 coman2 com2an com2or fh2c anor3 comanr1 fh2rc leao1 df2le2 dff
+      comcom3 oran an0r 3tr2 or0 3tr an4 anidm or0r dfb lor mlaoml bltr letr
+      bi3 ) ABIZACIZBCIZJZKABJZABKZIZWKLZCLZKZCWJKZJZKZWGWFWLWIWQWFWLWFWKWJIZWL
+      ABUAZWKWJUEMUBWIWKCUCCWJUDKWQABCUFWKCWJUGNUHWRDEIZELZWNKZDCKZJZKZWGXFWRXA
+      WLXEWQDWJEWKGHUIZXCWOXDWPXBWMWNEWKHUJOXDCDKWPDCUSDWJCGUKMPULQXFWFWJCIZKZW
+      GXFWFXHXFXAWFXAXEUMWLWSXAWFWJWKUEXGWTUNNXFDCIXHFDWJCGUONUPXIWFWHKZWGWKALZ
+      BLZKZJZWJCKZXMWNKZJZKZWKCKZXPJZXIXJXRXNXOKZXNXPKZJXTXPXNXOXPWKXMXPABXPXKX
+      LWNKZKZAXKXLWNRYDAXKYCUQSURZXPXKWNKZXLKZBXKXLWNUTYGBYFXLVASURZVBXMWNUQVCX
+      PWJCXPABYEYHVCXPCXMWNVASVBVDYAXSYBXPYAWKXOKZXMXOKZJXSTJXSXMXOWKXMWJLZXOAB
+      VEZWJXOWJCVFVKURXMABXMAXKXLUQSXMBXKXLVASVBZVGYIXSYJTYIWKWJKZCKZXSYOYIWKWJ
+      CRQYNWKCWKWJABBVHVIOMXMWJKZCKZTCKZYJTYRYQTYPCTXMXMLZKZYPXMVJYPYTWJYSXMABV
+      LUKQMOQXMWJCRCVMVNPXSVOVPYBWKXPKZXMXPKZJTXPJXPXMXPWKXMWNVFYMVGUUATUUBXPUU
+      AAXMKZBWNKZKZTUUDKZTABXMWNVQUUFUUETUUCUUDTXLKAXKKZXLKTUUCTUUGXLAVJOXLVMAX
+      KXLRVNOQUUDVMVPUUBXMXMKZWNKZXPUUIUUBXMXMWNRQUUHXMWNXMVROMPXPVSVPPMWFXNXHX
+      QABVTXHXOYKWNKZJZXQWJCVTXQUUKXPUUJXOXMYKWNYLOWAQMULABCWEUNABCWBWCWDWCWD
+      $.
       $( [8-Jul-00] $)
   $}
 
@@ -7187,11 +7138,11 @@ $)
      ( ( ( ( a ->1 ( a ^ b ) ) ^ ( ( a ^ b ) ->1 ( ( a ^ b ) v c ) ) ) ^
               ( ( ( ( a ^ b ) v c ) ->1 c ) ^ ( c ->1 ( a v b ) ) ) ) ^
                 ( ( a v b ) ->1 a ) ) $=
-    ( tb wo wa wi2 wi1 orbile lelan ancom id ran anass ax-r2 3tr lan 3tr1
-    bi1o1a i2i1i1 2an lbtr ) ABDZACDBCDEZFUCABFZCGZCABEZHZFZFZAUEHZUEUECEZHZFZU
-    LCHZUHFZFUGAHZFZUDUIUCABCIJUKUQFZUMUOFZUHFZFZUNUPUQFZFZUJURUKUQVAFZFUKUMVCF
-    ZFVBVDVEVFUKVEVAUQFUMUPFZUQFVFUQVAKVAVGUQVAVAVGUTUTUHUTLMUMUOUHNOMUMUPUQNPQ
-    UKUQVANUKUMVCNRUCUSUIVAABSUFUTUHUECTMUAUNUPUQNRUB $.
+    ( tb wo wa wi2 wi1 orbile lelan ancom ran anass ax-r2 3tr lan bi1o1a i2i1i1
+    id 3tr1 2an lbtr ) ABDZACDBCDEZFUCABFZCGZCABEZHZFZFZAUEHZUEUECEZHZFZULCHZUH
+    FZFUGAHZFZUDUIUCABCIJUKUQFZUMUOFZUHFZFZUNUPUQFZFZUJURUKUQVAFZFUKUMVCFZFVBVD
+    VEVFUKVEVAUQFUMUPFZUQFVFUQVAKVAVGUQVAVAVGUTUTUHUTSLUMUOUHMNLUMUPUQMOPUKUQVA
+    MUKUMVCMTUCUSUIVAABQUFUTUHUECRLUAUNUPUQMTUB $.
     $( [20-Jan-02] $)
 
   ${
@@ -7222,9 +7173,9 @@ $)
 
   $( Complemented antecedent lemma. $)
   i1orni1 $p |- ( ( a ->1 b ) v ( a ' ->1 b ) ) = 1 $=
-    ( wi1 wn wo wa wt df-i1 ax-a1 ax-r5 ax-r1 ax-r2 lor orordi u1lemoa or1r )
-    ABCZADZBCZEQARBFZEZEZGSUAQSRDZTEZUARBHUAUDAUCTAIJKLMUBQAEZQTEZEZGQATNUGGUFE
-    GUEGUFABOJUFPLLL $.
+    ( wi1 wn wo wa wt df-i1 ax-a1 ax-r5 ax-r1 ax-r2 lor orordi u1lemoa or1r ) A
+    BCZADZBCZEQARBFZEZEZGSUAQSRDZTEZUARBHUAUDAUCTAIJKLMUBQAEZQTEZEZGQATNUGGUFEG
+    UEGUFABOJUFPLLL $.
     $( [6-Aug-01] $)
 
   ${
@@ -7237,27 +7188,25 @@ $)
 
     $( Lemma for negated antecedent identity. $)
     negantlem2 $p |- a =< ( b ' ->1 c ) $=
-      ( wn wi1 wo leo wa wt i1orni1 lan ax-r1 an1 u1lemc6 negantlem1 comcom
-      fh4rc 3tr1 ancom u1lemaa 3tr2 lear bltr ler2an lea ax-a1 lbtr leror
-      u1lemab ax-r2 df-i1 le3tr1 letr leid lel2or ) AABEZCFZGZURAURHUSABCFZIZUR
-      GZURUSJIZUSUTURGZIZUSVBVEVCVDJUSBCKLMVCUSUSNMUTURABCOAUTABCDPQRSVAURURVAC
-      UTIZURVACUTVAACIZCAACFZIVHAIVAVGAVHTVHUTADLACUAUBACUCUDAUTUCUEBCIZUQCIZGZ
-      UQEZVJGVFURVIVLVJVIBVLBCUFBUGUHUIVFUTCIVKCUTTBCUJUKUQCULUMUNURUOUPUDUN $.
+      ( wn wi1 wo leo wa wt i1orni1 lan ax-r1 an1 u1lemc6 negantlem1 ancom lear
+      bltr letr comcom fh4rc 3tr1 u1lemaa 3tr2 ler2an ax-a1 leror u1lemab ax-r2
+      lea lbtr df-i1 le3tr1 leid lel2or ) AABEZCFZGZURAURHUSABCFZIZURGZURUSJIZU
+      SUTURGZIZUSVBVEVCVDJUSBCKLMVCUSUSNMUTURABCOAUTABCDPUAUBUCVAURURVACUTIZURV
+      ACUTVAACIZCAACFZIVHAIVAVGAVHQVHUTADLACUDUEACRSAUTRUFBCIZUQCIZGZUQEZVJGVFU
+      RVIVLVJVIBVLBCUKBUGULUHVFUTCIVKCUTQBCUIUJUQCUMUNTURUOUPST $.
       $( [6-Aug-01] $)
 
     $( Lemma for negated antecedent identity. $)
     negantlem3 $p |- ( a ' ^ c ) =< ( b ' ->1 c ) $=
-      ( wn wa wi1 wo leo df-i1 ax-r1 ax-r2 lbtr leran lea leror u1lemab ax-a1
-      ax-r5 le3tr1 letr ) AEZCFBCGZCFZBEZCGZUBUCCUBUBACFZHZUCUBUGIUHACGZUCUIUHA
-      CJKDLMNBCFZUECFZHBUKHZUDUFUJBUKBCOPBCQUFUEEZUKHZULUECJULUNBUMUKBRSKLTUA
-      $.
+      ( wn wa wi1 wo leo df-i1 ax-r1 ax-r2 lbtr leran leror u1lemab ax-a1 ax-r5
+      lea le3tr1 letr ) AEZCFBCGZCFZBEZCGZUBUCCUBUBACFZHZUCUBUGIUHACGZUCUIUHACJ
+      KDLMNBCFZUECFZHBUKHZUDUFUJBUKBCSOBCPUFUEEZUKHZULUECJULUNBUMUKBQRKLTUA $.
       $( [6-Aug-01] $)
 
     $( Lemma for negated antecedent identity. $)
     negantlem4 $p |- ( a ' ->1 c ) =< ( b ' ->1 c ) $=
-      ( wn wi1 wa wo df-i1 ax-a1 ax-r5 ax-r1 ax-r2 negantlem2 negantlem3
-      lel2or bltr ) AEZCFZARCGZHZBECFZSREZTHZUARCIUAUDAUCTAJKLMAUBTABCDNABCDOPQ
-      $.
+      ( wn wi1 wa wo df-i1 ax-a1 ax-r5 ax-r1 ax-r2 negantlem2 negantlem3 lel2or
+      bltr ) AEZCFZARCGZHZBECFZSREZTHZUARCIUAUDAUCTAJKLMAUBTABCDNABCDOPQ $.
       $( [6-Aug-01] $)
 
     $( Negated antecedent identity. $)
@@ -7302,13 +7251,13 @@ $)
 
     $( Negated antecedent identity. $)
     negantlem9 $p |- ( a ->3 c ) =< ( b ->3 c ) $=
-      ( wn wa wo wi3 leao4 leor wi1 sac df-i1 ax-a1 ax-r5 ax-r1 ax-r2 3tr2 leo
-      leror bltr letr ler2an leao1 negantlem8 lbtr negantlem5 ler lel2or lear
-      lel df-i3 dfi3b le3tr1 ) AEZCFZUOCEZFZGZAUOCGZFZGBEZCGZBVBUQFZGZVBCFZGZFZ
-      ACHBCHUSVHVAUPVHURUPVCVGCUOVBIUPAUPGZVGUPAJVIBVFGZVGUOCKZVBCKZVIVJABCDLVK
-      UOEZUPGZVIUOCMVIVNAVMUPANOPQVLVBEZVFGZVJVBCMVJVPBVOVFBNOPQRZBVEVFBVDSTZUA
-      UBUCURVCVGURUTVCUOUQCUDABCDUEZUFURVDVGABCDUGVDVEVFVDBJUHUAUCUIVAVCVGVAUTV
-      CAUTUJVSUFAVGUTAVJVGAVIVJAUPSVQUFVRUBUKUCUIACULBCUMUN $.
+      ( wn wa wo wi3 leor wi1 df-i1 ax-a1 ax-r5 ax-r1 leo bltr letr ler2an lbtr
+      ax-r2 leao4 sac 3tr2 leror leao1 negantlem8 negantlem5 ler lear lel df-i3
+      lel2or dfi3b le3tr1 ) AEZCFZUOCEZFZGZAUOCGZFZGBEZCGZBVBUQFZGZVBCFZGZFZACH
+      BCHUSVHVAUPVHURUPVCVGCUOVBUAUPAUPGZVGUPAIVIBVFGZVGUOCJZVBCJZVIVJABCDUBVKU
+      OEZUPGZVIUOCKVIVNAVMUPALMNTVLVBEZVFGZVJVBCKVJVPBVOVFBLMNTUCZBVEVFBVDOUDZP
+      QRURVCVGURUTVCUOUQCUEABCDUFZSURVDVGABCDUGVDVEVFVDBIUHPRULVAVCVGVAUTVCAUTU
+      IVSSAVGUTAVJVGAVIVJAUPOVQSVRQUJRULACUKBCUMUN $.
       $( [6-Aug-01] $)
 
     $( Negated antecedent identity. $)
@@ -7319,16 +7268,16 @@ $)
 
     $( Lemma for negated antecedent identity. $)
     negantlem10 $p |- ( a ->4 c ) =< ( b ->4 c ) $=
-      ( wa wn wo wi4 leao4 wi1 leor df-i1 ax-r1 lbtr lear ler2an ran u1lemab
-      ancom 2or ax-a2 ax-r2 lor ax-a3 bltr letr negant ax-a1 lel2or lea
-      negantlem8 leao2 ler df-i4 dfi4b le3tr1 ) ACEZAFZCEZGZURCGZCFZEZGBFZCGZVB
-      CVDEZGZCBEZGZEZACHBCHUTVJVCUQVJUSUQVEVICAVDIUQACJZCEZVIUQVKCUQURUQGZVKUQU
-      RKVKVMACLMNACOPVLBCJZCEZVIVKVNCDQVOBCEZVDCEZGZVIBCRVRVBVRGZVIVRVBKVSVBVFV
-      HGZGZVIVRVTVBVRVHVFGVTVPVHVQVFBCSVDCSTVHVFUAUBUCVIWAVBVFVHUDMZUBNUEUEUFPU
-      SVEVICURVDIUSURCJZCEZVIUSWCCUSURFZUSGZWCUSWEKWCWFURCLMNURCOPWDVDCJZCEZVIW
-      CWGCABCDUGQWHVQVDFZCEZGZVIVDCRWKVBWKGZVIWKVBKWLWAVIWAWLVTWKVBVFVQVHWJCVDS
-      VHVPWJCBSBWICBUHQUBTUCMWBUBNUEUEUFPUIVCVEVIVCVAVEVAVBUJABCDUKNVCVGVHVBVAV
-      FULUMPUIACUNBCUOUP $.
+      ( wa wn wo wi4 leao4 wi1 leor df-i1 ax-r1 lbtr lear ler2an ran ancom bltr
+      ax-r2 u1lemab 2or ax-a2 lor ax-a3 letr negant ax-a1 lel2or lea negantlem8
+      leao2 ler df-i4 dfi4b le3tr1 ) ACEZAFZCEZGZURCGZCFZEZGBFZCGZVBCVDEZGZCBEZ
+      GZEZACHBCHUTVJVCUQVJUSUQVEVICAVDIUQACJZCEZVIUQVKCUQURUQGZVKUQURKVKVMACLMN
+      ACOPVLBCJZCEZVIVKVNCDQVOBCEZVDCEZGZVIBCUAVRVBVRGZVIVRVBKVSVBVFVHGZGZVIVRV
+      TVBVRVHVFGVTVPVHVQVFBCRVDCRUBVHVFUCTUDVIWAVBVFVHUEMZTNSSUFPUSVEVICURVDIUS
+      URCJZCEZVIUSWCCUSURFZUSGZWCUSWEKWCWFURCLMNURCOPWDVDCJZCEZVIWCWGCABCDUGQWH
+      VQVDFZCEZGZVIVDCUAWKVBWKGZVIWKVBKWLWAVIWAWLVTWKVBVFVQVHWJCVDRVHVPWJCBRBWI
+      CBUHQTUBUDMWBTNSSUFPUIVCVEVIVCVAVEVAVBUJABCDUKNVCVGVHVBVAVFULUMPUIACUNBCU
+      OUP $.
       $( [6-Aug-01] $)
 
     $( Negated antecedent identity. $)
@@ -7348,35 +7297,35 @@ $)
     neg3ant.1 $e |- ( a ->3 c ) = ( b ->3 c ) $.
     $( Lemma for negated antecedent identity. $)
     neg3antlem1 $p |- ( a ^ c ) =< ( b ->1 c ) $=
-      ( wa wi1 wn wo leo wi3 ran u3lemab 3tr2 u1lemab ax-r1 ax-r2 lbtr lea
-      letr ) ACEZBCFZCEZUATTAGCEZHZUBTUCIUDBCEBGCEHZUBACJZCEBCJZCEUDUEUFUGCDKAC
-      LBCLMUBUEBCNOPQUACRS $.
+      ( wa wi1 wn wo leo wi3 ran u3lemab 3tr2 u1lemab ax-r1 ax-r2 lbtr lea letr
+      ) ACEZBCFZCEZUATTAGCEZHZUBTUCIUDBCEBGCEHZUBACJZCEBCJZCEUDUEUFUGCDKACLBCLM
+      UBUEBCNOPQUACRS $.
       $( [7-Aug-01] $)
 
     $( Lemma for negated antecedent identity. $)
     neg3antlem2 $p |- a ' =< ( b ->1 c ) $=
-      ( wn wa wo wi1 leor wi3 ran u3lemab 3tr2 lbtr leao1 lel2or letr df-i3
-      ax-r2 ax-r1 u3lemanb anor3 con1 ler2an u3lem15 lear oran2 lan anor1
-      anor2 lor oran1 le3tr2 lecon1 leo ax-r5 u3lemob lel wf comor1 comcom7
-      comor2 comcom2 com2an fh1r anabs dff 2or or0 3tr ler wt id ax-a2 orabs
-      3tr1 df-t 2an an1 coman1 coman2 com2or fh3 df-i1 le3tr1 ) AEZCFZWFACEZGZF
-      ZGZBEZBCFZGZWFBCHWGWNWJWGWMWLCFZGZWNWGACFZWGGZWPWGWQIACJZCFBCJZCFWRWPWSWT
-      CDKACLBCLMNWMWNWOWMWLIWLCWMOPQWJWLWMWJWLBWHFZGZWLCGZFZWLWJXBXCXBWJBXCFZAW
-      GGZXBEZWJEZXEWFCGZXFFZXFXEWSACGZFXJXEWSXKXEWOWLWHFZGZXEGZWSXEXMIWSXNWSWTX
-      NDBCRSTNXEBCGZXKBXCCOXKXOXKXOWFWHFZXLXKEXOEWSWHFWTWHFXPXLWSWTWHDKACUABCUA
-      MACUBBCUBMUCTNUDACUENXIXFUFQXEBXAEZFXGXCXQBBCUGZUHBXAUISXFAWIEZGXHWGXSAAC
-      UJUKAWIULSUMUNWFXCWIWFXIXCWFCUOWSCGWTCGXIXCWSWTCDUPACUQBCUQMNURUDXDWLXCFZ
-      XAXCFZGWLUSGWLXCWLXAWLCUTZXCBWHXCBYBVAXCCWLCVBVCVDVEXTWLYAUSWLCVFYAXAXQFZ
-      USXCXQXAXRUHUSYCXAVGTSVHWLVIVJNVKPWFVLFZWGWFGZWGWIGZFWFWKWFYEVLYFWFWFWFYE
-      WFVMZYGYEWFWGGWFWGWFVNWFCVOSVPVLWGWGEZGZYFWGVQYFYIWIYHWGACULUKTSVRYDWFWFV
-      STWGWFWIWFCVTZWGAWHWGAYJVAWGCWFCWAVCWBWCVPBCWDWE $.
+      ( wn wa wo leor wi3 u3lemab 3tr2 lbtr leao1 lel2or letr ax-r2 ax-r1 wf wt
+      ran wi1 df-i3 u3lemanb anor3 con1 ler2an u3lem15 lear oran2 lan anor1 lor
+      anor2 oran1 le3tr2 lecon1 leo ax-r5 u3lemob comor1 comcom7 comor2 comcom2
+      lel com2an fh1r anabs dff 2or or0 3tr ler id ax-a2 orabs 3tr1 df-t coman1
+      2an an1 coman2 com2or fh3 df-i1 le3tr1 ) AEZCFZWFACEZGZFZGZBEZBCFZGZWFBCU
+      AWGWNWJWGWMWLCFZGZWNWGACFZWGGZWPWGWQHACIZCFBCIZCFWRWPWSWTCDTACJBCJKLWMWNW
+      OWMWLHWLCWMMNOWJWLWMWJWLBWHFZGZWLCGZFZWLWJXBXCXBWJBXCFZAWGGZXBEZWJEZXEWFC
+      GZXFFZXFXEWSACGZFXJXEWSXKXEWOWLWHFZGZXEGZWSXEXMHWSXNWSWTXNDBCUBPQLXEBCGZX
+      KBXCCMXKXOXKXOWFWHFZXLXKEXOEWSWHFWTWHFXPXLWSWTWHDTACUCBCUCKACUDBCUDKUEQLU
+      FACUGLXIXFUHOXEBXAEZFXGXCXQBBCUIZUJBXAUKPXFAWIEZGXHWGXSAACUMULAWIUNPUOUPW
+      FXCWIWFXIXCWFCUQWSCGWTCGXIXCWSWTCDURACUSBCUSKLVDUFXDWLXCFZXAXCFZGWLRGWLXC
+      WLXAWLCUTZXCBWHXCBYBVAXCCWLCVBVCVEVFXTWLYARWLCVGYAXAXQFZRXCXQXAXRUJRYCXAV
+      HQPVIWLVJVKLVLNWFSFZWGWFGZWGWIGZFWFWKWFYESYFWFWFWFYEWFVMZYGYEWFWGGWFWGWFV
+      NWFCVOPVPSWGWGEZGZYFWGVQYFYIWIYHWGACUNULQPVSYDWFWFVTQWGWFWIWFCVRZWGAWHWGA
+      YJVAWGCWFCWAVCWBWCVPBCWDWE $.
       $( [7-Aug-01] $)
 
     $( Lemma for negated antecedent identity. $)
     neg3ant1 $p |- ( a ->1 c ) = ( b ->1 c ) $=
-      ( wn wa wo wi1 neg3antlem2 neg3antlem1 lel2or df-i1 lbtr wi3 ax-r1 lebi
-      3tr1 ) AEZACFZGZBEZBCFZGZACHZBCHZTUCTUEUCRUESABCDIABCDJKBCLZMUCUDTUAUDUBB
-      ACACNBCNDOZIBACUGJKACLZMPUHUFQ $.
+      ( wn wa wi1 neg3antlem2 neg3antlem1 lel2or df-i1 lbtr wi3 ax-r1 lebi 3tr1
+      wo ) AEZACFZQZBEZBCFZQZACGZBCGZTUCTUEUCRUESABCDHABCDIJBCKZLUCUDTUAUDUBBAC
+      ACMBCMDNZHBACUGIJACKZLOUHUFP $.
       $( [7-Aug-01] $)
   $}
 
@@ -7385,26 +7334,24 @@ $)
     elimcons.2 $e |- ( a ^ c ) =< ( b v c ' ) $.
     $( Lemma for consequent elimination law. $)
     elimconslem $p |- a =< ( b v c ' ) $=
-      ( wn wo wa wt df-t lecon oran3 ax-r1 lbtr lelor bltr lelan an1 comor1
-      comcom7 df-a lecom comcom6 fh2c le3tr2 wi1 df-i1 3tr2 lor ax-r4 3tr1
-      lear leror letr ax-a2 leao1 df-le2 ax-r2 ) ABCFZGZBBFZUSGZHZGZUTAAUTHZVCG
-      ZVDAVEAAFZUSGZHZGZVFAIHAUTVHGZHAVJIVKAIUTUTFZGVKUTJVLVHUTVLACHZFZVHVMUTEK
-      VHVNACLMNOPQARVHAUTVHAVGUSSTVHUTVHFZUTVOVMUTVMVOACUAZMEPUBUCUDUEVIVCVEVGV
-      OGZFVAVBFZGZFVIVCVQVSVGVMGZVABCHZGZVQVSACUFBCUFVTWBDACUGBCUGUHVMVOVGVPUIW
-      AVRVABCUAUIUHUJAVHUABVBUAUKUINVEUTVCAUTULUMUNVDVCUTGUTUTVCUOVCUTBVBUSUPUQ
-      URN $.
+      ( wn wo wa wt df-t lecon oran3 ax-r1 lbtr bltr df-a wi1 df-i1 3tr2 lor
+      lelor lelan an1 comor1 comcom7 lecom comcom6 fh2c le3tr2 ax-r4 3tr1 leror
+      lear letr ax-a2 leao1 df-le2 ax-r2 ) ABCFZGZBBFZUSGZHZGZUTAAUTHZVCGZVDAVE
+      AAFZUSGZHZGZVFAIHAUTVHGZHAVJIVKAIUTUTFZGVKUTJVLVHUTVLACHZFZVHVMUTEKVHVNAC
+      LMNUAOUBAUCVHAUTVHAVGUSUDUEVHUTVHFZUTVOVMUTVMVOACPZMEOUFUGUHUIVIVCVEVGVOG
+      ZFVAVBFZGZFVIVCVQVSVGVMGZVABCHZGZVQVSACQBCQVTWBDACRBCRSVMVOVGVPTWAVRVABCP
+      TSUJAVHPBVBPUKTNVEUTVCAUTUMULUNVDVCUTGUTUTVCUOVCUTBVBUSUPUQURN $.
       $( [3-Mar-02] $)
 
     $( Consequent elimination law. $)
     elimcons $p |- a =< b $=
-      ( wn wo wa wt df-t elimconslem leror bltr lelan an1 comor1 comcom2 lecom
-      comcom3 comcom fh2 le3tr2 wi1 negant df-i1 3tr2 anor2 lor ax-r1 ax-r4
-      df-a 3tr1 ax-r5 lbtr lear lelor letr lea df-le2 lecon1 ) BABFZAFZACFZGZHZ
-      VBGZVBVAVEVAVBHZGZVFVAVABVCGZHZVGGZVHVAIHVAVIVBGZHVAVKIVLVAIAVBGVLAJAVIVB
-      ABCDEKZLMNVAOVIVAVBVIBBVCPQVBVIAVIAVIVMRSTUAUBVJVEVGVAFZVIFZGZFVBFZVDFZGZ
-      FVJVEVPVSVSVPVQVBCHZGZVNVACHZGZVSVPVBCUCVACUCWAWCABCDUDVBCUEVACUEUFVTVRVQ
-      ACUGUHWBVOVNBCUGUHUFUIUJVAVIUKVBVDUKULUMUNVGVBVEVAVBUOUPUQVEVBVBVDURUSUNU
-      T $.
+      ( wn wo wa df-t elimconslem leror bltr wi1 df-i1 3tr2 anor2 lor df-a lbtr
+      wt lelan an1 comor1 comcom2 lecom comcom3 comcom le3tr2 negant ax-r1 3tr1
+      fh2 ax-r4 ax-r5 lear lelor letr lea df-le2 lecon1 ) BABFZAFZACFZGZHZVBGZV
+      BVAVEVAVBHZGZVFVAVABVCGZHZVGGZVHVATHVAVIVBGZHVAVKTVLVATAVBGVLAIAVIVBABCDE
+      JZKLUAVAUBVIVAVBVIBBVCUCUDVBVIAVIAVIVMUEUFUGULUHVJVEVGVAFZVIFZGZFVBFZVDFZ
+      GZFVJVEVPVSVSVPVQVBCHZGZVNVACHZGZVSVPVBCMVACMWAWCABCDUIVBCNVACNOVTVRVQACP
+      QWBVOVNBCPQOUJUMVAVIRVBVDRUKUNSVGVBVEVAVBUOUPUQVEVBVBVDURUSSUT $.
       $( [3-Mar-02] $)
   $}
 
@@ -7414,49 +7361,48 @@ $)
                    ( b v ( c ' v ( a ->1 c ) ' ) ) $.
     $( Consequent elimination law. $)
     elimcons2 $p |- a =< b $=
-      ( wi1 wa wn wo ax-r1 df-i1 ax-r2 lan anass leor df2le2 3tr ax-r4
-      ud1lem0c lor ax-a2 ax-a3 lea df-le2 ax-r5 le3tr2 elimcons ) ABCDACBCFZGZG
-      ZBCHZACFZHZIZIZACGZBUKIZEUJACAHZUPIZGZGZUPUSGZUPUIUTAUHUSCUHULUSULUHDJACK
-      LMMVBVAACUSNJUPUSUPUROPQUOBBBHUKIZGZUKIZIZBVDIZUKIZUQUNVEBUNUKVDIVEUMVDUK
-      UMUHHVDULUHDRBCSLTUKVDUALTVHVFBVDUKUBJVGBUKVGVDBIBBVDUAVDBBVCUCUDLUEQUFUG
-      $.
+      ( wi1 wa wn ax-r1 df-i1 ax-r2 lan anass leor df2le2 3tr ax-r4 lor ax-a2
+      wo ud1lem0c ax-a3 lea df-le2 ax-r5 le3tr2 elimcons ) ABCDACBCFZGZGZBCHZAC
+      FZHZTZTZACGZBUKTZEUJACAHZUPTZGZGZUPUSGZUPUIUTAUHUSCUHULUSULUHDIACJKLLVBVA
+      ACUSMIUPUSUPURNOPUOBBBHUKTZGZUKTZTZBVDTZUKTZUQUNVEBUNUKVDTVEUMVDUKUMUHHVD
+      ULUHDQBCUAKRUKVDSKRVHVFBVDUKUBIVGBUKVGVDBTBBVDSVDBBVCUCUDKUEPUFUG $.
       $( [12-Mar-02] $)
   $}
 
   $( Lemma for biconditional commutation law. $)
   comanblem1 $p |- ( ( a == c ) ^ ( b == c ) ) =
                 ( ( ( a v c ) ' v ( ( a ^ b ) ^ c ) ) ^ ( b ->1 c ) ) $=
-    ( wi1 wa tb wo wn an4 u1lembi 2an an32 df-i1 comanr1 comcom3 fh3 ax-r1
-    ax-r2 lan ran lea ancom leor bltr letr lecom com2an comcom fh2c wf coman2
-    comcom2 coman1 fh2rc anass dff an0 3tr lor or0 anor3 bctr anandi leran
-    df2le2 2or lear df-le2 3tr2 ) ACDZCADZEZBCDZCBDZEZEVJVMEVKVNEZEZACFZBCFZEAC
-    GHZABEZCEZGZVMEZVJVKVMVNIVLVRVOVSACJBCJKVQVJVPEZVMEWDVJVMVPLWEWCVMWEVJCHZCA
-    EZCBEZEZGZEAHZACEZGZWJEZWCVPWJVJVPWFWGGZWFWHGZEZWJVKWOVNWPCAMCBMKWJWQWFWGWH
-    CWGCANOZCWHCBNOZPQRSVJWMWJACMTWNWMWFEZWMWIEZGWCWIWMWFWIWMWIWGWMWGWHUAWGWLWM
-    CAUBWLWKUCUDUEUFWFWIWFWGWHWRWSUGUHUIWTVTXAWBWTWKWFEZWLWFEZGXBUJGZVTWLWFWKWL
-    CACUKULWLAACUMULZUNXCUJXBXCACWFEZEZAUJEZUJACWFUOXHXGUJXFACUPSQAUQURUSXDXBVT
-    XBUTACVARURXAWKWIEZWLWIEZGWKWBEZWBGWBWLWIWKWLWGWIACUBWGWHNVBXEUNXIXKXJWBWIW
-    BWKWICWAEZWBXLWICABVCQCWAUBRZSXJWLWBEWBWLEWBWIWBWLXMSWLWBUBWBWLWAACABUAVDVE
-    URVFXKWBWKWBVGVHURVFRURTRVI $.
+    ( wi1 wa tb wo wn u1lembi 2an df-i1 comanr1 comcom3 ax-r1 ax-r2 lan ran 3tr
+    ancom wf an4 an32 fh3 lea leor bltr letr lecom com2an comcom coman2 comcom2
+    fh2c coman1 fh2rc anass dff an0 lor or0 anor3 bctr anandi leran df2le2 lear
+    2or df-le2 3tr2 ) ACDZCADZEZBCDZCBDZEZEVJVMEVKVNEZEZACFZBCFZEACGHZABEZCEZGZ
+    VMEZVJVKVMVNUAVLVRVOVSACIBCIJVQVJVPEZVMEWDVJVMVPUBWEWCVMWEVJCHZCAEZCBEZEZGZ
+    EAHZACEZGZWJEZWCVPWJVJVPWFWGGZWFWHGZEZWJVKWOVNWPCAKCBKJWJWQWFWGWHCWGCALMZCW
+    HCBLMZUCNOPVJWMWJACKQWNWMWFEZWMWIEZGWCWIWMWFWIWMWIWGWMWGWHUDWGWLWMCASWLWKUE
+    UFUGUHWFWIWFWGWHWRWSUIUJUMWTVTXAWBWTWKWFEZWLWFEZGXBTGZVTWLWFWKWLCACUKULWLAA
+    CUNULZUOXCTXBXCACWFEZEZATEZTACWFUPXHXGTXFACUQPNAURRUSXDXBVTXBUTACVAORXAWKWI
+    EZWLWIEZGWKWBEZWBGWBWLWIWKWLWGWIACSWGWHLVBXEUOXIXKXJWBWIWBWKWICWAEZWBXLWICA
+    BVCNCWASOZPXJWLWBEWBWLEWBWIWBWLXMPWLWBSWBWLWAACABUDVDVERVGXKWBWKWBVFVHRVGOR
+    QOVI $.
     $( [1-Dec-99] $)
 
   $( Lemma for biconditional commutation law. $)
   comanblem2 $p |- ( ( a ^ b ) ^ ( ( a == c ) ^ ( b == c ) ) ) =
                    ( ( a ^ b ) ^ c ) $=
-    ( wa tb wn wo dfb 2an lan wf comanr1 comcom6 fh1 anass ax-r1 anidm ran
-    ax-r2 dff an0r 3tr2 2or or0 3tr an4 anandir 3tr1 ) ABDZACEZBCEZDZDUIACDZAFZ
-    CFZDZGZBCDZBFZUODZGZDZDZUICDZULVBUIUJUQUKVAACHBCHIJAUQDZBVADZDUMURDVCVDVEUM
-    VFURVEAUMDZAUPDZGUMKGUMAUMUPACLAUPUNUOLMNVGUMVHKVGAADZCDZUMVJVGAACOPVIACAQR
-    SAUNDZUODZKUODZVHKVMVLKVKUOATRPAUNUOOUOUAZUBUCUMUDUEVFBURDZBUTDZGURKGURBURU
-    TBCLBUTUSUOLMNVOURVPKVOBBDZCDZURVRVOBBCOPVQBCBQRSBUSDZUODZVMVPKVMVTKVSUOBTR
-    PBUSUOOVNUBUCURUDUEIABUQVAUFABCUGUHS $.
+    ( wa tb wn wo dfb 2an wf comanr1 comcom6 fh1 anass ax-r1 anidm ran dff 3tr2
+    ax-r2 lan an0r 2or or0 3tr an4 anandir 3tr1 ) ABDZACEZBCEZDZDUIACDZAFZCFZDZ
+    GZBCDZBFZUODZGZDZDZUICDZULVBUIUJUQUKVAACHBCHIUAAUQDZBVADZDUMURDVCVDVEUMVFUR
+    VEAUMDZAUPDZGUMJGUMAUMUPACKAUPUNUOKLMVGUMVHJVGAADZCDZUMVJVGAACNOVIACAPQTAUN
+    DZUODZJUODZVHJVMVLJVKUOARQOAUNUONUOUBZSUCUMUDUEVFBURDZBUTDZGURJGURBURUTBCKB
+    UTUSUOKLMVOURVPJVOBBDZCDZURVRVOBBCNOVQBCBPQTBUSDZUODZVMVPJVMVTJVSUOBRQOBUSU
+    ONVNSUCURUDUEIABUQVAUFABCUGUHT $.
     $( [1-Dec-99] $)
 
   $( Biconditional commutation law. $)
   comanb $p |- ( a ^ b ) C ( ( a == c ) ^ ( b == c ) ) $=
-    ( wa tb wo wn wi1 lea leo letr lecon leror comanblem1 df-i1 comanblem2 lor
-    ax-r2 le3tr1 i1com ) ABDZACEBCEDZACFZGZUACDZFZBCHZDZUAGZUEFZUBUAUBHZUHUFUJU
-    FUGIUDUIUEUAUCUAAUCABIACJKLMKABCNUKUIUAUBDZFUJUAUBOULUEUIABCPQRST $.
+    ( wa tb wo wn wi1 lea leo lecon leror comanblem1 df-i1 comanblem2 lor ax-r2
+    letr le3tr1 i1com ) ABDZACEBCEDZACFZGZUACDZFZBCHZDZUAGZUEFZUBUAUBHZUHUFUJUF
+    UGIUDUIUEUAUCUAAUCABIACJRKLRABCMUKUIUAUBDZFUJUAUBNULUEUIABCOPQST $.
     $( [1-Dec-99] $)
 
   $( Biconditional commutation law. $)
@@ -7469,11 +7415,11 @@ $)
     mhlem.1 $e |- ( a v b ) =< ( c v d ) ' $.
     $( Lemma for Lemma 7.1 of Kalmbach, p. 91. $)
     mhlemlem1 $p |- ( ( ( a v b ) v c ) ^ ( a v ( c v d ) ) ) = ( a v c ) $=
-      ( wo wa leo ler lecom wn letr comcom7 fh2 ancom ax-a3 lan anabs 3tr wf
-      comor1 lecon3 fh1rc ortha 2or or0r ax-r2 ) ABFZCFZACDFZFGUIAGZUIUJGZFACFA
-      UIUJAUIAUHCABHZIJAUJAUJKZAUHUNUMELJMNUKAULCUKAUIGAABCFZFZGAUIAOUIUPAABCPQ
-      AUORSULUHUJGZCUJGZFTCFCUJCUHCDUAUJUHUJUHKUHUJEUBJMUCUQTURCUHUJEUDCDRUECUF
-      SUEUG $.
+      ( wo wa leo ler lecom wn letr comcom7 fh2 ancom ax-a3 anabs 3tr wf 2or
+      lan comor1 lecon3 fh1rc ortha or0r ax-r2 ) ABFZCFZACDFZFGUIAGZUIUJGZFACFA
+      UIUJAUIAUHCABHZIJAUJAUJKZAUHUNUMELJMNUKAULCUKAUIGAABCFZFZGAUIAOUIUPAABCPU
+      AAUOQRULUHUJGZCUJGZFSCFCUJCUHCDUBUJUHUJUHKUHUJEUCJMUDUQSURCUHUJEUECDQTCUF
+      RTUG $.
       $( [10-Mar-02] $)
 
     $( Lemma for Lemma 7.1 of Kalmbach, p. 91. $)
@@ -7485,21 +7431,21 @@ $)
 
     $( Lemma 7.1 of Kalmbach, p. 91. $)
     mhlem $p |- ( ( a v c ) ^ ( b v d ) ) = ( ( a ^ b ) v ( c ^ d ) ) $=
-      ( wo wa comor1 comor2 com2an wn lecom comcom7 fh1r leao1 letr comcom
-      fh2rc 2or lerr fh3 id mhlemlem1 mhlemlem2 2an 3tr1 an4 ancom ax-a2
-      df-le2 lor ax-r1 or12 3tr lan leo leor fh3r lecon3 ax-r2 com2or fh2
-      ax-a3 ax-r5 wf le2an lbtr ortha or0 df2le2 lear leid ler2an lebi ) ACFZBD
-      FZGZABGZABFZGZCDFZVSGZVRCDGZGZFZFZWAWCGZFZVRWCFVQVTWBFZWDFZWGFZWHVRWAFZVS
-      GZWLWCGZFZWIWDWGFZFVQWKWMWIWNWPVSVRWAVSABABHABIJZVSWAVSWAKZELMZNWAWCVRWAC
-      DCDHCDIJVRWAVRWAVRWRVRVSWRABBOZEPLMZQRSVQWLVSWCFZGZWOVRWAWCVSFZGFZWLVRXDF
-      ZGZVQXCVRWAXDXAVRXDVRVSWCWTTLUAZVQVSCFZAWAFZGZVSDFZBWAFZGZGZXEVQVQVQXOVQU
-      BZXPXKVOXNVPABCDEUCABCDEUDUEUFXOXIXLGZXJXMGZGXRXQGZXEXIXJXLXMUGXQXRUHXCXG
-      XSXEXBXFWLXBXDWCVRVSFZFZXFVSWCUIYAXDXTVSWCVRVSWTUJUKULWCVRVSUMUNUOZXCXSWL
-      XRXBXQWAABAWAAWAAWRAVSWRABUPEPLMQBWABWABWRBVSWRBAUQEPLMQURVSCDCVSCVSCVSKZ
-      CWAYCCDUPVSWAEUSZPLMQDVSDVSDYCDWAYCDCUQYDPLMQUAUEULXHUFUNUTYBUFVSWLWCVSVR
-      WAWQWSVAWCVSWCVSWCYCWCWAYCCDDOZYDPLMQVBUTWIWDWGVCUFWJWFWGVTWBWDVCVDUTWFVR
-      WGWCWFVTVEFVTVRWEVEVTWEVSWAGZVEWDWBFWBWEYFWDWBWDYFWBVRVSWCWAWTYEVFVSWAUHZ
-      VGUJWBWDUIYGUFVSWAEVHUTUKVTVIVRVSWTVJUNWGWCWAWCVKWCWAWCYEWCVLVMVNSUT $.
+      ( wo wa comor1 comor2 com2an wn lecom comcom7 leao1 letr comcom 3tr ax-r2
+      3tr1 wf fh1r fh2rc 2or lerr fh3 id mhlemlem1 mhlemlem2 ancom ax-a2 df-le2
+      2an an4 lor ax-r1 or12 lan leor fh3r lecon3 com2or ax-a3 ax-r5 le2an lbtr
+      leo fh2 ortha or0 df2le2 lear leid ler2an lebi ) ACFZBDFZGZABGZABFZGZCDFZ
+      VSGZVRCDGZGZFZFZWAWCGZFZVRWCFVQVTWBFZWDFZWGFZWHVRWAFZVSGZWLWCGZFZWIWDWGFZ
+      FVQWKWMWIWNWPVSVRWAVSABABHABIJZVSWAVSWAKZELMZUAWAWCVRWACDCDHCDIJVRWAVRWAV
+      RWRVRVSWRABBNZEOLMZPUBUCVQWLVSWCFZGZWOVRWAWCVSFZGFZWLVRXDFZGZVQXCVRWAXDXA
+      VRXDVRVSWCWTUDLUEZVQVSCFZAWAFZGZVSDFZBWAFZGZGZXEVQVQVQXOVQUFZXPXKVOXNVPAB
+      CDEUGABCDEUHULSXOXIXLGZXJXMGZGXRXQGZXEXIXJXLXMUMXQXRUIXCXGXSXEXBXFWLXBXDW
+      CVRVSFZFZXFVSWCUJYAXDXTVSWCVRVSWTUKUNUOWCVRVSUPQUQZXCXSWLXRXBXQWAABAWAAWA
+      AWRAVSWRABVFEOLMPBWABWABWRBVSWRBAUREOLMPUSVSCDCVSCVSCVSKZCWAYCCDVFVSWAEUT
+      ZOLMPDVSDVSDYCDWAYCDCURYDOLMPUEULUOXHSQRYBSVSWLWCVSVRWAWQWSVAWCVSWCVSWCYC
+      WCWAYCCDDNZYDOLMPVGRWIWDWGVBSWJWFWGVTWBWDVBVCRWFVRWGWCWFVTTFVTVRWETVTWEVS
+      WAGZTWDWBFWBWEYFWDWBWDYFWBVRVSWCWAWTYEVDVSWAUIZVEUKWBWDUJYGSVSWAEVHRUNVTV
+      IVRVSWTVJQWGWCWAWCVKWCWAWCYEWCVLVMVNUCR $.
       $( [10-Mar-02] $)
   $}
 
@@ -7508,14 +7454,14 @@ $)
     mhlem1.2 $e |- c C b $.
     $( Lemma for Marsden-Herman distributive law. $)
     mhlem1 $p |- ( ( a v b ) ^ ( b ' v c ) ) = ( ( a ^ b ' ) v ( b ^ c ) ) $=
-      ( wo wn wa wt df-t lan an1 comor2 comcom2 fh1 ax-a2 wf comcom comid
-      comcom3 fh1r dff lor ax-r1 or0 3tr ancom anabs 2or 3tr2 ran comorr
-      comcom6 comanr2 fh2rc leao2 df2le2 ax-r5 ax-r2 or0r ) ABFZBGZCFZHAVBHZBFZ
-      VCHZVDBVCHZFZVDBCHZFVAVEVCVAIHVABVBFZHZVAVEIVJVABJKVALVKVABHZVAVBHZFVMVLF
-      VEVABVBABMZVABVNNOVLVMPVMVDVLBVMVDBVBHZFZVDQFZVDVBABAVBABDNRBBBSZTUAVQVPQ
-      VOVDBUBZUCUDVDUEUFVLBVAHBBAFZHBVABUGVAVTBABPKBAUHUFUIUFUJUKVFVDVCHZVGFVHB
-      VCVDBVCVBCULUMBVDAVBUNUMUOWAVDVGVDVCVBACUPUQURUSVGVIVDVGVOVIFZQVIFZVIBVBC
-      BBVRNCBEROWCWBQVOVIVSURUDVIUTUFUCUF $.
+      ( wo wn wa wt lan comcom2 fh1 ax-a2 wf comcom lor ax-r1 3tr comcom6 ax-r5
+      df-t an1 comor2 comid comcom3 fh1r dff or0 ancom anabs 2or comorr comanr2
+      3tr2 ran fh2rc leao2 df2le2 ax-r2 or0r ) ABFZBGZCFZHAVBHZBFZVCHZVDBVCHZFZ
+      VDBCHZFVAVEVCVAIHVABVBFZHZVAVEIVJVABUAJVAUBVKVABHZVAVBHZFVMVLFVEVABVBABUC
+      ZVABVNKLVLVMMVMVDVLBVMVDBVBHZFZVDNFZVDVBABAVBABDKOBBBUDZUEUFVQVPNVOVDBUGZ
+      PQVDUHRVLBVAHBBAFZHBVABUIVAVTBABMJBAUJRUKRUNUOVFVDVCHZVGFVHBVCVDBVCVBCULS
+      BVDAVBUMSUPWAVDVGVDVCVBACUQURTUSVGVIVDVGVOVIFZNVIFZVIBVBCBBVRKCBEOLWCWBNV
+      OVIVSTQVIUTRPR $.
       $( [10-Mar-02] $)
   $}
 
@@ -7529,27 +7475,27 @@ $)
                      ( ( b v d ) ^ ( a ' v d ' ) ) ) =
                  ( ( ( a ^ c ' ) ^ ( b ^ d ' ) ) v
                      ( ( c ^ b ' ) ^ ( d ^ a ' ) ) ) $=
-      ( wo wn wa comcom3 mhlem1 ax-a2 lan ax-r2 2an leao2 leao3 ler2an lel2or
-      oran2 anor3 lbtr mhlem ) ACICJZBJZIKZBDIZAJZDJZIZKZKAUFKZCUGKZIZBUKKZDUJK
-      ZIZKUNUQKUOURKIUHUPUMUSACUGEBCGLMUMUIUKUJIZKUSULUTUIUJUKNOBDUJHADFLMPQUNU
-      QUOURUNUQIUFBIZUKAIZKZUOURIJZUNVCUQUNVAVBUFABRAUFUKSTUQVAVBBUKUFSUKBARTUA
-      VCUOJZURJZKVDVAVEVBVFCBUBDAUBQUOURUCPUDUEP $.
+      ( wo wn wa comcom3 mhlem1 ax-a2 ax-r2 2an leao2 leao3 ler2an oran2 lel2or
+      lan anor3 lbtr mhlem ) ACICJZBJZIKZBDIZAJZDJZIZKZKAUFKZCUGKZIZBUKKZDUJKZI
+      ZKUNUQKUOURKIUHUPUMUSACUGEBCGLMUMUIUKUJIZKUSULUTUIUJUKNUBBDUJHADFLMOPUNUQ
+      UOURUNUQIUFBIZUKAIZKZUOURIJZUNVCUQUNVAVBUFABQAUFUKRSUQVAVBBUKUFRUKBAQSUAV
+      CUOJZURJZKVDVAVEVBVFCBTDATPUOURUCOUDUEO $.
       $( [10-Mar-02] $)
 
     $( Marsden-Herman distributive law.  Lemma 7.2 of Kalmbach, p. 91. $)
     mh $p |- ( ( a v c ) ^ ( b v d ) )
                = ( ( ( a ^ b ) v ( a ^ d ) ) v ( ( c ^ b ) v ( c ^ d ) ) ) $=
-      ( wa wo leao1 leao2 ler2an leao4 lel2or leao3 wn wf anass ax-r1 an4
-      mhlem2 ax-r2 lea le2an leo letr leor bltr leran anor3 ax-a2 or12 ax-a3
-      3tr lor 3tr1 ax-r4 oran3 2an ran lan dff le3tr1 le0 lebi oml3 ) ABIZADIZJ
-      ZCBIZCDIZJZJZACJZBDJZIZVNVQVJVQVMVHVQVIVHVOVPABCKBADLMVIVOVPADCKDABNMOVKV
-      QVLVKVOVPCBAPBCDLMVLVOVPCDAPDCBNMOOVQVNQZIZRVQCQZBQZJZAQZDQZJZIZVHVLJZQZI
-      ZIZWGWHIZVSRWJVQWFIZWHIZWKWMWJVQWFWHSTWLWGWHWLAVTIZBWDIZIZCWAIZDWCIZIZJZW
-      GWLVOWBIVPWEIIWTVOVPWBWEUAABCDEFGHUBUCWPWGWSWPVHWGWNAWOBAVTUDBWDUDUEVHVLU
-      FUGWSVLWGWQCWRDCWAUDDWCUDUEVLVHUHUGOUIUJUIVRWIVQVKVIJZWGJZQZXAQZWHIZVRWIX
-      EXCXAWGUKTVNXBVNVMVJJZXBVJVMULVKVLVJJZJVKVIWGJZJXFXBXGXHVKXGVHVLVIJJZWGVI
-      JZXHVLVHVIUMXJXIVHVLVIUNTWGVIULUOUPVKVLVJUNVKVIWGUNUQUCURWFXDWHWFVKQZVIQZ
-      IXDWBXKWEXLCBUSADUSUTVKVIUKUCVAUQVBWGVCVDVSVEVFVGT $.
+      ( wa wo leao1 leao2 ler2an leao4 lel2or wn ax-r1 ax-r2 lea ax-a3 leao3 wf
+      anass an4 mhlem2 le2an leo letr leor bltr leran anor3 ax-a2 or12 3tr 3tr1
+      lor ax-r4 oran3 2an ran lan dff le3tr1 le0 lebi oml3 ) ABIZADIZJZCBIZCDIZ
+      JZJZACJZBDJZIZVNVQVJVQVMVHVQVIVHVOVPABCKBADLMVIVOVPADCKDABNMOVKVQVLVKVOVP
+      CBAUABCDLMVLVOVPCDAUADCBNMOOVQVNPZIZUBVQCPZBPZJZAPZDPZJZIZVHVLJZPZIZIZWGW
+      HIZVSUBWJVQWFIZWHIZWKWMWJVQWFWHUCQWLWGWHWLAVTIZBWDIZIZCWAIZDWCIZIZJZWGWLV
+      OWBIVPWEIIWTVOVPWBWEUDABCDEFGHUERWPWGWSWPVHWGWNAWOBAVTSBWDSUFVHVLUGUHWSVL
+      WGWQCWRDCWASDWCSUFVLVHUIUHOUJUKUJVRWIVQVKVIJZWGJZPZXAPZWHIZVRWIXEXCXAWGUL
+      QVNXBVNVMVJJZXBVJVMUMVKVLVJJZJVKVIWGJZJXFXBXGXHVKXGVHVLVIJJZWGVIJZXHVLVHV
+      IUNXJXIVHVLVITQWGVIUMUOUQVKVLVJTVKVIWGTUPRURWFXDWHWFVKPZVIPZIXDWBXKWEXLCB
+      USADUSUTVKVIULRVAUPVBWGVCVDVSVEVFVGQ $.
       $( [10-Mar-02] $)
   $}
 
@@ -7568,31 +7514,30 @@ $)
     $( Lemma for Marsden-Herman distributive law. $)
     marsdenlem2 $p |- ( ( c v d ) ^ ( b ' v c ' ) )
                       = ( ( ( b ' ^ c ) v ( c ' ^ d ) ) v ( b ' ^ d ) ) $=
-      ( wo wn wa ancom comorr comcom3 comcom4 comcom fh2rc comcom6 fh2 wf
-      comid comcom2 dff ax-r2 ax-r5 ax-r1 or0r 3tr 2or or32 ) CDIZBJZCJZIZKUNUK
-      KULUKKZUMUKKZIZULCKZUMDKZIULDKZIZUKUNLUMUKULCUKCDMNULUMBCFOPZQUQURUTIZUSI
-      VAUOVCUPUSCULDCULVBRGSUPUMCKZUSIZTUSIZUSCUMDCCCUAUBGSVFVETVDUSTCUMKVDCUCC
-      UMLUDUEUFUSUGUHUIURUTUSUJUDUH $.
+      ( wo wn wa ancom comorr comcom3 comcom4 comcom fh2 wf ax-r2 3tr fh2rc dff
+      comcom6 comid comcom2 ax-r5 ax-r1 or0r 2or or32 ) CDIZBJZCJZIZKUNUKKULUKK
+      ZUMUKKZIZULCKZUMDKZIULDKZIZUKUNLUMUKULCUKCDMNULUMBCFOPZUAUQURUTIZUSIVAUOV
+      CUPUSCULDCULVBUCGQUPUMCKZUSIZRUSIZUSCUMDCCCUDUEGQVFVERVDUSRCUMKVDCUBCUMLS
+      UFUGUSUHTUIURUTUSUJST $.
       $( [26-Feb-02] $)
 
     $( Lemma for Marsden-Herman distributive law. $)
     marsdenlem3 $p |- ( ( ( b ' ^ c ) v ( c ' ^ d ) ) ^ ( b ^ d ' ) ) = 0 $=
-      ( wn wa wo wf lea lecon lel lecom comcom7 comcom lear lerr oran2 lbtr
-      fh1r an4 ancom dff ax-r1 ax-r2 ran an0r 3tr lan an0 2or or0 ) BIZCJZCIZDJ
-      ZKBDIZJZJUQVAJZUSVAJZKLLKLVAUQUSUQVAUQVAUQVAIZUPVDCVABBUTMNOPQRUSVAUSVAUS
-      VDUSUPDKVDUSDUPURDSTBDUAUBPQRUCVBLVCLVBUPBJZCUTJZJLVFJLUPCBUTUDVELVFVEBUP
-      JZLUPBUELVGBUFUGUHUIVFUJUKVCURBJZDUTJZJVHLJLURDBUTUDVILVHLVIDUFUGULVHUMUK
-      UNLUOUK $.
+      ( wn wa wo wf lea lecom comcom7 comcom an4 dff ax-r1 3tr lecon lear oran2
+      lel lerr lbtr fh1r ancom ax-r2 ran an0r lan an0 2or or0 ) BIZCJZCIZDJZKBD
+      IZJZJUQVAJZUSVAJZKLLKLVAUQUSUQVAUQVAUQVAIZUPVDCVABBUTMUAUDNOPUSVAUSVAUSVD
+      USUPDKVDUSDUPURDUBUEBDUCUFNOPUGVBLVCLVBUPBJZCUTJZJLVFJLUPCBUTQVELVFVEBUPJ
+      ZLUPBUHLVGBRSUIUJVFUKTVCURBJZDUTJZJVHLJLURDBUTQVILVHLVIDRSULVHUMTUNLUOT
+      $.
       $( [26-Feb-02] $)
 
     $( Lemma for Marsden-Herman distributive law. $)
     marsdenlem4 $p |- ( ( ( a ' ^ b ) v ( a ^ d ' ) ) ^ ( b ' ^ d ) ) = 0 $=
-      ( wn wa wo wf leao3 oran1 lbtr lecom comcom7 leao4 oran2 fh1r ancom lan
-      an4 dff ax-r1 an0 ax-r2 3tr 2or or0 ) AIZBJZADIZJZKBIZDJZJULUPJZUNUPJZKLL
-      KLUPULUNUPULUPULIZUPAUOKUSUODAMABNOPQUPUNUPUNIZUPUKDKUTDUOUKRADSOPQTUQLUR
-      LUQULDUOJZJUKDJZBUOJZJZLUPVAULUODUAUBUKBDUOUCVDVBLJZLVEVDLVCVBBUDUBUEVBUF
-      UGUHURAUOJZUMDJZJVFLJLAUMUODUCVGLVFVGDUMJZLUMDUALVHDUDUEUGUBVFUFUHUILUJUH
-      $.
+      ( wn wa wo wf lbtr lecom comcom7 ancom lan an4 dff 3tr leao3 fh1r an0 2or
+      oran1 leao4 oran2 ax-r1 ax-r2 or0 ) AIZBJZADIZJZKBIZDJZJULUPJZUNUPJZKLLKL
+      UPULUNUPULUPULIZUPAUOKUSUODAUAABUEMNOUPUNUPUNIZUPUKDKUTDUOUKUFADUGMNOUBUQ
+      LURLUQULDUOJZJUKDJZBUOJZJZLUPVAULUODPQUKBDUORVDVBLJZLVEVDLVCVBBSQUHVBUCUI
+      TURAUOJZUMDJZJVFLJLAUMUODRVGLVFVGDUMJZLUMDPLVHDSUHUIQVFUCTUDLUJT $.
       $( [26-Feb-02] $)
 
     $( Marsden-Herman distributive law.  Corollary 3.3 of Beran, p. 259. $)
@@ -7605,27 +7550,27 @@ $)
   $( Lemma for OML proof of Mladen's conjecture, $)
   mlaconjolem $p |- ( ( a == c ) v ( b == c ) ) =<
                    ( ( c ^ ( a v b ) ) v ( c ' ^ ( a ' v b ' ) ) ) $=
-    ( tb wo wa wi2 wi1 wn orbile df-i2 oran3 ran lor ax-r1 ax-r2 df-i1 2an
-    comor1 comcom2 leao1 lecom comcom fh1 ancom omlan 3tr df2le2 2or ax-a2
-    lbtr ) ACDBCDEABFZCGZCABEZHZFZCUNFZCIZAIBIEZFZEZABCJUPCUSURFZEZURUQEZFVCURF
-    ZVCUQFZEZVAUMVCUOVDUMCULIZURFZEZVCULCKVCVJVBVICUSVHURABLMNOPCUNQRVCURUQVCCC
-    VBSTUQVCUQVCCUNVBUAZUBUCUDVGUTUQEVAVEUTVFUQVECUTEZURFURVLFUTVCVLURVBUTCUSUR
-    UENMVLURUECUSUFUGVFUQVCFUQVCUQUEUQVCVKUHPUIUTUQUJPUGUK $.
+    ( tb wo wa wi2 wi1 wn orbile df-i2 oran3 ran lor ax-r1 ax-r2 df-i1 2an 3tr
+    ancom comor1 comcom2 leao1 lecom comcom fh1 omlan df2le2 2or ax-a2 lbtr ) A
+    CDBCDEABFZCGZCABEZHZFZCUNFZCIZAIBIEZFZEZABCJUPCUSURFZEZURUQEZFVCURFZVCUQFZE
+    ZVAUMVCUOVDUMCULIZURFZEZVCULCKVCVJVBVICUSVHURABLMNOPCUNQRVCURUQVCCCVBUAUBUQ
+    VCUQVCCUNVBUCZUDUEUFVGUTUQEVAVEUTVFUQVECUTEZURFURVLFUTVCVLURVBUTCUSURTNMVLU
+    RTCUSUGSVFUQVCFUQVCUQTUQVCVKUHPUIUTUQUJPSUK $.
     $( [10-Mar-02] $)
 
   $( OML proof of Mladen's conjecture. $)
   mlaconjo $p |- ( ( a == b ) ^ ( ( a == c ) v ( b == c ) ) ) =<
                    ( a == c ) $=
-    ( tb wo wa wn dfb bile mlaconjolem le2an lea le2or leao1 oran lbtr lecom
-    comcom7 leor df-a lor oran1 ax-r2 lear mh wf an12 oran3 lan dff ax-r1 an0
-    3tr or0 ax-r5 or0r 2or le3tr1 letr ) ABDZACDZBCDEZFABFZAGZBGZFZEZCABEZFZCGZ
-    VDVEEZFZEZFZVAUTVGVBVMUTVGABHIABCJKVCVIFZVFVLFZEZACFZVDVJFZEVNVAVOVRVPVSVCA
-    VICABLCVHLKVFVDVLVJVDVELVJVKLKMVNVOVCVLFZEZVFVIFZVPEZEVQVCVIVFVLVCVFVCVFGZV
-    CVHWDABBNABOZPQRVCVLVCVLGZVCCVCEZWFVCCSWGCVKGZEZWFVCWHCABTUACVKUBZUCPQRVIVF
-    VIWDVIVHWDCVHUDWEPQRVIVLVIWFVIWIWFCVHWHNWJPQRUEWAVOWCVPWAVOUFEVOVTUFVOVTVJV
-    CVKFZFVJUFFUFVCVJVKUGWKUFVJWKVCVCGZFZUFVKWLVCABUHUIUFWMVCUJUKUCUIVJULUMUAVO
-    UNUCWCUFVPEVPWBUFVPWBCVFVHFZFCUFFUFVFCVHUGWNUFCWNVFWDFZUFVHWDVFWEUIUFWOVFUJ
-    UKUCUICULUMUOVPUPUCUQUCACHURUS $.
+    ( tb wo wa wn dfb le2an lea leao1 lbtr lecom comcom7 lor ax-r2 an12 lan dff
+    wf bile mlaconjolem le2or oran leor df-a oran1 lear oran3 ax-r1 an0 3tr or0
+    mh ax-r5 or0r 2or le3tr1 letr ) ABDZACDZBCDEZFABFZAGZBGZFZEZCABEZFZCGZVDVEE
+    ZFZEZFZVAUTVGVBVMUTVGABHUAABCUBIVCVIFZVFVLFZEZACFZVDVJFZEVNVAVOVRVPVSVCAVIC
+    ABJCVHJIVFVDVLVJVDVEJVJVKJIUCVNVOVCVLFZEZVFVIFZVPEZEVQVCVIVFVLVCVFVCVFGZVCV
+    HWDABBKABUDZLMNVCVLVCVLGZVCCVCEZWFVCCUEWGCVKGZEZWFVCWHCABUFOCVKUGZPLMNVIVFV
+    IWDVIVHWDCVHUHWELMNVIVLVIWFVIWIWFCVHWHKWJLMNUNWAVOWCVPWAVOTEVOVTTVOVTVJVCVK
+    FZFVJTFTVCVJVKQWKTVJWKVCVCGZFZTVKWLVCABUIRTWMVCSUJPRVJUKULOVOUMPWCTVPEVPWBT
+    VPWBCVFVHFZFCTFTVFCVHQWNTCWNVFWDFZTVHWDVFWERTWOVFSUJPRCUKULUOVPUPPUQPACHURU
+    S $.
     $( [10-Mar-02] $)
 
   $( Distributive law for identity. $)
@@ -7640,28 +7585,27 @@ $)
   mhcor1 $p |- ( ( ( ( a ->1 b ) ^ ( b ->2 c ) ) ^
                     ( c ->1 d ) ) ^ ( d ->2 a ) ) =
        ( ( ( a == b ) ^ ( b == c ) ) ^ ( c == d ) ) $=
-    ( wi2 wi1 wa wn wo tb anass imp3 ancom ax-r2 2an leao3 oran lbtr lecom
-    comcom7 comcom leao2 mh2 wf ran an4 lan 3tr 3tr1 dff ax-r1 an0r 3tr2 an0
-    2or or0 or0r ax-a2 bi4 ) BCEZCDFZGZABFZGZDAEZGZABGZCGDGZAHZBHZGZCHZGDHZGZIZ
-    VCUTGVAGZVEGABJBCJGCDJGVFVBVCVEGZGVJVLGZCDGZIZVMVIGZVGIZGZVOVBVCVEKVBVTVQWB
-    BCDLVQVEVCGWBVCVEMDABLNOWCVRWAGZVRVGGZIZVSWAGZVSVGGZIZIVNVHIVOVRVSWAVGVSVRV
-    SVRVSVRHZVSBCIZWJCDBPBCQZRSTUAVSWAVSWAHZVSDAIZWMDCAUBDAQZRSTVGWAVGWAVGWMVGW
-    NWMABDPWORSTUAVGVRVGWJVGWKWJBACUBWLRSTUCWFVNWIVHWFVNUDIVNWDVNWEUDVLVMGZVKGZ
-    VKWPGWDVNWPVKMWDVLVJGZWAGWPVJVIGZGWQVRWRWAVJVLMUEVLVJVMVIUFWSVKWPVJVIMUGUHV
-    KVLVMKUIWEVGVRGABVRGZGZUDVRVGMABVRKXAAUDGUDWTUDABVJGZVLGZUDVLGZWTUDXDXCUDXB
-    VLBUJUEUKBVJVLKVLULUMUGAUNNUHUOVNUPNWIUDVHIVHWGUDWHVHWGCDWAGZGCUDGUDCDWAKXE
-    UDCXEDVMGZVIGZUDXGXEDVMVIKUKUDXGUDUDVIGZXGXHUDVIULUKUDXFVIDUJUENUKNUGCUNUHW
-    HVGVSGZVHVSVGMVHXIVGCDKUKNUOVHUQNUOVNVHURUHUHVPVDVEVPVCVBGVDVCUTVAKVCVBMNUE
-    ABCDUSUI $.
+    ( wa wn wo tb anass ancom ax-r2 lbtr lecom comcom7 wf ran lan 3tr ax-r1 2or
+    wi2 wi1 imp3 2an leao3 oran comcom leao2 mh2 an4 3tr1 dff an0r 3tr2 an0 or0
+    or0r ax-a2 bi4 ) BCUAZCDUBZEZABUBZEZDAUAZEZABEZCEDEZAFZBFZEZCFZEDFZEZGZVCUT
+    EVAEZVEEABHBCHECDHEVFVBVCVEEZEVJVLEZCDEZGZVMVIEZVGGZEZVOVBVCVEIVBVTVQWBBCDU
+    CVQVEVCEWBVCVEJDABUCKUDWCVRWAEZVRVGEZGZVSWAEZVSVGEZGZGVNVHGVOVRVSWAVGVSVRVS
+    VRVSVRFZVSBCGZWJCDBUEBCUFZLMNUGVSWAVSWAFZVSDAGZWMDCAUHDAUFZLMNVGWAVGWAVGWMV
+    GWNWMABDUEWOLMNUGVGVRVGWJVGWKWJBACUHWLLMNUIWFVNWIVHWFVNOGVNWDVNWEOVLVMEZVKE
+    ZVKWPEWDVNWPVKJWDVLVJEZWAEWPVJVIEZEWQVRWRWAVJVLJPVLVJVMVIUJWSVKWPVJVIJQRVKV
+    LVMIUKWEVGVREABVREZEZOVRVGJABVRIXAAOEOWTOABVJEZVLEZOVLEZWTOXDXCOXBVLBULPSBV
+    JVLIVLUMUNQAUOKRTVNUPKWIOVHGVHWGOWHVHWGCDWAEZECOEOCDWAIXEOCXEDVMEZVIEZOXGXE
+    DVMVIISOXGOOVIEZXGXHOVIUMSOXFVIDULPKSKQCUORWHVGVSEZVHVSVGJVHXIVGCDISKTVHUQK
+    TVNVHURRRVPVDVEVPVCVBEVDVCUTVAIVCVBJKPABCDUSUK $.
     $( [26-Jun-03] $)
 
   $( Equation (3.29) of "Equations, states, and lattices..." paper.  This shows
      that it holds in all OMLs, not just 4GO. $)
   oago3.29 $p |- ( ( a ->1 b ) ^ ( ( b ->2 c ) ^ ( c ->1 a ) ) )
                  =< ( a == c ) $=
-    ( wi1 wi2 wa tb wt anass i2id 2an ax-r1 an1 mhcor1 3tr2 lear bicom lbtr
-    bltr ) ABDZBCEZCADZFFZABGBCGFZCAGZFZACGZUCHFZTUAFUBFZAAEZFZUCUFUKUHUIUCUJHT
-    UAUBIAJKLUCMABCANOUFUEUGUDUEPCAQRS $.
+    ( wi1 wi2 wa tb anass i2id 2an ax-r1 an1 mhcor1 3tr2 lear bicom lbtr bltr
+    wt ) ABDZBCEZCADZFFZABGBCGFZCAGZFZACGZUCSFZTUAFUBFZAAEZFZUCUFUKUHUIUCUJSTUA
+    UBHAIJKUCLABCAMNUFUEUGUDUEOCAPQR $.
     $( [22-Jun-03] $)
 
   $( 4-variable extension of Equation (3.21) of "Equations, states, and
@@ -7670,12 +7614,12 @@ $)
   oago3.21x $p |- ( ( ( ( a ->5 b ) ^ ( b ->5 c ) ) ^
                     ( c ->5 d ) ) ^ ( d ->5 a ) ) =
        ( ( ( a == b ) ^ ( b == c ) ) ^ ( c == d ) ) $=
-    ( wi5 wa tb wi1 wi2 i5lei1 i5lei2 le2an mhcor1 lbtr leid eqtr4 bicom
-    ler2an u5lembi ax-r1 lea bltr letr lebi ) ABEZBCEZFZCDEZFZDAEZFZABGZBCGZFZC
-    DGZFZUKABHZBCIZFZCDHZFZDAIZFUPUIVAUJVBUGUSUHUTUEUQUFURABJBCKLCDJLDAKLABCDMN
-    UPUPDAGZFUKUPUPVCUPOUPADGVCABCDPADQNRUPUIVCUJUNUGUOUHULUEUMUFULUEBAEZFZUEVE
-    ULABSTUEVDUAUBUMUFCBEZFZUFVGUMBCSTUFVFUAUBLUOUHDCEZFZUHVIUOCDSTUHVHUAUBLVCU
-    JADEZFZUJVKVCDASTUJVJUAUBLUCUD $.
+    ( wi5 wa tb wi1 wi2 i5lei1 i5lei2 le2an mhcor1 lbtr eqtr4 u5lembi ax-r1 lea
+    leid bltr bicom ler2an letr lebi ) ABEZBCEZFZCDEZFZDAEZFZABGZBCGZFZCDGZFZUK
+    ABHZBCIZFZCDHZFZDAIZFUPUIVAUJVBUGUSUHUTUEUQUFURABJBCKLCDJLDAKLABCDMNUPUPDAG
+    ZFUKUPUPVCUPSUPADGVCABCDOADUANUBUPUIVCUJUNUGUOUHULUEUMUFULUEBAEZFZUEVEULABP
+    QUEVDRTUMUFCBEZFZUFVGUMBCPQUFVFRTLUOUHDCEZFZUHVIUOCDPQUHVHRTLVCUJADEZFZUJVK
+    VCDAPQUJVJRTLUCUD $.
     $( [26-Jun-03] $)
 
   ${
@@ -7683,15 +7627,15 @@ $)
         ) $.
     $( Lemma for cancellation law eliminating ` ->1 ` consequent. $)
     cancellem $p |- ( d v ( a ->1 c ) ) =< ( d v ( b ->1 c ) ) $=
-      ( wi1 wo wn wa i1abs ax-r1 leo df-i1 ax-r2 lbtr lecon2 leor lear ler2an
-      coman2 coman1 comcom2 fh2rc ran id 3tr1 leao4 lerr lor ax-r4 an12 anor1
-      lan anor3 3tr ancom anass le3tr1 lea lel lel2or bltr letr ) DACFGZVDCFZHZ
-      VDCIZGZDBCFZGZVHVDVDCJKVFVJVGVJVEVJHZVKVJCIZGZVEVKVLLVEVMVEVJCFZVMEVJCMZN
-      KOPVGVNCIZVJVGVNCVGVDHZVGGZVNVGVQQVRVEVNVEVRVDCMKENOVDCRSVPVKCIZVLCIZGZVJ
-      VMCIWAVPWAVLCVKVJCTVLVJVJCUAUBUCVNVMCVOUDWAUEUFVSVJVTDHZBCIZHZIZWCIZDBHZW
-      CGZGZVSVJWFWHDWCWEWGUGUHVSWEBIZCIWFVKWJCVKWIHZBWEIZWJVJWIVIWHDBCMUIZUJWLW
-      KWLWBBWDIZIWBWHHZIWKBWBWDUKWNWOWBBWCULUMDWHUNUOKBWEUPUOUDWEBCUQNWMURVLVJC
-      VJCUSUTVAVBVCVAVB $.
+      ( wi1 wo wn i1abs ax-r1 leo df-i1 ax-r2 lbtr lecon2 ran 3tr lel2or bltr
+      wa leor lear ler2an coman2 coman1 comcom2 fh2rc 3tr1 leao4 lerr lor ax-r4
+      id an12 anor1 lan anor3 ancom anass le3tr1 lea lel letr ) DACFGZVDCFZHZVD
+      CTZGZDBCFZGZVHVDVDCIJVFVJVGVJVEVJHZVKVJCTZGZVEVKVLKVEVMVEVJCFZVMEVJCLZMJN
+      OVGVNCTZVJVGVNCVGVDHZVGGZVNVGVQUAVRVEVNVEVRVDCLJEMNVDCUBUCVPVKCTZVLCTZGZV
+      JVMCTWAVPWAVLCVKVJCUDVLVJVJCUEUFUGVNVMCVOPWAUMUHVSVJVTDHZBCTZHZTZWCTZDBHZ
+      WCGZGZVSVJWFWHDWCWEWGUIUJVSWEBTZCTWFVKWJCVKWIHZBWETZWJVJWIVIWHDBCLUKZULWL
+      WKWLWBBWDTZTWBWHHZTWKBWBWDUNWNWOWBBWCUOUPDWHUQQJBWEURQPWEBCUSMWMUTVLVJCVJ
+      CVAVBRSVCRS $.
       $( [21-Feb-02] $)
 
     $( Cancellation law eliminating ` ->1 ` consequent. $)
@@ -7704,9 +7648,9 @@ $)
     kb10iii.1 $e |- b ' =< ( a ->1 c ) $.
     $( Exercise 10(iii) of Kalmbach p. 30 (in a rewritten form). $)
     kb10iii $p |- c ' =< ( a ->1 b ) $=
-      ( wi1 wn wo wa ud1lem0c omln u1lem9b lel2or bltr lelan ancom lbtr womaon
-      u1lemaa le3tr2 lear letr lecon2 ) ABEZCUCFAAFZBFZGZHZCABIUGACHZCAUDUGGZHZ
-      ACEZAHZUGUHUJAUKHULUIUKAUIUFUKAUEJUDUKUEACKDLMNAUKOPAUEQACRSACTUAMUB $.
+      ( wi1 wn wo wa ud1lem0c omln u1lem9b lel2or bltr lelan ancom lbtr u1lemaa
+      womaon le3tr2 lear letr lecon2 ) ABEZCUCFAAFZBFZGZHZCABIUGACHZCAUDUGGZHZA
+      CEZAHZUGUHUJAUKHULUIUKAUIUFUKAUEJUDUKUEACKDLMNAUKOPAUERACQSACTUAMUB $.
       $( [9-Jan-04] $)
   $}
 
@@ -7717,14 +7661,14 @@ $)
     $( Show that the E*_2 derivative on p. 23 of Mayet, "Equations holding in
        Hilbert lattices" IJTP 2006, holds in all OMLs. $)
     e2ast2 $p |- ( ( a v b ) ^ ( c v d ) ) =< ( ( b v d ) v ( a v c ) ' ) $=
-      ( wo wa wn leror lecon3 le2an lecom comcom comcom2 fh4c df-le2 lan ax-r2
-      ax-r1 anor3 lor leao4 com2or fh4 or32 ax-a3 lear ax-r5 3tr2 df2le2 ax-a2
+      ( wo wa wn leror lecon3 lecom comcom df-le2 ax-r2 ax-r1 lor ax-a3 ax-r5
+      le2an comcom2 fh4c lan anor3 leao4 com2or fh4 or32 lear 3tr2 df2le2 ax-a2
       2an ancom 3tr 3tr1 lbtr ) ABHZCDHZICJZBHZAJZDHZIZBDHACHJZHZUSVBUTVDAVABGK
-      CVCDACGLKMBDVCHZVAIZHZBDVFHZHVEVGVIVKBVIDVCVAIZHZVKVMVIVMVHDVAHZIVIVADVCD
-      VADVACDFLZNOZVAAAVAAVAGNOPZQVNVAVHDVAVORSTUAVLVFDACUBUCTUCVEBVCIZVIHZVJVS
-      VEVSVRVHHZVRVAHZIVDVBIVEVHVRVAVRVHVRVHVCBDUDNOVAVHVADVCVPVQUEOUFVTVDWAVBV
-      RDHVCHVRVCHZDHVTVDVRDVCUGVRDVCUHWBVCDVRVCBVCUIRUJUKWABVAHVBVRBVABVCABELUL
-      ZUJBVAUMTUNVDVBUOUPUAVRBVIWCUJTBDVFUHUQUR $.
+      CVCDACGLKUABDVCHZVAIZHZBDVFHZHVEVGVIVKBVIDVCVAIZHZVKVMVIVMVHDVAHZIVIVADVC
+      DVADVACDFLZMNZVAAAVAAVAGMNUBZUCVNVAVHDVAVOOUDPQVLVFDACUERPRVEBVCIZVIHZVJV
+      SVEVSVRVHHZVRVAHZIVDVBIVEVHVRVAVRVHVRVHVCBDUFMNVAVHVADVCVPVQUGNUHVTVDWAVB
+      VRDHVCHVRVCHZDHVTVDVRDVCUIVRDVCSWBVCDVRVCBVCUJOTUKWABVAHVBVRBVABVCABELULZ
+      TBVAUMPUNVDVBUOUPQVRBVIWCTPBDVFSUQUR $.
       $( [24-Jun-2006] $)
   $}
 
@@ -7738,14 +7682,14 @@ $)
        holding in Hilbert lattices" IJTP 2006, holds in all OMLs. $)
     e2astlem1 $p |- ( ( ( a v b ) ^ ( c v d ) ) ^ ( ( a v c ) v r ) ) =
                    ( ( a v ( b ^ ( c v r ) ) ) ^ ( c v ( d ^ ( a v r ) ) ) ) $=
-      ( wo wa anandir leo ler lecom wn comcom7 fh2r df2le2 wf ax-a3 lan comcom
-      com2or fh2 lecon3 ortha ax-r5 ax-r2 or0r 3tr 2or leor or32 fh2c lor or0
-      2an ) ABKZCDKZLACKZEKZLUTVCLZVAVCLZLABCEKZLZKZCDAEKZLZKZLUTVAVCMVDVHVEVKV
-      DAVCLZBVCLZKVHAVCBAVCAVBEACNOZPABABQFPRZSVLAVMVGAVCVNTVMBAVFKZLZUAVGKZVGV
-      CVPBACEUBUCVQBALZVGKVRABVFVOACEACACQIPRZEAEAEAQHPRUDUEUFVSUAVGBAABFUGUHUI
-      UJVGUKULUMUJVECVCLZDVCLZKVKCVCDCVCCVBECAUNOZPCDCDQGPRZSWACWBVJCVCWCTWBDVI
-      CKZLVJDCLZKZVJVCWEDACEUOUCCDVIWDCAEACVTUDCECEQJPRUEUPWGVJUAKVJWFUAVJDCCDG
-      UGUHUQVJURUJULUMUJUSUJ $.
+      ( wo wa ler lecom wn comcom7 fh2r df2le2 wf ax-r2 leo ax-a3 comcom com2or
+      anandir lan fh2 lecon3 ortha ax-r5 or0r 3tr 2or leor or32 fh2c lor or0
+      2an ) ABKZCDKZLACKZEKZLUTVCLZVAVCLZLABCEKZLZKZCDAEKZLZKZLUTVAVCUEVDVHVEVK
+      VDAVCLZBVCLZKVHAVCBAVCAVBEACUAMZNABABOFNPZQVLAVMVGAVCVNRVMBAVFKZLZSVGKZVG
+      VCVPBACEUBUFVQBALZVGKVRABVFVOACEACACOINPZEAEAEAOHNPUCUDUGVSSVGBAABFUHUIUJ
+      TVGUKULUMTVECVCLZDVCLZKVKCVCDCVCCVBECAUNMZNCDCDOGNPZQWACWBVJCVCWCRWBDVICK
+      ZLVJDCLZKZVJVCWEDACEUOUFCDVIWDCAEACVTUCCECEOJNPUDUPWGVJSKVJWFSVJDCCDGUHUI
+      UQVJURTULUMTUST $.
       $( [25-Jun-2006] $)
 
     $( Show that E*_2 on p. 23 of Mayet, "Equations holding in Hilbert
@@ -7777,13 +7721,12 @@ $)
     $( Lemma for converting n-variable Godowski equations to 2n-variable
        equations. $)
     govar $p |- ( ( a v b ) ^ ( a ->2 c ) ) =< ( b v c ) $=
-      ( wo wi2 wa wn df-i2 lan ax-a2 ran lecom comcom7 comcom comcom2 com2an
-      com2or fh2r ax-r2 wf coman1 coman2 fh2c dff ax-r1 anass an0r 3tr2 lor
-      or0 3tr lea lear le2or bltr ) ABFZACGZHZBCAIZCIZHZFZHZACHZFZBCFUTURVDHZVE
-      AVDHZFZVGUSVDURACJKVHBAFZVDHVJURVKVDABLMBVDABCVCBCBVBENZOBVAVBBAABABABIDN
-      OPZQVLRSVMTUAVIVFVEVIVFAVCHZFVFUBFVFVCACVCAVAVBUCOVCCVAVBUDOUEVNUBVFAVAHZ
-      VBHZUBVBHZVNUBVQVPUBVOVBAUFMUGAVAVBUHVBUIUJUKVFULUMUKUMVEBVFCBVDUNACUOUPU
-      Q $.
+      ( wo wi2 wa wn df-i2 lan ax-a2 ran lecom comcom7 comcom comcom2 lor 3tr
+      wf com2an com2or fh2r ax-r2 coman1 fh2c dff ax-r1 anass an0r 3tr2 or0 lea
+      coman2 lear le2or bltr ) ABFZACGZHZBCAIZCIZHZFZHZACHZFZBCFUTURVDHZVEAVDHZ
+      FZVGUSVDURACJKVHBAFZVDHVJURVKVDABLMBVDABCVCBCBVBENZOBVAVBBAABABABIDNOPZQV
+      LUAUBVMUCUDVIVFVEVIVFAVCHZFVFTFVFVCACVCAVAVBUEOVCCVAVBUNOUFVNTVFAVAHZVBHZ
+      TVBHZVNTVQVPTVOVBAUGMUHAVAVBUIVBUJUKRVFULSRSVEBVFCBVDUMACUOUPUQ $.
       $( [19-Nov-99] $)
 
     $( Lemma for converting n-variable to 2n-variable Godowski equations. $)
@@ -7819,11 +7762,11 @@ $)
          hypothesis is the 4-variable Godowski equation. $)
       go2n4 $p |- ( ( ( a v b ) ^ ( c v d ) ) ^
                 ( ( e v f ) ^ ( g v h ) ) ) =< ( b v c ) $=
-        ( wo wa anass ancom lan ax-r2 wi2 an32 ax-r1 bltr govar2 le2an gon2n )
-        ABRZCDRZSEFRZGHRZSZSZUKUOULSZSZBCRUPUKULUOSZSURUKULUOTUSUQUKULUOUAUBUCA
-        BCGEUDZAGUDZSZECUDZSZUQIJCAUDZVDSZVEVASUTVCSZSZACUDVHVFVHVEVAVGSZSVFVEV
-        AVGTVIVDVEVIVGVASVDVAVGUAUTVCVAUEUCUBUCUFQUGUOVBULVCUMUTUNVAEFGMNUHGHAO
-        PUHUICDEKLUHUIUJUG $.
+        ( wo wa wi2 anass ancom lan ax-r2 an32 ax-r1 bltr govar2 le2an gon2n )
+        ABRZCDRZSEFRZGHRZSZSZUKUOULSZSZBCRUPUKULUOSZSURUKULUOUAUSUQUKULUOUBUCUD
+        ABCGETZAGTZSZECTZSZUQIJCATZVDSZVEVASUTVCSZSZACTVHVFVHVEVAVGSZSVFVEVAVGU
+        AVIVDVEVIVGVASVDVAVGUBUTVCVAUEUDUCUDUFQUGUOVBULVCUMUTUNVAEFGMNUHGHAOPUH
+        UICDEKLUHUIUJUG $.
         $( [19-Nov-99] $)
     $}
 
@@ -7837,13 +7780,13 @@ $)
          to states," Algebra Universalis 23 (1986), 167-195. $)
       gomaex4 $p |- ( ( ( ( a v b ) ^ ( c v d ) ) ^
  ( ( e v f ) ^ ( g v h ) ) ) ^ ( ( a v h ) ->1 ( d v e ) ' ) ) = 0 $=
-        ( wo wa wn wi1 wf go2n4 an4 ancom ran ax-r2 3tr ax-a2 le3tr1 lan 2an
-        bltr ler2an leran go1 lbtr le0 lebi ) ABSZCDSZTZEFSZGHSZTZTZAHSZDESZUAU
-        BZTZUCVKVHVITZVJTUCVGVLVJVGVHVIVEVATZVBVDTZTZHASVGVHGHABCDEFOPIJKLMNQUD
-        VGVAVDTZVBVETZTZVEVBTZVPTZVOVAVBVDVEUEVRVQVPTVTVPVQUFVQVSVPVBVEUFUGUHVE
-        VBVAVDUEUIAHUJUKVGVNVMTZVIVGVAVETZVDVBTZTZVOWAVGVCVEVDTZTWBVNTWDVFWEVCV
-        DVEUFULVAVBVEVDUEVNWCWBVBVDUFULUIWBVMWCVNVAVEUFVDVBUFUMVMVNUFUICDEFGHAB
-        KLMNOPIJRUDUNUOUPVHVIUQURVKUSUT $.
+        ( wo wa wn wi1 wf go2n4 an4 ancom ran ax-r2 3tr ax-a2 le3tr1 lan ler2an
+        2an bltr leran go1 lbtr le0 lebi ) ABSZCDSZTZEFSZGHSZTZTZAHSZDESZUAUBZT
+        ZUCVKVHVITZVJTUCVGVLVJVGVHVIVEVATZVBVDTZTZHASVGVHGHABCDEFOPIJKLMNQUDVGV
+        AVDTZVBVETZTZVEVBTZVPTZVOVAVBVDVEUEVRVQVPTVTVPVQUFVQVSVPVBVEUFUGUHVEVBV
+        AVDUEUIAHUJUKVGVNVMTZVIVGVAVETZVDVBTZTZVOWAVGVCVEVDTZTWBVNTWDVFWEVCVDVE
+        UFULVAVBVEVDUEVNWCWBVBVDUFULUIWBVMWCVNVAVEUFVDVBUFUNVMVNUFUICDEFGHABKLM
+        NOPIJRUDUOUMUPVHVIUQURVKUSUT $.
         $( [19-Nov-99] $)
     $}
   $}
@@ -7869,14 +7812,14 @@ $)
     go2n6 $p |- ( ( ( g v h ) ^ ( i v j ) ) ^
                   ( ( ( k v m ) ^ ( n v u ) ) ^
                     ( ( w v x ) ^ ( y v z ) ) ) ) =< ( h v i ) $=
-      ( wo wa anass ancom lan 3tr ran ax-r2 ax-r1 3tr2 3tr1 wi2 bltr govar2
-      le2an gon2n ) ABUFZECUFZUGDFUFZGHUFZUGZIJUFZKLUFZUGZUGZUGZVBVHVGVEUGZVDVC
-      UGZUGZUGZUGZBEUFVKVBVHUGVNUGZVPVBVCVJUGZUGVPVKVQVRVOVBVCVFUGZVIUGZVNVHUGZ
-      VRVOWAVTWAVSVGUGZVHUGVTVNWBVHVNVGVEVMUGZUGVGVSUGWBVGVEVMUHWCVSVGWCVEVCVDU
-      GZUGWDVEUGVSVMWDVEVDVCUIUJVEWDUIVCVDVEUHUKUJVGVSUIUKULVSVGVHUHUMUNVCVFVIU
-      HVNVHUIUOUJVBVCVJUHVBVHVNUHZUPWEUMABEAKUQZKIUQZIGUQZUGZGDUQZDEUQZUGZUGZUG
-      ZVOMNEAUQZWNUGZWOWFUGWMUGZAEUQWQWPWOWFWMUHUNUEURVHWFVNWMKLAUCUDUSVLWIVMWL
-      VGWGVEWHIJKUAUBUSGHISTUSUTVDWJVCWKDFGQRUSECDOPUSUTUTUTVAUR $.
+      ( wo anass ancom lan 3tr ran ax-r2 ax-r1 3tr2 3tr1 wi2 govar2 le2an gon2n
+      wa bltr ) ABUFZECUFZUTDFUFZGHUFZUTZIJUFZKLUFZUTZUTZUTZVBVHVGVEUTZVDVCUTZU
+      TZUTZUTZBEUFVKVBVHUTVNUTZVPVBVCVJUTZUTVPVKVQVRVOVBVCVFUTZVIUTZVNVHUTZVRVO
+      WAVTWAVSVGUTZVHUTVTVNWBVHVNVGVEVMUTZUTVGVSUTWBVGVEVMUGWCVSVGWCVEVCVDUTZUT
+      WDVEUTVSVMWDVEVDVCUHUIVEWDUHVCVDVEUGUJUIVGVSUHUJUKVSVGVHUGULUMVCVFVIUGVNV
+      HUHUNUIVBVCVJUGVBVHVNUGZUOWEULABEAKUPZKIUPZIGUPZUTZGDUPZDEUPZUTZUTZUTZVOM
+      NEAUPZWNUTZWOWFUTWMUTZAEUPWQWPWOWFWMUGUMUEVAVHWFVNWMKLAUCUDUQVLWIVMWLVGWG
+      VEWHIJKUAUBUQGHISTUQURVDWJVCWKDFGQRUQECDOPUQURURURUSVA $.
       $( [29-Nov-99] $)
   $}
 
@@ -7973,9 +7916,9 @@ $)
     gomaex3h10.22 $e |- y = ( e v f ) ' $.
     $( Hypothesis for Godowski 6-var -> Mayet Example 3. $)
     gomaex3h10 $p |- x =< y ' $=
-      ( wo wn wa lea wi1 df-i1 ax-r4 anor1 ax-r1 ax-r2 ax-a1 le3tr1 ) ECDKZLZLZ
-      FGLUCUCABKLZMZLZMZUCEUEUCUHNEUCUFOZLZUIHUKUDUGKZLZUIUJULUCUFPQUIUMUCUGRST
-      TUCUEUCUASUBIGUDJQUB $.
+      ( wo wn wa lea wi1 df-i1 ax-r4 ax-r1 ax-r2 le3tr1 anor1 ax-a1 ) ECDKZLZLZ
+      FGLUCUCABKLZMZLZMZUCEUEUCUHNEUCUFOZLZUIHUKUDUGKZLZUIUJULUCUFPQUIUMUCUGUAR
+      SSUCUEUCUBRTIGUDJQT $.
       $( [29-Nov-99] $)
   $}
 
@@ -8002,9 +7945,9 @@ $)
     gomaex3lem1.3 $e |- c =< d ' $.
     $( Lemma for Godowski 6-var -> Mayet Example 3. $)
     gomaex3lem1 $p |- ( c v ( c v d ) ' ) = d ' $=
-      ( wn wa wo comid comcom2 lecom fh3 anor3 lor wt ancom df-le2 ax-r1 df-t
-      2an an1 3tr 3tr2 ) AADZBDZEZFAUBFZAUCFZEZAABFDZFUCAUBUCAAAGHAUCCIJUDUHAAB
-      KLUGUFUEEZUCMEZUCUEUFNUJUIUCUFMUEUFUCAUCCOPAQRPUCSTUA $.
+      ( wn wa wo comid comcom2 lecom fh3 anor3 lor wt ancom df-le2 df-t 2an an1
+      ax-r1 3tr 3tr2 ) AADZBDZEZFAUBFZAUCFZEZAABFDZFUCAUBUCAAAGHAUCCIJUDUHAABKL
+      UGUFUEEZUCMEZUCUEUFNUJUIUCUFMUEUFUCAUCCOSAPQSUCRTUA $.
       $( [29-Nov-99] $)
   $}
 
@@ -8012,19 +7955,19 @@ $)
     gomaex3lem2.5 $e |- e =< f ' $.
     $( Lemma for Godowski 6-var -> Mayet Example 3. $)
     gomaex3lem2 $p |- ( ( e v f ) ' v f ) = e ' $=
-      ( wo wn wt wa lecon3 lecom comid comcom2 fh3r anor3 ax-r5 ax-r1 anabs
-      df2le1 leid lel2or lebi df-t ax-a2 ax-r2 2an 3tr1 an1 ) ABDEZBDZAEZFGZUIU
-      IBEZGZBDZUIBDZUKBDZGUHUJBUIUKBUIABCHZIBBBJKLUMUHULUGBABMNOUIUNFUOUIUNUIUN
-      UIBPQUIUIBUIRUPSTFBUKDUOBUABUKUBUCUDUEUIUFUC $.
+      ( wo wn wt lecon3 lecom comid comcom2 fh3r anor3 ax-r5 ax-r1 anabs df2le1
+      wa leid lel2or ax-r2 lebi df-t ax-a2 2an 3tr1 an1 ) ABDEZBDZAEZFQZUIUIBEZ
+      QZBDZUIBDZUKBDZQUHUJBUIUKBUIABCGZHBBBIJKUMUHULUGBABLMNUIUNFUOUIUNUIUNUIBO
+      PUIUIBUIRUPSUAFBUKDUOBUBBUKUCTUDUEUIUFT $.
       $( [29-Nov-99] $)
   $}
 
   $( Lemma for Godowski 6-var -> Mayet Example 3. $)
   gomaex3lem3 $p |- ( ( p ' ->1 q ) ' v ( p ' ^ q ) ) = p ' $=
-    ( wn wi1 wa wo anor1 ax-r1 df-i1 ax-r4 id 3tr1 ax-r5 coman1 comid comcom2
-    fh3r wt orabs ax-a2 df-t ax-r2 2an an1 3tr ) ACZBDZCZUFBEZFUFUICZEZUIFUFUIF
-    ZUJUIFZEZUFUHUKUIUFCUIFZCZUKUHUKUKUPUFUIGHUGUOUFBIJUKKLMUIUFUJUFBNUIUIUIOPQ
-    UNUFREUFULUFUMRUFBSUMUIUJFZRUJUITRUQUIUAHUBUCUFUDUBUE $.
+    ( wn wi1 wa wo anor1 ax-r1 df-i1 ax-r4 3tr1 ax-r5 coman1 comid comcom2 fh3r
+    id wt orabs ax-r2 ax-a2 df-t 2an an1 3tr ) ACZBDZCZUFBEZFUFUICZEZUIFUFUIFZU
+    JUIFZEZUFUHUKUIUFCUIFZCZUKUHUKUKUPUFUIGHUGUOUFBIJUKQKLUIUFUJUFBMUIUIUINOPUN
+    UFREUFULUFUMRUFBSUMUIUJFZRUJUIUARUQUIUBHTUCUFUDTUE $.
     $( [29-Nov-99] $)
 
   ${
@@ -8064,11 +8007,11 @@ $)
     gomaex3lem5 $p |- ( ( ( g v h ) ^ ( i v j ) ) ^
                   ( ( ( k v m ) ^ ( n v u ) ) ^
                     ( ( w v x ) ^ ( y v z ) ) ) ) =< ( h v i ) $=
-      ( gomaex3h1 gomaex3h2 gomaex3h3 gomaex3h4 gomaex3h5 gomaex3h6 gomaex3h7
-      gomaex3h8 gomaex3h9 gomaex3h10 gomaex3h11 gomaex3h12 go2n6 ) GHIJKLMQRSTU
-      AABGHUBUKULVCBCHKUCULUMVDCDIKUMUNVECDIJNOPUJUNUOVFCDJLNOPUJUOUPVGLMNOUPUQ
-      VHMNOQUQURVINOQRURUSVJORSUSUTVKBCEFOSTUIUTVAVLEFTUAVAVBVMAFGUAUFUKVBVNUGV
-      O $.
+      ( gomaex3h1 gomaex3h2 gomaex3h3 gomaex3h4 gomaex3h5 gomaex3h10 gomaex3h11
+      gomaex3h6 gomaex3h7 gomaex3h8 gomaex3h9 gomaex3h12 go2n6 ) GHIJKLMQRSTUAA
+      BGHUBUKULVCBCHKUCULUMVDCDIKUMUNVECDIJNOPUJUNUOVFCDJLNOPUJUOUPVGLMNOUPUQVJ
+      MNOQUQURVKNOQRURUSVLORSUSUTVMBCEFOSTUIUTVAVHEFTUAVAVBVIAFGUAUFUKVBVNUGVO
+      $.
       $( [29-Nov-99] $)
 
     $( Lemma for Godowski 6-var -> Mayet Example 3. $)
@@ -8087,12 +8030,12 @@ $)
     $( Lemma for Godowski 6-var -> Mayet Example 3. $)
     gomaex3lem7 $p |- ( ( ( a v b ) ^ d ' ) ^
                   ( ( ( r v ( p ' ->1 q ) ) ^ p ' ) ^ e ' ) ) =< ( b v c ) $=
-      ( wo wn wa wi1 gomaex3lem1 lan gomaex3lem3 wt ancom gomaex3lem2 ax-a2
-      df-t ax-r1 ax-r2 2an an1 3tr gomaex3lem6 bltr ) ABVCZDVDZVEZPNVDZOVFZVCZW
-      EVEZEVDZVEZVEZWBCCDVCVDVCZVEZWGWFVDWEOVEVCZVEZOVDZOVCZEFVCVDFVCZVEZVEZVEZ
-      BCVCXAWKWMWDWTWJWLWCWBCDUDVGVHWOWHWSWIWNWEWGNOVIVHWSWRWQVEWIVJVEWIWQWRVKW
-      RWIWQVJEFUEVLWQOWPVCZVJWPOVMVJXBOVNVOVPVQWIVRVSVQVQVOABCDEFGHIJKLMNOPQRST
-      UAUBUCUDUEUFUGUHUIUJUKULUMUNUOUPUQURUSUTVAVBVTWA $.
+      ( wo wn wa wi1 gomaex3lem1 gomaex3lem3 ancom gomaex3lem2 ax-a2 df-t ax-r1
+      lan wt ax-r2 2an an1 3tr gomaex3lem6 bltr ) ABVCZDVDZVEZPNVDZOVFZVCZWEVEZ
+      EVDZVEZVEZWBCCDVCVDVCZVEZWGWFVDWEOVEVCZVEZOVDZOVCZEFVCVDFVCZVEZVEZVEZBCVC
+      XAWKWMWDWTWJWLWCWBCDUDVGVNWOWHWSWIWNWEWGNOVHVNWSWRWQVEWIVOVEWIWQWRVIWRWIW
+      QVOEFUEVJWQOWPVCZVOWPOVKVOXBOVLVMVPVQWIVRVSVQVQVMABCDEFGHIJKLMNOPQRSTUAUB
+      UCUDUEUFUGUHUIUJUKULUMUNUOUPUQURUSUTVAVBVTWA $.
       $( [29-Nov-99] $)
 
     $( Lemma for Godowski 6-var -> Mayet Example 3. $)
@@ -8107,10 +8050,10 @@ $)
     $( Lemma for Godowski 6-var -> Mayet Example 3. $)
     gomaex3lem9 $p |- ( ( ( a v b ) ^ ( d v e ) ' ) ^
                   ( r v ( p ' ->1 q ) ) ) =< ( b v c ) $=
-      ( wo wn wa wi1 ancom gomaex3lem4 df2le2 ax-r1 lan an12 3tr gomaex3lem8
-      bltr ) ABVCDEVCVDVEZPNVDZOVFVCZVEZVPVRVQVEVEZBCVCVSVRVPVEVRVPVQVEZVEVTVPV
-      RVGVPWAVRWAVPVPVQABDENUHVHVIVJVKVRVPVQVLVMABCDEFGHIJKLMNOPQRSTUAUBUCUDUEU
-      FUGUHUIUJUKULUMUNUOUPUQURUSUTVAVBVNVO $.
+      ( wo wn wi1 ancom gomaex3lem4 df2le2 ax-r1 lan an12 3tr gomaex3lem8 bltr
+      wa ) ABVCDEVCVDVOZPNVDZOVEVCZVOZVPVRVQVOVOZBCVCVSVRVPVOVRVPVQVOZVOVTVPVRV
+      FVPWAVRWAVPVPVQABDENUHVGVHVIVJVRVPVQVKVLABCDEFGHIJKLMNOPQRSTUAUBUCUDUEUFU
+      GUHUIUJUKULUMUNUOUPUQURUSUTVAVBVMVN $.
       $( [29-Nov-99] $)
 
     $( Lemma for Godowski 6-var -> Mayet Example 3. $)
@@ -8147,12 +8090,12 @@ $)
                   ( ( ( ( a v b ) ->1 ( d v e ) ' ) ->1
                       ( ( e v f ) ->1 ( b v c ) ' ) ' ) ' ->1 ( c v d ) ) )
                    =< ( ( b v c ) v ( e v f ) ' ) $=
-      ( wo wn wa wi1 df-i1 ax-a2 con2 ud1lem0ab ax-a1 ax-r2 ax-r4 ran 2or
-      ax-r1 lan id gomaex3lem10 bltr ) ABUKZDEUKULZUMZVIVJUNZEFUKZBCUKZULUNULZU
-      NZULZCDUKZUNZUMVKMKULZLUNZUKZUMVNVMULUKVSWBVKVSVQULZVQVRUMZUKZWBVQVRUOWBW
-      EWBWAMUKWEMWAUPWAWCMWDWAVPWCVTVLLVOKVLUBUQUCURZVPUSUTMWAULZVRUMWDUDWGVQVR
-      WAVPWFVAVBUTVCUTVDUTVEABCDEFGBVRULZHIWAJKLMVTLUMZNLOFPQRSTUAUBUCUDUEBVFUF
-      WHVFUGWAVFUHWIVFUILVFUJFVFVGVH $.
+      ( wo wn wa wi1 df-i1 ax-a2 con2 ud1lem0ab ax-a1 ax-r2 ax-r4 ran 2or ax-r1
+      lan id gomaex3lem10 bltr ) ABUKZDEUKULZUMZVIVJUNZEFUKZBCUKZULUNULZUNZULZC
+      DUKZUNZUMVKMKULZLUNZUKZUMVNVMULUKVSWBVKVSVQULZVQVRUMZUKZWBVQVRUOWBWEWBWAM
+      UKWEMWAUPWAWCMWDWAVPWCVTVLLVOKVLUBUQUCURZVPUSUTMWAULZVRUMWDUDWGVQVRWAVPWF
+      VAVBUTVCUTVDUTVEABCDEFGBVRULZHIWAJKLMVTLUMZNLOFPQRSTUAUBUCUDUEBVFUFWHVFUG
+      WAVFUHWIVFUILVFUJFVFVGVH $.
       $( [27-May-00] $)
   $}
 
@@ -8167,12 +8110,11 @@ $)
     oas.1 $e |- ( a ' ^ ( a v b ) ) =< c $.
     $( "Strengthening" lemma for studying the orthoarguesian law. $)
     oas $p |- ( ( a ->1 c ) ^ ( a v b ) ) =< c $=
-      ( wi1 wo wa wn oml ax-r1 lea ler2an lelor bltr lelan u1lemc1 comanr1
-      comcom6 fh2 u1lemaa ancom leo df-i1 lbtr letr df2le2 ax-r2 2or lear
-      lel2or ) ACEZABFZGZACGZAHZCGZFZCUMUKAUPFZGZUQULURUKULAUOULGZFZURVAULABIJU
-      TUPAUTUOCUOULKDLMNOUSUKAGZUKUPGZFUQAUKUPACPAUPUOCQRSVBUNVCUPACTVCUPUKGUPU
-      KUPUAUPUKUPUOUKUOCKUOUOUNFZUKUOUNUBUKVDACUCJUDUEUFUGUHUGUDUNCUPACUIUOCUIU
-      JUE $.
+      ( wi1 wo wa oml ax-r1 lea ler2an lelor bltr lelan u1lemc1 lbtr letr ax-r2
+      wn lear comanr1 comcom6 fh2 u1lemaa ancom leo df-i1 df2le2 2or lel2or ) A
+      CEZABFZGZACGZASZCGZFZCUMUKAUPFZGZUQULURUKULAUOULGZFZURVAULABHIUTUPAUTUOCU
+      OULJDKLMNUSUKAGZUKUPGZFUQAUKUPACOAUPUOCUAUBUCVBUNVCUPACUDVCUPUKGUPUKUPUEU
+      PUKUPUOUKUOCJUOUOUNFZUKUOUNUFUKVDACUGIPQUHRUIRPUNCUPACTUOCTUJQ $.
       $( [25-Dec-98] $)
   $}
 
@@ -8188,9 +8130,9 @@ $)
     oat.1 $e |- ( a ' ^ ( a v b ) ) =< c $.
     $( Transformation lemma for studying the orthoarguesian law. $)
     oat $p |- b =< ( a ' ->1 c ) $=
-      ( wn wa wo wi1 leor oml ax-r1 lea ler2an lelor bltr letr ax-a1 ax-r5
-      df-i1 ax-r2 lbtr ) BAAEZCFZGZUBCHZBABGZUDBAIUFAUBUFFZGZUDUHUFABJKUGUCAUGU
-      BCUBUFLDMNOPUDUBEZUCGZUEAUIUCAQRUEUJUBCSKTUA $.
+      ( wn wa wo wi1 leor oml ax-r1 lea lelor bltr letr ax-a1 ax-r5 df-i1 ax-r2
+      ler2an lbtr ) BAAEZCFZGZUBCHZBABGZUDBAIUFAUBUFFZGZUDUHUFABJKUGUCAUGUBCUBU
+      FLDTMNOUDUBEZUCGZUEAUIUCAPQUEUJUBCRKSUA $.
       $( [26-Dec-98] $)
   $}
 
@@ -8198,9 +8140,9 @@ $)
     oatr.1 $e |- b =< ( a ' ->1 c ) $.
     $( Reverse transformation lemma for studying the orthoarguesian law. $)
     oatr $p |- ( a ' ^ ( a v b ) ) =< c $=
-      ( wn wo wa leo wi1 df-i1 ax-a1 ax-r5 ax-r1 ax-r2 lbtr lel2or lelan omlan
-      lear letr ) AEZABFZGZUACGZCUCUAAUDFZGUDUBUEUAAUEBAUDHBUACIZUEDUFUAEZUDFZU
-      EUACJUEUHAUGUDAKLMNOPQACROUACST $.
+      ( wn wo wa leo df-i1 ax-a1 ax-r5 ax-r1 ax-r2 lbtr lel2or lelan omlan lear
+      wi1 letr ) AEZABFZGZUACGZCUCUAAUDFZGUDUBUEUAAUEBAUDHBUACSZUEDUFUAEZUDFZUE
+      UACIUEUHAUGUDAJKLMNOPACQNUACRT $.
       $( [26-Dec-98] $)
   $}
 
@@ -8208,12 +8150,12 @@ $)
     oau.1 $e |- ( a ^ ( ( a ->1 c ) v b ) ) =< c $.
     $( Transformation lemma for studying the orthoarguesian law. $)
     oau $p |- b =< ( a ->1 c ) $=
-      ( wi1 wo ax-a2 wa lea ler2an u1lemaa ax-r1 lbtr lelor wt u1lemc1 comcom
-      comorr fh3 u1lemoa ax-a3 oridm ax-r5 ax-r2 2an ancom an1 3tr orabs
-      le3tr2 leo lebi df-le1 ) BACEZBUNFUNBFZUNBUNGUOUNUNAUOHZFZUNUNAHZFUOUNUPU
-      RUNUPACHZURUPACAUOIDJURUSACKLMNUQUNAFZUNUOFZHOUOHZUOUNAUOAUNACPQUNBRSUTOV
-      AUOACTVAUNUNFZBFZUOVDVAUNUNBUALVCUNBUNUBUCUDUEVBUOOHUOOUOUFUOUGUDUHUNAUIU
-      JUNBUKULUDUM $.
+      ( wi1 wo ax-a2 wa lea ler2an u1lemaa ax-r1 lelor wt u1lemc1 comcom comorr
+      lbtr fh3 ax-r2 u1lemoa ax-a3 oridm ax-r5 2an ancom an1 3tr orabs leo lebi
+      le3tr2 df-le1 ) BACEZBUNFUNBFZUNBUNGUOUNUNAUOHZFZUNUNAHZFUOUNUPURUNUPACHZ
+      URUPACAUOIDJURUSACKLRMUQUNAFZUNUOFZHNUOHZUOUNAUOAUNACOPUNBQSUTNVAUOACUAVA
+      UNUNFZBFZUOVDVAUNUNBUBLVCUNBUNUCUDTUEVBUONHUONUOUFUOUGTUHUNAUIULUNBUJUKTU
+      M $.
       $( [28-Dec-98] $)
   $}
 
@@ -8233,11 +8175,11 @@ $)
     oaidlem2 $p |- ( ( a ->1 c ) ^
               ( d v ( ( a ->1 c ) ^ ( b ->1 c ) ) ) )
                =< ( b ->1 c ) $=
-      ( wi1 wa wo anidm ax-r1 ran anass ax-r2 leor lelan bltr df-le2 wn wt
-      ax-a3 ax-a2 oran3 ax-r5 df-i1 lor 3tr2 lem3.1 bile lear letr ) ACFZDUKBCF
-      ZGZHZGZUMULUOUMUMUOUMUOUMUOUMUKUMGZUOUMUKUKGZULGUPUKUQULUQUKUKIJKUKUKULLM
-      UMUNUKUMDNOPQUNRZUKRZHZUMHURUSUMHZHZUORZUMHSURUSUMTUTVCUMUTUSURHVCURUSUAU
-      KUNUBMUCVBURUKULFZHZSVEVBVDVAURUKULUDUEJEMUFUGJUHUKULUIUJ $.
+      ( wi1 wa wo anidm ax-r1 ran anass ax-r2 leor lelan bltr df-le2 wn ax-a3
+      wt ax-a2 oran3 ax-r5 df-i1 lor 3tr2 lem3.1 bile lear letr ) ACFZDUKBCFZGZ
+      HZGZUMULUOUMUMUOUMUOUMUOUMUKUMGZUOUMUKUKGZULGUPUKUQULUQUKUKIJKUKUKULLMUMU
+      NUKUMDNOPQUNRZUKRZHZUMHURUSUMHZHZUORZUMHTURUSUMSUTVCUMUTUSURHVCURUSUAUKUN
+      UBMUCVBURUKULFZHZTVEVBVDVAURUKULUDUEJEMUFUGJUHUKULUIUJ $.
       $( [22-Jan-99] $)
   $}
 
@@ -8248,11 +8190,11 @@ $)
     oaidlem2g $p |- ( a ^
               ( c v ( a ^ b ) ) )
                =< b $=
-      ( wa wo anidm ax-r1 ran anass ax-r2 leor lelan bltr df-le2 wn wt ax-a3
-      ax-a2 oran3 ax-r5 wi1 df-i1 lor 3tr2 lem3.1 bile lear letr ) ACABEZFZEZUJ
-      BULUJUJULUJULUJULUJAUJEZULUJAAEZBEUMAUNBUNAAGHIAABJKUJUKAUJCLMNOUKPZAPZFZ
-      UJFUOUPUJFZFZULPZUJFQUOUPUJRUQUTUJUQUPUOFUTUOUPSAUKTKUAUSUOABUBZFZQVBUSVA
-      URUOABUCUDHDKUEUFHUGABUHUI $.
+      ( wa wo anidm ax-r1 ran anass ax-r2 leor lelan bltr df-le2 wn ax-a3 ax-a2
+      wt oran3 ax-r5 wi1 df-i1 lor 3tr2 lem3.1 bile lear letr ) ACABEZFZEZUJBUL
+      UJUJULUJULUJULUJAUJEZULUJAAEZBEUMAUNBUNAAGHIAABJKUJUKAUJCLMNOUKPZAPZFZUJF
+      UOUPUJFZFZULPZUJFSUOUPUJQUQUTUJUQUPUOFUTUOUPRAUKTKUAUSUOABUBZFZSVBUSVAURU
+      OABUCUDHDKUEUFHUGABUHUI $.
       $( [18-Feb-02] $)
   $}
 
@@ -8265,11 +8207,11 @@ $)
     $( 6-variable OA to 4-variable OA. $)
     oa6v4v $p |- ( ( a v b ) ^ ( c v d ) ) =< ( b v ( a ^ ( c v
                    ( ( a v c ) ^ ( b v d ) ) ) ) ) $=
-      ( wo wa wt wf 2or or0r ax-r2 lan an1 lor or0 or1 2an an32 anidm ran
-      le3tr2 ) ABJCDJKZEFJZKZBACACJZBDJZKZAEJZBFJZKZCEJZDFJZKZJZKZJZKZJUGBACULJ
-      ZKZJGUIUGLKUGUHLUGUHMLJLEMFLHINLOPQUGRPVBVDBVAVCAUTULCUTULUJKZULUSUJULUOA
-      URCUOALKAUMAUNLUMAMJAEMAHSATPUNBLJLFLBISBUAPUBARPURCLKCUPCUQLUPCMJCEMCHSC
-      TPUQDLJLFLDISDUAPUBCRPNQVEUJUJKZUKKULUJUKUJUCVFUJUKUJUDUEPPSQSUF $.
+      ( wo wa wt wf 2or ax-r2 lan an1 lor or0 or1 or0r 2an an32 anidm le3tr2
+      ran ) ABJCDJKZEFJZKZBACACJZBDJZKZAEJZBFJZKZCEJZDFJZKZJZKZJZKZJUGBACULJZKZ
+      JGUIUGLKUGUHLUGUHMLJLEMFLHINLUAOPUGQOVBVDBVAVCAUTULCUTULUJKZULUSUJULUOAUR
+      CUOALKAUMAUNLUMAMJAEMAHRASOUNBLJLFLBIRBTOUBAQOURCLKCUPCUQLUPCMJCEMCHRCSOU
+      QDLJLFLDIRDTOUBCQONPVEUJUJKZUKKULUJUKUJUCVFUJUKUJUDUFOORPRUE $.
       $( [29-Nov-98] $)
   $}
 
@@ -8284,12 +8226,12 @@ $)
     oa4v3v $p |- ( b ' ^ ( ( a ->2 b ) v ( ( a ->2 c ) ^ ( ( b v c ) '
                 v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) ) ) =<
               ( ( b ' ^ ( a ->2 b ) ) v ( c ' ^ ( a ->2 c ) ) ) $=
-      ( wn wi2 wa wo ax-a2 lor oran1 3tr 2an anor3 ax-r2 ancom 2or oran3 lan
-      anor1 le3tr2 lecon1 ) BKZABLZMZCKACLZMZNZUIUJULBCNZKUJULMZNZMZNZMZDBNZECN
-      ZMZBDEDENZUOMZNZMZNZUNKZUTKZHVCUKKZUMKZMVIVAVKVBVLVABDNBUJKZNVKDBODVMBIPB
-      UJQRVBCENCULKZNVLECOEVNCJPCULQRSUKUMTUAVHBUSKZNVJVGVOBVGVMURKZMVODVMVFVPI
-      VFVNUQKZNVPEVNVEVQJVEUOVDMUOUPKZMVQVDUOUBVDVRUOVDVMVNNVRDVMEVNIJUCUJULUDU
-      AUEUOUPUFRUCULUQUDUASUJURTUAPBUSQUAUGUH $.
+      ( wn wi2 wa wo ax-a2 lor oran1 3tr 2an ax-r2 anor3 ancom 2or oran3 le3tr2
+      lan anor1 lecon1 ) BKZABLZMZCKACLZMZNZUIUJULBCNZKUJULMZNZMZNZMZDBNZECNZMZ
+      BDEDENZUOMZNZMZNZUNKZUTKZHVCUKKZUMKZMVIVAVKVBVLVABDNBUJKZNVKDBODVMBIPBUJQ
+      RVBCENCULKZNVLECOEVNCJPCULQRSUKUMUATVHBUSKZNVJVGVOBVGVMURKZMVODVMVFVPIVFV
+      NUQKZNVPEVNVEVQJVEUOVDMUOUPKZMVQVDUOUBVDVRUOVDVMVNNVRDVMEVNIJUCUJULUDTUFU
+      OUPUGRUCULUQUDTSUJURUATPBUSQTUEUH $.
       $( [28-Nov-98] $)
   $}
 
@@ -8313,14 +8255,14 @@ $)
     oa23 $p |- ( ( a ->2 b ) ^
               ( ( b v c ) ' v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) )
                =< ( a ->2 c ) $=
-      ( wi2 wo wn wa ax-a2 ax-r4 ancom 2or lan ax-r5 wt ax-a3 ax-r1 oridm
-      ax-r2 u2lemonb 2an an1 comorr u2lemc1 comcom comcom2 fh3 3tr1 lea ler2an
-      u2lemanb le3tr1 lelor orabs lbtr bltr leo lebi 3tr df-le1 ) ABEZBCFZGZVAA
-      CEZHZFZHZVDVGVDFVACBFZGZVDVAHZFZHZVDFVDVLFZVDVGVLVDVFVKVAVCVIVEVJVBVHBCIJ
-      VAVDKLMNVLVDIVMVDVMVDVMCGZHZFZVDVMOHZVDVMFZVDVNFZHZVMVPVTVQVRVMVSOVRVDVDF
-      ZVLFZVMWBVRVDVDVLPQWAVDVLVDRNSACTUAQVQVMVMUBQVDVMVNVDVLUCVDCCVDACUDUEUFUG
-      UHVPVDVDVNHZFVDVOWCVDVNVMHZAGZVNHVOWCWDWEVNDVNVMUIUJVMVNKACUKULUMVDVNUNUO
-      UPVDVLUQURUSUT $.
+      ( wi2 wo wn wa ax-a2 ax-r4 ancom 2or lan ax-r5 wt ax-a3 ax-r1 oridm ax-r2
+      u2lemonb 2an an1 comorr u2lemc1 comcom comcom2 fh3 3tr1 lea ler2an le3tr1
+      u2lemanb lelor orabs lbtr bltr leo lebi 3tr df-le1 ) ABEZBCFZGZVAACEZHZFZ
+      HZVDVGVDFVACBFZGZVDVAHZFZHZVDFVDVLFZVDVGVLVDVFVKVAVCVIVEVJVBVHBCIJVAVDKLM
+      NVLVDIVMVDVMVDVMCGZHZFZVDVMOHZVDVMFZVDVNFZHZVMVPVTVQVRVMVSOVRVDVDFZVLFZVM
+      WBVRVDVDVLPQWAVDVLVDRNSACTUAQVQVMVMUBQVDVMVNVDVLUCVDCCVDACUDUEUFUGUHVPVDV
+      DVNHZFVDVOWCVDVNVMHZAGZVNHVOWCWDWEVNDVNVMUIUJVMVNKACULUKUMVDVNUNUOUPVDVLU
+      QURUSUT $.
       $( [25-Nov-98] $)
   $}
 
@@ -8384,11 +8326,11 @@ $)
       distoa $p |- ( ( a ->2 b ) ^
               ( ( b v c ) ' v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) )
                =< ( a ->2 c ) $=
-        ( wi2 wo wa wi1 wn 1oa 2oath1 lear bltr le2or 2or 2an 3tr2 ax-r1 wi0
-        u12lem df-i0 ax-r2 lan oridm le3tr2 ) ABKZBCLZULACKZMZNZMZULUMUOKZMZLZU
-        NUNLULUMOUOLZMZUNUQUNUSUNABCPUSUOUNABCQULUNRSTUTULUPURLZMZVBVDUTDEFLZMD
-        EMZDFMZLVDUTJDULVEVCGEUPFURHIUAUBVFUQVGUSDULEUPGHUBDULFURGIUBUAUCUDVCVA
-        ULVCUMUOUEVAUMUOUFUMUOUGUHUIUHUNUJUK $.
+        ( wi2 wo wa wi1 wn 1oa 2oath1 2or 2an ax-r2 lear bltr le2or 3tr2 u12lem
+        ax-r1 wi0 df-i0 lan oridm le3tr2 ) ABKZBCLZULACKZMZNZMZULUMUOKZMZLZUNUN
+        LULUMOUOLZMZUNUQUNUSUNABCPUSUOUNABCQULUNUAUBUCUTULUPURLZMZVBVDUTDEFLZMD
+        EMZDFMZLVDUTJDULVEVCGEUPFURHIRSVFUQVGUSDULEUPGHSDULFURGISRUDUFVCVAULVCU
+        MUOUGVAUMUOUEUMUOUHTUITUNUJUK $.
         $( [29-Nov-98] $)
     $}
   $}
@@ -8401,23 +8343,23 @@ $)
     $( Lemma for orthoarguesian law (Godowski/Greechie 3-variable to 4-variable
        proof). $)
     oa3to4lem1 $p |- b =< ( a ->1 g ) $=
-      ( wn wa wo wi1 leor comid comcom3 lecom fh3 wt ancom df-t ax-a2 ax-r2
-      ran an1 3tr2 ax-r1 anidm anass lor lbtr leo lelan lelor letr ud1lem0a
-      df-i1 ) BAIZAABJZCDJZKZJZKZAELZBUQAURJZKZVBBUQBKZVEBUQMVFUQURKZVEVGVFVGUQ
-      AKZVFJZVFUQABAAANOUQBFPQRVFJVFRJVIVFRVFSRVHVFRAUQKVHATAUQUAUBUCVFUDUEUBUF
-      URVDUQURAAJZBJZVDVKURVJABAUGUCUFAABUHUBUIUBUJVDVAUQURUTAURUSUKULUMUNVCVBV
-      CAUTLVBEUTAHUOAUTUPUBUFUJ $.
+      ( wn wa wo wi1 leor comid comcom3 wt ax-r2 ran ax-r1 lbtr lecom fh3 ancom
+      df-t ax-a2 an1 3tr2 anidm anass lor leo lelan lelor letr ud1lem0a df-i1 )
+      BAIZAABJZCDJZKZJZKZAELZBUQAURJZKZVBBUQBKZVEBUQMVFUQURKZVEVGVFVGUQAKZVFJZV
+      FUQABAAANOUQBFUAUBPVFJVFPJVIVFPVFUCPVHVFPAUQKVHAUDAUQUEQRVFUFUGQSURVDUQUR
+      AAJZBJZVDVKURVJABAUHRSAABUIQUJQTVDVAUQURUTAURUSUKULUMUNVCVBVCAUTLVBEUTAHU
+      OAUTUPQST $.
       $( [19-Dec-98] $)
 
     $( Lemma for orthoarguesian law (Godowski/Greechie 3-variable to 4-variable
        proof). $)
     oa3to4lem2 $p |- d =< ( c ->1 g ) $=
-      ( wn wa wo wi1 leor comid comcom3 lecom fh3 wt ancom df-t ax-a2 ax-r2
-      ran an1 3tr2 ax-r1 anidm anass lor lbtr lelan lelor letr ud1lem0a df-i1
-      ) DCIZCABJZCDJZKZJZKZCELZDUPCURJZKZVADUPDKZVDDUPMVEUPURKZVDVFVEVFUPCKZVEJ
-      ZVEUPCDCCCNOUPDGPQRVEJVERJVHVERVESRVGVERCUPKVGCTCUPUAUBUCVEUDUEUBUFURVCUP
-      URCCJZDJZVCVJURVICDCUGUCUFCCDUHUBUIUBUJVCUTUPURUSCURUQMUKULUMVBVAVBCUSLVA
-      EUSCHUNCUSUOUBUFUJ $.
+      ( wn wa wo wi1 leor comid comcom3 wt ax-r2 ran ax-r1 lbtr lecom fh3 ancom
+      df-t ax-a2 an1 3tr2 anidm anass lor lelan lelor letr ud1lem0a df-i1 ) DCI
+      ZCABJZCDJZKZJZKZCELZDUPCURJZKZVADUPDKZVDDUPMVEUPURKZVDVFVEVFUPCKZVEJZVEUP
+      CDCCCNOUPDGUAUBPVEJVEPJVHVEPVEUCPVGVEPCUPKVGCUDCUPUEQRVEUFUGQSURVCUPURCCJ
+      ZDJZVCVJURVICDCUHRSCCDUIQUJQTVCUTUPURUSCURUQMUKULUMVBVAVBCUSLVAEUSCHUNCUS
+      UOQST $.
       $( [19-Dec-98] $)
 
     $( Lemma for orthoarguesian law (Godowski/Greechie 3-variable to 4-variable
@@ -8474,14 +8416,14 @@ $)
        only. $)
     oa3to4lem6 $p |- ( ( a v b ) ^ ( c v d ) ) =< ( a v ( b ^ ( d v
                    ( ( a v c ) ^ ( b v d ) ) ) ) ) $=
-      ( wo wa wn lecon3 lecon id wi1 ud1lem0ab 2an 2or le3tr2 oa3to4lem4 anor3
-      oran3 ax-r2 lan lor lecon1 ) ABDACNZBDNZOZNZOZNZABNZCDNZOZAPZBPZDPZVACPZO
-      ZVBVCOZNZOZNZOZVAVBOZVDVCOZNZUQPZUTPZVAVBVDVCVMBVAABHQRDVDCDIQRVMSEEGTZFG
-      TZEFOZVPVQOZNZOZNZOEGOZFGOZNVAVAVMTZVDVMTZVEWEWFOZNZOZNZOVAVMOZVDVMOZNMEV
-      AWBWJKVPWEWAWIEVAGVMKJUAZVQWFVTWHFVDGVMLJUAZVRVEVSWGEVAFVDKLUBVPWEVQWFWMW
-      NUBUCUBUCUBWCWKWDWLEVAGVMKJUBFVDGVMLJUBUCUDUEVJVAUPPZOVNVIWOVAVIVBUOPZNWO
-      VHWPVBVHVCUNPZOWPVGWQVCVGULPZUMPZNWQVEWRVFWSACUFBDUFUCULUMUGUHUIDUNUFUHUJ
-      BUOUGUHUIAUPUFUHVMURPZUSPZNVOVKWTVLXAABUFCDUFUCURUSUGUHUDUK $.
+      ( wo wa wn 2an 2or anor3 ax-r2 lecon3 lecon id wi1 ud1lem0ab le3tr2 oran3
+      oa3to4lem4 lan lor lecon1 ) ABDACNZBDNZOZNZOZNZABNZCDNZOZAPZBPZDPZVACPZOZ
+      VBVCOZNZOZNZOZVAVBOZVDVCOZNZUQPZUTPZVAVBVDVCVMBVAABHUAUBDVDCDIUAUBVMUCEEG
+      UDZFGUDZEFOZVPVQOZNZOZNZOEGOZFGOZNVAVAVMUDZVDVMUDZVEWEWFOZNZOZNZOVAVMOZVD
+      VMOZNMEVAWBWJKVPWEWAWIEVAGVMKJUEZVQWFVTWHFVDGVMLJUEZVRVEVSWGEVAFVDKLQVPWE
+      VQWFWMWNQRQRQWCWKWDWLEVAGVMKJQFVDGVMLJQRUFUHVJVAUPPZOVNVIWOVAVIVBUOPZNWOV
+      HWPVBVHVCUNPZOWPVGWQVCVGULPZUMPZNWQVEWRVFWSACSBDSRULUMUGTUIDUNSTUJBUOUGTU
+      IAUPSTVMURPZUSPZNVOVKWTVLXAABSCDSRURUSUGTUFUK $.
       $( [19-Dec-98] $)
   $}
 
@@ -8600,12 +8542,12 @@ $)
                  ( ( ( a ^ e ) v ( ( a ->1 g ) ^ ( e ->1 g ) ) ) ^
                    ( ( c ^ e ) v ( ( c ->1 g ) ^ ( e ->1 g ) ) ) ) ) ) ) )
                =< ( ( ( a ^ g ) v ( c ^ g ) ) v ( e ^ g ) ) $=
-        ( wa wo wi1 oa6todual con1 2an lor 2or lan ancom u1lemaa 3tr le3tr2 )
-        BACACLZBDLZMZAELZBFLZMZCELZDFLZMZLZMZLZMZLABLZCDLZMZEFLZMAGNZACUEVBCGNZ
-        LZMZUHVBEGNZLZMZUKVCVFLZMZLZMZLZMZLAGLZCGLZMZEGLZMABCDEFKOBVBUQVNBVBHPZ
-        UPVMAUOVLCUGVEUNVKUFVDUEBVBDVCVSDVCIPZQRUJVHUMVJUIVGUHBVBFVFVSFVFJPZQRU
-        LVIUKDVCFVFVTWAQRQSTRQUTVQVAVRURVOUSVPURAVBLVBALVOBVBAVSTAVBUAAGUBUCUSC
-        VCLVCCLVPDVCCVTTCVCUACGUBUCSVAEVFLVFELVRFVFEWATEVFUAEGUBUCSUD $.
+        ( wa wo wi1 con1 2an lor 2or lan ancom oa6todual u1lemaa 3tr le3tr2 ) B
+        ACACLZBDLZMZAELZBFLZMZCELZDFLZMZLZMZLZMZLABLZCDLZMZEFLZMAGNZACUEVBCGNZL
+        ZMZUHVBEGNZLZMZUKVCVFLZMZLZMZLZMZLAGLZCGLZMZEGLZMABCDEFKUABVBUQVNBVBHOZ
+        UPVMAUOVLCUGVEUNVKUFVDUEBVBDVCVSDVCIOZPQUJVHUMVJUIVGUHBVBFVFVSFVFJOZPQU
+        LVIUKDVCFVFVTWAPQPRSQPUTVQVAVRURVOUSVPURAVBLVBALVOBVBAVSSAVBTAGUBUCUSCV
+        CLVCCLVPDVCCVTSCVCTCGUBUCRVAEVFLVFELVRFVFEWASEVFTEGUBUCRUD $.
         $( [22-Dec-98] $)
     $}
   $}
@@ -8635,33 +8577,32 @@ $)
     oa4to6lem.4 $e |- g = ( ( ( a ^ b ) v ( c ^ d ) ) v ( e ^ f ) ) $.
     $( Lemma for orthoarguesian law (4-variable to 6-variable proof). $)
     oa4to6lem1 $p |- b =< ( a ->1 g ) $=
-      ( wn wa wo wi1 leor comid comcom3 lecom fh3 wt ancom df-t ax-a2 ax-r2
-      ran an1 3tr2 ax-r1 anidm anass lor lbtr leo ax-a3 lelan lelor letr
-      ud1lem0a df-i1 ) BALZAABMZCDMZNEFMZNZMZNZAGOZBVAAVBMZNZVGBVABNZVJBVAPVKVA
-      VBNZVJVLVKVLVAANZVKMZVKVAABAAAQRVABHSTUAVKMVKUAMVNVKUAVKUBUAVMVKUAAVANVMA
-      UCAVAUDUEUFVKUGUHUEUIVBVIVAVBAAMZBMZVIVPVBVOABAUJUFUIAABUKUEULUEUMVIVFVAV
-      BVEAVBVBVCVDNZNZVEVBVQUNVEVRVBVCVDUOUIUMUPUQURVHVGVHAVEOVGGVEAKUSAVEUTUEU
-      IUM $.
+      ( wn wa wo wi1 wt ax-r2 ran ax-r1 lbtr leor comid comcom3 lecom fh3 ancom
+      df-t ax-a2 an1 3tr2 anidm anass lor ax-a3 lelan lelor letr ud1lem0a df-i1
+      leo ) BALZAABMZCDMZNEFMZNZMZNZAGOZBVAAVBMZNZVGBVABNZVJBVAUAVKVAVBNZVJVLVK
+      VLVAANZVKMZVKVAABAAAUBUCVABHUDUEPVKMVKPMVNVKPVKUFPVMVKPAVANVMAUGAVAUHQRVK
+      UIUJQSVBVIVAVBAAMZBMZVIVPVBVOABAUKRSAABULQUMQTVIVFVAVBVEAVBVBVCVDNZNZVEVB
+      VQUTVEVRVBVCVDUNSTUOUPUQVHVGVHAVEOVGGVEAKURAVEUSQST $.
       $( [18-Dec-98] $)
 
     $( Lemma for orthoarguesian law (4-variable to 6-variable proof). $)
     oa4to6lem2 $p |- d =< ( c ->1 g ) $=
-      ( wn wa wo wi1 leor comid comcom3 lecom fh3 wt ancom df-t ax-a2 ax-r2
-      ran an1 3tr2 ax-r1 anidm anass lor lbtr or32 lelan lelor letr ud1lem0a
-      df-i1 ) DCLZCABMZCDMZNEFMZNZMZNZCGOZDUTCVBMZNZVFDUTDNZVIDUTPVJUTVBNZVIVKV
-      JVKUTCNZVJMZVJUTCDCCCQRUTDISTUAVJMVJUAMVMVJUAVJUBUAVLVJUACUTNVLCUCCUTUDUE
-      UFVJUGUHUEUIVBVHUTVBCCMZDMZVHVOVBVNCDCUJUFUICCDUKUEULUEUMVHVEUTVBVDCVBVAV
-      CNZVBNVDVBVPPVAVCVBUNUMUOUPUQVGVFVGCVDOVFGVDCKURCVDUSUEUIUM $.
+      ( wa wo wi1 leor wt ax-r2 ran ax-r1 lbtr wn comid comcom3 lecom fh3 ancom
+      df-t ax-a2 an1 3tr2 anidm anass lor or32 lelan lelor letr ud1lem0a df-i1
+      ) DCUAZCABLZCDLZMEFLZMZLZMZCGNZDUTCVBLZMZVFDUTDMZVIDUTOVJUTVBMZVIVKVJVKUT
+      CMZVJLZVJUTCDCCCUBUCUTDIUDUEPVJLVJPLVMVJPVJUFPVLVJPCUTMVLCUGCUTUHQRVJUIUJ
+      QSVBVHUTVBCCLZDLZVHVOVBVNCDCUKRSCCDULQUMQTVHVEUTVBVDCVBVAVCMZVBMVDVBVPOVA
+      VCVBUNTUOUPUQVGVFVGCVDNVFGVDCKURCVDUSQST $.
       $( [18-Dec-98] $)
 
     $( Lemma for orthoarguesian law (4-variable to 6-variable proof). $)
     oa4to6lem3 $p |- f =< ( e ->1 g ) $=
-      ( wn wa wo wi1 leor comid comcom3 lecom fh3 wt ancom df-t ax-a2 ax-r2
-      ran an1 3tr2 ax-r1 anidm anass lor lbtr lelan lelor letr ud1lem0a df-i1
-      ) FELZEABMCDMNZEFMZNZMZNZEGOZFUSEVAMZNZVDFUSFNZVGFUSPVHUSVANZVGVIVHVIUSEN
-      ZVHMZVHUSEFEEEQRUSFJSTUAVHMVHUAMVKVHUAVHUBUAVJVHUAEUSNVJEUCEUSUDUEUFVHUGU
-      HUEUIVAVFUSVAEEMZFMZVFVMVAVLEFEUJUFUIEEFUKUEULUEUMVFVCUSVAVBEVAUTPUNUOUPV
-      EVDVEEVBOVDGVBEKUQEVBURUEUIUM $.
+      ( wa wo wi1 leor wt ax-r2 ran ax-r1 lbtr wn comid comcom3 lecom fh3 ancom
+      df-t ax-a2 an1 3tr2 anidm anass lor lelan lelor letr ud1lem0a df-i1 ) FEU
+      AZEABLCDLMZEFLZMZLZMZEGNZFUSEVALZMZVDFUSFMZVGFUSOVHUSVAMZVGVIVHVIUSEMZVHL
+      ZVHUSEFEEEUBUCUSFJUDUEPVHLVHPLVKVHPVHUFPVJVHPEUSMVJEUGEUSUHQRVHUIUJQSVAVF
+      USVAEELZFLZVFVMVAVLEFEUKRSEEFULQUMQTVFVCUSVAVBEVAUTOUNUOUPVEVDVEEVBNVDGVB
+      EKUQEVBURQST $.
       $( [18-Dec-98] $)
 
     $( Lemma for orthoarguesian law (4-variable to 6-variable proof). $)
@@ -8716,13 +8657,13 @@ $)
     oa4to6 $p |- ( ( ( a v b ) ^ ( c v d ) ) ^ ( e v f ) ) =<
                    ( b v ( a ^ ( c v ( ( ( a v c ) ^ ( b v d ) ) ^
    ( ( ( a v e ) ^ ( b v f ) ) v ( ( c v e ) ^ ( d v f ) ) ) ) ) ) ) $=
-      ( wn wa wo lecon3 lecon id wi1 ud1lem0ab 2an 2or le3tr2 oa4to6dual
-      oa6fromdual ) ABCDEFASZBSZCSZDSZESZFSZULUMTUNUOTUAUPUQTUAZBULABKUBUCDUNCD
-      LUBUCFUPEFMUBUCURUDHGUEZHIHITZUSIGUEZTZUAZHJTZUSJGUEZTZUAZIJTZVAVETZUAZTZ
-      UAZTZUAZTGULURUEZULUNULUNTZVOUNURUEZTZUAZULUPTZVOUPURUEZTZUAZUNUPTZVQWATZ
-      UAZTZUAZTZUAZTURRUSVOVNWJHULGURONUFZHULVMWIOIUNVLWHPVCVSVKWGUTVPVBVRHULIU
-      NOPUGUSVOVAVQWKIUNGURPNUFZUGUHVGWCVJWFVDVTVFWBHULJUPOQUGUSVOVEWAWKJUPGURQ
-      NUFZUGUHVHWDVIWEIUNJUPPQUGVAVQVEWAWLWMUGUHUGUHUGUHUGNUIUJUK $.
+      ( wa wo lecon3 lecon wi1 ud1lem0ab 2an 2or le3tr2 oa4to6dual oa6fromdual
+      wn id ) ABCDEFAUJZBUJZCUJZDUJZEUJZFUJZULUMSUNUOSTUPUQSTZBULABKUAUBDUNCDLU
+      AUBFUPEFMUAUBURUKHGUCZHIHISZUSIGUCZSZTZHJSZUSJGUCZSZTZIJSZVAVESZTZSZTZSZT
+      ZSGULURUCZULUNULUNSZVOUNURUCZSZTZULUPSZVOUPURUCZSZTZUNUPSZVQWASZTZSZTZSZT
+      ZSURRUSVOVNWJHULGURONUDZHULVMWIOIUNVLWHPVCVSVKWGUTVPVBVRHULIUNOPUEUSVOVAV
+      QWKIUNGURPNUDZUEUFVGWCVJWFVDVTVFWBHULJUPOQUEUSVOVEWAWKJUPGURQNUDZUEUFVHWD
+      VIWEIUNJUPPQUEVAVQVEWAWLWMUEUFUEUFUEUFUENUGUHUI $.
       $( [19-Dec-98] $)
   $}
 
@@ -8876,16 +8817,16 @@ $)
                 ) )
                  =< ( ( ( a ^ j ) v ( c ^ j ) ) v
                       ( ( e ^ j ) v ( g ^ j ) ) ) $=
-        ( wa wo wi1 oa8todual con1 2an lor 2or lan ancom u1lemaa 3tr le3tr2 )
-        BACACOZBDOZPZAGOZBHOZPZCGOZDHOZPZOZPZAEOZBFOZPZUMEGOZFHOZPZOZPZCEOZDFOZ
-        PZUPVDOZPZOZPZOZPZOABOZCDOZPZEFOZGHOZPZPAIQZACUHWBCIQZOZPZUKWBGIQZOZPZU
-        NWCWFOZPZOZPZUSWBEIQZOZPZWHVBWMWFOZPZOZPZVGWCWMOZPZWJWQOZPZOZPZOZPZOAIO
-        ZCIOZPZEIOZGIOZPZPABCDEFGHJRBWBVOXGBWBKSZVNXFAVMXECURWLVLXDUJWEUQWKUIWD
-        UHBWBDWCXNDWCLSZTUAUMWHUPWJULWGUKBWBHWFXNHWFNSZTUAZUOWIUNDWCHWFXOXPTUAZ
-        TUBVFWSVKXCVAWOVEWRUTWNUSBWBFWMXNFWMMSZTUAUMWHVDWQXQVCWPVBFWMHWFXSXPTUA
-        ZTUBVIXAVJXBVHWTVGDWCFWMXOXSTUAUPWJVDWQXRXTTUBTUBUCUATVRXJWAXMVPXHVQXIV
-        PAWBOWBAOXHBWBAXNUCAWBUDAIUEUFVQCWCOWCCOXIDWCCXOUCCWCUDCIUEUFUBVSXKVTXL
-        VSEWMOWMEOXKFWMEXSUCEWMUDEIUEUFVTGWFOWFGOXLHWFGXPUCGWFUDGIUEUFUBUBUG $.
+        ( wa wo 2an lor 2or lan wi1 oa8todual con1 ancom u1lemaa 3tr le3tr2 ) B
+        ACACOZBDOZPZAGOZBHOZPZCGOZDHOZPZOZPZAEOZBFOZPZUMEGOZFHOZPZOZPZCEOZDFOZP
+        ZUPVDOZPZOZPZOZPZOABOZCDOZPZEFOZGHOZPZPAIUAZACUHWBCIUAZOZPZUKWBGIUAZOZP
+        ZUNWCWFOZPZOZPZUSWBEIUAZOZPZWHVBWMWFOZPZOZPZVGWCWMOZPZWJWQOZPZOZPZOZPZO
+        AIOZCIOZPZEIOZGIOZPZPABCDEFGHJUBBWBVOXGBWBKUCZVNXFAVMXECURWLVLXDUJWEUQW
+        KUIWDUHBWBDWCXNDWCLUCZQRUMWHUPWJULWGUKBWBHWFXNHWFNUCZQRZUOWIUNDWCHWFXOX
+        PQRZQSVFWSVKXCVAWOVEWRUTWNUSBWBFWMXNFWMMUCZQRUMWHVDWQXQVCWPVBFWMHWFXSXP
+        QRZQSVIXAVJXBVHWTVGDWCFWMXOXSQRUPWJVDWQXRXTQSQSTRQVRXJWAXMVPXHVQXIVPAWB
+        OWBAOXHBWBAXNTAWBUDAIUEUFVQCWCOWCCOXIDWCCXOTCWCUDCIUEUFSVSXKVTXLVSEWMOW
+        MEOXKFWMEXSTEWMUDEIUEUFVTGWFOWFGOXLHWFGXPTGWFUDGIUEUFSSUG $.
         $( [8-May-00] $)
     $}
   $}
@@ -8916,20 +8857,20 @@ $)
     ) ) ) ) =< ( ( ( ( a ->1 d ) ^ ( a ' ->1 d ) ) v
                    ( ( b ->1 d ) ^ ( b ' ->1 d ) ) ) v
                    ( ( c ->1 d ) ^ ( c ' ->1 d ) ) ) $=
-      ( wn wi1 wa wo ud1lem0b 2an 2or ran le3tr2 u1lem11 ax-a2 ax-r5 ax-r2 lan
-      lor u1lemab u1lem8 ax-a1 3tr ax-r1 ) ALZDMZDMZUMBLZDMZUMUPNZUNUPDMZNZOZUM
-      CLZDMZNZUNVBDMZNZOZUPVBNZURVDNZOZNZOZNZOZNZUMDNZUPDNZOZVBDNZOZADMZUMUPVTB
-      DMZNZUQOZVTCDMZNZVCOZWAWDNZVGOZNZOZNZOZNVTUMNZWAUPNZOZWDVBNZOEDMZEFEFNZWQ
-      FDMZNZOZEGNZWQGDMZNZOZFGNZWSXCNZOZNZOZNZOZNEDNZFDNZOZGDNZOVNVSHWQUNXLVMEU
-      MDIPZEUMXKVLIFUPXJVKJXAUTXIVJWRUQWTUSEUMFUPIJQWQUNWSURXQFUPDJPZQRXEVFXHVI
-      XBVCXDVEEUMGVBIKQWQUNXCVDXQGVBDKPZQRXFVGXGVHFUPGVBJKQWSURXCVDXRXSQRQRQRQX
-      OVQXPVRXMVOXNVPEUMDISFUPDJSRGVBDKSRTUNVTVMWLADUAZVLWKUMVKWJUPUTWCVJWIUTUS
-      UQOWCUQUSUBUSWBUQUNVTURWAXTBDUAZQUCUDVFWFVIWHVFVEVCOWFVCVEUBVEWEVCUNVTVDW
-      DXTCDUAZQUCUDVIVHVGOWHVGVHUBVHWGVGURWAVDWDYAYBQUCUDQRUEUFQVQWOVRWPVOWMVPW
-      NVOULDNZULLZDNZOZWMULDUGWMYFWMADNZYCOYCYGOYFADUHYGYCUBYGYEYCAYDDAUISUFUJU
-      KUDVPUODNZUOLZDNZOZWNUODUGWNYKWNBDNZYHOYHYLOYKBDUHYLYHUBYLYJYHBYIDBUISUFU
-      JUKUDRVRVADNZVALZDNZOZWPVADUGWPYPWPCDNZYMOYMYQOYPCDUHYQYMUBYQYOYMCYNDCUIS
-      UFUJUKUDRT $.
+      ( wn wi1 wa wo 2an 2or ran ax-a2 ax-r2 ud1lem0b u1lem11 ax-r5 lan u1lemab
+      le3tr2 lor u1lem8 ax-a1 3tr ax-r1 ) ALZDMZDMZUMBLZDMZUMUPNZUNUPDMZNZOZUMC
+      LZDMZNZUNVBDMZNZOZUPVBNZURVDNZOZNZOZNZOZNZUMDNZUPDNZOZVBDNZOZADMZUMUPVTBD
+      MZNZUQOZVTCDMZNZVCOZWAWDNZVGOZNZOZNZOZNVTUMNZWAUPNZOZWDVBNZOEDMZEFEFNZWQF
+      DMZNZOZEGNZWQGDMZNZOZFGNZWSXCNZOZNZOZNZOZNEDNZFDNZOZGDNZOVNVSHWQUNXLVMEUM
+      DIUAZEUMXKVLIFUPXJVKJXAUTXIVJWRUQWTUSEUMFUPIJPWQUNWSURXQFUPDJUAZPQXEVFXHV
+      IXBVCXDVEEUMGVBIKPWQUNXCVDXQGVBDKUAZPQXFVGXGVHFUPGVBJKPWSURXCVDXRXSPQPQPQ
+      PXOVQXPVRXMVOXNVPEUMDIRFUPDJRQGVBDKRQUFUNVTVMWLADUBZVLWKUMVKWJUPUTWCVJWIU
+      TUSUQOWCUQUSSUSWBUQUNVTURWAXTBDUBZPUCTVFWFVIWHVFVEVCOWFVCVESVEWEVCUNVTVDW
+      DXTCDUBZPUCTVIVHVGOWHVGVHSVHWGVGURWAVDWDYAYBPUCTPQUDUGPVQWOVRWPVOWMVPWNVO
+      ULDNZULLZDNZOZWMULDUEWMYFWMADNZYCOYCYGOYFADUHYGYCSYGYEYCAYDDAUIRUGUJUKTVP
+      UODNZUOLZDNZOZWNUODUEWNYKWNBDNZYHOYHYLOYKBDUHYLYHSYLYJYHBYIDBUIRUGUJUKTQV
+      RVADNZVALZDNZOZWPVADUEWPYPWPCDNZYMOYMYQOYPCDUHYQYMSYQYOYMCYNDCUIRUGUJUKTQ
+      UF $.
       $( [28-Dec-98] $)
 
     $( A weaker-looking "universal" proper 4-OA. $)
@@ -8964,16 +8905,16 @@ $)
     oa4uto4g $p |- ( ( a ->1 d ) ^ ( (
              ( a ^ b ) v ( ( a ->1 d ) ^ ( b ->1 d ) ) ) v h ) )
              =< ( b ->1 d ) $=
-      ( wi1 wa wo ancom 2or ax-r5 lan lor wn u1lem9a lecon1 le2an leror bltr
-      le2or lelan lelor ax-a1 ud1lem0b 2an ax-r2 letr oau ) BADHZABIZUKBDHZIZJZ
-      EJZIZDBUMUQJZIBUMUKBAIZUMUKIZJZEJZIZJZIZDURVDBUQVCUMUPVBUKUOVAEULUSUNUTAB
-      KUKUMKLMNONVEBPZDHZUMUKVGAPZDHZIZUTJZVICPZDHZIZUKCDHZIZJZVGVMIZUMVOIZJZIZ
-      JZIZJZIZDBVGVDWDVGBBDQRZVCWCUMVBWBUKVAVKEWAUSVJUTBVGAVIWFVIAADQRZSTEACIZV
-      PJZBCIZVSJZIWAGWIVQWKVTWHVNVPAVICVMWGVMCCDQRZSTWJVRVSBVGCVMWFWLSTSUAUBUCU
-      DSWEVGVFPZDHZVHPZDHZVJWNWPIZJZVRWNVLPZDHZIZJZVNWPWTIZJZIZJZIZJZIDWDXHVGUM
-      WNWCXGBWMDBUEUFZUKWPWBXFAWODAUEUFZVKWRWAXEUTWQVJUMWNUKWPXIXJUGOWAVTVQIXEV
-      QVTKVTXBVQXDVSXAVRUMWNVOWTXICWSDCUEUFZUGOVPXCVNUKWPVOWTXJXKUGOUGUHLUGLNFU
-      AUIUAUJ $.
+      ( wi1 wa wo ancom 2or lan lor wn u1lem9a lecon1 le2an leror 2an bltr letr
+      ax-r5 le2or lelan lelor ax-a1 ud1lem0b ax-r2 oau ) BADHZABIZUKBDHZIZJZEJZ
+      IZDBUMUQJZIBUMUKBAIZUMUKIZJZEJZIZJZIZDURVDBUQVCUMUPVBUKUOVAEULUSUNUTABKUK
+      UMKLUCMNMVEBOZDHZUMUKVGAOZDHZIZUTJZVICOZDHZIZUKCDHZIZJZVGVMIZUMVOIZJZIZJZ
+      IZJZIZDBVGVDWDVGBBDPQZVCWCUMVBWBUKVAVKEWAUSVJUTBVGAVIWFVIAADPQZRSEACIZVPJ
+      ZBCIZVSJZIWAGWIVQWKVTWHVNVPAVICVMWGVMCCDPQZRSWJVRVSBVGCVMWFWLRSRUAUDUEUFR
+      WEVGVFOZDHZVHOZDHZVJWNWPIZJZVRWNVLOZDHZIZJZVNWPWTIZJZIZJZIZJZIDWDXHVGUMWN
+      WCXGBWMDBUGUHZUKWPWBXFAWODAUGUHZVKWRWAXEUTWQVJUMWNUKWPXIXJTNWAVTVQIXEVQVT
+      KVTXBVQXDVSXAVRUMWNVOWTXICWSDCUGUHZTNVPXCVNUKWPVOWTXJXKTNTUILTLMFUAUBUAUJ
+      $.
       $( [28-Dec-98] $)
   $}
 
@@ -8995,13 +8936,13 @@ $)
  ( ( ( ( a ->1 d ) ^ ( c ->1 d ) ) v ( ( a ' ->1 d ) ^ ( c ' ->1 d ) ) ) ^
    ( ( ( b ->1 d ) ^ ( c ->1 d ) ) v ( ( b ' ->1 d ) ^ ( c ' ->1 d ) ) ) )
     ) ) ) ) =< d $=
-      ( wi1 wn wa wo ud1lem0b u1lem12 ax-r2 ancom 2an 2or ax-r1 oaur bltr ) ADL
+      ( wi1 wn wa wo ud1lem0b u1lem12 ax-r2 2an 2or ancom ax-r1 oaur bltr ) ADL
       ZAMDLZBMDLZUEBDLZNZUFUGNZOZUECDLZNZUFCMDLZNZOZUHULNZUGUNNZOZNZOZNZOZNZFFD
       LZEDLZEFNZVFVENZOZEGNZVFGDLZNZOZFGNZVEVKNZOZNZOZNZOZNZDWAVDFUEVTVCIVEUFVS
       VBVEUEDLUFFUEDIPADQRZVFUGVRVAVFUHDLUGEUHDJPBDQRZVIUKVQUTVGUIVHUJVGFENUIEF
-      SFUEEUHIJTRVHVEVFNUJVFVESVEUFVFUGWBWCTRUAVQVPVMNUTVMVPSVPUPVMUSVNUMVOUOFU
-      EGULIKTVEUFVKUNWBVKULDLUNGULDKPCDQRZTUAVJUQVLUREUHGULJKTVFUGVKUNWCWDTUATR
-      UATUATUBFVSDHUCUD $.
+      UAFUEEUHIJSRVHVEVFNUJVFVEUAVEUFVFUGWBWCSRTVQVPVMNUTVMVPUAVPUPVMUSVNUMVOUO
+      FUEGULIKSVEUFVKUNWBVKULDLUNGULDKPCDQRZSTVJUQVLUREUHGULJKSVFUGVKUNWCWDSTSR
+      TSTSUBFVSDHUCUD $.
       $( [30-Dec-98] $)
   $}
 
@@ -9018,11 +8959,11 @@ $)
                  ( ( ( a ^ c ) v ( ( a ->1 d ) ^ ( c ->1 d ) ) ) ^
                    ( ( b ^ c ) v ( ( b ->1 d ) ^ ( c ->1 d ) ) ) ) ) ) ) )
                =< d $=
-      ( wi1 wa wo wn u1lem9a lecon1 ax-a2 le2an lelor bltr le2or lelan letr )
-      ADFZABABGZSBDFZGZHZACGZSCDFZGZHZBCGZUAUEGZHZGZHZGZHZGSAIDFZBIDFZUBUOUPGZH
-      ZUFUOCIDFZGZHZUIUPUSGZHZGZHZGZHZGDUNVGSAUOUMVFUOAADJKZBUPULVEUPBBDJKZUCUR
-      UKVDUCUBTHURTUBLTUQUBAUOBUPVHVIMNOUGVAUJVCUGUFUDHVAUDUFLUDUTUFAUOCUSVHUSC
-      CDJKZMNOUJUIUHHVCUHUILUHVBUIBUPCUSVIVJMNOMPMPQER $.
+      ( wi1 wa wo wn u1lem9a lecon1 ax-a2 le2an lelor bltr le2or lelan letr ) A
+      DFZABABGZSBDFZGZHZACGZSCDFZGZHZBCGZUAUEGZHZGZHZGZHZGSAIDFZBIDFZUBUOUPGZHZ
+      UFUOCIDFZGZHZUIUPUSGZHZGZHZGZHZGDUNVGSAUOUMVFUOAADJKZBUPULVEUPBBDJKZUCURU
+      KVDUCUBTHURTUBLTUQUBAUOBUPVHVIMNOUGVAUJVCUGUFUDHVAUDUFLUDUTUFAUOCUSVHUSCC
+      DJKZMNOUJUIUHHVCUHUILUHVBUIBUPCUSVIVJMNOMPMPQER $.
       $( [30-Dec-98] $)
   $}
 
@@ -9041,11 +8982,11 @@ $)
                      ( ( b ^ 0 ) v ( ( b ->1 c ) ^ ( 0 ->1 c ) ) ) ) ) ) ) )
                  = ( ( a ->1 c ) ^ ( a v ( b ^ ( ( a ^ b ) v (
                     ( a ->1 c ) ^ ( b ->1 c ) ) ) ) ) ) $=
-    ( wa wi1 wo wf ax-a3 an0 ax-r5 ax-a2 wt or0 0i1 lan an1 3tr 2an lor oridm
-    ax-r2 ) ABABDZACEZBCEZDZFZAGDZUCGCEZDZFZBGDZUDUHDZFZDZFZDZFABUFDZFUCUPUQAUO
+    ( wa wi1 wo wf ax-a3 an0 ax-r5 ax-a2 wt or0 0i1 lan an1 3tr 2an lor ax-r2
+    oridm ) ABABDZACEZBCEZDZFZAGDZUCGCEZDZFZBGDZUDUHDZFZDZFZDZFABUFDZFUCUPUQAUO
     UFBUOUBUEUNFZFUFUBUEUNHURUEUBURUEUEFUEUNUEUEUJUCUMUDUJGUIFUIGFZUCUGGUIAIJGU
     IKUSUIUCLDUCUIMUHLUCCNZOUCPQQUMGULFULGFZUDUKGULBIJGULKVAULUDLDUDULMUHLUDUTO
-    UDPQQRSUETUASUAOSO $.
+    UDPQQRSUEUATSTOSO $.
     $( [24-Dec-98] $)
 
   $( Lemma for 3-OA(2).  Equivalence with substitution into 4-OA. $)
@@ -9071,14 +9012,14 @@ $)
                  = ( ( a ->1 c ) ^ ( a v ( b ^ ( (
                   ( a ' ->1 c ) ^ ( b ' ->1 c ) ) v (
                     ( a ->1 c ) ^ ( b ->1 c ) ) ) ) ) ) $=
-    ( wa wi1 wo wt wn an1 1i1 lan u1lemab ax-r2 2or ax-a3 ax-r1 orabs ax-r5
-    3tr 2an lor or32 leo le2an df-le2 ax-a1 df-i1 ) ABABDZACEZBCEZDZFZAGDZUIGCE
-    ZDZFZBGDZUJUNDZFZDZFZDZFABAHZCEZBHZCEZDZUKFZDZFUIVBVIAVAVHBVAULAVCCDZFZBVEC
-    DZFZDZFUHVNFZUKFVHUTVNULUPVKUSVMUPAACDZVJFZFZAVPFZVJFZVKUMAUOVQAIUOUICDVQUN
-    CUICJZKACLMNVTVRAVPVJOPVSAVJACQRSUSBBCDZVLFZFZBWBFZVLFZVMUQBURWCBIURUJCDWCU
-    NCUJWAKBCLMNWFWDBWBVLOPWEBVLBCQRSTUAUHUKVNUBVOVGUKVOVNVGUHVNAVKBVMAVJUCBVLU
-    CUDUEVKVDVMVFVKVCHZVJFZVDAWGVJAUFRVDWHVCCUGPMVMVEHZVLFZVFBWIVLBUFRVFWJVECUG
-    PMTMRSKUAK $.
+    ( wa wi1 wo wt wn an1 lan u1lemab ax-r2 2or ax-a3 ax-r1 orabs ax-r5 3tr 2an
+    lor 1i1 or32 leo le2an df-le2 ax-a1 df-i1 ) ABABDZACEZBCEZDZFZAGDZUIGCEZDZF
+    ZBGDZUJUNDZFZDZFZDZFABAHZCEZBHZCEZDZUKFZDZFUIVBVIAVAVHBVAULAVCCDZFZBVECDZFZ
+    DZFUHVNFZUKFVHUTVNULUPVKUSVMUPAACDZVJFZFZAVPFZVJFZVKUMAUOVQAIUOUICDVQUNCUIC
+    UAZJACKLMVTVRAVPVJNOVSAVJACPQRUSBBCDZVLFZFZBWBFZVLFZVMUQBURWCBIURUJCDWCUNCU
+    JWAJBCKLMWFWDBWBVLNOWEBVLBCPQRSTUHUKVNUBVOVGUKVOVNVGUHVNAVKBVMAVJUCBVLUCUDU
+    EVKVDVMVFVKVCHZVJFZVDAWGVJAUFQVDWHVCCUGOLVMVEHZVLFZVFBWIVLBUFQVFWJVECUGOLSL
+    QRJTJ $.
     $( [24-Dec-98] $)
 
   $( Lemma for 3-OA(3).  Equivalence with substitution into 6-OA dual. $)
@@ -9099,11 +9040,11 @@ $)
         ( ( a ->1 c ) ^ ( b ->1 c ) ) ) ) ) ) ) )
        = ( a ^ ( ( a ->1 c ) v ( ( b ->1 c ) ^
                ( ( a ^ b ) v ( ( a ->1 c ) ^ ( b ->1 c ) ) ) ) ) ) $=
-    ( wt wf wa wi1 wo ancom an1 ax-a2 or0 an0 ax-r2 2or 3tr ax-r5 ran lor lan
-    ) DEAEAFZDACGZFZHZEBFZDBCGZFZHZABFUBUFFHZFZHZFZHZFUMDFUMAUBUFUIFZHZFZDUMIUM
-    JUMULEHULUPEULKULLUKUOAUKUBUJHUOUDUBUJUDEUBHUBEHUBUAEUCUBUAAEFEEAIAMNUCUBDF
-    UBDUBIUBJNOEUBKUBLPQUJUNUBUHUFUIUHUGUEHUFEHUFUEUGKUGUFUEEUGUFDFUFDUFIUFJNUE
-    BEFEEBIBMNOUFLPRSNTPP $.
+    ( wt wf wa wi1 wo ancom an1 ax-a2 or0 an0 ax-r2 2or 3tr ax-r5 ran lor lan )
+    DEAEAFZDACGZFZHZEBFZDBCGZFZHZABFUBUFFHZFZHZFZHZFUMDFUMAUBUFUIFZHZFZDUMIUMJU
+    MULEHULUPEULKULLUKUOAUKUBUJHUOUDUBUJUDEUBHUBEHUBUAEUCUBUAAEFEEAIAMNUCUBDFUB
+    DUBIUBJNOEUBKUBLPQUJUNUBUHUFUIUHUGUEHUFEHUFUEUGKUGUFUEEUGUFDFUFDUFIUFJNUEBE
+    FEEBIBMNOUFLPRSNTPP $.
     $( [25-Dec-98] $)
 
   $( Lemma for 3-OA(4).  Equivalence with substitution into 6-OA dual. $)
@@ -9124,11 +9065,11 @@ $)
       ( b ->1 c ) ) ) ^ ( ( c ^ b ) v ( 1 ^ ( b ->1 c ) ) ) ) ) ) ) ) =
           ( ( a ->1 c ) ^ ( a v ( c ^ ( ( a ->1 c ) v ( ( b ->1 c ) ^
           ( ( a ^ b ) v ( ( a ->1 c ) ^ ( b ->1 c ) ) ) ) ) ) ) ) $=
-    ( wa wi1 wt wo wn or12 oridm lor ax-r2 an1 df-i1 3tr1 ancom ax-r5 3tr lan
-    2or ) ACACDZACEZFDZGZABDUBBCEZDGZCBDZFUEDZGZDZGZDZGACUBUEUFDZGZDZGUBULUOAUK
-    UNCUDUBUJUMUAAHZUAGZGZUQUDUBURUPUAUAGZGUQUAUPUAIUSUAUPUAJKLUCUQUAUCUBUQUBMA
-    CNZLKUTOUJUFUEDUMUIUEUFUGBHZBCDZGZGZVCUIUEVDVAUGVBGZGVCUGVAVBIVEVBVAVEVBVBG
-    VBUGVBVBCBPQVBJLKLUHVCUGUHUEFDUEVCFUEPUEMBCNZRKVFOSUFUEPLTSKS $.
+    ( wa wi1 wt wo or12 oridm lor ax-r2 an1 df-i1 3tr1 ancom ax-r5 3tr lan 2or
+    wn ) ACACDZACEZFDZGZABDUBBCEZDGZCBDZFUEDZGZDZGZDZGACUBUEUFDZGZDZGUBULUOAUKU
+    NCUDUBUJUMUAATZUAGZGZUQUDUBURUPUAUAGZGUQUAUPUAHUSUAUPUAIJKUCUQUAUCUBUQUBLAC
+    MZKJUTNUJUFUEDUMUIUEUFUGBTZBCDZGZGZVCUIUEVDVAUGVBGZGVCUGVAVBHVEVBVAVEVBVBGV
+    BUGVBVBCBOPVBIKJKUHVCUGUHUEFDUEVCFUEOUELBCMZQJVFNRUFUEOKSRJR $.
     $( [25-Dec-98] $)
 
   $( Lemma for a "universal" 3-OA. Equivalence with substitution into 6-OA
@@ -9140,14 +9081,14 @@ $)
                  ( c v ( ( a ' ->1 c ) ^ ( ( a ->1 c ) v ( ( b ->1 c ) ^ (
                  ( ( a ->1 c ) ^ ( b ->1 c ) ) v ( ( a ' ->1 c ) ^ ( b ' ->1
                   c ) ) ) ) ) ) ) $=
-    ( wt wn wi1 wa wo ancom an1 lea leo letr leor lel2or df-le2 u1lemab ax-a1
-    ax-r1 ran lor 3tr df-i1 2or 3tr1 ax-a2 2an lan ) DCAEZCFZCUJGZDACFZGZHZCBEZ
-    CFZGZDBCFZGZHZUJUPGZULURGZHZGZHZGZHZGVGDGVGCUJULURVBVAHZGZHZGZHDVGIVGJVFVKC
-    VEVJUJUNULVDVIUICGZACGZHZUIVMHZHVOUNULVNVOVLVOVMVLUIVOUICKUIVMLMVMUINOPUKVN
-    UMVOUKUJCGVLUIEZCGZHVNCUJIUICQVQVMVLVPACAVPARSTUAUBUMULDGULVODULIULJACUCZUB
-    UDVRUEUTURVCVHUOCGZBCGZHZUOVTHZHWBUTURWAWBVSWBVTVSUOWBUOCKUOVTLMVTUONOPUQWA
-    USWBUQUPCGVSUOEZCGZHWACUPIUOCQWDVTVSWCBCBWCBRSTUAUBUSURDGURWBDURIURJBCUCZUB
-    UDWEUEVAVBUFUGUDUHUAUB $.
+    ( wt wn wi1 wa wo ancom an1 lea leo letr leor lel2or df-le2 u1lemab lor 3tr
+    2or ax-a1 ax-r1 ran df-i1 3tr1 ax-a2 2an lan ) DCAEZCFZCUJGZDACFZGZHZCBEZCF
+    ZGZDBCFZGZHZUJUPGZULURGZHZGZHZGZHZGVGDGVGCUJULURVBVAHZGZHZGZHDVGIVGJVFVKCVE
+    VJUJUNULVDVIUICGZACGZHZUIVMHZHVOUNULVNVOVLVOVMVLUIVOUICKUIVMLMVMUINOPUKVNUM
+    VOUKUJCGVLUIEZCGZHVNCUJIUICQVQVMVLVPACAVPAUAUBUCRSUMULDGULVODULIULJACUDZSTV
+    RUEUTURVCVHUOCGZBCGZHZUOVTHZHWBUTURWAWBVSWBVTVSUOWBUOCKUOVTLMVTUONOPUQWAUSW
+    BUQUPCGVSUOEZCGZHWACUPIUOCQWDVTVSWCBCBWCBUAUBUCRSUSURDGURWBDURIURJBCUDZSTWE
+    UEVAVBUFUGTUHRS $.
     $( [26-Dec-98] $)
 
   $( Lemma for a "universal" 3-OA. Equivalence with substitution into 6-OA
@@ -9160,13 +9101,13 @@ $)
                   ( ( a ->1 c ) ^ ( ( a ' ->1 c ) v ( c ^ ( ( a ->1 c ) v
                   ( ( b ->1 c ) ^ ( ( ( a ->1 c ) ^ ( b ->1 c ) ) v
                   ( ( a ' ->1 c ) ^ ( b ' ->1 c ) ) ) ) ) ) ) ) $=
-    ( wn wi1 wa wt wo u1lemab an1 2or lea ax-a1 ax-r1 leid bltr leran le2or
-    df-i1 lbtr df-le2 ax-r2 ancom ax-a2 2an lan lor ) ADZCEZCUICFZACEZGFZHZUIBD
-    ZCEZFZUKBCEZFZHZCUOFZGUQFZHZFZHZFZHUICUKUQURUPHZFZHZFZHUKVEVIUIVDVHCUMUKVCV
-    GUMUHCFZUHDZCFZHZUKHUKUJVMULUKUHCIUKJKVMUKVMUHACFZHZUKVJUHVLVNUHCLVKACVKAAA
-    VKAMNAOPQRUKVOACSNTUAUBVCVBUSFVGUSVBUCVBUQUSVFVBUNCFZUNDZCFZHZUQHUQUTVSVAUQ
-    UTUOCFVSCUOUCUNCIUBVAUQGFUQGUQUCUQJUBKVSUQVSUNBCFZHZUQVPUNVRVTUNCLVQBCVQBBB
-    VQBMNBOPQRUQWABCSNTUAUBUPURUDUEUBKUFUGUF $.
+    ( wn wi1 wa wt u1lemab an1 2or lea ax-a1 ax-r1 leid leran le2or ax-r2 ancom
+    wo bltr df-i1 lbtr df-le2 ax-a2 2an lan lor ) ADZCEZCUICFZACEZGFZSZUIBDZCEZ
+    FZUKBCEZFZSZCUOFZGUQFZSZFZSZFZSUICUKUQURUPSZFZSZFZSUKVEVIUIVDVHCUMUKVCVGUMU
+    HCFZUHDZCFZSZUKSUKUJVMULUKUHCHUKIJVMUKVMUHACFZSZUKVJUHVLVNUHCKVKACVKAAAVKAL
+    MANTOPUKVOACUAMUBUCQVCVBUSFVGUSVBRVBUQUSVFVBUNCFZUNDZCFZSZUQSUQUTVSVAUQUTUO
+    CFVSCUORUNCHQVAUQGFUQGUQRUQIQJVSUQVSUNBCFZSZUQVPUNVRVTUNCKVQBCVQBBBVQBLMBNT
+    OPUQWABCUAMUBUCQUPURUDUEQJUFUGUF $.
     $( [27-Dec-98] $)
 
   ${
@@ -9177,12 +9118,12 @@ $)
     oa3-6to3 $p |- ( a ' ^ ( a v ( b ^
                ( ( a == b ) v ( ( a ' ->1 c ) ^ ( b ' ->1 c ) ) ) ) ) )
                 =< c $=
-      ( wn tb wi1 wa wo wt oa3-3lem ax-r1 leid wf df-f le0 bltr ancom an1
-      ax-r2 dff 2or or0 ax-a2 oa3-6lem oa4to6dual ) AEZABABFUGCGBEZCGHZIHIHZUGA
-      BABHZUGUHHIAJHZUGCHIBJHZUHCHIHIHIHZCUNUJABCKLAUGBUHJCCUGMUHMJEZNCNUOOLCPQ
-      CJCHZAUGHZBUHHZIZIZUSUPIUTCUTCNICUPCUSNUPCJHCJCRCSTUSNNIZNVAUSNUQNURAUABU
-      AUBLNUCTUBCUCTLUPUSUDTACGZABUKVBBCGZHZIULVBJCGZHIUMVCVEHIHIHIHVBABUIVDIHI
-      HCABCUEDQUFQ $.
+      ( wn tb wi1 wa wo wt oa3-3lem ax-r1 leid wf df-f bltr ax-r2 dff 2or or0
+      le0 ancom an1 ax-a2 oa3-6lem oa4to6dual ) AEZABABFUGCGBEZCGHZIHIHZUGABABH
+      ZUGUHHIAJHZUGCHIBJHZUHCHIHIHIHZCUNUJABCKLAUGBUHJCCUGMUHMJEZNCNUOOLCUAPCJC
+      HZAUGHZBUHHZIZIZUSUPIUTCUTCNICUPCUSNUPCJHCJCUBCUCQUSNNIZNVAUSNUQNURARBRSL
+      NTQSCTQLUPUSUDQACGZABUKVBBCGZHZIULVBJCGZHIUMVCVEHIHIHIHVBABUIVDIHIHCABCUE
+      DPUFP $.
       $( [24-Dec-98] $)
   $}
 
@@ -9193,11 +9134,11 @@ $)
     oa3-2to4 $p |- ( a ' ^ ( a v ( b ^
                ( ( a == b ) v ( ( a ->1 c ) ^ ( b ->1 c ) ) ) ) ) )
                 =< c $=
-      ( wn tb wi1 wa wo wt oa3-4lem ax-r1 leid le1 wf an1 dff 2or or0 ax-r2
-      ax-a2 oa3-2lemb bltr oa4to6dual ) AEZABABFACGZBCGZHZIHIHZUEABABHZUEBEZHIA
-      CHZUEJHIBCHZUKJHIHIHIHZCUNUIABCKLAUEBUKCJCUEMUKMCENCCJHZAUEHZBUKHZIZIZURU
-      OIUSCUSCOICUOCUROCPUROOIZOUTUROUPOUQAQBQRLOSTRCSTLUOURUATUFABUJUHIZULUFCC
-      GZHIUMUGVBHIHIHIHUFABVAHIHCABCUBDUCUDUC $.
+      ( wn tb wi1 wa wo wt oa3-4lem ax-r1 leid le1 wf dff 2or or0 ax-r2 bltr
+      an1 ax-a2 oa3-2lemb oa4to6dual ) AEZABABFACGZBCGZHZIHIHZUEABABHZUEBEZHIAC
+      HZUEJHIBCHZUKJHIHIHIHZCUNUIABCKLAUEBUKCJCUEMUKMCENCCJHZAUEHZBUKHZIZIZURUO
+      IUSCUSCOICUOCUROCUAUROOIZOUTUROUPOUQAPBPQLORSQCRSLUOURUBSUFABUJUHIZULUFCC
+      GZHIUMUGVBHIHIHIHUFABVAHIHCABCUCDTUDT $.
       $( [24-Dec-98] $)
   $}
 
@@ -9220,16 +9161,16 @@ $)
     oa3-2to2s $p |- ( ( a ->1 c ) ^ ( a v ( b ^ ( ( a ^ b ) v (
                     ( a ->1 c ) ^ ( b ->1 c ) ) ) ) ) ) =<
         ( ( a ^ c ) v ( b ^ c ) ) $=
-      ( wi1 wa wo wf wn id leo df-i1 ax-r1 ax-a1 ax-r2 lbtr or0 lan omla 2an
-      2or wt an1 0i1 oa3-2lema bltr oa4to6 oa6to4 ancom an0 lor le3tr2 ) ACGZAB
-      ABHZUOBCGZHIZAJHZUOJCGZHIBJHZUQUTHIHIHIHACHZBCHZIZJCHZIZUOABURHIHVDAUOBUQ
-      JUTCUOKZLUQKZLUTKZLAKZVGBKZVHJKZVIDABJVJVJVBIZVGKZVJVBMVMUOVNUOVMACNZOUOP
-      ZQRVKVKVCIZVHKZVKVCMVQUQVRUQVQBCNZOUQPZQRVLVLVEIZVIKZVLVEMWAUTWBUTWAJCNOU
-      TPZQRDDJIZVJKZVNHZVKKZVRHZIZVLKZWBHZIWDDDSODWIJWKDVDWIFVBWFVCWHVBAUOHZWFW
-      LVBWLAVMHVBUOVMAVOTACUAQOAWEUOVNAPZVPUBQVCBUQHZWHWNVCWNBVQHVCUQVQBVSTBCUA
-      QOBWGUQVRBPZVTUBQUCQJJUDHZWKWPJJUEOJWJUDWBJPZUDUTWBUTUDCUFOWCQUBQUCQWMWOW
-      QADGZABUPWRBDGZHIZUSWRJDGZHIVAWSXAHIHIHIHWRABWTHIHDABDUGEUHUIUJABCUGVFVDJ
-      IVDVEJVDVECJHJJCUKCULQUMVDSQUN $.
+      ( wi1 wa wo wf wn id leo df-i1 ax-r1 ax-a1 ax-r2 lbtr 2an wt or0 lan omla
+      2or an1 0i1 oa3-2lema bltr oa4to6 oa6to4 ancom an0 lor le3tr2 ) ACGZABABH
+      ZUOBCGZHIZAJHZUOJCGZHIBJHZUQUTHIHIHIHACHZBCHZIZJCHZIZUOABURHIHVDAUOBUQJUT
+      CUOKZLUQKZLUTKZLAKZVGBKZVHJKZVIDABJVJVJVBIZVGKZVJVBMVMUOVNUOVMACNZOUOPZQR
+      VKVKVCIZVHKZVKVCMVQUQVRUQVQBCNZOUQPZQRVLVLVEIZVIKZVLVEMWAUTWBUTWAJCNOUTPZ
+      QRDDJIZVJKZVNHZVKKZVRHZIZVLKZWBHZIWDDDUAODWIJWKDVDWIFVBWFVCWHVBAUOHZWFWLV
+      BWLAVMHVBUOVMAVOUBACUCQOAWEUOVNAPZVPSQVCBUQHZWHWNVCWNBVQHVCUQVQBVSUBBCUCQ
+      OBWGUQVRBPZVTSQUDQJJTHZWKWPJJUEOJWJTWBJPZTUTWBUTTCUFOWCQSQUDQWMWOWQADGZAB
+      UPWRBDGZHIZUSWRJDGZHIVAWSXAHIHIHIHWRABWTHIHDABDUGEUHUIUJABCUGVFVDJIVDVEJV
+      DVECJHJJCUKCULQUMVDUAQUN $.
       $( [25-Dec-98] $)
   $}
 
@@ -9247,12 +9188,12 @@ $)
                  ( ( b ->1 c ) ^ ( ( ( a ->1 c ) ^ ( b ->1
                  c ) ) v ( ( a ' ->1 c ) ^ ( b ' ->1
                   c ) ) ) ) ) ) ) =< c $=
-      ( wn wi1 wa wo wt oa3-u1lem ax-r1 le1 u1lem9ab ax-a2 lear lel2or df-le2
-      ax-r2 an1 ancom u1lem8 2or 3tr oa4to6dual leid letr bltr ) CAEZCFZACFZBCF
-      ZUJUKGZUIBEZCFZGZHGHGHZICUICUIGIUJGHCUNGIUKGHUOULHGHGHGZCUQUPABCJKUQCCCIU
-      IUJUNUKCCELACMBCMCCBCGZUMCGZHZHZCIGZUIUJGZHZUNUKGZHZVACVAUTCHCCUTNUTCURCU
-      SBCOUMCOPQRKVFVAVDCVEUTVDCACGZUHCGZHZHVICHCVBCVCVICSVCUJUIGVIUIUJTACUARUB
-      CVINVICVGCVHACOUHCOPQUCVEUKUNGUTUNUKTBCUARUBKRDUDCUEUFUG $.
+      ( wn wi1 wa wo wt oa3-u1lem ax-r1 u1lem9ab ax-a2 lear lel2or df-le2 ax-r2
+      ancom u1lem8 2or le1 an1 3tr oa4to6dual leid letr bltr ) CAEZCFZACFZBCFZU
+      JUKGZUIBEZCFZGZHGHGHZICUICUIGIUJGHCUNGIUKGHUOULHGHGHGZCUQUPABCJKUQCCCIUIU
+      JUNUKCCEUAACLBCLCCBCGZUMCGZHZHZCIGZUIUJGZHZUNUKGZHZVACVAUTCHCCUTMUTCURCUS
+      BCNUMCNOPQKVFVAVDCVEUTVDCACGZUHCGZHZHVICHCVBCVCVICUBVCUJUIGVIUIUJRACSQTCV
+      IMVICVGCVHACNUHCNOPUCVEUKUNGUTUNUKRBCSQTKQDUDCUEUFUG $.
       $( [27-Dec-98] $)
   $}
 
@@ -9267,12 +9208,12 @@ $)
     oa3-u2 $p |- ( ( a ->1 c ) ^ ( ( a ' ->1 c ) v ( c ^ ( ( a ->1 c ) v
                   ( ( b ->1 c ) ^ ( ( ( a ->1 c ) ^ ( b ->1 c ) ) v
                   ( ( a ' ->1 c ) ^ ( b ' ->1 c ) ) ) ) ) ) ) ) =< c $=
-      ( wi1 wn wa wo wt oa3-u2lem ax-r1 u1lem9ab le1 or32 ancom u1lem8 ax-r2
-      2or an1 lear lel2or df-le2 3tr oa4to6dual bltr ) ACEZAFZCEZCUFBCEZUFUIGZU
-      HBFZCEZGZHGHGHGZUFUHCUHCGUFIGHUMUJHCULGIUIGHGHGHGZCUOUNABCJKUHUFCIULUICAC
-      LCFMBCLUHUFGZCIGZHULUIGZHZCUSUPURHZUQHACGZUGCGZHZBCGZUKCGZHZHZCHCUPUQURNU
-      TVGUQCUPVCURVFUPUFUHGVCUHUFOACPQURUIULGVFULUIOBCPQRCSRVGCVCCVFVACVBACTUGC
-      TUAVDCVEBCTUKCTUAUAUBUCKDUDUE $.
+      ( wi1 wn wa wo wt oa3-u2lem ax-r1 u1lem9ab le1 or32 ancom u1lem8 2or lear
+      ax-r2 lel2or an1 df-le2 3tr oa4to6dual bltr ) ACEZAFZCEZCUFBCEZUFUIGZUHBF
+      ZCEZGZHGHGHGZUFUHCUHCGUFIGHUMUJHCULGIUIGHGHGHGZCUOUNABCJKUHUFCIULUICACLCF
+      MBCLUHUFGZCIGZHULUIGZHZCUSUPURHZUQHACGZUGCGZHZBCGZUKCGZHZHZCHCUPUQURNUTVG
+      UQCUPVCURVFUPUFUHGVCUHUFOACPSURUIULGVFULUIOBCPSQCUAQVGCVCCVFVACVBACRUGCRT
+      VDCVEBCRUKCRTTUBUCKDUDUE $.
       $( [27-Dec-98] $)
   $}
 
@@ -9287,10 +9228,10 @@ $)
     oa3-1to5 $p |- ( c ^ ( ( b ->1 c ) v ( ( a ->1 c ) ^
               ( ( a ^ b ) v ( ( a ->1 c ) ^ ( b ->1 c ) ) ) ) ) )
                =< ( b ' ->1 c ) $=
-      ( wi1 wa wo wn leid lel2or lelan ax-a1 ran ax-r5 ax-a2 ax-r2 u1lemab
-      3tr1 ancom lbtr lear letr ) CBCEZACEZABFUDUCFGFZGZFZCBHZCEZFZUIUGCUCFZUJU
-      FUCCUCUCUEUCIDJKUCCFZUICFZUKUJBCFZUHCFZGZUOUHHZCFZGZULUMUPURUOGUSUNURUOBU
-      QCBLMNURUOOPBCQUHCQRCUCSCUISRTCUIUAUB $.
+      ( wi1 wa wo wn leid lel2or lelan ax-a1 ran ax-r5 ax-a2 ax-r2 u1lemab 3tr1
+      ancom lbtr lear letr ) CBCEZACEZABFUDUCFGFZGZFZCBHZCEZFZUIUGCUCFZUJUFUCCU
+      CUCUEUCIDJKUCCFZUICFZUKUJBCFZUHCFZGZUOUHHZCFZGZULUMUPURUOGUSUNURUOBUQCBLM
+      NURUOOPBCQUHCQRCUCSCUISRTCUIUAUB $.
       $( [1-Jan-99] $)
   $}
 
@@ -9329,14 +9270,14 @@ $( In this section, we postulate a temporary axiom (intended not to
                 ( ( a ^ b ) v ( ( a ->1 c ) ^ ( b ->1 c ) ) ) $.
     $( Derivation of 3-OA from OA distributive law. $)
     d3oa $p |- ( ( a ->1 c ) ^ f ) =< ( b ->1 c ) $=
-      ( wi1 wa wn wi2 wo 1oai1 2oath1i1 lear bltr le2or id leid df-i1 ax-a1
-      ax-r1 bile leo letr df-i2 ax-a2 ax-r2 lea lbtr ax-oadist wi0 u12lem
-      df-i0 ax-r5 lan oridm le3tr2 ) ACFZABGZHZUQBCFZGZFZGZUQUSVAIZGZJZUTUTJUQD
-      GZUTVCUTVEUTABCKVEVAUTABCLUQUTMNOVFUQVBVDJZGZVGVIVFABACAAGUQUQGJBAGUTUQGJ
-      GZURVAJZVJJZUQVBVDVJPVLPUQQVBVKVLVBUSHZUSVAGZJVKUSVARVMURVNVAVMURURVMURSZ
-      TZUAUSVAMONVKVJUBZUCVDVKVLVDVMVAHZGZVAJZVKVDVAVSJZVTUSVAUDZVAVSUEUFVSURVA
-      VAVSVMURVMVRUGVPUHVAQONVQUCVAWAVDVAVSUBVDWAWBTUHUITVHDUQVHVKDVHVMVAJZVKVH
-      USVAUJWCUSVAUKUSVAULUFVKWCURVMVAVOUMTUFDVKETUFUNUFUTUOUP $.
+      ( wi1 wa wn wi2 wo lear bltr le2or id leid ax-r1 leo letr ax-r2 lbtr bile
+      1oai1 2oath1i1 df-i1 ax-a1 df-i2 ax-a2 lea ax-oadist wi0 u12lem df-i0 lan
+      ax-r5 oridm le3tr2 ) ACFZABGZHZUQBCFZGZFZGZUQUSVAIZGZJZUTUTJUQDGZUTVCUTVE
+      UTABCUBVEVAUTABCUCUQUTKLMVFUQVBVDJZGZVGVIVFABACAAGUQUQGJBAGUTUQGJGZURVAJZ
+      VJJZUQVBVDVJNVLNUQOVBVKVLVBUSHZUSVAGZJVKUSVAUDVMURVNVAVMURURVMURUEZPZUAUS
+      VAKMLVKVJQZRVDVKVLVDVMVAHZGZVAJZVKVDVAVSJZVTUSVAUFZVAVSUGSVSURVAVAVSVMURV
+      MVRUHVPTVAOMLVQRVAWAVDVAVSQVDWAWBPTUIPVHDUQVHVKDVHVMVAJZVKVHUSVAUJWCUSVAU
+      KUSVAULSVKWCURVMVAVOUNPSDVKEPSUMSUTUOUP $.
       $( [30-Dec-98] $)
   $}
 
@@ -9348,12 +9289,12 @@ $( In this section, we postulate a temporary axiom (intended not to
                   ( ( b ^ c ) v ( ( b ->1 d ) ^ ( c ->1 d ) ) ) ) $.
     $( Variant of proper 4-OA proved from OA distributive law. $)
     d4oa $p |- ( ( a ->1 d ) ^ ( e v f ) ) =< ( b ->1 d ) $=
-      ( wi1 wo wa ax-a2 lan id 2or leid leor leo ax-r1 lbtr ax-oadist ax-r2
-      anass d3oa leran bltr ancom letr lel2or ) ADIZEFJZKZUJFKZUJEKZJZBDIZULUJF
-      EJZKUOUKUQUJEFLMABCDACKUJCDIZKJZBCKZUPURKZJZKZUKUJFEVCNEABKZUJUPKZJZFVCGH
-      OUJPFEQEFRVEVFEVEVDQEVFGSTUAUBUMUPUNUMURVBKZUPUMUJUSKZVBKZVGUMUJVCKZVIFVC
-      UJHMVIVJUJUSVBUCSUBVHURVBACDUSUSNUDUEUFCBDVBUTCBKVAURUPKBCUGUPURUGOUDUHAB
-      DEGUDUIUF $.
+      ( wi1 wo wa lan id 2or leor ax-r1 ax-r2 d3oa bltr ancom ax-a2 anass leran
+      leid leo lbtr ax-oadist letr lel2or ) ADIZEFJZKZUJFKZUJEKZJZBDIZULUJFEJZK
+      UOUKUQUJEFUALABCDACKUJCDIZKJZBCKZUPURKZJZKZUKUJFEVCMEABKZUJUPKZJZFVCGHNUJ
+      UDFEOEFUEVEVFEVEVDOEVFGPUFUGQUMUPUNUMURVBKZUPUMUJUSKZVBKZVGUMUJVCKZVIFVCU
+      JHLVIVJUJUSVBUBPQVHURVBACDUSUSMRUCSCBDVBUTCBKVAURUPKBCTUPURTNRUHABDEGRUIS
+      $.
       $( [30-Dec-98] $)
   $}
 
@@ -9411,10 +9352,10 @@ $)
   oaliii $p |- ( ( a ->2 b ) ^
               ( ( b v c ) ' v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) =
      ( ( a ->2 c ) ^ ( ( b v c ) ' v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) $=
-    ( wi2 wo wn wa anass anidm lan ax-r2 ax-r1 oal2 leran bltr ax-a2 ax-r4
-    ancom 2or ran lebi ) ABDZBCEZFZUBACDZGZEZGZUEUGGZUHUHUGGZUIUJUHUJUBUGUGGZGU
-    HUBUGUGHUKUGUBUGIZJKLUHUEUGABCMNOUIUECBEZFZUEUBGZEZGZUGGZUHURUIURUEUPUGGZGU
-    IUEUPUGHUSUGUEUSUKUGUPUGUGUNUDUOUFUMUCCBPQUEUBRSTULKJKLUQUBUGACBMNOUA $.
+    ( wi2 wo wn wa anass anidm lan ax-r2 ax-r1 oal2 leran ax-a2 ax-r4 ancom 2or
+    bltr ran lebi ) ABDZBCEZFZUBACDZGZEZGZUEUGGZUHUHUGGZUIUJUHUJUBUGUGGZGUHUBUG
+    UGHUKUGUBUGIZJKLUHUEUGABCMNSUIUECBEZFZUEUBGZEZGZUGGZUHURUIURUEUPUGGZGUIUEUP
+    UGHUSUGUEUSUKUGUPUGUGUNUDUOUFUMUCCBOPUEUBQRTULKJKLUQUBUGACBMNSUA $.
     $( [22-Sep-98] $)
 
   $( Orthoarguesian law.  Godowski/Greechie, Eq.  II. This proof references
@@ -9430,9 +9371,9 @@ $)
   oaliv $p |- ( b ' ^ ( ( a ->2 b ) v ( ( a ->2 c ) ^ ( ( b v c ) '
                 v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) ) ) =<
               ( ( b ' ^ ( a ->2 b ) ) v ( c ' ^ ( a ->2 c ) ) ) $=
-    ( wn wi2 wo wa lea oalii ler2an df-i2 ancom lor ax-r2 lan omlan ax-r1 lbtr
-    leo letr ) BDZABEZACEZBCFDUBUCGFGFZGZUAUBGZUFCDUCGZFUEUAADZGZUFUEUAUHUAUDHA
-    BCIJUFUIUFUABUIFZGUIUBUJUAUBBUHUAGZFUJABKUKUIBUHUALMNOBUHPNQRUFUGST $.
+    ( wn wi2 wo lea oalii ler2an df-i2 ancom lor ax-r2 lan omlan ax-r1 lbtr leo
+    wa letr ) BDZABEZACEZBCFDUBUCSFSFZSZUAUBSZUFCDUCSZFUEUAADZSZUFUEUAUHUAUDGAB
+    CHIUFUIUFUABUIFZSUIUBUJUAUBBUHUASZFUJABJUKUIBUHUAKLMNBUHOMPQUFUGRT $.
     $( [25-Nov-98] $)
 
   $( OA theorem. $)
@@ -9449,11 +9390,11 @@ $)
                 v ( ( a ->2 c ) ^ ( ( b v c ) '
                 v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) ) ) ) =<
                 ( a ->2 ( b v c ) ) $=
-    ( wo wn wi2 wa anidm ran ax-r1 anor3 an32 ax-r2 3tr2 anass oalii lelan
-    bltr ancom lbtr lelor df-i2 ) BCDZUCEZABFZACFZUDUEUFGDGDZGZDUCAEZUDGZDZAUCF
-    ZUHUJUCUHUDUIGZUJUHUDBEZGZUGGZUMUDUOUGUNCEZGZUNUNGZUQGZUDUOUTURUSUNUQUNHIJB
-    CKZUTURUNGUOUNUNUQLURUDUNVAIMNIUPUDUNUGGZGUMUDUNUGOVBUIUDABCPQRRUDUISTUAULU
-    KAUCUBJT $.
+    ( wo wn wi2 wa anidm ran ax-r1 anor3 an32 ax-r2 3tr2 anass oalii lelan bltr
+    ancom lbtr lelor df-i2 ) BCDZUCEZABFZACFZUDUEUFGDGDZGZDUCAEZUDGZDZAUCFZUHUJ
+    UCUHUDUIGZUJUHUDBEZGZUGGZUMUDUOUGUNCEZGZUNUNGZUQGZUDUOUTURUSUNUQUNHIJBCKZUT
+    URUNGUOUNUNUQLURUDUNVAIMNIUPUDUNUGGZGUMUDUNUGOVBUIUDABCPQRRUDUISTUAULUKAUCU
+    BJT $.
     $( [16-Oct-98] $)
 
   $( Lemma. $)
@@ -9474,10 +9415,10 @@ $)
         ( d v ( ( b v c ) ->2 ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) ) =
   ( ( ( a ->2 b ) ^ d ) v
     ( ( a ->2 b ) ^ ( ( b v c ) ->2 ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) ) $=
-      ( wi2 wo wa ax-a2 lan wi0 bltr lelan wn df-i0 oath1 ax-r2 leo df-i2
-      ax-r1 lbtr letr distlem ) ABFZDBCGZUDACFHZFZGZHUDUGDGZHZUDDHZUDUGHZGZUHUI
-      UDDUGIJUJULUKGUMUDUGDUJUDUEUFKZHZUGUIUNUDUIUHUNUGDIELMUOUFUGUOUDUENZUFGZH
-      UFUNUQUDUEUFOJABCPQUFUFUPUFNHZGZUGUFURRUGUSUEUFSTUALUBUCULUKIQQ $.
+      ( wi2 wo wa ax-a2 lan wi0 bltr lelan wn df-i0 oath1 ax-r2 leo df-i2 ax-r1
+      lbtr letr distlem ) ABFZDBCGZUDACFHZFZGZHUDUGDGZHZUDDHZUDUGHZGZUHUIUDDUGI
+      JUJULUKGUMUDUGDUJUDUEUFKZHZUGUIUNUDUIUHUNUGDIELMUOUFUGUOUDUENZUFGZHUFUNUQ
+      UDUEUFOJABCPQUFUFUPUFNHZGZUGUFURRUGUSUEUFSTUALUBUCULUKIQQ $.
       $( [17-Nov-98] $)
   $}
 
@@ -9521,9 +9462,9 @@ $)
            C ( a ->2 b ) $.
     $( Commutation law requiring OA. $)
     oacom $p |- d C ( ( a ->2 b ) ^ ( a ->2 c ) ) $=
-      ( wi2 wo wa wi0 comcom ancom bctr gsth2 wn df-i0 lan oath1 ax-r2 cbtr )
-      DABGZBCHZUAACGIZJZIZUCUEDUAUDDDUDEKUDDIZUAUFDUDIUAUDDLFMKNKUEUAUBOUCHZIUC
-      UDUGUAUBUCPQABCRST $.
+      ( wi2 wo wa wi0 comcom ancom bctr gsth2 wn df-i0 lan oath1 ax-r2 cbtr ) D
+      ABGZBCHZUAACGIZJZIZUCUEDUAUDDDUDEKUDDIZUAUFDUDIUAUDDLFMKNKUEUAUBOUCHZIUCU
+      DUGUAUBUCPQABCRST $.
       $( [19-Nov-98] $)
   $}
 
@@ -9555,10 +9496,10 @@ $)
     oagen1 $p |- ( ( a ->2 b ) ^
               ( d v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) =
               ( ( a ->2 b ) ^ ( a ->2 c ) ) $=
-      ( wi2 wa wo wn wi0 df-i0 lbtr leror ax-a3 oridm lor ax-r2 lelan oath1
-      lea leor ler2an lebi ) ABFZDUDACFZGZHZGZUFUHUDBCHZIZUFHZGUFUGUKUDUGUKUFHZ
-      UKDUKUFDUIUFJUKEUIUFKLMULUJUFUFHZHUKUJUFUFNUMUFUJUFOPQLRABCSLUFUDUGUDUETU
-      FDUAUBUC $.
+      ( wi2 wa wo wn wi0 df-i0 lbtr leror ax-a3 oridm lor ax-r2 lelan oath1 lea
+      leor ler2an lebi ) ABFZDUDACFZGZHZGZUFUHUDBCHZIZUFHZGUFUGUKUDUGUKUFHZUKDU
+      KUFDUIUFJUKEUIUFKLMULUJUFUFHZHUKUJUFUFNUMUFUJUFOPQLRABCSLUFUDUGUDUETUFDUA
+      UBUC $.
       $( [19-Nov-98] $)
   $}
 
@@ -9595,13 +9536,13 @@ $)
   $( Mladen's OA $)
   mloa $p |- ( ( a == b ) ^ ( ( b == c ) v ( ( b v ( a == b ) )
          ^ ( c v ( a == c ) ) ) ) ) =< ( c v ( a == c ) ) $=
-    ( wi2 wa wn wo tb lea ax-a3 or12 anor3 ax-r5 ax-r2 leo df-i2 ax-r1 lbtr
-    le2an id bile lel2or lelor bltr oal2 letr u2lembi dfb i2bi 2an 2or le3tr2
-    ) ABDZBADZEZBCEZBFZCFZEZGZUMACDZEZGZEZVAABHZBCHZBVEGZCACHGZEZGZEVHVDUMBCGFZ
-    VBGZEVAUOUMVCVLUMUNIVCVKUPVBGZGZVLVCUPUSVBGGZVNUPUSVBJVOUSVMGVNUPUSVBKUSVKV
-    MBCLMNNVMVBVKUPVBVBBUMCVABBAFZUQEZGZUMBVQOUMVRABPQRCCVPUREZGZVACVSOVAVTACPQ
-    RSVBVBVBTUAUBUCUDSABCUEUFUOVEVCVJABUGUTVFVBVIVFUTBCUHQUMVGVAVHABUIACUIZUJUK
-    UJWAUL $.
+    ( wi2 wa wn wo tb lea ax-a3 or12 anor3 ax-r2 leo df-i2 ax-r1 lbtr le2an 2an
+    i2bi ax-r5 id bile lel2or lelor bltr oal2 letr u2lembi dfb 2or le3tr2 ) ABD
+    ZBADZEZBCEZBFZCFZEZGZUMACDZEZGZEZVAABHZBCHZBVEGZCACHGZEZGZEVHVDUMBCGFZVBGZE
+    VAUOUMVCVLUMUNIVCVKUPVBGZGZVLVCUPUSVBGGZVNUPUSVBJVOUSVMGVNUPUSVBKUSVKVMBCLU
+    AMMVMVBVKUPVBVBBUMCVABBAFZUQEZGZUMBVQNUMVRABOPQCCVPUREZGZVACVSNVAVTACOPQRVB
+    VBVBUBUCUDUEUFRABCUGUHUOVEVCVJABUIUTVFVBVIVFUTBCUJPUMVGVAVHABTACTZSUKSWAUL
+    $.
     $( [20-Nov-98] $)
 
 
@@ -9612,9 +9553,9 @@ $)
               ( d v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) =
               ( ( ( a ->2 b ) ^ d ) v ( ( a ->2 b ) ^
               ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) $=
-      ( wi2 wa wo oagen1 bile anidm ax-r1 ran anass ax-r2 leor bltr letr ledi
-      lebi ) ABFZDUAACFZGZHGZUADGZUAUCGZHZUDUCUGUDUCABCDEIJUCUFUGUCUAUAGZUBGUFU
-      AUHUBUHUAUAKLMUAUAUBNOUFUEPQRUADUCST $.
+      ( wi2 wa oagen1 bile anidm ax-r1 ran anass ax-r2 leor bltr letr ledi lebi
+      wo ) ABFZDUAACFZGZTGZUADGZUAUCGZTZUDUCUGUDUCABCDEHIUCUFUGUCUAUAGZUBGUFUAU
+      HUBUHUAUAJKLUAUAUBMNUFUEOPQUADUCRS $.
       $( [20-Nov-98] $)
   $}
 
@@ -9626,9 +9567,9 @@ $)
               ( e v ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) =
               ( ( d ^ e ) v ( d ^
               ( ( a ->2 b ) ^ ( a ->2 c ) ) ) ) $=
-      ( wi2 wa wo df2le2 ran ax-r1 anass oagen1 lan ax-r2 leor bltr ledi lebi
-      ) DEABHZACHIZJZIZDEIZDUCIZJZUEUGUHUEDUBIZUDIZUGUJUEUIDUDDUBFKLMUJDUBUDIZI
-      UGDUBUDNUKUCDABCEGOPQQUGUFRSDEUCTUA $.
+      ( wi2 wa wo df2le2 ran ax-r1 anass oagen1 lan ax-r2 leor bltr ledi lebi )
+      DEABHZACHIZJZIZDEIZDUCIZJZUEUGUHUEDUBIZUDIZUGUJUEUIDUDDUBFKLMUJDUBUDIZIUG
+      DUBUDNUKUCDABCEGOPQQUGUFRSDEUCTUA $.
       $( [20-Nov-98] $)
   $}
 
@@ -9641,10 +9582,10 @@ $)
     $( Pre-distributive law. $)
     oadistc0 $p |- ( ( a ->2 b ) ^ ( ( b v c ) ' v d ) ) =
                    ( ( ( a ->2 b ) ^ ( b v c ) ' ) v d ) $=
-      ( wi2 wo wn wa ancom lelor lelan oal2 letr df2le2 ax-r2 ax-r1 bltr
-      ledior ax-a2 lea df-le2 ran lbtr lebi ) ABGZBCHIZDHZJZUGUHJDHZUJACGZUJJZU
-      KUMUJUMUJULJUJULUJKUJULUJUGUHUGULJZHZJULUIUOUGDUNUHELMABCNOPQRFSUKUGDHZUI
-      JUJDUGUHTUPUGUIUPDUGHUGUGDUADUGDUNUGEUGULUBOUCQUDUEUF $.
+      ( wi2 wo wn wa ancom lelor lelan oal2 letr df2le2 ax-r2 ax-r1 bltr ledior
+      ax-a2 lea df-le2 ran lbtr lebi ) ABGZBCHIZDHZJZUGUHJDHZUJACGZUJJZUKUMUJUM
+      UJULJUJULUJKUJULUJUGUHUGULJZHZJULUIUOUGDUNUHELMABCNOPQRFSUKUGDHZUIJUJDUGU
+      HTUPUGUIUPDUGHUGUGDUADUGDUNUGEUGULUBOUCQUDUEUF $.
       $( [30-Nov-98] $)
   $}
 
@@ -9668,12 +9609,12 @@ $)
     oadistd.4 $e |- ( d ^ ( a ->2 c ) ) =< f $.
     $( OA distributive law. $)
     oadistd $p |- ( d ^ ( e v f ) ) = ( ( d ^ e ) v ( d ^ f ) ) $=
-      ( wo wa wi2 wi0 le2or oridm lbtr lelan df2le2 ax-r1 wn df-i0 lan leo
-      oagen1b ax-r2 lear an32 lea bltr letr leor ledi lebi ) DEFKZLZDELZDFLZKZU
-      PURUSUPUPDACMZLZLZURUPUPDBCKZABMUTLZNZLZLZVBVGUPUPVFUOVEDUOVEVEKVEEVEFVEH
-      IOVEPQRSTVFVAUPVFDVCUAZVDKZLVAVEVIDVCVDUBZUCABCDVHGVHVIVEVHVDUDVEVIVJTQUE
-      UFUCUFVBVAURUPVAUGVAURUTLZURVAVAFLZVKVLVAVAFJSTDUTFUHUFURUTUIUJUKUJURUQUL
-      UKDEFUMUN $.
+      ( wo wa wi2 lbtr df2le2 ax-r1 lan ax-r2 bltr letr le2or oridm lelan df-i0
+      wi0 wn leo oagen1b lear an32 lea leor ledi lebi ) DEFKZLZDELZDFLZKZUPURUS
+      UPUPDACMZLZLZURUPUPDBCKZABMUTLZUEZLZLZVBVGUPUPVFUOVEDUOVEVEKVEEVEFVEHIUAV
+      EUBNUCOPVFVAUPVFDVCUFZVDKZLVAVEVIDVCVDUDZQABCDVHGVHVIVEVHVDUGVEVIVJPNUHRQ
+      RVBVAURUPVAUIVAURUTLZURVAVAFLZVKVLVAVAFJOPDUTFUJRURUTUKSTSURUQULTDEFUMUN
+      $.
       $( [21-Nov-98] $)
   $}
 
@@ -9734,18 +9675,18 @@ $)
     oa3moa3 $p |- ( ( a v b ) ^ ( ( c v d ) v e ) ) =< ( a v ( ( ( b ^ ( c v
          ( ( b v c ) ^ ( ( a v d ) v e ) ) ) ) ^ ( d v ( ( b v d ) ^ ( ( a v
           c ) v e ) ) ) ) ^ ( e v ( ( b v e ) ^ ( ( a v c ) v d ) ) ) ) ) $=
-      ( wo wa lecon3 wn lel2or ax-oal4 ax-a2 ax-a3 2an orass lan lor le3tr1
-      ror tr ler2an lel lecom comcom7 comcom fh3 cm anandi lbtr ax-r1 anass
-      3tr1 ) ABJZCDJZEJZKZABCBCJZADJEJZKZJZKZJZABDBDJZACJZEJZKZJZEBEJZVHDJZKZJZ
-      KZKZJZKZAVEVKKVOKZJZUTVFVRBAJZCDEJZJZKABCVAAWCJZKZJZKZJUTVFBACWCABFLZWCCD
-      CMECDGLINLOUQWBUSWDABPZCDEQRVEWHAVDWGBVCWFCVBWEVAADESTUATUAUBUTABVKKZJZAB
-      VOKZJZKZVRUTWLWNWBDCEJZJZKABDVGAWPJZKZJZKZJUTWLBADWPWIWPDCDMEGDEHLNLOUQWB
-      USWQWJUSDCJZEJWQURXBECDPUCDCESUDRWKXAAVKWTBVJWSDVIWRVGACESTUATUAUBWBEURJZ
-      KABEVLAURJZKZJZKZJUTWNBAEURWIURECEMDECILHNLOUQWBUSXCWJUREPRWMXGAVOXFBVNXE
-      EVMXDVLACDQTUATUAUBUEWOAWKWMKZJZVRXIWOAWKWMWKAWKAWKAMZBXJVKWIUFUGUHUIWMAW
-      MAWMXJBXJVOWIUFUGUHUIUJUKXHVQAVQXHBVKVOULUKUAUDUMUEVSAVEVQKZJZWAXLVSAVEVQ
-      VEAVEAVEXJBXJVDWIUFUGUHUIVQAVQAVQXJBXJVPWIUFUGUHUIUJUNXKVTABVDVPKKZVEVPKZ
-      XKVTXNXMBVDVPUOUKXMXKBVDVPULUNVEVKVOUOUPUAUDUM $.
+      ( wo wa lecon3 wn lel2or lan lor lel lecom comcom7 comcom ax-a2 ax-a3 2an
+      ax-oal4 orass le3tr1 ror tr ler2an fh3 cm anandi lbtr ax-r1 anass 3tr1 )
+      ABJZCDJZEJZKZABCBCJZADJEJZKZJZKZJZABDBDJZACJZEJZKZJZEBEJZVHDJZKZJZKZKZJZK
+      ZAVEVKKVOKZJZUTVFVRBAJZCDEJZJZKABCVAAWCJZKZJZKZJUTVFBACWCABFLZWCCDCMECDGL
+      INLUDUQWBUSWDABUAZCDEUBUCVEWHAVDWGBVCWFCVBWEVAADEUEOPOPUFUTABVKKZJZABVOKZ
+      JZKZVRUTWLWNWBDCEJZJZKABDVGAWPJZKZJZKZJUTWLBADWPWIWPDCDMEGDEHLNLUDUQWBUSW
+      QWJUSDCJZEJWQURXBECDUAUGDCEUEUHUCWKXAAVKWTBVJWSDVIWRVGACEUEOPOPUFWBEURJZK
+      ABEVLAURJZKZJZKZJUTWNBAEURWIURECEMDECILHNLUDUQWBUSXCWJUREUAUCWMXGAVOXFBVN
+      XEEVMXDVLACDUBOPOPUFUIWOAWKWMKZJZVRXIWOAWKWMWKAWKAWKAMZBXJVKWIQRSTWMAWMAW
+      MXJBXJVOWIQRSTUJUKXHVQAVQXHBVKVOULUKPUHUMUIVSAVEVQKZJZWAXLVSAVEVQVEAVEAVE
+      XJBXJVDWIQRSTVQAVQAVQXJBXJVPWIQRSTUJUNXKVTABVDVPKKZVEVPKZXKVTXNXMBVDVPUOU
+      KXMXKBVDVPULUNVEVKVOUOUPPUHUM $.
       $( [31-Mar-2011] $) $( [3-Apr-2009] $)
   $}
 
@@ -9874,10 +9815,10 @@ $)
 
     $( Proper 4-OA theorem. $)
     4oath1 $p |- ( ( a ->1 d ) ^ f ) = ( ( a ->1 d ) ^ ( b ->1 d ) ) $=
-      ( wi1 wa wo 4oaiii lan or32 ax-r2 2an anidm ax-r1 anandir 3tr1 ax-a2
-      anabs 3tr ) ADIZFJZUDBDIZJZABJZEKZUGKZJZUGUGUIKZJUGUEUEJZUDUJJZUFUJJZJZUE
-      UKUMUEUFFJZJUPUEUQUEABCDEFGHLMUEUNUQUOFUJUDFUHUGKEKUJHUHUGENOZMFUJUFURMPO
-      UMUEUEQRUDUFUJSTUJULUGUIUGUAMUGUIUBUC $.
+      ( wi1 wa wo 4oaiii lan or32 ax-r2 2an anidm ax-r1 anandir 3tr1 ax-a2 3tr
+      anabs ) ADIZFJZUDBDIZJZABJZEKZUGKZJZUGUGUIKZJUGUEUEJZUDUJJZUFUJJZJZUEUKUM
+      UEUFFJZJUPUEUQUEABCDEFGHLMUEUNUQUOFUJUDFUHUGKEKUJHUHUGENOZMFUJUFURMPOUMUE
+      UEQRUDUFUJSTUJULUGUIUGUAMUGUIUCUB $.
       $( [29-Dec-98] $)
 
     ${
@@ -9886,10 +9827,10 @@ $)
       4oagen1 $p |- ( ( a ->1 d ) ^
               ( g v ( ( a ->1 d ) ^ ( b ->1 d ) ) ) ) =
               ( ( a ->1 d ) ^ ( b ->1 d ) ) $=
-        ( wi1 wa wo or32 ax-r2 lbtr leror ax-a3 oridm lor ax-r1 lelan 4oath1
-        lea leor ler2an lebi ) ADKZGUHBDKZLZMZLZUJULUHFLUJUKFUHUKABLZEMZUJMZUJM
-        ZFGUOUJGFUOJFUMUJMEMUOIUMUJENOZPQUPUNUJUJMZMZFUNUJUJRUSUOFURUJUNUJSTFUO
-        UQUAOOPUBABCDEFHIUCPUJUHUKUHUIUDUJGUEUFUG $.
+        ( wi1 wa wo or32 ax-r2 lbtr leror ax-a3 oridm lor ax-r1 4oath1 lea leor
+        lelan ler2an lebi ) ADKZGUHBDKZLZMZLZUJULUHFLUJUKFUHUKABLZEMZUJMZUJMZFG
+        UOUJGFUOJFUMUJMEMUOIUMUJENOZPQUPUNUJUJMZMZFUNUJUJRUSUOFURUJUNUJSTFUOUQU
+        AOOPUEABCDEFHIUBPUJUHUKUHUIUCUJGUDUFUG $.
         $( [29-Dec-98] $)
     $}
 
@@ -9899,9 +9840,9 @@ $)
       $( "Generalized" OA. $)
       4oagen1b $p |- ( h ^ ( g v ( ( a ->1 d ) ^ ( b ->1 d ) ) ) ) =
               ( h ^ ( b ->1 d ) ) $=
-        ( wi1 wa wo 4oagen1 lan anass ax-r1 df2le2 ran ax-r2 3tr2 ) HADMZGUDBDM
-        ZNZOZNZNZHUFNZHUGNZHUENZUHUFHABCDEFGIJKPQUIHUDNZUGNZUKUNUIHUDUGRSUMHUGH
-        UDLTZUAUBUJUMUENZULUPUJHUDUERSUMHUEUOUAUBUC $.
+        ( wi1 wa wo 4oagen1 anass ax-r1 ran ax-r2 lan df2le2 3tr2 ) HADMZGUDBDM
+        ZNZOZNZNZHUFNZHUGNZHUENZUHUFHABCDEFGIJKPUAUIHUDNZUGNZUKUNUIHUDUGQRUMHUG
+        HUDLUBZSTUJUMUENZULUPUJHUDUEQRUMHUEUOSTUC $.
         $( [29-Dec-98] $)
     $}
 
@@ -9913,12 +9854,12 @@ $)
       $( OA Distributive law.  This is equivalent to the 6-variable OA law, as
          shown by theorem ~ d6oa . $)
       4oadist $p |- ( h ^ ( j v k ) ) = ( ( h ^ j ) v ( h ^ k ) ) $=
-        ( wo wa wi1 le2or oridm lbtr lelan df2le2 ax-r1 or32 ax-r2 lan leo
-        4oagen1b lear an32 lea bltr letr leor ledi lebi ) GHIPZQZGHQZGIQZPZUSVA
-        VBUSUSGBDRZQZQZVAUSUSGFQZQZVEVGUSUSVFURFGURFFPFHFIFMNSFTUAUBUCUDVFVDUSV
-        FGABQZEPZADRVCQZPZQVDFVKGFVHVJPEPVKKVHVJEUEUFZUGABCDEFVIGJKVIVKFVIVJUHF
-        VKVLUDUALUIUFUGUFVEVDVAUSVDUJVDVAVCQZVAVDVDIQZVMVNVDVDIOUCUDGVCIUKUFVAV
-        CULUMUNUMVAUTUOUNGHIUPUQ $.
+        ( wo wa wi1 ax-r1 ax-r2 le2or oridm lbtr lelan df2le2 or32 lan 4oagen1b
+        leo lear an32 lea bltr letr leor ledi lebi ) GHIPZQZGHQZGIQZPZUSVAVBUSU
+        SGBDRZQZQZVAUSUSGFQZQZVEVGUSUSVFURFGURFFPFHFIFMNUAFUBUCUDUESVFVDUSVFGAB
+        QZEPZADRVCQZPZQVDFVKGFVHVJPEPVKKVHVJEUFTZUGABCDEFVIGJKVIVKFVIVJUIFVKVLS
+        UCLUHTUGTVEVDVAUSVDUJVDVAVCQZVAVDVDIQZVMVNVDVDIOUESGVCIUKTVAVCULUMUNUMV
+        AUTUOUNGHIUPUQ $.
         $( [29-Dec-98] $)
     $}
 
@@ -9998,13 +9939,13 @@ $)
     $( Equation 3.4 of [PavMeg1999] p. 9.  (Contributed by Roy F. Longton,
        3-Jul-05.) $)
     lem3.3.4 $p |- ( a ->2 ( a ==5 b ) ) = ( a ==5 b ) $=
-      ( wid5 wi2 wn wa wo wf df-i2 df-id5 ax-r4 lan anor3 ax-r1 oran3 oran 2an
-      ax-r2 anabs ran anass wt con2 ancom lor oran1 3tr1 con3 df-f 3tr2 3tr
-      ax-a2 or0r ) AABDZEUOAFZUOFZGZHZIUOHZUOAUOJUSUOIHUTURIUOURUPABGZUPBFZGZHZ
-      FZGUPUPVBHZABHZGZGZIUQVEUPUOVDABKLMVEVHUPVEVAFZVCFZGZVHVLVEVAVCNOVJVFVKVG
-      VFVJABPOVGVKABQZORSMUPVFGZVGGUPVGGZVIIVNUPVGUPVBTUAUPVFVGUBBAEZFUCFVOIVPU
-      CCLVOVPAVGFZHZAVBUPGZHVOFZVPVQVSAVQVCVSVGVCVMUDUPVBUESUFVRVTAVGUGOBAJUHUI
-      UJUHUKULUFUOIUMSUOUNUL $.
+      ( wid5 wi2 wn wa wo df-i2 df-id5 ax-r4 lan anor3 ax-r1 ax-r2 lor 3tr1 3tr
+      wf wt oran3 oran 2an anabs ran anass con2 ancom oran1 con3 df-f 3tr2 or0r
+      ax-a2 ) AABDZEUOAFZUOFZGZHZSUOHZUOAUOIUSUOSHUTURSUOURUPABGZUPBFZGZHZFZGUP
+      UPVBHZABHZGZGZSUQVEUPUOVDABJKLVEVHUPVEVAFZVCFZGZVHVLVEVAVCMNVJVFVKVGVFVJA
+      BUANVGVKABUBZNUCOLUPVFGZVGGUPVGGZVISVNUPVGUPVBUDUEUPVFVGUFBAEZFTFVOSVPTCK
+      VOVPAVGFZHZAVBUPGZHVOFZVPVQVSAVQVCVSVGVCVMUGUPVBUHOPVRVTAVGUINBAIQUJUKQUL
+      RPUOSUNOUOUMR $.
       $( [3-Jul-05] $) $( [28-Jun-05] $)
   $}
 
@@ -10021,10 +9962,10 @@ $)
     $( Equation 3.5 of [PavMeg1999] p. 9.  (Contributed by Roy F. Longton,
        3-Jul-05.) $)
     lem3.3.5 $p |- ( a ->1 ( b v c ) ) = 1 $=
-      ( wo wi1 wb1 wn wa wt df-b1 lea bltr df-i1 lbtr leo lelan lelor letr
-      wid5 lem3.3.3 lem3.3.2 ax-r1 le3tr1 lem3.3.5lem ) ABCEZFZABGZAHZAUFIZEZJU
-      GUHUIABIZEZUKUHABFZUMUHUNBAFZIUNABKUNUOLMABNOULUJUIBUFABCPQRSUHJABTUHDABU
-      AUBUCAUFNUDUE $.
+      ( wo wi1 wb1 wn wa wt df-b1 lea bltr df-i1 lbtr leo lelan lelor letr wid5
+      lem3.3.3 lem3.3.2 ax-r1 le3tr1 lem3.3.5lem ) ABCEZFZABGZAHZAUFIZEZJUGUHUI
+      ABIZEZUKUHABFZUMUHUNBAFZIUNABKUNUOLMABNOULUJUIBUFABCPQRSUHJABTUHDABUAUBUC
+      AUFNUDUE $.
       $( [3-Jul-05] $) $( [28-Jun-05] $)
   $}
 
@@ -10040,11 +9981,11 @@ $)
      0, and this is the first part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i0e1 $p |- ( a ->0 ( a ^ b ) ) = ( a ==0 ( a ^ b ) ) $=
-    ( wn wa wo wi0 wid0 wt or1 ax-r1 lan an1 df-t lor 3tr2 ax-a2 ax-a3 3tr
-    ax-r5 oran3 df-i0 df-id0 3tr1 ) ACZABDZEZUFUECZAEZDZAUEFAUEGUFUFBCZUDEZAEZD
-    ZUFUDUJEZAEZDUIUFUFUJAUDEZEZDZUFUJUDAEZEZDUMUFHDUFUJHEZDUFURHVAUFVAHUJIJKUF
-    LVAUQUFHUPUJAMNKOUQUTUFUPUSUJAUDPNKUTULUFULUTUJUDAQJKRULUOUFUKUNAUJUDPSKUOU
-    HUFUNUGAABTSKRAUEUAAUEUBUC $.
+    ( wn wa wo wi0 wid0 or1 ax-r1 lan an1 df-t lor 3tr2 ax-a2 ax-a3 ax-r5 oran3
+    wt 3tr df-i0 df-id0 3tr1 ) ACZABDZEZUFUECZAEZDZAUEFAUEGUFUFBCZUDEZAEZDZUFUD
+    UJEZAEZDUIUFUFUJAUDEZEZDZUFUJUDAEZEZDUMUFSDUFUJSEZDUFURSVAUFVASUJHIJUFKVAUQ
+    UFSUPUJALMJNUQUTUFUPUSUJAUDOMJUTULUFULUTUJUDAPIJTULUOUFUKUNAUJUDOQJUOUHUFUN
+    UGAABRQJTAUEUAAUEUBUC $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
@@ -10065,24 +10006,24 @@ $)
      1, and this is the first part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i1e1 $p |- ( a ->1 ( a ^ b ) ) = ( a ==1 ( a ^ b ) ) $=
-    ( wn wa wo wi1 wid1 wt or1r ax-r1 ran an1r df-t ax-r5 3tr2 ax-a3 oran3 lor
-    3tr df-i1 df-id1 3tr1 ) ACZAABDZDEZAUDCZEZUEDZAUDFAUDGUEAUCEZBCZEZUEDZAUCUJ
-    EZEZUEDUHHUEDHUJEZUEDUEULHUOUEUOHUJIJKUELUOUKUEHUIUJAMNKOUKUNUEAUCUJPKUNUGU
-    EUMUFAABQRKSAUDTAUDUAUB $.
+    ( wn wa wo wi1 wid1 or1r ax-r1 ran an1r df-t ax-r5 3tr2 ax-a3 oran3 lor 3tr
+    wt df-i1 df-id1 3tr1 ) ACZAABDZDEZAUDCZEZUEDZAUDFAUDGUEAUCEZBCZEZUEDZAUCUJE
+    ZEZUEDUHSUEDSUJEZUEDUEULSUOUEUOSUJHIJUEKUOUKUESUIUJALMJNUKUNUEAUCUJOJUNUGUE
+    UMUFAABPQJRAUDTAUDUAUB $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
      1, and this is the second part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i1e2 $p |- ( a ==1 ( a ^ b ) ) = ( ( a ^ b ) ==1 a ) $=
-    ( wa wn wo wid1 oran3 ax-r1 lor ran ax-a3 wt df-t ax-r5 or1r an1r anass
-    anidm ax-a2 an1 lan 3tr ancom df-id1 3tr1 ) AABCZDZEZADZAUFCZEZCZUFUIEZUGUF
-    ACZEZCZAUFFUFAFULAUIBDZEZEZUKCAUIEZUQEZUKCZUPUHUSUKUGURAURUGABGHIJUSVAUKVAU
-    SAUIUQKHJVBLUQEZUKCLUKCZUPVAVCUKUTLUQLUTAMHNJVCLUKUQOJVDUKUIAACZBCZEZUPUKPU
-    JVFUIVFUJAABQZHIVGUIUFEZUMUGABACZCZEZCZUPVFUFUIVEABARZJIVIUMUGVFEZCZUMUGUJE
-    ZCVMVIUMUFUGEZCZUMUGUFEZCVPVIUMUMLCZVSUIUFSWAUMUMTHLVRUMUFMUAUBVRVTUMUFUGSU
-    AVTVOUMUFVFUGAVEBVEAVNHJIUAUBVOVQUMVFUJUGVHIUAVQVLUMUJVKUGUFVJAABUCUAIUAUBV
-    LUOUMVKUNUGUNVKABAQHIUAUBUBUBUBAUFUDUFAUDUE $.
+    ( wa wn wo wid1 oran3 ax-r1 lor ran ax-a3 wt df-t ax-r5 anass ax-a2 lan 3tr
+    or1r df-id1 an1r anidm an1 ancom 3tr1 ) AABCZDZEZADZAUFCZEZCZUFUIEZUGUFACZE
+    ZCZAUFFUFAFULAUIBDZEZEZUKCAUIEZUQEZUKCZUPUHUSUKUGURAURUGABGHIJUSVAUKVAUSAUI
+    UQKHJVBLUQEZUKCLUKCZUPVAVCUKUTLUQLUTAMHNJVCLUKUQSJVDUKUIAACZBCZEZUPUKUAUJVF
+    UIVFUJAABOZHIVGUIUFEZUMUGABACZCZEZCZUPVFUFUIVEABAUBZJIVIUMUGVFEZCZUMUGUJEZC
+    VMVIUMUFUGEZCZUMUGUFEZCVPVIUMUMLCZVSUIUFPWAUMUMUCHLVRUMUFMQRVRVTUMUFUGPQVTV
+    OUMUFVFUGAVEBVEAVNHJIQRVOVQUMVFUJUGVHIQVQVLUMUJVKUGUFVJAABUDQIQRVLUOUMVKUNU
+    GUNVKABAOHIQRRRRAUFTUFATUE $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
@@ -10096,23 +10037,23 @@ $)
      2, and this is the first part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i2e1 $p |- ( a ->2 ( a ^ b ) ) = ( a ==2 ( a ^ b ) ) $=
-    ( wa wn wo wi2 wid2 wt or1r ax-r1 ran an1r df-t ax-r5 3tr2 ax-a3 oran3 lor
-    3tr df-i2 df-id2 3tr1 ) ABCZADZUCDZCEZAUEEZUFCZAUCFAUCGUFAUDEZBDZEZUFCZAUDU
-    JEZEZUFCUHHUFCHUJEZUFCUFULHUOUFUOHUJIJKUFLUOUKUFHUIUJAMNKOUKUNUFAUDUJPKUNUG
-    UFUMUEAABQRKSAUCTAUCUAUB $.
+    ( wa wn wo wi2 wid2 or1r ax-r1 ran an1r df-t ax-r5 3tr2 ax-a3 oran3 lor 3tr
+    wt df-i2 df-id2 3tr1 ) ABCZADZUCDZCEZAUEEZUFCZAUCFAUCGUFAUDEZBDZEZUFCZAUDUJ
+    EZEZUFCUHSUFCSUJEZUFCUFULSUOUFUOSUJHIJUFKUOUKUFSUIUJALMJNUKUNUFAUDUJOJUNUGU
+    FUMUEAABPQJRAUCTAUCUAUB $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
      2, and this is the second part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i2e2 $p |- ( a ==2 ( a ^ b ) ) = ( ( a ^ b ) ==2 a ) $=
-    ( wa wn wo wid2 oran3 ax-r1 lor ran ax-a3 wt df-t ax-r5 or1r an1r anor3
-    orabs ax-r4 an1 lan ax-r2 lea df-le2 3tr df-id2 3tr1 ) AABCZDZEZUHADZUICZEZ
-    CZUHUKEZAUIUKCZEZCZAUHFUHAFUNAUKBDZEZEZUMCAUKEZUSEZUMCZURUJVAUMUIUTAUTUIABG
-    HIJVAVCUMVCVAAUKUSKHJVDLUSEZUMCLUMCZURVCVEUMVBLUSLVBAMZHNJVELUMUSOJVFUMUHAU
-    HEZDZEZURUMPULVIUHAUHQIVJUOURVIUKUHVHAABRSIUOUOVBCZUOAUHAEZDZEZCURUOUOLCZVK
-    VOUOUOTHLVBUOVGUAUBVBVNUOUKVMAAVLVLAUHAABUCUDHSIUAVNUQUOVMUPAUPVMUHAQHIUAUE
-    UBUEUEUEAUHUFUHAUFUG $.
+    ( wa wn wo wid2 oran3 ax-r1 lor ran ax-a3 wt df-t ax-r5 anor3 ax-r4 lan 3tr
+    ax-r2 df-id2 or1r an1r orabs an1 lea df-le2 3tr1 ) AABCZDZEZUHADZUICZEZCZUH
+    UKEZAUIUKCZEZCZAUHFUHAFUNAUKBDZEZEZUMCAUKEZUSEZUMCZURUJVAUMUIUTAUTUIABGHIJV
+    AVCUMVCVAAUKUSKHJVDLUSEZUMCLUMCZURVCVEUMVBLUSLVBAMZHNJVELUMUSUAJVFUMUHAUHEZ
+    DZEZURUMUBULVIUHAUHOIVJUOURVIUKUHVHAABUCPIUOUOVBCZUOAUHAEZDZEZCURUOUOLCZVKV
+    OUOUOUDHLVBUOVGQSVBVNUOUKVMAAVLVLAUHAABUEUFHPIQVNUQUOVMUPAUPVMUHAOHIQRSRRRA
+    UHTUHATUG $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
@@ -10126,28 +10067,27 @@ $)
      3, and this is the first part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i3e1 $p |- ( a ->3 ( a ^ b ) ) = ( a ==3 ( a ^ b ) ) $=
-    ( wn wa wo wi3 wid3 anass ax-r1 ax-r5 ancom ran wf dff an0r or0r anor3
-    orabs ax-r4 wt womaa an1 df-t lan 3tr lor ax-r2 df-i3 df-id3 3tr1 ) ACZABDZ
-    DZUKULCDZEZAUKULEZDZEZUPAUNEZDZAULFAULGURUKADZBDZUNEZUQEAUKDZBDZUNEZUQEZUTU
-    OVCUQUMVBUNVBUMUKABHIJJVCVFUQVBVEUNVAVDBUKAKLJJVGMBDZUNEZUQEMUNEZUQEZUTVFVI
-    UQVEVHUNVDMBMVDANILJJVIVJUQVHMUNBOJJVKUNUQEZUTVJUNUQUNPJVLAULEZCZUQEUKUQEZU
-    TUNVNUQAULQZJVNUKUQVMAABRZSJVOUPAUKEZDZUPAVNEZDUTVOUPUPTDZVSABUAWAUPUPUBITV
-    RUPAUCUDUEVRVTUPUKVNAAVMVMAVQISUFUDVTUSUPVNUNAUNVNVPIUFUDUEUEUGUEUEAULUHAUL
-    UIUJ $.
+    ( wn wa wo wi3 wid3 anass ax-r1 ax-r5 ancom ran wf dff ax-r4 wt lan 3tr lor
+    an0r or0r anor3 orabs womaa an1 df-t ax-r2 df-i3 df-id3 3tr1 ) ACZABDZDZUKU
+    LCDZEZAUKULEZDZEZUPAUNEZDZAULFAULGURUKADZBDZUNEZUQEAUKDZBDZUNEZUQEZUTUOVCUQ
+    UMVBUNVBUMUKABHIJJVCVFUQVBVEUNVAVDBUKAKLJJVGMBDZUNEZUQEMUNEZUQEZUTVFVIUQVEV
+    HUNVDMBMVDANILJJVIVJUQVHMUNBTJJVKUNUQEZUTVJUNUQUNUAJVLAULEZCZUQEUKUQEZUTUNV
+    NUQAULUBZJVNUKUQVMAABUCZOJVOUPAUKEZDZUPAVNEZDUTVOUPUPPDZVSABUDWAUPUPUEIPVRU
+    PAUFQRVRVTUPUKVNAAVMVMAVQIOSQVTUSUPVNUNAUNVNVPISQRRUGRRAULUHAULUIUJ $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
      3, and this is the second part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i3e2 $p |- ( a ==3 ( a ^ b ) ) = ( ( a ^ b ) ==3 a ) $=
-    ( wn wa wo wid3 wt anor3 lor lan orabs ax-r4 df-t ax-r1 an1 ax-a2 3tr lea
-    df-le2 an1r ax-r2 or1 ran ax-a3 ax-r5 oran3 df-id3 3tr1 ) ACZABDZEZAUIUJCZD
-    ZEZDZULAEZUJULUIDZEZDZAUJFUJAFUOBCZUIEZAEZURDZUIUTEZAEZURDUSUOUTAUIEZEZURDZ
-    UTUIAEZEZURDVCUOGURDZUTGEZURDVHUOURVKUOUJUIEZUJUJAEZCZEURUOUKAAUJEZCZEZDUKV
-    FDZVMUNVRUKUMVQAAUJHIJVRVFUKVQUIAVPAABKLIJVSUKGDUKVMVFGUKGVFAMZNJUKOUIUJPQQ
-    UIVOUJAVNVNAUJAABRSNLIVOUQUJUQVOUJAHNIQVKURURTNUAGVLURVLGUTUBNUCVLVGURGVFUT
-    VTIUCQVGVJURVFVIUTAUIPIUCVJVBURVBVJUTUIAUDNUCQVBVEURVAVDAUTUIPUEUCVEUPURVDU
-    LAABUFUEUCQAUJUGUJAUGUH $.
+    ( wn wa wo wid3 wt anor3 lor lan orabs ax-r4 df-t ax-r1 an1 ax-a2 3tr ax-r5
+    ran df-id3 lea df-le2 an1r ax-r2 or1 ax-a3 oran3 3tr1 ) ACZABDZEZAUIUJCZDZE
+    ZDZULAEZUJULUIDZEZDZAUJFUJAFUOBCZUIEZAEZURDZUIUTEZAEZURDUSUOUTAUIEZEZURDZUT
+    UIAEZEZURDVCUOGURDZUTGEZURDVHUOURVKUOUJUIEZUJUJAEZCZEURUOUKAAUJEZCZEZDUKVFD
+    ZVMUNVRUKUMVQAAUJHIJVRVFUKVQUIAVPAABKLIJVSUKGDUKVMVFGUKGVFAMZNJUKOUIUJPQQUI
+    VOUJAVNVNAUJAABUAUBNLIVOUQUJUQVOUJAHNIQVKURURUCNUDGVLURVLGUTUENSVLVGURGVFUT
+    VTISQVGVJURVFVIUTAUIPISVJVBURVBVJUTUIAUFNSQVBVEURVAVDAUTUIPRSVEUPURVDULAABU
+    GRSQAUJTUJATUH $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
@@ -10161,24 +10101,23 @@ $)
      4, and this is the first part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i4e1 $p |- ( a ->4 ( a ^ b ) ) = ( a ==4 ( a ^ b ) ) $=
-    ( wa wn wo wi4 wid4 lear lea leid ler2an lebi ax-r5 wt wf lecon ortha lor
-    or0 leor lel2or leo lerr 3tr an1 ax-r1 sklem lan df-i4 df-id4 3tr1 ) AABCZC
-    ZADZULCZEZUNULEZULDZCZEZUQURUMEZCZAULFAULGUTULUOEZUSEZUQURULEZCZVBUPVCUSUMU
-    LUOUMULAULHZULAULABIZULJZKZLMMVDUQUQNCZVFVDULOEZUSEULUSEZUQVCVLUSUOOULUNULU
-    LAVHPZQRMVLULUSULSMVMUQULUQUSULUNTUQURIUAUNVMULUNUSULUNUQURUNULUBVNKUCULUSU
-    BUALUDVKUQUQUEUFNVEUQVENULULVIUGUFUHUDVEVAUQULUMURULUMVJVGLRUHUDAULUIAULUJU
-    K $.
+    ( wa wn wo wi4 wid4 lear lea ler2an lebi ax-r5 wt wf lor lel2or leo 3tr lan
+    ax-r1 leid lecon ortha or0 leor lerr an1 sklem df-i4 df-id4 3tr1 ) AABCZCZA
+    DZULCZEZUNULEZULDZCZEZUQURUMEZCZAULFAULGUTULUOEZUSEZUQURULEZCZVBUPVCUSUMULU
+    OUMULAULHZULAULABIZULUAZJZKLLVDUQUQMCZVFVDULNEZUSEULUSEZUQVCVLUSUONULUNULUL
+    AVHUBZUCOLVLULUSULUDLVMUQULUQUSULUNUEUQURIPUNVMULUNUSULUNUQURUNULQVNJUFULUS
+    QPKRVKUQUQUGTMVEUQVEMULULVIUHTSRVEVAUQULUMURULUMVJVGKOSRAULUIAULUJUK $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
      4, and this is the second part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i4e2 $p |- ( a ==4 ( a ^ b ) ) = ( ( a ^ b ) ==4 a ) $=
-    ( wn wa wo wid4 wt lear lea leid ler2an lebi lor lan sklem an1 df2le2
-    ax-r1 an1r ax-r2 ran 3tr df-id4 3tr1 ) ACZABDZEZUFCZAUFDZEZDZUHAEZUEUFADZEZ
-    DZAUFFUFAFUKUGUHUFEZDUGGDZUOUJUPUGUIUFUHUIUFAUFHUFAUFABIZUFJZKLMNUPGUGUFUFU
-    SONUQUGGUNDZUOUGPUGUNUTUFUMUEUMUFUFAURQRMUTUNUNSRTGULUNULGUFAURORUAUBUBAUFU
-    CUFAUCUD $.
+    ( wn wa wo wid4 wt lear lea leid ler2an lebi lor lan sklem an1 df2le2 ax-r1
+    3tr df-id4 an1r ax-r2 ran 3tr1 ) ACZABDZEZUFCZAUFDZEZDZUHAEZUEUFADZEZDZAUFF
+    UFAFUKUGUHUFEZDUGGDZUOUJUPUGUIUFUHUIUFAUFHUFAUFABIZUFJZKLMNUPGUGUFUFUSONUQU
+    GGUNDZUOUGPUGUNUTUFUMUEUMUFUFAURQRMUTUNUNUARUBGULUNULGUFAURORUCSSAUFTUFATUD
+    $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
@@ -10192,10 +10131,10 @@ $)
      5, and this is the first part of the equation.  (Contributed by Roy F.
      Longton, 3-Jul-05.) $)
   lem3.3.7i5e1 $p |- ( a ->5 ( a ^ b ) ) = ( a ==5 ( a ^ b ) ) $=
-    ( wa wn wo wi5 wid5 wf lear lea leid ler2an lebi lecon ortha 2or ax-r5 or0
-    df2le2 ax-r1 3tr df-i5 df-id5 3tr1 ) AABCZCZADZUECZEZUGUEDZCZEZUFUKEZAUEFAU
-    EGULUEHEZUKEUEUGEUMUIUNUKUFUEUHHUFUEAUEIZUEAUEABJZUEKLZMUGUEUEAUPNZOPQUNUEU
-    KUGUERUGUJURSZPUEUFUGUKUEUFUQUOMUKUGUSTPUAAUEUBAUEUCUD $.
+    ( wa wn wo wi5 wid5 wf lear lea leid ler2an lebi lecon ortha 2or or0 df2le2
+    ax-r5 ax-r1 3tr df-i5 df-id5 3tr1 ) AABCZCZADZUECZEZUGUEDZCZEZUFUKEZAUEFAUE
+    GULUEHEZUKEUEUGEUMUIUNUKUFUEUHHUFUEAUEIZUEAUEABJZUEKLZMUGUEUEAUPNZOPSUNUEUK
+    UGUEQUGUJURRZPUEUFUGUKUEUFUQUOMUKUGUSTPUAAUEUBAUEUCUD $.
     $( [3-Jul-05] $) $( [28-Jun-05] $)
 
   $( Equation 3.7 of [PavMeg1999] p. 9.  The variable i in the paper is set to
@@ -10274,11 +10213,10 @@ $)
     $( Equation 3.11 of [PavMeg1999] p. 9.  (Contributed by Roy F. Longton,
        3-Jul-05.) $)
     lem3.4.3 $p |- ( a ->2 ( a ==5 b ) ) = 1 $=
-      ( wid5 wi1 wt 2vwomr2a ax-r1 wn wa wo anidm ran lea lel leran ler ler2an
-      bltr df-id5 lan lbtr lelor df-i1 le3tr1 lem3.3.5lem 2vwomr1a ) AABDZAUHEZ
-      FABEZUIUJFABCGHAIZABJZKUKAUHJZKUJUIULUMUKULAULUKBIJZKZJZUMULAAJZBJZUPAUQB
-      UQAALHMURAUOUQABAANZOURULUNUQABUSPQRSUOUHAUHUOABTHUAUBUCABUDAUHUDUESUFUG
-      $.
+      ( wid5 wi1 wt 2vwomr2a ax-r1 wn wa wo anidm ran lea lel leran ler2an bltr
+      ler df-i1 df-id5 lan lbtr lelor le3tr1 lem3.3.5lem 2vwomr1a ) AABDZAUHEZF
+      ABEZUIUJFABCGHAIZABJZKUKAUHJZKUJUIULUMUKULAULUKBIJZKZJZUMULAAJZBJZUPAUQBU
+      QAALHMURAUOUQABAANZOURULUNUQABUSPSQRUOUHAUHUOABUAHUBUCUDABTAUHTUERUFUG $.
       $( [3-Jul-05] $) $( [29-Jun-05] $)
   $}
 
@@ -10306,9 +10244,9 @@ $)
     $( Equation 3.14 of [PavMeg1999] p. 9.  (Contributed by Roy F. Longton,
        3-Jul-05.) $)
     lem3.4.6 $p |- ( ( a v c ) ==5 ( b v c ) ) = 1 $=
-      ( wo wi2 wt lem3.3.6 ax-r1 lem3.4.5 ax-r2 wid5 wa wn df-id5 ancom 2or
-      3tr lem3.4.4 ) ACEZBCEZTUAFZAUAFZGUCUBABCHIABCDJKUATFZBTFZGUEUDBACHIBACBA
-      LBAMZBNZANZMZEZGBAOUJABMZUHUGMZEZABLZGUFUKUIULBAPUGUHPQUNUMABOIDRKJKS $.
+      ( wo wi2 wt lem3.3.6 ax-r1 lem3.4.5 ax-r2 wid5 wa wn df-id5 ancom 2or 3tr
+      lem3.4.4 ) ACEZBCEZTUAFZAUAFZGUCUBABCHIABCDJKUATFZBTFZGUEUDBACHIBACBALBAM
+      ZBNZANZMZEZGBAOUJABMZUHUGMZEZABLZGUFUKUIULBAPUGUHPQUNUMABOIDRKJKS $.
       $( [3-Jul-05] $) $( [29-Jun-05] $)
   $}
 
@@ -10360,16 +10298,16 @@ $)
   $( Equation 4.10 of [MegPav2000] p. 23.  This is the first part of the
      equation.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.2e1 $p |- ( ( a ->1 b ) ^ ( a ' ->1 b ) ) = ( ( a ->1 b ) ^ b ) $=
-    ( wi1 wn wa wo df-i1 2an ax-a1 ax-r1 ax-r5 lan comorr comcom6 comcom leao1
-    lecom fh1 ancom omla lor coman1 comcom7 coman2 com2an ran anass anidm
-    orabs comcom2 fh3 ax-a2 lear df-le2 3tr ) ABCZADZBCZEUQABEZFZUQDZUQBEZFZEZU
-    TBEZUPBEUPUTURVCABGZUQBGHVDUTAVBFZEUTAEZUTVBEZFZVEVCVGUTVAAVBAVAAIJKLUTAVBA
-    UTAUTUQUSMNOVBUTVBUTUQBUSPQORVJAUTEZVIFUSVIFZVEVHVKVIUTASKVKUSVIABTKVLUSVBU
-    TEZFUSVBUQEZVBUSEZFZFZVEVIVMUSUTVBSUAVMVPUSVBUQUSUQBUBZVBABVBAVRUCUQBUDUERU
-    AVQUSBUQEZUQEZVOFZFUSBUQUQEZEZVOFZFZVEVPWAUSVNVTVOVBVSUQUQBSUFKUAWAWDUSVTWC
-    VOBUQUQUGKUAWEUSVSVOFZFUSVBVOFZFZVEWDWFUSWCVSVOWBUQBUQUHLKUAWFWGUSVSVBVOBUQ
-    SKUAWHUSVBFUSUQFZUSBFZEVEWGVBUSVBUSUIUAUSUQBUSAABUBUJABUDUKWIUTWJBUSUQULUSB
-    ABUMUNHUOUOUOUOUOUOUTUPBUPUTVFJUFUO $.
+    ( wi1 wn wa wo df-i1 2an ax-a1 ax-r1 ax-r5 lan comcom fh1 lor coman1 coman2
+    ancom ran 3tr comorr comcom6 leao1 lecom comcom7 com2an anass anidm comcom2
+    omla orabs fh3 ax-a2 lear df-le2 ) ABCZADZBCZEUQABEZFZUQDZUQBEZFZEZUTBEZUPB
+    EUPUTURVCABGZUQBGHVDUTAVBFZEUTAEZUTVBEZFZVEVCVGUTVAAVBAVAAIJKLUTAVBAUTAUTUQ
+    USUAUBMVBUTVBUTUQBUSUCUDMNVJAUTEZVIFUSVIFZVEVHVKVIUTARKVKUSVIABUJKVLUSVBUTE
+    ZFUSVBUQEZVBUSEZFZFZVEVIVMUSUTVBROVMVPUSVBUQUSUQBPZVBABVBAVRUEUQBQUFNOVQUSB
+    UQEZUQEZVOFZFUSBUQUQEZEZVOFZFZVEVPWAUSVNVTVOVBVSUQUQBRSKOWAWDUSVTWCVOBUQUQU
+    GKOWEUSVSVOFZFUSVBVOFZFZVEWDWFUSWCVSVOWBUQBUQUHLKOWFWGUSVSVBVOBUQRKOWHUSVBF
+    USUQFZUSBFZEVEWGVBUSVBUSUKOUSUQBUSAABPUIABQULWIUTWJBUSUQUMUSBABUNUOHTTTTTTU
+    TUPBUPUTVFJST $.
     $( [3-Jul-05] $) $( [29-Jun-05] $)
 
   $( Equation 4.10 of [MegPav2000] p. 23.  This is the second part of the
@@ -10405,32 +10343,32 @@ $)
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 0, and j is set to 1.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i0j1 $p |- ( ( a ->0 b ) v ( a ->1 b ) ) = ( a ->0 b ) $=
-    ( wn wo wa wi0 wi1 leid lear lelor lel2or leo lebi df-i0 df-i1 2or 3tr1 )
-    ACZBDZRABEZDZDZSABFZABGZDUCUBSSSUASHTBRABIJKSUALMUCSUDUAABNZABOPUEQ $.
+    ( wn wo wa wi0 wi1 leid lear lelor lel2or leo lebi df-i0 df-i1 2or 3tr1 ) A
+    CZBDZRABEZDZDZSABFZABGZDUCUBSSSUASHTBRABIJKSUALMUCSUDUAABNZABOPUEQ $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 0, and j is set to 2.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i0j2 $p |- ( ( a ->0 b ) v ( a ->2 b ) ) = ( a ->0 b ) $=
-    ( wn wo wa wi0 wi2 leid leor leao1 lel2or leo lebi df-i0 df-i2 2or 3tr1 )
-    ACZBDZBRBCZEZDZDZSABFZABGZDUDUCSSSUBSHBSUABRIRTBJKKSUBLMUDSUEUBABNZABOPUFQ
+    ( wn wo wa wi0 wi2 leid leor leao1 lel2or leo lebi df-i0 df-i2 2or 3tr1 ) A
+    CZBDZBRBCZEZDZDZSABFZABGZDUDUCSSSUBSHBSUABRIRTBJKKSUBLMUDSUEUBABNZABOPUFQ
     $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 0, and j is set to 3.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i0j3 $p |- ( ( a ->0 b ) v ( a ->3 b ) ) = ( a ->0 b ) $=
-    ( wn wo wa wi0 wi3 leid leao1 lel2or lear leo lebi df-i0 df-i3 2or 3tr1 )
-    ACZBDZRBEZRBCZEZDZASEZDZDZSABFZABGZDUGUFSSSUESHUCSUDTSUBRBBIRUABIJASKJJSUEL
-    MUGSUHUEABNZABOPUIQ $.
+    ( wn wo wa wi0 wi3 leid leao1 lel2or lear leo lebi df-i0 df-i3 2or 3tr1 ) A
+    CZBDZRBEZRBCZEZDZASEZDZDZSABFZABGZDUGUFSSSUESHUCSUDTSUBRBBIRUABIJASKJJSUELM
+    UGSUHUEABNZABOPUIQ $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 0, and j is set to 4.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i0j4 $p |- ( ( a ->0 b ) v ( a ->4 b ) ) = ( a ->0 b ) $=
-    ( wn wo wa wi0 wi4 leid leao4 leao1 lel2or lea leo lebi df-i0 df-i4 2or
-    3tr1 ) ACZBDZABEZSBEZDZTBCZEZDZDZTABFZABGZDUHUGTTTUFTHUCTUEUATUBBASISBBJKTU
-    DLKKTUFMNUHTUIUFABOZABPQUJR $.
+    ( wn wo wi0 wi4 leid leao4 leao1 lel2or lea leo lebi df-i0 df-i4 2or 3tr1
+    wa ) ACZBDZABRZSBRZDZTBCZRZDZDZTABEZABFZDUHUGTTTUFTGUCTUEUATUBBASHSBBIJTUDK
+    JJTUFLMUHTUIUFABNZABOPUJQ $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
@@ -10449,16 +10387,15 @@ $)
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 1, and j is set to 3.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i1j3 $p |- ( ( a ->1 b ) v ( a ->3 b ) ) = ( a ->0 b ) $=
-    ( wn wa wo wi1 wi3 wi0 leo ler lecom comcom6 comcom lear lelor lea lel2or
-    fh3 ax-a3 ax-a2 ran ax-r1 wt ax-r5 ax-a4 df-le1 lem3.3.5lem an1r orordi
-    lor df-le2 3tr ax-r2 3tr2 df-i1 df-i3 2or df-i0 3tr1 ) ACZABDZEZUTBDZUTBCZD
-    ZEZAUTBEZDZEZEZVGABFZABGZEABHVBVFEZVHEVMAEZVMVGEZDZVJVGVMAVGAVMAVMUTVMUTVBV
-    FUTVAIJKLMVMVGVBVGVFVABUTABNZOVFUTBVCUTVEUTBPUTVDPQJZQKRVBVFVHSVPAVMEZVODAV
-    BEZVFEZVODZVGVNVSVOVMATUAVSWAVOWAVSAVBVFSUBUAWBAUTEZVAEZVFEZVODUCVODZVGWAWE
-    VOVTWDVFWDVTAUTVASUBUDUAWEUCVOWEUCWDVFUCWCVAUCWCUCAUEUFJJUGUAWFVOVFVBEZVGEZ
-    VGVOUHVMWGVGVBVFTUDWHVFVBVGEZEZVGVFVBVGSWJVFUTVABEZEZEVFVGEVGWIWLVFWLWIUTVA
-    BUIUBUJWLVGVFWKBUTVABVQUKUJUJVFVGVRUKULUMULULULUNVKVBVLVIABUOABUPUQABURUS
-    $.
+    ( wn wa wo wi1 wi3 ler lecom lea lel2or ax-a3 ax-a2 ran ax-r1 wt lor df-le2
+    ax-r5 3tr wi0 leo comcom6 comcom lear lelor ax-a4 df-le1 lem3.3.5lem orordi
+    fh3 an1r ax-r2 3tr2 df-i1 df-i3 2or df-i0 3tr1 ) ACZABDZEZUTBDZUTBCZDZEZAUT
+    BEZDZEZEZVGABFZABGZEABUAVBVFEZVHEVMAEZVMVGEZDZVJVGVMAVGAVMAVMUTVMUTVBVFUTVA
+    UBHIUCUDVMVGVBVGVFVABUTABUEZUFVFUTBVCUTVEUTBJUTVDJKHZKIUKVBVFVHLVPAVMEZVODA
+    VBEZVFEZVODZVGVNVSVOVMAMNVSWAVOWAVSAVBVFLONWBAUTEZVAEZVFEZVODPVODZVGWAWEVOV
+    TWDVFWDVTAUTVALOSNWEPVOWEPWDVFPWCVAPWCPAUGUHHHUINWFVOVFVBEZVGEZVGVOULVMWGVG
+    VBVFMSWHVFVBVGEZEZVGVFVBVGLWJVFUTVABEZEZEVFVGEVGWIWLVFWLWIUTVABUJOQWLVGVFWK
+    BUTVABVQRQQVFVGVRRTUMTTTUNVKVBVLVIABUOABUPUQABURUS $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
@@ -10471,42 +10408,41 @@ $)
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 2, and j is set to 1.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i2j1 $p |- ( ( a ->2 b ) v ( a ->1 b ) ) = ( a ->0 b ) $=
-    ( wn wa wo wi2 wi1 wi0 leor leao1 lel2or lear lelor leo lerr ler lebi
-    df-i2 df-i1 2or df-i0 3tr1 ) BACZBCZDZEZUCABDZEZEZUCBEZABFZABGZEABHUIUJUFUJ
-    UHBUJUEBUCIUCUDBJKUGBUCABLMKUCUIBUCUHUFUCUGNOBUFUHBUENPKQUKUFULUHABRABSTABU
-    AUB $.
+    ( wn wa wo wi2 wi1 wi0 leor leao1 lel2or lear lelor leo lerr ler lebi df-i2
+    df-i1 2or df-i0 3tr1 ) BACZBCZDZEZUCABDZEZEZUCBEZABFZABGZEABHUIUJUFUJUHBUJU
+    EBUCIUCUDBJKUGBUCABLMKUCUIBUCUHUFUCUGNOBUFUHBUENPKQUKUFULUHABRABSTABUAUB $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 2, and j is set to 4.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i2j4 $p |- ( ( a ->2 b ) v ( a ->4 b ) ) = ( a ->0 b ) $=
-    ( wn wa wo wi2 wi4 wi0 ax-a2 ax-r5 ax-a3 ax-r1 lor ancom lan oml ax-r2 3tr
-    leao1 leao4 lel2or leid leor lerr lebi df-i2 df-i4 2or df-i0 3tr1 ) BACZBCZ
-    DZEZABDZUKBDZEZUKBEZULDZEZEZURABFZABGZEABHVAUMBEZUTEUMBUTEZEZURUNVDUTBUMIJU
-    MBUTKVFUMBUQEZUSEZEUMUQBEZUSEZEZURVEVHUMVHVEBUQUSKLMVHVJUMVGVIUSBUQIJMVKUMU
-    QBUSEZEZEUMUQUREZEZURVJVMUMUQBUSKMVMVNUMVLURUQVLBULURDZEBULBUKEZDZEZURUSVPB
-    URULNMVPVRBURVQULUKBIOMVSVQURBUKPBUKIQRMMVOURUMURVNUKULBSUQURURUOURUPBAUKTU
-    KBBSUAURUBUAUAURVNUMURUQUCUDUERRRVBUNVCUTABUFABUGUHABUIUJ $.
+    ( wn wa wo wi2 wi4 wi0 ax-a2 ax-r5 ax-a3 ax-r1 lor ancom lan oml 3tr lel2or
+    ax-r2 leao1 leao4 leid leor lerr lebi df-i2 df-i4 2or df-i0 3tr1 ) BACZBCZD
+    ZEZABDZUKBDZEZUKBEZULDZEZEZURABFZABGZEABHVAUMBEZUTEUMBUTEZEZURUNVDUTBUMIJUM
+    BUTKVFUMBUQEZUSEZEUMUQBEZUSEZEZURVEVHUMVHVEBUQUSKLMVHVJUMVGVIUSBUQIJMVKUMUQ
+    BUSEZEZEUMUQUREZEZURVJVMUMUQBUSKMVMVNUMVLURUQVLBULURDZEBULBUKEZDZEZURUSVPBU
+    RULNMVPVRBURVQULUKBIOMVSVQURBUKPBUKISQMMVOURUMURVNUKULBTUQURURUOURUPBAUKUAU
+    KBBTRURUBRRURVNUMURUQUCUDUEQQQVBUNVCUTABUFABUGUHABUIUJ $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 3, and j is set to 0.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i3j0 $p |- ( ( a ->3 b ) v ( a ->0 b ) ) = ( a ->0 b ) $=
-    ( wn wa wo wi3 wi0 ax-a3 ax-r1 lor ax-a2 omln ax-r2 ax-r5 leid leor lel2or
-    leo lebi leao1 df-le2 3tr df-i3 df-i0 2or 3tr1 ) ACZBDZUGBCZDZEZAUGBEZDZEZU
-    LEZULABFZABGZEUQUOUKUMULEZEUKUMUGEZBEZEZULUKUMULHURUTUKUTURUMUGBHIJVAUKULBE
-    ZEUKULEULUTVBUKUSULBUSUGUMEULUMUGKABLMNJVBULUKVBULULULBULOBUGPQULBRSJUKULUH
-    ULUJUGBBTUGUIBTQUAUBUBUPUNUQULABUCABUDZUEVCUF $.
+    ( wn wa wi3 wi0 ax-a3 ax-r1 lor ax-a2 omln ax-r2 ax-r5 leid leor lel2or leo
+    wo leao1 3tr lebi df-le2 df-i3 df-i0 2or 3tr1 ) ACZBDZUGBCZDZRZAUGBRZDZRZUL
+    RZULABEZABFZRUQUOUKUMULRZRUKUMUGRZBRZRZULUKUMULGURUTUKUTURUMUGBGHIVAUKULBRZ
+    RUKULRULUTVBUKUSULBUSUGUMRULUMUGJABKLMIVBULUKVBULULULBULNBUGOPULBQUAIUKULUH
+    ULUJUGBBSUGUIBSPUBTTUPUNUQULABUCABUDZUEVCUF $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 3, and j is set to 1.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i3j1 $p |- ( ( a ->3 b ) v ( a ->1 b ) ) = ( a ->0 b ) $=
-    ( wn wa wo wi3 wi1 wi0 ax-a3 ax-r1 lor ax-a2 omln ax-r2 ax-r5 leao1 lel2or
-    leid leao4 leo lerr lebi 3tr df-i3 df-i1 2or df-i0 3tr1 ) ACZBDZUIBCZDZEZAU
-    IBEZDZEZUIABDZEZEZUNABFZABGZEABHUSUMUOUREZEUMUOUIEZUQEZEZUNUMUOURIVBVDUMVDV
-    BUOUIUQIJKVEUMUNUQEZEZUNVDVFUMVCUNUQVCUIUOEUNUOUILABMNOKVGUNUMUNVFUJUNULUIB
-    BPUIUKBPQUNUNUQUNRBAUISQQUNVFUMUNUQTUAUBNUCUTUPVAURABUDABUEUFABUGUH $.
+    ( wn wa wo wi3 wi1 wi0 ax-a3 ax-r1 ax-a2 omln ax-r2 ax-r5 leao1 lel2or leid
+    lor leao4 leo lerr lebi 3tr df-i3 df-i1 2or df-i0 3tr1 ) ACZBDZUIBCZDZEZAUI
+    BEZDZEZUIABDZEZEZUNABFZABGZEABHUSUMUOUREZEUMUOUIEZUQEZEZUNUMUOURIVBVDUMVDVB
+    UOUIUQIJRVEUMUNUQEZEZUNVDVFUMVCUNUQVCUIUOEUNUOUIKABLMNRVGUNUMUNVFUJUNULUIBB
+    OUIUKBOPUNUNUQUNQBAUISPPUNVFUMUNUQTUAUBMUCUTUPVAURABUDABUEUFABUGUH $.
     $( [3-Jul-05] $) $( [1-Jul-05] $)
 
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
@@ -10520,20 +10456,20 @@ $)
   $( Equation 4.14 of [MegPav2000] p. 23.  The variable i in the paper is set
      to 4, and j is set to 2.  (Contributed by Roy F. Longton, 3-Jul-05.) $)
   lem4.6.6i4j2 $p |- ( ( a ->4 b ) v ( a ->2 b ) ) = ( a ->0 b ) $=
-    ( wa wn wo wi4 wi2 wi0 ax-a3 ax-r1 ax-a2 ancom lor leor oml2 3tr ax-r5
-    ax-r2 leao4 leao1 lel2or leid leo lerr lebi df-i4 df-i2 2or df-i0 3tr1 ) AB
-    CZADZBCZEZULBEZBDZCZEZBULUPCZEZEZUOABFZABGZEABHVAUNUQUTEZEUNUOUSEZEZUOUNUQU
-    TIVDVEUNVDUQBEZUSEZVEVHVDUQBUSIJVGUOUSVGBUQEBUPUOCZEUOUQBKUQVIBUOUPLMBUOBUL
-    NOPQRMVFUOUNUOVEUKUOUMBAULSULBBTUAUOUOUSUOUBULUPBTUAUAUOVEUNUOUSUCUDUEPVBUR
-    VCUTABUFABUGUHABUIUJ $.
+    ( wa wn wi4 wi2 wi0 ax-a3 ax-r1 ax-a2 ancom lor leor oml2 ax-r5 ax-r2 leao1
+    wo 3tr lel2or leao4 leid leo lerr lebi df-i4 df-i2 2or df-i0 3tr1 ) ABCZADZ
+    BCZRZULBRZBDZCZRZBULUPCZRZRZUOABEZABFZRABGVAUNUQUTRZRUNUOUSRZRZUOUNUQUTHVDV
+    EUNVDUQBRZUSRZVEVHVDUQBUSHIVGUOUSVGBUQRBUPUOCZRUOUQBJUQVIBUOUPKLBUOBULMNSOP
+    LVFUOUNUOVEUKUOUMBAULUAULBBQTUOUOUSUOUBULUPBQTTUOVEUNUOUSUCUDUESVBURVCUTABU
+    FABUGUHABUIUJ $.
     $( [3-Jul-05] $) $( [2-Jul-05] $)
 
   ${
     com3iia.1 $e |- a C b $.
     $( The dual of ~ com3ii .  (Contributed by Roy F. Longton, 3-Jul-05.) $)
     com3iia $p |- ( a v ( a ' ^ b ) ) = ( a v b ) $=
-      ( wn wa wo comid comcom2 fh3 lear ax-a4 df-le1 leid ler2an lebi ax-r2 )
-      AADZBEFAQFZABFZEZSAQBAAAGHCITSRSJSRSSRSAKLSMNOP $.
+      ( wn wa wo comid comcom2 fh3 lear ax-a4 df-le1 leid ler2an lebi ax-r2 ) A
+      ADZBEFAQFZABFZEZSAQBAAAGHCITSRSJSRSSRSAKLSMNOP $.
       $( [3-Jul-05] $) $( [2-Jul-05] $)
   $}
 
@@ -10660,11 +10596,11 @@ $)
     $( Equation 4.15 of [MegPav2000] p. 23.  (Contributed by Roy F. Longton,
        3-Jul-05.) $)
     lem4.6.7 $p |- b =< ( a ->1 b ) $=
-      ( wn wa wo wi1 wt leid sklem ax-r1 df-le2 2an ax-a3 le1 ler2an lel2or
-      leran leao2 ler lebi ax-r2 comid comcom3 lecom fh3 3tr1 df-le1 df-i1
-      lbtr ) BADZABEZFZABGZBUMHBEZUKAFZUKBFZEBUMFZUMHUPBUQUPHAAAIJKUQBUKBCLKMUR
-      BUKFZULFZUOUTURBUKULNKUTUOUSUOULBUOUKBHBBOBIPUKHBUKOCPQAHBAORQUOUSULBHUKS
-      TUAUBUKABAAAUCUDUKBCUEUFUGUHUNUMABUIKUJ $.
+      ( wn wa wo wi1 wt leid sklem ax-r1 df-le2 ax-a3 ler2an lel2or leran leao2
+      2an le1 ler lebi ax-r2 comid comcom3 lecom fh3 3tr1 df-le1 df-i1 lbtr ) B
+      ADZABEZFZABGZBUMHBEZUKAFZUKBFZEBUMFZUMHUPBUQUPHAAAIJKUQBUKBCLKRURBUKFZULF
+      ZUOUTURBUKULMKUTUOUSUOULBUOUKBHBBSBINUKHBUKSCNOAHBASPOUOUSULBHUKQTUAUBUKA
+      BAAAUCUDUKBCUEUFUGUHUNUMABUIKUJ $.
       $( [3-Jul-05] $) $( [3-Jul-05] $)
   $}
 
@@ -10980,9 +10916,9 @@ $)
 
   $( Any two variables (weakly) commute in a WDOL. $)
   wdcom $p |- C ( a , b ) = 1 $=
-    ( wcmtr wa wn wo wt df-cmtr or42 tb dfb ax-a1 lan ax-r1 lor ax-r2 2or
-    ax-wdol 3tr ) ABCABDZABEZDZFAEZBDZUCUADZFFTUEFZUBUDFZFZGABHTUBUDUEIUHABJZAU
-    AJZFZGUKUHUIUFUJUGABKUJUBUCUAEZDZFUGAUAKUMUDUBUDUMBULUCBLMNOPQNABRPS $.
+    ( wcmtr wa wn wo wt df-cmtr or42 tb dfb ax-a1 lan ax-r1 lor 2or ax-wdol 3tr
+    ax-r2 ) ABCABDZABEZDZFAEZBDZUCUADZFFTUEFZUBUDFZFZGABHTUBUDUEIUHABJZAUAJZFZG
+    UKUHUIUFUJUGABKUJUBUCUAEZDZFUGAUAKUMUDUBUDUMBULUCBLMNOSPNABQSR $.
     $( [4-Mar-06] $)
 
   ${
@@ -10992,11 +10928,11 @@ $)
        this is the same as ~ ax-wom , from here on we will freely use those
        theorems invoking ~ ax-wom . $)
     wdwom $p |- ( b v ( a ' ^ b ' ) ) = 1 $=
-      ( wn wa wo wi2 wt df-i2 ax-r1 le1 wi5 df-i5 wi1 df-i1 ax-r2 wql1lem
-      wcmtr or4 anor1 lor ax-r5 or12 df-cmtr 3tr1 wdcom skr0 i5lei2 bltr lebi
-      ) BADZBDZEZFZABGZHUOUNABIJUOHUOKHABLZUOUPHUPABEZUKBEZFZUMFZHABMUKBFZUTABA
-      BNUKUQFHABOCPQVADZUTFZABRZHUSVBUMFFZUQAULEZFZURUMFZFZVCVDVEUQVBFZVHFVIUQU
-      RVBUMSVJVGVHVBVFUQVFVBABTJUAUBPVBUSUMUCABUDUEABUFPUGPJABUHUIUJP $.
+      ( wn wa wo wi2 wt df-i2 ax-r1 le1 wi5 df-i5 wi1 df-i1 ax-r2 wql1lem wcmtr
+      or4 anor1 lor ax-r5 or12 df-cmtr 3tr1 wdcom skr0 i5lei2 bltr lebi ) BADZB
+      DZEZFZABGZHUOUNABIJUOHUOKHABLZUOUPHUPABEZUKBEZFZUMFZHABMUKBFZUTABABNUKUQF
+      HABOCPQVADZUTFZABRZHUSVBUMFFZUQAULEZFZURUMFZFZVCVDVEUQVBFZVHFVIUQURVBUMSV
+      JVGVHVBVFUQVFVBABTJUAUBPVBUSUMUCABUDUEABUFPUGPJABUHUIUJP $.
       $( [4-Mar-06] $)
   $}
 
@@ -11031,47 +10967,46 @@ $)
     wdid0id5.1 $e |- ( a ==0 b ) = 1 $.
     $( Show that quantum identity follows from classical identity in a WDOL. $)
     wdid0id5 $p |- ( a == b ) = 1 $=
-      ( tb wa wn wo wt dfb wid0 df-id0 ax-r1 ax-r2 wa4 wleoa wr1 wancom wr2
-      wa2 wddi3 w3tr1 w2an wddi4 wwbmp ) ABDABEAFZBFZEZGZHABIUEBGZUFAGZEZUHUKAB
-      JZHULUKABKLCMUJUIEAUGGZBUGGZEUKUHUJUMUIUNAUFGZAUEGZUOEZUJUMUOUOUPEZUQURUO
-      UOUPUPUOANOPUOUPQRUFASAUEUFTUABUEGZUSBUFGZEZUIUNVAUSUSUTUTUSBNOPUEBSBUEUF
-      TUAUBUIUJQABUGUCUAUDM $.
+      ( tb wa wn wo wt dfb wid0 df-id0 ax-r1 ax-r2 wa4 wleoa wancom wddi3 w3tr1
+      wr1 wa2 wr2 w2an wddi4 wwbmp ) ABDABEAFZBFZEZGZHABIUEBGZUFAGZEZUHUKABJZHU
+      LUKABKLCMUJUIEAUGGZBUGGZEUKUHUJUMUIUNAUFGZAUEGZUOEZUJUMUOUOUPEZUQURUOUOUP
+      UPUOANOSUOUPPUAUFATAUEUFQRBUEGZUSBUFGZEZUIUNVAUSUSUTUTUSBNOSUEBTBUEUFQRUB
+      UIUJPABUGUCRUDM $.
       $( [5-Mar-06] $)
 
     $( Show a quantum identity that follows from classical identity in a
        WDOL. $)
     wdid0id1 $p |- ( a ==1 b ) = 1 $=
-      ( wid1 wn wo wa wt df-id1 wid0 df-id0 ax-r1 ax-r2 wancom wa2 wlan wa4
-      wleoa wr2 wr1 wddi3 w2an biid w3tr1 wwbmp ) ABDABEZFZAEZABGFZGZHABIUHBFZU
-      FAFZGZUJUMABJZHUNUMABKLCMUMUIUGGUMUJUKUIULUGUKUHAFZUKGZUIUPUKUPUKUOGZUKUO
-      UKNUQUKAUHFZGUKUOURUKUHAOPUKURURUKAQRSSTUIUPUHABUATSUFAOUBUMUCUGUINUDUEM
-      $.
+      ( wid1 wn wo wa wt df-id1 wid0 df-id0 ax-r1 ax-r2 wancom wa2 wlan wa4 wr2
+      wleoa wr1 wddi3 w2an biid w3tr1 wwbmp ) ABDABEZFZAEZABGFZGZHABIUHBFZUFAFZ
+      GZUJUMABJZHUNUMABKLCMUMUIUGGUMUJUKUIULUGUKUHAFZUKGZUIUPUKUPUKUOGZUKUOUKNU
+      QUKAUHFZGUKUOURUKUHAOPUKURURUKAQSRRTUIUPUHABUATRUFAOUBUMUCUGUINUDUEM $.
       $( [5-Mar-06] $)
 
     $( Show a quantum identity that follows from classical identity in a
        WDOL. $)
     wdid0id2 $p |- ( a ==2 b ) = 1 $=
-      ( wid2 wn wo wa wt df-id2 wid0 df-id0 ax-r1 ax-r2 wancom wa2 wa4 wleoa
-      wr1 wddi3 w3tr1 w2an wr2 wwbmp ) ABDABEZFZBAEZUDGFZGZHABIUFBFZUDAFZGZUHUK
-      ABJZHULUKABKLCMUKUJUIGUHUIUJNUJUEUIUGUDAOBUFFZUMBUDFZGZUIUGUOUMUMUNUNUMBP
-      QRUFBOBUFUDSTUAUBUCM $.
+      ( wid2 wn wo wa df-id2 wid0 df-id0 ax-r1 ax-r2 wancom wa2 wa4 wleoa wddi3
+      wt wr1 w3tr1 w2an wr2 wwbmp ) ABDABEZFZBAEZUDGFZGZRABHUFBFZUDAFZGZUHUKABI
+      ZRULUKABJKCLUKUJUIGUHUIUJMUJUEUIUGUDANBUFFZUMBUDFZGZUIUGUOUMUMUNUNUMBOPSU
+      FBNBUFUDQTUAUBUCL $.
       $( [5-Mar-06] $)
 
     $( Show a quantum identity that follows from classical identity in a
        WDOL. $)
     wdid0id3 $p |- ( a ==3 b ) = 1 $=
-      ( wid3 wn wo wa wt df-id3 wid0 df-id0 ax-r1 ax-r2 wa4 wleoa wr1 wancom
-      wr2 wa2 wddi3 w3tr1 wlan wwbmp ) ABDAEZBFZAUDBEZGFZGZHABIUEUFAFZGZUHUJABJ
-      ZHUKUJABKLCMUIUGUEAUFFZAUDFZULGZUIUGULULUMGZUNUOULULUMUMULANOPULUMQRUFASA
-      UDUFTUAUBUCM $.
+      ( wid3 wn wo wa wt df-id3 df-id0 ax-r1 ax-r2 wa4 wleoa wr1 wancom wr2 wa2
+      wid0 wddi3 w3tr1 wlan wwbmp ) ABDAEZBFZAUDBEZGFZGZHABIUEUFAFZGZUHUJABSZHU
+      KUJABJKCLUIUGUEAUFFZAUDFZULGZUIUGULULUMGZUNUOULULUMUMULAMNOULUMPQUFARAUDU
+      FTUAUBUCL $.
       $( [5-Mar-06] $)
 
     $( Show a quantum identity that follows from classical identity in a
        WDOL. $)
     wdid0id4 $p |- ( a ==4 b ) = 1 $=
-      ( wid4 wn wo wa wt df-id4 wid0 df-id0 ax-r1 ax-r2 wddi3 wa2 wlan wa4
-      wleoa wr2 wr1 wwbmp ) ABDAEBFZBEZABGFZGZHABIUBUCAFZGZUEUGABJZHUHUGABKLCMU
-      FUDUBUDUFUDUFUCBFZGZUFUCABNUJUFBUCFZGUFUIUKUFUCBOPUFUKUKUFBQRSSTPUAM $.
+      ( wid4 wn wo wa wt df-id4 wid0 df-id0 ax-r1 ax-r2 wddi3 wa2 wa4 wleoa wr2
+      wlan wr1 wwbmp ) ABDAEBFZBEZABGFZGZHABIUBUCAFZGZUEUGABJZHUHUGABKLCMUFUDUB
+      UDUFUDUFUCBFZGZUFUCABNUJUFBUCFZGUFUIUKUFUCBOSUFUKUKUFBPQRRTSUAM $.
       $( [5-Mar-06] $)
 
     $( Show WDOL analog of WOM law. $)
@@ -11166,9 +11101,9 @@ $)
 
   $( Form of modular law that swaps two terms. $)
   ml3le $p |- ( a v ( b ^ ( c v a ) ) ) =< ( a v ( c ^ ( b v a ) ) ) $=
-    ( wo wa lear lelor or12 oridm lor orcom 3tr lbtr leor leao1 lel2or ler2an
-    mlduali ) ABCADZEZDZACDZBADZEACUCEDUAUBUCUAASDZUBTSABSFGUDCAADZDSUBACAHUEAC
-    AIJCAKLMAUCTABNZBSAOPQACUCUFRM $.
+    ( wo wa lear lelor or12 oridm lor orcom 3tr lbtr leor lel2or ler2an mlduali
+    leao1 ) ABCADZEZDZACDZBADZEACUCEDUAUBUCUAASDZUBTSABSFGUDCAADZDSUBACAHUEACAI
+    JCAKLMAUCTABNZBSAROPACUCUFQM $.
     $( [1-Apr-2012] $)
 
   $( Form of modular law that swaps two terms. $)
@@ -11216,12 +11151,12 @@ $)
     $( Part of von Neumann's lemma.  Lemma 9, Kalmbach p. 96 $)
     vneulem6 $p |- ( ( ( a v b ) v d ) ^ ( ( b v c ) v d ) )
          = ( ( c ^ a ) v ( b v d ) ) $=
-      ( wo wa orcom ror or32 tr 2an vneulem5 ax-r2 leor ran wf ax-a2 vneulem4
-      leao3 lerr bltr lel2or leao2 ler leror leo ler2an lebi ) ABFZDFZBCFZDFZGZ
-      CAGZBDFZFZUNUPUPAFZCGZFZUQUNURUPCFZGUTUKURUMVAUKBAFZDFZURUJVBDABHIBADJKBC
-      DJLACBDMNUPUQUSUPUOOUSDCGZUQUSVCCGVDURVCCBDAJPDCBAVBDCFZGUJCDFZGQVBUJVEVF
-      BARDCRLEKSKVDUPUODCBTUAUBUCUBUQUKUMUOUKUPUOUJDACBUDUEBUJDBAOUFUCUOUMUPUOU
-      LDCABTUEBULDBCUGUFUCUHUI $.
+      ( wo wa orcom ror or32 tr 2an vneulem5 leor ax-a2 leao3 bltr lel2or leror
+      ler ax-r2 ran wf vneulem4 lerr leao2 leo ler2an lebi ) ABFZDFZBCFZDFZGZCA
+      GZBDFZFZUNUPUPAFZCGZFZUQUNURUPCFZGUTUKURUMVAUKBAFZDFZURUJVBDABHIBADJKBCDJ
+      LACBDMUAUPUQUSUPUONUSDCGZUQUSVCCGVDURVCCBDAJUBDCBAVBDCFZGUJCDFZGUCVBUJVEV
+      FBAODCOLEKUDKVDUPUODCBPUEQRQUQUKUMUOUKUPUOUJDACBUFTBUJDBANSRUOUMUPUOULDCA
+      BPTBULDBCUGSRUHUI $.
       $( [31-Mar-2011] $) $( [15-Mar-2010] $)
 
     $( Part of von Neumann's lemma.  Lemma 9, Kalmbach p. 96 $)
@@ -11270,9 +11205,9 @@ $)
     $( Part of von Neumann's lemma.  Lemma 9, Kalmbach p. 96 $)
     vneulem13 $p |- ( ( c ^ d ) v ( ( a v b ) ^ ( ( c v d ) v ( a ^ b ) ) ) )
            = ( ( c ^ d ) v ( a ^ b ) ) $=
-      ( wo wa leao1 leid ler2an lear lebi lor lan mldual wf 2or or0r tr 3tr )
-      ABFZCDFZABGZFZGZUCCDGUEUAUBUAUCGZFZGUAUBGZUFFZUCUDUGUAUCUFUBUCUFUCUAUCABB
-      HUCIJZUAUCKZLMNUAUBUCOUIPUCFUCUHPUFUCEUFUCUKUJLQUCRSTM $.
+      ( wo wa leao1 leid ler2an lear lebi lor lan mldual wf 2or or0r tr 3tr ) A
+      BFZCDFZABGZFZGZUCCDGUEUAUBUAUCGZFZGUAUBGZUFFZUCUDUGUAUCUFUBUCUFUCUAUCABBH
+      UCIJZUAUCKZLMNUAUBUCOUIPUCFUCUHPUFUCEUFUCUKUJLQUCRSTM $.
       $( [31-Mar-2011] $) $( [31-Mar-2011] $)
 
     $( Part of von Neumann's lemma.  Lemma 9, Kalmbach p. 96 $)
@@ -11313,52 +11248,55 @@ $)
     vneulemexp.1 $e |- ( ( a v b ) ^ ( c v d ) ) = 0 $.
     $( Expanded version of ~ vneulem . $)
     vneulemexp $p |- ( ( a v c ) ^ ( b v d ) ) = ( ( a ^ b ) v ( c ^ d ) ) $=
-      ( wo wa ax-a2 ax-r5 or32 2an orcom ror tr ancom ml cm lor 3tr ax-r2 leor
-      ran leid ler2an lear lebi lan anass wf or0r leao3 lerr bltr lel2or leao2
-      ler leror leo leao1 lbtr le0 an4 ax-a3 orass df-le2 3tr2 mldual 2or ) ACF
-      ZBDFZGZABFZCFZVIDFZGZVLDFZBCFZDFZGZGZABGZCDGZFZVTVKVOVIVSVJVOBAFZCFZADFZC
-      FZGZVIVMWEVNWGVLWDCABHIACDJKWHDBGZVIFZVIWHWJWHVIVIBFZDGZFZWJWHWKVNGZWMWEW
-      KWGVNWEVMWKWDVLCBALZMABCJNADCJKWNVNWKGZVIDWKGZFZWMWKVNOWRWPVIDBPQWQWLVIDW
-      KORSTVIWJWLVIWIUAWLWBWJWLVMDGZWBWKVMDACBJUBWSVMCDFZDGZGZVLWTGZCFZDGZWBDXA
-      VMDXADWTDDCUADUCUDWTDUEUFUGXBVMWTGZDGZXEXGXBVMWTDUHQXFXDDXFCVLFZWTGZCXCFZ
-      XDVMXHWTVLCHUBXJXICVLDPQCXCLSUBNXDCDXDUICFCXCUICEMCUJNUBSZNWBVIWICDAUKULU
-      MUNUMWJWEWGWIWEVIWIWDCBDAUOZUPAWDCABUAUQUNWIWGVIWIWFCDBAUKUPAWFCADURUQUNU
-      DUFWJUIVIFVIWIUIVIWIUIWIWDDCFZGZUIWIWDXMXLDBCUSUDXNXCUIWDVLXMWTWODCLKENZU
-      TWIVAUFMVIUJNNNVSCAGZVJFZVJVSXQVSVJVJAFZCGZFZXQVSXRVJCFZGZXTVPXRVRYAVPWDD
-      FZXRVLWDDABLMBADJNBCDJKYBYAXRGZVJCXRGZFZXTXRYAOYFYDVJCAPQYEXSVJCXRORSTVJX
-      QXSVJXPUAXSDCGZXQXSYCCGZYGXRYCCBDAJUBYHYCXMCGZGZXNDFZCGZYGCYIYCCYICXMCCDU
-      ACUCUDXMCUEUFUGYJYCXMGZCGZYLYNYJYCXMCUHQYMYKCYMDWDFZXMGZDXNFZYKYCYOXMWDDH
-      UBYQYPDWDCPQDXNLSUBNYKDCYKUIDFDXNUIDXOMDUJNUBSNYGVJXPDCBUKULUMUNUMXQVPVRX
-      PVPVJXPVLDACBUOZUPBVLDBAUAZUQUNXPVRVJXPVQDCABUKUPBVQDBCURUQUNUDUFXQUIVJFV
-      JXPUIVJXPUIXPXCUIXPVLWTYRCADUSUDEUTXPVAUFMVJUJNNKQVTVSVOGZWBVLFZWTWAFZGZW
-      CVOVSOYTVPVMGZVRVNGZGUUCVPVRVMVNVBUUDUUAUUEUUBUUDVLWSFZWSVLFUUAUUDVMVPGZU
-      UFVPVMOUUGUUDVLDVMGZFZUUFVMVPOUUIUUDVLDCPQUUHWSVLDVMORSTVLWSLWSWBVLXKMSUU
-      EWTBFZWTAFZGZWAWTFZUUBVRUUJVNUUKVRBWTFUUJBCDVCBWTLNVNCAFZDFUUKVIUUNDACHMC
-      ADJNKUULWTUUKBGZFZUUOWTFUUMUULUUKUUJGZUUPUUJUUKOUUQUULWTBUUKGZFZUUPUUKUUJ
-      OUUSUULWTBAPQUURUUOWTBUUKORSTWTUUOLUUOWAWTUUOUUKVLBGZGZWTVLGZAFZBGZWABUUT
-      UUKBUUTBVLBYSBUCUDVLBUEUFUGUVAUUKVLGZBGZUVDUVFUVAUUKVLBUHQUVEUVCBUVEAWTFZ
-      VLGZAUVBFZUVCUUKUVGVLWTAHUBUVIUVHAWTBPQAUVBLSUBNUVCABUVCUIAFAUVBUIAUVBXCU
-      IWTVLOENMAUJNUBSMSWAWTLSKNUUCWBWAFZWCUUCWBVLUUBGZFZUVJUUAWBUUBFZGZWBVLUVM
-      GZFZUUCUVLUVPUVNWBVLUUBPQUVMUUBUUAUVMWBWTFZWAFZUUBUVRUVMWBWTWAVDQUVQWTWAW
-      BWTCDDUSVEMNZUGUVOUVKWBUVMUUBVLUVSUGRVFUVKWAWBUVKVLWTVLWAGZFZGXCUVTFZWAUU
-      BUWAVLWAUVTWTWAUVTWAVLWAABBUSWAUCUDZVLWAUEZUFRUGVLWTWAVGUWBUIWAFWAXCUIUVT
-      WAEUVTWAUWDUWCUFVHWAUJNSRNWBWALNSN $.
+      ( wo wa or32 2an orcom ror tr ancom ml cm 3tr ran ler2an lebi wf lor leor
+      ax-a2 ax-r5 ax-r2 leid lear anass or0r leao3 lerr bltr lel2or leao2 leror
+      lan ler leo leao1 lbtr le0 an4 ax-a3 orass df-le2 3tr2 mldual 2or ) ACFZB
+      DFZGZABFZCFZVIDFZGZVLDFZBCFZDFZGZGZABGZCDGZFZVTVKVOVIVSVJVOBAFZCFZADFZCFZ
+      GZVIVMWEVNWGVLWDCABUCUDACDHIWHDBGZVIFZVIWHWJWHVIVIBFZDGZFZWJWHWKVNGZWMWEW
+      KWGVNWEVMWKWDVLCBAJZKABCHLADCHIWNVNWKGZVIDWKGZFZWMWKVNMWRWPVIDBNOWQWLVIDW
+      KMUAPUEVIWJWLVIWIUBWLWBWJWLVMDGZWBWKVMDACBHQWSVMCDFZDGZGZVLWTGZCFZDGZWBDX
+      AVMDXADWTDDCUBDUFRWTDUGSUPXBVMWTGZDGZXEXGXBVMWTDUHOXFXDDXFCVLFZWTGZCXCFZX
+      DVMXHWTVLCUCQXJXICVLDNOCXCJPQLXDCDXDTCFCXCTCEKCUILQPZLWBVIWICDAUJUKULUMUL
+      WJWEWGWIWEVIWIWDCBDAUNZUQAWDCABUBUOUMWIWGVIWIWFCDBAUJUQAWFCADURUOUMRSWJTV
+      IFVIWITVIWITWIWDDCFZGZTWIWDXMXLDBCUSRXNXCTWDVLXMWTWODCJIELZUTWIVASKVIUILL
+      LVSCAGZVJFZVJVSXQVSVJVJAFZCGZFZXQVSXRVJCFZGZXTVPXRVRYAVPWDDFZXRVLWDDABJKB
+      ADHLBCDHIYBYAXRGZVJCXRGZFZXTXRYAMYFYDVJCANOYEXSVJCXRMUAPUEVJXQXSVJXPUBXSD
+      CGZXQXSYCCGZYGXRYCCBDAHQYHYCXMCGZGZXNDFZCGZYGCYIYCCYICXMCCDUBCUFRXMCUGSUP
+      YJYCXMGZCGZYLYNYJYCXMCUHOYMYKCYMDWDFZXMGZDXNFZYKYCYOXMWDDUCQYQYPDWDCNODXN
+      JPQLYKDCYKTDFDXNTDXOKDUILQPLYGVJXPDCBUJUKULUMULXQVPVRXPVPVJXPVLDACBUNZUQB
+      VLDBAUBZUOUMXPVRVJXPVQDCABUJUQBVQDBCURUOUMRSXQTVJFVJXPTVJXPTXPXCTXPVLWTYR
+      CADUSREUTXPVASKVJUILLIOVTVSVOGZWBVLFZWTWAFZGZWCVOVSMYTVPVMGZVRVNGZGUUCVPV
+      RVMVNVBUUDUUAUUEUUBUUDVLWSFZWSVLFUUAUUDVMVPGZUUFVPVMMUUGUUDVLDVMGZFZUUFVM
+      VPMUUIUUDVLDCNOUUHWSVLDVMMUAPUEVLWSJWSWBVLXKKPUUEWTBFZWTAFZGZWAWTFZUUBVRU
+      UJVNUUKVRBWTFUUJBCDVCBWTJLVNCAFZDFUUKVIUUNDACUCKCADHLIUULWTUUKBGZFZUUOWTF
+      UUMUULUUKUUJGZUUPUUJUUKMUUQUULWTBUUKGZFZUUPUUKUUJMUUSUULWTBANOUURUUOWTBUU
+      KMUAPUEWTUUOJUUOWAWTUUOUUKVLBGZGZWTVLGZAFZBGZWABUUTUUKBUUTBVLBYSBUFRVLBUG
+      SUPUVAUUKVLGZBGZUVDUVFUVAUUKVLBUHOUVEUVCBUVEAWTFZVLGZAUVBFZUVCUUKUVGVLWTA
+      UCQUVIUVHAWTBNOAUVBJPQLUVCABUVCTAFAUVBTAUVBXCTWTVLMELKAUILQPKPWAWTJPILUUC
+      WBWAFZWCUUCWBVLUUBGZFZUVJUUAWBUUBFZGZWBVLUVMGZFZUUCUVLUVPUVNWBVLUUBNOUVMU
+      UBUUAUVMWBWTFZWAFZUUBUVRUVMWBWTWAVDOUVQWTWAWBWTCDDUSVEKLZUPUVOUVKWBUVMUUB
+      VLUVSUPUAVFUVKWAWBUVKVLWTVLWAGZFZGXCUVTFZWAUUBUWAVLWAUVTWTWAUVTWAVLWAABBU
+      SWAUFRZVLWAUGZSUAUPVLWTWAVGUWBTWAFWAXCTUVTWAEUVTWAUWDUWCSVHWAUILPUALWBWAJ
+      LPL $.
       $( [31-Mar-2011] $) $( [31-Mar-2011] $)
   $}
-  $( PLEASE PUT DESCRIPTION HERE. $)
+
+  $( Lemma for ~ l42mod .. $)
   l42modlem1 $p |- ( ( ( a v b ) v d ) ^ ( ( a v b ) v e ) ) =
                               ( ( a v b ) v ( ( a v d ) ^ ( b v e ) ) ) $=
     ( wo wa leo ml2i ancom tr lor cm orass or12 2an lerr 3tr 3tr1 ) ABDEZBACEZE
     ZFZEZABTSFZEZEZABEZCEZUGDEZFZUGUDEUFUCUEUBAUEUASFUBSTBBDGHUASIJKLUJUAASEZFU
     KUAFZUCUHUAUIUKUHABCEEUAABCMABCNJABDMOUAUKIUCULUASAATBACGPHLQABUDMR $.
+    $( [8-Apr-2012] $)
 
-  $( [8-Apr-2012] $)
+  $( Lemma for ~ l42mod .. $)
   l42modlem2 $p |- ( ( ( ( a v b ) ^ c ) v d ) ^ e ) =<
          ( ( ( a v b ) v d ) ^ ( ( a v b ) v e ) ) $=
     ( wo wa lea leror leor le2an ) ABFZCGZDFLDFELEFMLDLCHIELJK $.
     $( [8-Apr-2012] $)
 
-  $( Fails in OML L42 when converted to a Hilbert space equation. $)
+  $( An equation that fails in OML L42 when converted to a Hilbert space
+     equation. $)
   l42mod $p |- ( ( ( ( a v b ) ^ c ) v d ) ^ e )
                =< ( ( a v b ) v ( ( a v d ) ^ ( b v e ) ) ) $=
     ( wo wa l42modlem2 l42modlem1 lbtr ) ABFZCGDFEGKDFKEFGKADFBEFGFABCDEHABDEIJ
@@ -11398,12 +11336,12 @@ $)
     dp15lema.3 $e |- e = ( b0 ^ ( a0 v p0 ) ) $.
     $( Part of proof (1)=>(5) in Day/Pickering 1982. $)
     dp15lema $p |- ( ( a0 v e ) ^ ( a1 v b1 ) ) =< ( d v b2 ) $=
-      ( wo wa lor lan tr ran wt le1 leran lelor an1r orass cm oridm ror orcom
-      3tr lea mlduali lear leror bltr or32 lbtr letr ) CBMZDGMZNCFCUSEHMZNZMZNZ
-      MZUSNZAHMZURVDUSBVCCBFCIMZNVCLVGVBFIVACKOPQORVECSVBNZMZUSNZVFVDVIUSVCVHCF
-      SVBFTUAUBUAVJUTCUSNZMZVFVJVAVKMZVLVJVACMZUSNVMVIVNUSVICVBMZCCMZVAMZVNVHVB
-      CVBUCOVQVOCCVAUDUEVQVBVNVPCVACUFUGCVAUHQUIRVACUSUSUTUJUKQVAUTVKUSUTULUMUN
-      VLEVKMZHMZVFEHVKUOVFVSAVRHJUGUEQUPUQUN $.
+      ( wo wa lor tr ran wt leran cm lan le1 lelor an1r orass oridm ror 3tr lea
+      orcom mlduali lear leror bltr or32 lbtr letr ) CBMZDGMZNCFCUSEHMZNZMZNZMZ
+      USNZAHMZURVDUSBVCCBFCIMZNVCLVGVBFIVACKOUAPOQVECRVBNZMZUSNZVFVDVIUSVCVHCFR
+      VBFUBSUCSVJUTCUSNZMZVFVJVAVKMZVLVJVACMZUSNVMVIVNUSVICVBMZCCMZVAMZVNVHVBCV
+      BUDOVQVOCCVAUETVQVBVNVPCVACUFUGCVAUJPUHQVACUSUSUTUIUKPVAUTVKUSUTULUMUNVLE
+      VKMZHMZVFEHVKUOVFVSAVRHJUGTPUPUQUN $.
       $( [1-Apr-2012] $)
 
     $( Part of proof (1)=>(5) in Day/Pickering 1982. $)
@@ -11441,10 +11379,10 @@ $)
           =< ( ( ( a0 v a2 )
                ^ ( ( b0 ^ ( a0 v p0 ) ) v b2 ) )
          v ( ( ( a1 v a2 ) v ( b1 ^ ( a0 v a1 ) ) ) ^ ( b1 v b2 ) ) ) $=
-      ( wo wa ax-a2 lan 2or orass tr ml3le lelor bltr cm ror lbtr leran ) DEMZC
+      ( wo wa ax-a2 lan 2or orass tr lelor ml3le bltr cm ror lbtr leran ) DEMZC
       DGMZNZMZGHMZNUGGCDMNZMZUKNCEMFCIMNHMNUJUMUKUJEDULMZMZUMUJEDCGDMZNZMZMZUOU
-      JEDMZUQMUSUGUTUIUQDEOUHUPCDGOPQEDUQRSURUNEDCGTUAUBUOUTULMZUMVAUOEDULRUCUT
-      UGULEDOUDSUEUFUA $.
+      JEDMZUQMUSUGUTUIUQDEOUHUPCDGOPQEDUQRSURUNEDCGUATUBUOUTULMZUMVAUOEDULRUCUT
+      UGULEDOUDSUEUFT $.
       $( [1-Apr-2012] $)
 
     $( Part of proof (1)=>(5) in Day/Pickering 1982. $)
@@ -11454,10 +11392,10 @@ $)
       =< ( ( ( a1 v a2 )
                ^ ( b1 v b2 ) )
          v ( ( ( a0 v a2 ) ^ ( b0 v b2 ) ) v ( b1 ^ ( a0 v a1 ) ) ) ) $=
-      ( wo wa lea leror lelan leao1 mldual2i ancom ror 3tr2 bile le2or or12
-      lbtr ) CEMZFCIMZNZHMZNZDEMZGCDMZNZMZGHMZNZMUGFHMZNZULUPNZUNMZMUTUSUNMMUKU
-      SUQVAUJURUGUIFHFUHOPQUQVAUPUONUPULNZUNMUQVAUNULUPGUMHRSUPUOTVBUTUNUPULTUA
-      UBUCUDUSUTUNUEUF $.
+      ( wo wa lea leror lelan leao1 mldual2i ancom 3tr2 bile le2or or12 lbtr
+      ror ) CEMZFCIMZNZHMZNZDEMZGCDMZNZMZGHMZNZMUGFHMZNZULUPNZUNMZMUTUSUNMMUKUS
+      UQVAUJURUGUIFHFUHOPQUQVAUPUONUPULNZUNMUQVAUNULUPGUMHRSUPUOTVBUTUNUPULTUFU
+      AUBUCUSUTUNUDUE $.
       $( [1-Apr-2012] $)
 
     dp15lemg.4 $e |- c0 = ( ( a1 v a2 ) ^ ( b1 v b2 ) ) $.
@@ -11467,17 +11405,17 @@ $)
                ^ ( b1 v b2 ) )
          v ( ( ( a0 v a2 ) ^ ( b0 v b2 ) ) v ( b1 ^ ( a0 v a1 ) ) ) )
       = ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
-      ( wo wa ror 2or cm orass tr ) DEQGHQRZCEQFHQRZGCDQRZQZQZIJUFQZQZIJQUFQZUJ
-      UHIUDUIUGOJUEUFPSTUAUKUJIJUFUBUAUC $.
+      ( wo wa ror cm 2or orass tr ) DEQGHQRZCEQFHQRZGCDQRZQZQZIJUFQZQZIJQUFQZUJ
+      UHIUDUIUGOJUEUFPSUATUKUJIJUFUBTUC $.
       $( [1-Apr-2012] $)
 
     $( Part of proof (1)=>(5) in Day/Pickering 1982. $)
     dp15lemh $p |- ( ( a0 v a1 ) ^ ( ( b0 ^ ( a0 v p0 ) ) v b1 ) )
                   =< ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
-      ( wo wa dp15lemc dp15lemd lbtr dp15leme letr dp15lemf dp15lemg ) CDQZFCKQ
+      ( wo wa lbtr letr dp15lemc dp15lemd dp15leme dp15lemf dp15lemg ) CDQZFCKQ
       RZGQRZDEQZGHQZRCEQZFHQRGUFRZQQZIJQULQUHUKUGHQZRZUIULQUJRQZUMUHUOUICDGQRZQ
-      UJRQZUPUHCEUQQZQUNRDUSQUJRQURABCDEFGHKLMNSABCDEFGHKLMNTUAABCDEFGHKLMNUBUC
-      ABCDEFGHKLMNUDUCABCDEFGHIJKLMNOPUEUA $.
+      UJRQZUPUHCEUQQZQUNRDUSQUJRQURABCDEFGHKLMNUAABCDEFGHKLMNUBSABCDEFGHKLMNUCT
+      ABCDEFGHKLMNUDTABCDEFGHIJKLMNOPUES $.
       $( [2-Apr-2012] $)
   $}
 
@@ -11503,30 +11441,30 @@ $)
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
     dp53lema $p |- ( b1 v ( b0 ^ ( a0 v p0 ) ) )
        =< ( b1 v ( ( a0 v a1 ) ^ ( c0 v c1 ) ) ) $=
-      ( wo wa leo lor lan lear lea lelor ax-a3 cm lbtr letr bltr ler2an leor
-      mldual2i ancom ror tr dp15 orcom leid lel2or ) FFBCQZHIQZRZQZEBKQZRZFVBSZ
-      VEUTVEFQZRZVCQZVCVEVHFQZVIVEVGUTFQZRZVJVEVGVKVEFSVEEBCFQZDGQZRZQZRZVKVDVP
-      EKVOBOTUAVQVPVKEVPUBVPBVMQZVKVOVMBVMVNUCUDVKVRBCFUEUFUGUHUIUJVLVGUTRZFQVJ
-      FUTVGFVEUKULVSVHFVGUTUMUNUOUGFVCVHVFUDUHVHVCVCVHVBFQZVCVHVBFUTRZQZVTVHUTV
-      AWAQZRWBVHUTWCUTVGUCBCDEFGHIKLMOUPUJWAVAUTFUTUBULUGWAFVBFUTUCUDUHVBFUQUGV
-      CURUSUHUS $.
+      ( wo wa lbtr letr leo lor lan lear lea lelor cm bltr ler2an leor mldual2i
+      ax-a3 ancom ror tr dp15 orcom leid lel2or ) FFBCQZHIQZRZQZEBKQZRZFVBUAZVE
+      UTVEFQZRZVCQZVCVEVHFQZVIVEVGUTFQZRZVJVEVGVKVEFUAVEEBCFQZDGQZRZQZRZVKVDVPE
+      KVOBOUBUCVQVPVKEVPUDVPBVMQZVKVOVMBVMVNUEUFVKVRBCFULUGSTUHUIVLVGUTRZFQVJFU
+      TVGFVEUJUKVSVHFVGUTUMUNUOSFVCVHVFUFTVHVCVCVHVBFQZVCVHVBFUTRZQZVTVHUTVAWAQ
+      ZRWBVHUTWCUTVGUEBCDEFGHIKLMOUPUIWAVAUTFUTUDUKSWAFVBFUTUEUFTVBFUQSVCURUSTU
+      S $.
       $( [2-Apr-2012] $)
 
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
     dp53lemb $p |- ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) )
         = ( b0 ^ ( b1 v ( ( a0 v a1 ) ^ ( c0 v c1 ) ) ) ) $=
-      ( wo wa ran an32 tr lor leor ml2i ancom 3tr lan anass cm anabs ) EFJHIQZR
+      ( wo wa ran 3tr an32 tr lor leor ml2i ancom lan anass cm anabs ) EFJHIQZR
       ZQZREEFQZFBCQZUKRZQZRZRZEUNRZUQRZEUQRUMUREUMFUPUNRZQUQUNRURULVBFULUOUNRZU
-      KRVBJVCUKNSUOUNUKTUAUBUNUPFFEUCUDUQUNUEUFUGVAUSEUNUQUHUIUTEUQEFUJSUF $.
+      KRVBJVCUKNSUOUNUKUAUBUCUNUPFFEUDUEUQUNUFTUGVAUSEUNUQUHUIUTEUQEFUJST $.
       $( [2-Apr-2012] $)
 
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
     dp53lemc $p |- ( b0 ^ ( ( ( a0 ^ b0 ) v b1 ) v ( c2 ^ ( c0 v c1 ) ) ) )
         = ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) $=
-      ( wa wo or32 orcom leo le2an cm lbtr lerr ler2an df-le2 lor 3tr lan ) BEQ
-      ZFRJHIRZQZRZFUMRZEUNUKUMRZFRFUPRUOUKFUMSUPFTUPUMFUKUMUKJULUKBCRZEFRZQZJBU
-      QEURBCUAEFUAUBJUSNUCUDUKIHUKBDRZEGRZQZIBUTEVABDUAEGUAUBIVBMUCUDUEUFUGUHUI
-      UJ $.
+      ( wa wo leo le2an or32 orcom cm lbtr lerr ler2an df-le2 lor 3tr lan ) BEQ
+      ZFRJHIRZQZRZFUMRZEUNUKUMRZFRFUPRUOUKFUMUAUPFUBUPUMFUKUMUKJULUKBCRZEFRZQZJ
+      BUQEURBCSEFSTJUSNUCUDUKIHUKBDRZEGRZQZIBUTEVABDSEGSTIVBMUCUDUEUFUGUHUIUJ
+      $.
       $( [2-Apr-2012] $)
 
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
@@ -11540,20 +11478,19 @@ $)
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
     dp53leme $p |- ( b0 ^ ( a0 v p0 ) )
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa dp53lemd orass orcom tr lan lear mldual2i 3tr lea leror bltr
-      letr ) EBKQREBERZFQJHIQRZQZRZBEFULQZRZQZABCDEFGHIJKLMNOPSUNUKUPQZUQUNEUOU
-      KQZRUPUKQURUMUSEUMUKUOQUSUKFULTUKUOUAUBUCUKUOEBEUDUEUPUKUAUFUKBUPBEUGUHUI
-      UJ $.
+      ( wo wa dp53lemd orcom orass tr lan lear mldual2i 3tr lea leror bltr letr
+      ) EBKQREBERZFQJHIQRZQZRZBEFULQZRZQZABCDEFGHIJKLMNOPSUNUKUPQZUQUNEUOUKQZRU
+      PUKQURUMUSEUMUKUOQUSUKFULUAUKUOTUBUCUKUOEBEUDUEUPUKTUFUKBUPBEUGUHUIUJ $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
     dp53lemf $p |- ( a0 v p )
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa leo anass tr lan cm leao4 bltr lea orcom lbtr ler2an mldual2i
-      ancom ror lelor letr dp53leme df-le2 lel2or ) BBEFJHIQRQRZQZABURSZAEBKQZR
-      ZUSQZUSAVBBQZVCAVAEBQZRZVDABEQZCFQZDGQZRZRZVFAVGVHRVIRVKPVGVHVITUAVKVAVEV
-      KVGKRZVAVLVKKVJVGOUBUCKVGBUDUEVKVGVEVGVJUFBEUGUHUIUEVFVAERZBQVDBEVABKSUJV
-      MVBBVAEUKULUAUHBUSVBUTUMUNVBUSABCDEFGHIJKLMNOPUOUPUHUQ $.
+      ( wo wa leo lbtr anass tr lan cm leao4 bltr lea orcom ler2an mldual2i ror
+      ancom lelor letr dp53leme df-le2 lel2or ) BBEFJHIQRQRZQZABURSZAEBKQZRZUSQ
+      ZUSAVBBQZVCAVAEBQZRZVDABEQZCFQZDGQZRZRZVFAVGVHRVIRVKPVGVHVIUAUBVKVAVEVKVG
+      KRZVAVLVKKVJVGOUCUDKVGBUEUFVKVGVEVGVJUGBEUHTUIUFVFVAERZBQVDBEVABKSUJVMVBB
+      VAEULUKUBTBUSVBUTUMUNVBUSABCDEFGHIJKLMNOPUOUPTUQ $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
@@ -11597,36 +11534,36 @@ $)
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
     dp35leme $p |- ( b0 ^ ( a0 v p0 ) )
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa leor lor bile le2an ancom anass cm tr leo mlduali 3tr1 dp35lemf
-      bltr letr ) EBKQZRBEQZBCFQZDGQZRZQZRZBEFJHIQRQRQZEUNUMUREBSUMURKUQBOTUAUB
-      USBAQZUTBUQUNRZQZBUNUORUPRZQUSVAVBVDBVBUNUQRZVDUQUNUCVDVEUNUOUPUDUEUFTUSU
-      RUNRVCUNURUCBUQUNBEUGUHUFAVDBPTUIABCDEFGHIJKLMNOPUJUKUL $.
+      ( wo wa lor ancom leor bile le2an anass cm leo mlduali 3tr1 dp35lemf bltr
+      tr letr ) EBKQZRBEQZBCFQZDGQZRZQZRZBEFJHIQRQRQZEUNUMUREBUAUMURKUQBOSUBUCU
+      SBAQZUTBUQUNRZQZBUNUORUPRZQUSVAVBVDBVBUNUQRZVDUQUNTVDVEUNUOUPUDUEUKSUSURU
+      NRVCUNURTBUQUNBEUFUGUKAVDBPSUHABCDEFGHIJKLMNOPUIUJUL $.
       $( [12-Apr-2012] $)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
     dp35lemd $p |- ( b0 ^ ( a0 v p0 ) )
         =< ( b0 ^ ( ( ( a0 ^ b0 ) v b1 ) v ( c2 ^ ( c0 v c1 ) ) ) ) $=
-      ( wo wa lea dp35leme ler2an mldual2i lel2or ancom bile lear le2or orass
-      cm lbtr bltr letr ) EBKQZRZEBEFJHIQRZQZRZQZRZEBERZFQUOQZRZUNEUREUMSABCDEF
-      GHIJKLMNOPTUAUSEBRZUQQZVBUQBEEUPSZUBVDEVAVCEUQEBSVEUCVDUTUPQZVAVCUTUQUPVC
-      UTEBUDUEEUPUFUGVAVFUTFUOUHUIUJUAUKUL $.
+      ( wo wa lea ler2an dp35leme mldual2i lel2or ancom bile lear le2or cm lbtr
+      orass bltr letr ) EBKQZRZEBEFJHIQRZQZRZQZRZEBERZFQUOQZRZUNEUREUMSABCDEFGH
+      IJKLMNOPUATUSEBRZUQQZVBUQBEEUPSZUBVDEVAVCEUQEBSVEUCVDUTUPQZVAVCUTUQUPVCUT
+      EBUDUEEUPUFUGVAVFUTFUOUJUHUITUKUL $.
       $( [12-Apr-2012] $)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
     dp35lemc $p |- ( b0 ^ ( ( ( a0 ^ b0 ) v b1 ) v ( c2 ^ ( c0 v c1 ) ) ) )
         = ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) $=
-      ( wa wo or32 orcom leo le2an cm lbtr lerr ler2an df-le2 lor 3tr lan ) BEQ
-      ZFRJHIRZQZRZFUMRZEUNUKUMRZFRFUPRUOUKFUMSUPFTUPUMFUKUMUKJULUKBCRZEFRZQZJBU
-      QEURBCUAEFUAUBJUSNUCUDUKIHUKBDRZEGRZQZIBUTEVABDUAEGUAUBIVBMUCUDUEUFUGUHUI
-      UJ $.
+      ( wa wo leo le2an or32 orcom cm lbtr lerr ler2an df-le2 lor 3tr lan ) BEQ
+      ZFRJHIRZQZRZFUMRZEUNUKUMRZFRFUPRUOUKFUMUAUPFUBUPUMFUKUMUKJULUKBCRZEFRZQZJ
+      BUQEURBCSEFSTJUSNUCUDUKIHUKBDRZEGRZQZIBUTEVABDSEGSTIVBMUCUDUEUFUGUHUIUJ
+      $.
       $( [2-Apr-2012] $)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
     dp35lemb $p |- ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) )
         = ( b0 ^ ( b1 v ( ( a0 v a1 ) ^ ( c0 v c1 ) ) ) ) $=
-      ( wo wa ran an32 tr lor leor ml2i ancom 3tr lan anass cm anabs ) EFJHIQZR
+      ( wo wa ran 3tr an32 tr lor leor ml2i ancom lan anass cm anabs ) EFJHIQZR
       ZQZREEFQZFBCQZUKRZQZRZRZEUNRZUQRZEUQRUMUREUMFUPUNRZQUQUNRURULVBFULUOUNRZU
-      KRVBJVCUKNSUOUNUKTUAUBUNUPFFEUCUDUQUNUEUFUGVAUSEUNUQUHUIUTEUQEFUJSUF $.
+      KRVBJVCUKNSUOUNUKUAUBUCUNUPFFEUDUEUQUNUFTUGVAUSEUNUQUHUIUTEUQEFUJST $.
       $( [2-Apr-2012] $)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
@@ -11646,10 +11583,10 @@ $)
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
     dp35lem0 $p |- ( ( a0 v a1 ) ^ ( ( b0 ^ ( a0 v p0 ) ) v b1 ) )
                   =< ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
-      ( wo wa orcom leid bltr dp35lema letr lelan id lea mldual2i tr ancom ror
-      lbtr lear lelor ) BCQZEBKQRZFQZRZFUNRZUNHIQZRZQZUSURQZUQUNFUTQZRZVAUPVCUN
-      UPFUOQZVCUPVEVEUOFSVETUAABCDEFGHIJKLMNOPUBUCUDVDUNFRZUTQZVAVDVDVGVDUEUTFU
-      NUNUSUFUGUHVFURUTUNFUIUJUHUKVAURUSQVBUTUSURUNUSULUMURUSSUKUC $.
+      ( wo wa orcom letr leid bltr dp35lema lelan id lea mldual2i tr ancom lbtr
+      ror lear lelor ) BCQZEBKQRZFQZRZFUNRZUNHIQZRZQZUSURQZUQUNFUTQZRZVAUPVCUNU
+      PFUOQZVCUPVEVEUOFSVEUAUBABCDEFGHIJKLMNOPUCTUDVDUNFRZUTQZVAVDVDVGVDUEUTFUN
+      UNUSUFUGUHVFURUTUNFUIUKUHUJVAURUSQVBUTUSURUNUSULUMURUSSUJT $.
       $( [12-Apr-2012] $)
   $}
 
@@ -11697,44 +11634,44 @@ $)
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     dp41lemb $p |- c2
           = ( ( c2 ^ ( ( a0 v b0 ) v b1 ) ) ^ ( ( a0 v a1 ) v b1 ) ) $=
-      ( wo wa ancom tr leor leror leo le2an bltr df2le2 cm anass ) JJBERZFRZBCR
-      ZFRZSZSZJUKSUMSZUOJJUNJEFRZULSZUNJULUQSURNULUQTUAUQUKULUMEUJFEBUBUCULFUDU
-      EUFUGUHUPUOJUKUMUIUHUA $.
+      ( wo wa tr ancom leor leror leo le2an bltr df2le2 cm anass ) JJBERZFRZBCR
+      ZFRZSZSZJUKSUMSZUOJJUNJEFRZULSZUNJULUQSURNULUQUATUQUKULUMEUJFEBUBUCULFUDU
+      EUFUGUHUPUOJUKUMUIUHT $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     dp41lemc0 $p |- ( ( ( a0 v b0 ) v b1 ) ^ ( ( a0 v a1 ) v b1 ) )
           = ( ( a0 v b1 ) v ( ( a0 v b0 ) ^ ( a1 v b1 ) ) ) $=
-      ( wo wa ax-a2 ror or32 tr lan ancom leor ler mldual2i leo 3tr orass
-      orcom ) BERZFRZBCRZFRZSZUMCFRZSZBRZFRZUSBFRZRVBUSRUQURBRZUNSZVCUMSZFRVAUQ
-      UNVCSVDUPVCUNUPCBRZFRVCUOVFFBCTUACBFUBUCUDUNVCUEUCFUMVCFURBFCUFUGUHVEUTFV
-      EUMVCSUTVCUMUEBURUMBEUIUHUCUAUJUSBFUKUSVBULUJ $.
+      ( wo wa tr ax-a2 ror or32 lan ancom leor ler mldual2i leo 3tr orass orcom
+      ) BERZFRZBCRZFRZSZUMCFRZSZBRZFRZUSBFRZRVBUSRUQURBRZUNSZVCUMSZFRVAUQUNVCSV
+      DUPVCUNUPCBRZFRVCUOVFFBCUAUBCBFUCTUDUNVCUETFUMVCFURBFCUFUGUHVEUTFVEUMVCSU
+      TVCUMUEBURUMBEUIUHTUBUJUSBFUKUSVBULUJ $.
       $( [4-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     dp41lemc $p |- ( ( c2 ^ ( ( a0 v b0 ) v b1 ) ) ^ ( ( a0 v a1 ) v b1 ) )
           =< ( c2 ^ ( ( a0 v b1 ) v ( c2 ^ ( c0 v c1 ) ) ) ) $=
-      ( wo wa anass dp41lemc0 leo dp41lema lel2or bltr lelan ) JBERZFRZSBCRFRZS
-      JUHUISZSJBFRZJHIRSZRZSJUHUITUJUMJUJUKUGCFRSZRUMABCDEFGHIJKLMNOPQUAUKUMUNU
-      KULUBABCDEFGHIJKLMNOPQUCUDUEUFUE $.
+      ( wo wa bltr anass dp41lemc0 leo dp41lema lel2or lelan ) JBERZFRZSBCRFRZS
+      JUHUISZSJBFRZJHIRSZRZSJUHUIUAUJUMJUJUKUGCFRSZRUMABCDEFGHIJKLMNOPQUBUKUMUN
+      UKULUCABCDEFGHIJKLMNOPQUDUETUFT $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     dp41lemd $p |- ( c2 ^ ( ( a0 v b1 ) v ( c2 ^ ( c0 v c1 ) ) ) )
           = ( c2 ^ ( ( c0 v c1 ) v ( c2 ^ ( a0 v b1 ) ) ) ) $=
-      ( wo wa mldual ancom lor lea ml2i ax-a2 lan 3tr ) JBFRZJHIRZSZRSJUHSZUJRU
-      KUIJSZRZJUIUKRZSZJUHUITUJULUKJUIUAUBUMUKUIRZJSJUPSUOJUIUKJUHUCUDUPJUAUPUN
-      JUKUIUEUFUGUG $.
+      ( wo wa ancom mldual lor lea ml2i ax-a2 lan 3tr ) JBFRZJHIRZSZRSJUHSZUJRU
+      KUIJSZRZJUIUKRZSZJUHUIUAUJULUKJUITUBUMUKUIRZJSJUPSUOJUIUKJUHUCUDUPJTUPUNJ
+      UKUIUEUFUGUG $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     dp41leme $p |- ( c2 ^ ( ( c0 v c1 ) v ( c2 ^ ( a0 v b1 ) ) ) )
         =< ( ( c0 v c1 ) v ( ( a0 ^ ( b0 v b1 ) ) v ( b1 ^ ( a0 v a1 ) ) ) ) $=
-      ( wo wa mldual ran anass leor mldual2i orcom ancom lor 3tr lan leao1 tr
-      lear leror bltr ) JHIRZJBFRZSZRSZJUOSZBEFRZSZFBCRZSZRZRZUOVDRURUSUQRVEJUO
-      UPTUQVDUSUQVBUTSZUPSVBUTUPSZSZVDJVFUPNUAVBUTUPUBVHVBFVARZSVBFSZVARZVDVGVI
-      VBVGUTBSZFRFVLRVIFBUTFEUCUDVLFUEVLVAFUTBUFUGUHUIVAFVBBUTCUJUDVKVAVJRVDVJV
-      AUEVJVCVAVBFUFUGUKUHUHUGUKUSUOVDJUOULUMUN $.
+      ( wo wa lor mldual ran anass leor mldual2i orcom ancom 3tr lan leao1 lear
+      tr leror bltr ) JHIRZJBFRZSZRSZJUOSZBEFRZSZFBCRZSZRZRZUOVDRURUSUQRVEJUOUP
+      UAUQVDUSUQVBUTSZUPSVBUTUPSZSZVDJVFUPNUBVBUTUPUCVHVBFVARZSVBFSZVARZVDVGVIV
+      BVGUTBSZFRFVLRVIFBUTFEUDUEVLFUFVLVAFUTBUGTUHUIVAFVBBUTCUJUEVKVAVJRVDVJVAU
+      FVJVCVAVBFUGTULUHUHTULUSUOVDJUOUKUMUN $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
@@ -11742,10 +11679,10 @@ $)
                         ( ( a0 ^ ( b0 v b1 ) ) v ( b1 ^ ( a0 v a1 ) ) ) )
        = ( ( ( b1 v b2 ) ^ ( ( a1 v a2 ) v ( b1 ^ ( a0 v a1 ) ) ) )
                 v ( ( a0 v a2 ) ^ ( ( b0 v b2 ) v ( a0 ^ ( b0 v b1 ) ) ) ) ) $=
-      ( wo wa orcom lor or4 ancom tr ror 2or leao1 mli 3tr ) HIRZBEFRZSZFBCRZSZ
-      RZRUJUNULRZRZFGRZCDRZSZUNRZBDRZEGRZSZULRZRZURUSUNRSZVBVCULRSZRUOUPUJULUNT
-      UAUQHUNRZIULRZRVFHIUNULUBVIVAVJVEHUTUNHUSURSUTLUSURUCUDUEIVDULMUEUFUDVAVG
-      VEVHURUSUNFUMGUGUHVBVCULBUKDUGUHUFUI $.
+      ( wo wa tr orcom lor or4 ancom ror 2or leao1 mli 3tr ) HIRZBEFRZSZFBCRZSZ
+      RZRUJUNULRZRZFGRZCDRZSZUNRZBDRZEGRZSZULRZRZURUSUNRSZVBVCULRSZRUOUPUJULUNU
+      AUBUQHUNRZIULRZRVFHIUNULUCVIVAVJVEHUTUNHUSURSUTLUSURUDTUEIVDULMUEUFTVAVGV
+      EVHURUSUNFUMGUGUHVBVCULBUKDUGUHUFUI $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
@@ -11764,10 +11701,10 @@ $)
                 v ( ( a0 v a2 ) ^ ( ( b0 v b2 ) v ( b1 ^ ( a0 v b0 ) ) ) ) )
        =< ( ( ( b1 v b2 ) ^ ( ( a1 v a2 ) v ( a0 ^ ( a2 v b2 ) ) ) )
                 v ( ( a0 v a2 ) ^ ( ( b0 v b2 ) v ( b1 ^ ( a2 v b2 ) ) ) ) ) $=
-      ( wo wa lea leo leran cm bltr letr ler2an lelor lelan lear leao3 le2or )
+      ( wo wa ler2an lea leo leran cm bltr letr lelor lelan lear leao3 le2or )
       FGRZCDRZBCFRZSZRZSULUMBDGRZSZRZSBDRZEGRZFBERZSZRZSUTVAFUQSZRZSUPUSULUOURU
-      MUOBUQBUNTUOVBUNSZUQBVBUNBEUAUBVGKUQKVGPUCQUDZUEUFUGUHVDVFUTVCVEVAVCFUQFV
-      BTVCVGUQVCVBUNFVBUIFVBCUJUFVHUEUFUGUHUK $.
+      MUOBUQBUNUAUOVBUNSZUQBVBUNBEUBUCVGKUQKVGPUDQUEZUFTUGUHVDVFUTVCVEVAVCFUQFV
+      BUAVCVGUQVCVBUNFVBUIFVBCUJTVHUFTUGUHUK $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
@@ -11775,41 +11712,41 @@ $)
                 v ( ( a0 v a2 ) ^ ( ( b0 v b2 ) v ( b1 ^ ( a2 v b2 ) ) ) ) )
        = ( ( ( b1 v b2 ) ^ ( ( a1 v a2 ) v ( b2 ^ ( a0 v a2 ) ) ) )
                 v ( ( a0 v a2 ) ^ ( ( b0 v b2 ) v ( a2 ^ ( b1 v b2 ) ) ) ) ) $=
-      ( wo wa ax-a2 lan lor ml3 tr orass 3tr1 2or ) FGRZCDRZBDGRZSZRZSUHUIGBDRZ
+      ( wo wa orass ax-a2 lan lor ml3 tr 3tr1 2or ) FGRZCDRZBDGRZSZRZSUHUIGBDRZ
       SZRZSUMEGRZFUJSZRZSUMUPDUHSZRZSULUOUHCDUKRZRCDUNRZRULUOVAVBCVADBGDRZSZRVB
-      UKVDDUJVCBDGTUAUBDBGUCUDUBCDUKUECDUNUEUFUAURUTUMEGUQRZREGUSRZRURUTVEVFEGF
-      DUCUBEGUQUEEGUSUEUFUAUG $.
+      UKVDDUJVCBDGUAUBUCDBGUDUEUCCDUKTCDUNTUFUBURUTUMEGUQRZREGUSRZRURUTVEVFEGFD
+      UDUCEGUQTEGUSTUFUBUG $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     dp41lemk $p |- ( ( ( b1 v b2 ) ^ ( ( a1 v a2 ) v ( b2 ^ ( a0 v a2 ) ) ) )
                 v ( ( a0 v a2 ) ^ ( ( b0 v b2 ) v ( a2 ^ ( b1 v b2 ) ) ) ) )
        = ( ( c0 v ( b2 ^ ( a0 v a2 ) ) ) v ( c1 v ( a2 ^ ( b1 v b2 ) ) ) ) $=
-      ( wo wa leao3 mldual2i ancom tr ror cm 2or ) FGRZCDRZGBDRZSZRSZHUJRZUIEGR
-      ZDUGSZRSZIUNRZUKUGUHSZUJRZULUJUHUGGUIFTUAULURHUQUJHUHUGSUQLUHUGUBUCUDUEUC
-      UOUIUMSZUNRZUPUNUMUIDUGBTUAUPUTIUSUNMUDUEUCUF $.
+      ( wo wa tr leao3 mldual2i ancom ror cm 2or ) FGRZCDRZGBDRZSZRSZHUJRZUIEGR
+      ZDUGSZRSZIUNRZUKUGUHSZUJRZULUJUHUGGUIFUAUBULURHUQUJHUHUGSUQLUHUGUCTUDUETU
+      OUIUMSZUNRZUPUNUMUIDUGBUAUBUPUTIUSUNMUDUETUF $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     dp41leml $p |- ( ( c0 v ( b2 ^ ( a0 v a2 ) ) )
                   v ( c1 v ( a2 ^ ( b1 v b2 ) ) ) )
        = ( c0 v c1 ) $=
-      ( wo wa or4 orcom ancom leor lelan bltr leran le2or 2or cm tr lbtr
-      df-le2 3tr ) HGBDRZSZRIDFGRZSZRRHIRZUOUQRZRUSURRURHUOIUQTURUSUAUSURUSUNEG
-      RZSZCDRZUPSZRZURUOVAUQVCUOUNGSVAGUNUBGUTUNGEUCUDUEDVBUPDCUCUFUGVDIHRZURVE
-      VDIVAHVCMLUHUIIHUAUJUKULUM $.
+      ( wo wa orcom or4 ancom leor lelan bltr leran le2or 2or cm tr lbtr df-le2
+      3tr ) HGBDRZSZRIDFGRZSZRRHIRZUOUQRZRUSURRURHUOIUQUAURUSTUSURUSUNEGRZSZCDR
+      ZUPSZRZURUOVAUQVCUOUNGSVAGUNUBGUTUNGEUCUDUEDVBUPDCUCUFUGVDIHRZURVEVDIVAHV
+      CMLUHUIIHTUJUKULUM $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     dp41lemm $p |- c2 =< ( c0 v c1 ) $=
-      ( wo wa dp41lemb dp41lemc bltr dp41lemd lbtr dp41leme letr dp41lemf
-      dp41lemg tr dp41lemh dp41lemj dp41lemk dp41leml 3tr ) JFGRZCDRZBDGRZSRSBD
-      RZEGRZFUQSRSRZHIRZJUOUPBCFRSRSURUSFBERZSRSRZUTJVABEFRSZFBCRZSZRRZVCJJVAJB
-      FRZSRSZVGJJVHJVASRSZVIJJVBFRSVEFRSVJABCDEFGHIJKLMNOPQTABCDEFGHIJKLMNOPQUA
-      UBABCDEFGHIJKLMNOPQUCUDABCDEFGHIJKLMNOPQUEUFVGUOUPVFRSURUSVDRSRVCABCDEFGH
-      IJKLMNOPQUGABCDEFGHIJKLMNOPQUHUIUDABCDEFGHIJKLMNOPQUJUFUTUOUPGURSZRSURUSD
-      UOSZRSRHVKRIVLRRVAABCDEFGHIJKLMNOPQUKABCDEFGHIJKLMNOPQULABCDEFGHIJKLMNOPQ
-      UMUNUD $.
+      ( wo wa lbtr dp41lemb dp41lemc dp41lemd dp41leme dp41lemf dp41lemg tr 3tr
+      bltr letr dp41lemh dp41lemj dp41lemk dp41leml ) JFGRZCDRZBDGRZSRSBDRZEGRZ
+      FUQSRSRZHIRZJUOUPBCFRSRSURUSFBERZSRSRZUTJVABEFRSZFBCRZSZRRZVCJJVAJBFRZSRS
+      ZVGJJVHJVASRSZVIJJVBFRSVEFRSVJABCDEFGHIJKLMNOPQUAABCDEFGHIJKLMNOPQUBUIABC
+      DEFGHIJKLMNOPQUCTABCDEFGHIJKLMNOPQUDUJVGUOUPVFRSURUSVDRSRVCABCDEFGHIJKLMN
+      OPQUEABCDEFGHIJKLMNOPQUFUGTABCDEFGHIJKLMNOPQUKUJUTUOUPGURSZRSURUSDUOSZRSR
+      HVKRIVLRRVAABCDEFGHIJKLMNOPQULABCDEFGHIJKLMNOPQUMABCDEFGHIJKLMNOPQUNUHT
+      $.
       $( [3-Apr-2012] $)
   $}
 
@@ -11837,13 +11774,13 @@ $)
        (1982).  (3)=>(2) $)
     dp32 $p |- p =< ( ( a0 ^ ( a1 v ( c2 ^ ( c0 v c1 ) ) ) )
                     v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa dp53 ancom tr orcom 2an ler2an leao1 mldual2i mldual leao2 cm
-      lbtr lerr ml2i lea df-le2 ran 3tr ror ) ABEFJHIOZPZOZPZOZEBCUQOZPZOZPZVBU
-      SOZAUTVCABCDEFGHIJKLMNQAEFGBCDHIJHCDOZFGOZPVGVFPKVFVGRSIBDOZEGOZPZVIVHPLV
-      HVIRSJBCOZEFOZPZVLVKPMVKVLRSABEOZCFOZPZDGOZPEBOZFCOZPZGDOZPNVPVTVQWAVNVRV
-      OVSBETCFTUADGTUASQUBVDUTEPZVBOUSVBOVEVBEUTBVAUSUCUDWBUSVBWBEUTPEBPZUSOZUS
-      UTEREBURUEWDWCEOZURPUSUREWCWCUQFWCJUPWCVMJWCVKVLBECUFEBFUCUBJVMMUGUHWCIHW
-      CVJIWCVHVIBEDUFEBGUCUBIVJLUGUHUIUBUIUJWEEURWCEEBUKULUMSUNUOUSVBTUNUH $.
+      ( wo wa ancom tr orcom ler2an dp53 2an leao1 mldual2i mldual cm lbtr lerr
+      leao2 ml2i lea df-le2 ran 3tr ror ) ABEFJHIOZPZOZPZOZEBCUQOZPZOZPZVBUSOZA
+      UTVCABCDEFGHIJKLMNUAAEFGBCDHIJHCDOZFGOZPVGVFPKVFVGQRIBDOZEGOZPZVIVHPLVHVI
+      QRJBCOZEFOZPZVLVKPMVKVLQRABEOZCFOZPZDGOZPEBOZFCOZPZGDOZPNVPVTVQWAVNVRVOVS
+      BESCFSUBDGSUBRUATVDUTEPZVBOUSVBOVEVBEUTBVAUSUCUDWBUSVBWBEUTPEBPZUSOZUSUTE
+      QEBURUEWDWCEOZURPUSUREWCWCUQFWCJUPWCVMJWCVKVLBECUIEBFUCTJVMMUFUGWCIHWCVJI
+      WCVHVIBEDUIEBGUCTIVJLUFUGUHTUHUJWEEURWCEEBUKULUMRUNUOUSVBSUNUG $.
       $( [4-Apr-2012] $)
   $}
 
@@ -11871,35 +11808,34 @@ $)
     xdp41.1 $e |- p2 =< ( a2 v b2 ) $.
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     xdp41 $p |- c2 =< ( c0 v c1 ) $=
-      ( wo wa ancom tr leor leror leo le2an bltr df2le2 cm anass ax-a2 ror
-      or32 lan ler mldual2i 3tr orass orcom dp34 lel2or lelan mldual lor lea
-      ml2i lbtr ran leao1 lear letr or4 2or mli ml3 leran ler2an lelor leao3
-      le2or 3tr1 df-le2 ) JFGRZCDRZBDGRZSZRZSZBDRZEGRZFWDSZRZSZRZHIRZJWBWCBCFRZ
-      SZRZSZWHWIFBERZSZRZSZRZWMJWNBEFRZSZFBCRZSZRZRZXCJJWNJBFRZSZRZSZXIJJXJJWNS
-      ZRZSZXMJJWSFRZSXFFRZSZXPJJXQXRSZSZXSYAJJXTJXDXFSZXTJXFXDSZYBNXFXDTUAXDXQX
-      FXREWSFEBUBUCXFFUDUEUFUGUHXSYAJXQXRUIZUHUAXSYAXPYDXTXOJXTXJWSWOSZRZXOXTYE
-      BRZFRZYEXJRYFXTWOBRZXQSZYIWSSZFRYHXTXQYISYJXRYIXQXRCBRZFRYIXFYLFBCUJUKCBF
-      ULUAUMXQYITUAFWSYIFWOBFCUBUNUOYKYGFYKWSYISYGYIWSTBWOWSBEUDZUOUAUKUPYEBFUQ
-      YEXJURUPXJXOYEXJXNUDYEAXOYEYEWDSZAYNYEYEWDYEKWDKYEPUHQUFZUGUHAYNOUHUAABCD
-      EFGHIJLMNOUSUFUTUFVAUFUFXPXKXNRXKWNJSZRZXMJXJWNVBXNYPXKJWNTVCYQXKWNRZJSJY
-      RSXMJWNXKJXJVDVEYRJTYRXLJXKWNUJUMUPUPVFXMXNXHRZXIXMXNXKRYSJWNXJVBXKXHXNXK
-      YCXJSXFXDXJSZSZXHJYCXJNVGXFXDXJUIUUAXFFXERZSXFFSZXERZXHYTUUBXFYTXDBSZFRFU
-      UERUUBFBXDFEUBUOUUEFURUUEXEFXDBTVCUPUMXEFXFBXDCVHUOUUDXEUUCRXHUUCXEURUUCX
-      GXEXFFTVCUAUPUPVCUAXNWNXHJWNVIUCUFVJXIWBWCXGRZSZWHWIXERZSZRZXCXIWNXGXERZR
-      ZWBWCSZXGRZWHWISZXERZRZUUJXHUUKWNXEXGURVCUULHXGRZIXERZRUUQHIXGXEVKUURUUNU
-      USUUPHUUMXGHWCWBSZUUMLWCWBTUAZUKIUUOXEMUKVLUAUUNUUGUUPUUIWBWCXGFXFGVHVMWH
-      WIXEBXDDVHVMVLUPUUGWRUUIXBUUFWQWBUUFCXGRZDRCWPRZDRWQCDXGULUVBUVCDUVBCBFCR
-      ZSZRUVCCFBVNUVEWPCUVDWOBFCURUMVCUAUKCWPDULUPUMUUHXAWHUUHEXERZGREWTRZGRXAE
-      GXEULUVFUVGGUVFEBFERZSZRUVGXEUVIEXDUVHBEFURUMVCEBFVNUAUKEWTGULUPUMVLUAVFW
-      RWGXBWLWQWFWBWPWEWCWPBWDBWOVDWPYEWDBWSWOYMVOYOVJVPVQVAXAWKWHWTWJWIWTFWDFW
-      SVDWTYEWDWTWSWOFWSVIFWSCVRVPYOVJVPVQVAVSVJWMWBWCGWHSZRZSZWHWIDWBSZRZSZRHU
-      VJRZIUVMRZRZWNWGUVLWLUVOWFUVKWBCDWERZRCDUVJRZRWFUVKUVSUVTCUVSDBGDRZSZRUVT
-      WEUWBDWDUWABDGUJUMVCDBGVNUAVCCDWEUQCDUVJUQVTUMWKUVNWHEGWJRZREGUVMRZRWKUVN
-      UWCUWDEGFDVNVCEGWJUQEGUVMUQVTUMVLUVLUVPUVOUVQUVLUUMUVJRZUVPUVJWCWBGWHFVRU
-      OUVPUWEHUUMUVJUVAUKUHUAUVOUUOUVMRZUVQUVMWIWHDWBBVRUOUVQUWFIUUOUVMMUKUHUAV
-      LUVRWNUVJUVMRZRUWGWNRWNHUVJIUVMVKWNUWGURUWGWNUWGUUOUUTRZWNUVJUUOUVMUUTUVJ
-      WHGSUUOGWHTGWIWHGEUBVAUFDWCWBDCUBVOVSUWHIHRZWNUWIUWHIUUOHUUTMLVLUHIHURUAV
-      FWAUPUPVF $.
+      ( wo wa tr ancom leor leror leo le2an bltr df2le2 cm anass ax-a2 ror or32
+      lan ler mldual2i 3tr orass orcom dp34 lel2or mldual lor lea ml2i lbtr ran
+      lelan leao1 lear letr or4 2or mli ml3 leran ler2an lelor leao3 le2or 3tr1
+      df-le2 ) JFGRZCDRZBDGRZSZRZSZBDRZEGRZFWDSZRZSZRZHIRZJWBWCBCFRZSZRZSZWHWIF
+      BERZSZRZSZRZWMJWNBEFRZSZFBCRZSZRZRZXCJJWNJBFRZSZRZSZXIJJXJJWNSZRZSZXMJJWS
+      FRZSXFFRZSZXPJJXQXRSZSZXSYAJJXTJXDXFSZXTJXFXDSZYBNXFXDUATXDXQXFXREWSFEBUB
+      UCXFFUDUEUFUGUHXSYAJXQXRUIZUHTXSYAXPYDXTXOJXTXJWSWOSZRZXOXTYEBRZFRZYEXJRY
+      FXTWOBRZXQSZYIWSSZFRYHXTXQYISYJXRYIXQXRCBRZFRYIXFYLFBCUJUKCBFULTUMXQYIUAT
+      FWSYIFWOBFCUBUNUOYKYGFYKWSYISYGYIWSUABWOWSBEUDZUOTUKUPYEBFUQYEXJURUPXJXOY
+      EXJXNUDYEAXOYEYEWDSZAYNYEYEWDYEKWDKYEPUHQUFZUGUHAYNOUHTABCDEFGHIJLMNOUSUF
+      UTUFVGUFUFXPXKXNRXKWNJSZRZXMJXJWNVAXNYPXKJWNUAVBYQXKWNRZJSJYRSXMJWNXKJXJV
+      CVDYRJUAYRXLJXKWNUJUMUPUPVEXMXNXHRZXIXMXNXKRYSJWNXJVAXKXHXNXKYCXJSXFXDXJS
+      ZSZXHJYCXJNVFXFXDXJUIUUAXFFXERZSXFFSZXERZXHYTUUBXFYTXDBSZFRFUUERUUBFBXDFE
+      UBUOUUEFURUUEXEFXDBUAVBUPUMXEFXFBXDCVHUOUUDXEUUCRXHUUCXEURUUCXGXEXFFUAVBT
+      UPUPVBTXNWNXHJWNVIUCUFVJXIWBWCXGRZSZWHWIXERZSZRZXCXIWNXGXERZRZWBWCSZXGRZW
+      HWISZXERZRZUUJXHUUKWNXEXGURVBUULHXGRZIXERZRUUQHIXGXEVKUURUUNUUSUUPHUUMXGH
+      WCWBSZUUMLWCWBUATZUKIUUOXEMUKVLTUUNUUGUUPUUIWBWCXGFXFGVHVMWHWIXEBXDDVHVMV
+      LUPUUGWRUUIXBUUFWQWBUUFCXGRZDRCWPRZDRWQCDXGULUVBUVCDUVBCBFCRZSZRUVCCFBVNU
+      VEWPCUVDWOBFCURUMVBTUKCWPDULUPUMUUHXAWHUUHEXERZGREWTRZGRXAEGXEULUVFUVGGUV
+      FEBFERZSZRUVGXEUVIEXDUVHBEFURUMVBEBFVNTUKEWTGULUPUMVLTVEWRWGXBWLWQWFWBWPW
+      EWCWPBWDBWOVCWPYEWDBWSWOYMVOYOVJVPVQVGXAWKWHWTWJWIWTFWDFWSVCWTYEWDWTWSWOF
+      WSVIFWSCVRVPYOVJVPVQVGVSVJWMWBWCGWHSZRZSZWHWIDWBSZRZSZRHUVJRZIUVMRZRZWNWG
+      UVLWLUVOWFUVKWBCDWERZRCDUVJRZRWFUVKUVSUVTCUVSDBGDRZSZRUVTWEUWBDWDUWABDGUJ
+      UMVBDBGVNTVBCDWEUQCDUVJUQVTUMWKUVNWHEGWJRZREGUVMRZRWKUVNUWCUWDEGFDVNVBEGW
+      JUQEGUVMUQVTUMVLUVLUVPUVOUVQUVLUUMUVJRZUVPUVJWCWBGWHFVRUOUVPUWEHUUMUVJUVA
+      UKUHTUVOUUOUVMRZUVQUVMWIWHDWBBVRUOUVQUWFIUUOUVMMUKUHTVLUVRWNUVJUVMRZRUWGW
+      NRWNHUVJIUVMVKWNUWGURUWGWNUWGUUOUUTRZWNUVJUUOUVMUUTUVJWHGSUUOGWHUAGWIWHGE
+      UBVGUFDWCWBDCUBVOVSUWHIHRZWNUWIUWHIUUOHUUTMLVLUHIHURTVEWAUPUPVE $.
       $( [3-Apr-2012] $)
   $}
 
@@ -11912,22 +11848,22 @@ $)
     $( Part of proof (1)=>(5) in Day/Pickering 1982. $)
     xdp15 $p |- ( ( a0 v a1 ) ^ ( ( b0 ^ ( a0 v p0 ) ) v b1 ) )
                   =< ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
-      ( wo wa lor lan tr ran wt le1 leran lelor an1r orass cm oridm ror orcom
-      3tr lea mlduali lear leror bltr or32 lbtr letr ax-arg 2an 2or le3tr2
-      or12 orabs ax-a2 ml3le lelan leao1 mldual2i ancom 3tr2 bile le2or ) CDQZF
-      CKQZRZGQZRZDEQZGHQZRZCEQZFHQZRZGVQRZQZQZIJQWHQZWAWEVSHQZRZWBWHQZWCRZQZWJW
-      AWMWBCDGQZRZQZWCRZQZWPWACEWRQZQZWLRZDXBQZWCRZQZXAVQBGQZRCAQZBHQZRZDAQZWCR
-      ZQWAXGCDABGHCBQZWQRCFCWQEHQZRZQZRZQZWQRZAHQZXNXSWQBXRCBVSXRNVRXQFKXPCMSTU
-      ASUBXTCUCXQRZQZWQRZYAXSYCWQXRYBCFUCXQFUDUEUFUEYDXOWRQZYAYDXPWRQZYEYDXPCQZ
-      WQRYFYCYGWQYCCXQQZCCQZXPQZYGYBXQCXQUGSYJYHCCXPUHUIYJXQYGYICXPCUJUKCXPULUA
-      UMUBXPCWQWQXOUNUOUAXPXOWRWQXOUPUQURYEXBHQZYAEHWRUSYAYKAXBHLUKUIUAUTVAURVB
-      XHVTVQBVSGNUKTXKXDXMXFXIXCXJWLAXBCLSBVSHNUKVCXLXEWCAXBDLSUBVDVEXDWMXFWTXC
-      WEWLXCECWRQZQECQWECEWRVFYLCECWQVGSECULUMUBWTXFWSXEWCDEWRUHUBUIVDUTWTWOWMW
-      SWNWCWSEDWHQZQZWNWSEDCGDQZRZQZQZYNWSEDQZYPQYRWBYSWRYPDEVHWQYOCDGVHTVDEDYP
-      UHUAYQYMEDCGVIUFURYNYSWHQZWNYTYNEDWHUHUIYSWBWHEDVHUKUAUTUEUFVAWPWGWDWHQZQ
-      WJWMWGWOUUAWLWFWEVSFHFVRUNUQVJWOUUAWCWNRWCWBRZWHQWOUUAWHWBWCGVQHVKVLWCWNV
-      MUUBWDWHWCWBVMUKVNVOVPWGWDWHVFUTVAWJIJWHQZQZWKUUDWJIWDUUCWIOJWGWHPUKVDUIW
-      KUUDIJWHUHUIUAUT $.
+      ( wo wa tr ror lor lan ran wt le1 leran lelor an1r orass cm oridm 3tr lea
+      orcom mlduali lear leror bltr or32 lbtr letr ax-arg 2an le3tr2 or12 orabs
+      2or ax-a2 ml3le lelan leao1 mldual2i ancom 3tr2 bile le2or ) CDQZFCKQZRZG
+      QZRZDEQZGHQZRZCEQZFHQZRZGVQRZQZQZIJQWHQZWAWEVSHQZRZWBWHQZWCRZQZWJWAWMWBCD
+      GQZRZQZWCRZQZWPWACEWRQZQZWLRZDXBQZWCRZQZXAVQBGQZRCAQZBHQZRZDAQZWCRZQWAXGC
+      DABGHCBQZWQRCFCWQEHQZRZQZRZQZWQRZAHQZXNXSWQBXRCBVSXRNVRXQFKXPCMUAUBSUAUCX
+      TCUDXQRZQZWQRZYAXSYCWQXRYBCFUDXQFUEUFUGUFYDXOWRQZYAYDXPWRQZYEYDXPCQZWQRYF
+      YCYGWQYCCXQQZCCQZXPQZYGYBXQCXQUHUAYJYHCCXPUIUJYJXQYGYICXPCUKTCXPUNSULUCXP
+      CWQWQXOUMUOSXPXOWRWQXOUPUQURYEXBHQZYAEHWRUSYAYKAXBHLTUJSUTVAURVBXHVTVQBVS
+      GNTUBXKXDXMXFXIXCXJWLAXBCLUABVSHNTVCXLXEWCAXBDLUAUCVGVDXDWMXFWTXCWEWLXCEC
+      WRQZQECQWECEWRVEYLCECWQVFUAECUNULUCWTXFWSXEWCDEWRUIUCUJVGUTWTWOWMWSWNWCWS
+      EDWHQZQZWNWSEDCGDQZRZQZQZYNWSEDQZYPQYRWBYSWRYPDEVHWQYOCDGVHUBVGEDYPUISYQY
+      MEDCGVIUGURYNYSWHQZWNYTYNEDWHUIUJYSWBWHEDVHTSUTUFUGVAWPWGWDWHQZQWJWMWGWOU
+      UAWLWFWEVSFHFVRUMUQVJWOUUAWCWNRWCWBRZWHQWOUUAWHWBWCGVQHVKVLWCWNVMUUBWDWHW
+      CWBVMTVNVOVPWGWDWHVEUTVAWJIJWHQZQZWKUUDWJIWDUUCWIOJWGWHPTVGUJWKUUDIJWHUIU
+      JSUT $.
       $( [11-Apr-2012] $)
   $}
 
@@ -11940,22 +11876,22 @@ $)
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
     xdp53 $p |- p
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr ler2an
-      mldual2i ancom ror lelor letr lor lear ax-a3 dp15 leid lel2or or32 le2an
-      lerr df-le2 3tr ran an32 ml2i anabs orass leror ) ABAQBEFJHIQZRZQZRZQZABS
-      BVQABVPTZAEBKQZRZVQQZVQAVTBQZWAAVSEBQZRZWBABEQZCFQZDGQZRZRZWDAWEWFRWGRWIP
-      WEWFWGUAUBWIVSWCWIWEKRZVSWJWIKWHWEOUCUDKWEBUEUFWIWEWCWEWHUGBEUHUIUJUFWDVS
-      ERZBQWBBEVSBKTUKWKVTBVSEULUMUBUIBVQVTVRUNUOVTVQVTEBERZFQVNQZRZVQVTEFBCQZV
-      MRZQZRZWNVTEWQEVSUGVTFVTQWQVTFSFWQVTFWPTZVTWOVTFQZRZWQQZWQVTXAFQZXBVTWTWO
-      FQZRZXCVTWTXDVTFTVTEBWHQZRZXDVSXFEKWHBOUPUCXGXFXDEXFUQXFBWFQZXDWHWFBWFWGU
-      GUNXDXHBCFURUDUIUOUFUJXEWTWORZFQXCFWOWTFVTSUKXIXAFWTWOULUMUBUIFWQXAWSUNUO
-      XAWQWQXAWPFQZWQXAWPFWORZQZXJXAWOVMXKQZRXLXAWOXMWOWTUGBCDEFGHIKLMOUSUJXKVM
-      WOFWOUQUKUIXKFWPFWOUGUNUOWPFUHUIWQUTVAUOVAUOUJWNWRWNVPWRWMVOEWMWLVNQZFQFX
-      NQVOWLFVNVBXNFUHXNVNFWLVNWLJVMWLWOEFQZRZJBWOEXOBCTEFTVCJXPNUDUIWLIHWLBDQZ
-      EGQZRZIBXQEXRBDTEGTVCIXSMUDUIVDUJVEUPVFUCVPEXOWQRZRZEXORZWQRZWRVOXTEVOFWP
-      XORZQWQXORXTVNYDFVNXPVMRYDJXPVMNVGWOXOVMVHUBUPXOWPFFESVIWQXOULVFUCYCYAEXO
-      WQUAUDYBEWQEFVJVGVFUBUDUIWNWLVPQZVQWNEVOWLQZRVPWLQYEWMYFEWMWLVOQYFWLFVNVK
-      WLVOUHUBUCWLVOEBEUQUKVPWLUHVFWLBVPBEUGVLUFUOVEUIVAUO $.
+      ( wo wa leo lbtr leor anass tr lan cm leao4 bltr lea orcom mldual2i ancom
+      ler2an ror lelor letr lor lear ax-a3 dp15 leid lel2or or32 le2an lerr 3tr
+      df-le2 ran an32 ml2i anabs orass leror ) ABAQBEFJHIQZRZQZRZQZABUABVQABVPS
+      ZAEBKQZRZVQQZVQAVTBQZWAAVSEBQZRZWBABEQZCFQZDGQZRZRZWDAWEWFRWGRWIPWEWFWGUB
+      UCWIVSWCWIWEKRZVSWJWIKWHWEOUDUEKWEBUFUGWIWEWCWEWHUHBEUITULUGWDVSERZBQWBBE
+      VSBKSUJWKVTBVSEUKUMUCTBVQVTVRUNUOVTVQVTEBERZFQVNQZRZVQVTEFBCQZVMRZQZRZWNV
+      TEWQEVSUHVTFVTQWQVTFUAFWQVTFWPSZVTWOVTFQZRZWQQZWQVTXAFQZXBVTWTWOFQZRZXCVT
+      WTXDVTFSVTEBWHQZRZXDVSXFEKWHBOUPUDXGXFXDEXFUQXFBWFQZXDWHWFBWFWGUHUNXDXHBC
+      FURUETUOUGULXEWTWORZFQXCFWOWTFVTUAUJXIXAFWTWOUKUMUCTFWQXAWSUNUOXAWQWQXAWP
+      FQZWQXAWPFWORZQZXJXAWOVMXKQZRXLXAWOXMWOWTUHBCDEFGHIKLMOUSULXKVMWOFWOUQUJT
+      XKFWPFWOUHUNUOWPFUITWQUTVAUOVAUOULWNWRWNVPWRWMVOEWMWLVNQZFQFXNQVOWLFVNVBX
+      NFUIXNVNFWLVNWLJVMWLWOEFQZRZJBWOEXOBCSEFSVCJXPNUETWLIHWLBDQZEGQZRZIBXQEXR
+      BDSEGSVCIXSMUETVDULVFUPVEUDVPEXOWQRZRZEXORZWQRZWRVOXTEVOFWPXORZQWQXORXTVN
+      YDFVNXPVMRYDJXPVMNVGWOXOVMVHUCUPXOWPFFEUAVIWQXOUKVEUDYCYAEXOWQUBUEYBEWQEF
+      VJVGVEUCUETWNWLVPQZVQWNEVOWLQZRVPWLQYEWMYFEWMWLVOQYFWLFVNVKWLVOUIUCUDWLVO
+      EBEUQUJVPWLUIVEWLBVPBEUHVLUGUOVFTVAUO $.
       $( [11-Apr-2012] $)
   $}
 
@@ -11972,140 +11908,141 @@ $)
     xxdp.p2 $e |- p2 = ( ( a0 v b0 ) ^ ( a1 v b1 ) ) $.
     $( Part of proof (4)=>(1) in Day/Pickering 1982. $)
     xxdp41 $p |- c2 =< ( c0 v c1 ) $=
-      ( wo wa ancom tr leor leror leo le2an bltr df2le2 cm anass ax-a2 ror
-      or32 lan ler mldual2i 3tr orass orcom dp34 lel2or lelan mldual lor lea
-      ml2i lbtr ran leao1 lear letr or4 2or mli ml3 leran ler2an lelor leao3
-      le2or 3tr1 df-le2 ) LHIUDZEFUDZDFIUDZUEZUDZUEZDFUDZGIUDZHWJUEZUDZUEZUDZJK
-      UDZLWHWIDEHUDZUEZUDZUEZWNWOHDGUDZUEZUDZUEZUDZWSLWTDGHUDZUEZHDEUDZUEZUDZUD
-      ZXILLWTLDHUDZUEZUDZUEZXOLLXPLWTUEZUDZUEZXSLLXEHUDZUEXLHUDZUEZYBLLYCYDUEZU
-      EZYEYGLLYFLXJXLUEZYFLXLXJUEZYHRXLXJUFUGXJYCXLYDGXEHGDUHUIXLHUJUKULUMUNYEY
-      GLYCYDUOZUNUGYEYGYBYJYFYALYFXPXEXAUEZUDZYAYFYKDUDZHUDZYKXPUDYLYFXADUDZYCU
-      EZYOXEUEZHUDYNYFYCYOUEYPYDYOYCYDEDUDZHUDYOXLYRHDEUPUQEDHURUGUSYCYOUFUGHXE
-      YOHXADHEUHUTVAYQYMHYQXEYOUEYMYOXEUFDXAXEDGUJZVAUGUQVBYKDHVCYKXPVDVBXPYAYK
-      XPXTUJYKCYAYKYKWJUEZCYTYKYKWJYKNWJNYKUCUNOULZUMUNCYTUAUNUGCDEFGHIJKLPQRUA
-      VEULVFULVGULULYBXQXTUDXQWTLUEZUDZXSLXPWTVHXTUUBXQLWTUFVIUUCXQWTUDZLUELUUD
-      UEXSLWTXQLXPVJVKUUDLUFUUDXRLXQWTUPUSVBVBVLXSXTXNUDZXOXSXTXQUDUUELWTXPVHXQ
-      XNXTXQYIXPUEXLXJXPUEZUEZXNLYIXPRVMXLXJXPUOUUGXLHXKUDZUEXLHUEZXKUDZXNUUFUU
-      HXLUUFXJDUEZHUDHUUKUDUUHHDXJHGUHVAUUKHVDUUKXKHXJDUFVIVBUSXKHXLDXJEVNVAUUJ
-      XKUUIUDXNUUIXKVDUUIXMXKXLHUFVIUGVBVBVIUGXTWTXNLWTVOUIULVPXOWHWIXMUDZUEZWN
-      WOXKUDZUEZUDZXIXOWTXMXKUDZUDZWHWIUEZXMUDZWNWOUEZXKUDZUDZUUPXNUUQWTXKXMVDV
-      IUURJXMUDZKXKUDZUDUVCJKXMXKVQUVDUUTUVEUVBJUUSXMJWIWHUEZUUSPWIWHUFUGZUQKUV
-      AXKQUQVRUGUUTUUMUVBUUOWHWIXMHXLIVNVSWNWOXKDXJFVNVSVRVBUUMXDUUOXHUULXCWHUU
-      LEXMUDZFUDEXBUDZFUDXCEFXMURUVHUVIFUVHEDHEUDZUEZUDUVIEHDVTUVKXBEUVJXADHEVD
-      USVIUGUQEXBFURVBUSUUNXGWNUUNGXKUDZIUDGXFUDZIUDXGGIXKURUVLUVMIUVLGDHGUDZUE
-      ZUDUVMXKUVOGXJUVNDGHVDUSVIGDHVTUGUQGXFIURVBUSVRUGVLXDWMXHWRXCWLWHXBWKWIXB
-      DWJDXAVJXBYKWJDXEXAYSWAUUAVPWBWCVGXGWQWNXFWPWOXFHWJHXEVJXFYKWJXFXEXAHXEVO
-      HXEEWDWBUUAVPWBWCVGWEVPWSWHWIIWNUEZUDZUEZWNWOFWHUEZUDZUEZUDJUVPUDZKUVSUDZ
-      UDZWTWMUVRWRUWAWLUVQWHEFWKUDZUDEFUVPUDZUDWLUVQUWEUWFEUWEFDIFUDZUEZUDUWFWK
-      UWHFWJUWGDFIUPUSVIFDIVTUGVIEFWKVCEFUVPVCWFUSWQUVTWNGIWPUDZUDGIUVSUDZUDWQU
-      VTUWIUWJGIHFVTVIGIWPVCGIUVSVCWFUSVRUVRUWBUWAUWCUVRUUSUVPUDZUWBUVPWIWHIWNH
-      WDVAUWBUWKJUUSUVPUVGUQUNUGUWAUVAUVSUDZUWCUVSWOWNFWHDWDVAUWCUWLKUVAUVSQUQU
-      NUGVRUWDWTUVPUVSUDZUDUWMWTUDWTJUVPKUVSVQWTUWMVDUWMWTUWMUVAUVFUDZWTUVPUVAU
-      VSUVFUVPWNIUEUVAIWNUFIWOWNIGUHVGULFWIWHFEUHWAWEUWNKJUDZWTUWOUWNKUVAJUVFQP
-      VRUNKJVDUGVLWGVBVBVL $.
+      ( wo wa ancom tr leor leror leo le2an bltr df2le2 cm anass ax-a2 ror or32
+      lan ler mldual2i 3tr orass orcom dp34 lel2or mldual lor lea ml2i lbtr ran
+      lelan leao1 lear letr or4 2or mli ml3 leran ler2an lelor leao3 le2or 3tr1
+      df-le2 ) LHIUDZEFUDZDFIUDZUEZUDZUEZDFUDZGIUDZHWJUEZUDZUEZUDZJKUDZLWHWIDEH
+      UDZUEZUDZUEZWNWOHDGUDZUEZUDZUEZUDZWSLWTDGHUDZUEZHDEUDZUEZUDZUDZXILLWTLDHU
+      DZUEZUDZUEZXOLLXPLWTUEZUDZUEZXSLLXEHUDZUEXLHUDZUEZYBLLYCYDUEZUEZYEYGLLYFL
+      XJXLUEZYFLXLXJUEZYHRXLXJUFUGXJYCXLYDGXEHGDUHUIXLHUJUKULUMUNYEYGLYCYDUOZUN
+      UGYEYGYBYJYFYALYFXPXEXAUEZUDZYAYFYKDUDZHUDZYKXPUDYLYFXADUDZYCUEZYOXEUEZHU
+      DYNYFYCYOUEYPYDYOYCYDEDUDZHUDYOXLYRHDEUPUQEDHURUGUSYCYOUFUGHXEYOHXADHEUHU
+      TVAYQYMHYQXEYOUEYMYOXEUFDXAXEDGUJZVAUGUQVBYKDHVCYKXPVDVBXPYAYKXPXTUJYKCYA
+      YKYKWJUEZCYTYKYKWJYKNWJNYKUCUNOULZUMUNCYTUAUNUGCDEFGHIJKLPQRUAVEULVFULVMU
+      LULYBXQXTUDXQWTLUEZUDZXSLXPWTVGXTUUBXQLWTUFVHUUCXQWTUDZLUELUUDUEXSLWTXQLX
+      PVIVJUUDLUFUUDXRLXQWTUPUSVBVBVKXSXTXNUDZXOXSXTXQUDUUELWTXPVGXQXNXTXQYIXPU
+      EXLXJXPUEZUEZXNLYIXPRVLXLXJXPUOUUGXLHXKUDZUEXLHUEZXKUDZXNUUFUUHXLUUFXJDUE
+      ZHUDHUUKUDUUHHDXJHGUHVAUUKHVDUUKXKHXJDUFVHVBUSXKHXLDXJEVNVAUUJXKUUIUDXNUU
+      IXKVDUUIXMXKXLHUFVHUGVBVBVHUGXTWTXNLWTVOUIULVPXOWHWIXMUDZUEZWNWOXKUDZUEZU
+      DZXIXOWTXMXKUDZUDZWHWIUEZXMUDZWNWOUEZXKUDZUDZUUPXNUUQWTXKXMVDVHUURJXMUDZK
+      XKUDZUDUVCJKXMXKVQUVDUUTUVEUVBJUUSXMJWIWHUEZUUSPWIWHUFUGZUQKUVAXKQUQVRUGU
+      UTUUMUVBUUOWHWIXMHXLIVNVSWNWOXKDXJFVNVSVRVBUUMXDUUOXHUULXCWHUULEXMUDZFUDE
+      XBUDZFUDXCEFXMURUVHUVIFUVHEDHEUDZUEZUDUVIEHDVTUVKXBEUVJXADHEVDUSVHUGUQEXB
+      FURVBUSUUNXGWNUUNGXKUDZIUDGXFUDZIUDXGGIXKURUVLUVMIUVLGDHGUDZUEZUDUVMXKUVO
+      GXJUVNDGHVDUSVHGDHVTUGUQGXFIURVBUSVRUGVKXDWMXHWRXCWLWHXBWKWIXBDWJDXAVIXBY
+      KWJDXEXAYSWAUUAVPWBWCVMXGWQWNXFWPWOXFHWJHXEVIXFYKWJXFXEXAHXEVOHXEEWDWBUUA
+      VPWBWCVMWEVPWSWHWIIWNUEZUDZUEZWNWOFWHUEZUDZUEZUDJUVPUDZKUVSUDZUDZWTWMUVRW
+      RUWAWLUVQWHEFWKUDZUDEFUVPUDZUDWLUVQUWEUWFEUWEFDIFUDZUEZUDUWFWKUWHFWJUWGDF
+      IUPUSVHFDIVTUGVHEFWKVCEFUVPVCWFUSWQUVTWNGIWPUDZUDGIUVSUDZUDWQUVTUWIUWJGIH
+      FVTVHGIWPVCGIUVSVCWFUSVRUVRUWBUWAUWCUVRUUSUVPUDZUWBUVPWIWHIWNHWDVAUWBUWKJ
+      UUSUVPUVGUQUNUGUWAUVAUVSUDZUWCUVSWOWNFWHDWDVAUWCUWLKUVAUVSQUQUNUGVRUWDWTU
+      VPUVSUDZUDUWMWTUDWTJUVPKUVSVQWTUWMVDUWMWTUWMUVAUVFUDZWTUVPUVAUVSUVFUVPWNI
+      UEUVAIWNUFIWOWNIGUHVMULFWIWHFEUHWAWEUWNKJUDZWTUWOUWNKUVAJUVFQPVRUNKJVDUGV
+      KWGVBVBVK $.
       $( [3-Apr-2012] $)
 
     $( Part of proof (1)=>(5) in Day/Pickering 1982. $)
     xxdp15 $p |- ( ( a0 v a1 ) ^ ( ( b0 ^ ( a0 v p0 ) ) v b1 ) )
                   =< ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
-      ( wo wa lor lan tr ran wt le1 leran lelor an1r orass cm oridm ror orcom
-      3tr lea mlduali lear leror bltr or32 lbtr letr ax-arg 2an 2or le3tr2
-      or12 orabs ax-a2 ml3le lelan leao1 mldual2i ancom 3tr2 bile le2or ) DEUDZ
-      GDMUDZUEZHUDZUEZEFUDZHIUDZUEZDFUDZGIUDZUEZHWDUEZUDZUDZJKUDWOUDZWHWLWFIUDZ
-      UEZWIWOUDZWJUEZUDZWQWHWTWIDEHUDZUEZUDZWJUEZUDZXCWHDFXEUDZUDZWSUEZEXIUDZWJ
-      UEZUDZXHWDBHUDZUEDAUDZBIUDZUEZEAUDZWJUEZUDWHXNDEABHIDBUDZXDUEDGDXDFIUDZUE
-      ZUDZUEZUDZXDUEZAIUDZYAYFXDBYEDBWFYETWEYDGMYCDUBUFUGUHUFUIYGDUJYDUEZUDZXDU
-      EZYHYFYJXDYEYIDGUJYDGUKULUMULYKYBXEUDZYHYKYCXEUDZYLYKYCDUDZXDUEYMYJYNXDYJ
-      DYDUDZDDUDZYCUDZYNYIYDDYDUNUFYQYODDYCUOUPYQYDYNYPDYCDUQURDYCUSUHUTUIYCDXD
-      XDYBVAVBUHYCYBXEXDYBVCVDVEYLXIIUDZYHFIXEVFYHYRAXIISURUPUHVGVHVEVIXOWGWDBW
-      FHTURUGXRXKXTXMXPXJXQWSAXIDSUFBWFITURVJXSXLWJAXIESUFUIVKVLXKWTXMXGXJWLWSX
-      JFDXEUDZUDFDUDWLDFXEVMYSDFDXDVNUFFDUSUTUIXGXMXFXLWJEFXEUOUIUPVKVGXGXBWTXF
-      XAWJXFFEWOUDZUDZXAXFFEDHEUDZUEZUDZUDZUUAXFFEUDZUUCUDUUEWIUUFXEUUCEFVOXDUU
-      BDEHVOUGVKFEUUCUOUHUUDYTFEDHVPUMVEUUAUUFWOUDZXAUUGUUAFEWOUOUPUUFWIWOFEVOU
-      RUHVGULUMVHXCWNWKWOUDZUDWQWTWNXBUUHWSWMWLWFGIGWEVAVDVQXBUUHWJXAUEWJWIUEZW
-      OUDXBUUHWOWIWJHWDIVRVSWJXAVTUUIWKWOWJWIVTURWAWBWCWNWKWOVMVGVHWQJKWOUDZUDZ
-      WRUUKWQJWKUUJWPPKWNWOQURVKUPWRUUKJKWOUOUPUHVG $.
+      ( wo wa lor lan tr ran wt le1 leran lelor an1r orass cm oridm ror 3tr lea
+      orcom mlduali lear leror bltr or32 lbtr letr ax-arg 2an le3tr2 or12 orabs
+      2or ax-a2 ml3le lelan leao1 mldual2i ancom 3tr2 bile le2or ) DEUDZGDMUDZU
+      EZHUDZUEZEFUDZHIUDZUEZDFUDZGIUDZUEZHWDUEZUDZUDZJKUDWOUDZWHWLWFIUDZUEZWIWO
+      UDZWJUEZUDZWQWHWTWIDEHUDZUEZUDZWJUEZUDZXCWHDFXEUDZUDZWSUEZEXIUDZWJUEZUDZX
+      HWDBHUDZUEDAUDZBIUDZUEZEAUDZWJUEZUDWHXNDEABHIDBUDZXDUEDGDXDFIUDZUEZUDZUEZ
+      UDZXDUEZAIUDZYAYFXDBYEDBWFYETWEYDGMYCDUBUFUGUHUFUIYGDUJYDUEZUDZXDUEZYHYFY
+      JXDYEYIDGUJYDGUKULUMULYKYBXEUDZYHYKYCXEUDZYLYKYCDUDZXDUEYMYJYNXDYJDYDUDZD
+      DUDZYCUDZYNYIYDDYDUNUFYQYODDYCUOUPYQYDYNYPDYCDUQURDYCVAUHUSUIYCDXDXDYBUTV
+      BUHYCYBXEXDYBVCVDVEYLXIIUDZYHFIXEVFYHYRAXIISURUPUHVGVHVEVIXOWGWDBWFHTURUG
+      XRXKXTXMXPXJXQWSAXIDSUFBWFITURVJXSXLWJAXIESUFUIVNVKXKWTXMXGXJWLWSXJFDXEUD
+      ZUDFDUDWLDFXEVLYSDFDXDVMUFFDVAUSUIXGXMXFXLWJEFXEUOUIUPVNVGXGXBWTXFXAWJXFF
+      EWOUDZUDZXAXFFEDHEUDZUEZUDZUDZUUAXFFEUDZUUCUDUUEWIUUFXEUUCEFVOXDUUBDEHVOU
+      GVNFEUUCUOUHUUDYTFEDHVPUMVEUUAUUFWOUDZXAUUGUUAFEWOUOUPUUFWIWOFEVOURUHVGUL
+      UMVHXCWNWKWOUDZUDWQWTWNXBUUHWSWMWLWFGIGWEUTVDVQXBUUHWJXAUEWJWIUEZWOUDXBUU
+      HWOWIWJHWDIVRVSWJXAVTUUIWKWOWJWIVTURWAWBWCWNWKWOVLVGVHWQJKWOUDZUDZWRUUKWQ
+      JWKUUJWPPKWNWOQURVNUPWRUUKJKWOUOUPUHVG $.
       $( [11-Apr-2012] $)
 
     $( Part of proof (5)=>(3) in Day/Pickering 1982. $)
     xxdp53 $p |- p
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr ler2an
-      mldual2i ancom ror lelor letr lor lear ax-a3 dp15 leid lel2or or32 le2an
-      lerr df-le2 3tr ran an32 ml2i anabs orass leror ) CDCUDDGHLJKUDZUEZUDZUEZ
-      UDZCDUFDWDCDWCUGZCGDMUDZUEZWDUDZWDCWGDUDZWHCWFGDUDZUEZWICDGUDZEHUDZFIUDZU
-      EZUEZWKCWLWMUEWNUEWPUAWLWMWNUHUIWPWFWJWPWLMUEZWFWQWPMWOWLUBUJUKMWLDULUMWP
-      WLWJWLWOUNDGUOUPUQUMWKWFGUEZDUDWIDGWFDMUGURWRWGDWFGUSUTUIUPDWDWGWEVAVBWGW
-      DWGGDGUEZHUDWAUDZUEZWDWGGHDEUDZVTUEZUDZUEZXAWGGXDGWFUNWGHWGUDXDWGHUFHXDWG
-      HXCUGZWGXBWGHUDZUEZXDUDZXDWGXHHUDZXIWGXGXBHUDZUEZXJWGXGXKWGHUGWGGDWOUDZUE
-      ZXKWFXMGMWODUBVCUJXNXMXKGXMVDXMDWMUDZXKWOWMDWMWNUNVAXKXODEHVEUKUPVBUMUQXL
-      XGXBUEZHUDXJHXBXGHWGUFURXPXHHXGXBUSUTUIUPHXDXHXFVAVBXHXDXDXHXCHUDZXDXHXCH
-      XBUEZUDZXQXHXBVTXRUDZUEXSXHXBXTXBXGUNDEFGHIJKMPQUBVFUQXRVTXBHXBVDURUPXRHX
-      CHXBUNVAVBXCHUOUPXDVGVHVBVHVBUQXAXEXAWCXEWTWBGWTWSWAUDZHUDHYAUDWBWSHWAVIY
-      AHUOYAWAHWSWAWSLVTWSXBGHUDZUEZLDXBGYBDEUGGHUGVJLYCRUKUPWSKJWSDFUDZGIUDZUE
-      ZKDYDGYEDFUGGIUGVJKYFQUKUPVKUQVLVCVMUJWCGYBXDUEZUEZGYBUEZXDUEZXEWBYGGWBHX
-      CYBUEZUDXDYBUEYGWAYKHWAYCVTUEYKLYCVTRVNXBYBVTVOUIVCYBXCHHGUFVPXDYBUSVMUJY
-      JYHGYBXDUHUKYIGXDGHVQVNVMUIUKUPXAWSWCUDZWDXAGWBWSUDZUEWCWSUDYLWTYMGWTWSWB
-      UDYMWSHWAVRWSWBUOUIUJWSWBGDGVDURWCWSUOVMWSDWCDGUNVSUMVBVLUPVHVB $.
+      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr mldual2i ancom
+      ler2an ror lelor letr lor lear ax-a3 dp15 leid lel2or or32 le2an lerr 3tr
+      df-le2 ran an32 ml2i anabs orass leror ) CDCUDDGHLJKUDZUEZUDZUEZUDZCDUFDW
+      DCDWCUGZCGDMUDZUEZWDUDZWDCWGDUDZWHCWFGDUDZUEZWICDGUDZEHUDZFIUDZUEZUEZWKCW
+      LWMUEWNUEWPUAWLWMWNUHUIWPWFWJWPWLMUEZWFWQWPMWOWLUBUJUKMWLDULUMWPWLWJWLWOU
+      NDGUOUPUSUMWKWFGUEZDUDWIDGWFDMUGUQWRWGDWFGURUTUIUPDWDWGWEVAVBWGWDWGGDGUEZ
+      HUDWAUDZUEZWDWGGHDEUDZVTUEZUDZUEZXAWGGXDGWFUNWGHWGUDXDWGHUFHXDWGHXCUGZWGX
+      BWGHUDZUEZXDUDZXDWGXHHUDZXIWGXGXBHUDZUEZXJWGXGXKWGHUGWGGDWOUDZUEZXKWFXMGM
+      WODUBVCUJXNXMXKGXMVDXMDWMUDZXKWOWMDWMWNUNVAXKXODEHVEUKUPVBUMUSXLXGXBUEZHU
+      DXJHXBXGHWGUFUQXPXHHXGXBURUTUIUPHXDXHXFVAVBXHXDXDXHXCHUDZXDXHXCHXBUEZUDZX
+      QXHXBVTXRUDZUEXSXHXBXTXBXGUNDEFGHIJKMPQUBVFUSXRVTXBHXBVDUQUPXRHXCHXBUNVAV
+      BXCHUOUPXDVGVHVBVHVBUSXAXEXAWCXEWTWBGWTWSWAUDZHUDHYAUDWBWSHWAVIYAHUOYAWAH
+      WSWAWSLVTWSXBGHUDZUEZLDXBGYBDEUGGHUGVJLYCRUKUPWSKJWSDFUDZGIUDZUEZKDYDGYED
+      FUGGIUGVJKYFQUKUPVKUSVMVCVLUJWCGYBXDUEZUEZGYBUEZXDUEZXEWBYGGWBHXCYBUEZUDX
+      DYBUEYGWAYKHWAYCVTUEYKLYCVTRVNXBYBVTVOUIVCYBXCHHGUFVPXDYBURVLUJYJYHGYBXDU
+      HUKYIGXDGHVQVNVLUIUKUPXAWSWCUDZWDXAGWBWSUDZUEWCWSUDYLWTYMGWTWSWBUDYMWSHWA
+      VRWSWBUOUIUJWSWBGDGVDUQWCWSUOVLWSDWCDGUNVSUMVBVMUPVHVB $.
       $( [11-Apr-2012] $)
 
     $( Part of proof (4)=>(5) in Day/Pickering 1982. $)
     xdp45lem $p |- ( ( a0 v a1 ) ^ ( ( b0 ^ ( a0 v p0 ) ) v b1 ) )
                   =< ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
-      ( wo wa ax-a2 2an ancom tr leor leror leo le2an bltr df2le2 cm anass ror
-      or32 lan ler mldual2i 3tr orass orcom lor ran wt le1 leran lelor an1r
-      oridm lea mlduali lear lbtr letr id dp34 lel2or lelan mldual ml2i leao1
-      or4 2or mli ml3 ler2an leao3 le2or 3tr1 df-le2 le3tr2 or12 orabs ml3le
-      3tr2 bile ) DEUDZGDMUDZUEZHUDZUEZEFUDZHIUDZUEZDFUDZGIUDZUEZHXAUEZUDZUDZJK
-      UDXLUDZXEXIXCIUDZUEZXFXLUDZXGUEZUDZXNXEXQXFDEHUDZUEZUDZXGUEZUDZXTXEDFYBUD
-      ZUDZXPUEZEYFUDZXGUEZUDZYEXABHUDZUEZDAUDZBIUDZUEZEAUDZXGUEZUDZXEYKYMYOYNEA
-      IUDZUEZUDZUEZYQXGBYTUEZUDZUEZUDZYSYMYOYNEDBUDZUEZUDZUEZYQXGBYAUEZUDZUEZUD
-      ZUUGYMYSEHBUDZUEZBEDUDZUEZUDZUDZUUOYMYMYSYMEBUDZUEZUDZUEZUVAYMYMUVBYMYSUE
-      ZUDZUEZUVEYMYMYABUDZUEUURBUDZUEZUVHYMYMUVIUVJUEZUEZUVKUVMYMYMUVLYMUUPUURU
-      EZUVLYMUURUUPUEZUVNXAUURYLUUPDEUFBHUFUGZUURUUPUHUIUUPUVIUURUVJHYABHEUJUKU
-      URBULUMUNUOUPUVKUVMYMUVIUVJUQZUPUIUVKUVMUVHUVQUVLUVGYMUVLUVBYAUUHUEZUDZUV
-      GUVLUVREUDZBUDZUVRUVBUDUVSUVLUUHEUDZUVIUEZUWBYAUEZBUDUWAUVLUVIUWBUEUWCUVJ
-      UWBUVIUVJXABUDUWBUURXABEDUFURDEBUSUIUTUVIUWBUHUIBYAUWBBUUHEBDUJVAVBUWDUVT
-      BUWDYAUWBUEUVTUWBYAUHEUUHYAEHULZVBUIURVCUVREBVDUVRUVBVEVCUVBUVGUVRUVBUVFU
-      LUVRUVRYTUEZUVGUVRUWFUWFUWFUVRUVRYTUVRUUHYAUEZYTUWGUVRUUHYAUHUPUWGDGDYAFI
-      UDZUEZUDZUEZUDZYAUEZYTUUHUWLYABUWKDBXCUWKTXBUWJGMUWIDUBVFUTUIVFVGUWMDVHUW
-      JUEZUDZYAUEZYTUWLUWOYAUWKUWNDGVHUWJGVIVJVKVJUWPUWHYBUDZYTUWPUWIYBUDZUWQUW
-      PUWIDUDZYAUEUWRUWOUWSYAUWODUWJUDZDDUDZUWIUDZUWSUWNUWJDUWJVLVFUXBUWTDDUWIV
-      DUPUXBUWJUWSUXADUWIDVMURDUWIVEUIVCVGUWIDYAYAUWHVNVOUIUWIUWHYBYAUWHVPUKUNU
-      WQYFIUDZYTFIYBUSYTUXCAYFISURUPUIVQVRUNUNZUOUPUWFUWFUWFVSZUPUIUWFEDAHBIYPY
-      RYMYPVSZYRVSZXAUURYLUUPDEVEBHVEUGUXEVTUNWAUNWBUNUNUVHUVCUVFUDUVCYSYMUEZUD
-      ZUVEYMUVBYSWCUVFUXHUVCYMYSUHVFUXIUVCYSUDZYMUEYMUXJUEUVEYMYSUVCYMUVBVNWDUX
-      JYMUHUXJUVDYMUVCYSUFUTVCVCVQUVEUVFUUTUDZUVAUVEUVFUVCUDUXKYMYSUVBWCUVCUUTU
-      VFUVCUVOUVBUEUURUUPUVBUEZUEZUUTYMUVOUVBUVPVGUURUUPUVBUQUXMUURBUUQUDZUEUUR
-      BUEZUUQUDZUUTUXLUXNUURUXLUUPEUEZBUDBUXQUDUXNBEUUPBHUJVBUXQBVEUXQUUQBUUPEU
-      HVFVCUTUUQBUUREUUPDWEVBUXPUUQUXOUDUUTUXOUUQVEUXOUUSUUQUURBUHVFUIVCVCVFUIU
-      VFYSUUTYMYSVPUKUNVRUVAYOYNUUSUDZUEZYQXGUUQUDZUEZUDZUUOUVAYSUUSUUQUDZUDZYO
-      YNUEZUUSUDZYRUUQUDZUDZUYBUUTUYCYSUUQUUSVEVFUYDYPUUSUDZUYGUDUYHYPYRUUSUUQW
-      FUYIUYFUYGUYGYPUYEUUSYPYPUYEUXFYNYOUHUIZURYRYRUUQUXGURWGUIUYFUXSUYGUYAYOY
-      NUUSBUURIWEWHYQXGUUQEUUPAWEWHWGVCUXSUUKUYAUUNUXRUUJYOUXRDUUSUDZAUDDUUIUDZ
-      AUDUUJDAUUSUSUYKUYLAUYKDEBDUDZUEZUDUYLDBEWIUYNUUIDUYMUUHEBDVEUTVFUIURDUUI
-      AUSVCUTUXTUUMYQUXTHUUQUDZIUDHUULUDZIUDUUMHIUUQUSUYOUYPIUYOHEYLUEZUDUYPUUQ
-      UYQHUUPYLEHBVEUTVFHEBWIUIURHUULIUSVCUTWGUIVQUUKUUCUUNUUFUUJUUBYOUUIUUAYNU
-      UIEYTEUUHVNUUIUVRYTEYAUUHUWEVJUXDVRWJVKWBUUMUUEYQUULUUDXGUULBYTBYAVNUULUV
-      RYTUULYAUUHBYAVPBYADWKWJUXDVRWJVKWBWLVRUUGYOYNIYQUEZUDZUEZYQXGAYOUEZUDZUE
-      ZUDYPUYRUDZYRVUAUDZUDZYSUUCUYTUUFVUCUUBUYSYODAUUAUDZUDDAUYRUDZUDUUBUYSVUG
-      VUHDVUGAEIAUDZUEZUDVUHUUAVUJAYTVUIEAIUFUTVFAEIWIUIVFDAUUAVDDAUYRVDWMUTUUE
-      VUBYQHIUUDUDZUDHIVUAUDZUDUUEVUBVUKVULHIBAWIVFHIUUDVDHIVUAVDWMUTWGUYTVUDVU
-      CVUEUYTUYEUYRUDZVUDUYRYNYOIYQBWKVBVUDVUMYPUYEUYRUYJURUPUIVUCVUEVUEVUAXGYQ
-      AYOEWKVBVUEVUEYRYRVUAUXGURUPUIWGVUFYSUYRVUAUDZUDVUNYSUDYSYPUYRYRVUAWFYSVU
-      NVEVUNYSVUNYRYPUDZYSUYRYRVUAYPUYRYQIUEYRIYQUHIXGYQIHUJWBUNAYNYOADUJVJWLVU
-      OVUOYSVUOVUOYRYRYPYPUXGUXFWGUPYRYPVEUIVQWNVCVCVQYLXDXABXCHTURUTYPYHYRYJYN
-      YGYOXPAYFDSVFBXCITURUGYQYIXGAYFESVFVGWGWOYHXQYJYDYGXIXPYGFDYBUDZUDFDUDXID
-      FYBWPVUPDFDYAWQVFFDVEVCVGYDYJYCYIXGEFYBVDVGUPWGVQYDXSXQYCXRXGYCFEXLUDZUDZ
-      XRYCFEDHEUDZUEZUDZUDZVURYCFEUDZVUTUDVVBXFVVCYBVUTEFUFYAVUSDEHUFUTWGFEVUTV
-      DUIVVAVUQFEDHWRVKUNVURVVCXLUDZXRVVDVURFEXLVDUPVVCXFXLFEUFURUIVQVJVKVRXTXK
-      XHXLUDZUDXNXQXKXSVVEXPXJXIXCGIGXBVNUKWBXSVVEXGXRUEXGXFUEZXLUDXSVVEXLXFXGH
-      XAIWEVBXGXRUHVVFXHXLXGXFUHURWSWTWLXKXHXLWPVQVRXNJKXLUDZUDZXOVVHXNJXHVVGXM
-      PKXKXLQURWGUPXOVVHJKXLVDUPUIVQ $.
+      ( wo wa ax-a2 2an ancom tr leor leror leo le2an bltr df2le2 cm anass or32
+      ror lan ler mldual2i 3tr orass orcom lor ran wt le1 leran lelor oridm lea
+      an1r mlduali lear lbtr letr id dp34 lel2or lelan mldual leao1 or4 2or mli
+      ml2i ml3 ler2an leao3 le2or 3tr1 df-le2 le3tr2 or12 orabs ml3le 3tr2 bile
+      ) DEUDZGDMUDZUEZHUDZUEZEFUDZHIUDZUEZDFUDZGIUDZUEZHXAUEZUDZUDZJKUDXLUDZXEX
+      IXCIUDZUEZXFXLUDZXGUEZUDZXNXEXQXFDEHUDZUEZUDZXGUEZUDZXTXEDFYBUDZUDZXPUEZE
+      YFUDZXGUEZUDZYEXABHUDZUEZDAUDZBIUDZUEZEAUDZXGUEZUDZXEYKYMYOYNEAIUDZUEZUDZ
+      UEZYQXGBYTUEZUDZUEZUDZYSYMYOYNEDBUDZUEZUDZUEZYQXGBYAUEZUDZUEZUDZUUGYMYSEH
+      BUDZUEZBEDUDZUEZUDZUDZUUOYMYMYSYMEBUDZUEZUDZUEZUVAYMYMUVBYMYSUEZUDZUEZUVE
+      YMYMYABUDZUEUURBUDZUEZUVHYMYMUVIUVJUEZUEZUVKUVMYMYMUVLYMUUPUURUEZUVLYMUUR
+      UUPUEZUVNXAUURYLUUPDEUFBHUFUGZUURUUPUHUIUUPUVIUURUVJHYABHEUJUKUURBULUMUNU
+      OUPUVKUVMYMUVIUVJUQZUPUIUVKUVMUVHUVQUVLUVGYMUVLUVBYAUUHUEZUDZUVGUVLUVREUD
+      ZBUDZUVRUVBUDUVSUVLUUHEUDZUVIUEZUWBYAUEZBUDUWAUVLUVIUWBUEUWCUVJUWBUVIUVJX
+      ABUDUWBUURXABEDUFUSDEBURUIUTUVIUWBUHUIBYAUWBBUUHEBDUJVAVBUWDUVTBUWDYAUWBU
+      EUVTUWBYAUHEUUHYAEHULZVBUIUSVCUVREBVDUVRUVBVEVCUVBUVGUVRUVBUVFULUVRUVRYTU
+      EZUVGUVRUWFUWFUWFUVRUVRYTUVRUUHYAUEZYTUWGUVRUUHYAUHUPUWGDGDYAFIUDZUEZUDZU
+      EZUDZYAUEZYTUUHUWLYABUWKDBXCUWKTXBUWJGMUWIDUBVFUTUIVFVGUWMDVHUWJUEZUDZYAU
+      EZYTUWLUWOYAUWKUWNDGVHUWJGVIVJVKVJUWPUWHYBUDZYTUWPUWIYBUDZUWQUWPUWIDUDZYA
+      UEUWRUWOUWSYAUWODUWJUDZDDUDZUWIUDZUWSUWNUWJDUWJVNVFUXBUWTDDUWIVDUPUXBUWJU
+      WSUXADUWIDVLUSDUWIVEUIVCVGUWIDYAYAUWHVMVOUIUWIUWHYBYAUWHVPUKUNUWQYFIUDZYT
+      FIYBURYTUXCAYFISUSUPUIVQVRUNUNZUOUPUWFUWFUWFVSZUPUIUWFEDAHBIYPYRYMYPVSZYR
+      VSZXAUURYLUUPDEVEBHVEUGUXEVTUNWAUNWBUNUNUVHUVCUVFUDUVCYSYMUEZUDZUVEYMUVBY
+      SWCUVFUXHUVCYMYSUHVFUXIUVCYSUDZYMUEYMUXJUEUVEYMYSUVCYMUVBVMWHUXJYMUHUXJUV
+      DYMUVCYSUFUTVCVCVQUVEUVFUUTUDZUVAUVEUVFUVCUDUXKYMYSUVBWCUVCUUTUVFUVCUVOUV
+      BUEUURUUPUVBUEZUEZUUTYMUVOUVBUVPVGUURUUPUVBUQUXMUURBUUQUDZUEUURBUEZUUQUDZ
+      UUTUXLUXNUURUXLUUPEUEZBUDBUXQUDUXNBEUUPBHUJVBUXQBVEUXQUUQBUUPEUHVFVCUTUUQ
+      BUUREUUPDWDVBUXPUUQUXOUDUUTUXOUUQVEUXOUUSUUQUURBUHVFUIVCVCVFUIUVFYSUUTYMY
+      SVPUKUNVRUVAYOYNUUSUDZUEZYQXGUUQUDZUEZUDZUUOUVAYSUUSUUQUDZUDZYOYNUEZUUSUD
+      ZYRUUQUDZUDZUYBUUTUYCYSUUQUUSVEVFUYDYPUUSUDZUYGUDUYHYPYRUUSUUQWEUYIUYFUYG
+      UYGYPUYEUUSYPYPUYEUXFYNYOUHUIZUSYRYRUUQUXGUSWFUIUYFUXSUYGUYAYOYNUUSBUURIW
+      DWGYQXGUUQEUUPAWDWGWFVCUXSUUKUYAUUNUXRUUJYOUXRDUUSUDZAUDDUUIUDZAUDUUJDAUU
+      SURUYKUYLAUYKDEBDUDZUEZUDUYLDBEWIUYNUUIDUYMUUHEBDVEUTVFUIUSDUUIAURVCUTUXT
+      UUMYQUXTHUUQUDZIUDHUULUDZIUDUUMHIUUQURUYOUYPIUYOHEYLUEZUDUYPUUQUYQHUUPYLE
+      HBVEUTVFHEBWIUIUSHUULIURVCUTWFUIVQUUKUUCUUNUUFUUJUUBYOUUIUUAYNUUIEYTEUUHV
+      MUUIUVRYTEYAUUHUWEVJUXDVRWJVKWBUUMUUEYQUULUUDXGUULBYTBYAVMUULUVRYTUULYAUU
+      HBYAVPBYADWKWJUXDVRWJVKWBWLVRUUGYOYNIYQUEZUDZUEZYQXGAYOUEZUDZUEZUDYPUYRUD
+      ZYRVUAUDZUDZYSUUCUYTUUFVUCUUBUYSYODAUUAUDZUDDAUYRUDZUDUUBUYSVUGVUHDVUGAEI
+      AUDZUEZUDVUHUUAVUJAYTVUIEAIUFUTVFAEIWIUIVFDAUUAVDDAUYRVDWMUTUUEVUBYQHIUUD
+      UDZUDHIVUAUDZUDUUEVUBVUKVULHIBAWIVFHIUUDVDHIVUAVDWMUTWFUYTVUDVUCVUEUYTUYE
+      UYRUDZVUDUYRYNYOIYQBWKVBVUDVUMYPUYEUYRUYJUSUPUIVUCVUEVUEVUAXGYQAYOEWKVBVU
+      EVUEYRYRVUAUXGUSUPUIWFVUFYSUYRVUAUDZUDVUNYSUDYSYPUYRYRVUAWEYSVUNVEVUNYSVU
+      NYRYPUDZYSUYRYRVUAYPUYRYQIUEYRIYQUHIXGYQIHUJWBUNAYNYOADUJVJWLVUOVUOYSVUOV
+      UOYRYRYPYPUXGUXFWFUPYRYPVEUIVQWNVCVCVQYLXDXABXCHTUSUTYPYHYRYJYNYGYOXPAYFD
+      SVFBXCITUSUGYQYIXGAYFESVFVGWFWOYHXQYJYDYGXIXPYGFDYBUDZUDFDUDXIDFYBWPVUPDF
+      DYAWQVFFDVEVCVGYDYJYCYIXGEFYBVDVGUPWFVQYDXSXQYCXRXGYCFEXLUDZUDZXRYCFEDHEU
+      DZUEZUDZUDZVURYCFEUDZVUTUDVVBXFVVCYBVUTEFUFYAVUSDEHUFUTWFFEVUTVDUIVVAVUQF
+      EDHWRVKUNVURVVCXLUDZXRVVDVURFEXLVDUPVVCXFXLFEUFUSUIVQVJVKVRXTXKXHXLUDZUDX
+      NXQXKXSVVEXPXJXIXCGIGXBVMUKWBXSVVEXGXRUEXGXFUEZXLUDXSVVEXLXFXGHXAIWDVBXGX
+      RUHVVFXHXLXGXFUHUSWSWTWLXKXHXLWPVQVRXNJKXLUDZUDZXOVVHXNJXHVVGXMPKXKXLQUSW
+      FUPXOVVHJKXLVDUPUIVQ $.
       $( [11-Apr-2012] $)
 
-    $( Part of proof (4)=>(5) in Day/Pickering 1982.
-     Proof before putting in id's, ancom/orcom/2an (why?) $)
+    $( Part of proof (4)=>(5) in Day/Pickering 1982.  Proof before putting in
+       id's, ancom/orcom/2an (why?) $)
+$(
     xdp45lemtest $p |- ( ( a0 v a1 ) ^ ( ( b0 ^ ( a0 v p0 ) ) v b1 ) )
                   =< ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
       ( wo wa ancom tr leor leror leo le2an bltr df2le2 cm anass ax-a2 ror
@@ -12135,79 +12072,79 @@ $)
       UQUGVOVHVIVPXRXIXFXJUDZUDXLXOXIXQUVKXNXHXGXAGIGWTVLUIVSXQUVKXEXPUEXEXDUEZ
       XJUDXQUVKXJXDXEHWSIWBVAXEXPUFUVLXFXJXEXDUFUQWQWRWIXIXFXJWNVOVPXLJKXJUDZUD
       ZXMUVNXLJXFUVMXKPKXIXJQUQWDUNXMUVNJKXJVCUNUGVO $.
+$)
       $( [11-Apr-2012] $)
 
     $( Part of proof (4)=>(3) in Day/Pickering 1982. $)
     xdp43lem $p |- p
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr ler2an
-      mldual2i ancom ror lelor letr lor lear ax-a3 ax-a2 2an leror le2an
-      df2le2 or32 ler 3tr orass ran wt le1 leran an1r oridm mlduali id dp34
-      lel2or lelan mldual ml2i leao1 or4 2or mli ml3 leao3 le2or 3tr1 df-le2
-      le3tr2 or12 orabs ml3le 3tr2 bile leid lerr an32 anabs ) CDCUDDGHLJKUDZUE
-      ZUDZUEZUDZCDUFDXKCDXJUGZCGDMUDZUEZXKUDZXKCXNDUDZXOCXMGDUDZUEZXPCDGUDZEHUD
-      ZFIUDZUEZUEZXRCXSXTUEYAUEYCUAXSXTYAUHUIYCXMXQYCXSMUEZXMYDYCMYBXSUBUJUKMXS
-      DULUMYCXSXQXSYBUNDGUOUPUQUMXRXMGUEZDUDXPDGXMDMUGURYEXNDXMGUSUTUIUPDXKXNXL
-      VAVBXNXKXNGDGUEZHUDXHUDZUEZXKXNGHDEUDZXGUEZUDZUEZYHXNGYKGXMUNZXNHXNUDYKXN
-      HUFHYKXNHYJUGZXNYIXNHUDZUEZYKUDZYKXNYPHUDZYQXNYOYIHUDZUEZYRXNYOYSXNHUGXNG
-      DYBUDZUEZYSXMUUAGMYBDUBVCUJZUUBUUAYSGUUAVDUUADXTUDZYSYBXTDXTYAUNZVAYSUUDD
-      EHVEUKUPVBUMUQYTYOYIUEZHUDYRHYIYOHXNUFURUUFYPHYOYIUSUTUIUPHYKYPYNVAVBYPYK
-      YKYPYJHUDZYKYPYJHYIUEZUDZUUGYPYIXGUUHUDZUEUUIYPYIUUJYIYOUNYPEFUDZHIUDZUEZ
-      DFUDZGIUDZUEZUUHUDZUDZUUJYPUUNXNIUDZUEZUUKUUHUDZUULUEZUDZUURYPUUTUUKDXTUE
-      ZUDZUULUEZUDZUVCYPDFUVDUDZUDZUUSUEZEUVHUDZUULUEZUDZUVGYIBHUDZUEZDAUDZBIUD
-      ZUEZEAUDZUULUEZUDZYPUVMUVOUVQUVPEAIUDZUEZUDZUEZUVSUULBUWBUEZUDZUEZUDZUWAU
-      VOUVQUVPEDBUDZUEZUDZUEZUVSUULBXTUEZUDZUEZUDZUWIUVOUWAEHBUDZUEZBEDUDZUEZUD
-      ZUDZUWQUVOUVOUWAUVOEBUDZUEZUDZUEZUXCUVOUVOUXDUVOUWAUEZUDZUEZUXGUVOUVOXTBU
-      DZUEUWTBUDZUEZUXJUVOUVOUXKUXLUEZUEZUXMUXOUVOUVOUXNUVOUWRUWTUEZUXNUVOUWTUW
-      RUEZUXPYIUWTUVNUWRDEVFBHVFVGZUWTUWRUSUIUWRUXKUWTUXLHXTBHEUFVHUWTBUGVIUMVJ
-      UKUXMUXOUVOUXKUXLUHZUKUIUXMUXOUXJUXSUXNUXIUVOUXNUXDXTUWJUEZUDZUXIUXNUXTEU
-      DZBUDZUXTUXDUDUYAUXNUWJEUDZUXKUEZUYDXTUEZBUDUYCUXNUXKUYDUEUYEUXLUYDUXKUXL
-      YIBUDUYDUWTYIBEDVFUTDEBVKUIUJUXKUYDUSUIBXTUYDBUWJEBDUFVLURUYFUYBBUYFXTUYD
-      UEUYBUYDXTUSEUWJXTEHUGZURUIUTVMUXTEBVNUXTUXDUOVMUXDUXIUXTUXDUXHUGUXTUXTUW
-      BUEZUXIUXTUYHUYHUYHUXTUXTUWBUXTUWJXTUEZUWBUYIUXTUWJXTUSUKUYIDUUBUDZXTUEZU
-      WBUWJUYJXTBUUBDBXNUUBTUUCUIVCVOUYKDVPUUAUEZUDZXTUEZUWBUYJUYMXTUUBUYLDGVPU
-      UAGVQVRVAVRUYNYAUVDUDZUWBUYNYBUVDUDZUYOUYNYBDUDZXTUEUYPUYMUYQXTUYMDUUAUDZ
-      DDUDZYBUDZUYQUYLUUADUUAVSVCUYTUYRDDYBVNUKUYTUUAUYQUYSDYBDVTUTDYBUOUIVMVOY
-      BDXTUUEWAUIYBYAUVDXTYAVDVHUMUYOUVHIUDZUWBFIUVDVKUWBVUAAUVHISUTUKUIUPVBUMU
-      MZVJUKUYHUYHUYHWBZUKUIUYHEDAHBIUVRUVTUVOUVRWBZUVTWBZYIUWTUVNUWRDEUOBHUOVG
-      VUCWCUMWDUMWEUMUMUXJUXEUXHUDUXEUWAUVOUEZUDZUXGUVOUXDUWAWFUXHVUFUXEUVOUWAU
-      SVCVUGUXEUWAUDZUVOUEUVOVUHUEUXGUVOUWAUXEUVOUXDUNWGVUHUVOUSVUHUXFUVOUXEUWA
-      VFUJVMVMUPUXGUXHUXBUDZUXCUXGUXHUXEUDVUIUVOUWAUXDWFUXEUXBUXHUXEUXQUXDUEUWT
-      UWRUXDUEZUEZUXBUVOUXQUXDUXRVOUWTUWRUXDUHVUKUWTBUWSUDZUEUWTBUEZUWSUDZUXBVU
-      JVULUWTVUJUWREUEZBUDBVUOUDVULBEUWRBHUFURVUOBUOVUOUWSBUWREUSVCVMUJUWSBUWTE
-      UWRDWHURVUNUWSVUMUDUXBVUMUWSUOVUMUXAUWSUWTBUSVCUIVMVMVCUIUXHUWAUXBUVOUWAV
-      DVHUMVBUXCUVQUVPUXAUDZUEZUVSUULUWSUDZUEZUDZUWQUXCUWAUXAUWSUDZUDZUVQUVPUEZ
-      UXAUDZUVTUWSUDZUDZVUTUXBVVAUWAUWSUXAUOVCVVBUVRUXAUDZVVEUDVVFUVRUVTUXAUWSW
-      IVVGVVDVVEVVEUVRVVCUXAUVRUVRVVCVUDUVPUVQUSUIZUTUVTUVTUWSVUEUTWJUIVVDVUQVV
-      EVUSUVQUVPUXABUWTIWHWKUVSUULUWSEUWRAWHWKWJVMVUQUWMVUSUWPVUPUWLUVQVUPDUXAU
-      DZAUDDUWKUDZAUDUWLDAUXAVKVVIVVJAVVIDEBDUDZUEZUDVVJDBEWLVVLUWKDVVKUWJEBDUO
-      UJVCUIUTDUWKAVKVMUJVURUWOUVSVURHUWSUDZIUDHUWNUDZIUDUWOHIUWSVKVVMVVNIVVMHE
-      UVNUEZUDVVNUWSVVOHUWRUVNEHBUOUJVCHEBWLUIUTHUWNIVKVMUJWJUIUPUWMUWEUWPUWHUW
-      LUWDUVQUWKUWCUVPUWKEUWBEUWJUNUWKUXTUWBEXTUWJUYGVRVUBVBUQVAWEUWOUWGUVSUWNU
-      WFUULUWNBUWBBXTUNUWNUXTUWBUWNXTUWJBXTVDBXTDWMUQVUBVBUQVAWEWNVBUWIUVQUVPIU
-      VSUEZUDZUEZUVSUULAUVQUEZUDZUEZUDUVRVVPUDZUVTVVSUDZUDZUWAUWEVVRUWHVWAUWDVV
-      QUVQDAUWCUDZUDDAVVPUDZUDUWDVVQVWEVWFDVWEAEIAUDZUEZUDVWFUWCVWHAUWBVWGEAIVF
-      UJVCAEIWLUIVCDAUWCVNDAVVPVNWOUJUWGVVTUVSHIUWFUDZUDHIVVSUDZUDUWGVVTVWIVWJH
-      IBAWLVCHIUWFVNHIVVSVNWOUJWJVVRVWBVWAVWCVVRVVCVVPUDZVWBVVPUVPUVQIUVSBWMURV
-      WBVWKUVRVVCVVPVVHUTUKUIVWAVWCVWCVVSUULUVSAUVQEWMURVWCVWCUVTUVTVVSVUEUTUKU
-      IWJVWDUWAVVPVVSUDZUDVWLUWAUDUWAUVRVVPUVTVVSWIUWAVWLUOVWLUWAVWLUVTUVRUDZUW
-      AVVPUVTVVSUVRVVPUVSIUEUVTIUVSUSIUULUVSIHUFWEUMAUVPUVQADUFVRWNVWMVWMUWAVWM
-      VWMUVTUVTUVRUVRVUEVUDWJUKUVTUVRUOUIUPWPVMVMUPUVNYOYIBXNHTUTUJUVRUVJUVTUVL
-      UVPUVIUVQUUSAUVHDSVCBXNITUTVGUVSUVKUULAUVHESVCVOWJWQUVJUUTUVLUVFUVIUUNUUS
-      UVIFDUVDUDZUDFDUDUUNDFUVDWRVWNDFDXTWSVCFDUOVMVOUVFUVLUVEUVKUULEFUVDVNVOUK
-      WJUPUVFUVBUUTUVEUVAUULUVEFEUUHUDZUDZUVAUVEFEDHEUDZUEZUDZUDZVWPUVEFEUDZVWR
-      UDVWTUUKVXAUVDVWREFVFXTVWQDEHVFUJWJFEVWRVNUIVWSVWOFEDHWTVAUMVWPVXAUUHUDZU
-      VAVXBVWPFEUUHVNUKVXAUUKUUHFEVFUTUIUPVRVAVBUVCUUPUUMUUHUDZUDUURUUTUUPUVBVX
-      CUUSUUOUUNXNGIYMVHWEUVBVXCUULUVAUEUULUUKUEZUUHUDUVBVXCUUHUUKUULHYIIWHURUU
-      LUVAUSVXDUUMUUHUULUUKUSUTXAXBWNUUPUUMUUHWRUPVBUURJKUUHUDZUDZUUJVXFUURJUUM
-      VXEUUQPKUUPUUHQUTWJUKUUJVXFJKUUHVNUKUIUPUQUUHXGYIHYIVDURUPUUHHYJHYIUNVAVB
-      YJHUOUPYKXCWDVBWDVBUQYHYLYHXJYLYGXIGYGYFXHUDZHUDHVXGUDXIYFHXHVKVXGHUOVXGX
-      HHYFXHYFLXGYFYIGHUDZUEZLDYIGVXHDEUGGHUGVILVXIRUKUPYFKJYFUUPKDUUNGUUODFUGG
-      IUGVIKUUPQUKUPXDUQWPVCVMUJXJGVXHYKUEZUEZGVXHUEZYKUEZYLXIVXJGXIHYJVXHUEZUD
-      YKVXHUEVXJXHVXNHXHVXIXGUEVXNLVXIXGRVOYIVXHXGXEUIVCVXHYJHHGUFWGYKVXHUSVMUJ
-      VXMVXKGVXHYKUHUKVXLGYKGHXFVOVMUIUKUPYHYFXJUDZXKYHGXIYFUDZUEXJYFUDVXOYGVXP
-      GYGYFXIUDVXPYFHXHVNYFXIUOUIUJYFXIGDGVDURXJYFUOVMYFDXJDGUNVHUMVBWPUPWDVB
-      $.
+      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr mldual2i ancom
+      ler2an ror lelor letr lor lear ax-a3 ax-a2 2an leror le2an df2le2 ler 3tr
+      or32 orass ran wt le1 leran an1r oridm mlduali id dp34 lel2or mldual ml2i
+      lelan leao1 or4 2or mli ml3 leao3 le2or 3tr1 df-le2 or12 orabs ml3le 3tr2
+      le3tr2 bile leid lerr an32 anabs ) CDCUDDGHLJKUDZUEZUDZUEZUDZCDUFDXKCDXJU
+      GZCGDMUDZUEZXKUDZXKCXNDUDZXOCXMGDUDZUEZXPCDGUDZEHUDZFIUDZUEZUEZXRCXSXTUEY
+      AUEYCUAXSXTYAUHUIYCXMXQYCXSMUEZXMYDYCMYBXSUBUJUKMXSDULUMYCXSXQXSYBUNDGUOU
+      PUSUMXRXMGUEZDUDXPDGXMDMUGUQYEXNDXMGURUTUIUPDXKXNXLVAVBXNXKXNGDGUEZHUDXHU
+      DZUEZXKXNGHDEUDZXGUEZUDZUEZYHXNGYKGXMUNZXNHXNUDYKXNHUFHYKXNHYJUGZXNYIXNHU
+      DZUEZYKUDZYKXNYPHUDZYQXNYOYIHUDZUEZYRXNYOYSXNHUGXNGDYBUDZUEZYSXMUUAGMYBDU
+      BVCUJZUUBUUAYSGUUAVDUUADXTUDZYSYBXTDXTYAUNZVAYSUUDDEHVEUKUPVBUMUSYTYOYIUE
+      ZHUDYRHYIYOHXNUFUQUUFYPHYOYIURUTUIUPHYKYPYNVAVBYPYKYKYPYJHUDZYKYPYJHYIUEZ
+      UDZUUGYPYIXGUUHUDZUEUUIYPYIUUJYIYOUNYPEFUDZHIUDZUEZDFUDZGIUDZUEZUUHUDZUDZ
+      UUJYPUUNXNIUDZUEZUUKUUHUDZUULUEZUDZUURYPUUTUUKDXTUEZUDZUULUEZUDZUVCYPDFUV
+      DUDZUDZUUSUEZEUVHUDZUULUEZUDZUVGYIBHUDZUEZDAUDZBIUDZUEZEAUDZUULUEZUDZYPUV
+      MUVOUVQUVPEAIUDZUEZUDZUEZUVSUULBUWBUEZUDZUEZUDZUWAUVOUVQUVPEDBUDZUEZUDZUE
+      ZUVSUULBXTUEZUDZUEZUDZUWIUVOUWAEHBUDZUEZBEDUDZUEZUDZUDZUWQUVOUVOUWAUVOEBU
+      DZUEZUDZUEZUXCUVOUVOUXDUVOUWAUEZUDZUEZUXGUVOUVOXTBUDZUEUWTBUDZUEZUXJUVOUV
+      OUXKUXLUEZUEZUXMUXOUVOUVOUXNUVOUWRUWTUEZUXNUVOUWTUWRUEZUXPYIUWTUVNUWRDEVF
+      BHVFVGZUWTUWRURUIUWRUXKUWTUXLHXTBHEUFVHUWTBUGVIUMVJUKUXMUXOUVOUXKUXLUHZUK
+      UIUXMUXOUXJUXSUXNUXIUVOUXNUXDXTUWJUEZUDZUXIUXNUXTEUDZBUDZUXTUXDUDUYAUXNUW
+      JEUDZUXKUEZUYDXTUEZBUDUYCUXNUXKUYDUEUYEUXLUYDUXKUXLYIBUDUYDUWTYIBEDVFUTDE
+      BVMUIUJUXKUYDURUIBXTUYDBUWJEBDUFVKUQUYFUYBBUYFXTUYDUEUYBUYDXTUREUWJXTEHUG
+      ZUQUIUTVLUXTEBVNUXTUXDUOVLUXDUXIUXTUXDUXHUGUXTUXTUWBUEZUXIUXTUYHUYHUYHUXT
+      UXTUWBUXTUWJXTUEZUWBUYIUXTUWJXTURUKUYIDUUBUDZXTUEZUWBUWJUYJXTBUUBDBXNUUBT
+      UUCUIVCVOUYKDVPUUAUEZUDZXTUEZUWBUYJUYMXTUUBUYLDGVPUUAGVQVRVAVRUYNYAUVDUDZ
+      UWBUYNYBUVDUDZUYOUYNYBDUDZXTUEUYPUYMUYQXTUYMDUUAUDZDDUDZYBUDZUYQUYLUUADUU
+      AVSVCUYTUYRDDYBVNUKUYTUUAUYQUYSDYBDVTUTDYBUOUIVLVOYBDXTUUEWAUIYBYAUVDXTYA
+      VDVHUMUYOUVHIUDZUWBFIUVDVMUWBVUAAUVHISUTUKUIUPVBUMUMZVJUKUYHUYHUYHWBZUKUI
+      UYHEDAHBIUVRUVTUVOUVRWBZUVTWBZYIUWTUVNUWRDEUOBHUOVGVUCWCUMWDUMWGUMUMUXJUX
+      EUXHUDUXEUWAUVOUEZUDZUXGUVOUXDUWAWEUXHVUFUXEUVOUWAURVCVUGUXEUWAUDZUVOUEUV
+      OVUHUEUXGUVOUWAUXEUVOUXDUNWFVUHUVOURVUHUXFUVOUXEUWAVFUJVLVLUPUXGUXHUXBUDZ
+      UXCUXGUXHUXEUDVUIUVOUWAUXDWEUXEUXBUXHUXEUXQUXDUEUWTUWRUXDUEZUEZUXBUVOUXQU
+      XDUXRVOUWTUWRUXDUHVUKUWTBUWSUDZUEUWTBUEZUWSUDZUXBVUJVULUWTVUJUWREUEZBUDBV
+      UOUDVULBEUWRBHUFUQVUOBUOVUOUWSBUWREURVCVLUJUWSBUWTEUWRDWHUQVUNUWSVUMUDUXB
+      VUMUWSUOVUMUXAUWSUWTBURVCUIVLVLVCUIUXHUWAUXBUVOUWAVDVHUMVBUXCUVQUVPUXAUDZ
+      UEZUVSUULUWSUDZUEZUDZUWQUXCUWAUXAUWSUDZUDZUVQUVPUEZUXAUDZUVTUWSUDZUDZVUTU
+      XBVVAUWAUWSUXAUOVCVVBUVRUXAUDZVVEUDVVFUVRUVTUXAUWSWIVVGVVDVVEVVEUVRVVCUXA
+      UVRUVRVVCVUDUVPUVQURUIZUTUVTUVTUWSVUEUTWJUIVVDVUQVVEVUSUVQUVPUXABUWTIWHWK
+      UVSUULUWSEUWRAWHWKWJVLVUQUWMVUSUWPVUPUWLUVQVUPDUXAUDZAUDDUWKUDZAUDUWLDAUX
+      AVMVVIVVJAVVIDEBDUDZUEZUDVVJDBEWLVVLUWKDVVKUWJEBDUOUJVCUIUTDUWKAVMVLUJVUR
+      UWOUVSVURHUWSUDZIUDHUWNUDZIUDUWOHIUWSVMVVMVVNIVVMHEUVNUEZUDVVNUWSVVOHUWRU
+      VNEHBUOUJVCHEBWLUIUTHUWNIVMVLUJWJUIUPUWMUWEUWPUWHUWLUWDUVQUWKUWCUVPUWKEUW
+      BEUWJUNUWKUXTUWBEXTUWJUYGVRVUBVBUSVAWGUWOUWGUVSUWNUWFUULUWNBUWBBXTUNUWNUX
+      TUWBUWNXTUWJBXTVDBXTDWMUSVUBVBUSVAWGWNVBUWIUVQUVPIUVSUEZUDZUEZUVSUULAUVQU
+      EZUDZUEZUDUVRVVPUDZUVTVVSUDZUDZUWAUWEVVRUWHVWAUWDVVQUVQDAUWCUDZUDDAVVPUDZ
+      UDUWDVVQVWEVWFDVWEAEIAUDZUEZUDVWFUWCVWHAUWBVWGEAIVFUJVCAEIWLUIVCDAUWCVNDA
+      VVPVNWOUJUWGVVTUVSHIUWFUDZUDHIVVSUDZUDUWGVVTVWIVWJHIBAWLVCHIUWFVNHIVVSVNW
+      OUJWJVVRVWBVWAVWCVVRVVCVVPUDZVWBVVPUVPUVQIUVSBWMUQVWBVWKUVRVVCVVPVVHUTUKU
+      IVWAVWCVWCVVSUULUVSAUVQEWMUQVWCVWCUVTUVTVVSVUEUTUKUIWJVWDUWAVVPVVSUDZUDVW
+      LUWAUDUWAUVRVVPUVTVVSWIUWAVWLUOVWLUWAVWLUVTUVRUDZUWAVVPUVTVVSUVRVVPUVSIUE
+      UVTIUVSURIUULUVSIHUFWGUMAUVPUVQADUFVRWNVWMVWMUWAVWMVWMUVTUVTUVRUVRVUEVUDW
+      JUKUVTUVRUOUIUPWPVLVLUPUVNYOYIBXNHTUTUJUVRUVJUVTUVLUVPUVIUVQUUSAUVHDSVCBX
+      NITUTVGUVSUVKUULAUVHESVCVOWJXAUVJUUTUVLUVFUVIUUNUUSUVIFDUVDUDZUDFDUDUUNDF
+      UVDWQVWNDFDXTWRVCFDUOVLVOUVFUVLUVEUVKUULEFUVDVNVOUKWJUPUVFUVBUUTUVEUVAUUL
+      UVEFEUUHUDZUDZUVAUVEFEDHEUDZUEZUDZUDZVWPUVEFEUDZVWRUDVWTUUKVXAUVDVWREFVFX
+      TVWQDEHVFUJWJFEVWRVNUIVWSVWOFEDHWSVAUMVWPVXAUUHUDZUVAVXBVWPFEUUHVNUKVXAUU
+      KUUHFEVFUTUIUPVRVAVBUVCUUPUUMUUHUDZUDUURUUTUUPUVBVXCUUSUUOUUNXNGIYMVHWGUV
+      BVXCUULUVAUEUULUUKUEZUUHUDUVBVXCUUHUUKUULHYIIWHUQUULUVAURVXDUUMUUHUULUUKU
+      RUTWTXBWNUUPUUMUUHWQUPVBUURJKUUHUDZUDZUUJVXFUURJUUMVXEUUQPKUUPUUHQUTWJUKU
+      UJVXFJKUUHVNUKUIUPUSUUHXGYIHYIVDUQUPUUHHYJHYIUNVAVBYJHUOUPYKXCWDVBWDVBUSY
+      HYLYHXJYLYGXIGYGYFXHUDZHUDHVXGUDXIYFHXHVMVXGHUOVXGXHHYFXHYFLXGYFYIGHUDZUE
+      ZLDYIGVXHDEUGGHUGVILVXIRUKUPYFKJYFUUPKDUUNGUUODFUGGIUGVIKUUPQUKUPXDUSWPVC
+      VLUJXJGVXHYKUEZUEZGVXHUEZYKUEZYLXIVXJGXIHYJVXHUEZUDYKVXHUEVXJXHVXNHXHVXIX
+      GUEVXNLVXIXGRVOYIVXHXGXEUIVCVXHYJHHGUFWFYKVXHURVLUJVXMVXKGVXHYKUHUKVXLGYK
+      GHXFVOVLUIUKUPYHYFXJUDZXKYHGXIYFUDZUEXJYFUDVXOYGVXPGYGYFXIUDVXPYFHXHVNYFX
+      IUOUIUJYFXIGDGVDUQXJYFUOVLYFDXJDGUNVHUMVBWPUPWDVB $.
       $( [11-Apr-2012] $)
   $}
 
@@ -12224,128 +12161,128 @@ $)
     $( Part of proof (4)=>(5) in Day/Pickering 1982. $)
     xdp45 $p |- ( ( a0 v a1 ) ^ ( ( b0 ^ ( a0 v p0 ) ) v b1 ) )
                   =< ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
-      ( wo wa ax-a2 2an ancom tr leor leror leo le2an bltr df2le2 cm anass ror
-      or32 lan ler mldual2i 3tr orass orcom lor ran wt le1 leran lelor an1r
-      oridm lea mlduali lear lbtr letr id dp34 lel2or lelan mldual ml2i leao1
-      or4 2or mli ml3 ler2an leao3 le2or 3tr1 df-le2 le3tr2 or12 orabs ml3le
-      3tr2 bile ) DEUCZGDMUCZUDZHUCZUDZEFUCZHIUCZUDZDFUCZGIUCZUDZHWTUDZUCZUCZJK
-      UCXKUCZXDXHXBIUCZUDZXEXKUCZXFUDZUCZXMXDXPXEDEHUCZUDZUCZXFUDZUCZXSXDDFYAUC
-      ZUCZXOUDZEYEUCZXFUDZUCZYDWTBHUCZUDZDAUCZBIUCZUDZEAUCZXFUDZUCZXDYJYLYNYMEA
-      IUCZUDZUCZUDZYPXFBYSUDZUCZUDZUCZYRYLYNYMEDBUCZUDZUCZUDZYPXFBXTUDZUCZUDZUC
-      ZUUFYLYREHBUCZUDZBEDUCZUDZUCZUCZUUNYLYLYRYLEBUCZUDZUCZUDZUUTYLYLUVAYLYRUD
-      ZUCZUDZUVDYLYLXTBUCZUDUUQBUCZUDZUVGYLYLUVHUVIUDZUDZUVJUVLYLYLUVKYLUUOUUQU
-      DZUVKYLUUQUUOUDZUVMWTUUQYKUUODEUEBHUEUFZUUQUUOUGUHUUOUVHUUQUVIHXTBHEUIUJU
-      UQBUKULUMUNUOUVJUVLYLUVHUVIUPZUOUHUVJUVLUVGUVPUVKUVFYLUVKUVAXTUUGUDZUCZUV
-      FUVKUVQEUCZBUCZUVQUVAUCUVRUVKUUGEUCZUVHUDZUWAXTUDZBUCUVTUVKUVHUWAUDUWBUVI
-      UWAUVHUVIWTBUCUWAUUQWTBEDUEUQDEBURUHUSUVHUWAUGUHBXTUWABUUGEBDUIUTVAUWCUVS
-      BUWCXTUWAUDUVSUWAXTUGEUUGXTEHUKZVAUHUQVBUVQEBVCUVQUVAVDVBUVAUVFUVQUVAUVEU
-      KUVQUVQYSUDZUVFUVQUWEUWEUWEUVQUVQYSUVQUUGXTUDZYSUWFUVQUUGXTUGUOUWFDGDXTFI
-      UCZUDZUCZUDZUCZXTUDZYSUUGUWKXTBUWJDBXBUWJSXAUWIGMUWHDUAVEUSUHVEVFUWLDVGUW
-      IUDZUCZXTUDZYSUWKUWNXTUWJUWMDGVGUWIGVHVIVJVIUWOUWGYAUCZYSUWOUWHYAUCZUWPUW
-      OUWHDUCZXTUDUWQUWNUWRXTUWNDUWIUCZDDUCZUWHUCZUWRUWMUWIDUWIVKVEUXAUWSDDUWHV
-      CUOUXAUWIUWRUWTDUWHDVLUQDUWHVDUHVBVFUWHDXTXTUWGVMVNUHUWHUWGYAXTUWGVOUJUMU
-      WPYEIUCZYSFIYAURYSUXBAYEIRUQUOUHVPVQUMUMZUNUOUWEUWEUWEVRZUOUHUWEEDAHBIYOY
-      QYLYOVRZYQVRZWTUUQYKUUODEVDBHVDUFUXDVSUMVTUMWAUMUMUVGUVBUVEUCUVBYRYLUDZUC
-      ZUVDYLUVAYRWBUVEUXGUVBYLYRUGVEUXHUVBYRUCZYLUDYLUXIUDUVDYLYRUVBYLUVAVMWCUX
-      IYLUGUXIUVCYLUVBYRUEUSVBVBVPUVDUVEUUSUCZUUTUVDUVEUVBUCUXJYLYRUVAWBUVBUUSU
-      VEUVBUVNUVAUDUUQUUOUVAUDZUDZUUSYLUVNUVAUVOVFUUQUUOUVAUPUXLUUQBUUPUCZUDUUQ
-      BUDZUUPUCZUUSUXKUXMUUQUXKUUOEUDZBUCBUXPUCUXMBEUUOBHUIVAUXPBVDUXPUUPBUUOEU
-      GVEVBUSUUPBUUQEUUODWDVAUXOUUPUXNUCUUSUXNUUPVDUXNUURUUPUUQBUGVEUHVBVBVEUHU
-      VEYRUUSYLYRVOUJUMVQUUTYNYMUURUCZUDZYPXFUUPUCZUDZUCZUUNUUTYRUURUUPUCZUCZYN
-      YMUDZUURUCZYQUUPUCZUCZUYAUUSUYBYRUUPUURVDVEUYCYOUURUCZUYFUCUYGYOYQUURUUPW
-      EUYHUYEUYFUYFYOUYDUURYOYOUYDUXEYMYNUGUHZUQYQYQUUPUXFUQWFUHUYEUXRUYFUXTYNY
-      MUURBUUQIWDWGYPXFUUPEUUOAWDWGWFVBUXRUUJUXTUUMUXQUUIYNUXQDUURUCZAUCDUUHUCZ
-      AUCUUIDAUURURUYJUYKAUYJDEBDUCZUDZUCUYKDBEWHUYMUUHDUYLUUGEBDVDUSVEUHUQDUUH
-      AURVBUSUXSUULYPUXSHUUPUCZIUCHUUKUCZIUCUULHIUUPURUYNUYOIUYNHEYKUDZUCUYOUUP
-      UYPHUUOYKEHBVDUSVEHEBWHUHUQHUUKIURVBUSWFUHVPUUJUUBUUMUUEUUIUUAYNUUHYTYMUU
-      HEYSEUUGVMUUHUVQYSEXTUUGUWDVIUXCVQWIVJWAUULUUDYPUUKUUCXFUUKBYSBXTVMUUKUVQ
-      YSUUKXTUUGBXTVOBXTDWJWIUXCVQWIVJWAWKVQUUFYNYMIYPUDZUCZUDZYPXFAYNUDZUCZUDZ
-      UCYOUYQUCZYQUYTUCZUCZYRUUBUYSUUEVUBUUAUYRYNDAYTUCZUCDAUYQUCZUCUUAUYRVUFVU
-      GDVUFAEIAUCZUDZUCVUGYTVUIAYSVUHEAIUEUSVEAEIWHUHVEDAYTVCDAUYQVCWLUSUUDVUAY
-      PHIUUCUCZUCHIUYTUCZUCUUDVUAVUJVUKHIBAWHVEHIUUCVCHIUYTVCWLUSWFUYSVUCVUBVUD
-      UYSUYDUYQUCZVUCUYQYMYNIYPBWJVAVUCVULYOUYDUYQUYIUQUOUHVUBVUDVUDUYTXFYPAYNE
-      WJVAVUDVUDYQYQUYTUXFUQUOUHWFVUEYRUYQUYTUCZUCVUMYRUCYRYOUYQYQUYTWEYRVUMVDV
-      UMYRVUMYQYOUCZYRUYQYQUYTYOUYQYPIUDYQIYPUGIXFYPIHUIWAUMAYMYNADUIVIWKVUNVUN
-      YRVUNVUNYQYQYOYOUXFUXEWFUOYQYOVDUHVPWMVBVBVPYKXCWTBXBHSUQUSYOYGYQYIYMYFYN
-      XOAYEDRVEBXBISUQUFYPYHXFAYEERVEVFWFWNYGXPYIYCYFXHXOYFFDYAUCZUCFDUCXHDFYAW
-      OVUODFDXTWPVEFDVDVBVFYCYIYBYHXFEFYAVCVFUOWFVPYCXRXPYBXQXFYBFEXKUCZUCZXQYB
-      FEDHEUCZUDZUCZUCZVUQYBFEUCZVUSUCVVAXEVVBYAVUSEFUEXTVURDEHUEUSWFFEVUSVCUHV
-      UTVUPFEDHWQVJUMVUQVVBXKUCZXQVVCVUQFEXKVCUOVVBXEXKFEUEUQUHVPVIVJVQXSXJXGXK
-      UCZUCXMXPXJXRVVDXOXIXHXBGIGXAVMUJWAXRVVDXFXQUDXFXEUDZXKUCXRVVDXKXEXFHWTIW
-      DVAXFXQUGVVEXGXKXFXEUGUQWRWSWKXJXGXKWOVPVQXMJKXKUCZUCZXNVVGXMJXGVVFXLOKXJ
-      XKPUQWFUOXNVVGJKXKVCUOUHVP $.
+      ( wo wa ax-a2 2an ancom tr leor leror leo le2an bltr df2le2 cm anass or32
+      ror lan ler mldual2i 3tr orass orcom lor ran wt le1 leran lelor oridm lea
+      an1r mlduali lear lbtr letr id dp34 lel2or lelan mldual leao1 or4 2or mli
+      ml2i ml3 ler2an leao3 le2or 3tr1 df-le2 le3tr2 or12 orabs ml3le 3tr2 bile
+      ) DEUCZGDMUCZUDZHUCZUDZEFUCZHIUCZUDZDFUCZGIUCZUDZHWTUDZUCZUCZJKUCXKUCZXDX
+      HXBIUCZUDZXEXKUCZXFUDZUCZXMXDXPXEDEHUCZUDZUCZXFUDZUCZXSXDDFYAUCZUCZXOUDZE
+      YEUCZXFUDZUCZYDWTBHUCZUDZDAUCZBIUCZUDZEAUCZXFUDZUCZXDYJYLYNYMEAIUCZUDZUCZ
+      UDZYPXFBYSUDZUCZUDZUCZYRYLYNYMEDBUCZUDZUCZUDZYPXFBXTUDZUCZUDZUCZUUFYLYREH
+      BUCZUDZBEDUCZUDZUCZUCZUUNYLYLYRYLEBUCZUDZUCZUDZUUTYLYLUVAYLYRUDZUCZUDZUVD
+      YLYLXTBUCZUDUUQBUCZUDZUVGYLYLUVHUVIUDZUDZUVJUVLYLYLUVKYLUUOUUQUDZUVKYLUUQ
+      UUOUDZUVMWTUUQYKUUODEUEBHUEUFZUUQUUOUGUHUUOUVHUUQUVIHXTBHEUIUJUUQBUKULUMU
+      NUOUVJUVLYLUVHUVIUPZUOUHUVJUVLUVGUVPUVKUVFYLUVKUVAXTUUGUDZUCZUVFUVKUVQEUC
+      ZBUCZUVQUVAUCUVRUVKUUGEUCZUVHUDZUWAXTUDZBUCUVTUVKUVHUWAUDUWBUVIUWAUVHUVIW
+      TBUCUWAUUQWTBEDUEURDEBUQUHUSUVHUWAUGUHBXTUWABUUGEBDUIUTVAUWCUVSBUWCXTUWAU
+      DUVSUWAXTUGEUUGXTEHUKZVAUHURVBUVQEBVCUVQUVAVDVBUVAUVFUVQUVAUVEUKUVQUVQYSU
+      DZUVFUVQUWEUWEUWEUVQUVQYSUVQUUGXTUDZYSUWFUVQUUGXTUGUOUWFDGDXTFIUCZUDZUCZU
+      DZUCZXTUDZYSUUGUWKXTBUWJDBXBUWJSXAUWIGMUWHDUAVEUSUHVEVFUWLDVGUWIUDZUCZXTU
+      DZYSUWKUWNXTUWJUWMDGVGUWIGVHVIVJVIUWOUWGYAUCZYSUWOUWHYAUCZUWPUWOUWHDUCZXT
+      UDUWQUWNUWRXTUWNDUWIUCZDDUCZUWHUCZUWRUWMUWIDUWIVMVEUXAUWSDDUWHVCUOUXAUWIU
+      WRUWTDUWHDVKURDUWHVDUHVBVFUWHDXTXTUWGVLVNUHUWHUWGYAXTUWGVOUJUMUWPYEIUCZYS
+      FIYAUQYSUXBAYEIRURUOUHVPVQUMUMZUNUOUWEUWEUWEVRZUOUHUWEEDAHBIYOYQYLYOVRZYQ
+      VRZWTUUQYKUUODEVDBHVDUFUXDVSUMVTUMWAUMUMUVGUVBUVEUCUVBYRYLUDZUCZUVDYLUVAY
+      RWBUVEUXGUVBYLYRUGVEUXHUVBYRUCZYLUDYLUXIUDUVDYLYRUVBYLUVAVLWGUXIYLUGUXIUV
+      CYLUVBYRUEUSVBVBVPUVDUVEUUSUCZUUTUVDUVEUVBUCUXJYLYRUVAWBUVBUUSUVEUVBUVNUV
+      AUDUUQUUOUVAUDZUDZUUSYLUVNUVAUVOVFUUQUUOUVAUPUXLUUQBUUPUCZUDUUQBUDZUUPUCZ
+      UUSUXKUXMUUQUXKUUOEUDZBUCBUXPUCUXMBEUUOBHUIVAUXPBVDUXPUUPBUUOEUGVEVBUSUUP
+      BUUQEUUODWCVAUXOUUPUXNUCUUSUXNUUPVDUXNUURUUPUUQBUGVEUHVBVBVEUHUVEYRUUSYLY
+      RVOUJUMVQUUTYNYMUURUCZUDZYPXFUUPUCZUDZUCZUUNUUTYRUURUUPUCZUCZYNYMUDZUURUC
+      ZYQUUPUCZUCZUYAUUSUYBYRUUPUURVDVEUYCYOUURUCZUYFUCUYGYOYQUURUUPWDUYHUYEUYF
+      UYFYOUYDUURYOYOUYDUXEYMYNUGUHZURYQYQUUPUXFURWEUHUYEUXRUYFUXTYNYMUURBUUQIW
+      CWFYPXFUUPEUUOAWCWFWEVBUXRUUJUXTUUMUXQUUIYNUXQDUURUCZAUCDUUHUCZAUCUUIDAUU
+      RUQUYJUYKAUYJDEBDUCZUDZUCUYKDBEWHUYMUUHDUYLUUGEBDVDUSVEUHURDUUHAUQVBUSUXS
+      UULYPUXSHUUPUCZIUCHUUKUCZIUCUULHIUUPUQUYNUYOIUYNHEYKUDZUCUYOUUPUYPHUUOYKE
+      HBVDUSVEHEBWHUHURHUUKIUQVBUSWEUHVPUUJUUBUUMUUEUUIUUAYNUUHYTYMUUHEYSEUUGVL
+      UUHUVQYSEXTUUGUWDVIUXCVQWIVJWAUULUUDYPUUKUUCXFUUKBYSBXTVLUUKUVQYSUUKXTUUG
+      BXTVOBXTDWJWIUXCVQWIVJWAWKVQUUFYNYMIYPUDZUCZUDZYPXFAYNUDZUCZUDZUCYOUYQUCZ
+      YQUYTUCZUCZYRUUBUYSUUEVUBUUAUYRYNDAYTUCZUCDAUYQUCZUCUUAUYRVUFVUGDVUFAEIAU
+      CZUDZUCVUGYTVUIAYSVUHEAIUEUSVEAEIWHUHVEDAYTVCDAUYQVCWLUSUUDVUAYPHIUUCUCZU
+      CHIUYTUCZUCUUDVUAVUJVUKHIBAWHVEHIUUCVCHIUYTVCWLUSWEUYSVUCVUBVUDUYSUYDUYQU
+      CZVUCUYQYMYNIYPBWJVAVUCVULYOUYDUYQUYIURUOUHVUBVUDVUDUYTXFYPAYNEWJVAVUDVUD
+      YQYQUYTUXFURUOUHWEVUEYRUYQUYTUCZUCVUMYRUCYRYOUYQYQUYTWDYRVUMVDVUMYRVUMYQY
+      OUCZYRUYQYQUYTYOUYQYPIUDYQIYPUGIXFYPIHUIWAUMAYMYNADUIVIWKVUNVUNYRVUNVUNYQ
+      YQYOYOUXFUXEWEUOYQYOVDUHVPWMVBVBVPYKXCWTBXBHSURUSYOYGYQYIYMYFYNXOAYEDRVEB
+      XBISURUFYPYHXFAYEERVEVFWEWNYGXPYIYCYFXHXOYFFDYAUCZUCFDUCXHDFYAWOVUODFDXTW
+      PVEFDVDVBVFYCYIYBYHXFEFYAVCVFUOWEVPYCXRXPYBXQXFYBFEXKUCZUCZXQYBFEDHEUCZUD
+      ZUCZUCZVUQYBFEUCZVUSUCVVAXEVVBYAVUSEFUEXTVURDEHUEUSWEFEVUSVCUHVUTVUPFEDHW
+      QVJUMVUQVVBXKUCZXQVVCVUQFEXKVCUOVVBXEXKFEUEURUHVPVIVJVQXSXJXGXKUCZUCXMXPX
+      JXRVVDXOXIXHXBGIGXAVLUJWAXRVVDXFXQUDXFXEUDZXKUCXRVVDXKXEXFHWTIWCVAXFXQUGV
+      VEXGXKXFXEUGURWRWSWKXJXGXKWOVPVQXMJKXKUCZUCZXNVVGXMJXGVVFXLOKXJXKPURWEUOX
+      NVVGJKXKVCUOUHVP $.
       $( [11-Apr-2012] $)
 
     $( Part of proof (4)=>(3) in Day/Pickering 1982. $)
     xdp43 $p |- p
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr ler2an
-      mldual2i ancom ror lelor letr lor lear ax-a3 ax-a2 2an leror le2an
-      df2le2 or32 ler 3tr orass ran wt le1 leran an1r oridm mlduali id dp34
-      lel2or lelan mldual ml2i leao1 or4 2or mli ml3 leao3 le2or 3tr1 df-le2
-      le3tr2 or12 orabs ml3le 3tr2 bile leid lerr an32 anabs ) CDCUCDGHLJKUCZUD
-      ZUCZUDZUCZCDUEDXJCDXIUFZCGDMUCZUDZXJUCZXJCXMDUCZXNCXLGDUCZUDZXOCDGUCZEHUC
-      ZFIUCZUDZUDZXQCXRXSUDXTUDYBTXRXSXTUGUHYBXLXPYBXRMUDZXLYCYBMYAXRUAUIUJMXRD
-      UKULYBXRXPXRYAUMDGUNUOUPULXQXLGUDZDUCXODGXLDMUFUQYDXMDXLGURUSUHUODXJXMXKU
-      TVAXMXJXMGDGUDZHUCXGUCZUDZXJXMGHDEUCZXFUDZUCZUDZYGXMGYJGXLUMZXMHXMUCYJXMH
-      UEHYJXMHYIUFZXMYHXMHUCZUDZYJUCZYJXMYOHUCZYPXMYNYHHUCZUDZYQXMYNYRXMHUFXMGD
-      YAUCZUDZYRXLYTGMYADUAVBUIZUUAYTYRGYTVCYTDXSUCZYRYAXSDXSXTUMZUTYRUUCDEHVDU
-      JUOVAULUPYSYNYHUDZHUCYQHYHYNHXMUEUQUUEYOHYNYHURUSUHUOHYJYOYMUTVAYOYJYJYOY
-      IHUCZYJYOYIHYHUDZUCZUUFYOYHXFUUGUCZUDUUHYOYHUUIYHYNUMYOEFUCZHIUCZUDZDFUCZ
-      GIUCZUDZUUGUCZUCZUUIYOUUMXMIUCZUDZUUJUUGUCZUUKUDZUCZUUQYOUUSUUJDXSUDZUCZU
-      UKUDZUCZUVBYODFUVCUCZUCZUURUDZEUVGUCZUUKUDZUCZUVFYHBHUCZUDZDAUCZBIUCZUDZE
-      AUCZUUKUDZUCZYOUVLUVNUVPUVOEAIUCZUDZUCZUDZUVRUUKBUWAUDZUCZUDZUCZUVTUVNUVP
-      UVOEDBUCZUDZUCZUDZUVRUUKBXSUDZUCZUDZUCZUWHUVNUVTEHBUCZUDZBEDUCZUDZUCZUCZU
-      WPUVNUVNUVTUVNEBUCZUDZUCZUDZUXBUVNUVNUXCUVNUVTUDZUCZUDZUXFUVNUVNXSBUCZUDU
-      WSBUCZUDZUXIUVNUVNUXJUXKUDZUDZUXLUXNUVNUVNUXMUVNUWQUWSUDZUXMUVNUWSUWQUDZU
-      XOYHUWSUVMUWQDEVEBHVEVFZUWSUWQURUHUWQUXJUWSUXKHXSBHEUEVGUWSBUFVHULVIUJUXL
-      UXNUVNUXJUXKUGZUJUHUXLUXNUXIUXRUXMUXHUVNUXMUXCXSUWIUDZUCZUXHUXMUXSEUCZBUC
-      ZUXSUXCUCUXTUXMUWIEUCZUXJUDZUYCXSUDZBUCUYBUXMUXJUYCUDUYDUXKUYCUXJUXKYHBUC
-      UYCUWSYHBEDVEUSDEBVJUHUIUXJUYCURUHBXSUYCBUWIEBDUEVKUQUYEUYABUYEXSUYCUDUYA
-      UYCXSUREUWIXSEHUFZUQUHUSVLUXSEBVMUXSUXCUNVLUXCUXHUXSUXCUXGUFUXSUXSUWAUDZU
-      XHUXSUYGUYGUYGUXSUXSUWAUXSUWIXSUDZUWAUYHUXSUWIXSURUJUYHDUUAUCZXSUDZUWAUWI
-      UYIXSBUUADBXMUUASUUBUHVBVNUYJDVOYTUDZUCZXSUDZUWAUYIUYLXSUUAUYKDGVOYTGVPVQ
-      UTVQUYMXTUVCUCZUWAUYMYAUVCUCZUYNUYMYADUCZXSUDUYOUYLUYPXSUYLDYTUCZDDUCZYAU
-      CZUYPUYKYTDYTVRVBUYSUYQDDYAVMUJUYSYTUYPUYRDYADVSUSDYAUNUHVLVNYADXSUUDVTUH
-      YAXTUVCXSXTVCVGULUYNUVGIUCZUWAFIUVCVJUWAUYTAUVGIRUSUJUHUOVAULULZVIUJUYGUY
-      GUYGWAZUJUHUYGEDAHBIUVQUVSUVNUVQWAZUVSWAZYHUWSUVMUWQDEUNBHUNVFVUBWBULWCUL
-      WDULULUXIUXDUXGUCUXDUVTUVNUDZUCZUXFUVNUXCUVTWEUXGVUEUXDUVNUVTURVBVUFUXDUV
-      TUCZUVNUDUVNVUGUDUXFUVNUVTUXDUVNUXCUMWFVUGUVNURVUGUXEUVNUXDUVTVEUIVLVLUOU
-      XFUXGUXAUCZUXBUXFUXGUXDUCVUHUVNUVTUXCWEUXDUXAUXGUXDUXPUXCUDUWSUWQUXCUDZUD
-      ZUXAUVNUXPUXCUXQVNUWSUWQUXCUGVUJUWSBUWRUCZUDUWSBUDZUWRUCZUXAVUIVUKUWSVUIU
-      WQEUDZBUCBVUNUCVUKBEUWQBHUEUQVUNBUNVUNUWRBUWQEURVBVLUIUWRBUWSEUWQDWGUQVUM
-      UWRVULUCUXAVULUWRUNVULUWTUWRUWSBURVBUHVLVLVBUHUXGUVTUXAUVNUVTVCVGULVAUXBU
-      VPUVOUWTUCZUDZUVRUUKUWRUCZUDZUCZUWPUXBUVTUWTUWRUCZUCZUVPUVOUDZUWTUCZUVSUW
-      RUCZUCZVUSUXAVUTUVTUWRUWTUNVBVVAUVQUWTUCZVVDUCVVEUVQUVSUWTUWRWHVVFVVCVVDV
-      VDUVQVVBUWTUVQUVQVVBVUCUVOUVPURUHZUSUVSUVSUWRVUDUSWIUHVVCVUPVVDVURUVPUVOU
-      WTBUWSIWGWJUVRUUKUWREUWQAWGWJWIVLVUPUWLVURUWOVUOUWKUVPVUODUWTUCZAUCDUWJUC
-      ZAUCUWKDAUWTVJVVHVVIAVVHDEBDUCZUDZUCVVIDBEWKVVKUWJDVVJUWIEBDUNUIVBUHUSDUW
-      JAVJVLUIVUQUWNUVRVUQHUWRUCZIUCHUWMUCZIUCUWNHIUWRVJVVLVVMIVVLHEUVMUDZUCVVM
-      UWRVVNHUWQUVMEHBUNUIVBHEBWKUHUSHUWMIVJVLUIWIUHUOUWLUWDUWOUWGUWKUWCUVPUWJU
-      WBUVOUWJEUWAEUWIUMUWJUXSUWAEXSUWIUYFVQVUAVAUPUTWDUWNUWFUVRUWMUWEUUKUWMBUW
-      ABXSUMUWMUXSUWAUWMXSUWIBXSVCBXSDWLUPVUAVAUPUTWDWMVAUWHUVPUVOIUVRUDZUCZUDZ
-      UVRUUKAUVPUDZUCZUDZUCUVQVVOUCZUVSVVRUCZUCZUVTUWDVVQUWGVVTUWCVVPUVPDAUWBUC
-      ZUCDAVVOUCZUCUWCVVPVWDVWEDVWDAEIAUCZUDZUCVWEUWBVWGAUWAVWFEAIVEUIVBAEIWKUH
-      VBDAUWBVMDAVVOVMWNUIUWFVVSUVRHIUWEUCZUCHIVVRUCZUCUWFVVSVWHVWIHIBAWKVBHIUW
-      EVMHIVVRVMWNUIWIVVQVWAVVTVWBVVQVVBVVOUCZVWAVVOUVOUVPIUVRBWLUQVWAVWJUVQVVB
-      VVOVVGUSUJUHVVTVWBVWBVVRUUKUVRAUVPEWLUQVWBVWBUVSUVSVVRVUDUSUJUHWIVWCUVTVV
-      OVVRUCZUCVWKUVTUCUVTUVQVVOUVSVVRWHUVTVWKUNVWKUVTVWKUVSUVQUCZUVTVVOUVSVVRU
-      VQVVOUVRIUDUVSIUVRURIUUKUVRIHUEWDULAUVOUVPADUEVQWMVWLVWLUVTVWLVWLUVSUVSUV
-      QUVQVUDVUCWIUJUVSUVQUNUHUOWOVLVLUOUVMYNYHBXMHSUSUIUVQUVIUVSUVKUVOUVHUVPUU
-      RAUVGDRVBBXMISUSVFUVRUVJUUKAUVGERVBVNWIWPUVIUUSUVKUVEUVHUUMUURUVHFDUVCUCZ
-      UCFDUCUUMDFUVCWQVWMDFDXSWRVBFDUNVLVNUVEUVKUVDUVJUUKEFUVCVMVNUJWIUOUVEUVAU
-      USUVDUUTUUKUVDFEUUGUCZUCZUUTUVDFEDHEUCZUDZUCZUCZVWOUVDFEUCZVWQUCVWSUUJVWT
-      UVCVWQEFVEXSVWPDEHVEUIWIFEVWQVMUHVWRVWNFEDHWSUTULVWOVWTUUGUCZUUTVXAVWOFEU
-      UGVMUJVWTUUJUUGFEVEUSUHUOVQUTVAUVBUUOUULUUGUCZUCUUQUUSUUOUVAVXBUURUUNUUMX
-      MGIYLVGWDUVAVXBUUKUUTUDUUKUUJUDZUUGUCUVAVXBUUGUUJUUKHYHIWGUQUUKUUTURVXCUU
-      LUUGUUKUUJURUSWTXAWMUUOUULUUGWQUOVAUUQJKUUGUCZUCZUUIVXEUUQJUULVXDUUPOKUUO
-      UUGPUSWIUJUUIVXEJKUUGVMUJUHUOUPUUGXFYHHYHVCUQUOUUGHYIHYHUMUTVAYIHUNUOYJXB
-      WCVAWCVAUPYGYKYGXIYKYFXHGYFYEXGUCZHUCHVXFUCXHYEHXGVJVXFHUNVXFXGHYEXGYELXF
-      YEYHGHUCZUDZLDYHGVXGDEUFGHUFVHLVXHQUJUOYEKJYEUUOKDUUMGUUNDFUFGIUFVHKUUOPU
-      JUOXCUPWOVBVLUIXIGVXGYJUDZUDZGVXGUDZYJUDZYKXHVXIGXHHYIVXGUDZUCYJVXGUDVXIX
-      GVXMHXGVXHXFUDVXMLVXHXFQVNYHVXGXFXDUHVBVXGYIHHGUEWFYJVXGURVLUIVXLVXJGVXGY
-      JUGUJVXKGYJGHXEVNVLUHUJUOYGYEXIUCZXJYGGXHYEUCZUDXIYEUCVXNYFVXOGYFYEXHUCVX
-      OYEHXGVMYEXHUNUHUIYEXHGDGVCUQXIYEUNVLYEDXIDGUMVGULVAWOUOWCVA $.
+      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr mldual2i ancom
+      ler2an ror lelor letr lor lear ax-a3 ax-a2 2an leror le2an df2le2 ler 3tr
+      or32 orass ran wt le1 leran an1r oridm mlduali id dp34 lel2or mldual ml2i
+      lelan leao1 or4 2or mli ml3 leao3 le2or 3tr1 df-le2 or12 orabs ml3le 3tr2
+      le3tr2 bile leid lerr an32 anabs ) CDCUCDGHLJKUCZUDZUCZUDZUCZCDUEDXJCDXIU
+      FZCGDMUCZUDZXJUCZXJCXMDUCZXNCXLGDUCZUDZXOCDGUCZEHUCZFIUCZUDZUDZXQCXRXSUDX
+      TUDYBTXRXSXTUGUHYBXLXPYBXRMUDZXLYCYBMYAXRUAUIUJMXRDUKULYBXRXPXRYAUMDGUNUO
+      URULXQXLGUDZDUCXODGXLDMUFUPYDXMDXLGUQUSUHUODXJXMXKUTVAXMXJXMGDGUDZHUCXGUC
+      ZUDZXJXMGHDEUCZXFUDZUCZUDZYGXMGYJGXLUMZXMHXMUCYJXMHUEHYJXMHYIUFZXMYHXMHUC
+      ZUDZYJUCZYJXMYOHUCZYPXMYNYHHUCZUDZYQXMYNYRXMHUFXMGDYAUCZUDZYRXLYTGMYADUAV
+      BUIZUUAYTYRGYTVCYTDXSUCZYRYAXSDXSXTUMZUTYRUUCDEHVDUJUOVAULURYSYNYHUDZHUCY
+      QHYHYNHXMUEUPUUEYOHYNYHUQUSUHUOHYJYOYMUTVAYOYJYJYOYIHUCZYJYOYIHYHUDZUCZUU
+      FYOYHXFUUGUCZUDUUHYOYHUUIYHYNUMYOEFUCZHIUCZUDZDFUCZGIUCZUDZUUGUCZUCZUUIYO
+      UUMXMIUCZUDZUUJUUGUCZUUKUDZUCZUUQYOUUSUUJDXSUDZUCZUUKUDZUCZUVBYODFUVCUCZU
+      CZUURUDZEUVGUCZUUKUDZUCZUVFYHBHUCZUDZDAUCZBIUCZUDZEAUCZUUKUDZUCZYOUVLUVNU
+      VPUVOEAIUCZUDZUCZUDZUVRUUKBUWAUDZUCZUDZUCZUVTUVNUVPUVOEDBUCZUDZUCZUDZUVRU
+      UKBXSUDZUCZUDZUCZUWHUVNUVTEHBUCZUDZBEDUCZUDZUCZUCZUWPUVNUVNUVTUVNEBUCZUDZ
+      UCZUDZUXBUVNUVNUXCUVNUVTUDZUCZUDZUXFUVNUVNXSBUCZUDUWSBUCZUDZUXIUVNUVNUXJU
+      XKUDZUDZUXLUXNUVNUVNUXMUVNUWQUWSUDZUXMUVNUWSUWQUDZUXOYHUWSUVMUWQDEVEBHVEV
+      FZUWSUWQUQUHUWQUXJUWSUXKHXSBHEUEVGUWSBUFVHULVIUJUXLUXNUVNUXJUXKUGZUJUHUXL
+      UXNUXIUXRUXMUXHUVNUXMUXCXSUWIUDZUCZUXHUXMUXSEUCZBUCZUXSUXCUCUXTUXMUWIEUCZ
+      UXJUDZUYCXSUDZBUCUYBUXMUXJUYCUDUYDUXKUYCUXJUXKYHBUCUYCUWSYHBEDVEUSDEBVLUH
+      UIUXJUYCUQUHBXSUYCBUWIEBDUEVJUPUYEUYABUYEXSUYCUDUYAUYCXSUQEUWIXSEHUFZUPUH
+      USVKUXSEBVMUXSUXCUNVKUXCUXHUXSUXCUXGUFUXSUXSUWAUDZUXHUXSUYGUYGUYGUXSUXSUW
+      AUXSUWIXSUDZUWAUYHUXSUWIXSUQUJUYHDUUAUCZXSUDZUWAUWIUYIXSBUUADBXMUUASUUBUH
+      VBVNUYJDVOYTUDZUCZXSUDZUWAUYIUYLXSUUAUYKDGVOYTGVPVQUTVQUYMXTUVCUCZUWAUYMY
+      AUVCUCZUYNUYMYADUCZXSUDUYOUYLUYPXSUYLDYTUCZDDUCZYAUCZUYPUYKYTDYTVRVBUYSUY
+      QDDYAVMUJUYSYTUYPUYRDYADVSUSDYAUNUHVKVNYADXSUUDVTUHYAXTUVCXSXTVCVGULUYNUV
+      GIUCZUWAFIUVCVLUWAUYTAUVGIRUSUJUHUOVAULULZVIUJUYGUYGUYGWAZUJUHUYGEDAHBIUV
+      QUVSUVNUVQWAZUVSWAZYHUWSUVMUWQDEUNBHUNVFVUBWBULWCULWFULULUXIUXDUXGUCUXDUV
+      TUVNUDZUCZUXFUVNUXCUVTWDUXGVUEUXDUVNUVTUQVBVUFUXDUVTUCZUVNUDUVNVUGUDUXFUV
+      NUVTUXDUVNUXCUMWEVUGUVNUQVUGUXEUVNUXDUVTVEUIVKVKUOUXFUXGUXAUCZUXBUXFUXGUX
+      DUCVUHUVNUVTUXCWDUXDUXAUXGUXDUXPUXCUDUWSUWQUXCUDZUDZUXAUVNUXPUXCUXQVNUWSU
+      WQUXCUGVUJUWSBUWRUCZUDUWSBUDZUWRUCZUXAVUIVUKUWSVUIUWQEUDZBUCBVUNUCVUKBEUW
+      QBHUEUPVUNBUNVUNUWRBUWQEUQVBVKUIUWRBUWSEUWQDWGUPVUMUWRVULUCUXAVULUWRUNVUL
+      UWTUWRUWSBUQVBUHVKVKVBUHUXGUVTUXAUVNUVTVCVGULVAUXBUVPUVOUWTUCZUDZUVRUUKUW
+      RUCZUDZUCZUWPUXBUVTUWTUWRUCZUCZUVPUVOUDZUWTUCZUVSUWRUCZUCZVUSUXAVUTUVTUWR
+      UWTUNVBVVAUVQUWTUCZVVDUCVVEUVQUVSUWTUWRWHVVFVVCVVDVVDUVQVVBUWTUVQUVQVVBVU
+      CUVOUVPUQUHZUSUVSUVSUWRVUDUSWIUHVVCVUPVVDVURUVPUVOUWTBUWSIWGWJUVRUUKUWREU
+      WQAWGWJWIVKVUPUWLVURUWOVUOUWKUVPVUODUWTUCZAUCDUWJUCZAUCUWKDAUWTVLVVHVVIAV
+      VHDEBDUCZUDZUCVVIDBEWKVVKUWJDVVJUWIEBDUNUIVBUHUSDUWJAVLVKUIVUQUWNUVRVUQHU
+      WRUCZIUCHUWMUCZIUCUWNHIUWRVLVVLVVMIVVLHEUVMUDZUCVVMUWRVVNHUWQUVMEHBUNUIVB
+      HEBWKUHUSHUWMIVLVKUIWIUHUOUWLUWDUWOUWGUWKUWCUVPUWJUWBUVOUWJEUWAEUWIUMUWJU
+      XSUWAEXSUWIUYFVQVUAVAURUTWFUWNUWFUVRUWMUWEUUKUWMBUWABXSUMUWMUXSUWAUWMXSUW
+      IBXSVCBXSDWLURVUAVAURUTWFWMVAUWHUVPUVOIUVRUDZUCZUDZUVRUUKAUVPUDZUCZUDZUCU
+      VQVVOUCZUVSVVRUCZUCZUVTUWDVVQUWGVVTUWCVVPUVPDAUWBUCZUCDAVVOUCZUCUWCVVPVWD
+      VWEDVWDAEIAUCZUDZUCVWEUWBVWGAUWAVWFEAIVEUIVBAEIWKUHVBDAUWBVMDAVVOVMWNUIUW
+      FVVSUVRHIUWEUCZUCHIVVRUCZUCUWFVVSVWHVWIHIBAWKVBHIUWEVMHIVVRVMWNUIWIVVQVWA
+      VVTVWBVVQVVBVVOUCZVWAVVOUVOUVPIUVRBWLUPVWAVWJUVQVVBVVOVVGUSUJUHVVTVWBVWBV
+      VRUUKUVRAUVPEWLUPVWBVWBUVSUVSVVRVUDUSUJUHWIVWCUVTVVOVVRUCZUCVWKUVTUCUVTUV
+      QVVOUVSVVRWHUVTVWKUNVWKUVTVWKUVSUVQUCZUVTVVOUVSVVRUVQVVOUVRIUDUVSIUVRUQIU
+      UKUVRIHUEWFULAUVOUVPADUEVQWMVWLVWLUVTVWLVWLUVSUVSUVQUVQVUDVUCWIUJUVSUVQUN
+      UHUOWOVKVKUOUVMYNYHBXMHSUSUIUVQUVIUVSUVKUVOUVHUVPUURAUVGDRVBBXMISUSVFUVRU
+      VJUUKAUVGERVBVNWIWTUVIUUSUVKUVEUVHUUMUURUVHFDUVCUCZUCFDUCUUMDFUVCWPVWMDFD
+      XSWQVBFDUNVKVNUVEUVKUVDUVJUUKEFUVCVMVNUJWIUOUVEUVAUUSUVDUUTUUKUVDFEUUGUCZ
+      UCZUUTUVDFEDHEUCZUDZUCZUCZVWOUVDFEUCZVWQUCVWSUUJVWTUVCVWQEFVEXSVWPDEHVEUI
+      WIFEVWQVMUHVWRVWNFEDHWRUTULVWOVWTUUGUCZUUTVXAVWOFEUUGVMUJVWTUUJUUGFEVEUSU
+      HUOVQUTVAUVBUUOUULUUGUCZUCUUQUUSUUOUVAVXBUURUUNUUMXMGIYLVGWFUVAVXBUUKUUTU
+      DUUKUUJUDZUUGUCUVAVXBUUGUUJUUKHYHIWGUPUUKUUTUQVXCUULUUGUUKUUJUQUSWSXAWMUU
+      OUULUUGWPUOVAUUQJKUUGUCZUCZUUIVXEUUQJUULVXDUUPOKUUOUUGPUSWIUJUUIVXEJKUUGV
+      MUJUHUOURUUGXFYHHYHVCUPUOUUGHYIHYHUMUTVAYIHUNUOYJXBWCVAWCVAURYGYKYGXIYKYF
+      XHGYFYEXGUCZHUCHVXFUCXHYEHXGVLVXFHUNVXFXGHYEXGYELXFYEYHGHUCZUDZLDYHGVXGDE
+      UFGHUFVHLVXHQUJUOYEKJYEUUOKDUUMGUUNDFUFGIUFVHKUUOPUJUOXCURWOVBVKUIXIGVXGY
+      JUDZUDZGVXGUDZYJUDZYKXHVXIGXHHYIVXGUDZUCYJVXGUDVXIXGVXMHXGVXHXFUDVXMLVXHX
+      FQVNYHVXGXFXDUHVBVXGYIHHGUEWEYJVXGUQVKUIVXLVXJGVXGYJUGUJVXKGYJGHXEVNVKUHU
+      JUOYGYEXIUCZXJYGGXHYEUCZUDXIYEUCVXNYFVXOGYFYEXHUCVXOYEHXGVMYEXHUNUHUIYEXH
+      GDGVCUPXIYEUNVKYEDXIDGUMVGULVAWOUOWCVA $.
       $( [11-Apr-2012] $)
   $}
 
@@ -12363,75 +12300,74 @@ $)
        ` b1 ` . $)
     3dp43 $p |- p
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
-      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr ler2an
-      mldual2i ancom ror lelor letr lor lear ax-a3 ax-a2 2an leror le2an
-      df2le2 or32 ler 3tr orass ran wt le1 leran an1r oridm mlduali id dp34
-      lel2or lelan mldual ml2i leao1 or4 2or mli ml3 leao3 le2or 3tr1 df-le2
-      le3tr2 or12 orabs ml3le 3tr2 bile leid lerr an32 anabs ) CDCUADFGJHIUAZUB
-      ZUAZUBZUAZCDUCDXHCDXGUDZCFDKUAZUBZXHUAZXHCXKDUAZXLCXJFDUAZUBZXMCDFUAZEGUA
-      ZXQUBZUBZXOCXPXQUBXQUBXSRXPXQXQUEUFXSXJXNXSXPKUBZXJXTXSKXRXPSUGUHKXPDUIUJ
-      XSXPXNXPXRUKDFULUMUNUJXOXJFUBZDUAXMDFXJDKUDUOYAXKDXJFUPUQUFUMDXHXKXIURUSX
-      KXHXKFDFUBZGUAXEUAZUBZXHXKFGDEUAZXDUBZUAZUBZYDXKFYGFXJUKZXKGXKUAYGXKGUCGY
-      GXKGYFUDZXKYEXKGUAZUBZYGUAZYGXKYLGUAZYMXKYKYEGUAZUBZYNXKYKYOXKGUDXKFDXRUA
-      ZUBZYOXJYQFKXRDSUTUGZYRYQYOFYQVAYQDXQUAZYOXRXQDXQXQUKZURYOYTDEGVBUHUMUSUJ
-      UNYPYKYEUBZGUAYNGYEYKGXKUCUOUUBYLGYKYEUPUQUFUMGYGYLYJURUSYLYGYGYLYFGUAZYG
-      YLYFGYEUBZUAZUUCYLYEXDUUDUAZUBUUEYLYEUUFYEYKUKYLEEUAZGGUAZUBZYEFGUAZUBZUU
-      DUAZUAZUUFYLYLUUGUUDUAZUUHUBZUAZUUMYLYLUUGDXQUBZUAZUUHUBZUAZUUPYLDEUUQUAZ
-      UAZYKUBZEUVAUAZUUHUBZUAZUUTYEBGUAZUBZDAUAZUVGUBZEAUAZUUHUBZUAZYLUVFUVHUVG
-      UVIEAGUAZUBZUAZUBZUVKUUHBUVNUBZUAZUBZUAZUVMUVHUVGUVIEDBUAZUBZUAZUBZUVKUUH
-      BXQUBZUAZUBZUAZUWAUVHUVMEGBUAZUBZBEDUAZUBZUAZUAZUWIUVHUVHUVMUVHEBUAZUBZUA
-      ZUBZUWOUVHUVHUWPUVHUVMUBZUAZUBZUWSUVHUVHXQBUAZUBUWLBUAZUBZUXBUVHUVHUXCUXD
-      UBZUBZUXEUXGUVHUVHUXFUVHUWJUWLUBZUXFUVHUWLUWJUBZUXHYEUWLUVGUWJDEVCBGVCVDZ
-      UWLUWJUPUFUWJUXCUWLUXDGXQBGEUCVEUWLBUDVFUJVGUHUXEUXGUVHUXCUXDUEZUHUFUXEUX
-      GUXBUXKUXFUXAUVHUXFUWPXQUWBUBZUAZUXAUXFUXLEUAZBUAZUXLUWPUAUXMUXFUWBEUAZUX
-      CUBZUXPXQUBZBUAUXOUXFUXCUXPUBUXQUXDUXPUXCUXDYEBUAUXPUWLYEBEDVCUQDEBVHUFUG
-      UXCUXPUPUFBXQUXPBUWBEBDUCVIUOUXRUXNBUXRXQUXPUBUXNUXPXQUPEUWBXQEGUDZUOUFUQ
-      VJUXLEBVKUXLUWPULVJUWPUXAUXLUWPUWTUDUXLUXLUVNUBZUXAUXLUXTUXTUXTUXLUXLUVNU
-      XLUWBXQUBZUVNUYAUXLUWBXQUPUHUYADYRUAZXQUBZUVNUWBUYBXQBYRDBXKYRQYSUFUTVLUY
-      CDVMYQUBZUAZXQUBZUVNUYBUYEXQYRUYDDFVMYQFVNVOURVOUYFXQUUQUAZUVNUYFXRUUQUAZ
-      UYGUYFXRDUAZXQUBUYHUYEUYIXQUYEDYQUAZDDUAZXRUAZUYIUYDYQDYQVPUTUYLUYJDDXRVK
-      UHUYLYQUYIUYKDXRDVQUQDXRULUFVJVLXRDXQUUAVRUFXRXQUUQXQXQVAVEUJUYGUVAGUAZUV
-      NEGUUQVHUVNUYMAUVAGPUQUHUFUMUSUJUJZVGUHUXTUXTUXTVSZUHUFUXTEDAGBGUVJUVLUVH
-      UVJVSZUVLVSZYEUWLUVGUWJDEULBGULVDUYOVTUJWAUJWBUJUJUXBUWQUWTUAUWQUVMUVHUBZ
-      UAZUWSUVHUWPUVMWCUWTUYRUWQUVHUVMUPUTUYSUWQUVMUAZUVHUBUVHUYTUBUWSUVHUVMUWQ
-      UVHUWPUKWDUYTUVHUPUYTUWRUVHUWQUVMVCUGVJVJUMUWSUWTUWNUAZUWOUWSUWTUWQUAVUAU
-      VHUVMUWPWCUWQUWNUWTUWQUXIUWPUBUWLUWJUWPUBZUBZUWNUVHUXIUWPUXJVLUWLUWJUWPUE
-      VUCUWLBUWKUAZUBUWLBUBZUWKUAZUWNVUBVUDUWLVUBUWJEUBZBUABVUGUAVUDBEUWJBGUCUO
-      VUGBULVUGUWKBUWJEUPUTVJUGUWKBUWLEUWJDWEUOVUFUWKVUEUAUWNVUEUWKULVUEUWMUWKU
-      WLBUPUTUFVJVJUTUFUWTUVMUWNUVHUVMVAVEUJUSUWOUVGUVIUWMUAZUBZUVKUUHUWKUAZUBZ
-      UAZUWIUWOUVMUWMUWKUAZUAZUVGUVIUBZUWMUAZUVLUWKUAZUAZVULUWNVUMUVMUWKUWMULUT
-      VUNUVJUWMUAZVUQUAVURUVJUVLUWMUWKWFVUSVUPVUQVUQUVJVUOUWMUVJUVJVUOUYPUVIUVG
-      UPUFZUQUVLUVLUWKUYQUQWGUFVUPVUIVUQVUKUVGUVIUWMBUWLGWEWHUVKUUHUWKEUWJAWEWH
-      WGVJVUIUWEVUKUWHVUHUWDUVGVUHDUWMUAZAUADUWCUAZAUAUWDDAUWMVHVVAVVBAVVADEBDU
-      AZUBZUAVVBDBEWIVVDUWCDVVCUWBEBDULUGUTUFUQDUWCAVHVJUGVUJUWGUVKVUJGUWKUAZGU
-      AGUWFUAZGUAUWGGGUWKVHVVEVVFGVVEGEUVGUBZUAVVFUWKVVGGUWJUVGEGBULUGUTGEBWIUF
-      UQGUWFGVHVJUGWGUFUMUWEUVQUWHUVTUWDUVPUVGUWCUVOUVIUWCEUVNEUWBUKUWCUXLUVNEX
-      QUWBUXSVOUYNUSUNURWBUWGUVSUVKUWFUVRUUHUWFBUVNBXQUKUWFUXLUVNUWFXQUWBBXQVAB
-      XQDWJUNUYNUSUNURWBWKUSUWAUVGUVIGUVKUBZUAZUBZUVKUUHAUVGUBZUAZUBZUAUVJVVHUA
-      ZUVLVVKUAZUAZUVMUVQVVJUVTVVMUVPVVIUVGDAUVOUAZUADAVVHUAZUAUVPVVIVVQVVRDVVQ
-      AEGAUAZUBZUAVVRUVOVVTAUVNVVSEAGVCUGUTAEGWIUFUTDAUVOVKDAVVHVKWLUGUVSVVLUVK
-      GGUVRUAZUAGGVVKUAZUAUVSVVLVWAVWBGGBAWIUTGGUVRVKGGVVKVKWLUGWGVVJVVNVVMVVOV
-      VJVUOVVHUAZVVNVVHUVIUVGGUVKBWJUOVVNVWCUVJVUOVVHVUTUQUHUFVVMVVOVVOVVKUUHUV
-      KAUVGEWJUOVVOVVOUVLUVLVVKUYQUQUHUFWGVVPUVMVVHVVKUAZUAVWDUVMUAUVMUVJVVHUVL
-      VVKWFUVMVWDULVWDUVMVWDUVLUVJUAZUVMVVHUVLVVKUVJVVHUVKGUBUVLGUVKUPGUUHUVKGG
-      UCWBUJAUVIUVGADUCVOWKVWEVWEUVMVWEVWEUVLUVLUVJUVJUYQUYPWGUHUVLUVJULUFUMWMV
-      JVJUMUVGYKYEBXKGQUQZUGUVJUVCUVLUVEUVIUVBUVGYKAUVADPUTVWFVDUVKUVDUUHAUVAEP
-      UTVLWGWNUVCYLUVEUUSUVBYEYKUVBEDUUQUAZUAUWLYEDEUUQWOVWGDEDXQWPUTEDULVJVLUU
-      SUVEUURUVDUUHEEUUQVKVLUHWGUMUUSUUOYLUURUUNUUHUUREEUUDUAZUAZUUNUUREEDGEUAZ
-      UBZUAZUAZVWIUURUUGVWKUAVWMUUGUUGUUQVWKEEVCZXQVWJDEGVCUGWGEEVWKVKUFVWLVWHE
-      EDGWQURUJVWIUUNUUNUUNVWIEEUUDVKUHUUGUUGUUDVWNUQUFUMVOURUSUUPUUKUUIUUDUAZU
-      AUUMYLUUKUUOVWOYKUUJYEXKFGYIVEWBUUOVWOUUHUUNUBUUHUUGUBZUUDUAUUOVWOUUDUUGU
-      UHGYEGWEUOUUHUUNUPVWPUUIUUDUUHUUGUPUQWRWSWKUUKUUIUUDWOUMUSUUMHIUUDUAZUAZU
-      UFVWRUUMHUUIVWQUULMIUUKUUDNUQWGUHUUFVWRHIUUDVKUHUFUMUNUUDXDYEGYEVAUOUMUUD
-      GYFGYEUKURUSYFGULUMYGWTWAUSWAUSUNYDYHYDXGYHYCXFFYCYBXEUAZGUAGVWSUAXFYBGXE
-      VHVWSGULVWSXEGYBXEYBJXDYBUUKJDYEFUUJDEUDFGUDVFZJUUKOUHUMYBIHYBUUKIVWTIUUK
-      NUHUMXAUNWMUTVJUGXGFUUJYGUBZUBZFUUJUBZYGUBZYHXFVXAFXFGYFUUJUBZUAYGUUJUBVX
-      AXEVXEGXEUUKXDUBVXEJUUKXDOVLYEUUJXDXBUFUTUUJYFGGFUCWDYGUUJUPVJUGVXDVXBFUU
-      JYGUEUHVXCFYGFGXCVLVJUFUHUMYDYBXGUAZXHYDFXFYBUAZUBXGYBUAVXFYCVXGFYCYBXFUA
-      VXGYBGXEVKYBXFULUFUGYBXFFDFVAUOXGYBULVJYBDXGDFUKVEUJUSWMUMWAUS $.
+      ( wo wa leor leo anass tr lan cm leao4 bltr lea orcom lbtr mldual2i ancom
+      ler2an ror lelor letr lor lear ax-a3 ax-a2 2an leror le2an df2le2 ler 3tr
+      or32 orass ran wt le1 leran an1r oridm mlduali id dp34 lel2or mldual ml2i
+      lelan leao1 or4 2or mli ml3 leao3 le2or 3tr1 df-le2 or12 orabs ml3le 3tr2
+      le3tr2 bile leid lerr an32 anabs ) CDCUADFGJHIUAZUBZUAZUBZUAZCDUCDXHCDXGU
+      DZCFDKUAZUBZXHUAZXHCXKDUAZXLCXJFDUAZUBZXMCDFUAZEGUAZXQUBZUBZXOCXPXQUBXQUB
+      XSRXPXQXQUEUFXSXJXNXSXPKUBZXJXTXSKXRXPSUGUHKXPDUIUJXSXPXNXPXRUKDFULUMUPUJ
+      XOXJFUBZDUAXMDFXJDKUDUNYAXKDXJFUOUQUFUMDXHXKXIURUSXKXHXKFDFUBZGUAXEUAZUBZ
+      XHXKFGDEUAZXDUBZUAZUBZYDXKFYGFXJUKZXKGXKUAYGXKGUCGYGXKGYFUDZXKYEXKGUAZUBZ
+      YGUAZYGXKYLGUAZYMXKYKYEGUAZUBZYNXKYKYOXKGUDXKFDXRUAZUBZYOXJYQFKXRDSUTUGZY
+      RYQYOFYQVAYQDXQUAZYOXRXQDXQXQUKZURYOYTDEGVBUHUMUSUJUPYPYKYEUBZGUAYNGYEYKG
+      XKUCUNUUBYLGYKYEUOUQUFUMGYGYLYJURUSYLYGYGYLYFGUAZYGYLYFGYEUBZUAZUUCYLYEXD
+      UUDUAZUBUUEYLYEUUFYEYKUKYLEEUAZGGUAZUBZYEFGUAZUBZUUDUAZUAZUUFYLYLUUGUUDUA
+      ZUUHUBZUAZUUMYLYLUUGDXQUBZUAZUUHUBZUAZUUPYLDEUUQUAZUAZYKUBZEUVAUAZUUHUBZU
+      AZUUTYEBGUAZUBZDAUAZUVGUBZEAUAZUUHUBZUAZYLUVFUVHUVGUVIEAGUAZUBZUAZUBZUVKU
+      UHBUVNUBZUAZUBZUAZUVMUVHUVGUVIEDBUAZUBZUAZUBZUVKUUHBXQUBZUAZUBZUAZUWAUVHU
+      VMEGBUAZUBZBEDUAZUBZUAZUAZUWIUVHUVHUVMUVHEBUAZUBZUAZUBZUWOUVHUVHUWPUVHUVM
+      UBZUAZUBZUWSUVHUVHXQBUAZUBUWLBUAZUBZUXBUVHUVHUXCUXDUBZUBZUXEUXGUVHUVHUXFU
+      VHUWJUWLUBZUXFUVHUWLUWJUBZUXHYEUWLUVGUWJDEVCBGVCVDZUWLUWJUOUFUWJUXCUWLUXD
+      GXQBGEUCVEUWLBUDVFUJVGUHUXEUXGUVHUXCUXDUEZUHUFUXEUXGUXBUXKUXFUXAUVHUXFUWP
+      XQUWBUBZUAZUXAUXFUXLEUAZBUAZUXLUWPUAUXMUXFUWBEUAZUXCUBZUXPXQUBZBUAUXOUXFU
+      XCUXPUBUXQUXDUXPUXCUXDYEBUAUXPUWLYEBEDVCUQDEBVJUFUGUXCUXPUOUFBXQUXPBUWBEB
+      DUCVHUNUXRUXNBUXRXQUXPUBUXNUXPXQUOEUWBXQEGUDZUNUFUQVIUXLEBVKUXLUWPULVIUWP
+      UXAUXLUWPUWTUDUXLUXLUVNUBZUXAUXLUXTUXTUXTUXLUXLUVNUXLUWBXQUBZUVNUYAUXLUWB
+      XQUOUHUYADYRUAZXQUBZUVNUWBUYBXQBYRDBXKYRQYSUFUTVLUYCDVMYQUBZUAZXQUBZUVNUY
+      BUYEXQYRUYDDFVMYQFVNVOURVOUYFXQUUQUAZUVNUYFXRUUQUAZUYGUYFXRDUAZXQUBUYHUYE
+      UYIXQUYEDYQUAZDDUAZXRUAZUYIUYDYQDYQVPUTUYLUYJDDXRVKUHUYLYQUYIUYKDXRDVQUQD
+      XRULUFVIVLXRDXQUUAVRUFXRXQUUQXQXQVAVEUJUYGUVAGUAZUVNEGUUQVJUVNUYMAUVAGPUQ
+      UHUFUMUSUJUJZVGUHUXTUXTUXTVSZUHUFUXTEDAGBGUVJUVLUVHUVJVSZUVLVSZYEUWLUVGUW
+      JDEULBGULVDUYOVTUJWAUJWDUJUJUXBUWQUWTUAUWQUVMUVHUBZUAZUWSUVHUWPUVMWBUWTUY
+      RUWQUVHUVMUOUTUYSUWQUVMUAZUVHUBUVHUYTUBUWSUVHUVMUWQUVHUWPUKWCUYTUVHUOUYTU
+      WRUVHUWQUVMVCUGVIVIUMUWSUWTUWNUAZUWOUWSUWTUWQUAVUAUVHUVMUWPWBUWQUWNUWTUWQ
+      UXIUWPUBUWLUWJUWPUBZUBZUWNUVHUXIUWPUXJVLUWLUWJUWPUEVUCUWLBUWKUAZUBUWLBUBZ
+      UWKUAZUWNVUBVUDUWLVUBUWJEUBZBUABVUGUAVUDBEUWJBGUCUNVUGBULVUGUWKBUWJEUOUTV
+      IUGUWKBUWLEUWJDWEUNVUFUWKVUEUAUWNVUEUWKULVUEUWMUWKUWLBUOUTUFVIVIUTUFUWTUV
+      MUWNUVHUVMVAVEUJUSUWOUVGUVIUWMUAZUBZUVKUUHUWKUAZUBZUAZUWIUWOUVMUWMUWKUAZU
+      AZUVGUVIUBZUWMUAZUVLUWKUAZUAZVULUWNVUMUVMUWKUWMULUTVUNUVJUWMUAZVUQUAVURUV
+      JUVLUWMUWKWFVUSVUPVUQVUQUVJVUOUWMUVJUVJVUOUYPUVIUVGUOUFZUQUVLUVLUWKUYQUQW
+      GUFVUPVUIVUQVUKUVGUVIUWMBUWLGWEWHUVKUUHUWKEUWJAWEWHWGVIVUIUWEVUKUWHVUHUWD
+      UVGVUHDUWMUAZAUADUWCUAZAUAUWDDAUWMVJVVAVVBAVVADEBDUAZUBZUAVVBDBEWIVVDUWCD
+      VVCUWBEBDULUGUTUFUQDUWCAVJVIUGVUJUWGUVKVUJGUWKUAZGUAGUWFUAZGUAUWGGGUWKVJV
+      VEVVFGVVEGEUVGUBZUAVVFUWKVVGGUWJUVGEGBULUGUTGEBWIUFUQGUWFGVJVIUGWGUFUMUWE
+      UVQUWHUVTUWDUVPUVGUWCUVOUVIUWCEUVNEUWBUKUWCUXLUVNEXQUWBUXSVOUYNUSUPURWDUW
+      GUVSUVKUWFUVRUUHUWFBUVNBXQUKUWFUXLUVNUWFXQUWBBXQVABXQDWJUPUYNUSUPURWDWKUS
+      UWAUVGUVIGUVKUBZUAZUBZUVKUUHAUVGUBZUAZUBZUAUVJVVHUAZUVLVVKUAZUAZUVMUVQVVJ
+      UVTVVMUVPVVIUVGDAUVOUAZUADAVVHUAZUAUVPVVIVVQVVRDVVQAEGAUAZUBZUAVVRUVOVVTA
+      UVNVVSEAGVCUGUTAEGWIUFUTDAUVOVKDAVVHVKWLUGUVSVVLUVKGGUVRUAZUAGGVVKUAZUAUV
+      SVVLVWAVWBGGBAWIUTGGUVRVKGGVVKVKWLUGWGVVJVVNVVMVVOVVJVUOVVHUAZVVNVVHUVIUV
+      GGUVKBWJUNVVNVWCUVJVUOVVHVUTUQUHUFVVMVVOVVOVVKUUHUVKAUVGEWJUNVVOVVOUVLUVL
+      VVKUYQUQUHUFWGVVPUVMVVHVVKUAZUAVWDUVMUAUVMUVJVVHUVLVVKWFUVMVWDULVWDUVMVWD
+      UVLUVJUAZUVMVVHUVLVVKUVJVVHUVKGUBUVLGUVKUOGUUHUVKGGUCWDUJAUVIUVGADUCVOWKV
+      WEVWEUVMVWEVWEUVLUVLUVJUVJUYQUYPWGUHUVLUVJULUFUMWMVIVIUMUVGYKYEBXKGQUQZUG
+      UVJUVCUVLUVEUVIUVBUVGYKAUVADPUTVWFVDUVKUVDUUHAUVAEPUTVLWGWRUVCYLUVEUUSUVB
+      YEYKUVBEDUUQUAZUAUWLYEDEUUQWNVWGDEDXQWOUTEDULVIVLUUSUVEUURUVDUUHEEUUQVKVL
+      UHWGUMUUSUUOYLUURUUNUUHUUREEUUDUAZUAZUUNUUREEDGEUAZUBZUAZUAZVWIUURUUGVWKU
+      AVWMUUGUUGUUQVWKEEVCZXQVWJDEGVCUGWGEEVWKVKUFVWLVWHEEDGWPURUJVWIUUNUUNUUNV
+      WIEEUUDVKUHUUGUUGUUDVWNUQUFUMVOURUSUUPUUKUUIUUDUAZUAUUMYLUUKUUOVWOYKUUJYE
+      XKFGYIVEWDUUOVWOUUHUUNUBUUHUUGUBZUUDUAUUOVWOUUDUUGUUHGYEGWEUNUUHUUNUOVWPU
+      UIUUDUUHUUGUOUQWQWSWKUUKUUIUUDWNUMUSUUMHIUUDUAZUAZUUFVWRUUMHUUIVWQUULMIUU
+      KUUDNUQWGUHUUFVWRHIUUDVKUHUFUMUPUUDXDYEGYEVAUNUMUUDGYFGYEUKURUSYFGULUMYGW
+      TWAUSWAUSUPYDYHYDXGYHYCXFFYCYBXEUAZGUAGVWSUAXFYBGXEVJVWSGULVWSXEGYBXEYBJX
+      DYBUUKJDYEFUUJDEUDFGUDVFZJUUKOUHUMYBIHYBUUKIVWTIUUKNUHUMXAUPWMUTVIUGXGFUU
+      JYGUBZUBZFUUJUBZYGUBZYHXFVXAFXFGYFUUJUBZUAYGUUJUBVXAXEVXEGXEUUKXDUBVXEJUU
+      KXDOVLYEUUJXDXBUFUTUUJYFGGFUCWCYGUUJUOVIUGVXDVXBFUUJYGUEUHVXCFYGFGXCVLVIU
+      FUHUMYDYBXGUAZXHYDFXFYBUAZUBXGYBUAVXFYCVXGFYCYBXFUAVXGYBGXEVKYBXFULUFUGYB
+      XFFDFVAUNXGYBULVIYBDXGDFUKVEUJUSWMUMWAUS $.
       $( [11-Apr-2012] $)
   $}
-
 
 
   ${
@@ -12444,51 +12380,67 @@ $)
     oadp35lemg $p |- p
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
       ( dp53 ) ABCDEFGHIJLMNPQ $.
+      $( [12-Jul-2015] $)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
     oadp35lemf $p |- ( a0 v p )
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
       ( wo wa leo oadp35lemg lel2or ) BBEFJHIQRQRZQABUBSABCDEFGHIJKLMNOPTUA $.
+      $( [12-Jul-2015] $)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
+$(
     oadp35leme $p |- ( b0 ^ ( a0 v p0 ) )
         =< ( a0 v ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) ) $=
       ? $.
+$)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
+$(
     oadp35lemd $p |- ( b0 ^ ( a0 v p0 ) )
         =< ( b0 ^ ( ( ( a0 ^ b0 ) v b1 ) v ( c2 ^ ( c0 v c1 ) ) ) ) $=
       ? $.
+$)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
     oadp35lemc $p |- ( b0 ^ ( ( ( a0 ^ b0 ) v b1 ) v ( c2 ^ ( c0 v c1 ) ) ) )
         = ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) ) $=
-      ( wa wo or32 orcom leo le2an cm lbtr lerr ler2an df-le2 lor 3tr lan ) BEQ
-      ZFRJHIRZQZRZFUMRZEUNUKUMRZFRFUPRUOUKFUMSUPFTUPUMFUKUMUKJULUKBCRZEFRZQZJBU
-      QEURBCUAEFUAUBJUSNUCUDUKIHUKBDRZEGRZQZIBUTEVABDUAEGUAUBIVBMUCUDUEUFUGUHUI
-      UJ $.
+      ( wa wo leo le2an or32 orcom cm lbtr lerr ler2an df-le2 lor 3tr lan ) BEQ
+      ZFRJHIRZQZRZFUMRZEUNUKUMRZFRFUPRUOUKFUMUAUPFUBUPUMFUKUMUKJULUKBCRZEFRZQZJ
+      BUQEURBCSEFSTJUSNUCUDUKIHUKBDRZEGRZQZIBUTEVABDSEGSTIVBMUCUDUEUFUGUHUIUJ
+      $.
+      $( [12-Jul-2015] $)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
+$(
     oadp35lemb $p |- ( b0 ^ ( b1 v ( c2 ^ ( c0 v c1 ) ) ) )
         = ( b0 ^ ( b1 v ( ( a0 v a1 ) ^ ( c0 v c1 ) ) ) ) $=
       ? $.
+$)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
+$(
     oadp35lembb $p |- ( b0 ^ ( a0 v p0 ) )
         =< ( b0 ^ ( b1 v ( ( a0 v a1 ) ^ ( c0 v c1 ) ) ) ) $=
-      ( wo wa oadp35lemd oadp35lemc oadp35lemb tr lbtr ) EBKQREBERFQJHIQZRZQRZEFBCQUD
+      ( wo wa oadp35lemd oadp35lemc oadp35lemb tr lbtr )
+      EBKQREBERFQJHIQZRZQRZEFBCQUD
       RQRZABCDEFGHIJKLMNOPSUFEFUEQRUGABCDEFGHIJKLMNOPTABCDEFGHIJKLMNOPUAUBUC $.
+$)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
+$(
     oadp35lema $p |- ( b1 v ( b0 ^ ( a0 v p0 ) ) )
        =< ( b1 v ( ( a0 v a1 ) ^ ( c0 v c1 ) ) ) $=
-      ( wo wa leo oadp35lembb lear letr lel2or ) FFBCQHIQRZQZEBKQRZFUDSUFEUERUEAB
+    ( wo wa leo oadp35lembb lear letr lel2or ) FFBCQHIQRZQZEBKQRZFUDSUFEUERUEAB
       CDEFGHIJKLMNOPTEUEUAUBUC $.
+$)
 
     $( Part of proof (3)=>(5) in Day/Pickering 1982. $)
+$(
     oadp35lem0 $p |- ( ( a0 v a1 ) ^ ( ( b0 ^ ( a0 v p0 ) ) v b1 ) )
                   =< ( ( c0 v c1 ) v ( b1 ^ ( a0 v a1 ) ) ) $=
       ? $.
+$)
   $}
 
 
@@ -12505,6 +12457,7 @@ $)
       $( [12-Apr-2012] $)
   $}
 
+  $( A modular law experiment. $)
   testmod $p |- ( ( ( c v a ) v ( ( b v c ) ^ ( d v a ) ) )
              ^ ( a v ( b ^ ( d v ( ( a v c ) ^ ( b v d ) ) ) ) ) )
      = ( ( b ^ ( ( ( ( a v c ) v ( ( b v c
@@ -12515,6 +12468,7 @@ $)
     KUOUKAAUNOHUOUIURULUOUNAEUIAUNPCUBAQKUKAPRST $.
     $( [21-Apr-2012] $)
 
+  $( A modular law experiment. $)
   testmod1 $p |- ( ( ( c v a ) v ( ( b v c ) ^ ( d v a ) ) )
              ^ ( a v ( b ^ ( d v ( ( a v c ) ^ ( b v d ) ) ) ) ) )
      = ( a v ( b ^ ( ( ( a v c ) ^ ( b v d ) )
@@ -12523,34 +12477,37 @@ $)
     FZOEZFZAEZABODPFZEZFZEZABCDGTASEUDSAHSUCARUBBROQEUBQOHQUAOPDIJKLJKK $.
     $( [21-Apr-2012] $)
 
+  $( A modular law experiment. $)
   testmod2 $p |- ( ( a v b ) ^ ( a v ( c v d ) ) )
      = ( a v ( b ^ ( ( ( a v c ) ^ ( b v d ) )
          v ( d ^ ( ( a v c ) v ( ( b v c ) ^ ( d v a ) ) ) ) ) ) ) $=
-    ( wo wa orass lan cm leo ler mlduali tr leor ler2an df2le2 ran anass an32
-    mldual2i ancom ror lea leror l42modlem1 orcom 2an lor leao1 ) ABEZACDEEZFZA
-    BACEZDEZFZEZABUMBDEZFZDUMBCEZDAEZFZEZFEZFZEULUJUNFZUPVEULUNUKUJACDGHIABUNAU
-    MDACJKLMUOVDAUOBUQUMBEZFZUNFZFZVDUOBVGFZUNFZVIVKUOVJBUNBVGBUQVFBDJBUMNOPQIB
-    VGUNRMVHVCBVHURDEZVBFZVCVHVLUNVFFZFZVMVHVLUNFZVFFZVOVHVLVFFZVQVHUQUNFZVFFVR
-    UQVFUNSVSVLVFVSUQUMFZDEVLDUMUQDBNTVTURDUQUMUAUBMQMVQVRVPVLVFVLUNURUMDUMUQUC
-    UDPQIMVLUNVFRMVNVBVLVNUMADEZCBEZFZEVBACDBUEWCVAUMWCUTUSFVAWAUTWBUSADUFCBUFU
-    GUTUSUAMUHMHMURDVBUMUQVAUILMHMUHM $.
+    ( wo wa orass lan cm leo ler mlduali leor df2le2 ran anass ancom orcom lor
+    tr ler2an an32 mldual2i ror lea leror l42modlem1 2an leao1 ) ABEZACDEEZFZAB
+    ACEZDEZFZEZABUMBDEZFZDUMBCEZDAEZFZEZFEZFZEULUJUNFZUPVEULUNUKUJACDGHIABUNAUM
+    DACJKLTUOVDAUOBUQUMBEZFZUNFZFZVDUOBVGFZUNFZVIVKUOVJBUNBVGBUQVFBDJBUMMUANOIB
+    VGUNPTVHVCBVHURDEZVBFZVCVHVLUNVFFZFZVMVHVLUNFZVFFZVOVHVLVFFZVQVHUQUNFZVFFVR
+    UQVFUNUBVSVLVFVSUQUMFZDEVLDUMUQDBMUCVTURDUQUMQUDTOTVQVRVPVLVFVLUNURUMDUMUQU
+    EUFNOITVLUNVFPTVNVBVLVNUMADEZCBEZFZEVBACDBUGWCVAUMWCUTUSFVAWAUTWBUSADRCBRUH
+    UTUSQTSTHTURDVBUMUQVAUILTHTST $.
     $( [21-Apr-2012] $)
 
+  $( A modular law experiment. $)
   testmod2expanded $p |- ( ( a v b ) ^ ( a v ( c v d ) ) )
      = ( a v ( b ^ ( ( ( a v c ) ^ ( b v d ) )
          v ( d ^ ( ( a v c ) v ( ( b v c ) ^ ( d v a ) ) ) ) ) ) ) $=
-    ( wo wa orass lan cm leo ler mlduali tr leor ler2an df2le2 ran lor anass
-    an32 mldual2i ancom ror lea leror l42modlem1 orcom 2an leao1 ) ABEZACDEEZFZ
-    ABACEZBDEZFZDEZUMBCEZDAEZFZEZFZFZEZABUODUTFEZFZEULABUPUMADEZCBEZFZEZFZFZEZV
-    CULABUPUMDEZUMBEZFZFZFZEZVLULABUPVNFZFZEZVRULABUNUMFZDEZVNFZFZEZWAULABUNVMF
-    ZVNFZFZEZWFULABUNVNFZVMFZFZEZWJULABWKFZVMFZEZWNULABVMFZEZWQULUJVMFZWSWTULVM
-    UKUJACDGHIABVMAUMDACJKLMWRWPAWPWRWOBVMBWKBUNVNBDJBUMNOPQIRMWPWMABWKVMSRMWMW
-    IAWLWHBUNVNVMTHRMWIWEAWHWDBWGWCVNDUMUNDBNUAQHRMWEVTAWDVSBWCUPVNWBUODUNUMUBU
-    CQHRMVTVQAVSVPBVSUPVMFZVNFZVPXBVSXAUPVNUPVMUOUMDUMUNUDUEPQIUPVMVNSMHRMVQVKA
-    VPVJBVOVIUPACDBUFHHRMVKVBAVJVABVIUTUPVHUSUMVHURUQFUSVFURVGUQADUGCBUGUHURUQU
-    BMRHHRMVBVEAVAVDBUODUTUMUNUSUILHRM $.
+    ( wo wa orass lan cm leo ler mlduali leor df2le2 ran lor anass ancom orcom
+    tr ler2an an32 mldual2i ror lea leror l42modlem1 2an leao1 ) ABEZACDEEZFZAB
+    ACEZBDEZFZDEZUMBCEZDAEZFZEZFZFZEZABUODUTFEZFZEULABUPUMADEZCBEZFZEZFZFZEZVCU
+    LABUPUMDEZUMBEZFZFZFZEZVLULABUPVNFZFZEZVRULABUNUMFZDEZVNFZFZEZWAULABUNVMFZV
+    NFZFZEZWFULABUNVNFZVMFZFZEZWJULABWKFZVMFZEZWNULABVMFZEZWQULUJVMFZWSWTULVMUK
+    UJACDGHIABVMAUMDACJKLTWRWPAWPWRWOBVMBWKBUNVNBDJBUMMUANOIPTWPWMABWKVMQPTWMWI
+    AWLWHBUNVNVMUBHPTWIWEAWHWDBWGWCVNDUMUNDBMUCOHPTWEVTAWDVSBWCUPVNWBUODUNUMRUD
+    OHPTVTVQAVSVPBVSUPVMFZVNFZVPXBVSXAUPVNUPVMUOUMDUMUNUEUFNOIUPVMVNQTHPTVQVKAV
+    PVJBVOVIUPACDBUGHHPTVKVBAVJVABVIUTUPVHUSUMVHURUQFUSVFURVGUQADSCBSUHURUQRTPH
+    HPTVBVEAVAVDBUODUTUMUNUSUILHPT $.
     $( [21-Apr-2012] $)
 
+  $( A modular law experiment. $)
   testmod3 $p |- ( ( ( c v a ) v ( ( b v c ) ^ ( d v a ) ) )
              ^ ( a v ( b ^ ( d v ( ( a v c ) ^ ( b v d ) ) ) ) ) )
       = ( a v ( ( ( c v a ) v ( ( b v c ) ^ ( d v
@@ -12559,6 +12516,8 @@ $)
     FZSPQAEZFZUASRAEUCARGPQAANOACHIJKUBTPQAGLKM $.
     $( [21-Apr-2012] $)
 
+  $( A modular law experiment. $)
+$(
   testmod4 $p |- ( ( ( c v a ) v ( ( b v c ) ^ ( d v a ) ) )
              ^ ( a v ( b ^ ( d v ( ( a v c ) ^ ( b v d ) ) ) ) ) )
       = ( a v ( ( ( c v a ) v ( ( b v c ) ^ ( d v
@@ -12570,4 +12529,5 @@ $)
     UPJZVHUQUPFUPHQRVHVJFAGSTUAUBUCUDVIVDVAKZGJVGGVAVDGUSUEUFVKVEGVDVAUGUHUIUAG
     VCVEGVBLRUBVEVCVCVEVBGJZVCVEVBGVAKZJZVLVEVAIVMJZKVNVEVAVOVAVDQ?UDVMIVAGVAPU
     FUAVMGVBGVAQRUBVBGUJUAVCUKULUBUMUITUI $.
+$)
     $( [22-Apr-2012] $)

@@ -50,7 +50,9 @@ pass big-unifier.mm
 pass demo0.mm
 fail demo0-bad1.mm
 pass hol.mm
+pass iset.mm
 pass miu.mm
+pass nf.mm
 pass peano-fixed.mm
 pass ql.mm
 pass set.2010-08-29.mm

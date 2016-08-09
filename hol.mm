@@ -67,7 +67,7 @@ $)
   vp $f var p $.
   $( Let variable ` q ` be a var. $)
   vq $f var q $.
-  
+
   $( Let variable ` A ` be a term. $)
   ta $f term A $.
   $( Let variable ` B ` be a term. $)
@@ -120,7 +120,7 @@ $)
     idi $p |- R |= A $=
       (  ) C $.
       $( [9-Oct-2014] $)
-  $}              
+  $}
 
   ${
     idt.1 $e |- A : al $.
@@ -184,7 +184,7 @@ $)
       $( [8-Oct-2014] $)
   $}
 
-  ${               
+  ${
     ax-id.1 $e |- R : bool $.
     $( The identity inference. $)
     ax-id $a |- R |= R $.
@@ -608,7 +608,7 @@ $)
           FANIUFKRABCDEGHUEIUFSTUA $.
           $( [7-Oct-2014] $)
       $}
-  
+
       $( Equality theorem for combination. $)
       ceq1 $p |- R |= [ ( F A ) = ( T A ) ] $=
         ( ke kbr ax-cb1 eqid ceq12 ) ABCCDEFGHIACEDFJKEILHMN $.
@@ -731,7 +731,7 @@ $)
         ( ht ke kbr ax-cb1 eqid oveq123 ) ABCDEFGHGIJKLABCOOGHDFPQHMRJSMNT $.
         $( [7-Oct-2014] $)
     $}
-  
+
     ${
       oveq2.4 $e |- R |= [ B = T ] $.
       $( Equality theorem for binary operation. $)
@@ -739,7 +739,7 @@ $)
         ( ke kbr ax-cb1 eqid oveq12 ) ABCDEDFGHIJKADGEHMNGLOJPLQ $.
         $( [7-Oct-2014] $)
     $}
-  
+
     ${
       oveq.4 $e |- R |= [ F = S ] $.
       $( Equality theorem for binary operation. $)
@@ -1636,7 +1636,7 @@ $)
     df-f11 $a |- T. |= [ 1-1 = \ f : ( al -> be ) . ( ! \ x : al . ( ! \ y : al .
         [ [ ( f : ( al -> be ) x : al ) = ( f : ( al -> be ) y : al ) ] ==>
       [ x : al = y : al ] ] ) ) ] $.
-  
+
     $( Define an onto function. $)
     df-fo $a |- T. |= [ onto = \ f : ( al -> be ) . ( ! \ y : be . ( ? \ x : al .
       [ y : be = ( f : ( al -> be ) x : al ) ] ) ) ] $.
@@ -1910,7 +1910,7 @@ $)
     ax13.1 $e |- A : al $.
     ax13.2 $e |- B : al $.
     ax13.3 $e |- C : ( al -> bool ) $.
-    $( Axiom of Equality.  Axiom scheme C12' in [Megill] p. 448 
+    $( Axiom of Equality.  Axiom scheme C12' in [Megill] p. 448
        (p. 16 of the preprint). It is a special case of Axiom B8 (p. 75) of
        system S2 of [Tarski] p. 77. $)
     ax13 $p |- T. |= [ [ A = B ] ==> [ ( C A ) ==> ( C B ) ] ] $=
@@ -1924,7 +1924,7 @@ $)
     ax14.1 $e |- A : ( al -> bool ) $.
     ax14.2 $e |- B : ( al -> bool ) $.
     ax14.3 $e |- C : al $.
-    $( Axiom of Equality.  Axiom scheme C12' in [Megill] p. 448 
+    $( Axiom of Equality.  Axiom scheme C12' in [Megill] p. 448
        (p. 16 of the preprint). It is a special case of Axiom B8 (p. 75) of
        system S2 of [Tarski] p. 77. $)
     ax14 $p |- T. |= [ [ A = B ] ==> [ ( A C ) ==> ( B C ) ] ] $=
@@ -2049,9 +2049,9 @@ $( $t
 /******* Web page format settings *******/
 
 /* Page title, home page link */
-htmltitle "Higher Order Logic Explorer";
+htmltitle "Higher-Order Logic Explorer";
 htmlhome '<A HREF="mmhol.html"><FONT SIZE=-2 FACE=sans-serif>' +
-    '<IMG SRC="mm.gif" BORDER=0 ALT=' +
+    '<IMG SRC="hol.gif" BORDER=0 ALT=' +
     '"Home" HEIGHT=32 WIDTH=32 ALIGN=MIDDLE>' +
     'Home</FONT></A>';
 /* Optional file where bibliographic references are kept */
@@ -2247,4 +2247,5 @@ htmldef "@" as
 $)
 
 $( 456789012345 (79-character line to adjust text window width) 567890123456 $)
+
 

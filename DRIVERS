@@ -2,6 +2,4 @@
 ./test-smetamath
 ./test-checkmm
 ./test-mmj2
-#
-# mmverify.py currently fails on ql.mm.
-# ./test-mmverifypy
+./test-mmverifypy

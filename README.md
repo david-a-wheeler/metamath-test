@@ -10,6 +10,9 @@ if you replaced a verifier with the program "true" it would produce
 the same results :-).  This package includes a
 collection of "negative tests" that should *not* pass, and thus
 more rigorously tests the verifiers.
+This project includes .mm files, but they are
+*not* necessarily the latest version of various theorems.
+The purpose of this project is to test the verification tools themselves.
 
 It also includes a set of drivers for running various metamath verifiers,
 and a .travis.yml file that automatically downloads and compiles
