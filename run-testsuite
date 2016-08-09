@@ -10,6 +10,8 @@ fi
 driver="$1"
 shift
 failing_tests=0
+# Add current directory to PATH
+PATH="$PATH:."
 
 # Test utilities
 
