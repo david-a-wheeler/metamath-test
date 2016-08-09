@@ -2,4 +2,6 @@
 ./test-smetamath
 ./test-checkmm
 ./test-mmverifypy
+#
+# mmj2 has trouble with iset.mm and nf.mm
 ./test-mmj2
