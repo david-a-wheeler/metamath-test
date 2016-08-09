@@ -51,8 +51,7 @@ install:
   # Get mmverify.py, a Python verifier by Raph Levien
   - wget -q http://us.metamath.org/downloads/mmverify.py
   # Get and compile hmm, a Haskell verifier by Marnix Klooster
-  # For more info, see http://home.solcon.nl/mklooster/repos/hmm/
-  - darcs get --tag=0.2 http://www.solcon.nl/mklooster/repos/hmm/
+  - darcs get --tag=0.2 http://home.solcon.nl/mklooster/repos/hmm/
   - cd hmm ; make
 script:
   - ./run-testsuite-all-drivers
