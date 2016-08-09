@@ -3,8 +3,10 @@
 for driver in $(sed -e '/^#/d' DRIVERS)
 do
   echo "Running driver $driver"
-  if ! ./run-testsuite "$driver" ; then
-    exit $?
+  ./run-testsuite "$driver"
+  result="$?"
+  if [ "$result" != 0 ] ; then
+    exit "$result"
   fi
   echo
 done

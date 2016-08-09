@@ -57,7 +57,7 @@ pass set.mm
 
 # Wrap-up.
 
-if [ $failing_tests = 0 ] ; then
+if [ "$failing_tests" = 0 ] ; then
   echo "All tests passed for driver $driver"
   exit 0
 else
