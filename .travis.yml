@@ -12,9 +12,9 @@ addons:
   apt:
     packages:
     - python3 # To run mmverify.py
-    - darcs # To retrieve hmm
-    - ghc   # Haskell compiler, to compile/run hmm
-    - cabal-install # Haskell package manager, for hmm
+    ## - darcs # To retrieve hmm
+    ## - ghc   # Haskell compiler, to compile/run hmm
+    ## - cabal-install # Haskell package manager, for hmm
 python:
   - "3.5" # For mmverify.py
 git:
@@ -38,22 +38,40 @@ install:
   #
   # Compile metamath, a C verifier (and more) by Norm Megill.
   - gcc *.c -O2 -o metamath
+  #
   # Get mmj2, a Java verifier (and more) by Mel O'Cat and Mario Carneiro
   - wget -q http://us.metamath.org/ocat/mmj2/mmj2jar.zip
   - unzip -q mmj2jar.zip
   - printf "LoadFile,set.mm\nVerifyProof,*\nParse,*\nRunMacro,definitionCheck,ax-*,df-bi,df-clab,df-cleq,df-clel,df-sbc\n" > RunParms.txt
   - jdk_switcher use oraclejdk8
+  #
   # Install smetamath-rs (smm3), a Rust verifier by Stefan O'Rear
   # See: https://github.com/sorear/smetamath-rs
   - "[ -x  ~/.cargo/bin/smetamath ] || cargo install smetamath --vers 3.0.0"
+  #
   # Get and compile checkmm, a C++ verifier by Eric Schmidt
   - wget -q http://us.metamath.org/downloads/checkmm.cpp
   - g++ -O2 -o checkmm checkmm.cpp
+  #
   # Get mmverify.py, a Python verifier by Raph Levien
   - wget -q http://us.metamath.org/downloads/mmverify.py
+  #
   # Get and compile hmm, a Haskell verifier by Marnix Klooster
-  - darcs get --tag=0.2 http://home.solcon.nl/mklooster/repos/hmm/
-  - cabal update && cabal install parsec
-  - cd hmm ; make hmmverify
+  # Currently commented-out because we cannot actually retrieve working
+  # dependencies.  The "cabal install..." fails with:
+  # Registering transformers-0.5.2.0...
+  # Installing library in /home/travis/.cabal/lib/transformers-0.5.2.0/ghc-7.4.1
+  # Registering transformers-0.5.2.0...
+  # Downloading mtl-2.2.1...
+  # Configuring mtl-2.2.1...
+  # cabal: At least the following dependencies are missing:
+  # transformers ==0.4.* && ==0.5.2.0
+  # cabal: Error: some packages failed to install:
+  # mtl-2.2.1 failed during the configure step. The exception was:
+  # ExitFailure 1
+  # parsec-3.1.11 depends on mtl-2.2.1 which failed to install.
+  ## - darcs get --tag=0.2 http://home.solcon.nl/mklooster/repos/hmm/
+  ## - cabal update && cabal install parsec
+  ## - cd hmm ; make hmmverify
 script:
   - ./run-testsuite-all-drivers
