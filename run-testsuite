@@ -52,6 +52,7 @@ fail big-unifier-bad2.mm
 fail big-unifier-bad3.mm
 pass demo0.mm
 fail demo0-bad1.mm
+pass demo0-includer.mm "Test simple file inclusion"
 pass hol.mm
 pass iset.mm
 pass miu.mm
