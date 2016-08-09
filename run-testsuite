@@ -1,0 +1,67 @@
+#!/bin/sh
+# Run tests given driver $1.
+
+# Setup
+
+if [ $# = 0 ] ; then
+  echo 'Must provide a driver'
+  exit 1
+fi
+driver="$1"
+shift
+failing_tests=0
+
+# Test utilities
+
+# Run driver on test case $1
+run () {
+  $driver "$1"
+}
+
+# Run test case $1 expecting it to pass, description in $2
+pass () {
+  if run "$1" ; then
+    echo "ok - $1 $2"
+  else
+    echo "not ok - $1 $2"
+    failing_tests=`expr $failing_tests + 1`
+  fi
+}
+
+# Run test case $1 expecting it to fail, description in $2
+fail () {
+  if ! run "$1" ; then
+    echo "ok - $1 $2"
+  else
+    echo "not ok - $1 $2"
+    failing_tests=`expr $failing_tests + 1`
+  fi
+}
+
+# Tests
+
+pass anatomy.mm "Simple 'anatomy' test"
+fail anatomy-bad1.mm "Simple incorrect 'anatomy' test "
+fail anatomy-bad2.mm "Simple incorrect 'anatomy' test "
+fail anatomy-bad3.mm "Simple incorrect 'anatomy' test "
+pass big-unifier.mm
+pass demo0.mm
+fail demo0-bad1.mm
+pass hol.mm
+pass miu.mm
+fail peano-bad.mm "Nested comments not allowed, so this version should fail."
+pass peano-fixed.mm
+pass ql.mm
+pass set.2010-08-29.mm
+pass set.mm
+
+# Wrap-up.
+
+if [ $failing_tests = 0 ] ; then
+  echo "All tests passed for driver $driver"
+  exit 0
+else
+  echo "Number of failed tests for driver $driver: $failing_tests"
+  exit 1
+fi
+

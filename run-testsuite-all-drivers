@@ -1,0 +1,10 @@
+#!/bin/sh
+
+for driver in $(sed -e '/^#/d' DRIVERS)
+do
+  echo "Running driver $driver"
+  if ! ./run-testsuite "$driver" ; then
+    exit $?
+  fi
+  echo
+done

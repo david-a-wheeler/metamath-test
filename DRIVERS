@@ -1,0 +1,7 @@
+./test-metamath
+# ./test-smetamath
+./test-checkmm
+# ./test-mmj2
+#
+# mmverify.py currently fails on peano.mm (nested comments) and ql.mm.
+# ./test-mmverifypy
