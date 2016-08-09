@@ -1,13 +1,10 @@
-# Run many verifiers on metamath files.
-# Only one verifier is necessary, but using multiple verifiers counters
-# the risk that a verifier might have a defect in its implementation.
-# With 4 verifiers, all 4 would have to have a defect involving an
-# invalid theorem # for that invalid theorem to be accepted as valid.
-# This is unlikely, because the verifiers are written by different people
-# in different languages.  This can be considered extreme peer review, where
-# every reviewer is separately checking each step.
-# Some of these verifiers also check for style,
-# so using multiple verifiers can also detect many different style problems.
+# Run many metamath verifiers on a set of metamath test files.
+#
+# If a metamath verifier simply returned "true" in all cases it would
+# obviously not be a good verifier.  Here we provide a set of test files,
+# load a number of metmath verifiers, and check if they accept what should
+# be accepted and reject what should be rejected.
+#
 language: rust
 git:
   depth: 3
