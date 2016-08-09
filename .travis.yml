@@ -13,9 +13,10 @@ addons:
     packages:
     - python3 # To run mmverify.py
     - darcs # To retrieve hmm
-    - ghc   # To compile/run hmm
+    - ghc   # Haskell compiler, to compile/run hmm
+    - cabal-install # Haskell package manager, for hmm
 python:
-  - "3.5"
+  - "3.5" # For mmverify.py
 git:
   depth: 3
 sudo: false
@@ -53,6 +54,6 @@ install:
   # Get and compile hmm, a Haskell verifier by Marnix Klooster
   - darcs get --tag=0.2 http://home.solcon.nl/mklooster/repos/hmm/
   - cabal install parsec
-  - cd hmm ; make
+  - cd hmm ; make hmmverify
 script:
   - ./run-testsuite-all-drivers
