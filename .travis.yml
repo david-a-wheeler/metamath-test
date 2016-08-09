@@ -53,7 +53,7 @@ install:
   - wget -q http://us.metamath.org/downloads/mmverify.py
   # Get and compile hmm, a Haskell verifier by Marnix Klooster
   - darcs get --tag=0.2 http://home.solcon.nl/mklooster/repos/hmm/
-  - cabal install parsec
+  - cabal update && cabal install parsec
   - cd hmm ; make hmmverify
 script:
   - ./run-testsuite-all-drivers
