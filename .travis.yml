@@ -5,11 +5,15 @@
 # load a number of metmath verifiers, and check if they accept what should
 # be accepted and reject what should be rejected.
 #
+# For a list of verifiers see http://us.metamath.org/other.html#verifiers
+#
 language: rust
 addons:
   apt:
     packages:
-    - python3
+    - python3 # To run mmverify.py
+    - darcs # To retrieve hmm
+    - ghc   # To compile/run hmm
 python:
   - "3.5"
 git:
@@ -22,13 +26,15 @@ before_install:
   - gcc --version
   - g++ --version
 install:
-  # Get metamath C program and supporting files (to validate against them)
+  # Get *just* the metamath C program
   - wget -q -r -np -nd -A .c,.h http://us.metamath.org/metamath/
-  - wget -q http://us.metamath.org/downloads/symbols.tar.bz2
-  - wget -q http://us.metamath.org/mpegif/mmset.html
-  - wget -q http://us.metamath.org/mpegif/mmhil.html
-  - wget -q http://us.metamath.org/mpegif/mmbiblio.html
-  - tar --strip-components=1 -jxf symbols.tar.bz2
+  # We would need these supporting files to check markup - don't bother.
+  # - wget -q http://us.metamath.org/downloads/symbols.tar.bz2
+  # - wget -q http://us.metamath.org/mpegif/mmset.html
+  # - wget -q http://us.metamath.org/mpegif/mmhil.html
+  # - wget -q http://us.metamath.org/mpegif/mmbiblio.html
+  # - tar --strip-components=1 -jxf symbols.tar.bz2
+  #
   # Compile metamath, a C verifier (and more) by Norm Megill.
   - gcc *.c -O2 -o metamath
   # Get mmj2, a Java verifier (and more) by Mel O'Cat and Mario Carneiro
@@ -42,7 +48,11 @@ install:
   # Get and compile checkmm, a C++ verifier by Eric Schmidt
   - wget -q http://us.metamath.org/downloads/checkmm.cpp
   - g++ -O2 -o checkmm checkmm.cpp
-  # Get mmverify.py, a metamath verifier in Python3
+  # Get mmverify.py, a Python verifier by Raph Levien
   - wget -q http://us.metamath.org/downloads/mmverify.py
+  # Get and compile hmm, a Haskell verifier by Marnix Klooster
+  # For more info, see http://home.solcon.nl/mklooster/repos/hmm/
+  - darcs get --tag=0.2 http://www.solcon.nl/mklooster/repos/hmm/
+  - cd hmm ; make
 script:
   - ./run-testsuite-all-drivers
