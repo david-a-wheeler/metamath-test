@@ -1,6 +1,9 @@
 ./test-metamath
 ./test-smetamath
 ./test-checkmm
+#
+# mmverifypy works well, but have not yet figured out how to get python3
+# installed on Travis:
 ./test-mmverifypy
 #
 # mmj2 has trouble with iset.mm and nf.mm

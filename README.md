@@ -49,9 +49,9 @@ not style or formatting issues.
 Currently-supported verifiers:
 * test-metamath: C metamath implementation by Norm Megill
 * test-checkmm: C++ implementation by Eric Schmidt
-* test-mmj2: Java implementation (not invoked)
-* test-mmverifypy: Python implementation (not invoked)
-* test-smetamath: Rust implementation (not invoked)
+* test-smetamath: Rust implementation
+* test-mmj2: Java implementation (not invoked, some test failures)
+* test-mmverifypy: Python implementation (not invoked; can't run on Travis yet)
 
 This is MIT licensed, but many of the individual tests are licensed
 under the CC0.
