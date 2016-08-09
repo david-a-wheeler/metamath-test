@@ -1,5 +1,5 @@
 ./test-metamath
-# ./test-smetamath
+./test-smetamath
 ./test-checkmm
 # ./test-mmj2
 #
