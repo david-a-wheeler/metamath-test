@@ -47,6 +47,9 @@ fail anatomy-bad1.mm "Simple incorrect 'anatomy' test "
 fail anatomy-bad2.mm "Simple incorrect 'anatomy' test "
 fail anatomy-bad3.mm "Simple incorrect 'anatomy' test "
 pass big-unifier.mm
+fail big-unifier-bad1.mm
+fail big-unifier-bad2.mm
+fail big-unifier-bad3.mm
 pass demo0.mm
 fail demo0-bad1.mm
 pass hol.mm
