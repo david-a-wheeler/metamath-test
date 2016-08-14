@@ -79,6 +79,6 @@ install:
   #
   # Get & compile verifier.cs, a C# verifier by Chris Capel
   - wget http://us.metamath.org/downloads/Verifier.cs
-  - gmcs Verifier.cs
+  - gmcs Verifier.cs -main:Verifier
 script:
   - ./run-testsuite-all-drivers
