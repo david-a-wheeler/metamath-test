@@ -41,9 +41,9 @@ install:
   #
   # Get mmj2, a Java verifier (and more) by Mel O'Cat and Mario Carneiro
   - git clone --depth=1 https://github.com/digama0/mmj2.git -b develop
+  - jdk_switcher use oraclejdk8
   - cd mmj2 && ant build
   - cd .. && mv mmj2/mmj2jar/* .
-  - jdk_switcher use oraclejdk8
   #
   # Install smetamath-rs (smm3), a Rust verifier by Stefan O'Rear
   # See: https://github.com/sorear/smetamath-rs
