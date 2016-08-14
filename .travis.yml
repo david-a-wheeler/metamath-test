@@ -40,9 +40,8 @@ install:
   - gcc *.c -O2 -o metamath
   #
   # Get mmj2, a Java verifier (and more) by Mel O'Cat and Mario Carneiro
-  - wget -q http://us.metamath.org/ocat/mmj2/mmj2jar.zip
-  - unzip -q mmj2jar.zip
-  - printf "LoadFile,set.mm\nVerifyProof,*\nParse,*\nRunMacro,definitionCheck,ax-*,df-bi,df-clab,df-cleq,df-clel,df-sbc\n" > RunParms.txt
+  - git clone --depth=1 https://github.com/digama0/mmj2.git -b develop
+  - mv mmj2/mmj2jar/* .
   - jdk_switcher use oraclejdk8
   #
   # Install smetamath-rs (smm3), a Rust verifier by Stefan O'Rear
