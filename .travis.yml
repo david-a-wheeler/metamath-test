@@ -40,7 +40,7 @@ install:
   - gcc *.c -O2 -o metamath
   #
   # Get mmj2, a Java verifier (and more) by Mel O'Cat and Mario Carneiro
-  - git clone --depth=1 --recursive --shallow-submodules https://github.com/digama0/mmj2.git -b develop
+  - git clone --depth=1 --recursive https://github.com/digama0/mmj2.git -b develop
   - jdk_switcher use oraclejdk8
   - cd mmj2 && ant build
   - cd .. && mv mmj2/mmj2jar/* .
