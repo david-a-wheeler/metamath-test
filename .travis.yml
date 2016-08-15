@@ -12,9 +12,12 @@ addons:
   apt:
     packages:
     - python3 # To run mmverify.py
+    # For Haskell:
     ## - darcs # To retrieve hmm
     ## - ghc   # Haskell compiler, to compile/run hmm
     ## - cabal-install # Haskell package manager, for hmm
+    # For C# implementation; https://ubuntuforums.org/showthread.php?t=867818
+    ## - mono-gmcs
 python:
   - "3.5" # For mmverify.py
 git:
@@ -73,6 +76,12 @@ install:
   ## - darcs get --tag=0.2 http://home.solcon.nl/mklooster/repos/hmm/
   ## - cabal update && cabal install parsec
   ## - cd hmm ; make hmmverify
+  #
+  # Get & compile verifier.cs, a C# verifier by Chris Capel
+  # can't get it to compile; get this message:
+  #   error CS1555: Could not find `Verifier' specified for Main method
+  # - wget http://us.metamath.org/downloads/Verifier.cs
+  # - gmcs Verifier.cs -main:Verifier
 script:
   - javac src/TestHarness.java -d bin
   - java -cp bin TestHarness

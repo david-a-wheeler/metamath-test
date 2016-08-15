@@ -43,8 +43,8 @@ public class TestHarness {
 		programs.add(new Program("metamath", all));
 		programs.add(new Program("smetamath", all));
 		programs.add(new Program("checkmm", all));
-		programs.add(new Program("mmverifypy", all));
 		programs.add(new Program("mmj2", all));
+		programs.add(new Program("mmverifypy", all));
 
 		for (Program p : programs) {
 			System.out.println("# Running tests for " + p.name);
