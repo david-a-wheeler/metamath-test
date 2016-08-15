@@ -74,4 +74,5 @@ install:
   ## - cabal update && cabal install parsec
   ## - cd hmm ; make hmmverify
 script:
-  - ./run-testsuite-all-drivers
+  - javac src/TestHarness.java -d bin
+  - java -cp bin TestHarness
