@@ -83,5 +83,5 @@ install:
   # - wget http://us.metamath.org/downloads/Verifier.cs
   # - gmcs Verifier.cs -main:Verifier
 script:
-  - javac src/TestHarness.java -d bin
-  - java -cp bin TestHarness
+  - javac src/TestHarness.java -d .
+  - java TestHarness
