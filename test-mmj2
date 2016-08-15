@@ -5,4 +5,4 @@
 # printf "LoadFile,${1}\nVerifyProof,*\nParse,*\n" > RunParmsMod.txt
 printf "LoadFile,${1}\nVerifyProof,*\n" > RunParmsMod.txt
 
-java -Xms512M -Xmx1024M -jar mmj2.jar RunParmsMod.txt N 2>&1 > mmj2.log && [ `egrep -q 'Exception|[WEA]-..-[0-9]{4}' < mmj2.log; echo $?` -eq 1 ]
+java -Xms512M -Xmx1024M -jar mmj2.jar RunParmsMod.txt N 2>&1 | tee mmj2.log && [ `egrep -q 'Exception|[WEA]-..-[0-9]{4}' < mmj2.log; echo $?` -eq 1 ]

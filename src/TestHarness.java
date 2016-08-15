@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.TreeSet;
 
 public class TestHarness {
 	public static void main(String[] args) {
@@ -38,7 +39,8 @@ public class TestHarness {
 		addTest("set.mm", true, null, bigfiles);
 
 		Category all = addCategory("all tests");
-		all.tests = tests;
+		for (Test t : tests)
+			all.add(t);
 
 		programs.add(new Program("metamath", all));
 		programs.add(new Program("smetamath", all));
@@ -50,8 +52,12 @@ public class TestHarness {
 
 		boolean allSuccess = true;
 		for (Program p : programs) {
-			for (Category c : p.expected)
-				allSuccess &= p.getCatResult(c);
+			for (Test t : p.expected) {
+				if (!p.getTestResult(t)) {
+					allSuccess = false;
+					System.err.println(p.testOutput[t.index]);
+				}
+			}
 		}
 
 		System.exit(allSuccess ? 0 : 1);
@@ -89,7 +95,7 @@ public class TestHarness {
 	Test addTest(String file, boolean pass, String desc, Category... cats) {
 		Test t = new Test(tests.size(), file, pass, desc);
 		for (Category c : cats)
-			c.tests.add(t);
+			c.add(t);
 		tests.add(t);
 		return t;
 	}
@@ -100,7 +106,7 @@ public class TestHarness {
 		return out;
 	}
 
-	public class Test {
+	public class Test implements Comparable<Test> {
 		public final int index;
 		public final String file;
 		public final String desc;
@@ -112,30 +118,45 @@ public class TestHarness {
 			this.desc = desc;
 			this.pass = pass;
 		}
+
+		@Override
+		public int compareTo(Test t) {
+			return index - t.index;
+		}
 	}
 
 	public class Category {
 		public final int index;
 		public final String name;
-		public ArrayList<Test> tests = new ArrayList<>();
+		public TreeSet<Test> tests = new TreeSet<>();
 		public final Category[] deps;
 
 		public Category(int index, String name, Category... deps) {
 			this.index = index;
 			this.name = name;
 			this.deps = deps;
+			for (Category c : deps)
+				tests.addAll(c.tests);
+		}
+
+		public void add(Test t) {
+			tests.add(t);
+			for (Category c : deps)
+				c.add(t);
 		}
 	}
 
 	public class Program {
 		public final String name;
 		public final boolean[] testResults = new boolean[tests.size()];
+		public final String[] testOutput = new String[tests.size()];
 		public final Boolean[] catResults = new Boolean[categories.size()];
-		public final Category[] expected;
+		public final TreeSet<Test> expected = new TreeSet<>();
 
 		public Program(String name, Category... expected) {
 			this.name = name;
-			this.expected = expected;
+			for (Category c : expected)
+				this.expected.addAll(c.tests);
 		}
 
 		public void runTests() {
@@ -154,8 +175,6 @@ public class TestHarness {
 			boolean b = true;
 			for (Test t : c.tests)
 				b &= getTestResult(t);
-			for (Category d : c.deps)
-				b &= getCatResult(d);
 			catResults[c.index] = Boolean.valueOf(b);
 			return b;
 		}
@@ -168,9 +187,16 @@ public class TestHarness {
 		public boolean test(Test test) {
 			boolean result = false;
 			try {
-				Runtime rt = Runtime.getRuntime();
-				int exitCode = rt.exec(new String[] { "bash", "./test-" + name, test.file }).waitFor();
+				Process p = new ProcessBuilder("bash", "./test-" + name, test.file).redirectErrorStream(true).start();
+				int exitCode = p.waitFor();
+				String output;
+				try (java.util.Scanner s = new java.util.Scanner(p.getInputStream())) {
+					output = s.useDelimiter("\\A").hasNext() ? s.next() : "";
+				}
 				result = (exitCode == 0) == test.pass;
+				synchronized (testOutput) {
+					testOutput[test.index] = "Output for test " + name + " - " + test.file + ":\n" + output;
+				}
 			} catch (IOException | InterruptedException e) {
 				e.printStackTrace();
 			} finally {
