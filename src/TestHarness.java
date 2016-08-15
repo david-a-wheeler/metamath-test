@@ -46,23 +46,7 @@ public class TestHarness {
 		programs.add(new Program("mmj2", all));
 		programs.add(new Program("mmverifypy", all));
 
-		for (Program p : programs) {
-			System.out.println("# Running tests for " + p.name);
-			System.out.println("1.." + tests.size());
-			for (Test t : tests) {
-				Thread thread = new Thread(() -> p.printTestResult(t, p.test(t)));
-				thread.start();
-				runningTasks.add(thread);
-			}
-		}
-		while (!runningTasks.isEmpty()) {
-			Thread t = runningTasks.pop();
-			try {
-				t.join();
-			} catch (InterruptedException e) {
-				runningTasks.push(t);
-			}
-		}
+		runAllTests(false);
 
 		boolean allSuccess = true;
 		for (Program p : programs) {
@@ -71,6 +55,35 @@ public class TestHarness {
 		}
 
 		System.exit(allSuccess ? 0 : 1);
+	}
+
+	void runAllTests(boolean parallel) {
+		if (parallel) {
+			for (Program p : programs) {
+				System.out.println("# Running tests for " + p.name);
+				System.out.println("1.." + tests.size());
+				for (Test t : tests) {
+					Thread thread = new Thread(() -> p.printTestResult(t, p.test(t)));
+					thread.start();
+					runningTasks.add(thread);
+				}
+			}
+			while (!runningTasks.isEmpty()) {
+				Thread t = runningTasks.pop();
+				try {
+					t.join();
+				} catch (InterruptedException e) {
+					runningTasks.push(t);
+				}
+			}
+		} else {
+			for (Program p : programs) {
+				System.out.println("# Running tests for " + p.name);
+				System.out.println("1.." + tests.size());
+				for (Test t : tests)
+					p.printTestResult(t, p.test(t));
+			}
+		}
 	}
 
 	Test addTest(String file, boolean pass, String desc, Category... cats) {
@@ -148,15 +161,15 @@ public class TestHarness {
 		}
 
 		public void printTestResult(Test t, boolean result) {
-			System.out.println(
-					(result ? "ok" : "not ok") + " " + t.index + " - " + name + (t.desc == null ? "" : ": " + t.desc));
+			System.out.println((result ? "ok" : "not ok") + " " + t.index + " - " + name + " - " + t.file
+					+ (t.desc == null ? "" : ": " + t.desc));
 		}
 
 		public boolean test(Test test) {
 			boolean result = false;
 			try {
 				Runtime rt = Runtime.getRuntime();
-				int exitCode = rt.exec(new String[] { "bash", "test-" + name, test.file }).waitFor();
+				int exitCode = rt.exec(new String[] { "bash", "./test-" + name, test.file }).waitFor();
 				result = (exitCode == 0) == test.pass;
 			} catch (IOException | InterruptedException e) {
 				e.printStackTrace();
