@@ -1,4 +1,7 @@
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.TreeSet;
@@ -49,6 +52,36 @@ public class TestHarness {
 		programs.add(new Program("mmverifypy", all));
 
 		runAllTests(false);
+
+		StringBuilder content = new StringBuilder();
+		content.append("      <table class=\"table table-bordered\">\n");
+		content.append("        <tr>\n");
+		content.append("          <th></th>\n");
+		for (Program p : programs) {
+			content.append("          <th>" + p.name + "</th>\n");
+		}
+		content.append("        </tr>\n");
+		for (Category c : categories) {
+			content.append("        <tr>\n");
+			content.append("          <th>" + c.name + "</th>\n");
+			int tests = c.tests.size();
+			for (Program p : programs) {
+				int successes = 0;
+				for (Test t : c.tests)
+					if (p.getTestResult(t))
+						successes++;
+				content.append("          <td class=\"" + (successes == tests ? "success" : "danger") + "\">"
+						+ successes + "/" + tests + "</td>\n");
+			}
+			content.append("        </tr>\n");
+		}
+		content.append("        </table>\n");
+
+		try(PrintWriter w = new PrintWriter("out/index.html")) {
+			w.print(new String(Files.readAllBytes(Paths.get("template.html"))).replace("$content", content));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
 		boolean allSuccess = true;
 		for (Program p : programs) {

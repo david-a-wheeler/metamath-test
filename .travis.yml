@@ -26,6 +26,10 @@ sudo: false
 cache:
   cargo: true # Cache Rust source/executables (takes time to get and recompile)
   timeout: 3600 # Cache for 1 hour (unit is seconds)
+env:
+  global:
+    - ENCRYPTION_LABEL: "<encryption label goes here>"
+    - COMMIT_AUTHOR_EMAIL: "builds@travis-ci.org"
 before_install:
   - gcc --version
   - g++ --version
@@ -83,5 +87,4 @@ install:
   # - wget http://us.metamath.org/downloads/Verifier.cs
   # - gmcs Verifier.cs -main:Verifier
 script:
-  - javac src/TestHarness.java -d .
-  - java TestHarness
+  - bash ./deploy.sh
