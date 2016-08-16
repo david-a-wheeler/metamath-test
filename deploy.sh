@@ -8,7 +8,6 @@ TARGET_BRANCH="gh-pages"
 
 function doCompile {
   javac src/TestHarness.java -d .
-  cp bootstrap.min.css out
   java TestHarness
   test_exit_code=$?
 }
@@ -32,9 +31,6 @@ cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
-# Clean out existing contents
-rm -rf out/**/* || exit 0
-
 # Run our compile script
 doCompile
 
@@ -44,6 +40,7 @@ git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+git diff
 if git diff --quiet ; then
     echo "No changes to the output on this push; exiting."
     exit "$test_exit_code"
