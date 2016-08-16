@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/david-a-wheeler/metamath-test.svg?branch=master)](https://travis-ci.org/david-a-wheeler/metamath-test)
 
+[Current build results](https://david-a-wheeler.github.io/metamath-test/)
+
 This is metamath-test, a test suite for verifiers implementing
 the metamath specification (see us.metamath.org).
 
