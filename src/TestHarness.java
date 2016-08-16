@@ -75,7 +75,7 @@ public class TestHarness {
 			}
 			content.append("        </tr>\n");
 		}
-		content.append("        </table>\n");
+		content.append("        </table>");
 
 		try(PrintWriter w = new PrintWriter("out/index.html")) {
 			w.print(new String(Files.readAllBytes(Paths.get("template.html"))).replace("$content", content));
