@@ -32,7 +32,7 @@ cache:
 #   -out ~\/.ssh/metamath-test -d
 env:
   global:
-    - ENCRYPTION_LABEL: "$encrypted_b9170ee7cce0_key"
+    - ENCRYPTION_LABEL: "b9170ee7cce0"
     - COMMIT_AUTHOR_EMAIL: "dwheeler@dwheeler.com"
 before_install:
   - gcc --version
