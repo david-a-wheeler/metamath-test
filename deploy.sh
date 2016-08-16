@@ -1,22 +1,18 @@
 #!/bin/bash
-# Source: https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
-
 set -e # Exit with nonzero exit code if anything fails
 
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 
 function doCompile {
-  javac src/TestHarness.java -d .
-  java TestHarness
-  test_exit_code=$?
+  ./compile.sh
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
     echo "Skipping deploy; just doing a build."
     doCompile
-    exit "$test_exit_code"
+    exit 0
 fi
 
 # Save some useful information
@@ -45,7 +41,7 @@ git config user.email "$COMMIT_AUTHOR_EMAIL"
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if [ -z `git diff --exit-code` ]; then
     echo "No changes to the output on this push; exiting."
-    exit "$test_exit_code"
+    exit 0
 fi
 
 # Commit the "changes", i.e. the new version.
@@ -65,4 +61,3 @@ ssh-add deploy_key
 
 # Now that we're all set up, we can push.
 git push $SSH_REPO $TARGET_BRANCH
-exit "$test_exit_code"
