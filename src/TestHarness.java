@@ -46,6 +46,7 @@ public class TestHarness {
 			all.add(t);
 
 		programs.add(new Program("metamath", all));
+		programs.add(new Program("hmmverify", basic));
 		programs.add(new Program("smetamath", all));
 		programs.add(new Program("checkmm", all));
 		programs.add(new Program("mmj2", all));
