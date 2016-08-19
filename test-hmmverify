@@ -3,4 +3,4 @@
 # Return 0 (true) if it's okay and non-zero (error) if there's a problem.
 # We only report on errors, not on warnings.
 
-(~/.local/bin/hmmverify < "$1" || echo 1) | (! grep -q -v ': verified')
+(~/.local/bin/hmmverify < "$1" || echo "hmmverify CRASHED") | (! grep -q -v ': verified')
