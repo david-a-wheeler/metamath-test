@@ -5,4 +5,4 @@ packages:
 ### flags: {}
 ### extra-package-dbs: []
 
-system-ghc: true
+system-ghc: false

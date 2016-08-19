@@ -13,7 +13,7 @@ addons:
     packages:
     - python3 # To run mmverify.py
     - darcs # To retrieve hmm
-    - ghc # To build hmm
+    - libgmp-dev # necessary for Stack's ghc, for hmm
 python:
   - "3.5" # For mmverify.py
 git:
@@ -64,6 +64,6 @@ install:
   # Get and compile hmm, a Haskell verifier by Marnix Klooster
   - darcs get --tag=0.3 http://home.solcon.nl/mklooster/repos/hmm/
   - cp hmm-support/* hmm/
-  - cd hmm && stack install
+  - cd hmm && stack --install-ghc install
 script:
   - ./run-testsuite-all-drivers
