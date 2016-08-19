@@ -45,7 +45,7 @@ install:
   # Get and compile hmm, a Haskell verifier by Marnix Klooster
   - darcs get --tag=0.3 http://home.solcon.nl/mklooster/repos/hmm/
   - cp hmm-support/* hmm/
-  - cd hmm && stack --install-ghc install
+  - (cd hmm && stack --install-ghc install)
   #
   # Get *just* the metamath C program
   - wget -q -r -np -nd -A .c,.h http://us.metamath.org/metamath/
@@ -62,8 +62,8 @@ install:
   # Get mmj2, a Java verifier (and more) by Mel O'Cat and Mario Carneiro
   - git clone --depth=1 --recursive https://github.com/digama0/mmj2.git -b develop
   - jdk_switcher use oraclejdk8
-  - cd mmj2 && ant build-jar
-  - cd .. && mv mmj2/mmj2jar/* .
+  - (cd mmj2 && ant build-jar)
+  - mv mmj2/mmj2jar/* .
   #
   # Install smetamath-rs (smm3), a Rust verifier by Stefan O'Rear
   # See: https://github.com/sorear/smetamath-rs
