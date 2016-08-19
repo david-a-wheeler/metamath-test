@@ -12,9 +12,7 @@ addons:
   apt:
     packages:
     - python3 # To run mmverify.py
-    ## - darcs # To retrieve hmm
-    ## - ghc   # Haskell compiler, to compile/run hmm
-    ## - cabal-install # Haskell package manager, for hmm
+    - darcs # To retrieve hmm
 python:
   - "3.5" # For mmverify.py
 git:
@@ -22,10 +20,16 @@ git:
 sudo: false
 cache:
   cargo: true # Cache Rust source/executables (takes time to get and recompile)
+  directories:
+    - $HOME/.stack # used for Haskell for hmm
   timeout: 3600 # Cache for 1 hour (unit is seconds)
 before_install:
   - gcc --version
   - g++ --version
+  # For hmm, download and unpack the stack executable
+  - mkdir -p ~/.local/bin
+  - export PATH=$HOME/.local/bin:$PATH
+  - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
 install:
   # Get *just* the metamath C program
   - wget -q -r -np -nd -A .c,.h http://us.metamath.org/metamath/
@@ -57,21 +61,8 @@ install:
   - wget -q http://us.metamath.org/downloads/mmverify.py
   #
   # Get and compile hmm, a Haskell verifier by Marnix Klooster
-  # Currently commented-out because we cannot actually retrieve working
-  # dependencies.  The "cabal install..." fails with:
-  # Registering transformers-0.5.2.0...
-  # Installing library in /home/travis/.cabal/lib/transformers-0.5.2.0/ghc-7.4.1
-  # Registering transformers-0.5.2.0...
-  # Downloading mtl-2.2.1...
-  # Configuring mtl-2.2.1...
-  # cabal: At least the following dependencies are missing:
-  # transformers ==0.4.* && ==0.5.2.0
-  # cabal: Error: some packages failed to install:
-  # mtl-2.2.1 failed during the configure step. The exception was:
-  # ExitFailure 1
-  # parsec-3.1.11 depends on mtl-2.2.1 which failed to install.
-  ## - darcs get --tag=0.2 http://home.solcon.nl/mklooster/repos/hmm/
-  ## - cabal update && cabal install parsec
-  ## - cd hmm ; make hmmverify
+  - darcs get --tag=0.3 http://home.solcon.nl/mklooster/repos/hmm/
+  - cp hmm-support/* hmm/
+  - cd hmm && stack --install-ghc install
 script:
   - ./run-testsuite-all-drivers

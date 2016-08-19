@@ -1,0 +1,21 @@
+name:                hmm
+version:             0.3
+synopsis:            A Metamath verifier in Haskell
+description:         Please see README
+homepage:            https://github.com/david-a-wheeler/metamath-test
+license:             GPL-2
+license-file:        README
+author:              Marnix Klooster
+maintainer:          marnix.klooster@gmail.com
+copyright:           2016
+category:            Math
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable hmmverify
+  hs-source-dirs:      .
+  main-is:             HmmVerify.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5,
+                       containers,
+                       parsec

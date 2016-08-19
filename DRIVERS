@@ -1,4 +1,5 @@
 ./test-metamath
+./test-hmmverify
 ./test-smetamath
 ./test-checkmm
 #
