@@ -14,6 +14,8 @@ addons:
     - python3 # To run mmverify.py
     - darcs # To retrieve hmm
     - libgmp-dev # necessary for Stack's ghc, for hmm
+    # For C# implementation; https://ubuntuforums.org/showthread.php?t=867818
+    ## - mono-gmcs
 python:
   - "3.5" # For mmverify.py
 git:
@@ -24,6 +26,14 @@ cache:
   directories:
     - $HOME/.stack # used for Haskell for hmm
   timeout: 3600 # Cache for 1 hour (unit is seconds)
+# Instead of:
+# openssl aes-256-cbc -K $encrypted_b9170ee7cce0_key \
+#   -iv $encrypted_b9170ee7cce0_iv -in metamath-test.enc \
+#   -out ~\/.ssh/metamath-test -d
+env:
+  global:
+    - ENCRYPTION_LABEL: "b9170ee7cce0"
+    - COMMIT_AUTHOR_EMAIL: "dwheeler@dwheeler.com"
 before_install:
   - gcc --version
   - g++ --version
@@ -32,6 +42,11 @@ before_install:
   - export PATH=$HOME/.local/bin:$PATH
   - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
 install:
+  # Get and compile hmm, a Haskell verifier by Marnix Klooster
+  - darcs get --tag=0.3 http://home.solcon.nl/mklooster/repos/hmm/
+  - cp hmm-support/* hmm/
+  - cd hmm && stack --install-ghc install
+  #
   # Get *just* the metamath C program
   - wget -q -r -np -nd -A .c,.h http://us.metamath.org/metamath/
   # We would need these supporting files to check markup - don't bother.
@@ -45,10 +60,10 @@ install:
   - gcc *.c -O2 -o metamath
   #
   # Get mmj2, a Java verifier (and more) by Mel O'Cat and Mario Carneiro
-  - wget -q http://us.metamath.org/ocat/mmj2/mmj2jar.zip
-  - unzip -q mmj2jar.zip
-  - printf "LoadFile,set.mm\nVerifyProof,*\nParse,*\nRunMacro,definitionCheck,ax-*,df-bi,df-clab,df-cleq,df-clel,df-sbc\n" > RunParms.txt
+  - git clone --depth=1 --recursive https://github.com/digama0/mmj2.git -b develop
   - jdk_switcher use oraclejdk8
+  - cd mmj2 && ant build-jar
+  - cd .. && mv mmj2/mmj2jar/* .
   #
   # Install smetamath-rs (smm3), a Rust verifier by Stefan O'Rear
   # See: https://github.com/sorear/smetamath-rs
@@ -61,9 +76,10 @@ install:
   # Get mmverify.py, a Python verifier by Raph Levien
   - wget -q http://us.metamath.org/downloads/mmverify.py
   #
-  # Get and compile hmm, a Haskell verifier by Marnix Klooster
-  - darcs get --tag=0.3 http://home.solcon.nl/mklooster/repos/hmm/
-  - cp hmm-support/* hmm/
-  - cd hmm && stack --install-ghc install
+  # Get & compile verifier.cs, a C# verifier by Chris Capel
+  # can't get it to compile; get this message:
+  #   error CS1555: Could not find `Verifier' specified for Main method
+  # - wget http://us.metamath.org/downloads/Verifier.cs
+  # - gmcs Verifier.cs -main:Verifier
 script:
-  - ./run-testsuite-all-drivers
+  - bash ./deploy.sh

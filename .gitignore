@@ -32,4 +32,5 @@
 *.dSYM/
 *.su
 
-hmm/
+/bin/
+/hmm/

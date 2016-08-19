@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/david-a-wheeler/metamath-test.svg?branch=master)](https://travis-ci.org/david-a-wheeler/metamath-test)
 
+[Current build results](https://david-a-wheeler.github.io/metamath-test/)
+
 This is metamath-test, a test suite for verifiers implementing
 the metamath specification (see us.metamath.org).
 
@@ -48,10 +50,10 @@ not style or formatting issues.
 
 Currently-supported verifiers:
 * test-metamath: C metamath implementation by Norm Megill
+* test-smetamath: Rust implementation by Stefan O'Rear
 * test-checkmm: C++ implementation by Eric Schmidt
-* test-smetamath: Rust implementation
-* test-mmj2: Java implementation (not invoked, some test failures)
-* test-mmverifypy: Python implementation
+* test-mmj2: Java implementation by Mel O'Cat and Mario Carneiro
+* test-mmverifypy: Python implementation by Raph Levien
 
 This is MIT licensed, but many of the individual tests are licensed
 under the CC0.

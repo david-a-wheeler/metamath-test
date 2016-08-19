@@ -2,9 +2,6 @@
 ./test-hmmverify
 ./test-smetamath
 ./test-checkmm
-#
-# Note - this requires python3:
-./test-mmverifypy
-#
-# mmj2 has trouble with iset.mm and nf.mm
 ./test-mmj2
+# This is slow, so do this later.  Note that it requires python3:
+./test-mmverifypy
