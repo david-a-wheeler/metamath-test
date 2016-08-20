@@ -49,11 +49,12 @@ This testsuite focuses on detecting actual errors in verifying proofs,
 not style or formatting issues.
 
 Currently-supported verifiers:
-* test-metamath: C metamath implementation by Norm Megill
-* test-smetamath: Rust implementation by Stefan O'Rear
-* test-checkmm: C++ implementation by Eric Schmidt
-* test-mmj2: Java implementation by Mel O'Cat and Mario Carneiro
-* test-mmverifypy: Python implementation by Raph Levien
+* metamath: C metamath implementation by Norm Megill
+* hmmverifier: Haskell implementation by Marnix Klooster
+* smetamath: Rust implementation by Stefan O'Rear
+* checkmm: C++ implementation by Eric Schmidt
+* mmj2: Java implementation by Mel O'Cat and Mario Carneiro
+* mmverifypy: Python implementation by Raph Levien
 
 This is MIT licensed, but many of the individual tests are licensed
 under the CC0.
